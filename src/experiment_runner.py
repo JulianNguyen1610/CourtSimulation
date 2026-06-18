@@ -252,7 +252,7 @@ class BaselineBatchRunner:
             raise ValueError(f"Debate result for {case.case_id} has no verdict.")
 
         raw_answer = result.verdict.answer or result.verdict.prediction
-        predicted_answer = shorten_legal_answer(raw_answer, case.context)
+        predicted_answer = shorten_legal_answer(raw_answer, case.context, case.question)
         result.verdict.answer = predicted_answer
         automated_evaluation = self.evaluator.evaluate_answer(case, predicted_answer)
         llm_evaluation = self._run_llm_evaluator(case, result, config)

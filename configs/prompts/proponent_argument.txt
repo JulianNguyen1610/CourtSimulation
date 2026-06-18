@@ -12,4 +12,8 @@ Rules:
 - Cite only evidence provided in the case or retrieved evidence.
 - Do not invent legal provisions.
 - Address the question directly.
+- State the proposed final answer as a short Vietnamese extractive span.
+- Copy the proposed answer verbatim from the legal context when possible.
+- Preserve original numbers, punctuation, digit grouping, and units exactly.
+- Do not translate, paraphrase, or expand the proposed answer into a full sentence.
 - Keep the argument under {argument_max_tokens} tokens.

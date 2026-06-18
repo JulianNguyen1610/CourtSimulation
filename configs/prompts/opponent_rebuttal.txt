@@ -12,4 +12,8 @@ Rules:
 - Respond to the Proponent's latest argument.
 - Do not invent facts or legal provisions.
 - If the Proponent is correct, narrow the claim rather than making a false objection.
+- If you propose an alternative answer, make it a short Vietnamese extractive span.
+- Copy any proposed answer verbatim from the legal context when possible.
+- Preserve original numbers, punctuation, digit grouping, and units exactly.
+- Do not translate, paraphrase, or expand the proposed answer into a full sentence.
 - Keep the rebuttal under {argument_max_tokens} tokens.

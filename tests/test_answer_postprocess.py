@@ -1,0 +1,63 @@
+"""Tests for conservative debate answer post-processing."""
+
+from __future__ import annotations
+
+import unittest
+
+from src.utils.answer_postprocess import shorten_legal_answer
+
+
+class AnswerPostprocessTest(unittest.TestCase):
+    def test_extracts_money_range_without_leading_preposition(self) -> None:
+        answer = (
+            "Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá "
+            "từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo."
+        )
+        context = "trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng"
+
+        self.assertEqual(
+            shorten_legal_answer(answer, context),
+            "100.000.000 đồng đến dưới 500.000.000 đồng",
+        )
+
+    def test_extracts_duration_compound(self) -> None:
+        answer = (
+            "Người sử dụng lao động có trách nhiệm bảo đảm cho người lao động "
+            "được nghỉ tính bình quân 01 tháng ít nhất 04 ngày"
+        )
+        context = "người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày"
+
+        self.assertEqual(shorten_legal_answer(answer, context), "01 tháng ít nhất 04 ngày")
+
+    def test_extracts_context_duration_from_word_number(self) -> None:
+        answer = "sau một tháng kể từ ngày thông báo công khai mà không có người đến nhận"
+        context = "Sau 01 tháng, kể từ ngày thông báo công khai mà không có người đến nhận"
+
+        self.assertEqual(shorten_legal_answer(answer, context), "01 tháng")
+
+    def test_extracts_marker_phrases(self) -> None:
+        self.assertEqual(
+            shorten_legal_answer(
+                "Người chưa thành niên là người chưa đủ mười tám tuổi",
+                "Người chưa thành niên là người chưa đủ mười tám tuổi.",
+            ),
+            "người chưa đủ mười tám tuổi",
+        )
+        self.assertEqual(
+            shorten_legal_answer(
+                "Người lao động được tạm ứng tiền lương theo điều kiện "
+                "do hai bên thỏa thuận và không bị tính lãi",
+                "theo điều kiện do hai bên thỏa thuận",
+            ),
+            "do hai bên thỏa thuận",
+        )
+
+    def test_does_not_cut_multiple_simple_spans(self) -> None:
+        answer = "phạt tù từ 02 năm đến 07 năm theo quy định"
+        context = "bị phạt tù từ 02 năm đến 07 năm"
+
+        self.assertEqual(shorten_legal_answer(answer, context), answer)
+
+
+if __name__ == "__main__":
+    unittest.main()

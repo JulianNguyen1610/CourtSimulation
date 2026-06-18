@@ -14,6 +14,6 @@ Inputs:
 
 Return:
 - Strongest weakness in the Proponent's position
-- Alternative answer or interpretation, if any
+- Alternative answer or interpretation, if any: use a short Vietnamese extractive span copied verbatim from context
 - Evidence needed to support the challenge
 - Strategy for this round

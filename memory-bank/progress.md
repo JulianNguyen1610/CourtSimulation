@@ -14,11 +14,15 @@
 ## Kết Quả Thí Nghiệm
 | Thí nghiệm | Mô tả | Model | Dataset | Kết quả | Ghi chú |
 |---|---|---|---|---|---|
-| Unit tests offline | `python -m unittest discover -s tests` | Mock | Synthetic | **23 tests pass** | Bao gồm Phase 3 courtroom |
+| Unit tests offline | `python -m unittest discover -s tests` | Mock | Synthetic | **28 tests pass** | Bao gồm Phase 3 courtroom + answer postprocess |
 | Phase 3 courtroom smoke | `python -m src.main --run-courtroom --llm mock` | MockLLM | case_01_theft.json | Session hoàn tất | Smoke kỹ thuật |
 | P1 debate smoke | mock batch debate | MockLLM | ALQAC | OK | Phase 1 không bị break |
+| P1 local direct validation | `--method direct --split validation --limit 0` | dolphin3:latest | ALQAC validation 53 | EM=0.2642, F1=0.6802 | Direct baseline thắng rõ |
+| P1 local debate validation | `--method debate --split validation --limit 0 --rounds 1` | dolphin3:latest | ALQAC validation 53 | EM=0.0755, F1=0.3677 | Fallback thấp (0.0094); lỗi over-extraction/paraphrase |
+| P1 local debate after first fix | `--method debate --split validation --limit 10 --rounds 1` | dolphin3:latest | ALQAC validation 10 | EM=0.1000, F1=0.4178 | Vẫn còn over-extraction; đã bổ sung prompt/postprocess lần 2 |
 
 ## Đang Thực Hiện
+- P1 error analysis cho Ollama debate trước khi chạy ablation matrix; chưa claim debate cải thiện so với direct.
 - Validation courtroom pilot bằng LLM thật (Gemini/local).
 - Mapping dataset SimuCourt/VLegal-Bench khi tải HF.
 
@@ -30,6 +34,7 @@
 - [ ] So sánh Phase 1 QA debate vs Phase 3 courtroom LJP trên cùng case adapter.
 
 ## Vấn Đề Đã Biết
+- P1 local debate trên ViLQA có xu hướng trả cả câu điều luật hoặc paraphrase tiếng Anh thay vì span ngắn; prompt và `shorten_legal_answer()` đã được siết nhưng cần re-run validation.
 - `load_simucourt` / `load_vlegal` phụ thuộc HF dataset schema; có thể cần chỉnh field mapping sau khi tải thật.
 - `MockLLM` không phản ánh chất lượng LJP thực tế.
 - Courtroom session gọi cả `render_ljp_verdict` (structured) và `render_verdict` (QA-style) — verdict QA là backward-compat view.

@@ -14,6 +14,7 @@ Inputs:
 
 Return:
 - Key claim
+- Candidate final answer: a short Vietnamese extractive span copied verbatim from context
 - Best supporting legal evidence
 - Anticipated opponent challenge
 - Strategy for this round
