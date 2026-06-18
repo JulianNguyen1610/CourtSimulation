@@ -7,10 +7,20 @@ Inputs:
 - Full debate transcript: {transcript}
 - Belief evolution: {belief_history}
 
+Answer rules (strict):
+- Write the "answer" and "prediction" in Vietnamese only. Do not translate to English.
+- The "answer" must be a short extractive span copied verbatim from the context.
+- Preserve the original numbers, punctuation, digit grouping, and units exactly as
+  they appear in the context (e.g. "100.000.000 đồng", "07 năm", "01 tháng").
+- Do not paraphrase, summarize, explain, or add extra words in the "answer" field.
+- Do not list multiple alternatives; choose the single best span.
+- Put any explanation only in the "reasoning" field, not in "answer".
+- If the context does not support an answer, set "answer" to "Không xác định".
+
 Return valid JSON only:
 {{
   "prediction": "final short answer or label",
-  "answer": "final extractive answer if available",
+  "answer": "final extractive answer copied verbatim from context",
   "confidence": 0-100,
   "reasoning": "concise explanation grounded in the legal context",
   "cited_evidence_ids": []

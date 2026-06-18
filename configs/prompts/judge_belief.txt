@@ -9,6 +9,14 @@ Inputs:
 - Previous belief: {previous_belief}
 - Round: {round_index}
 
+Prediction rules (strict):
+- Write the "prediction" in Vietnamese only. Do not translate to English.
+- The "prediction" must be a short extractive span copied verbatim from the context.
+- Preserve the original numbers, punctuation, digit grouping, and units exactly
+  (e.g. "100.000.000 đồng", "07 năm", "01 tháng").
+- Do not paraphrase, summarize, or add extra words in the "prediction" field.
+- Put any explanation only in the "reasoning" field, not in "prediction".
+
 Return valid JSON only:
 {{
   "prediction": "short answer or label",

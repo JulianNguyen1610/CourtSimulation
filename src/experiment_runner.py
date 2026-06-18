@@ -32,6 +32,7 @@ from src.retrieval.legal_retriever import (
     load_uts_vlc_documents,
 )
 from src.retrieval.reranker import SemanticReranker, SemanticRerankerConfig
+from src.utils.answer_postprocess import shorten_legal_answer
 
 
 SplitName = Literal["train", "validation", "test"]
@@ -250,7 +251,10 @@ class BaselineBatchRunner:
         if result.verdict is None:
             raise ValueError(f"Debate result for {case.case_id} has no verdict.")
 
-        automated_evaluation = self.evaluator.evaluate_verdict(case, result.verdict)
+        raw_answer = result.verdict.answer or result.verdict.prediction
+        predicted_answer = shorten_legal_answer(raw_answer, case.context)
+        result.verdict.answer = predicted_answer
+        automated_evaluation = self.evaluator.evaluate_answer(case, predicted_answer)
         llm_evaluation = self._run_llm_evaluator(case, result, config)
         evaluation = self._merge_evaluations(automated_evaluation, llm_evaluation)
         result.evaluation = evaluation
@@ -282,7 +286,7 @@ class BaselineBatchRunner:
             method="debate",
             question=case.question,
             gold_answer=case.answer or "",
-            predicted_answer=result.verdict.answer or result.verdict.prediction,
+            predicted_answer=predicted_answer,
             exact_match=evaluation.exact_match or 0.0,
             f1=evaluation.f1 or 0.0,
             output_path=str(output_path or evaluation_path),
