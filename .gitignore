@@ -1,0 +1,14 @@
+# Chặn các thư mục theo yêu cầu
+data/
+document/
+workflows/
+templates/
+
+# Chặn thêm các thư mục hệ thống/cá nhân để giữ repo sạch
+.cursor/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Giữ lại các file .yaml (Không chặn configs)
+# Bạn vẫn có thể push thoải mái các file trong configs/ như configs/ollama.yaml
