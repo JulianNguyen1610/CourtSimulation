@@ -352,10 +352,27 @@ class JudgeAgent:
             prediction = self.belief_history[-1].prediction.strip()
             if prediction:
                 return prediction
+        recovered = self._recover_json_field(raw_output)
+        if recovered:
+            return recovered
         parsed_text = self._parse_text_candidate(raw_output)
         if parsed_text:
             return parsed_text
         return extract_candidate_from_context(case)
+
+    @staticmethod
+    def _recover_json_field(raw_output: str) -> str | None:
+        """Recover answer/prediction value from JSON truncated by token limits."""
+
+        for key in ("answer", "prediction"):
+            match = re.search(
+                rf'"{key}"\s*:\s*"((?:[^"\\]|\\.)*)"',
+                raw_output,
+                flags=re.IGNORECASE,
+            )
+            if match and match.group(1).strip():
+                return match.group(1).strip()
+        return None
 
     def _record_fallback(self) -> None:
         self.fallback_count += 1

@@ -124,6 +124,10 @@ def _parse_answer_text(raw_output: str, fallback: str) -> str:
         if isinstance(value, str) and value.strip():
             return value.strip()
 
+    recovered = _recover_json_field(raw_output)
+    if recovered:
+        return recovered
+
     labeled_match = re.search(
         r"(?:answer|final answer|final_answer|consensus|đáp án)\s*[:：]\s*(.+)",
         raw_output,
@@ -133,6 +137,25 @@ def _parse_answer_text(raw_output: str, fallback: str) -> str:
         return labeled_match.group(1).strip().strip('"`')
     cleaned = raw_output.strip().strip('"`')
     return cleaned or fallback
+
+
+def _recover_json_field(raw_output: str) -> str | None:
+    """Recover an answer value from JSON that was truncated by token limits.
+
+    Reasoning models can emit a long ``reasoning`` field that exceeds the output
+    token budget, leaving JSON unterminated so ``json.loads`` fails. We still try
+    to recover the ``answer``/``prediction`` value via a tolerant regex.
+    """
+
+    for key in ("answer", "prediction", "final_answer", "consensus_answer"):
+        match = re.search(
+            rf'"{key}"\s*:\s*"((?:[^"\\]|\\.)*)"',
+            raw_output,
+            flags=re.IGNORECASE,
+        )
+        if match and match.group(1).strip():
+            return match.group(1).strip()
+    return None
 
 
 def _loads_json_or_empty(raw_output: str) -> dict[str, Any]:

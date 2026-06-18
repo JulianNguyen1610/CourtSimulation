@@ -20,6 +20,8 @@
 | P1 local direct validation | `--method direct --split validation --limit 0` | dolphin3:latest | ALQAC validation 53 | EM=0.2642, F1=0.6802 | Direct baseline thắng rõ |
 | P1 local debate validation | `--method debate --split validation --limit 0 --rounds 1` | dolphin3:latest | ALQAC validation 53 | EM=0.0755, F1=0.3677 | Fallback thấp (0.0094); lỗi over-extraction/paraphrase |
 | P1 local debate after first fix | `--method debate --split validation --limit 10 --rounds 1` | dolphin3:latest | ALQAC validation 10 | EM=0.1000, F1=0.4178 | Vẫn còn over-extraction; đã bổ sung prompt/postprocess lần 2 |
+| P1 local both (postprocess đồng đều) | `--method both --split validation --limit 0` | dolphin3:latest | ALQAC validation 53 | direct EM=0.2075/F1=0.6572; debate EM=0.2075/F1=0.5460 | EM ngang, direct F1 cao hơn |
+| **P1 local both (model lớn)** | `--method both --split validation --limit 0 --rounds 1` | qwen3.5:9b | ALQAC validation 53 | **debate EM=0.4717/F1=0.8106 > direct EM=0.0189/F1=0.4034** | Debate thắng lớn; direct sụp do `max_output_tokens=128` (config Linux cũ) cắt JSON |
 
 ## Đang Thực Hiện
 - P1 error analysis cho Ollama debate trước khi chạy ablation matrix; chưa claim debate cải thiện so với direct.
