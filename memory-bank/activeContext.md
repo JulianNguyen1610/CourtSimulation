@@ -7,6 +7,8 @@
 
 ## Thay Đổi Gần Đây
 - **P1 local debate QA fix**: Sau validation `dolphin3:latest`, direct > debate rõ rệt; lỗi chính là debate over-extraction/paraphrase, không phải JSON fallback. Đã siết prompt `judge_belief`, `judge_verdict`, `proponent_argument`, `opponent_rebuttal`, `proponent_strategy`, `opponent_strategy` để bắt answer/prediction là span tiếng Việt trích nguyên văn; thêm `src/utils/answer_postprocess.py` và tích hợp vào `_run_debate` để rút các span legal phổ biến mà không dùng gold answer.
+- **Công bằng hoá so sánh**: `shorten_legal_answer` giờ áp dụng đồng đều cho `direct`, `cot`, `vanilla`, `debate` (trước đây chỉ debate) để loại bias. Thêm pattern tiền "… đồng trở lên". Sửa bug `ollama.yaml` direct `max_output_tokens` 128→256 (gây JSON bị cắt và dump thô ở direct).
+- **Kết quả validation 53 (dolphin3, rounds=1)**: direct EM=0.2642/F1=0.6802 vs debate (sau fix) EM=0.1698/F1=0.5111. Phân loại direct-thắng/debate-thắng/cả-hai-sai = 11/6/33; phần lớn lỗi còn lại là suy luận của model nhỏ, không phải format. Chưa chạy ablation; cần re-run `--method all` sau khi áp postprocess đồng đều và cân nhắc thử Gemini.
 - **Phase 3 agents**: `ProsecutorAgent`, `DefenseAgent`, `DefendantAgent` + `BaseLegalAgent`; `JudgeAgent` mở rộng `open_session`, `deliberate`, `render_ljp_verdict`; `src/agents/compat.py` alias Phase 1.
 - **Courtroom protocol**: `src/courtroom/protocol.py` (opening/debate_round/closing), `src/courtroom/session.py` (lifecycle 3 giai đoạn), `configs/courtroom.yaml`.
 - **Data model**: `CourtCase`, `EvidenceItem`, `Testimony`, `JudgmentGroundTruth`, `LegalJudgment`, `CourtroomResult`, `LJPEvalResult` trong `src/models.py`.

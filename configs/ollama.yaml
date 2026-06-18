@@ -67,7 +67,7 @@ llm:
       backend: local
       model: dolphin3:latest
       temperature: 0.1
-      max_output_tokens: 128
+      max_output_tokens: 256
     cot:
       backend: local
       model: dolphin3:latest

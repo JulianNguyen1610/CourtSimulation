@@ -28,6 +28,8 @@ _COMBINED_SPAN_RE = re.compile("|".join(_LEGAL_SPAN_PATTERNS), flags=re.IGNORECA
 _COMPOUND_SPAN_PATTERNS = [
     # Money ranges: "100.000.000 đồng đến dưới 500.000.000 đồng".
     r"(?:từ\s+)?\d{1,3}(?:[.,]\d{3})*\s*đồng\s+đến\s+(?:dưới\s+)?\d{1,3}(?:[.,]\d{3})*\s*đồng",
+    # Money lower bound: "2.000.000.000 đồng trở lên".
+    r"\d{1,3}(?:[.,]\d{3})*\s*đồng\s+trở\s+lên",
     # Duration compounds: "01 tháng ít nhất 04 ngày".
     r"\d{1,3}\s*tháng\s+ít\s+nhất\s+\d{1,3}\s*ngày",
     # Penalty ranges with alternatives.

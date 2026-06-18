@@ -52,6 +52,15 @@ class AnswerPostprocessTest(unittest.TestCase):
             "do hai bên thỏa thuận",
         )
 
+    def test_extracts_money_lower_bound(self) -> None:
+        answer = (
+            "Người làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán "
+            "thu lợi bất chính từ 2.000.000.000 đồng trở lên sẽ bị phạt tù từ 02 năm đến 07 năm"
+        )
+        context = "thu lợi bất chính từ 2.000.000.000 đồng trở lên"
+
+        self.assertEqual(shorten_legal_answer(answer, context), "2.000.000.000 đồng trở lên")
+
     def test_does_not_cut_multiple_simple_spans(self) -> None:
         answer = "phạt tù từ 02 năm đến 07 năm theo quy định"
         context = "bị phạt tù từ 02 năm đến 07 năm"

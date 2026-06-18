@@ -172,7 +172,11 @@ class BaselineBatchRunner:
         case: CaseProfile,
         config: BatchRunConfig,
     ) -> PredictionRecord:
-        predicted_answer = direct_llm_prediction(case, self._client_for("direct"))
+        predicted_answer = shorten_legal_answer(
+            direct_llm_prediction(case, self._client_for("direct")),
+            case.context,
+            case.question,
+        )
         evaluation = self.evaluator.evaluate_answer(case, predicted_answer)
         return PredictionRecord(
             case_id=case.case_id,
@@ -186,7 +190,11 @@ class BaselineBatchRunner:
         )
 
     def _run_cot(self, case: CaseProfile, config: BatchRunConfig) -> PredictionRecord:
-        predicted_answer = cot_llm_prediction(case, self._client_for("cot"))
+        predicted_answer = shorten_legal_answer(
+            cot_llm_prediction(case, self._client_for("cot")),
+            case.context,
+            case.question,
+        )
         evaluation = self.evaluator.evaluate_answer(case, predicted_answer)
         return PredictionRecord(
             case_id=case.case_id,
@@ -204,10 +212,14 @@ class BaselineBatchRunner:
         case: CaseProfile,
         config: BatchRunConfig,
     ) -> PredictionRecord:
-        predicted_answer = vanilla_debate_prediction(
-            case,
-            self._client_for("vanilla"),
-            rounds=config.rounds,
+        predicted_answer = shorten_legal_answer(
+            vanilla_debate_prediction(
+                case,
+                self._client_for("vanilla"),
+                rounds=config.rounds,
+            ),
+            case.context,
+            case.question,
         )
         evaluation = self.evaluator.evaluate_answer(case, predicted_answer)
         return PredictionRecord(
