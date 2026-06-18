@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-450",
+    "case_type": "legal_qa",
+    "context": "Căn cứ xác lập quyền dân sự\n\nQuyền dân sự được xác lập từ các căn cứ sau đây:\n\n1. Hợp đồng.\n\n2. Hành vi pháp lý đơn phương.\n\n3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.\n\n4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.\n\n5. Chiếm hữu tài sản.\n\n6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.\n\n7. Bị thiệt hại do hành vi trái pháp luật.\n\n8. Thực hiện công việc không có ủy quyền.\n\n9. Căn cứ khác do pháp luật quy định.",
+    "question": "Theo Bộ luật dân sự 2015, hãy liệt kê 9 căn cứ xác lập nên Quyền dân sự.",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 450
+    }
+  },
+  "result": {
+    "case_id": "vilqa-450",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-475-context",
+        "text": "Hạn chế năng lực hành vi dân sự\n\n1. Người nghiện ma túy, nghiện các chất kích thích khác dẫn đến phá tán tài sản của gia đình thì theo yêu cầu của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án có thể ra quyết định tuyên bố người này là người bị hạn chế năng lực hành vi dân sự.\n\nTòa án quyết định người đại diện theo pháp luật của người bị hạn chế năng lực hành vi dân sự và phạm vi đại diện.\n\n2. Việc xác lập, thực hiện giao dịch dân sự liên quan đến tài sản của người bị Tòa án tuyên bố hạn chế năng lực hành vi dân sự phải có sự đồng ý của người đại diện theo pháp luật, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc luật liên quan có quy định khác.\n\n3. Khi không còn căn cứ tuyên bố một người bị hạn chế năng lực hành vi dân sự thì theo yêu cầu của chính người đó hoặc của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định hủy bỏ quyết định tuyên bố hạn chế năng lực hành vi dân sự.",
+        "source": "vilqa_context",
+        "score": 129.58938211699623,
+        "metadata": {
+          "case_id": "vilqa-475",
+          "question": "Theo Điều 24, Bộ luật dân sự 2015, công dân bị hạn chế năng lực hành vi dân sự khi nào?",
+          "row_index": 475,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-474-context",
+        "text": "Mất năng lực hành vi dân sự\n\n1. Khi một người do bị bệnh tâm thần hoặc mắc bệnh khác mà không thể nhận thức, làm chủ được hành vi thì theo yêu cầu của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định tuyên bố người này là người mất năng lực hành vi dân sự trên cơ sở kết luận giám định pháp y tâm thần.\n\nKhi không còn căn cứ tuyên bố một người mất năng lực hành vi dân sự thì theo yêu cầu của chính người đó hoặc của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định hủy bỏ quyết định tuyên bố mất năng lực hành vi dân sự.\n\n2. Giao dịch dân sự của người mất năng lực hành vi dân sự phải do người đại diện theo pháp luật xác lập, thực hiện.",
+        "source": "vilqa_context",
+        "score": 127.99077114174518,
+        "metadata": {
+          "case_id": "vilqa-474",
+          "question": "Theo Điều 22, Bộ luật dân sự 2015, giao dịch dân sự của người mất năng lực hành vi dân sự phải do ai xác lập, thực hiện?",
+          "row_index": 474,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-454-context",
+        "text": "Giới hạn việc thực hiện quyền dân sự\n\n1. Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.\n\n2. Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều này thì Tòa án hoặc cơ quan có thẩm quyền khác căn cứ vào tính chất, hậu quả của hành vi vi phạm mà có thể không bảo vệ một phần hoặc toàn bộ quyền của họ, buộc bồi thường nếu gây thiệt hại và có thể áp dụng chế tài khác do luật quy định.",
+        "source": "vilqa_context",
+        "score": 123.48735649629741,
+        "metadata": {
+          "case_id": "vilqa-454",
+          "question": "Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, thì Toà án hoặc cơ quan có thẩm quyền khác có thể?",
+          "row_index": 454,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-212-context",
+        "text": "Xác lập quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ\n\nNgười lao động, người tiến hành hoạt động sản xuất, kinh doanh hợp pháp có quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, kể từ thời điểm có được tài sản đó.\n\nNgười tiến hành hoạt động sáng tạo có quyền sở hữu đối với tài sản có được từ hoạt động sáng tạo theo quy định của Luật sở hữu trí tuệ.",
+        "source": "vilqa_context",
+        "score": 118.3356161091569,
+        "metadata": {
+          "case_id": "vilqa-212",
+          "question": "Người lao động hợp pháp có quyền sở hữu đối với tài sản có được từ lao động kể từ thời điểm nào?",
+          "row_index": 212,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-213-context",
+        "text": "Xác lập quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ\n\nNgười lao động, người tiến hành hoạt động sản xuất, kinh doanh hợp pháp có quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, kể từ thời điểm có được tài sản đó.\n\nNgười tiến hành hoạt động sáng tạo có quyền sở hữu đối với tài sản có được từ hoạt động sáng tạo theo quy định của Luật sở hữu trí tuệ.",
+        "source": "vilqa_context",
+        "score": 118.3356161091569,
+        "metadata": {
+          "case_id": "vilqa-213",
+          "question": "Người tiến hành hoạt động sản xuất hợp pháp có quyền sở hữu đối với tài sản có được từ hoạt động sản xuất hợp pháp kể từ thời điểm nào?",
+          "row_index": 213,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: The nine bases for establishing civil rights in the Civil Code of Vietnam are as follows:\n\n1. Contract.\n2. Unilateral legal act.\n3. Decision of a court or other competent authority, as provided by law.\n4. Results of labor, production, business; results of creative activities generating intellectual property objects.\n5. Possession of property.\n6. Use of property or gain from property without legal basis.\n7. Loss caused by unlawful acts.\n8. Performance of an unassigned task.\n9. Other bases as provided by law.\n\nBest supporting legal evidence: According to the context provided in the case profile, these are indeed the nine bases for establishing civil rights in Vietnam's Civil Code.\n\nAnticipated opponent challenge: The opponent may argue that there is another base not listed here or may question the accuracy of the sources.\n\nStrategy for this round: I will focus on explaining each base clearly and concisely to support my claim. Additionally, I will emphasize the relevance of",
+        "public_argument": "In Vietnam's Civil Code, there are nine bases for establishing civil rights. These include:\n\n1. Contract: Rights arise from agreements between parties.\n2. Unilateral Legal Act: Acts by one party can create rights.\n3. Court Decision or Competent Authority: Judgments and decisions establish rights.\n4. Labor, Production, Business Results; Creative Activities: Results of work and creativity grant rights.\n5. Property Possession: Controlling property creates rights.\n6. Property Use/Gain Without Legal Basis: Unauthorized use or gain leads to rights establishment.\n7. Loss from Unlawful Acts: Harm caused by unlawful actions grants rights.\n8. Unassigned Task Completion: Performing tasks without authorization creates rights.\n9. Other Law-Provided Bases: Additional grounds are specified in the Civil Code.\n\nThese bases ensure fair and clear establishment of civil rights as per Vietnamese law.",
+        "evidence_ids": [
+          "vilqa-475-context",
+          "vilqa-474-context",
+          "vilqa-454-context",
+          "vilqa-212-context",
+          "vilqa-213-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weaknesses in the Proponent's Position:\n\nThe proponent has listed nine bases for establishing civil rights according to Vietnam's Civil Code. However, they have not considered other potential legal sources that may impact these rights.\n\nAlternative Answer or Interpretation:\n\nIt is essential to consider all possible legal sources when discussing the establishment of civil rights. The proponent should be prepared to discuss additional bases beyond the listed nine if challenged by the opponent.\n\nEvidence Needed to Support the Challenge:\n\nTo support this challenge, the opponent could provide examples of other legal sources that may impact civil rights in Vietnam, such as constitutional provisions or international treaties.\n\nStrategy for This Round:\n\nIn this round, I will emphasize the importance of considering all possible legal sources when discussing the establishment of civil rights. Additionally, I will request clarification from the proponent regarding their position on whether there are any other bases beyond the listed nine that may impact civil rights in Vietnam.",
+        "public_argument": "The proponent has listed nine bases for establishing civil rights according to Vietnam's Civil Code. However, they have not considered other potential legal sources that may impact these rights.\n\nI agree with the proponent that there are indeed nine bases in the Civil Code of Vietnam for establishing civil rights. Nonetheless, it is crucial to acknowledge that these bases might not be exhaustive. The law can evolve and adapt to changing circumstances, potentially leading to additional grounds for establishing civil rights beyond what is currently outlined in the Civil Code.\n\nTo support this argument, I would like to refer to the principle of dynamic interpretation in legal studies. This principle posits that laws should be interpreted flexibly to accommodate new situations and contexts not envisioned by lawmakers at the time of drafting legislation. Consequently, it cannot be ruled out that other bases for establishing civil rights may emerge.\n\nMoreover, international treaties and constitutional provisions could also impact the establishment of civil rights in Vietnam. For instance, if a treaty is ratified and becomes part of Vietnamese law, its",
+        "evidence_ids": [
+          "vilqa-475-context",
+          "vilqa-474-context",
+          "vilqa-454-context",
+          "vilqa-212-context",
+          "vilqa-213-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "The proponent has correctly listed nine bases for establishing civil rights according to Vietnam's Civil Code.",
+        "confidence": 80.0,
+        "reasoning": "The proponent has accurately identified the nine bases mentioned in the provided context from the Vietnamese Civil Code, including contract, unilateral legal acts, court decisions or competent authority, results of labor, production, business; results of activities creating intellectual property objects, possession of assets, use of assets, benefits from assets without legal basis, damage caused by unlawful acts, and performance of uncommissioned tasks. The opponent's argument is not specific enough to contradict the proponent's list."
+      }
+    ],
+    "verdict": {
+      "prediction": "The nine bases for establishing civil rights according to Vietnam's Civil Code are as follows: Contract, Unilateral Legal Act, Court Decision or Competent Authority, Results of Labor, Production, Business; Results of Activities Creating Intellectual Property Objects, Possession of Assets, Use of Assets or Gain from Assets Without Legal Basis, Loss Caused by Unlawful Acts, Performance of an Unassigned Task.",
+      "answer": "The nine bases for establishing civil rights according to Vietnam's Civil Code are as follows: Contract, Unilateral Legal Act, Court Decision or Competent Authority, Results of Labor, Production, Business; Results of Activities Creating Intellectual Property Objects, Possession of Assets, Use of Assets or Gain from Assets Without Legal Basis, Loss Caused by Unlawful Acts, Performance of an Unassigned Task.",
+      "confidence": 80.0,
+      "reasoning": "The proponent has accurately identified the nine bases mentioned in the provided context from the Vietnamese Civil Code. The opponent's argument is not specific enough to contradict the proponent's list.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-17T19:37:32.905771+00:00"
+  }
+}

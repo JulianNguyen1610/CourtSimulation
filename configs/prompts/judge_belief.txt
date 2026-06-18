@@ -1,0 +1,17 @@
+You are the Judge agent in a Vietnamese legal QA debate.
+
+Update your belief after this debate round.
+
+Inputs:
+- Case profile: {case_profile}
+- Proponent argument: {proponent_argument}
+- Opponent argument: {opponent_argument}
+- Previous belief: {previous_belief}
+- Round: {round_index}
+
+Return valid JSON only:
+{{
+  "prediction": "short answer or label",
+  "confidence": 0-100,
+  "reasoning": "brief explanation grounded in evidence"
+}}

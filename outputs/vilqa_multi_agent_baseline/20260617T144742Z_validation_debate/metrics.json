@@ -1,0 +1,95 @@
+{
+  "split": "validation",
+  "method": "debate",
+  "num_cases": 3,
+  "num_predictions": 3,
+  "models_by_method": {
+    "direct": {
+      "backend": "local",
+      "model": "dolphin3:latest",
+      "temperature": 0.1,
+      "max_output_tokens": 128,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "cot": {
+      "backend": "local",
+      "model": "dolphin3:latest",
+      "temperature": 0.1,
+      "max_output_tokens": 256,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "vanilla": {
+      "backend": "local",
+      "model": "dolphin3:latest",
+      "temperature": 0.3,
+      "max_output_tokens": 256,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "debate": {
+      "proponent": {
+        "backend": "local",
+        "model": "dolphin3:latest",
+        "temperature": 0.4,
+        "max_output_tokens": 200,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      },
+      "opponent": {
+        "backend": "local",
+        "model": "dolphin3:latest",
+        "temperature": 0.4,
+        "max_output_tokens": 200,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      },
+      "judge": {
+        "backend": "local",
+        "model": "dolphin3:latest",
+        "temperature": 0.1,
+        "max_output_tokens": 256,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      }
+    },
+    "extractive_qa": {
+      "model": "deepset/xlm-roberta-base-squad2"
+    },
+    "bm25_reader": {
+      "retriever": "lightweight_bm25",
+      "reader": "deepset/xlm-roberta-base-squad2"
+    }
+  },
+  "ablation_settings": {
+    "retrieval": "bm25_only",
+    "memory": false,
+    "memory_retrieval": "lexical",
+    "rounds": 1,
+    "judge": "on",
+    "roles": "proponent-opponent",
+    "closing_statements": false,
+    "judge_question": false,
+    "early_stop_confidence": null
+  },
+  "fallbacks": {
+    "total_fallbacks": 0,
+    "total_parse_attempts": 6,
+    "fallback_rate": 0.0,
+    "by_method": {
+      "debate": {
+        "fallbacks": 0,
+        "parse_attempts": 6,
+        "fallback_rate": 0.0
+      }
+    }
+  },
+  "metrics_by_method": {
+    "debate": {
+      "num_predictions": 3,
+      "exact_match": 0.0,
+      "f1": 0.48575498575498577
+    }
+  }
+}

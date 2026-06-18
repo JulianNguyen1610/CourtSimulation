@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-359",
+    "case_type": "legal_qa",
+    "context": "Tội đào nhiệm\n\n1. Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm:\n\na) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 31% trở lên;\n\nb) Gây thiệt hại về tài sản từ 300.000.000 đồng đến dưới 1.000.000.000 đồng;\n\nc) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Làm chết người;\n\nb) Lôi kéo người khác đào nhiệm;\n\nc) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên;\n\nd) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong những trường hợp khó khăn đặc biệt khác của xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+    "question": "Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong trường hợp khó khăn đặc biệt khác của xã hội thì bị phạt tù tối đa bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 359
+    }
+  },
+  "result": {
+    "case_id": "vilqa-359",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-356-context",
+        "text": "Tội đào nhiệm\n\n1. Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm:\n\na) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 31% trở lên;\n\nb) Gây thiệt hại về tài sản từ 300.000.000 đồng đến dưới 1.000.000.000 đồng;\n\nc) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Làm chết người;\n\nb) Lôi kéo người khác đào nhiệm;\n\nc) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên;\n\nd) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong những trường hợp khó khăn đặc biệt khác của xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 472.5778150596734,
+        "metadata": {
+          "case_id": "vilqa-356",
+          "question": "Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác gây hậu quả nghiêm trọng, thì bị phạt như thế nào?",
+          "row_index": 356,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-358-context",
+        "text": "Tội đào nhiệm\n\n1. Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm:\n\na) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 31% trở lên;\n\nb) Gây thiệt hại về tài sản từ 300.000.000 đồng đến dưới 1.000.000.000 đồng;\n\nc) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Làm chết người;\n\nb) Lôi kéo người khác đào nhiệm;\n\nc) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên;\n\nd) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong những trường hợp khó khăn đặc biệt khác của xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 472.5778150596734,
+        "metadata": {
+          "case_id": "vilqa-358",
+          "question": "Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác và lôi kéo người khác đào nhiệm thì bị phạt như thế nào?",
+          "row_index": 358,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-37-context",
+        "text": "Tội phá thai trái phép\n\n1. Người nào thực hiện việc phá thai trái phép cho người khác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc bị phạt tù từ 01 năm đến 03 năm:\n\na) Làm chết 01 người hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Đã bị xử lý kỷ luật, xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên.\n\n4. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.\n\nÐiều 317. Tội vi phạm quy định về vệ sinh an toàn thực phẩm\n\n1. Người nào thực hiện một trong các hành vi sau đây vi phạm các quy định về an toàn thực phẩm, thì bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Sử dụng chất cấm trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm hoặc bán, cung cấp thực phẩm mà biết rõ là thực phẩm có sử dụng chất cấm;\n\nb) Sử dụng hóa chất, kháng sinh, thuốc thú y, thuốc bảo vệ thực vật cấm sử dụng trong trồng trọt, chăn nuôi, nuôi trồng thủy sản, làm muối, sơ chế, chế biến, bảo quản nông, lâm, thủy sản và muối tạo ra dư lượng vượt ngưỡng cho phép trong sản phẩm;\n\nc) Sử dụng các loại hóa chất, kháng sinh, thuốc thú y, thuốc bảo vệ thực vật, chất xử lý cải tạo môi trường ngoài danh mục được phép sử dụng hoặc không rõ nguồn gốc xuất xứ hoặc không đúng quy định trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm trong trồng trọt, chăn nuôi, nuôi trồng thủy sản, làm muối tạo ra dư lượng vượt ngưỡng cho phép trong sản phẩm hoặc đã bị xử phạt vi phạm hành chính về một trong các hành vi tại điểm này hoặc điểm a khoản này mà còn vi phạm;\n\nd) Chế biến, cung cấp hoặc bán thực phẩm mà biết rõ là thực phẩm không bảo đảm quy chuẩn kỹ thuật, quy định về an toàn thực phẩm; sử dụng hóa chất, phụ gia, chất hỗ trợ chế biến ngoài danh mục được phép sử dụng hoặc không rõ nguồn gốc xuất xứ trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm: gây tổn hại cho sức khỏe của 01 người mà tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60% hoặc thu lợi bất chính từ 50.000.000 đồng đến 100.000.000 đồng.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 200.000.000 đồng đến 500.000.000 đồng hoặc phạt tù 03 năm đến 07 năm:\n\na) Phạm tội có tổ chức;\n\nb) Làm chết 01 người hoặc gây tổn hại sức khỏe cho 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nd) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%.\n\nđ) Thu lợi bất chính từ 100.000.000 đồng đến dưới 500.000.000 đồng;\n\ne) Phạm tội 02 lần trở lên;\n\ng) Tái phạm nguy hiểm.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Làm chết 02 người;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Thu lợi bất chính từ 500.000.000 đồng đến dưới 1.000.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 12 năm đến 20 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây tổn hại cho sức khỏe của 03 người trở lên với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Thu lợi bất chính 1.000.000.000 đồng trở lên.\n\n5. Người phạm tội còn có thể bị phạt tiền từ 20.000.000 đồng đến 100.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 310.05796822221674,
+        "metadata": {
+          "case_id": "vilqa-37",
+          "question": "Người thực hiện việc phá thai trái phép cho người khác dẫn đến làm chết 03 người trở lên thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 37,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-339-context",
+        "text": "Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000 đồng đến 500.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Làm chết 01 người hoặc gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 500.000.000 đồng đến 1.500.000.000 đồng hoặc bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 1.500.000.000 đồng đến 3.000.000.000 đồng hoặc bị phạt tù từ 05 năm đến 12 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên.\n\n5. Người điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60%, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.",
+        "source": "vilqa_context",
+        "score": 304.5990087253093,
+        "metadata": {
+          "case_id": "vilqa-339",
+          "question": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tù như thế nào?",
+          "row_index": 339,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-337-context",
+        "text": "Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000 đồng đến 500.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Làm chết 01 người hoặc gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 500.000.000 đồng đến 1.500.000.000 đồng hoặc bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 1.500.000.000 đồng đến 3.000.000.000 đồng hoặc bị phạt tù từ 05 năm đến 12 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên.\n\n5. Người điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60%, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.",
+        "source": "vilqa_context",
+        "score": 304.5990087253093,
+        "metadata": {
+          "case_id": "vilqa-337",
+          "question": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tiền tối đa bao nhiêu?",
+          "row_index": 337,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim:\nCán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong trường hợp khó khăn đặc biệt khác của xã hội thì bị phạt tù tối đa 07 năm.\n\nBest Supporting Legal Evidence:\n- Case profile: The provided case profile outlines the penalties for \"tội đào nhiệm\" (crime of desertion), including a maximum penalty of 7 years in prison for certain circumstances.\n- Retrieved legal evidence: The retrieved legal evidence also refers to the crime of desertion and its associated penalties, which include up to 7 years in prison for specific cases.\n\nAnticipated Opponent Challenge:\nThe opponent may argue that there is no specific mention of a 7-year maximum penalty for desertion in the context of war, natural disasters, or other societal difficulties. They might claim that the maximum penalty applies only to more severe cases.\n\nStrategy for this Round:\nIn this round, I will focus",
+        "public_argument": "The maximum penalty for a can bộ, công chức, viên chức who intentionally abandon their duty during war, natural disasters, or other societal difficulties is 7 years in prison. This is supported by both the case profile and retrieved legal evidence, which clearly outline this penalty for specific cases of desertion. The opponent's challenge regarding the lack of specificity may be addressed by emphasizing that the maximum penalty applies to these exceptional circumstances.",
+        "evidence_ids": [
+          "vilqa-356-context",
+          "vilqa-358-context",
+          "vilqa-37-context",
+          "vilqa-339-context",
+          "vilqa-337-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\nThe Proponent's claim that a can bộ, công chức, viên chức who intentionally abandon their duty during war, natural disasters, or other societal difficulties is subject to a maximum penalty of 7 years in prison may be challenged based on the lack of explicit mention of this specific penalty in the provided context and evidence. The opponent could argue that the maximum penalty applies only to more severe cases, potentially weakening the Proponent's position.\n\nAlternative answer or interpretation:\nThere is no clear indication that the maximum penalty of 7 years in prison specifically applies to can bộ, công chức, viên chức who intentionally abandon their duty during war, natural disasters, or other societal difficulties. The opponent could argue that the maximum penalty may apply only to more severe cases, and therefore, a different interpretation or supporting evidence is needed.\n\nEvidence needed to support the challenge:\nTo strengthen the challenge against the Proponent's position, additional legal evidence or case profiles that explicitly state the",
+        "public_argument": "The Proponent's claim that a can bộ, công chức, viên chức intentionally abandoning their duty during war, natural disasters, or societal difficulties faces a maximum penalty of 7 years in prison lacks explicit evidence. The context provided does not specifically mention this penalty for these particular circumstances. Instead, the maximum penalty may apply to more severe cases.",
+        "evidence_ids": [
+          "vilqa-356-context",
+          "vilqa-358-context",
+          "vilqa-37-context",
+          "vilqa-339-context",
+          "vilqa-337-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "7 years",
+        "confidence": 80.0,
+        "reasoning": "Based on the case profile, which clearly outlines that a can bộ, công chức, viên chức intentionally abandoning their duty during war, natural disasters, or societal difficulties faces a maximum penalty of 7 years in prison. The proponent argument also supports this claim with legal evidence."
+      }
+    ],
+    "verdict": {
+      "prediction": "7 years",
+      "answer": "7 years",
+      "confidence": 80.0,
+      "reasoning": "Based on the case profile, which clearly outlines that a can bộ, công chức, viên chức intentionally abandoning their duty during war, natural disasters, or societal difficulties faces a maximum penalty of 7 years in prison. The proponent argument also supports this claim with legal evidence.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-17T20:54:17.587843+00:00"
+  }
+}

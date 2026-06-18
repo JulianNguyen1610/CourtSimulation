@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-138",
+    "case_type": "legal_qa",
+    "context": "Nghỉ hằng tuần\n\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\n\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định tại khoản 1 Điều 112 của Bộ luật này thì người lao động được nghỉ bù ngày nghỉ hằng tuần vào ngày làm việc kế tiếp.",
+    "question": "Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động phải bố trí ngày nghỉ ra sao?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 138
+    }
+  },
+  "result": {
+    "case_id": "vilqa-138",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-139-context",
+        "text": "Nghỉ hằng tuần\n\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\n\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định tại khoản 1 Điều 112 của Bộ luật này thì người lao động được nghỉ bù ngày nghỉ hằng tuần vào ngày làm việc kế tiếp.",
+        "source": "vilqa_context",
+        "score": 476.4014751437654,
+        "metadata": {
+          "case_id": "vilqa-139",
+          "question": "Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết thì người lao động sẽ được nghỉ như thế nào?",
+          "row_index": 139,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-143-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 256.956780773396,
+        "metadata": {
+          "case_id": "vilqa-143",
+          "question": "Người lao động có thể thỏa thuận nghỉ hằng năm như thế nào?",
+          "row_index": 143,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-141-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 256.956780773396,
+        "metadata": {
+          "case_id": "vilqa-141",
+          "question": "Đối với người làm việc trong môi trường độc hại thì hằng năm được nghỉ bao nhiêu ngày?",
+          "row_index": 141,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-140-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 256.956780773396,
+        "metadata": {
+          "case_id": "vilqa-140",
+          "question": "Đôi với người lao động trong đièu kiện bình thường thì được nghỉ bao lâu 1 năm?",
+          "row_index": 140,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-127-context",
+        "text": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứng tiền lương.\n\n3. Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.",
+        "source": "vilqa_context",
+        "score": 247.1222363760658,
+        "metadata": {
+          "case_id": "vilqa-127",
+          "question": "Người lao động trong điều kiện nào thì không được tạm ứng tiền lương?",
+          "row_index": 127,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: If the worker's work cycle cannot accommodate a weekly rest period, the employer is responsible for ensuring that they receive at least four days of rest per month.\n\nBest Supporting Legal Evidence: The case profile states, \"Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\" This translates to, \"In the special case where the work cycle cannot accommodate a weekly rest period, the employer is responsible for ensuring that the worker receives at least four days of rest per month.\"\n\nAnticipated Opponent Challenge: The opponent may argue that this regulation only applies in exceptional circumstances and not all workers fall under these conditions.\n\nStrategy for This Round: In this round, I will focus on the key claim and supporting evidence provided. I will emphasize the importance of ensuring that workers receive adequate rest time as stipulated by law, especially when their",
+        "public_argument": "In this debate, we are discussing the responsibility of employers towards workers whose work cycles cannot accommodate a weekly rest period. The key claim is that employers must ensure these workers receive at least four days of rest per month.\n\nThe case profile clearly states that in such special cases where the work cycle doesn't allow for a weekly rest, \"người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\" This means employers have a legal obligation to provide adequate rest time.\n\nThe opponent may argue that this regulation applies only in exceptional circumstances. However, the law does not specify these cases as \"exceptional\" but rather outlines the general requirement for employers to ensure four days of rest per month. Thus, it is the employer's responsibility to accommodate workers' needs within the framework of the law.",
+        "evidence_ids": [
+          "vilqa-139-context",
+          "vilqa-143-context",
+          "vilqa-141-context",
+          "vilqa-140-context",
+          "vilqa-127-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weakest point in the Proponent's argument: The Proponent assumes that all workers are entitled to at least four days of rest per month regardless of their work cycle. However, there may be some exceptional cases where a worker's work cycle can accommodate more than 24 hours of continuous rest during the week, making the four-day monthly rest requirement unnecessary.\n\nAlternative answer or interpretation: In such special cases where a worker's work cycle already allows for at least 24 hours of continuous rest during the week, it may not be necessary to ensure that they receive at least four days of rest per month. The focus should then shift to ensuring that workers are given adequate breaks and rest time within their weekly work schedule.\n\nEvidence needed to support the challenge: To strengthen this argument, it would be helpful to have specific examples or case studies demonstrating instances where a worker's work cycle already allows for more than 24 hours of continuous rest during the week. Additionally, data on the prevalence of such cases could provide further",
+        "public_argument": "I understand your point that in special cases where a worker's work cycle already allows for more than 24 hours of continuous rest during the week, it may not be necessary to ensure they receive at least four days of rest per month. However, this interpretation could lead to inconsistent application of the law and potentially undermine workers' rights to adequate rest time.\n\nMoreover, the case profile clearly states that in such special cases, employers are still responsible for ensuring workers receive at least four days of rest per month. This regulation aims to protect workers' well-being and ensure they have sufficient rest time regardless of their work cycle.\n\nTo support this argument, we can refer to evidence such as studies showing the importance of adequate rest time for worker health and productivity. Additionally, examples of industries or job roles where employees often work irregular schedules could demonstrate the need for consistent application of the four-day monthly rest requirement.\n\nIn conclusion, while it may be true that some workers' work cycles already allow for more than 24 hours of",
+        "evidence_ids": [
+          "vilqa-139-context",
+          "vilqa-143-context",
+          "vilqa-141-context",
+          "vilqa-140-context",
+          "vilqa-127-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "The employer must ensure that the worker receives at least four days of rest per month.",
+        "confidence": 80.0,
+        "reasoning": "According to the case profile, if a worker's work cycle cannot accommodate a weekly rest period, the employer is responsible for arranging at least four days of rest within a month. The opponent's argument about inconsistent application does not negate this responsibility."
+      }
+    ],
+    "verdict": {
+      "prediction": "The employer must ensure that the worker receives at least four days of rest per month.",
+      "answer": "The employer must ensure that the worker receives at least four days of rest per month.",
+      "confidence": 80.0,
+      "reasoning": "According to the case profile, if a worker's work cycle cannot accommodate a weekly rest period, the employer is responsible for arranging at least four days of rest within a month. The opponent's argument about inconsistent application does not negate this responsibility.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-17T17:57:08.306822+00:00"
+  }
+}

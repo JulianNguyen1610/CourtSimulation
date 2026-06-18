@@ -1,0 +1,13 @@
+{
+  "split_name": "validation",
+  "method": "both",
+  "limit": 3,
+  "resolved_num_cases": 3,
+  "rounds": 1,
+  "evidence_top_k": 3,
+  "memory_top_k": 5,
+  "output_dir": "outputs\\vilqa_multi_agent_baseline",
+  "memory_path": "memory-bank\\baseline_memory.json",
+  "update_memory": false,
+  "save_debate_artifacts": false
+}

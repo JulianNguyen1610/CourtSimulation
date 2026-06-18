@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-476",
+    "case_type": "legal_qa",
+    "context": "Quyền nhân thân\n\n1. Quyền nhân thân được quy định trong Bộ luật này là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.\n\n2. Việc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi phải được người đại diện theo pháp luật của người này đồng ý theo quy định của Bộ luật này, luật khác có liên quan hoặc theo quyết định của Tòa án.\n\nViệc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người bị tuyên bố mất tích, người đã chết phải được sự đồng ý của vợ, chồng hoặc con thành niên của người đó; trường hợp không có những người này thì phải được sự đồng ý của cha, mẹ của người bị tuyên bố mất tích, người đã chết, trừ trường hợp Bộ luật này, luật khác có liên quan quy định khác.",
+    "question": "Theo Điều 25, Bộ luật dân sự 2015, quyền nhân thân là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 476
+    }
+  },
+  "result": {
+    "case_id": "vilqa-476",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-477-context",
+        "text": "Quyền nhân thân\n\n1. Quyền nhân thân được quy định trong Bộ luật này là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.\n\n2. Việc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi phải được người đại diện theo pháp luật của người này đồng ý theo quy định của Bộ luật này, luật khác có liên quan hoặc theo quyết định của Tòa án.\n\nViệc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người bị tuyên bố mất tích, người đã chết phải được sự đồng ý của vợ, chồng hoặc con thành niên của người đó; trường hợp không có những người này thì phải được sự đồng ý của cha, mẹ của người bị tuyên bố mất tích, người đã chết, trừ trường hợp Bộ luật này, luật khác có liên quan quy định khác.",
+        "source": "vilqa_context",
+        "score": 355.40193024536876,
+        "metadata": {
+          "case_id": "vilqa-477",
+          "question": "Theo Điều 25, Bộ luật dân sự 2015, việc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người bị tuyên bố mất tích, người đã chết phải được sự đồng ý của ai?",
+          "row_index": 477,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-487-context",
+        "text": "Quyền sống, quyền được bảo đảm an toàn về tính mạng, sức khỏe, thân thể\n\n1. Cá nhân có quyền sống, quyền bất khả xâm phạm về tính mạng, thân thể, quyền được pháp luật bảo hộ về sức khỏe. Không ai bị tước đoạt tính mạng trái luật.\n\n2. Khi phát hiện người bị tai nạn, bệnh tật mà tính mạng bị đe dọa thì người phát hiện có trách nhiệm hoặc yêu cầu cá nhân, cơ quan, tổ chức khác có điều kiện cần thiết đưa ngay đến cơ sở khám bệnh, chữa bệnh nơi gần nhất; cơ sở khám bệnh, chữa bệnh có trách nhiệm thực hiện việc khám bệnh, chữa bệnh theo quy định của pháp luật về khám bệnh, chữa bệnh.\n\n3. Việc gây mê, mổ, cắt bỏ, cấy ghép mô, bộ phận cơ thể người; thực hiện kỹ thuật, phương pháp khám, chữa bệnh mới trên cơ thể người; thử nghiệm y học, dược học, khoa học hay bất cứ hình thức thử nghiệm nào khác trên cơ thể người phải được sự đồng ý của người đó và phải được tổ chức có thẩm quyền thực hiện.\n\nTrường hợp người được thử nghiệm là người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi hoặc là bệnh nhân bất tỉnh thì phải được cha, mẹ, vợ, chồng, con thành niên hoặc người giám hộ của người đó đồng ý; trường hợp có nguy cơ đe dọa đến tính mạng của bệnh nhân mà không chờ được ý kiến của những người nêu trên thì phải có quyết định của người có thẩm quyền của cơ sở khám bệnh, chữa bệnh.\n\n4. Việc khám nghiệm tử thi được thực hiện khi thuộc một trong các trường hợp sau đây:\n\na) Có sự đồng ý của người đó trước khi chết;\n\nb) Có sự đồng ý của cha, mẹ, vợ, chồng, con thành niên hoặc người giám hộ nếu không có ý kiến của người đó trước khi chết;\n\nc) Theo quyết định của người đứng đầu cơ sở khám bệnh, chữa bệnh hoặc của cơ quan nhà nước có thẩm quyền trong trường hợp luật quy định.",
+        "source": "vilqa_context",
+        "score": 209.92308982662286,
+        "metadata": {
+          "case_id": "vilqa-487",
+          "question": "Theo Điều 33, Bộ luật dân sự 2015, việc khám nghiệm tử thi được thực hiện khi thuộc các trường hợp nào?",
+          "row_index": 487,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-475-context",
+        "text": "Hạn chế năng lực hành vi dân sự\n\n1. Người nghiện ma túy, nghiện các chất kích thích khác dẫn đến phá tán tài sản của gia đình thì theo yêu cầu của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án có thể ra quyết định tuyên bố người này là người bị hạn chế năng lực hành vi dân sự.\n\nTòa án quyết định người đại diện theo pháp luật của người bị hạn chế năng lực hành vi dân sự và phạm vi đại diện.\n\n2. Việc xác lập, thực hiện giao dịch dân sự liên quan đến tài sản của người bị Tòa án tuyên bố hạn chế năng lực hành vi dân sự phải có sự đồng ý của người đại diện theo pháp luật, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc luật liên quan có quy định khác.\n\n3. Khi không còn căn cứ tuyên bố một người bị hạn chế năng lực hành vi dân sự thì theo yêu cầu của chính người đó hoặc của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định hủy bỏ quyết định tuyên bố hạn chế năng lực hành vi dân sự.",
+        "source": "vilqa_context",
+        "score": 193.36459975120846,
+        "metadata": {
+          "case_id": "vilqa-475",
+          "question": "Theo Điều 24, Bộ luật dân sự 2015, công dân bị hạn chế năng lực hành vi dân sự khi nào?",
+          "row_index": 475,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-498-context",
+        "text": "Hủy bỏ quyết định tuyên bố chết\n\n1. Khi một người bị tuyên bố là đã chết trở về hoặc có tin tức xác thực là người đó còn sống thì theo yêu cầu của người đó hoặc của người có quyền, lợi ích liên quan, Tòa án ra quyết định hủy bỏ quyết định tuyên bố người đó là đã chết.\n\n2. Quan hệ nhân thân của người bị tuyên bố là đã chết được khôi phục khi Tòa án ra quyết định hủy bỏ quyết định tuyên bố người đó là đã chết, trừ trường hợp sau đây:\n\na) Vợ hoặc chồng của người bị tuyên bố là đã chết đã được Tòa án cho ly hôn theo quy định tại khoản 2 Điều 68 của Bộ luật này thì quyết định cho ly hôn vẫn có hiệu lực pháp luật;\n\nb) Vợ hoặc chồng của người bị tuyên bố là đã chết đã kết hôn với người khác thì việc kết hôn đó vẫn có hiệu lực pháp luật.\n\n3. Người bị tuyên bố là đã chết mà còn sống có quyền yêu cầu những người đã nhận tài sản thừa kế trả lại tài sản, giá trị tài sản hiện còn.\n\nTrường hợp người thừa kế của người bị tuyên bố là đã chết biết người này còn sống mà cố tình giấu giếm nhằm hưởng thừa kế thì người đó phải hoàn trả toàn bộ tài sản đã nhận, kể cả hoa lợi, lợi tức; nếu gây thiệt hại thì phải bồi thường.\n\n4. Quan hệ tài sản giữa vợ và chồng được giải quyết theo quy định của Bộ luật này, Luật hôn nhân và gia đình.\n\n5. Quyết định của Tòa án hủy bỏ quyết định tuyên bố một người là đã chết phải được gửi cho Ủy ban nhân dân cấp xã nơi cư trú của người bị tuyên bố là đã chết để ghi chú theo quy định của pháp luật về hộ tịch.",
+        "source": "vilqa_context",
+        "score": 192.73165709508137,
+        "metadata": {
+          "case_id": "vilqa-498",
+          "question": "Bộ luật Dân sự năm 2015 quy định như thế nào về việc huỷ bỏ quyết định tuyên bố chết?",
+          "row_index": 498,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-474-context",
+        "text": "Mất năng lực hành vi dân sự\n\n1. Khi một người do bị bệnh tâm thần hoặc mắc bệnh khác mà không thể nhận thức, làm chủ được hành vi thì theo yêu cầu của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định tuyên bố người này là người mất năng lực hành vi dân sự trên cơ sở kết luận giám định pháp y tâm thần.\n\nKhi không còn căn cứ tuyên bố một người mất năng lực hành vi dân sự thì theo yêu cầu của chính người đó hoặc của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định hủy bỏ quyết định tuyên bố mất năng lực hành vi dân sự.\n\n2. Giao dịch dân sự của người mất năng lực hành vi dân sự phải do người đại diện theo pháp luật xác lập, thực hiện.",
+        "source": "vilqa_context",
+        "score": 192.62176797579403,
+        "metadata": {
+          "case_id": "vilqa-474",
+          "question": "Theo Điều 22, Bộ luật dân sự 2015, giao dịch dân sự của người mất năng lực hành vi dân sự phải do ai xác lập, thực hiện?",
+          "row_index": 474,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: Theo Điều 25, Bộ luật dân sự 2015, quyền nhân thân là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.\n\nBest Supporting Legal Evidence: Quyền nhân thân được quy định trong Bộ luật này là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác. (Điều 25, Bộ luật dân sự 2015)\n\nAnticipated Opponent Challenge: Đối thủ có thể tranh luận rằng việc xác lập và thực hiện quan hệ dân sự liên quan đến quyền nhân thân của một số nhóm người như chưa thành niên, mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi cần phải có sự đồng ý của đại diện theo pháp luật.\n\nStrategy for this Round: Để hỗ trợ cho câu trả lời của chúng ta, cần",
+        "public_argument": "Theo Điều 25, Bộ luật dân sự 2015, quyền nhân thân là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác. Việc xác lập và thực hiện quan hệ dân sự liên quan đến quyền nhân thân của một số nhóm người như chưa thành niên, mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi cần phải có sự đồng ý của đại diện theo pháp luật để bảo đảm quyền lợi của họ.",
+        "evidence_ids": [
+          "vilqa-477-context",
+          "vilqa-487-context",
+          "vilqa-475-context",
+          "vilqa-498-context",
+          "vilqa-474-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\n\nThe proponent has not considered that there may be specific conditions or exceptions regarding the transfer of rights related to personal relationships. They have also overlooked the necessity for legal approval from guardians or family members in certain situations, such as individuals who are minors, mentally disabled, or lack full capacity.\n\nAlternative answer or interpretation:\n\nWhile the proponent's claim is correct that the rights related to personal relationships cannot be transferred except under specific circumstances provided by law, it is essential to acknowledge the exceptions and limitations set forth in the legal framework. These exceptions include situations where the transfer of such rights is necessary for the protection of individuals who lack full capacity or are unable to make decisions on their own.\n\nEvidence needed to support the challenge:\n\nTo strengthen the argument, evidence from relevant laws and cases that demonstrate these exceptions should be presented. For example, citing specific legal provisions that allow for the transfer of personal rights in certain situations would help bolster the opponent's position.\n\nStrategy for this",
+        "public_argument": "Chúng tôi hiểu rằng quyền nhân thân là một phần của Bộ luật dân sự và không thể chuyển giao trừ khi có quy định khác. Tuy nhiên, cần lưu ý rằng việc xác lập và thực hiện quan hệ dân sự liên quan đến quyền nhân thân của một số nhóm người như chưa thành niên, mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi cần phải có sự đồng ý của đại diện theo pháp luật. Việc này được điều chỉnh bởi các quy định cụ thể trong Bộ luật và các luật liên quan.",
+        "evidence_ids": [
+          "vilqa-477-context",
+          "vilqa-487-context",
+          "vilqa-475-context",
+          "vilqa-498-context",
+          "vilqa-474-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Quyền nhân thân là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.",
+        "confidence": 100.0,
+        "reasoning": "The definition of 'quyền nhân thân' is clearly stated in the provided context from the case profile and both the proponent and opponent arguments align with this definition."
+      }
+    ],
+    "verdict": {
+      "prediction": "Quyền nhân thân là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.",
+      "answer": "Quyền nhân thân được quy định trong Bộ luật này là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.",
+      "confidence": 100.0,
+      "reasoning": "The definition of 'quyền nhân thân' is clearly stated in the provided context from the case profile and both the proponent and opponent arguments align with this definition.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.8307692307692308,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T01:19:41.972759+00:00"
+  }
+}

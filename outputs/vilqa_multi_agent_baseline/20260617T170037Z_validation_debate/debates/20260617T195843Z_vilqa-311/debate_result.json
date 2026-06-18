@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-311",
+    "case_type": "legal_qa",
+    "context": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+    "question": "Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự thì bị hình phạt nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 311
+    }
+  },
+  "result": {
+    "case_id": "vilqa-311",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-313-context",
+        "text": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 296.82054497110255,
+        "metadata": {
+          "case_id": "vilqa-313",
+          "question": "Làm mất tài liệu bí mật công tác quân sự trong khu vực có chiến sự thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 313,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-312-context",
+        "text": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 296.82054497110255,
+        "metadata": {
+          "case_id": "vilqa-312",
+          "question": "Làm mất tài liệu bí mật công tác quân sự trong khu vực có chiến sự thì bị hình phạt nào?",
+          "row_index": 312,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-14-context",
+        "text": "Tội đầu hàng địch\n\n1. Người nào đầu hàng địch, thì bị phạt tù từ 03 năm đến 10 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Là chỉ huy hoặc sĩ quan;\n\nb) Giao nộp cho địch vũ khí, phương tiện kỹ thuật quân sự;\n\nc) Giao nộp tài liệu quan trọng hoặc khai báo bí mật công tác quân sự;\n\nd) Lôi kéo người khác phạm tội;\n\nđ) Gây hậu quả nghiêm trọng hoặc rất nghiêm trọng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 12 năm đến 20 năm hoặc tù chung thân:\n\na) Giao nộp cho địch vật, tài liệu bí mật nhà nước hoặc khai báo bí mật nhà nước;\n\nb) Gây hậu quả đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 209.15687964560965,
+        "metadata": {
+          "case_id": "vilqa-14",
+          "question": "Người là sĩ quan đầu hàng địch thì bị phạt tù từ bao nhiêu đến bao nhiêu năm?",
+          "row_index": 14,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-315-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 176.63502050195336,
+        "metadata": {
+          "case_id": "vilqa-315",
+          "question": "Trong khu vực có chiến sự, nếu cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng thì bị phạt như thế nào?",
+          "row_index": 315,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-317-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 176.63502050195336,
+        "metadata": {
+          "case_id": "vilqa-317",
+          "question": "Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 317,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: A military officer who loses classified documents faces a maximum sentence of up to five years in prison.\n\nBest Supporting Legal Evidence: According to the provided case profile, \"Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm\" which translates to \"If the crime falls into any of the following cases, then it is punishable by imprisonment for a term of one to five years.\" This specifically includes \"(a) Là chỉ huy hoặc sĩ quan;\" meaning \"(a) Is an officer or commander.\"\n\nAnticipated Opponent Challenge: The opponent may argue that there are other factors that could influence the sentence length, such as the severity of the consequences resulting from the lost documents.\n\nStrategy for this Round: I will emphasize the key claim and supporting legal evidence to assert that a military officer who loses classified documents is subject to a maximum prison term of five years. In response to any counterarguments about additional factors affecting the sentence length",
+        "public_argument": "Chúng ta có bằng chứng từ hồ sơ vụ việc cho biết \"Nếu tội phạm rơi vào một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm.\" Điều này bao gồm \"(a) Là chỉ huy hoặc sĩ quan,\" tức là những người đứng đầu hoặc sĩ quan quân sự. Do đó, chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự sẽ phải đối mặt với mức án tối đa là 5 năm tù.",
+        "evidence_ids": [
+          "vilqa-313-context",
+          "vilqa-312-context",
+          "vilqa-14-context",
+          "vilqa-315-context",
+          "vilqa-317-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\n\nThe Proponent's key claim and supporting legal evidence are based on a specific excerpt from the case profile that mentions a maximum sentence of one to five years for military officers or commanders who lose classified documents. However, it does not consider other factors that could influence the sentence length, such as the severity of the consequences resulting from the lost documents.\n\nAlternative answer or interpretation:\n\nThe Proponent's position may be weakened if there are additional factors that affect the sentence length, which have not been considered in their argument. For example, if the lost documents had severe consequences, such as compromising national security or causing significant harm to individuals or organizations, this could potentially increase the sentence length beyond the maximum term of five years.\n\nEvidence needed to support the challenge:\n\nTo strengthen the challenge against the Proponent's position, it would be helpful to provide evidence that demonstrates how factors like the severity of consequences can impact the sentence length for losing classified documents. This could include past case",
+        "public_argument": "Đối với vị chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự, chúng ta có bằng chứng từ hồ sơ vụ việc cho biết họ sẽ bị phạt tù từ một năm đến năm năm. Tuy nhiên, cần lưu ý rằng ngoài các yếu tố đã nêu ra, còn có những yếu tố khác ảnh hưởng đến mức độ nghiêm trọng của tội phạm và do đó có thể thay đổi mức hình phạt cuối cùng.",
+        "evidence_ids": [
+          "vilqa-313-context",
+          "vilqa-312-context",
+          "vilqa-14-context",
+          "vilqa-315-context",
+          "vilqa-317-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "tù từ 01 năm đến 05 năm",
+        "confidence": 80.0,
+        "reasoning": "Based on the proponent's argument, which cites specific conditions for a heavier sentence, including being an officer or non-commissioned officer. The opponent's argument acknowledges this but suggests that other factors may also influence the severity of the punishment."
+      }
+    ],
+    "verdict": {
+      "prediction": "tù từ 01 năm đến 05 năm",
+      "answer": "tù từ 01 năm đến 05 năm",
+      "confidence": 80.0,
+      "reasoning": "Based on the proponent's argument, which cites specific conditions for a heavier sentence, including being an officer or non-commissioned officer. The opponent's argument acknowledges this but suggests that other factors may also influence the severity of the punishment.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.9333333333333333,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-17T19:58:43.182650+00:00"
+  }
+}

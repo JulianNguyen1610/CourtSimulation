@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-107",
+    "case_type": "legal_qa",
+    "context": "Trả thưởng\n\n1. Trường hợp một công việc được hứa thưởng do một người thực hiện thì khi công việc hoàn thành, người thực hiện công việc đó được nhận thưởng.\n\n2. Khi một công việc được hứa thưởng do nhiều người cùng thực hiện nhưng mỗi người thực hiện độc lập với nhau thì người hoàn thành đầu tiên được nhận thưởng.\n\n3. Trường hợp nhiều người cùng hoàn thành công việc được hứa thưởng vào cùng một thời điểm thì phần thưởng được chia đều cho những người đó.\n\n4. Trường hợp nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng do người hứa thưởng yêu cầu thì mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình.",
+    "question": "Trả thưởng như thế nào nếu nhiều người cùng cộng tác để hoàn thành công việc được hứa thưởng?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 107
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.0,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

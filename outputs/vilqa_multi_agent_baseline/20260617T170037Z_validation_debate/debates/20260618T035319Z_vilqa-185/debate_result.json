@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-185",
+    "case_type": "legal_qa",
+    "context": "Quyền khác đối với tài sản\n\n1. Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác.\n\n2. Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\n\nb) Quyền hưởng dụng;\n\nc) Quyền bề mặt.",
+    "question": "Quyền khác đối với tài sản bao gồm quyền hưởng dụng, quyền bề mặt và quyền nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 185
+    }
+  },
+  "result": {
+    "case_id": "vilqa-185",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-187-context",
+        "text": "Quyền khác đối với tài sản\n\n1. Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác.\n\n2. Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\n\nb) Quyền hưởng dụng;\n\nc) Quyền bề mặt.",
+        "source": "vilqa_context",
+        "score": 172.69626442393866,
+        "metadata": {
+          "case_id": "vilqa-187",
+          "question": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng, và quyền nào.",
+          "row_index": 187,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-240-context",
+        "text": "Quyền đối với bất động sản liền kề\n\nQuyền đối với bất động sản liền kề là quyền được thực hiện trên một bất động sản (gọi là bất động sản chịu hưởng quyền) nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác (gọi là bất động sản hưởng quyền).",
+        "source": "vilqa_context",
+        "score": 83.96220536818785,
+        "metadata": {
+          "case_id": "vilqa-240",
+          "question": "Quyền được thực hiện trên một bất động sản nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác là quyền gì?",
+          "row_index": 240,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-495-context",
+        "text": "Tài sản hiện có và tài sản hình thành trong tương lai\n\n1. Tài sản hiện có là tài sản đã hình thành và chủ thể đã xác lập quyền sở hữu, quyền khác đối với tài sản trước hoặc tại thời điểm xác lập giao dịch.\n\n2. Tài sản hình thành trong tương lai bao gồm:\n\na) Tài sản chưa hình thành;\n\nb) Tài sản đã hình thành nhưng chủ thể xác lập quyền sở hữu tài sản sau thời điểm xác lập giao dịch.",
+        "source": "vilqa_context",
+        "score": 81.24546404229436,
+        "metadata": {
+          "case_id": "vilqa-495",
+          "question": "Bộ luật Dân sự năm 2015 quy định như thế nào về tài sản hiện có?",
+          "row_index": 495,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-494-context",
+        "text": "Tài sản hiện có và tài sản hình thành trong tương lai\n\n1. Tài sản hiện có là tài sản đã hình thành và chủ thể đã xác lập quyền sở hữu, quyền khác đối với tài sản trước hoặc tại thời điểm xác lập giao dịch.\n\n2. Tài sản hình thành trong tương lai bao gồm:\n\na) Tài sản chưa hình thành;\n\nb) Tài sản đã hình thành nhưng chủ thể xác lập quyền sở hữu tài sản sau thời điểm xác lập giao dịch.",
+        "source": "vilqa_context",
+        "score": 81.24546404229436,
+        "metadata": {
+          "case_id": "vilqa-494",
+          "question": "Theo Bộ luật Dân sự năm 2015 tài sản hình thành trong tương lai bao gồm những loại tài sản nào?",
+          "row_index": 494,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-207-context",
+        "text": "Định đoạt tài sản chung\n\n1. Mỗi chủ sở hữu chung theo phần có quyền định đoạt phần quyền sở hữu của mình.\n\n2. Việc định đoạt tài sản chung hợp nhất được thực hiện theo thỏa thuận của các chủ sở hữu chung hoặc theo quy định của pháp luật.\n\n3. Trường hợp một chủ sở hữu chung theo phần bán phần quyền sở hữu của mình thì chủ sở hữu chung khác được quyền ưu tiên mua.\n\nTrong thời hạn 03 tháng đối với tài sản chung là bất động sản, 01 tháng đối với tài sản chung là động sản, kể từ ngày các chủ sở hữu chung khác nhận được thông báo về việc bán và các điều kiện bán mà không có chủ sở hữu chung nào mua thì chủ sở hữu đó được quyền bán cho người khác. Việc thông báo phải được thể hiện bằng văn bản và các điều kiện bán cho chủ sở hữu chung khác phải giống như điều kiện bán cho người không phải là chủ sở hữu chung.\n\nTrường hợp bán phần quyền sở hữu mà có sự vi phạm về quyền ưu tiên mua thì trong thời hạn 03 tháng, kể từ ngày phát hiện có sự vi phạm về quyền ưu tiên mua, chủ sở hữu chung theo phần trong số các chủ sở hữu chung có quyền yêu cầu Tòa án chuyển sang cho mình quyền và nghĩa vụ của người mua; bên có lỗi gây thiệt hại phải bồi thường thiệt hại.\n\n4. Trường hợp một trong các chủ sở hữu chung đối với bất động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc về Nhà nước, trừ trường hợp sở hữu chung của cộng đồng thì thuộc sở hữu chung của các chủ sở hữu chung còn lại.\n\n5. Trường hợp một trong các chủ sở hữu chung đối với động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc sở hữu chung của các chủ sở hữu còn lại.\n\n6. Trường hợp tất cả các chủ sở hữu từ bỏ quyền sở hữu của mình đối với tài sản chung thì việc xác lập quyền sở hữu được áp dụng theo quy định tại Điều 228 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 75.65702396154032,
+        "metadata": {
+          "case_id": "vilqa-207",
+          "question": "Trường hợp một trong các chủ sở hữu chung đối với bất động sản từ bỏ phần quyền sở hữu của mình thì phần quyền sở hữu đó thuộc về chủ thể nào nếu tài sản đó là sở hữu chung của cộng đồng?",
+          "row_index": 207,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: Quyền khác đối với tài sản bao gồm quyền hưởng dụng và quyền bề mặt.\n\nBest Supporting Legal Evidence: Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác. Quyền khác đối với tài sản bao gồm:\na) Quyền đối với bất động sản liền kề;\nb) Quyền hưởng dụng;\nc) Quyền bề mặt.\n\nAnticipated Opponent Challenge: The opponent may argue that there are other types of rights related to property not mentioned in the provided evidence.\n\nStrategy for this Round: Acknowledge the potential additional rights and express willingness to discuss further if necessary. Emphasize the importance of the rights listed in the evidence, such as quyền đối với bất động sản liền kề (right to a neighboring property), quyền hưởng dụng (usufruct), and quyền bề mặt (surface right).",
+        "public_argument": "Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác. Quyền khác đối với tài sản bao gồm:\na) Quyền đối với bất động sản liền kề;\nb) Quyền hưởng dụng;\nc) Quyền bề mặt.\nChúng ta hãy cùng xem xét các quyền này và cách chúng liên quan đến tài sản.",
+        "evidence_ids": [
+          "vilqa-187-context",
+          "vilqa-240-context",
+          "vilqa-495-context",
+          "vilqa-494-context",
+          "vilqa-207-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest Weakness: The proponent has not provided sufficient evidence to prove that all types of rights related to property have been listed. There may be other rights not mentioned in the provided evidence.\n\nAlternative Answer or Interpretation: It is possible that there are additional rights related to property beyond those listed by the proponent, such as a right of superficies (the right to build on another person's land) or a right of servitude (a limited right over someone else's land for a specific purpose).\n\nEvidence Needed to Support the Challenge: Additional legal documents or case law that outline other types of rights related to property.\n\nStrategy for this Round: In this round, I will acknowledge the potential additional rights mentioned above and express my willingness to discuss further if necessary. I will emphasize the importance of considering all possible rights related to property in order to provide a comprehensive answer.",
+        "public_argument": "Tôi đồng ý rằng quyền khác đối với tài sản có thể bao gồm các loại quyền khác nhau không được đề cập trong bằng chứng đã cung cấp. Tuy nhiên, chúng ta cũng cần xem xét kỹ lưỡng các quyền đã được nêu ra để đảm bảo rằng chúng là toàn diện và chính xác. Quyền hưởng dụng và quyền bề mặt là những ví dụ về các quyền liên quan đến tài sản mà tôi cho là đúng đắn. Để có một cuộc tranh luận rõ ràng hơn, chúng ta nên cùng nhau xem xét kỹ lưỡng tất cả các loại quyền khác nhau liên quan đến tài sản để đảm bảo rằng không bỏ qua bất cứ điều gì quan trọng.",
+        "evidence_ids": [
+          "vilqa-187-context",
+          "vilqa-240-context",
+          "vilqa-495-context",
+          "vilqa-494-context",
+          "vilqa-207-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Quyền khác đối với tài sản bao gồm quyền hưởng dụng, quyền bề mặt và quyền đối với bất động sản liền kề.",
+        "confidence": 80.0,
+        "reasoning": "Quyền khác đối với tài sản được mô tả trong bằng chứng của người đề xuất, bao gồm cả quyền đối với bất động sản liền kề. Người phản đối đồng ý rằng có thể có các loại quyền khác nhau không được đề cập nhưng cũng cần xem xét kỹ lưỡng các quyền đã nêu."
+      }
+    ],
+    "verdict": {
+      "prediction": "Quyền khác đối với tài sản bao gồm quyền hưởng dụng, quyền bề mặt và quyền đối với bất động sản liền kề.",
+      "answer": "Quyền khác đối với tài sản bao gồm quyền hưởng dụng, quyền bề mặt và quyền đối với bất động sản liền kề.",
+      "confidence": 80.0,
+      "reasoning": "Quyền khác đối với tài sản được mô tả trong bằng chứng của người đề xuất, bao gồm cả quyền đối với bất động sản liền kề. Người phản đối đồng ý rằng có thể có các loại quyền khác nhau không được đề cập nhưng cũng cần xem xét kỹ lưỡng các quyền đã nêu.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.5161290322580645,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T03:53:19.692350+00:00"
+  }
+}

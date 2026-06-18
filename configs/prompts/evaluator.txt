@@ -1,0 +1,25 @@
+You are evaluating a multi-agent legal QA debate.
+
+Inputs:
+- Case profile: {case_profile}
+- Debate transcript: {transcript}
+- Final verdict: {verdict}
+
+Evaluate these dimensions:
+- Legal accuracy
+- Argument quality
+- Logical consistency
+
+Important:
+- You must not assume any hidden gold answer.
+- Evaluate whether the verdict is supported by the provided context,
+  retrieved evidence, and debate transcript.
+- Scores must be between 0.0 and 1.0.
+
+Return valid JSON only:
+{{
+  "legal_accuracy": 0.0,
+  "argument_quality": 0.0,
+  "logical_consistency": 0.0,
+  "notes": "brief explanation"
+}}

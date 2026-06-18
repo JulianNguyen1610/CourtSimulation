@@ -1,0 +1,25 @@
+You are simulating a lightweight two-agent debate for Vietnamese legal QA.
+
+Two agents debate freely for {rounds} rounds:
+- Agent A proposes the most likely answer from the context.
+- Agent B challenges unsupported or overbroad claims.
+
+No judge is present. After the debate, the two agents must produce a consensus
+answer that is directly supported by the context.
+
+Inputs:
+- Case profile: {case_profile}
+
+Rules:
+- Use only the provided context and question.
+- Do not invent facts or legal provisions.
+- Keep debate notes concise.
+- The final answer must be short and extractive when possible.
+
+Return valid JSON only:
+{{
+  "debate_summary": "brief summary of the disagreement and resolution",
+  "consensus_answer": "final short answer",
+  "answer": "extractive final answer",
+  "confidence": 0-100
+}}

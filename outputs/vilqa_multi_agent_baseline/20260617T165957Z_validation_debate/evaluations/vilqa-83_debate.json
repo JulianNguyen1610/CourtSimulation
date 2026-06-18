@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-83",
+    "case_type": "legal_qa",
+    "context": "Trách nhiệm do giao tài sản không đúng số lượng\n\n1. Trường hợp bên bán giao tài sản với số lượng nhiều hơn số lượng đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác.\n\n2. Trường hợp bên bán giao ít hơn số lượng đã thỏa thuận thì bên mua có một trong các quyền sau đây:\n\na) Nhận phần đã giao và định thời hạn để bên bán giao tiếp phần còn thiếu;\n\nb) Nhận phần đã giao và yêu cầu bồi thường thiệt hại;\n\nc) Hủy bỏ hợp đồng và yêu cầu bồi thường thiệt hại nếu việc vi phạm làm cho bên mua không đạt được mục đích giao kết hợp đồng.",
+    "question": "Bên mua có quyền gì khi bên bán giao số lượng tài sản nhiều hơn đã thoả thuận?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 83
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.5,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

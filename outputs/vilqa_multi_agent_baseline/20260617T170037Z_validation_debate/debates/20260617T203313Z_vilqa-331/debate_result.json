@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-331",
+    "case_type": "legal_qa",
+    "context": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+    "question": "Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa bao nhiêu năm tù?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 331
+    }
+  },
+  "result": {
+    "case_id": "vilqa-331",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-330-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-330",
+          "question": "Cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối thiểu bao nhiêu năm tù?",
+          "row_index": 330,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-332-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-332",
+          "question": "Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối thiểu bao nhiêu năm tù?",
+          "row_index": 332,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-334-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-334",
+          "question": "Cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tiền tối \bthiểu bao nhiêu?",
+          "row_index": 334,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-333-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-333",
+          "question": "Cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tiền tối đa bao nhiêu?",
+          "row_index": 333,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-329-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-329",
+          "question": "Cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa bao nhiêu năm tù?",
+          "row_index": 329,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa 15 năm tù.\n\nBest Supporting Legal Evidence: Điều 255 của Bộ luật hình sự\n\nAnticipated Opponent Challenge: The opponent may argue that the maximum penalty is not necessarily 15 years but could be less depending on specific circumstances of the case.\n\nStrategy for this Round: I will focus on emphasizing the key claim and supporting it with legal evidence, while being prepared to address potential counterarguments from the opponent.",
+        "public_argument": "Key Claim: Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa 15 năm tù.\n\nBest Supporting Legal Evidence: Điều 255 của Bộ luật hình sự\n\nAnticipated Opponent Challenge: The opponent may argue that the maximum penalty is not necessarily 15 years but could be less depending on specific circumstances of the case.\n\nStrategy for this Round: I will focus on emphasizing the key claim and supporting it with legal evidence, while being prepared to address potential counterarguments from the opponent.",
+        "evidence_ids": [
+          "vilqa-330-context",
+          "vilqa-332-context",
+          "vilqa-334-context",
+          "vilqa-333-context",
+          "vilqa-329-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest Weakness in Proponent's Position: The proponent may not have considered all relevant factors that could affect the maximum penalty for the crime. Specifically, they have not addressed potential mitigating circumstances or exceptions that might result in a lower maximum sentence.\n\nAlternative Answer/Interpretation: Depending on specific circumstances such as intent, frequency of the offense, and severity of consequences caused by the action, the maximum penalty may be less than 15 years.\n\nEvidence Needed to Support the Challenge: Detailed information about past cases with similar facts or legal precedents that demonstrate a lower maximum sentence being applied in situations involving abuse of position for facilitating drug use. \n\nStrategy for this Round: I will emphasize the importance of considering all relevant factors and circumstances when determining the maximum penalty. Additionally, I will be prepared to provide evidence from past cases and legal precedents that support the idea that the maximum penalty may not always be 15 years in such situations.",
+        "public_argument": "I acknowledge that the proponent has focused on Article 255 of the Penal Code as evidence for their claim. However, they have overlooked potential mitigating circumstances and exceptions that could result in a lower maximum sentence.\n\nIn response to this narrow focus, I argue that we must consider all relevant factors when determining the maximum penalty. This includes intent, frequency of the offense, and severity of consequences caused by the action.\n\nI am prepared to present evidence from past cases with similar facts or legal precedents demonstrating a lower maximum sentence being applied in situations involving abuse of position for facilitating drug use.",
+        "evidence_ids": [
+          "vilqa-330-context",
+          "vilqa-332-context",
+          "vilqa-334-context",
+          "vilqa-333-context",
+          "vilqa-329-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "15 years",
+        "confidence": 80.0,
+        "reasoning": "According to Article 255 of the Penal Code, if the offense is committed with aggravating circumstances such as abusing one's position or authority, committing the crime multiple times, targeting individuals under 16 years old, affecting two or more people, or constituting a dangerous recidivism, the penalty can be increased up to 15 years in prison. Therefore, based on this evidence, it is reasonable to conclude that exploiting one's position or authority to rent out or lend a location for the unlawful use of illicit drugs could result in a maximum sentence of 15 years."
+      }
+    ],
+    "verdict": {
+      "prediction": "15 years",
+      "answer": "15 years",
+      "confidence": 80.0,
+      "reasoning": "According to Article 255 of the Penal Code, if the offense is committed with aggravating circumstances such as abusing one's position or authority, committing the crime multiple times, targeting individuals under 16 years old, affecting two or more people, or constituting a dangerous recidivism, the penalty can be increased up to 15 years in prison. Therefore, based on this evidence, it is reasonable to conclude that exploiting one's position or authority to rent out or lend a location for the unlawful use of illicit drugs could result in a maximum sentence of 15 years.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.5,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-17T20:33:13.491111+00:00"
+  }
+}

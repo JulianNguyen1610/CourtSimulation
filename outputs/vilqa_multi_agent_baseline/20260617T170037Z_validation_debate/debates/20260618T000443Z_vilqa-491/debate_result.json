@@ -1,0 +1,153 @@
+{
+  "case": {
+    "case_id": "vilqa-491",
+    "case_type": "legal_qa",
+    "context": "Quyền xác định lại giới tính\n\n1. Cá nhân có quyền xác định lại giới tính.\n\nViệc xác định lại giới tính của một người được thực hiện trong trường hợp giới tính của người đó bị khuyết tật bẩm sinh hoặc chưa định hình chính xác mà cần có sự can thiệp của y học nhằm xác định rõ giới tính.\n\n2. Việc xác định lại giới tính được thực hiện theo quy định của pháp luật.\n\n3. Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan.",
+    "question": "Theo Điều 36, Bộ luật dân sự 2015, cá nhân đã thực hiện việc xác định lại giới tính có các quyền và nghĩa vụ như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 491
+    }
+  },
+  "result": {
+    "case_id": "vilqa-491",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-481-context",
+        "text": "Quyền thay đổi tên\n\n1. Cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi tên trong trường hợp sau đây:\n\na) Theo yêu cầu của người có tên mà việc sử dụng tên đó gây nhầm lẫn, ảnh hưởng đến tình cảm gia đình, đến danh dự, quyền, lợi ích hợp pháp của người đó;\n\nb) Theo yêu cầu của cha nuôi, mẹ nuôi về việc thay đổi tên cho con nuôi hoặc khi người con nuôi thôi làm con nuôi và người này hoặc cha đẻ, mẹ đẻ yêu cầu lấy lại tên mà cha đẻ, mẹ đẻ đã đặt;\n\nc) Theo yêu cầu của cha đẻ, mẹ đẻ hoặc người con khi xác định cha, mẹ cho con;\n\nd) Thay đổi tên của người bị lưu lạc đã tìm ra nguồn gốc huyết thống của mình;\n\nđ) Thay đổi tên của vợ, chồng trong quan hệ hôn nhân và gia đình có yếu tố nước ngoài để phù hợp với pháp luật của nước mà vợ, chồng người nước ngoài là công dân hoặc lấy lại tên trước khi thay đổi;\n\ne) Thay đổi tên của người đã xác định lại giới tính, người đã chuyển đổi giới tính;\n\ng) Trường hợp khác do pháp luật về hộ tịch quy định.\n\n2. Việc thay đổi tên cho người từ đủ chín tuổi trở lên phải có sự đồng ý của người đó.\n\n3. Việc thay đổi tên của cá nhân không làm thay đổi, chấm dứt quyền, nghĩa vụ dân sự được xác lập theo tên cũ.",
+        "source": "vilqa_context",
+        "score": 198.6856197468825,
+        "metadata": {
+          "case_id": "vilqa-481",
+          "question": "Theo Điều 28, Bộ luật dân sự 2015, cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi tên trong trường hợp nào?",
+          "row_index": 481,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-188-context",
+        "text": "Ranh giới giữa các bất động sản\n\n1. Ranh giới giữa các bất động sản liền kề được xác định theo thỏa thuận hoặc theo quyết định của cơ quan nhà nước có thẩm quyền.\n\nRanh giới cũng có thể được xác định theo tập quán hoặc theo ranh giới đã tồn tại từ 30 năm trở lên mà không có tranh chấp.\n\nKhông được lấn, chiếm, thay đổi mốc giới ngăn cách, kể cả trường hợp ranh giới là kênh, mương, hào, rãnh, bờ ruộng. Mọi chủ thể có nghĩa vụ tôn trọng, duy trì ranh giới chung.\n\n2. Người sử dụng đất được sử dụng không gian và lòng đất theo chiều thẳng đứng từ ranh giới của thửa đất phù hợp với quy định của pháp luật và không được làm ảnh hưởng đến việc sử dụng đất của người khác.\n\nNgười sử dụng đất chỉ được trồng cây và làm các việc khác trong khuôn viên đất thuộc quyền sử dụng của mình và theo ranh giới đã được xác định; nếu rễ cây, cành cây vượt quá ranh giới thì phải xén rễ, cắt, tỉa cành phần vượt quá, trừ trường hợp có thỏa thuận khác.",
+        "source": "vilqa_context",
+        "score": 146.4310239537127,
+        "metadata": {
+          "case_id": "vilqa-188",
+          "question": "Ranh giới giữa các bất động sản có thể được xác định theo ranh giới đã tồn tại bao lâu mà không có tranh chấp?",
+          "row_index": 188,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-454-context",
+        "text": "Giới hạn việc thực hiện quyền dân sự\n\n1. Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.\n\n2. Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều này thì Tòa án hoặc cơ quan có thẩm quyền khác căn cứ vào tính chất, hậu quả của hành vi vi phạm mà có thể không bảo vệ một phần hoặc toàn bộ quyền của họ, buộc bồi thường nếu gây thiệt hại và có thể áp dụng chế tài khác do luật quy định.",
+        "source": "vilqa_context",
+        "score": 137.03997359593302,
+        "metadata": {
+          "case_id": "vilqa-454",
+          "question": "Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, thì Toà án hoặc cơ quan có thẩm quyền khác có thể?",
+          "row_index": 454,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-479-context",
+        "text": "Quyền thay đổi họ\n\n1. Cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi họ trong trường hợp sau đây:\n\na) Thay đổi họ cho con đẻ từ họ của cha đẻ sang họ của mẹ đẻ hoặc ngược lại;\n\nb) Thay đổi họ cho con nuôi từ họ của cha đẻ hoặc mẹ đẻ sang họ của cha nuôi hoặc họ của mẹ nuôi theo yêu cầu của cha nuôi, mẹ nuôi;\n\nc) Khi người con nuôi thôi làm con nuôi và người này hoặc cha đẻ, mẹ đẻ yêu cầu lấy lại họ cho người đó theo họ của cha đẻ hoặc mẹ đẻ;\n\nd) Thay đổi họ cho con theo yêu cầu của cha đẻ, mẹ đẻ hoặc của con khi xác định cha, mẹ cho con;\n\nđ) Thay đổi họ của người bị lưu lạc đã tìm ra nguồn gốc huyết thống của mình;\n\ne) Thay đổi họ theo họ của vợ, họ của chồng trong quan hệ hôn nhân và gia đình có yếu tố nước ngoài để phù hợp với pháp luật của nước mà vợ, chồng người nước ngoài là công dân hoặc lấy lại họ trước khi thay đổi;\n\ng) Thay đổi họ của con khi cha, mẹ thay đổi họ;\n\nh) Trường hợp khác do pháp luật về hộ tịch quy định.\n\n2. Việc thay đổi họ cho người từ đủ chín tuổi trở lên phải có sự đồng ý của người đó.\n\n3. Việc thay đổi họ của cá nhân không làm thay đổi, chấm dứt quyền, nghĩa vụ dân sự được xác lập theo họ cũ.",
+        "source": "vilqa_context",
+        "score": 133.3229191693585,
+        "metadata": {
+          "case_id": "vilqa-479",
+          "question": "Theo Điều 27, Bộ luật dân sự 2015, cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi họ trong trường hợp nào?",
+          "row_index": 479,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-480-context",
+        "text": "Quyền thay đổi họ\n\n1. Cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi họ trong trường hợp sau đây:\n\na) Thay đổi họ cho con đẻ từ họ của cha đẻ sang họ của mẹ đẻ hoặc ngược lại;\n\nb) Thay đổi họ cho con nuôi từ họ của cha đẻ hoặc mẹ đẻ sang họ của cha nuôi hoặc họ của mẹ nuôi theo yêu cầu của cha nuôi, mẹ nuôi;\n\nc) Khi người con nuôi thôi làm con nuôi và người này hoặc cha đẻ, mẹ đẻ yêu cầu lấy lại họ cho người đó theo họ của cha đẻ hoặc mẹ đẻ;\n\nd) Thay đổi họ cho con theo yêu cầu của cha đẻ, mẹ đẻ hoặc của con khi xác định cha, mẹ cho con;\n\nđ) Thay đổi họ của người bị lưu lạc đã tìm ra nguồn gốc huyết thống của mình;\n\ne) Thay đổi họ theo họ của vợ, họ của chồng trong quan hệ hôn nhân và gia đình có yếu tố nước ngoài để phù hợp với pháp luật của nước mà vợ, chồng người nước ngoài là công dân hoặc lấy lại họ trước khi thay đổi;\n\ng) Thay đổi họ của con khi cha, mẹ thay đổi họ;\n\nh) Trường hợp khác do pháp luật về hộ tịch quy định.\n\n2. Việc thay đổi họ cho người từ đủ chín tuổi trở lên phải có sự đồng ý của người đó.\n\n3. Việc thay đổi họ của cá nhân không làm thay đổi, chấm dứt quyền, nghĩa vụ dân sự được xác lập theo họ cũ.",
+        "source": "vilqa_context",
+        "score": 133.3229191693585,
+        "metadata": {
+          "case_id": "vilqa-480",
+          "question": "Theo Điều 27, Bộ luật dân sự 2015, việc thay đổi họ của cá nhân có làm thay đổi, chấm dứt quyền, nghĩa vụ dân sự được xác lập theo họ cũ hay không?",
+          "row_index": 480,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: According to Article 36 of the Civil Code 2015, individuals who have undergone gender reassignment procedures have the right and obligations as follows:\n\nBest Supporting Legal Evidence: \n- Case Profile Information\n\nAnticipated Opponent Challenge:\nThe opponent may argue that there is a lack of specific details regarding individual rights and obligations after undergoing gender reassignment.\n\nStrategy for this Round:\n1. Focus on Article 36 of the Civil Code 2015 to provide clear information about the rights and obligations of individuals who have undergone gender reassignment.\n2. Address any potential gaps in the opponent's argument by providing additional legal evidence or past memory if necessary.\n3. Maintain a calm and professional demeanor throughout the debate, ensuring that all arguments are presented clearly and logically.",
+        "public_argument": "According to Article 36 of the Civil Code 2015, individuals who have undergone gender reassignment procedures have the right and obligations as follows: they can register for changes in their personal documents (such as their ID card or passport) to reflect their new gender. This is a legal right granted by Vietnamese law to ensure that individuals are able to align their personal identity with their gender identity after undergoing medical intervention to change their gender.",
+        "evidence_ids": [
+          "vilqa-481-context",
+          "vilqa-188-context",
+          "vilqa-454-context",
+          "vilqa-479-context",
+          "vilqa-480-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weakening Point:\n\nThe Proponent's argument relies heavily on Article 36 of the Civil Code 2015. However, there is a lack of specific details regarding individual rights and obligations after undergoing gender reassignment.\n\nAlternative Answer or Interpretation:\n\nWhile Article 36 provides some information about the rights and obligations of individuals who have undergone gender reassignment, it does not cover all aspects comprehensively. For example, the Proponent has not mentioned anything about the right to privacy and protection against discrimination for these individuals.\n\nEvidence Needed to Support the Challenge:\n\nTo support this challenge, we could look into specific case laws or legal precedents that address the rights and obligations of individuals who have undergone gender reassignment. Additionally, we could examine any relevant international human rights treaties or conventions that Vietnam has ratified, which may provide additional guidance on this issue.\n\nStrategy for This Round:\n\n1. Focus on highlighting the gaps in the Proponent's argument by emphasizing the lack of specific details regarding individual rights and obligations after undergoing gender",
+        "public_argument": "While Article 36 of the Civil Code 2015 provides some information about the rights and obligations of individuals who have undergone gender reassignment, it does not cover all aspects comprehensively. For instance, the Proponent has not mentioned anything about the right to privacy and protection against discrimination for these individuals. To support this challenge, we could look into specific case laws or legal precedents that address these rights and obligations. Additionally, examining relevant international human rights treaties or conventions ratified by Vietnam may provide further guidance on this issue.",
+        "evidence_ids": [
+          "vilqa-481-context",
+          "vilqa-188-context",
+          "vilqa-454-context",
+          "vilqa-479-context",
+          "vilqa-480-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Proponent",
+        "confidence": 80.0,
+        "reasoning": "According to Article 36 of the Civil Code 2015, individuals who have undergone gender reassignment procedures have the right and obligations as follows: they can register for changes in their personal documents (such as their ID card or passport) to reflect their new gender. This is a legal right granted by the law."
+      }
+    ],
+    "verdict": {
+      "prediction": "Proponent",
+      "answer": "Individuals who have undergone gender reassignment procedures have the right to register for changes in their personal documents (such as their ID card or passport) to reflect their new gender.",
+      "confidence": 80.0,
+      "reasoning": "According to Article 36 of the Civil Code 2015, individuals who have undergone gender reassignment procedures have specific rights and obligations. One of these rights is the ability to register for changes in their personal documents to reflect their new gender, as granted by the law.",
+      "cited_evidence_ids": [
+        "vilqa-481-context",
+        "vilqa-188-context",
+        "vilqa-454-context",
+        "vilqa-479-context",
+        "vilqa-480-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T00:04:43.845867+00:00"
+  }
+}

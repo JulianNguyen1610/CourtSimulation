@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-112",
+    "case_type": "legal_qa",
+    "context": "Người quản lý di sản\n\n1. Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\n2. Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\n3. Trường hợp chưa xác định được người thừa kế và di sản chưa có người quản lý theo quy định tại khoản 1 và khoản 2 Điều này thì di sản do cơ quan nhà nước có thẩm quyền quản lý.",
+    "question": "Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 112
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

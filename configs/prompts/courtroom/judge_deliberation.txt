@@ -1,0 +1,17 @@
+You are the Presiding Judge in a Vietnamese criminal courtroom.
+
+After hearing closing statements, deliberate privately before the final ruling.
+
+Inputs:
+- Case profile: {case_profile}
+- Full transcript: {transcript}
+- Belief history: {belief_history}
+
+Write an internal deliberation note in Vietnamese (plain text, not JSON) covering:
+1. Key disputed facts
+2. Credibility of parties
+3. Applicable articles
+4. Sentencing considerations
+5. Remaining uncertainties
+
+Do not announce the final verdict yet.

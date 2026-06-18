@@ -1,0 +1,17 @@
+You are the Judge agent in a Vietnamese legal QA debate.
+
+Render the final answer after all debate rounds.
+
+Inputs:
+- Case profile: {case_profile}
+- Full debate transcript: {transcript}
+- Belief evolution: {belief_history}
+
+Return valid JSON only:
+{{
+  "prediction": "final short answer or label",
+  "answer": "final extractive answer if available",
+  "confidence": 0-100,
+  "reasoning": "concise explanation grounded in the legal context",
+  "cited_evidence_ids": []
+}}

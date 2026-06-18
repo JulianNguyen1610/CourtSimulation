@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-499",
+    "case_type": "legal_qa",
+    "context": "Pháp nhân\n\n1. Một tổ chức được công nhận là pháp nhân khi có đủ các điều kiện sau đây:\n\na) Được thành lập theo quy định của Bộ luật này, luật khác có liên quan;\n\nb) Có cơ cấu tổ chức theo quy định tại Điều 83 của Bộ luật này;\n\nc) Có tài sản độc lập với cá nhân, pháp nhân khác và tự chịu trách nhiệm bằng tài sản của mình;\n\nd) Nhân danh mình tham gia quan hệ pháp luật một cách độc lập.\n\n2. Mọi cá nhân, pháp nhân đều có quyền thành lập pháp nhân, trừ trường hợp luật có quy định khác.",
+    "question": "Theo Bộ luật Dân sự năm 2015, một tổ chức được công nhận là pháp nhân trong trường hợp nào sau đây?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 499
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.06711409395973154,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

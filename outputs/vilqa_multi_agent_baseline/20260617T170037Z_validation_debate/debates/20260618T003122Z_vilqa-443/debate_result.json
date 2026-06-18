@@ -1,0 +1,153 @@
+{
+  "case": {
+    "case_id": "vilqa-443",
+    "case_type": "legal_qa",
+    "context": "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự\n\n1. Ở nước Cộng hòa xã hội chủ nghĩa Việt Nam, các quyền dân sự được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật.\n\n2. Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.",
+    "question": "Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, quyền dân sự có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì các lý do nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 443
+    }
+  },
+  "result": {
+    "case_id": "vilqa-443",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-442-context",
+        "text": "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự\n\n1. Ở nước Cộng hòa xã hội chủ nghĩa Việt Nam, các quyền dân sự được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật.\n\n2. Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.",
+        "source": "vilqa_context",
+        "score": 267.31705566570184,
+        "metadata": {
+          "case_id": "vilqa-442",
+          "question": "Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, các quyền gì được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật?",
+          "row_index": 442,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-513-context",
+        "text": "Trách nhiệm về nghĩa vụ dân sự của Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương trong quan hệ dân sự với một bên là nhà nước, pháp nhân, cá nhân nước ngoài\n\n1. Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương chịu trách nhiệm về nghĩa vụ dân sự do mình xác lập với nhà nước, pháp nhân, cá nhân nước ngoài trong trường hợp sau đây:\n\na) Điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định về việc từ bỏ quyền miễn trừ;\n\nb) Các bên trong quan hệ dân sự có thỏa thuận từ bỏ quyền miễn trừ;\n\nc) Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương từ bỏ quyền miễn trừ.\n\n2. Trách nhiệm về nghĩa vụ dân sự của nhà nước, cơ quan nhà nước của nước ngoài khi tham gia quan hệ dân sự với Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương, pháp nhân, cá nhân Việt Nam được áp dụng tương tự khoản 1 Điều này.",
+        "source": "vilqa_context",
+        "score": 136.6708234559289,
+        "metadata": {
+          "case_id": "vilqa-513",
+          "question": "Theo Bộ luật Dân sự 2015, Nhà nước Cộng hòa xã hội chủ nghĩa\nViệt Nam, cơ quan nhà nước ở trung ương, ở địa phương chịu trách nhiệm về\nnghĩa vụ dân sự do mình xác lập với nhà nước, pháp nhân, cá nhân nước\nngoài trong trường hợp nào sau đây?",
+          "row_index": 513,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-408-context",
+        "text": "Nguyên tắc bảo vệ an ninh mạng\n\n1. Tuân thủ Hiến pháp và pháp luật; bảo đảm lợi ích của Nhà nước, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n\n2. Đặt dưới sự lãnh đạo của Đảng Cộng sản Việt Nam, sự quản lý thống nhất của Nhà nước; huy động sức mạnh tổng hợp của hệ thống chính trị và toàn dân tộc; phát huy vai trò nòng cốt của lực lượng chuyên trách bảo vệ an ninh mạng.\n\n3. Kết hợp chặt chẽ giữa nhiệm vụ bảo vệ an ninh mạng, bảo vệ hệ thống thông tin quan trọng về an ninh quốc gia với nhiệm vụ phát triển kinh tế - xã hội, bảo đảm quyền con người, quyền công dân, tạo điều kiện cho cơ quan, tổ chức, cá nhân hoạt động trên không gian mạng.\n\n4. Chủ động phòng ngừa, phát hiện, ngăn chặn, đấu tranh, làm thất bại mọi hoạt động sử dụng không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân; sẵn sàng ngăn chặn các nguy cơ đe dọa an ninh mạng.\n\n5. Triển khai hoạt động bảo vệ an ninh mạng đối với cơ sở hạ tầng không gian mạng quốc gia; áp dụng các biện pháp bảo vệ hệ thống thông tin quan trọng về an ninh quốc gia.\n\n6. Hệ thống thông tin quan trọng về an ninh quốc gia được thẩm định, chứng nhận đủ điều kiện về an ninh mạng trước khi đưa vào vận hành, sử dụng; thường xuyên kiểm tra, giám sát về an ninh mạng trong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cố an ninh mạng.\n\n7. Mọi hành vi vi phạm pháp luật về an ninh mạng phải được xử lý kịp thời, nghiêm minh.",
+        "source": "vilqa_context",
+        "score": 131.55507831332727,
+        "metadata": {
+          "case_id": "vilqa-408",
+          "question": "Nguyên tắc bảo vệ an ninh mạng được đặt dưới sự lãnh đạo của ai?",
+          "row_index": 408,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-492-context",
+        "text": "Đại diện tham gia quan hệ dân sự\n\nViệc đại diện cho Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở trung ương, ở địa phương tham gia quan hệ dân sự được thực hiện theo quy định của pháp luật về chức năng, nhiệm vụ, quyền hạn và tổ chức bộ máy của cơ quan nhà nước. Việc đại diện thông qua cá nhân, pháp nhân khác chỉ được thực hiện trong các trường hợp và theo trình tự, thủ tục do pháp luật quy định.",
+        "source": "vilqa_context",
+        "score": 127.05599719321928,
+        "metadata": {
+          "case_id": "vilqa-492",
+          "question": "Bộ luật dân sự 2015 quy định thế nào về Đại diện tham gia quan hệ dân sự?",
+          "row_index": 492,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-448-context",
+        "text": "Chính sách của Nhà nước đối với quan hệ dân sự\n\n1. Việc xác lập, thực hiện, chấm dứt quyền, nghĩa vụ dân sự phải bảo đảm giữ gìn bản sắc dân tộc, tôn trọng và phát huy phong tục, tập quán, truyền thống tốt đẹp, tình đoàn kết, tương thân, tương ái, mỗi người vì cộng đồng, cộng đồng vì mỗi người và các giá trị đạo đức cao đẹp của các dân tộc cùng sinh sống trên đất nước Việt Nam.\n\n2. Trong quan hệ dân sự, việc hòa giải giữa các bên phù hợp với quy định của pháp luật được khuyến khích.",
+        "source": "vilqa_context",
+        "score": 122.7082576049174,
+        "metadata": {
+          "case_id": "vilqa-448",
+          "question": "Theo Bộ luật dân sự 2015, việc xác lập, thực hiện, chấm dứt quyền, nghĩa vụ dân sự phải bảo đảm giữ gìn những giá trị gì?",
+          "row_index": 448,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: According to the Civil Code of 2015, in the Socialist Republic of Vietnam, rights can be limited by law in necessary cases for reasons such as national defense, public order, and community health.\n\nBest Supporting Legal Evidence: \n\nThe legal evidence provided earlier states that \"Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.\" This means that rights can be limited by law in necessary cases for reasons such as national defense, public order, and community health.\n\nAnticipated Opponent Challenge: The opponent may argue that the limitations on rights should only be considered in extreme circumstances or that certain specific examples are missing from the given evidence. They might also question whether these reasons are broad enough to encompass all possible scenarios where restrictions could be justified.\n\nStrategy for this Round:\n\n1. Acknowledge",
+        "public_argument": "In response to the opponent's challenge that limitations on rights should be considered only in extreme circumstances, we argue that the Civil Code of 2015 allows for necessary restrictions based on various factors such as national defense, public order, and community health. While it is true that these reasons could encompass a wide range of scenarios, they are not meant to be exhaustive but rather provide a framework for determining when limitations on rights may be justified. Therefore, the opponent's assertion that specific examples are missing from the evidence is unfounded, as the law itself provides flexibility in applying these principles to different situations.",
+        "evidence_ids": [
+          "vilqa-442-context",
+          "vilqa-513-context",
+          "vilqa-408-context",
+          "vilqa-492-context",
+          "vilqa-448-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\n\nThe Proponent's argument relies heavily on general statements from the Civil Code of 2015 without providing specific examples or detailed explanations. This lack of specificity might make it difficult to convince the audience that the reasons mentioned are sufficient and comprehensive enough to justify limitations on rights.\n\nAlternative answer or interpretation, if any:\n\nWhile the Proponent claims that rights can be limited for reasons such as national defense, public order, and community health, they fail to acknowledge potential counterarguments. For instance, one could argue that these reasons may not cover all necessary cases or that there are other factors that should also be considered.\n\nEvidence needed to support the challenge:\n\nTo strengthen their position, the Proponent would need to provide more concrete examples of situations where rights were limited due to national defense, public order, and community health. Additionally, they could present evidence showing that these reasons are indeed sufficient and comprehensive enough to justify such limitations.\n\nStrategy for this round:\n\n1. Acknowledge",
+        "public_argument": "I acknowledge the Proponent's argument that rights can be limited for reasons such as national defense, public order, and community health. However, I argue that these reasons may not cover all necessary cases or that there are other factors that should also be considered. To strengthen their position, the Proponent would need to provide more concrete examples of situations where rights were limited due to these reasons and present evidence showing that they are sufficient and comprehensive enough to justify such limitations.",
+        "evidence_ids": [
+          "vilqa-442-context",
+          "vilqa-513-context",
+          "vilqa-408-context",
+          "vilqa-492-context",
+          "vilqa-448-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "The rights can be limited for reasons such as national defense, public order, and community health.",
+        "confidence": 80.0,
+        "reasoning": "According to the Civil Code of 2015, the rights can be restricted based on various factors including national defense, public order, and community health. Although the opponent argues that these reasons may not cover all necessary cases or other factors should also be considered, the proponent's argument is more specific and in line with the legal framework."
+      }
+    ],
+    "verdict": {
+      "prediction": "Rights can be limited by law in necessary cases for reasons such as national defense, public order, and community health.",
+      "answer": "Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.",
+      "confidence": 80.0,
+      "reasoning": "According to the Civil Code of 2015, rights can be restricted based on various factors including national defense, public order, and community health. Although the opponent argues that these reasons may not cover all necessary cases or other factors should also be considered, the proponent's argument is more specific and in line with the legal framework.",
+      "cited_evidence_ids": [
+        "vilqa-442-context",
+        "vilqa-513-context",
+        "vilqa-408-context",
+        "vilqa-492-context",
+        "vilqa-448-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.65625,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T00:31:22.307441+00:00"
+  }
+}

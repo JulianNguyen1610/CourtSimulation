@@ -1,0 +1,23 @@
+courtroom:
+  protocol:
+    enable_opening: true
+    enable_debate: true
+    max_debate_rounds: 2
+    enable_judge_question: false
+    enable_closing: true
+    enable_deliberation: true
+    early_stop_confidence: null
+
+  retrieval:
+    evidence_top_k: 5
+
+  memory:
+    memory_top_k: 5
+
+  agents:
+    argument_max_tokens: 500
+    max_context_chars: 6000
+    max_evidence_docs: 5
+    max_evidence_chars: 3000
+    max_history_turns: 12
+    max_history_chars: 4000

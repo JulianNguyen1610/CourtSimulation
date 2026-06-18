@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-470",
+    "case_type": "legal_qa",
+    "context": "Người chưa thành niên\n\n1. Người chưa thành niên là người chưa đủ mười tám tuổi.\n\n2. Giao dịch dân sự của người chưa đủ sáu tuổi do người đại diện theo pháp luật của người đó xác lập, thực hiện.\n\n3. Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi khi xác lập, thực hiện giao dịch dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch dân sự phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi.\n\n4. Người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi tự mình xác lập, thực hiện giao dịch dân sự, trừ giao dịch dân sự liên quan đến bất động sản, động sản phải đăng ký và giao dịch dân sự khác theo quy định của luật phải được người đại diện theo pháp luật đồng ý.",
+    "question": "Theo Bộ luật dân sự 2015, người chưa thành niên là người như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 470
+    }
+  },
+  "result": {
+    "case_id": "vilqa-470",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-471-context",
+        "text": "Người chưa thành niên\n\n1. Người chưa thành niên là người chưa đủ mười tám tuổi.\n\n2. Giao dịch dân sự của người chưa đủ sáu tuổi do người đại diện theo pháp luật của người đó xác lập, thực hiện.\n\n3. Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi khi xác lập, thực hiện giao dịch dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch dân sự phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi.\n\n4. Người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi tự mình xác lập, thực hiện giao dịch dân sự, trừ giao dịch dân sự liên quan đến bất động sản, động sản phải đăng ký và giao dịch dân sự khác theo quy định của luật phải được người đại diện theo pháp luật đồng ý.",
+        "source": "vilqa_context",
+        "score": 425.2332224287813,
+        "metadata": {
+          "case_id": "vilqa-471",
+          "question": "Theo Điều 21, Bộ luật dân sự 2015, giao dịch dân sự của người chưa đủ sáu tuổi do ai xác lập và thực hiện?",
+          "row_index": 471,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-167-context",
+        "text": "Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu\n\n1. Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu quy định tại các Điều 125, 126, 127, 128 và 129 của Bộ luật này là 02 năm, kể từ ngày:\n\na) Người đại diện của người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi, người bị hạn chế năng lực hành vi dân sự biết hoặc phải biết người được đại diện tự mình xác lập, thực hiện giao dịch;\n\nb) Người bị nhầm lẫn, bị lừa dối biết hoặc phải biết giao dịch được xác lập do bị nhầm lẫn, do bị lừa dối;\n\nc) Người có hành vi đe dọa, cưỡng ép chấm dứt hành vi đe dọa, cưỡng ép;\n\nd) Người không nhận thức và làm chủ được hành vi của mình xác lập giao dịch;\n\nđ) Giao dịch dân sự được xác lập trong trường hợp giao dịch dân sự không tuân thủ quy định về hình thức.\n\n2. Hết thời hiệu quy định tại khoản 1 Điều này mà không có yêu cầu tuyên bố giao dịch dân sự vô hiệu thì giao dịch dân sự có hiệu lực.\n\n3. Đối với giao dịch dân sự quy định tại Điều 123 và Điều 124 của Bộ luật này thì thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu không bị hạn chế.",
+        "source": "vilqa_context",
+        "score": 186.19304467493214,
+        "metadata": {
+          "case_id": "vilqa-167",
+          "question": "Hết thời hiệu quy định tại khoản 1 Điều 132 bộ luật Dân sự 2015 thì giao dịch dân sự có hiệu lực trong trường hợp nào?",
+          "row_index": 167,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-168-context",
+        "text": "Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu\n\n1. Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu quy định tại các Điều 125, 126, 127, 128 và 129 của Bộ luật này là 02 năm, kể từ ngày:\n\na) Người đại diện của người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi, người bị hạn chế năng lực hành vi dân sự biết hoặc phải biết người được đại diện tự mình xác lập, thực hiện giao dịch;\n\nb) Người bị nhầm lẫn, bị lừa dối biết hoặc phải biết giao dịch được xác lập do bị nhầm lẫn, do bị lừa dối;\n\nc) Người có hành vi đe dọa, cưỡng ép chấm dứt hành vi đe dọa, cưỡng ép;\n\nd) Người không nhận thức và làm chủ được hành vi của mình xác lập giao dịch;\n\nđ) Giao dịch dân sự được xác lập trong trường hợp giao dịch dân sự không tuân thủ quy định về hình thức.\n\n2. Hết thời hiệu quy định tại khoản 1 Điều này mà không có yêu cầu tuyên bố giao dịch dân sự vô hiệu thì giao dịch dân sự có hiệu lực.\n\n3. Đối với giao dịch dân sự quy định tại Điều 123 và Điều 124 của Bộ luật này thì thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu không bị hạn chế.",
+        "source": "vilqa_context",
+        "score": 186.19304467493214,
+        "metadata": {
+          "case_id": "vilqa-168",
+          "question": "Đối với giao dịch dân sự quy định tại Điều nào của Bộ luật dân sự 2015 thì thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu không bị hạn chế?",
+          "row_index": 168,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-166-context",
+        "text": "Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu\n\n1. Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu quy định tại các Điều 125, 126, 127, 128 và 129 của Bộ luật này là 02 năm, kể từ ngày:\n\na) Người đại diện của người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi, người bị hạn chế năng lực hành vi dân sự biết hoặc phải biết người được đại diện tự mình xác lập, thực hiện giao dịch;\n\nb) Người bị nhầm lẫn, bị lừa dối biết hoặc phải biết giao dịch được xác lập do bị nhầm lẫn, do bị lừa dối;\n\nc) Người có hành vi đe dọa, cưỡng ép chấm dứt hành vi đe dọa, cưỡng ép;\n\nd) Người không nhận thức và làm chủ được hành vi của mình xác lập giao dịch;\n\nđ) Giao dịch dân sự được xác lập trong trường hợp giao dịch dân sự không tuân thủ quy định về hình thức.\n\n2. Hết thời hiệu quy định tại khoản 1 Điều này mà không có yêu cầu tuyên bố giao dịch dân sự vô hiệu thì giao dịch dân sự có hiệu lực.\n\n3. Đối với giao dịch dân sự quy định tại Điều 123 và Điều 124 của Bộ luật này thì thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu không bị hạn chế.",
+        "source": "vilqa_context",
+        "score": 186.19304467493214,
+        "metadata": {
+          "case_id": "vilqa-166",
+          "question": "Kể từ ngày được quy định tại các điểm từ a đến đ khoản 1 Điều 132 của bộ luật Dân sự 2015, thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu quy định tại các Điều 125, 126, 127, 128 và 129 của Bộ luật này là bao lâu?",
+          "row_index": 166,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-169-context",
+        "text": "Đại diện\n\n1. Đại diện là việc cá nhân, pháp nhân (sau đây gọi chung là người đại diện) nhân danh và vì lợi ích của cá nhân hoặc pháp nhân khác (sau đây gọi chung là người được đại diện) xác lập, thực hiện giao dịch dân sự.\n\n2. Cá nhân, pháp nhân có thể xác lập, thực hiện giao dịch dân sự thông qua người đại diện. Cá nhân không được để người khác đại diện cho mình nếu pháp luật quy định họ phải tự mình xác lập, thực hiện giao dịch đó.\n\n3. Trường hợp pháp luật quy định thì người đại diện phải có năng lực pháp luật dân sự, năng lực hành vi dân sự phù hợp với giao dịch dân sự được xác lập, thực hiện.",
+        "source": "vilqa_context",
+        "score": 180.62966683469097,
+        "metadata": {
+          "case_id": "vilqa-169",
+          "question": "Việc cá nhân, pháp nhân nhân danh và vì lợi ích của cá nhân hoặc pháp nhân khác xác lập, thực hiện giao dịch dân sự được gọi là gì?",
+          "row_index": 169,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: According to the provided context, người chưa thành niên (individuals under the age of 18) are defined as those who have not yet reached the age of majority.\n\nBest Supporting Legal Evidence: The relevant legal evidence is the case profile itself which states that \"Người chưa thành niên là người chưa đủ mười tám tuổi.\" This directly supports our key claim.\n\nAnticipated Opponent Challenge: An opponent might argue that the definition of \"người chưa thành niên\" may be more complex or nuanced than simply being under the age of 18. They could attempt to introduce additional factors, such as mental capacity or independence in decision-making.\n\nStrategy for this Round: We will focus on the clear and direct language provided in the case profile regarding the age limit for \"người chưa thành niên.\" If our opponent tries to introduce additional factors, we can counter by pointing out that the question specifically asks for the definition based on age, and the case profile provides a straightforward answer.",
+        "public_argument": "Tôi đồng ý với khẳng định của bạn rằng theo Bộ luật dân sự 2015, người chưa thành niên được định nghĩa là những người chưa đủ 18 tuổi. Điều này rõ ràng được nêu trong hồ sơ vụ việc khi nói \"Người chưa thành niên là người chưa đủ mười tám tuổi.\" Không cần thiết phải đưa ra các yếu tố khác như khả năng nhận thức hoặc độc lập trong quyết định vì câu hỏi cụ thể yêu cầu định nghĩa dựa trên độ tuổi, và hồ sơ vụ việc đã cung cấp một đáp án rõ ràng và直接.",
+        "evidence_ids": [
+          "vilqa-471-context",
+          "vilqa-167-context",
+          "vilqa-168-context",
+          "vilqa-166-context",
+          "vilqa-169-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weaknesses in the Proponent's Position:\n\n1. Overly simplistic definition: The proponent might be relying too heavily on a straightforward age-based definition of \"người chưa thành niên,\" which could overlook other legal factors that might influence their status, such as mental capacity or independence in decision-making.\n\n2. Lack of context regarding different stages of minority: The proponent's argument does not differentiate between the various stages of minority according to the age limits specified (under 6, 6-14, and 15-18), which could lead to a lack of clarity on how these stages affect legal responsibility and capacity.\n\nAlternative Answer or Interpretation:\n\nWhile it is true that \"người chưa thành niên\" generally refers to individuals under the age of 18, there may be additional nuances in the legal definition. For instance, depending on the specific circumstances, an individual's mental capacity or ability to make independent decisions might also play a role in determining their status as someone who has not yet",
+        "public_argument": "Tôi đồng ý rằng \"người chưa thành niên\" thường được hiểu là những người dưới 18 tuổi. Tuy nhiên, cần lưu ý rằng Bộ luật dân sự 2015 không chỉ dựa trên độ tuổi để xác định một người chưa thành niên mà còn có thể xem xét đến khả năng tâm lý và quyết định của họ. Việc không phân biệt các giai đoạn khác nhau của tình trạng chưa thành niên (dưới 6 tuổi, 6-14 tuổi, và 15-18 tuổi) có thể dẫn tới sự thiếu rõ ràng về cách thức ảnh hưởng của những giai đoạn này tới trách nhiệm pháp lý và khả năng hành động của cá nhân.",
+        "evidence_ids": [
+          "vilqa-471-context",
+          "vilqa-167-context",
+          "vilqa-168-context",
+          "vilqa-166-context",
+          "vilqa-169-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Người chưa thành niên là người dưới 18 tuổi.",
+        "confidence": 80.0,
+        "reasoning": "Theo Bộ luật dân sự 2015, được khẳng định trong hồ sơ vụ việc và bởi cả hai bên tranh luận, người chưa thành niên được định nghĩa là những người chưa đủ 18 tuổi. Tuy nhiên cần lưu ý rằng ngoài độ tuổi, Bộ luật còn xem xét khả năng tâm lý và quyết định của họ."
+      }
+    ],
+    "verdict": {
+      "prediction": "Người chưa thành niên là người dưới 18 tuổi.",
+      "answer": "Người chưa thành niên là người dưới 18 tuổi.",
+      "confidence": 80.0,
+      "reasoning": "Theo Bộ luật dân sự 2015, được khẳng định trong hồ sơ vụ việc và bởi cả hai bên tranh luận, người chưa thành niên được định nghĩa là những người chưa đủ 18 tuổi. Tuy nhiên cần lưu ý rằng ngoài độ tuổi, Bộ luật còn xem xét khả năng tâm lý và quyết định của họ.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.4,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-17T18:09:35.758606+00:00"
+  }
+}

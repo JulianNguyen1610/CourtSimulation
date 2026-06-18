@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-148",
+    "case_type": "legal_qa",
+    "context": "Hiệu lực của nội quy lao động\n\nNội quy lao động có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của Bộ luật này nhận được đầy đủ hồ sơ đăng ký nội quy lao động.\n\nTrường hợp người sử dụng lao động sử dụng dưới 10 người lao động ban hành nội quy lao động bằng văn bản thì hiệu lực do người sử dụng lao động quyết định trong nội quy lao động.",
+    "question": "Sau bao lâu thì nội quy lao động có hiệu lực sau khi cơ quan nhà nước có thẩm quyền nhận đầy đủ hồ sơ đăng ký?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 148
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.09523809523809525,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

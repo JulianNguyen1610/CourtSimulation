@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-476",
+    "case_type": "legal_qa",
+    "context": "Quyền nhân thân\n\n1. Quyền nhân thân được quy định trong Bộ luật này là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.\n\n2. Việc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi phải được người đại diện theo pháp luật của người này đồng ý theo quy định của Bộ luật này, luật khác có liên quan hoặc theo quyết định của Tòa án.\n\nViệc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người bị tuyên bố mất tích, người đã chết phải được sự đồng ý của vợ, chồng hoặc con thành niên của người đó; trường hợp không có những người này thì phải được sự đồng ý của cha, mẹ của người bị tuyên bố mất tích, người đã chết, trừ trường hợp Bộ luật này, luật khác có liên quan quy định khác.",
+    "question": "Theo Điều 25, Bộ luật dân sự 2015, quyền nhân thân là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 476
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.8307692307692308,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

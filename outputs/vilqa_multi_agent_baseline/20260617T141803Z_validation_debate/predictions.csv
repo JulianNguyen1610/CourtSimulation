@@ -1,0 +1,2 @@
+case_id,split,method,question,gold_answer,predicted_answer,exact_match,f1,output_path
+vilqa-112,validation,debate,Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?,"người đang chiếm hữu, sử dụng, quản lý di sản",The current possessor or user of the estate will continue to manage it until the heirs appoint a new manager.,0.0,0.0,outputs\vilqa_multi_agent_baseline\20260617T141803Z_validation_debate\evaluations\vilqa-112_debate.json

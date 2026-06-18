@@ -1,0 +1,9 @@
+pandas
+pydantic
+pyyaml
+google-genai
+openai
+transformers
+torch
+sentence-transformers
+datasets

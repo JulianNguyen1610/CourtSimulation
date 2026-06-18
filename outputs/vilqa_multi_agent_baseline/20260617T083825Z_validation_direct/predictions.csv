@@ -1,0 +1,12 @@
+case_id,split,method,question,gold_answer,predicted_answer,exact_match,f1,output_path
+vilqa-112,validation,direct,Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?,"người đang chiếm hữu, sử dụng, quản lý di sản","Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.",0.0,0.29850746268656714,
+vilqa-285,validation,direct,Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?,100.000.000 đồng đến dưới 500.000.000 đồng,từ 100.000.000 đồng đến dưới 500.000.000 đồng,0.0,0.923076923076923,
+vilqa-352,validation,direct,"Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền tối đa bao nhiêu?",100.000.000 đồng,phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng,0.0,0.4,
+vilqa-327,validation,direct,Người cung cấp hoặc thu thập nhằm cung cấp bí mật nhà nước cho nước ngoài bị phạt như thế nào?,"phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình","bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",0.0,0.9655172413793104,
+vilqa-138,validation,direct,Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động phải bố trí ngày nghỉ ra sao?,01 tháng ít nhất 04 ngày,"{
+  ""prediction"": ""Người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày."",
+  ""answer"": ""Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày."",
+  ""confidence"": 100,
+  ""reasoning"": ""Câu trả lời được trích xuất trực tiếp từ điểm 1 của văn bản cung cấp, nơi quy định cụ thể về trách nhiệm của người sử dụng lao động khi không thể nghỉ hằng tuần do chu kỳ lao động.
+""
+}",0.0,0.10169491525423728,

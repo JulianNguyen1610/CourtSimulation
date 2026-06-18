@@ -1,0 +1,129 @@
+{
+  "case": {
+    "case_id": "vilqa-0",
+    "case_type": "legal_qa",
+    "context": "Tội chiếm đoạt hoặc hủy hoại di vật của tử sỹ\n\n1. Người nào chiếm đoạt hoặc hủy hoại di vật của tử sỹ, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Là chỉ huy hoặc sĩ quan;\n\nb) Chiếm đoạt hoặc hủy hoại di vật của 02 tử sỹ trở lên.",
+    "question": "Chiếm đoạt di vật của tử sĩ có thể bị phạt tù lên đến bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 0
+    }
+  },
+  "result": {
+    "case_id": "vilqa-0",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-0-context",
+        "text": "Tội chiếm đoạt hoặc hủy hoại di vật của tử sỹ\n\n1. Người nào chiếm đoạt hoặc hủy hoại di vật của tử sỹ, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Là chỉ huy hoặc sĩ quan;\n\nb) Chiếm đoạt hoặc hủy hoại di vật của 02 tử sỹ trở lên.",
+        "source": "vilqa_context",
+        "score": 288.6303669699456,
+        "metadata": {
+          "case_id": "vilqa-0",
+          "question": "Chiếm đoạt di vật của tử sĩ có thể bị phạt tù lên đến bao nhiêu năm?",
+          "row_index": 0
+        }
+      },
+      {
+        "doc_id": "vilqa-11-context",
+        "text": "Tội cố ý bỏ thương binh, tử sỹ hoặc không chăm sóc, cứu chữa thương binh\n\n1. Người nào có trách nhiệm mà cố ý bỏ thương binh, tử sĩ tại trận địa hoặc không chăm sóc, cứu chữa thương binh dẫn đến không tìm thấy thương binh, tử sỹ hoặc thương binh bị chết, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Là chỉ huy hoặc sĩ quan;\n\nb) Đối với 02 thương binh hoặc 02 tử sỹ trở lên.",
+        "source": "vilqa_context",
+        "score": 164.3436697208939,
+        "metadata": {
+          "case_id": "vilqa-11",
+          "question": "Người có trách nhiệm mà cố ý bỏ nhiều hơn 2 thương binh tại trận địa dẫn đến thương binh bị chết thì bị phạt tù từ bao nhiêu đến bao nhiêu năm?",
+          "row_index": 11
+        }
+      },
+      {
+        "doc_id": "vilqa-289-context",
+        "text": "Tội chiếm giữ trái phép tài sản\n\n1. Người nào cố tình không trả lại cho chủ sở hữu, người quản lý hợp pháp hoặc không giao nộp cho cơ quan có trách nhiệm tài sản trị giá từ 10.000.000 đồng đến dưới 200.000.000 đồng, di vật, cổ vật hoặc vật có giá trị lịch sử, văn hóa bị giao nhầm hoặc do mình tìm được, bắt được, sau khi chủ sở hữu, người quản lý hợp pháp hoặc cơ quan có trách nhiệm yêu cầu được nhận lại tài sản đó theo quy định của pháp luật, thì bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội chiếm giữ tài sản trị giá 200.000.000 đồng trở lên hoặc bảo vật quốc gia, thì bị phạt tù từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 132.5413255672694,
+        "metadata": {
+          "case_id": "vilqa-289",
+          "question": "Cố tình không trả lại tài sản cho chủ sở hữ hợp pháp với giá trị từ 10.000.000 đồng đến dưới 200.000.000 đồng thì bị phạt cải tạo không giam giữ đến bao lâu?",
+          "row_index": 289
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "[mock-5e0b7721] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-1847d51b] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-0-context",
+          "vilqa-11-context",
+          "vilqa-289-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "[mock-37cc3d24] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-21e046ae] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-0-context",
+          "vilqa-11-context",
+          "vilqa-289-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "proponent",
+        "round_index": 2,
+        "private_strategy": "[mock-a533a882] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-88bd86df] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-0-context",
+          "vilqa-11-context",
+          "vilqa-289-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 2,
+        "private_strategy": "[mock-dace52f8] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-7cc1cd4c] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-0-context",
+          "vilqa-11-context",
+          "vilqa-289-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Cần đối chiếu ngữ cảnh pháp luật (c31dae0b)",
+        "confidence": 55.0,
+        "reasoning": "Mock judge dựa trên lập luận hai bên và chưa dùng đáp án vàng."
+      },
+      {
+        "round_index": 2,
+        "prediction": "Cần đối chiếu ngữ cảnh pháp luật (304442ac)",
+        "confidence": 55.0,
+        "reasoning": "Mock judge dựa trên lập luận hai bên và chưa dùng đáp án vàng."
+      }
+    ],
+    "verdict": {
+      "prediction": "Cần đối chiếu ngữ cảnh pháp luật (7319dcd8)",
+      "answer": "07 năm",
+      "confidence": 55.0,
+      "reasoning": "Mock judge dựa trên lập luận hai bên và chưa dùng đáp án vàng.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": null,
+    "created_at": "2026-06-17T04:47:24.936158+00:00"
+  }
+}

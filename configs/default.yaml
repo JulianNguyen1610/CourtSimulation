@@ -1,0 +1,164 @@
+experiment:
+  name: vilqa_multi_agent_simple_baseline
+  seed: 42
+  output_dir: outputs/vilqa_multi_agent_baseline
+
+dataset:
+  name: ViLQA_ALQAC
+  path: data/ALQAC.csv
+  format: csv
+  columns:
+    context: context
+    question: question
+    answer: answer
+  split:
+    train_ratio: 0.8
+    validation_ratio: 0.1
+    test_ratio: 0.1
+
+retrieval:
+  legal_evidence_top_k: 5
+  past_memory_top_k: 5
+  rough_top_n: 100
+  method: bm25_only
+  reranker_model: BAAI/bge-m3
+  ablations:
+    - off
+    - bm25_only
+    - bm25_rerank
+  legal_corpus:
+    include_uts_vlc: false
+    dataset: VietnamAIHub/UTS_VLC
+    split: train
+    limit: null
+    metadata_fields:
+      - article_id
+      - law_name
+      - source_type
+
+memory:
+  path: memory-bank/baseline_memory.json
+  mode: read_only
+  retrieval: lexical
+  embedding_model: intfloat/multilingual-e5-large
+  max_entries_per_bucket: 1000
+  update_after_debate: false
+  ablations:
+    - off
+    - read_only
+    - read_update
+
+debate:
+  rounds: 3
+  argument_max_tokens: 500
+  include_closing_statements: true
+  enable_judge_question: false
+  early_stop_confidence: null
+  roles:
+    proponent: supports_answer
+    opponent: challenges_answer
+    judge: decides_answer
+  ablations:
+    rounds:
+      - 1
+      - 3
+      - 5
+    judge:
+      - off
+      - on
+    roles:
+      - proponent-opponent
+      - prosecutor-defense
+
+llm:
+  # Use --llm mock for unit tests/CI. Real experiments should use a real
+  # provider. API keys must come from environment variables such as
+  # GEMINI_API_KEY, GOOGLE_API_KEY, or OPENAI_API_KEY.
+  backend: gemini
+  default:
+    backend: gemini
+    temperature: 0.2
+    max_output_tokens: 1024
+    top_p: 0.95
+  gemini:
+    model: gemini-2.0-flash
+    temperature: 0.2
+    max_output_tokens: 1024
+    top_p: 0.95
+  openai:
+    model: gpt-4o-mini
+    temperature: 0.2
+    max_output_tokens: 1024
+    top_p: 0.95
+  local:
+    # Ollama OpenAI-compatible API (ollama serve must be running)
+    model: qwen3.5:9b
+    endpoint: http://localhost:11434/v1/chat/completions
+    temperature: 0.2
+    max_output_tokens: 1024
+    top_p: 0.95
+  roles:
+    direct:
+      backend: gemini
+      model: gemini-2.0-flash
+      temperature: 0.1
+    cot:
+      backend: gemini
+      model: gemini-2.0-flash
+      temperature: 0.1
+    vanilla:
+      backend: gemini
+      model: gemini-2.0-flash
+      temperature: 0.3
+    proponent:
+      backend: gemini
+      model: gemini-2.0-flash
+      temperature: 0.4
+    opponent:
+      backend: gemini
+      model: gemini-2.0-flash
+      temperature: 0.4
+    judge:
+      backend: gemini
+      model: gemini-2.0-flash
+      temperature: 0.1
+    evaluator:
+      backend: gemini
+      model: gemini-2.0-flash
+      temperature: 0.0
+
+models:
+  proponent: gemini-2.0-flash
+  opponent: gemini-2.0-flash
+  judge: gemini-2.0-flash
+  evaluator: exact_match_f1
+  extractive_qa: deepset/xlm-roberta-base-squad2
+
+baselines:
+  direct_llm:
+    prompt: configs/prompts/direct_prediction.txt
+  cot_llm:
+    prompt: configs/prompts/cot_prediction.txt
+  vanilla_debate:
+    prompt: configs/prompts/vanilla_debate.txt
+  extractive_qa:
+    model: deepset/xlm-roberta-base-squad2
+  bm25_reader:
+    retriever: lightweight_bm25
+    top_k: 5
+
+evaluation:
+  enable_llm_evaluator: false
+  human_eval_subset:
+    enabled: false
+    sample_size: 0
+  metrics:
+    - exact_match
+    - f1
+    - legal_accuracy
+    - argument_quality
+    - logical_consistency
+  batch:
+    default_split: validation
+    default_method: both
+    default_limit: 10

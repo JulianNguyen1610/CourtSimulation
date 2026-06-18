@@ -1,0 +1,153 @@
+{
+  "case": {
+    "case_id": "vilqa-285",
+    "case_type": "legal_qa",
+    "context": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+    "question": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 285
+    }
+  },
+  "result": {
+    "case_id": "vilqa-285",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-303-context",
+        "text": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+        "source": "vilqa_context",
+        "score": 274.73235487455634,
+        "metadata": {
+          "case_id": "vilqa-303",
+          "question": "Tội vô ý gây thiệt hại tài sản của người khác trị giá đến dưới bao nhiêu thì bị phạt cảnh cáo?",
+          "row_index": 303,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-286-context",
+        "text": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+        "source": "vilqa_context",
+        "score": 274.73235487455634,
+        "metadata": {
+          "case_id": "vilqa-286",
+          "question": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu trở lên thì bị phạt cải tạo không giam giữ từ 02 năm đến 03 năm hoặc phạt tù từ 03 tháng đến 02 năm.",
+          "row_index": 286,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-356-context",
+        "text": "Tội đào nhiệm\n\n1. Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm:\n\na) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 31% trở lên;\n\nb) Gây thiệt hại về tài sản từ 300.000.000 đồng đến dưới 1.000.000.000 đồng;\n\nc) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Làm chết người;\n\nb) Lôi kéo người khác đào nhiệm;\n\nc) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên;\n\nd) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong những trường hợp khó khăn đặc biệt khác của xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 179.52996549975245,
+        "metadata": {
+          "case_id": "vilqa-356",
+          "question": "Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác gây hậu quả nghiêm trọng, thì bị phạt như thế nào?",
+          "row_index": 356,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-358-context",
+        "text": "Tội đào nhiệm\n\n1. Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm:\n\na) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 31% trở lên;\n\nb) Gây thiệt hại về tài sản từ 300.000.000 đồng đến dưới 1.000.000.000 đồng;\n\nc) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Làm chết người;\n\nb) Lôi kéo người khác đào nhiệm;\n\nc) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên;\n\nd) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong những trường hợp khó khăn đặc biệt khác của xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 179.52996549975245,
+        "metadata": {
+          "case_id": "vilqa-358",
+          "question": "Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác và lôi kéo người khác đào nhiệm thì bị phạt như thế nào?",
+          "row_index": 358,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-21-context",
+        "text": "Tội vi phạm các quy định về bảo vệ và sử dụng di tích lịch sử - văn hóa, danh lam, thắng cảnh gây hậu quả nghiêm trọng\n\n1. Người nào vi phạm các quy định về bảo vệ và sử dụng các di tích lịch sử - văn hóa, danh lam, thắng cảnh, gây hư hại di tích lịch sử - văn hóa, danh lam, thắng cảnh có giá trị từ 100.000.000 đồng đến dưới 500.000.000 đồng; hủy hoại, làm thay đổi yếu tố gốc cấu thành di tích lịch sử - văn hóa, danh lam thắng cảnh cấp tỉnh hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cảnh cáo, phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội trong trường hợp gây hư hại di tích lịch sử - văn hóa, danh lam, thắng cảnh có giá trị từ 500.000.000 đồng trở lên hoặc hủy hoại, làm thay đổi yếu tố gốc cấu thành di tích lịch sử - văn hóa, danh lam thắng cảnh cấp quốc gia hoặc cấp quốc gia đặc biệt, thì bị phạt tù từ 03 năm đến 07 năm.",
+        "source": "vilqa_context",
+        "score": 178.92551524172427,
+        "metadata": {
+          "case_id": "vilqa-21",
+          "question": "Người gây hư hại di tích lịch sử - văn hóa, danh lam, thắng cảnh có giá trị từ 500.000.000 đồng trở lên, thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 21,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim:\n\nVô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\nBest Supporting Legal Evidence:\n\n1. Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n   - Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\nAnticipated Opponent Challenge:\n\n- The opponent may argue that the claim is incorrect or incomplete by presenting other legal evidence or past memories that contradict the key claim.\n\nStrategy for this Round:\n\n- Present the key claim clearly and concisely.\n- Provide the best supporting legal evidence to strengthen the argument.\n- Anticipate potential counterarguments from",
+        "public_argument": "In this debate, I argue that according to Vietnamese law, if someone unintentionally causes damage to another person's property worth between 100,000,000 and 500,000,000 VND, they will be subject to a warning or up to two years of correctional detention without imprisonment. This is supported by the evidence in the case profile which states: \"Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\" Therefore, I assert that the answer to the question is: Vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.",
+        "evidence_ids": [
+          "vilqa-303-context",
+          "vilqa-286-context",
+          "vilqa-356-context",
+          "vilqa-358-context",
+          "vilqa-21-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weaknesses in the Proponent's Position:\n\nThe proponent's argument is based on a specific range of damage values (100.000.000 - 500.000.000 VND) and corresponding penalties. However, there may be other relevant factors or conditions that are not considered in the proponent's claim.\n\nAlternative Answer or Interpretation:\n\nIt could be argued that the penalty for unintentional damage to property should also consider the severity of the damage, the intent behind the action causing the damage, or any mitigating circumstances.\n\nEvidence Needed to Support the Challenge:\n\nTo support this challenge, one could look for legal documents or past cases where the severity of the damage, intent, or mitigating circumstances influenced the penalty. For example, if there is a law stating that the penalty should be based on the degree of fault or negligence in causing the damage.\n\nStrategy for This Round:\n\nIn this round, I will challenge the proponent's argument by pointing out the potential omission of relevant factors in",
+        "public_argument": "I respectfully disagree with the proponent's argument that the penalty for unintentional damage to property should only consider the specific range of damage values (100.000.000 - 500.000.000 VND) and corresponding penalties. It is crucial to also take into account other relevant factors, such as the severity of the damage, the intent behind the action causing the damage, or any mitigating circumstances.\n\nThe proponent's claim seems to overlook these important aspects that could significantly impact the appropriate penalty for unintentional property damage. Therefore, I urge the court to consider all relevant factors when determining penalties for such cases.",
+        "evidence_ids": [
+          "vilqa-303-context",
+          "vilqa-286-context",
+          "vilqa-356-context",
+          "vilqa-358-context",
+          "vilqa-21-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "The penalty for unintentional damage to property worth between 100,000,000 and 500,000,000 VND is a warning or up to two years of correctional detention without imprisonment.",
+        "confidence": 80.0,
+        "reasoning": "According to Vietnamese law, as stated in the case profile, individuals who unintentionally cause damage to another person's property within this value range are subject to a specific penalty. The proponent argument aligns with this information and provides evidence for their claim."
+      }
+    ],
+    "verdict": {
+      "prediction": "The penalty for unintentional damage to property worth between 100,000,000 and 500,000,000 VND is a warning or up to two years of correctional detention without imprisonment.",
+      "answer": "The penalty for unintentional damage to property worth between 100,000,000 and 500,000,000 VND is a warning or up to two years of correctional detention without imprisonment.",
+      "confidence": 80.0,
+      "reasoning": "Based on the case profile provided, according to Vietnamese law, individuals who unintentionally cause damage to another person's property within this value range are subject to a specific penalty. The proponent argument aligns with this information and provides evidence for their claim.",
+      "cited_evidence_ids": [
+        "vilqa-303-context",
+        "vilqa-286-context",
+        "vilqa-356-context",
+        "vilqa-358-context",
+        "vilqa-21-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.125,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-17T17:23:06.332021+00:00"
+  }
+}

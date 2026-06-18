@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-273",
+    "case_type": "legal_qa",
+    "context": "Hủy bỏ việc đơn phương chấm dứt hợp đồng lao động\n\nMỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.",
+    "question": "Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải làm gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data\\ALQAC.csv",
+      "row_index": 273
+    }
+  },
+  "result": {
+    "case_id": "vilqa-273",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-103-context",
+        "text": "Đơn phương chấm dứt thực hiện hợp đồng dịch vụ\n\n1. Trường hợp việc tiếp tục thực hiện công việc không có lợi cho bên sử dụng dịch vụ thì bên sử dụng dịch vụ có quyền đơn phương chấm dứt thực hiện hợp đồng, nhưng phải báo cho bên cung ứng dịch vụ biết trước một thời gian hợp lý; bên sử dụng dịch vụ phải trả tiền công theo phần dịch vụ mà bên cung ứng dịch vụ đã thực hiện và bồi thường thiệt hại.\n\n2. Trường hợp bên sử dụng dịch vụ vi phạm nghiêm trọng nghĩa vụ thì bên cung ứng dịch vụ có quyền đơn phương chấm dứt thực hiện hợp đồng và yêu cầu bồi thường thiệt hại.",
+        "source": "vilqa_context",
+        "score": 114.09424449358542,
+        "metadata": {
+          "case_id": "vilqa-103",
+          "question": "Bên cung ứng dịch vụ có quyền gì nếu bên sử dụng dịch vụ vi phạm nghiêm trọng nghĩa vụ thoả thuận trong hợp đồng?",
+          "row_index": 103,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-160-context",
+        "text": "Quyền đơn phương chấm dứt, tạm hoãn hợp đồng lao động của lao động nữ mang thai\n\n1. Lao động nữ mang thai nếu có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi thì có quyền đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động.\n\nTrường hợp đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động thì phải thông báo cho người sử dụng lao động kèm theo xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi.\n\n2. Trường hợp tạm hoãn thực hiện hợp đồng lao động, thời gian tạm hoãn do người lao động thỏa thuận với người sử dụng lao động nhưng tối thiểu phải bằng thời gian do cơ sở khám bệnh, chữa bệnh có thẩm quyền chỉ định tạm nghỉ. Trường hợp không có chỉ định của cơ sở khám bệnh, chữa bệnh có thẩm quyền về thời gian tạm nghỉ thì hai bên thỏa thuận về thời gian tạm hoãn thực hiện hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 113.24906574582278,
+        "metadata": {
+          "case_id": "vilqa-160",
+          "question": "Lao động nữ có thể đơn phương chấm dứt hợp đồng trong trường hợp nào?",
+          "row_index": 160,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-161-context",
+        "text": "Quyền đơn phương chấm dứt, tạm hoãn hợp đồng lao động của lao động nữ mang thai\n\n1. Lao động nữ mang thai nếu có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi thì có quyền đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động.\n\nTrường hợp đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động thì phải thông báo cho người sử dụng lao động kèm theo xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi.\n\n2. Trường hợp tạm hoãn thực hiện hợp đồng lao động, thời gian tạm hoãn do người lao động thỏa thuận với người sử dụng lao động nhưng tối thiểu phải bằng thời gian do cơ sở khám bệnh, chữa bệnh có thẩm quyền chỉ định tạm nghỉ. Trường hợp không có chỉ định của cơ sở khám bệnh, chữa bệnh có thẩm quyền về thời gian tạm nghỉ thì hai bên thỏa thuận về thời gian tạm hoãn thực hiện hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 113.24906574582278,
+        "metadata": {
+          "case_id": "vilqa-161",
+          "question": "Khi có chỉ định của cơ sở khám bênh, người lao động nữ có thẻ tạm hõa thực hiện hợp đồng lao động trong bao lâu?",
+          "row_index": 161,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-158-context",
+        "text": "Bảo vệ thai sản\n\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:\n\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;\n\nb) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.\n\n2. Lao động nữ làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hoặc làm nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con khi mang thai và có thông báo cho người sử dụng lao động biết thì được người sử dụng lao động chuyển sang làm công việc nhẹ hơn, an toàn hơn hoặc giảm bớt 01 giờ làm việc hằng ngày mà không bị cắt giảm tiền lương và quyền, lợi ích cho đến hết thời gian nuôi con dưới 12 tháng tuổi.\n\n3. Người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo pháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\n\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 95.02304770633225,
+        "metadata": {
+          "case_id": "vilqa-158",
+          "question": "Cần phải làm gì đối với lao động đang mang thai và đang làm công việc nặng nhọc, độc hại, nguy hiểm?",
+          "row_index": 158,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-159-context",
+        "text": "Bảo vệ thai sản\n\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:\n\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;\n\nb) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.\n\n2. Lao động nữ làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hoặc làm nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con khi mang thai và có thông báo cho người sử dụng lao động biết thì được người sử dụng lao động chuyển sang làm công việc nhẹ hơn, an toàn hơn hoặc giảm bớt 01 giờ làm việc hằng ngày mà không bị cắt giảm tiền lương và quyền, lợi ích cho đến hết thời gian nuôi con dưới 12 tháng tuổi.\n\n3. Người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo pháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\n\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 95.02304770633225,
+        "metadata": {
+          "case_id": "vilqa-159",
+          "question": "Trong trường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì người sử dụng lao động phải ưu tiên làm gì?",
+          "row_index": 159,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: Mỗi bên có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và được bên kia đồng ý.\n\nBest Supporting Legal Evidence: Case profile\n\nAnticipated Opponent Challenge: The opponent may argue that the requirement of mutual agreement for terminating the contract is not explicitly stated in the case profile.\n\nStrategy for this Round: Emphasize on the importance of mutual agreement and provide evidence from other cases or legal documents to support the claim.",
+        "public_argument": "In this case, both parties have the right to unilaterally terminate the employment contract before the end of the notice period. However, it is essential that they provide written notification and obtain mutual agreement from the other party. This requirement ensures fairness and respect for each party's rights in terminating the contract. Therefore, it is crucial to emphasize the importance of obtaining mutual agreement when exercising this right.",
+        "evidence_ids": [
+          "vilqa-103-context",
+          "vilqa-160-context",
+          "vilqa-161-context",
+          "vilqa-158-context",
+          "vilqa-159-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weakenesses:\n\nThe proponent has not explicitly mentioned that mutual agreement is required between both parties when terminating the contract. This omission could be interpreted as a lack of clarity on this important aspect.\n\nAlternative Answer/Interpretation:\n\nWhile it is true that each party has the right to unilaterally terminate the employment contract before the end of the notice period, such action should not occur without mutual agreement from both parties involved. The requirement for written notification may not be sufficient to ensure fairness and respect in all cases.\n\nEvidence Needed:\n\nTo support this challenge, evidence from legal documents or past cases that emphasize the importance of mutual agreement in terminating contracts would be beneficial. Additionally, any relevant laws or articles that discuss this topic could serve as supporting evidence.\n\nStrategy for This Round:\n\nIn this round, we should focus on highlighting the need for mutual agreement between both parties when terminating a contract. We can provide further clarification regarding the importance of obtaining consent from the other party and emphasize how written notification alone may not be",
+        "public_argument": "The proponent's argument overlooks an essential aspect of terminating contracts: mutual agreement. While written notification is required, it alone may not suffice to ensure fairness and respect in all cases. Evidence from legal documents or past cases highlighting the importance of obtaining consent from both parties will strengthen our position.",
+        "evidence_ids": [
+          "vilqa-103-context",
+          "vilqa-160-context",
+          "vilqa-161-context",
+          "vilqa-158-context",
+          "vilqa-159-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Both parties must provide written notification and obtain mutual agreement to terminate the employment contract.",
+        "confidence": 90.0,
+        "reasoning": "According to the case profile, both parties have the right to unilaterally terminate the employment contract before the end of the notice period. However, they must provide written notification and obtain mutual agreement from the other party to ensure fairness and respect."
+      }
+    ],
+    "verdict": {
+      "prediction": "Both parties must provide written notification and obtain mutual agreement to terminate the employment contract.",
+      "answer": "Written notification and mutual agreement are required for terminating the employment contract.",
+      "confidence": 90.0,
+      "reasoning": "According to the case profile, both parties have the right to unilaterally terminate the employment contract before the end of the notice period. However, they must provide written notification and obtain mutual agreement from the other party to ensure fairness and respect.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-17T19:11:38.000858+00:00"
+  }
+}

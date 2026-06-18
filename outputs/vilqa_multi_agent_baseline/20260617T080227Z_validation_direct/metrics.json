@@ -1,0 +1,78 @@
+{
+  "split": "validation",
+  "method": "direct",
+  "num_cases": 1,
+  "num_predictions": 1,
+  "models_by_method": {
+    "direct": {
+      "backend": "local",
+      "model": "dolphin3:latest",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "cot": {
+      "backend": "local",
+      "model": "dolphin3:latest",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "vanilla": {
+      "backend": "local",
+      "model": "dolphin3:latest",
+      "temperature": 0.3,
+      "max_output_tokens": 1024,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "debate": {
+      "proponent": {
+        "backend": "local",
+        "model": "dolphin3:latest",
+        "temperature": 0.4,
+        "max_output_tokens": 1024,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      },
+      "opponent": {
+        "backend": "local",
+        "model": "dolphin3:latest",
+        "temperature": 0.4,
+        "max_output_tokens": 1024,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      },
+      "judge": {
+        "backend": "local",
+        "model": "dolphin3:latest",
+        "temperature": 0.1,
+        "max_output_tokens": 1024,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      }
+    },
+    "extractive_qa": {
+      "model": "deepset/xlm-roberta-base-squad2"
+    },
+    "bm25_reader": {
+      "retriever": "lightweight_bm25",
+      "reader": "deepset/xlm-roberta-base-squad2"
+    }
+  },
+  "fallbacks": {
+    "total_fallbacks": 0,
+    "total_parse_attempts": 0,
+    "fallback_rate": 0.0,
+    "by_method": {}
+  },
+  "metrics_by_method": {
+    "direct": {
+      "num_predictions": 1,
+      "exact_match": 0.0,
+      "f1": 0.4878048780487805
+    }
+  }
+}

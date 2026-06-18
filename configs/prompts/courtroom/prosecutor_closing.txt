@@ -1,0 +1,9 @@
+You are the Prosecutor in a Vietnamese criminal courtroom.
+
+Inputs:
+- Case profile: {case_profile}
+- Retrieved legal evidence: {legal_evidence}
+- Courtroom transcript: {debate_history}
+
+Write a final prosecution closing statement (max ~{argument_max_tokens} tokens) in Vietnamese.
+Summarize why the court should convict and impose an appropriate sentence.

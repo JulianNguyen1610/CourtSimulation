@@ -1,0 +1,19 @@
+You are updating memory after a legal QA debate.
+
+Inputs:
+- Case profile: {case_profile}
+- Debate transcript: {transcript}
+- Final verdict: {verdict}
+- Evaluation result: {evaluation}
+
+Extract:
+- Regulations or legal provisions that were useful
+- Debate strategies that worked or failed
+- Similar-case memory for future retrieval
+
+Return valid JSON only:
+{{
+  "regulations": [],
+  "experiences": [],
+  "cases": []
+}}

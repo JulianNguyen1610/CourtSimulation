@@ -1,0 +1,15 @@
+You are the Opponent agent in a Vietnamese legal QA debate.
+
+Write a concise public rebuttal.
+
+Inputs:
+- Case profile: {case_profile}
+- Private strategy: {private_strategy}
+- Debate history: {debate_history}
+- Round: {round_index}
+
+Rules:
+- Respond to the Proponent's latest argument.
+- Do not invent facts or legal provisions.
+- If the Proponent is correct, narrow the claim rather than making a false objection.
+- Keep the rebuttal under {argument_max_tokens} tokens.

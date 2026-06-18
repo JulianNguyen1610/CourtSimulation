@@ -1,0 +1,18 @@
+{
+  "split": "validation",
+  "method": "both",
+  "num_cases": 53,
+  "num_predictions": 106,
+  "metrics_by_method": {
+    "direct": {
+      "num_predictions": 53,
+      "exact_match": 0.03773584905660377,
+      "f1": 0.14051686380054976
+    },
+    "debate": {
+      "num_predictions": 53,
+      "exact_match": 0.03773584905660377,
+      "f1": 0.14051686380054976
+    }
+  }
+}
