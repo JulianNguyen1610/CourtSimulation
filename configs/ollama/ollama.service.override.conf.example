@@ -1,0 +1,15 @@
+# Copy to systemd (Linux server) so Ollama starts with sane defaults:
+#
+#   sudo mkdir -p /etc/systemd/system/ollama.service.d
+#   sudo cp configs/ollama/ollama.service.override.conf.example \
+#       /etc/systemd/system/ollama.service.d/override.conf
+#   sudo systemctl daemon-reload
+#   sudo systemctl restart ollama
+#
+# Then unload any model loaded with old context:
+#   ollama stop qwen3.5:9b
+
+[Service]
+Environment="OLLAMA_CONTEXT_LENGTH=8192"
+Environment="OLLAMA_NUM_PARALLEL=1"
+Environment="OLLAMA_MAX_LOADED_MODELS=1"

@@ -45,64 +45,66 @@ debate:
     opponent: challenges_answer
     judge: decides_answer
 
+# Ollama server should run with OLLAMA_CONTEXT_LENGTH=8192 (see
+# configs/ollama/ollama.service.override.conf.example). Model name stays qwen3.5:9b.
 llm:
   backend: local
   default:
     backend: local
-    model: dolphin3:latest
+    model: qwen3.5:9b
     endpoint: http://localhost:11434/v1/chat/completions
     temperature: 0.2
     max_output_tokens: 256
     top_p: 0.95
-    timeout: 900
+    timeout: 1200
   local:
-    model: dolphin3:latest
+    model: qwen3.5:9b
     endpoint: http://localhost:11434/v1/chat/completions
     temperature: 0.2
     max_output_tokens: 256
     top_p: 0.95
-    timeout: 900
+    timeout: 1200
   roles:
     direct:
       backend: local
-      model: dolphin3:latest
+      model: qwen3.5:9b
       temperature: 0.1
       max_output_tokens: 384
     cot:
       backend: local
-      model: dolphin3:latest
+      model: qwen3.5:9b
       temperature: 0.1
       max_output_tokens: 384
     vanilla:
       backend: local
-      model: dolphin3:latest
+      model: qwen3.5:9b
       temperature: 0.3
       max_output_tokens: 256
     proponent:
       backend: local
-      model: dolphin3:latest
+      model: qwen3.5:9b
       temperature: 0.4
       max_output_tokens: 200
     opponent:
       backend: local
-      model: dolphin3:latest
+      model: qwen3.5:9b
       temperature: 0.4
       max_output_tokens: 200
     judge:
       backend: local
-      model: dolphin3:latest
+      model: qwen3.5:9b
       temperature: 0.1
       max_output_tokens: 256
     evaluator:
       backend: local
-      model: dolphin3:latest
+      model: qwen3.5:9b
       temperature: 0.0
       max_output_tokens: 256
 
 models:
-  proponent: dolphin3:latest
-  opponent: dolphin3:latest
-  judge: dolphin3:latest
+  proponent: qwen3.5:9b
+  opponent: qwen3.5:9b
+  judge: qwen3.5:9b
 
 baselines:
   extractive_qa:

@@ -45,16 +45,28 @@ python -m src.main --run-batch --llm gemini --method both --limit 5 --rounds 1
 ```
 
 ### Ollama (local LLM)
-Đảm bảo Ollama đang chạy (`ollama serve` hoặc app Ollama). Kiểm tra model: `ollama list`.
 
-```powershell
-python -m src.main --config configs/ollama.yaml --run-batch --llm local --method direct --limit 5
-python -m src.main --config configs/ollama.yaml --run-debate --llm local --local-model qwen3.5:9b --rounds 1
+**Context / VRAM:** `qwen3.5:9b` có thể mặc định `num_ctx=262144` (~20GB+ KV). Cap **8192** trên **Ollama server** (giữ nguyên tên model):
+
+```bash
+# systemd (khuyên dùng trên Linux server)
+sudo mkdir -p /etc/systemd/system/ollama.service.d
+sudo cp configs/ollama/ollama.service.override.conf.example \
+    /etc/systemd/system/ollama.service.d/override.conf
+sudo systemctl daemon-reload && sudo systemctl restart ollama
+ollama stop qwen3.5:9b   # unload model loaded with old context
+
+# Verify sau 1 request: ollama ps → CONTEXT 8192 (not 262144)
+export LOCAL_LLM_REASONING_EFFORT=none
 ```
 
-Override nhanh không cần sửa YAML:
 ```powershell
-python -m src.main --run-batch --llm local --local-model dolphin3:latest --local-endpoint http://localhost:11434/v1/chat/completions --method direct --limit 2
+python -m src.main --config configs/ollama.yaml --run-batch --llm local --local-model qwen3.5:9b --method both --split validation --limit 0 --rounds 1
+```
+
+Override nhanh:
+```powershell
+python -m src.main --run-batch --llm local --local-model qwen3.5:9b --local-endpoint http://localhost:11434/v1/chat/completions --method direct --limit 2
 ```
 
 Để chạy offline/CI:

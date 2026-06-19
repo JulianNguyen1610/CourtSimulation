@@ -10,6 +10,8 @@ from typing import Any
 from src.llm import LLMClient, extract_candidate_from_context
 from src.models import CaseProfile
 
+_EXTRACTIVE_QA_PIPELINES: dict[str, Any] = {}
+
 
 def direct_context_candidate(case: CaseProfile) -> str:
     """Return a simple context-derived answer candidate.
@@ -75,8 +77,25 @@ def extractive_qa_prediction(
     """Extractive QA reader baseline using a Hugging Face QA pipeline.
 
     The import is lazy so offline/unit-test runs do not require transformer
-    dependencies unless this baseline is selected.
+    dependencies unless this baseline is selected. The underlying pipeline is
+    cached per ``model_name`` for the process lifetime so batch runs do not
+    reload weights on every case.
     """
+
+    reader = _get_extractive_qa_pipeline(model_name)
+    output = reader(question=case.question, context=case.context)
+    answer = output.get("answer") if isinstance(output, dict) else None
+    if not answer:
+        raise RuntimeError(f"Extractive QA model returned no answer for {case.case_id}.")
+    return str(answer).strip()
+
+
+def _get_extractive_qa_pipeline(model_name: str) -> Any:
+    """Return a cached Hugging Face question-answering pipeline."""
+
+    cached = _EXTRACTIVE_QA_PIPELINES.get(model_name)
+    if cached is not None:
+        return cached
 
     try:
         from transformers import pipeline
@@ -87,11 +106,14 @@ def extractive_qa_prediction(
         ) from exc
 
     reader = pipeline("question-answering", model=model_name, tokenizer=model_name)
-    output = reader(question=case.question, context=case.context)
-    answer = output.get("answer") if isinstance(output, dict) else None
-    if not answer:
-        raise RuntimeError(f"Extractive QA model returned no answer for {case.case_id}.")
-    return str(answer).strip()
+    _EXTRACTIVE_QA_PIPELINES[model_name] = reader
+    return reader
+
+
+def clear_extractive_qa_pipeline_cache() -> None:
+    """Clear cached extractive QA pipelines (mainly for tests)."""
+
+    _EXTRACTIVE_QA_PIPELINES.clear()
 
 
 def bm25_reader_prediction(
