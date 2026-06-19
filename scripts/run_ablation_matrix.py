@@ -37,6 +37,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--split", default="validation", choices=["train", "validation", "test"])
     parser.add_argument("--limit", type=int, default=5)
     parser.add_argument("--output-root", default="outputs/p1_ablation_matrix")
+    parser.add_argument("--local-model", default=None, help="Local/Ollama model when --llm local.")
+    parser.add_argument("--local-endpoint", default=None, help="OpenAI-compatible local endpoint.")
+    parser.add_argument("--gemini-model", default=None, help="Gemini model when --llm gemini.")
+    parser.add_argument("--local-timeout", type=float, default=None, help="Per-request timeout for --llm local.")
     parser.add_argument("--execute", action="store_true")
     parser.add_argument("--include-heavy-rerank", action="store_true")
     parser.add_argument("--summary-csv", default="docs/experiments/p1_ablation_summary.csv")
@@ -114,6 +118,14 @@ def build_command(args: argparse.Namespace, output_root: Path, variant: Ablation
         "--output-dir",
         str(output_root / variant.name),
     ]
+    if args.local_model:
+        command += ["--local-model", args.local_model]
+    if args.local_endpoint:
+        command += ["--local-endpoint", args.local_endpoint]
+    if args.gemini_model:
+        command += ["--gemini-model", args.gemini_model]
+    if args.local_timeout is not None:
+        command += ["--local-timeout", str(args.local_timeout)]
     if variant.memory == "read_update":
         command.append("--update-memory")
     return command
