@@ -2,7 +2,10 @@
 
 from __future__ import annotations
 
-from datetime import UTC, datetime
+from datetime import datetime, timezone
+
+# Python 3.10 compatibility: UTC alias
+UTC = timezone.utc
 from typing import Any, Literal
 
 from pydantic import BaseModel, Field
