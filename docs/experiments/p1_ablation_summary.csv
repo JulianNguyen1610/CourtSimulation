@@ -1,8 +1,9 @@
-variant,method,retrieval,memory,rounds,judge,roles,exact_match,f1,fallback_rate,metrics_path
-full_3r_bm25_memory_judge,debate,bm25_only,read_only,3,on,proponent-opponent,0.4716981132075472,0.798319717162694,0.02358490566037736,outputs/p1_ablation_matrix/20260619T034329Z/full_3r_bm25_memory_judge/20260619T034329Z_validation_debate/metrics.json
-retrieval_off,debate,off,read_only,3,on,proponent-opponent,0.4716981132075472,0.797855267139767,0.018867924528301886,outputs/p1_ablation_matrix/20260619T034329Z/retrieval_off/20260619T052512Z_validation_debate/metrics.json
-memory_off,debate,bm25_only,off,3,on,proponent-opponent,0.49056603773584906,0.8358562573312662,0.009433962264150943,outputs/p1_ablation_matrix/20260619T034329Z/memory_off/20260619T070426Z_validation_debate/metrics.json
-memory_update_on,debate,bm25_only,read_update,3,on,proponent-opponent,0.41509433962264153,0.791173913306909,0.018867924528301886,outputs/p1_ablation_matrix/20260619T034329Z/memory_update_on/20260619T082245Z_validation_debate/metrics.json
-rounds_1,debate,bm25_only,read_only,1,on,proponent-opponent,0.5660377358490566,0.8563830829843405,0.018867924528301886,outputs/p1_ablation_matrix/20260619T034329Z/rounds_1/20260619T101431Z_validation_debate/metrics.json
-rounds_5,debate,bm25_only,read_only,5,on,proponent-opponent,0.5283018867924528,0.8372905758586615,0.009433962264150943,outputs/p1_ablation_matrix/20260619T034329Z/rounds_5/20260619T104944Z_validation_debate/metrics.json
-judge_off_vanilla,vanilla,bm25_only,read_only,3,off,proponent-opponent,0.5849056603773585,0.8920897349401159,0.0,outputs/p1_ablation_matrix/20260619T034329Z/judge_off_vanilla/20260619T134413Z_validation_vanilla/metrics.json
+run_id,date,split,n_cases,method,rounds,model,retrieval,memory,em,f1,fallback_rate,run_dir,notes
+local_dolphin3_direct,2026-06-17,validation,53,direct,1,dolphin3:latest,bm25_only,off,0.2642,0.6802,,,local baseline reference
+local_dolphin3_debate,2026-06-17,validation,53,debate,1,dolphin3:latest,bm25_only,off,0.0755,0.3677,0.0094,,over-extraction
+local_dolphin3_both,2026-06-17,validation,53,both,1,dolphin3:latest,bm25_only,off,0.2075,0.6572,,,direct F1>debate
+qwen_broken_config_both,2026-06-17,validation,53,both,1,qwen3.5:9b,bm25_only,off,0.0189,0.4034,,,INVALID direct max_tokens=128
+server_qwen_fix_both_direct,2026-06-19,validation,53,direct,1,qwen3.5:9b,bm25_only,off,0.2453,0.6634,,20260619T212113Z_validation_both,fair comparison
+server_qwen_fix_both_debate_r1,2026-06-19,validation,53,debate,1,qwen3.5:9b,bm25_only,off,0.4906,0.8124,0.0472,20260619T212113Z_validation_both,BEST debate>direct
+server_qwen_debate_r3,2026-06-19,validation,53,debate,3,qwen3.5:9b,bm25_only,off,0.4151,0.7633,0.0189,,r3 worst ablation
+server_qwen_debate_r5,2026-06-19,validation,53,debate,5,qwen3.5:9b,bm25_only,off,0.4528,0.8048,0.0094,,r5 between r1 and r3

@@ -1,28 +1,42 @@
 # Active Context
 
 ## Đang Làm Gì
-- Phase 3 courtroom LJP scaffold đã được implement (agents, protocol, session, data model, LJP metrics).
-- Trọng tâm tiếp theo: validation pilot case VN bằng LLM thật, tích hợp dataset SimuCourt/VLegal-Bench, và batch courtroom experiments.
-- Phase 1 ViLQA/ALQAC debate vẫn chạy qua `DebateOrchestrator` và `DebateAgent` (backward compatible).
+- **Phase 1 validation qwen3.5:9b — milestone chính đạt được** trên server spark-063e.
+- Run chính: `outputs/vilqa_multi_agent_baseline/20260619T212113Z_validation_both`.
+- Ablation rounds 1/3/5 hoàn tất; **r=1 optimum** (EM 0.49 > r=5 0.45 > r=3 0.42).
+- Error analysis hoàn tất; 4 case regression đã phân loại.
+- Tiếp theo: baselines cot/vanilla/reader, ablation retrieval, test split, results-summary.
 
-## Thay Đổi Gần Đây
-- **P1 local debate QA fix**: Sau validation `dolphin3:latest`, direct > debate rõ rệt; lỗi chính là debate over-extraction/paraphrase, không phải JSON fallback. Đã siết prompt `judge_belief`, `judge_verdict`, `proponent_argument`, `opponent_rebuttal`, `proponent_strategy`, `opponent_strategy` để bắt answer/prediction là span tiếng Việt trích nguyên văn; thêm `src/utils/answer_postprocess.py` và tích hợp vào `_run_debate` để rút các span legal phổ biến mà không dùng gold answer.
-- **Công bằng hoá so sánh**: `shorten_legal_answer` giờ áp dụng đồng đều cho `direct`, `cot`, `vanilla`, `debate` (trước đây chỉ debate) để loại bias. Thêm pattern tiền "… đồng trở lên". Sửa bug `ollama.yaml` direct `max_output_tokens` 128→256 (gây JSON bị cắt và dump thô ở direct).
-- **Kết quả validation 53 (dolphin3, rounds=1)**: direct EM=0.2642/F1=0.6802 vs debate (sau fix) EM=0.1698/F1=0.5111. Phân loại direct-thắng/debate-thắng/cả-hai-sai = 11/6/33; phần lớn lỗi còn lại là suy luận của model nhỏ, không phải format.
-- **BREAKTHROUGH validation 53 (qwen3.5:9b, rounds=1)**: debate EM=0.4717/F1=0.8106 **vượt xa** direct EM=0.0189/F1=0.4034 — lần đầu debate > direct rõ rệt. NGUYÊN NHÂN direct sụp: config Linux chạy `direct.max_output_tokens=128` → qwen3.5 (thinking) sinh JSON dài bị cắt → parse fail. Repo đã để direct/cot=384; cần `git pull` trên máy Linux.
-- **Robustness fix (để direct baseline đáng tin)**: thêm `_recover_json_field` trong `src/baselines.py` và `JudgeAgent._recover_json_field` để khôi phục `answer`/`prediction` từ JSON bị cắt; bump `ollama.yaml` direct/cot `max_output_tokens` 256→384. Debate KHÔNG bị động vào (đang là method thắng).
-- **Phase 3 agents**: `ProsecutorAgent`, `DefenseAgent`, `DefendantAgent` + `BaseLegalAgent`; `JudgeAgent` mở rộng `open_session`, `deliberate`, `render_ljp_verdict`; `src/agents/compat.py` alias Phase 1.
-- **Courtroom protocol**: `src/courtroom/protocol.py` (opening/debate_round/closing), `src/courtroom/session.py` (lifecycle 3 giai đoạn), `configs/courtroom.yaml`.
-- **Data model**: `CourtCase`, `EvidenceItem`, `Testimony`, `JudgmentGroundTruth`, `LegalJudgment`, `CourtroomResult`, `LJPEvalResult` trong `src/models.py`.
-- **Data loader**: `load_court_case_json`, `load_simucourt`, `load_vlegal` trong `src/data_loader.py`; pilot `data/processed/case_01_theft.json`.
-- **LJP evaluation**: `src/evaluation/ljp_evaluator.py` — charge/article accuracy, sentence MAE/RMSE/bucket, citation validity hooks.
-- **CLI**: `--run-courtroom`, `--courtroom-case`, `--courtroom-config` trong `src/main.py`.
-- **Tests**: `tests/test_phase5_courtroom.py` — 23 tests pass tổng cộng.
+## Thay Đổi Gần Đây (2026-06-20)
+
+### Kết quả chính — both validation 53
+- direct: EM=0.2453, F1=0.6634
+- debate r=1: EM=0.4906, F1=0.8124; fallback 4.72%
+- So sánh công bằng (max_output_tokens=384, qwen3.5:9b)
+
+### Ablation rounds (debate only)
+| Rounds | EM | F1 |
+|---:|---:|---:|
+| 1 | 0.4906 | 0.8124 |
+| 3 | 0.4151 | 0.7633 |
+| 5 | 0.4528 | 0.8048 |
+
+Kết luận: **1 round là optimum**; nhiều rounds gây belief drift (r=3 tệ nhất); r=5 phục hồi một phần nhưng không vượt r=1.
+
+### Error analysis (`20260619T212113Z_validation_both`)
+- Debate sửa 17 case, regression 4 case, cả hai sai 23 case.
+- Lỗi chủ yếu: OVER_EXTRACTION (direct 67.5% → debate 55.6%).
+- 4 regression: vilqa-236 (prefix "Sau"), vilqa-125 (span dài), vilqa-36 (over-extract hình phạt), vilqa-499 (list chỉ lấy 1 mục).
+
+## Kết quả quan trọng cần nhớ
+- Claim chính: debate r=1 > direct trên val 53 qwen3.5 (fair config).
+- Không claim run max_tokens=128 hoặc dolphin3.
+- Default config paper: rounds=1, bm25_only, memory=off, judge=on.
 
 ## Bước Tiếp Theo
-1. Chạy lại P1 `debate --split validation --limit 10 --rounds 1` bằng Ollama để kiểm tra prompt/postprocess mới.
-2. Nếu limit-10 cải thiện đủ, chạy full validation 53; nếu vẫn thua direct, làm error analysis trước ablation.
-3. Chạy pilot courtroom mock: `python -m src.main --run-courtroom --llm mock`.
-4. Chạy pilot VN theft case bằng Gemini/local khi API sẵn sàng.
-5. Thử `load_simucourt()` / `load_vlegal()` với HF datasets; điều chỉnh field mapping nếu schema khác.
-6. Thêm batch runner cho courtroom LJP (tương tự `BaselineBatchRunner`).
+1. Chạy cot + vanilla + reader baselines trên validation 53.
+2. Ablation retrieval (off vs bm25 vs rerank) với debate r=1.
+3. Viết `docs/experiments/results-summary.md`.
+4. Cải thiện postprocess: prefix "Sau", list answers.
+5. Test split 1 lần sau khi chốt config.
+6. Phase 3 courtroom pilot qwen3.5/Gemini.
