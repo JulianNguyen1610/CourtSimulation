@@ -5,7 +5,10 @@ from __future__ import annotations
 import csv
 import json
 from dataclasses import dataclass
-from datetime import UTC, datetime
+from datetime import datetime, timezone
+
+# Python 3.10 compatibility: UTC alias
+UTC = timezone.utc
 from pathlib import Path
 from statistics import mean
 from typing import Literal
