@@ -172,7 +172,7 @@ class MemoryStore:
             if evidence.metadata.get("source_type") in {"uts_vlc_regulation", "regulation"}
         )
         if regulation_text:
-            self.regulations.append(
+            reg_entry = self._sanitize_entry(
                 {
                     "id": f"reg-{case.case_id}-{len(self.regulations)}",
                     "case_id": case.case_id,
@@ -180,9 +180,11 @@ class MemoryStore:
                     "source_evidence_ids": evidence_ids,
                     "confidence": confidence,
                     "text": regulation_text,
-                }
+                },
+                case,
             )
-        self.experiences.append(
+            self.regulations.append(reg_entry)
+        exp_entry = self._sanitize_entry(
             {
                 "id": f"exp-{case.case_id}-{len(self.experiences)}",
                 "case_id": case.case_id,
@@ -192,9 +194,11 @@ class MemoryStore:
                 "confidence": confidence,
                 "text": " ".join(turn.public_argument for turn in result.transcript)
                 or f"{case.question} {result.verdict.reasoning if result.verdict else ''}",
-            }
+            },
+            case,
         )
-        self.cases.append(
+        self.experiences.append(exp_entry)
+        case_entry = self._sanitize_entry(
             {
                 "id": f"case-{case.case_id}-{len(self.cases)}",
                 "case_id": case.case_id,
@@ -204,8 +208,10 @@ class MemoryStore:
                 "context_excerpt": case.context[:500],
                 "keywords": tokenize(case.question)[:10],
                 "text": f"{case.question} {case.context[:500]}",
-            }
+            },
+            case,
         )
+        self.cases.append(case_entry)
 
     def _reflect_memory(
         self,
@@ -250,7 +256,7 @@ class MemoryStore:
     def _sanitize_entry(self, entry: dict[str, Any], case: CaseProfile) -> dict[str, Any]:
         safe_entry = dict(entry)
         # Never persist hidden gold answer fields in memory used for inference.
-        for key in ("gold_answer", "answer", "ground_truth", "label"):
+        for key in ("gold_answer", "answer", "ground_truth", "label", "prediction"):
             safe_entry.pop(key, None)
         if case.answer:
             for key, value in list(safe_entry.items()):

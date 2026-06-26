@@ -1,0 +1,107 @@
+{
+  "split_name": "validation",
+  "method": "debate",
+  "limit": 2,
+  "resolved_num_cases": 2,
+  "rounds": 1,
+  "evidence_top_k": 5,
+  "memory_top_k": 5,
+  "output_dir": "outputs\\p1_ablation_matrix\\20260626T072444Z\\judge_question_on",
+  "memory_path": "memory-bank\\baseline_memory.json",
+  "update_memory": false,
+  "save_debate_artifacts": false,
+  "llm_backend": "mock",
+  "model": "gemini-2.0-flash",
+  "gemini_model": "gemini-2.0-flash",
+  "temperature": 0.1,
+  "max_output_tokens": 1024,
+  "top_p": 0.95,
+  "role_llm_configs": {
+    "direct": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "cot": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "vanilla": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.3,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "proponent": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "opponent": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "judge": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "evaluator": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.0,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "prosecutor": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "defense": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "defendant": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    }
+  },
+  "extractive_qa_model": "deepset/xlm-roberta-base-squad2",
+  "retrieval_method": "bm25_only",
+  "retrieval_rough_top_n": 100,
+  "retrieval_reranker_model": "BAAI/bge-m3",
+  "include_uts_vlc": false,
+  "uts_vlc_dataset": "VietnamAIHub/UTS_VLC",
+  "uts_vlc_split": "train",
+  "uts_vlc_limit": null,
+  "memory_mode": "off",
+  "memory_retrieval": "lexical",
+  "memory_max_entries": 1000,
+  "memory_embedding_model": "intfloat/multilingual-e5-large",
+  "include_closing_statements": true,
+  "enable_judge_question": true,
+  "early_stop_confidence": null,
+  "enable_llm_evaluator": false
+}

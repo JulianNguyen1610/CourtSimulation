@@ -1,0 +1,7 @@
+variant,method,retrieval,memory,rounds,judge,closing,judge_question,roles,exact_match,f1,fallback_rate,metrics_path
+retrieval_off,debate,off,off,1,on,True,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\retrieval_off\20260626T072446Z_validation_debate\metrics.json
+memory_read_only,debate,bm25_only,read_only,1,on,True,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\memory_read_only\20260626T072449Z_validation_debate\metrics.json
+memory_read_update,debate,bm25_only,read_update,1,on,True,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\memory_read_update\20260626T072451Z_validation_debate\metrics.json
+closing_off,debate,bm25_only,off,1,on,False,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\closing_off\20260626T072454Z_validation_debate\metrics.json
+judge_question_on,debate,bm25_only,off,1,on,True,True,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\judge_question_on\20260626T072456Z_validation_debate\metrics.json
+retrieval_bm25_rerank,debate,bm25_rerank,off,1,on,True,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\retrieval_bm25_rerank\20260626T072459Z_validation_debate\metrics.json

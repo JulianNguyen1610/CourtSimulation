@@ -1,0 +1,67 @@
+{
+  "regulations": [],
+  "experiences": [
+    {
+      "id": "exp-vilqa-112-0",
+      "case_id": "vilqa-112",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 55.0,
+      "text": "[mock-196c0867] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-2eb0a5df] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-86f73255] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-6a15d06f] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất."
+    },
+    {
+      "id": "exp-vilqa-285-1",
+      "case_id": "vilqa-285",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 55.0,
+      "text": "[mock-10859bf2] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-feb02505] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-fdf28410] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-307f953d] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất."
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-vilqa-112-0",
+      "case_id": "vilqa-112",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?",
+      "context_excerpt": "Người quản lý di sản\n\n1. Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\n2. Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì [REDACTED_ANSWER] tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\n3. Trường hợp chưa xác định được người thừa kế và di sản chưa có người quản lý theo quy định tại khoản 1 và khoản 2",
+      "keywords": [
+        "ai",
+        "là",
+        "người",
+        "quản",
+        "lý",
+        "di",
+        "sản",
+        "khi",
+        "di",
+        "chúc"
+      ],
+      "text": "Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản? Người quản lý di sản\n\n1. Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\n2. Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì [REDACTED_ANSWER] tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\n3. Trường hợp chưa xác định được người thừa kế và di sản chưa có người quản lý theo quy định tại khoản 1 và khoản 2"
+    },
+    {
+      "id": "case-vilqa-285-1",
+      "case_id": "vilqa-285",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?",
+      "context_excerpt": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+      "keywords": [
+        "vô",
+        "ý",
+        "gây",
+        "thiệt",
+        "hại",
+        "cho",
+        "tài",
+        "sản",
+        "người",
+        "khác"
+      ],
+      "text": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm? Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm."
+    }
+  ]
+}

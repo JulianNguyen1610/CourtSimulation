@@ -1,42 +1,23 @@
 # Active Context
 
 ## Đang Làm Gì
-- **Phase 1 validation qwen3.5:9b — milestone chính đạt được** trên server spark-063e.
-- Run chính: `outputs/vilqa_multi_agent_baseline/20260619T212113Z_validation_both`.
-- Ablation rounds 1/3/5 hoàn tất; **r=1 optimum** (EM 0.49 > r=5 0.45 > r=3 0.42).
-- Error analysis hoàn tất; 4 case regression đã phân loại.
-- Tiếp theo: baselines cot/vanilla/reader, ablation retrieval, test split, results-summary.
+- **Bước 2–4 ablation P1**: pipeline đã verify (mock, 6 variants); **chờ chạy LLM thật trên server** (Ollama local không có, Gemini quota hết).
+- B.3.9 memory leak: **done** — 4 unit tests pass.
+- ABL-10 (judge_off vanilla): **đã có** EM=0.6792 — không cần chạy lại.
 
-## Thay Đổi Gần Đây (2026-06-20)
+## Trạng thái ablation pending (cần qwen3.5:9b trên spark-063e)
 
-### Kết quả chính — both validation 53
-- direct: EM=0.2453, F1=0.6634
-- debate r=1: EM=0.4906, F1=0.8124; fallback 4.72%
-- So sánh công bằng (max_output_tokens=384, qwen3.5:9b)
-
-### Ablation rounds (debate only)
-| Rounds | EM | F1 |
-|---:|---:|---:|
-| 1 | 0.4906 | 0.8124 |
-| 3 | 0.4151 | 0.7633 |
-| 5 | 0.4528 | 0.8048 |
-
-Kết luận: **1 round là optimum**; nhiều rounds gây belief drift (r=3 tệ nhất); r=5 phục hồi một phần nhưng không vượt r=1.
-
-### Error analysis (`20260619T212113Z_validation_both`)
-- Debate sửa 17 case, regression 4 case, cả hai sai 23 case.
-- Lỗi chủ yếu: OVER_EXTRACTION (direct 67.5% → debate 55.6%).
-- 4 regression: vilqa-236 (prefix "Sau"), vilqa-125 (span dài), vilqa-36 (over-extract hình phạt), vilqa-499 (list chỉ lấy 1 mục).
-
-## Kết quả quan trọng cần nhớ
-- Claim chính: debate r=1 > direct trên val 53 qwen3.5 (fair config).
-- Không claim run max_tokens=128 hoặc dolphin3.
-- Default config paper: rounds=1, bm25_only, memory=off, judge=on.
+| Variant | Nhóm | Status |
+|---|---|---|
+| retrieval_off | B.2 retrieval | pipeline OK, chưa có metric thật |
+| retrieval_bm25_rerank | B.2 retrieval | pipeline OK (+ BGE-m3 load OK) |
+| memory_read_only | B.3 memory | pipeline OK |
+| memory_read_update | B.3 memory | pipeline OK (isolated memory file) |
+| closing_off | ABL-11 | pipeline OK |
+| judge_question_on | ABL-12 | pipeline OK |
 
 ## Bước Tiếp Theo
-1. Chạy cot + vanilla + reader baselines trên validation 53.
-2. Ablation retrieval (off vs bm25 vs rerank) với debate r=1.
-3. Viết `docs/experiments/results-summary.md`.
-4. Cải thiện postprocess: prefix "Sau", list answers.
-5. Test split 1 lần sau khi chốt config.
-6. Phase 3 courtroom pilot qwen3.5/Gemini.
+1. **Chạy trên server**: `bash scripts/run_p1_ablations.sh --execute` hoặc `.\scripts\run_p1_ablations.ps1 -Execute`
+2. Gộp kết quả vào `p1_ablation_summary.csv`
+3. Viết `docs/experiments/results-summary.md`
+4. Test split 1 lần sau khi chốt config

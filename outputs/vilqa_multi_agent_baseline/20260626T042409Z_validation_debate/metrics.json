@@ -1,0 +1,89 @@
+{
+  "split": "validation",
+  "method": "debate",
+  "num_cases": 2,
+  "num_predictions": 2,
+  "models_by_method": {
+    "direct": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "cot": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "vanilla": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.3,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "debate": {
+      "proponent": {
+        "backend": "mock",
+        "model": "gemini-2.0-flash",
+        "temperature": 0.4,
+        "max_output_tokens": 1024,
+        "top_p": 0.95
+      },
+      "opponent": {
+        "backend": "mock",
+        "model": "gemini-2.0-flash",
+        "temperature": 0.4,
+        "max_output_tokens": 1024,
+        "top_p": 0.95
+      },
+      "judge": {
+        "backend": "mock",
+        "model": "gemini-2.0-flash",
+        "temperature": 0.1,
+        "max_output_tokens": 1024,
+        "top_p": 0.95
+      }
+    },
+    "extractive_qa": {
+      "model": "deepset/xlm-roberta-base-squad2"
+    },
+    "bm25_reader": {
+      "retriever": "lightweight_bm25",
+      "reader": "deepset/xlm-roberta-base-squad2"
+    }
+  },
+  "ablation_settings": {
+    "retrieval": "off",
+    "memory": "off",
+    "memory_retrieval": "lexical",
+    "rounds": 1,
+    "judge": "on",
+    "roles": "proponent-opponent",
+    "closing_statements": false,
+    "judge_question": false,
+    "early_stop_confidence": null
+  },
+  "fallbacks": {
+    "total_fallbacks": 0,
+    "total_parse_attempts": 4,
+    "fallback_rate": 0.0,
+    "by_method": {
+      "debate": {
+        "fallbacks": 0,
+        "parse_attempts": 4,
+        "fallback_rate": 0.0
+      }
+    }
+  },
+  "metrics_by_method": {
+    "debate": {
+      "num_predictions": 2,
+      "exact_match": 0.0,
+      "f1": 0.0
+    }
+  }
+}

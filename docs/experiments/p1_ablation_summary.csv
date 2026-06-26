@@ -4,6 +4,10 @@ local_dolphin3_debate,2026-06-17,validation,53,debate,1,dolphin3:latest,bm25_onl
 local_dolphin3_both,2026-06-17,validation,53,both,1,dolphin3:latest,bm25_only,off,0.2075,0.6572,,,direct F1>debate
 qwen_broken_config_both,2026-06-17,validation,53,both,1,qwen3.5:9b,bm25_only,off,0.0189,0.4034,,,INVALID direct max_tokens=128
 server_qwen_fix_both_direct,2026-06-19,validation,53,direct,1,qwen3.5:9b,bm25_only,off,0.2453,0.6634,,20260619T212113Z_validation_both,fair comparison
-server_qwen_fix_both_debate_r1,2026-06-19,validation,53,debate,1,qwen3.5:9b,bm25_only,off,0.4906,0.8124,0.0472,20260619T212113Z_validation_both,BEST debate>direct
-server_qwen_debate_r3,2026-06-19,validation,53,debate,3,qwen3.5:9b,bm25_only,off,0.4151,0.7633,0.0189,,r3 worst ablation
-server_qwen_debate_r5,2026-06-19,validation,53,debate,5,qwen3.5:9b,bm25_only,off,0.4528,0.8048,0.0094,,r5 between r1 and r3
+server_qwen_fix_both_debate_r1,2026-06-19,validation,53,debate,1,qwen3.5:9b,bm25_only,off,0.4906,0.8124,0.0472,20260619T212113Z_validation_both,structured debate r=1
+server_qwen_debate_r3,2026-06-19,validation,53,debate,3,qwen3.5:9b,bm25_only,off,0.4151,0.7633,0.0189,,structured debate r=3
+server_qwen_debate_r5,2026-06-19,validation,53,debate,5,qwen3.5:9b,bm25_only,off,0.4528,0.8048,0.0094,,structured debate r=5
+server_qwen_vanilla,2026-06-26,validation,53,vanilla,3,qwen3.5:9b,bm25_only,off,0.6792,0.9401,0,,BEST vanilla self-debate
+server_qwen_cot,2026-06-26,validation,53,cot,1,qwen3.5:9b,bm25_only,off,0.4717,0.8610,0,,CoT baseline
+server_qwen_extractive_qa,2026-06-26,validation,53,extractive_qa,1,deepset/xlm-roberta-base-squad2,bm25_only,off,0.3585,0.6413,0,,reader baseline
+server_qwen_bm25_reader,2026-06-26,validation,53,bm25_reader,1,deepset/xlm-roberta-base-squad2,bm25_only,off,0.1887,0.4557,0,,BM25+reader weakest baseline
