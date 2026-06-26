@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-87",
+    "case_type": "legal_qa",
+    "context": "Thời điểm chịu rủi ro\n\n1. Bên bán chịu rủi ro đối với tài sản trước khi tài sản được giao cho bên mua, bên mua chịu rủi ro đối với tài sản kể từ thời điểm nhận tài sản, trừ trường hợp có thỏa thuận khác hoặc luật có quy định khác.\n\n2. Đối với hợp đồng mua bán tài sản mà pháp luật quy định tài sản đó phải đăng ký quyền sở hữu thì bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký, bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký, trừ trường hợp có thỏa thuận khác.",
+    "question": "Bên mua chịu rủi ro từ thời điểm nào khi tài sản trong hợp đồng mua bán phải đăng ký quyền sở hữu theo quy định của pháp luật?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 87
+    }
+  },
+  "result": {
+    "case_id": "vilqa-87",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-88-context",
+        "text": "Thời điểm chịu rủi ro\n\n1. Bên bán chịu rủi ro đối với tài sản trước khi tài sản được giao cho bên mua, bên mua chịu rủi ro đối với tài sản kể từ thời điểm nhận tài sản, trừ trường hợp có thỏa thuận khác hoặc luật có quy định khác.\n\n2. Đối với hợp đồng mua bán tài sản mà pháp luật quy định tài sản đó phải đăng ký quyền sở hữu thì bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký, bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký, trừ trường hợp có thỏa thuận khác.",
+        "source": "vilqa_context",
+        "score": 423.5318583780936,
+        "metadata": {
+          "case_id": "vilqa-88",
+          "question": "Thời điểm chịu rủi ro của bên bán như thế nào nếu tài sản trong hợp đồng mua bán phải đăng ký quyền sở hữu theo quy định của pháp luật?",
+          "row_index": 88,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-105-context",
+        "text": "Trách nhiệm chịu rủi ro\n\nCho đến khi giao sản phẩm cho bên đặt gia công, bên nào là chủ sở hữu của nguyên vật liệu thì phải chịu rủi ro đối với nguyên vật liệu hoặc sản phẩm được tạo ra từ nguyên vật liệu đó, trừ trường hợp có thỏa thuận khác.\n\nKhi bên đặt gia công chậm nhận sản phẩm thì phải chịu rủi ro trong thời gian chậm nhận, kể cả trong trường hợp sản phẩm được tạo ra từ nguyên vật liệu của bên nhận gia công, trừ trường hợp có thỏa thuận khác.\n\nKhi bên nhận gia công chậm giao sản phẩm mà có rủi ro đối với sản phẩm gia công thì phải bồi thường thiệt hại xảy ra cho bên đặt gia công.",
+        "source": "vilqa_context",
+        "score": 248.2096641926936,
+        "metadata": {
+          "case_id": "vilqa-105",
+          "question": "Bên nhận gia công có trách nhiệm gì khi chậm giao sản phẩm mà có rủi ro đối với sản phẩm?",
+          "row_index": 105,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-94-context",
+        "text": "Mua sau khi sử dụng thử\n\n1. Các bên có thể thỏa thuận về việc bên mua được dùng thử vật mua trong một thời hạn gọi là thời hạn dùng thử. Trong thời hạn dùng thử, bên mua có thể trả lời mua hoặc không mua; nếu hết thời hạn dùng thử mà bên mua không trả lời thì coi như đã chấp nhận mua theo các điều kiện đã thỏa thuận trước khi nhận vật dùng thử.\n\nTrường hợp các bên không thỏa thuận hoặc thỏa thuận không rõ ràng về thời hạn dùng thử thì thời hạn này được xác định theo tập quán của giao dịch có đối tượng cùng loại.\n\n2. Trong thời hạn dùng thử, vật vẫn thuộc sở hữu của bên bán. Bên bán phải chịu mọi rủi ro xảy ra đối với vật, trừ trường hợp có thỏa thuận khác. Trong thời hạn dùng thử, bên bán không được bán, tặng cho, cho thuê, trao đổi, thế chấp, cầm cố tài sản khi bên mua chưa trả lời.\n\n3. Trường hợp bên dùng thử trả lời không mua thì phải trả lại vật cho bên bán và phải bồi thường thiệt hại cho bên bán, nếu làm mất, hư hỏng vật dùng thử. Bên dùng thử không phải chịu trách nhiệm về những hao mòn thông thường do việc dùng thử gây ra và không phải hoàn trả hoa lợi do việc dùng thử mang lại.",
+        "source": "vilqa_context",
+        "score": 230.23031126047755,
+        "metadata": {
+          "case_id": "vilqa-94",
+          "question": "Trong thời gian dùng thử vật mua thuộc sở hữu của bên nào?",
+          "row_index": 94,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-93-context",
+        "text": "Mua bán quyền tài sản\n\n1. Trường hợp mua bán quyền tài sản thì bên bán phải chuyển giấy tờ và làm thủ tục chuyển quyền sở hữu cho bên mua, bên mua phải trả tiền cho bên bán.\n\n2. Trường hợp quyền tài sản là quyền đòi nợ và bên bán cam kết bảo đảm khả năng thanh toán của người mắc nợ thì bên bán phải liên đới chịu trách nhiệm thanh toán, nếu khi đến hạn mà người mắc nợ không trả.\n\n3. Thời điểm chuyển quyền sở hữu đối với quyền tài sản là thời điểm bên mua nhận được giấy tờ về quyền sở hữu đối với quyền tài sản đó hoặc từ thời điểm đăng ký việc chuyển quyền sở hữu, nếu pháp luật có quy định.",
+        "source": "vilqa_context",
+        "score": 229.64850440826467,
+        "metadata": {
+          "case_id": "vilqa-93",
+          "question": "Đối với mua bán quyền tài sản thì thời điểm chuyển quyền sở hữu là khi nào?",
+          "row_index": 93,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-99-context",
+        "text": "Trả lại tài sản thuê\n\n1. Bên thuê phải trả lại tài sản thuê trong tình trạng như khi nhận, trừ hao mòn tự nhiên hoặc theo đúng như tình trạng đã thỏa thuận; nếu giá trị của tài sản thuê bị giảm sút so với tình trạng khi nhận thì bên cho thuê có quyền yêu cầu bồi thường thiệt hại, trừ hao mòn tự nhiên.\n\n2. Trường hợp tài sản thuê là động sản thì địa điểm trả lại tài sản thuê là nơi cư trú hoặc trụ sở của bên cho thuê, trừ trường hợp có thỏa thuận khác.\n\n3. Trường hợp tài sản thuê là gia súc thì bên thuê phải trả lại gia súc đã thuê và cả gia súc được sinh ra trong thời gian thuê, trừ trường hợp có thỏa thuận khác. Bên cho thuê phải thanh toán chi phí chăm sóc gia súc được sinh ra cho bên thuê.\n\n4. Khi bên thuê chậm trả tài sản thuê thì bên cho thuê có quyền yêu cầu bên thuê trả lại tài sản thuê, trả tiền thuê trong thời gian chậm trả và phải bồi thường thiệt hại; bên thuê phải trả tiền phạt vi phạm do chậm trả tài sản thuê, nếu có thỏa thuận.\n\n5. Bên thuê phải chịu rủi ro xảy ra đối với tài sản thuê trong thời gian chậm trả.\n\nTiểu mục 2. HỢP ĐỒNG THUÊ KHOÁN TÀI SẢN",
+        "source": "vilqa_context",
+        "score": 185.2041914064179,
+        "metadata": {
+          "case_id": "vilqa-99",
+          "question": "Bên cho thuê có quyền gì nếu bên thuê chậm trả tài sản thuê?",
+          "row_index": 99,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký quyền sở hữu.\n\nCandidate final answer: Bên mua chịu rủi ro kể từ khi hoàn thành thủ tục đăng ký quyền sở hữu.\n\nBest supporting legal evidence: Đối với hợp đồng mua bán tài sản mà pháp luật quy định tài sản đó phải đăng ký quyền sở hữu thì bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký, bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký, trừ trường hợp có thỏa thuận khác.\n\nAnticipated opponent challenge: Bên bán có thể sẽ tranh luận rằng không có quy định cụ thể nào về việc khi nào bên mua phải chịu rủi ro trong trường hợp tài sản phải đăng ký quyền sở hữu.\n\nStrategy for this round: Chú trọng vào các quy định của pháp luật liên quan đến việc đăng ký quyền sở hữu để làm rõ thời điểm mà bên mua bắt đầu chịu rủi ro. Sử dụng các ví dụ cụ thể từ",
+        "public_argument": "Bên mua chịu rủi ro kể từ khi hoàn thành thủ tục đăng ký quyền sở hữu. Theo quy định của pháp luật, bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký, bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký, trừ trường hợp có thỏa thuận khác.",
+        "evidence_ids": [
+          "vilqa-88-context",
+          "vilqa-105-context",
+          "vilqa-94-context",
+          "vilqa-93-context",
+          "vilqa-99-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\nThe Proponent's claim that \"Bên mua chịu rủi ro kể từ khi hoàn thành thủ tục đăng ký quyền sở hữu\" is based on a specific interpretation of the legal context provided. However, it may be challenged by the Opponent arguing that the context does not explicitly state when the risk transfer occurs in cases where the law requires property registration.\n\nAlternative answer or interpretation:\n\"Bên mua chịu rủi ro kể từ khi nhận được tài sản và hoàn thành các thủ tục đăng ký quyền sở hữu theo quy định của pháp luật.\"\n\nEvidence needed to support the challenge:\n- The legal context states that \"bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký\" and \"bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký.\" However, it does not explicitly mention what happens if there is a gap between receiving the asset and completing the registration process.\n\nStrategy for this round:\nChallenges will focus on the",
+        "public_argument": "Tôi xin phép được phản đối bằng cách sau: Bên mua không chỉ chịu rủi ro kể từ khi hoàn thành thủ tục đăng ký quyền sở hữu. Theo thông tin trong hợp đồng mua bán tài sản và các quy định của pháp luật, bên bán sẽ chịu rủi ro cho đến khi hoàn thành các thủ tục đăng ký, còn bên mua sẽ chịu rủi ro kể từ thời điểm nhận được tài sản và hoàn thành các thủ tục đăng ký theo quy định của pháp luật.",
+        "evidence_ids": [
+          "vilqa-88-context",
+          "vilqa-105-context",
+          "vilqa-94-context",
+          "vilqa-93-context",
+          "vilqa-99-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Bên mua chịu rủi ro kể từ khi hoàn thành thủ tục đăng ký quyền sở hữu.",
+        "confidence": 80.0,
+        "reasoning": "Dựa trên thông tin trong hợp đồng mua bán tài sản và các quy định của pháp luật, bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký. Bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký, trừ trường hợp có thỏa thuận khác."
+      }
+    ],
+    "verdict": {
+      "prediction": "Bên mua chịu rủi ro kể từ khi hoàn thành thủ tục đăng ký quyền sở hữu.",
+      "answer": "bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký, bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký, trừ trường hợp có thỏa thuận khác",
+      "confidence": 80.0,
+      "reasoning": "Dựa trên thông tin trong hợp đồng mua bán tài sản và các quy định của pháp luật, bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký. Bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký, trừ trường hợp có thỏa thuận khác.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.4347826086956522,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T10:43:27.767649+00:00"
+  }
+}

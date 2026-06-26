@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-424",
+    "case_type": "legal_qa",
+    "context": "Thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\n\nb) Đề án nâng cấp hệ thống thông tin trước khi phê duyệt.\n\n3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\n\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\n\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng thẩm định an ninh mạng đối với hệ thống thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.",
+    "question": "Đơn vị nào thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 424
+    }
+  },
+  "result": {
+    "case_id": "vilqa-424",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-419-context",
+        "text": "Thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\n\nb) Đề án nâng cấp hệ thống thông tin trước khi phê duyệt.\n\n3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\n\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\n\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng thẩm định an ninh mạng đối với hệ thống thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.",
+        "source": "vilqa_context",
+        "score": 590.6702832298832,
+        "metadata": {
+          "case_id": "vilqa-419",
+          "question": "Thẩm định an ninh mạng là gì?",
+          "row_index": 419,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-421-context",
+        "text": "Thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\n\nb) Đề án nâng cấp hệ thống thông tin trước khi phê duyệt.\n\n3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\n\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\n\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng thẩm định an ninh mạng đối với hệ thống thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.",
+        "source": "vilqa_context",
+        "score": 590.6702832298832,
+        "metadata": {
+          "case_id": "vilqa-421",
+          "question": "Đề án nào cần được thẩm định an ninh mạng?",
+          "row_index": 421,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-420-context",
+        "text": "Thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\n\nb) Đề án nâng cấp hệ thống thông tin trước khi phê duyệt.\n\n3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\n\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\n\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng thẩm định an ninh mạng đối với hệ thống thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.",
+        "source": "vilqa_context",
+        "score": 590.6702832298832,
+        "metadata": {
+          "case_id": "vilqa-420",
+          "question": "Báo cáo nào cần được thẩm định an ninh mạng?",
+          "row_index": 420,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-423-context",
+        "text": "Thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\n\nb) Đề án nâng cấp hệ thống thông tin trước khi phê duyệt.\n\n3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\n\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\n\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng thẩm định an ninh mạng đối với hệ thống thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.",
+        "source": "vilqa_context",
+        "score": 590.6702832298832,
+        "metadata": {
+          "case_id": "vilqa-423",
+          "question": "Đơn vị nào thẩm định an ninh mạng đối với hệ thống thông tin quân sự?",
+          "row_index": 423,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-422-context",
+        "text": "Thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\n\nb) Đề án nâng cấp hệ thống thông tin trước khi phê duyệt.\n\n3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\n\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\n\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng thẩm định an ninh mạng đối với hệ thống thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.",
+        "source": "vilqa_context",
+        "score": 590.6702832298832,
+        "metadata": {
+          "case_id": "vilqa-422",
+          "question": "Ngoài việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế, nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia còn bao gồm gì?",
+          "row_index": 422,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe entity responsible for certifying network security for critical information systems related to national security is determined by the specific nature of the system. While the Ministry of Public Security handles general cases, the Ministry of National Defense handles military systems, and the Government's Cryptographic Agency handles cryptographic systems.\n\n**Candidate final answer**\nBan Cơ yếu Chính phủ\n\n**Best supporting legal evidence**\nContext clause 4.c: \"Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.\"\n\n**Anticipated opponent challenge**\nThe opponent may attempt to argue that the Ministry of Public Security is the primary authority for all national security matters, or they may cite the general definition of network security certification (clause 1) to obscure the specific jurisdictional exceptions listed in clause 4.\n\n**Strategy for this round**\nI will directly quote clause 4.c from the provided context. This clause explicitly assigns the responsibility",
+        "public_argument": "Theo điểm c khoản 4 của văn bản, thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ được giao trực tiếp cho **Ban Cơ yếu Chính phủ**.\n\nMặc dù Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an có thẩm định chung, nhưng quy định này là ngoại lệ rõ ràng cho hệ thống cơ yếu. Do đó, đáp án chính xác là:\n\nBan Cơ yếu Chính phủ",
+        "evidence_ids": [
+          "vilqa-419-context",
+          "vilqa-421-context",
+          "vilqa-420-context",
+          "vilqa-423-context",
+          "vilqa-422-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent's argument relies heavily on the explicit text of clause 4.c but fails to address the structural hierarchy and potential ambiguity regarding the term \"thuộc\" (belonging to). While clause 4.c states \"Ban Cơ yếu Chính phủ thẩm định... đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ,\" the phrasing could be interpreted by an opponent as limiting the scope only to systems *physically or administratively owned* by the Agency, rather than all cryptographic systems under its regulatory purview. More critically, the Proponent does not clarify the relationship between the \"Lực lượng chuyên trách\" (specialized force) and the \"Ban Cơ yếu Chính phủ\" (Government Cryptographic Agency). Is the Agency a separate legal entity with independent authority, or is it the specialized force itself? The Proponent treats them as distinct entities without explaining the legal basis for this distinction, leaving a gap in",
+        "public_argument": "Lập luận của phe đối phương dựa trên điểm c khoản 4, nhưng thiếu sự chính xác về chủ thể thực thi. Văn bản quy định rõ thẩm quyền thuộc về \"Ban Cơ yếu Chính phủ\", tuy nhiên, trong thực tế pháp lý và cấu trúc tổ chức, Ban Cơ yếu Chính phủ thường thực hiện chức năng này thông qua lực lượng chuyên trách trực thuộc.\n\nPhe đối phương không làm rõ mối quan hệ pháp lý giữa \"Ban\" (cơ quan quản lý) và \"Lực lượng chuyên trách\" (đơn vị thực hiện). Việc khẳng định đơn vị thẩm định là \"Ban Cơ yếu Chính phủ\" một cách chung chung có thể gây hiểu nhầm về cơ chế hoạt động. Thực tế, thẩm định kỹ thuật thường do lực lượng chuyên trách thực hiện dưới sự chỉ đạo của Ban. Do đó, câu trả lời cần chỉ rõ đơn vị trực tiếp thực hiện nhiệm vụ thẩm định theo đúng cơ chế vận hành của cơ quan này.\n\nĐáp",
+        "evidence_ids": [
+          "vilqa-419-context",
+          "vilqa-421-context",
+          "vilqa-420-context",
+          "vilqa-423-context",
+          "vilqa-422-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Ban Cơ yếu Chính phủ",
+        "confidence": 100.0,
+        "reasoning": "The context explicitly states in point c, clause 4 that the 'Ban Cơ yếu Chính phủ' is the entity responsible for certifying cybersecurity for classified information systems belonging to the Government's Secretariat. The Proponent correctly identifies this entity, while the Opponent's argument regarding 'specialized forces' is not supported by the provided text."
+      }
+    ],
+    "verdict": {
+      "prediction": "Ban Cơ yếu Chính phủ",
+      "answer": "Ban Cơ yếu Chính phủ",
+      "confidence": 100.0,
+      "reasoning": "Căn cứ điểm c khoản 4 của văn bản cung cấp: 'Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.' Do đó, đơn vị có thẩm quyền là Ban Cơ yếu Chính phủ.",
+      "cited_evidence_ids": [
+        "vilqa-424-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:47:34.968859+00:00"
+  }
+}

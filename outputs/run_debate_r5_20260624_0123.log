@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hungntt/Projects/legalsim/src/main.py", line 17, in <module>
+    from src.courtroom.session import CourtroomSession
+  File "/home/hungntt/Projects/legalsim/src/courtroom/__init__.py", line 4, in <module>
+    from src.courtroom.session import CourtroomSession
+  File "/home/hungntt/Projects/legalsim/src/courtroom/session.py", line 8, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'

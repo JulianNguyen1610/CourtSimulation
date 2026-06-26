@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-285",
+    "case_type": "legal_qa",
+    "context": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+    "question": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 285
+    }
+  },
+  "result": {
+    "case_id": "vilqa-285",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-303-context",
+        "text": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+        "source": "vilqa_context",
+        "score": 274.73235487455634,
+        "metadata": {
+          "case_id": "vilqa-303",
+          "question": "Tội vô ý gây thiệt hại tài sản của người khác trị giá đến dưới bao nhiêu thì bị phạt cảnh cáo?",
+          "row_index": 303,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-286-context",
+        "text": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+        "source": "vilqa_context",
+        "score": 274.73235487455634,
+        "metadata": {
+          "case_id": "vilqa-286",
+          "question": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu trở lên thì bị phạt cải tạo không giam giữ từ 02 năm đến 03 năm hoặc phạt tù từ 03 tháng đến 02 năm.",
+          "row_index": 286,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-356-context",
+        "text": "Tội đào nhiệm\n\n1. Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm:\n\na) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 31% trở lên;\n\nb) Gây thiệt hại về tài sản từ 300.000.000 đồng đến dưới 1.000.000.000 đồng;\n\nc) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Làm chết người;\n\nb) Lôi kéo người khác đào nhiệm;\n\nc) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên;\n\nd) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong những trường hợp khó khăn đặc biệt khác của xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 179.52996549975245,
+        "metadata": {
+          "case_id": "vilqa-356",
+          "question": "Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác gây hậu quả nghiêm trọng, thì bị phạt như thế nào?",
+          "row_index": 356,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-358-context",
+        "text": "Tội đào nhiệm\n\n1. Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm:\n\na) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 31% trở lên;\n\nb) Gây thiệt hại về tài sản từ 300.000.000 đồng đến dưới 1.000.000.000 đồng;\n\nc) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Làm chết người;\n\nb) Lôi kéo người khác đào nhiệm;\n\nc) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên;\n\nd) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong những trường hợp khó khăn đặc biệt khác của xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 179.52996549975245,
+        "metadata": {
+          "case_id": "vilqa-358",
+          "question": "Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác và lôi kéo người khác đào nhiệm thì bị phạt như thế nào?",
+          "row_index": 358,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-21-context",
+        "text": "Tội vi phạm các quy định về bảo vệ và sử dụng di tích lịch sử - văn hóa, danh lam, thắng cảnh gây hậu quả nghiêm trọng\n\n1. Người nào vi phạm các quy định về bảo vệ và sử dụng các di tích lịch sử - văn hóa, danh lam, thắng cảnh, gây hư hại di tích lịch sử - văn hóa, danh lam, thắng cảnh có giá trị từ 100.000.000 đồng đến dưới 500.000.000 đồng; hủy hoại, làm thay đổi yếu tố gốc cấu thành di tích lịch sử - văn hóa, danh lam thắng cảnh cấp tỉnh hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cảnh cáo, phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội trong trường hợp gây hư hại di tích lịch sử - văn hóa, danh lam, thắng cảnh có giá trị từ 500.000.000 đồng trở lên hoặc hủy hoại, làm thay đổi yếu tố gốc cấu thành di tích lịch sử - văn hóa, danh lam thắng cảnh cấp quốc gia hoặc cấp quốc gia đặc biệt, thì bị phạt tù từ 03 năm đến 07 năm.",
+        "source": "vilqa_context",
+        "score": 178.92551524172427,
+        "metadata": {
+          "case_id": "vilqa-21",
+          "question": "Người gây hư hại di tích lịch sử - văn hóa, danh lam, thắng cảnh có giá trị từ 500.000.000 đồng trở lên, thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 21,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe penalty of \"cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm\" (warning or non-custodial correction up to 2 years) applies specifically when the value of the negligently caused property damage falls within the range of 100,000,000 VND to under 500,000,000 VND.\n\n**Candidate final answer**\ntừ 100.000.000 đồng đến dưới 500.000.000 đồng\n\n**Best supporting legal evidence**\nTội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt cảnh cáo hoặc phạt cải tạo không giam",
+        "public_argument": "Căn cứ vào Điều 164 Bộ luật Hình sự về Tội vô ý gây thiệt hại nghiêm trọng đến tài sản, hành vi vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng là cơ sở pháp lý để áp dụng mức phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm. Do đó, khoảng giá trị này là chính xác.\n\ntừ 100.000.000 đồng đến dưới 500.000.000 đồng",
+        "evidence_ids": [
+          "vilqa-303-context",
+          "vilqa-286-context",
+          "vilqa-356-context",
+          "vilqa-358-context",
+          "vilqa-21-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "**Strongest weakness in the Proponent's position**\nThe Proponent's argument is technically correct based on the provided text, but it lacks precision regarding the boundary condition. The Proponent cites the range \"từ 100.000.000 đồng đến dưới 500.000.000 đồng\" but fails to explicitly emphasize the exclusion of the upper bound (500.000.000 đồng). In legal contexts, the distinction between \"dưới\" (under) and \"trở lên\" (from... onwards) is critical because 500.000.000 đồng triggers a different penalty tier (imprisonment). A strong challenge would point out that if the damage is exactly 500.000.000 đồng, the Proponent's range is insufficiently precise without the qualifier \"dưới\".\n\n**Alternative answer or interpretation, if any",
+        "public_argument": "Phản biện của đối phương thiếu chính xác về mặt pháp lý do bỏ sót điều kiện biên quan trọng. Việc nêu khoảng \"từ 100.000.000 đồng đến dưới 500.000.000 đồng\" là chưa đủ rõ ràng nếu không nhấn mạnh tính loại trừ của mốc 500.000.000 đồng.\n\nTrong luật hình sự, ranh giới giữa \"dưới\" và \"trở lên\" quyết định hoàn toàn mức án. Nếu thiệt hại đúng 500.000.000 đồng, nó không còn thuộc nhóm phạt cảnh cáo/cải tạo nữa mà chuyển sang nhóm phạt tù (từ 03 tháng đến 02 năm). Do đó, câu trả lời cần phải bao hàm chính xác cụm từ giới hạn trên.\n\nĐáp án chính xác và đầy đủ nhất là:\ntừ 100.000.0",
+        "evidence_ids": [
+          "vilqa-303-context",
+          "vilqa-286-context",
+          "vilqa-356-context",
+          "vilqa-358-context",
+          "vilqa-21-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "từ 100.000.000 đồng đến dưới 500.000.000 đồng",
+        "confidence": 100.0,
+        "reasoning": "The prediction is a direct verbatim extraction from the case context (Section 1) which explicitly states the value range for the specified penalty. The opponent's argument regarding boundary conditions does not change the factual text of the law provided in the context."
+      }
+    ],
+    "verdict": {
+      "prediction": "từ 100.000.000 đồng đến dưới 500.000.000 đồng",
+      "answer": "từ 100.000.000 đồng đến dưới 500.000.000 đồng",
+      "confidence": 100.0,
+      "reasoning": "Dựa trực tiếp vào mục 1 của ngữ cảnh pháp luật được cung cấp, hành vi vô ý gây thiệt hại cho tài sản trị giá 'từ 100.000.000 đồng đến dưới 500.000.000 đồng' là điều kiện để áp dụng mức phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm. Đối thủ phản biện không thay đổi được nội dung văn bản pháp luật này.",
+      "cited_evidence_ids": [
+        "vilqa-285-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.923076923076923,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:27:24.986716+00:00"
+  }
+}

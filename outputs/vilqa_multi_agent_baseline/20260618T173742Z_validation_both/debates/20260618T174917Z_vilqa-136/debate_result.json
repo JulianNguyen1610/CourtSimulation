@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-136",
+    "case_type": "legal_qa",
+    "context": "Nghỉ trong giờ làm việc\n\n1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.\n\nTrường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.\n\n2. Ngoài thời gian nghỉ quy định tại khoản 1 Điều này, người sử dụng lao động bố trí cho người lao động các đợt nghỉ giải lao và ghi vào nội quy lao động.",
+    "question": "Người lao dộng làm việc từ 6 giờ trở lên vào ban ngày thì được nghỉ ít nhất trong bao lâu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 136
+    }
+  },
+  "result": {
+    "case_id": "vilqa-136",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-137-context",
+        "text": "Nghỉ trong giờ làm việc\n\n1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.\n\nTrường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.\n\n2. Ngoài thời gian nghỉ quy định tại khoản 1 Điều này, người sử dụng lao động bố trí cho người lao động các đợt nghỉ giải lao và ghi vào nội quy lao động.",
+        "source": "vilqa_context",
+        "score": 386.0956357122012,
+        "metadata": {
+          "case_id": "vilqa-137",
+          "question": "Nếu người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ sẽ được tính như thế nào?",
+          "row_index": 137,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-139-context",
+        "text": "Nghỉ hằng tuần\n\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\n\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định tại khoản 1 Điều 112 của Bộ luật này thì người lao động được nghỉ bù ngày nghỉ hằng tuần vào ngày làm việc kế tiếp.",
+        "source": "vilqa_context",
+        "score": 223.6202561251839,
+        "metadata": {
+          "case_id": "vilqa-139",
+          "question": "Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết thì người lao động sẽ được nghỉ như thế nào?",
+          "row_index": 139,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-162-context",
+        "text": "Nghỉ thai sản\n\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\n\nTrường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.\n\n2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n\n3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.\n\n4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động. Trong trường hợp này, ngoài tiền lương của những ngày làm việc do người sử dụng lao động trả, lao động nữ vẫn tiếp tục được hưởng trợ cấp thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n\n5. Lao động nam khi vợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai hộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.",
+        "source": "vilqa_context",
+        "score": 186.44553026100613,
+        "metadata": {
+          "case_id": "vilqa-162",
+          "question": "Người lao động nữ chỉ được phép đi làm trở lại sớm sau khi nghỉ thai sản trong điều kiện nào?",
+          "row_index": 162,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-158-context",
+        "text": "Bảo vệ thai sản\n\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:\n\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;\n\nb) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.\n\n2. Lao động nữ làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hoặc làm nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con khi mang thai và có thông báo cho người sử dụng lao động biết thì được người sử dụng lao động chuyển sang làm công việc nhẹ hơn, an toàn hơn hoặc giảm bớt 01 giờ làm việc hằng ngày mà không bị cắt giảm tiền lương và quyền, lợi ích cho đến hết thời gian nuôi con dưới 12 tháng tuổi.\n\n3. Người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo pháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\n\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 184.64258424935912,
+        "metadata": {
+          "case_id": "vilqa-158",
+          "question": "Cần phải làm gì đối với lao động đang mang thai và đang làm công việc nặng nhọc, độc hại, nguy hiểm?",
+          "row_index": 158,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-159-context",
+        "text": "Bảo vệ thai sản\n\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:\n\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;\n\nb) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.\n\n2. Lao động nữ làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hoặc làm nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con khi mang thai và có thông báo cho người sử dụng lao động biết thì được người sử dụng lao động chuyển sang làm công việc nhẹ hơn, an toàn hơn hoặc giảm bớt 01 giờ làm việc hằng ngày mà không bị cắt giảm tiền lương và quyền, lợi ích cho đến hết thời gian nuôi con dưới 12 tháng tuổi.\n\n3. Người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo pháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\n\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 184.64258424935912,
+        "metadata": {
+          "case_id": "vilqa-159",
+          "question": "Trong trường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì người sử dụng lao động phải ưu tiên làm gì?",
+          "row_index": 159,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Người lao động làm việc từ 06 giờ trở lên vào ban ngày có quyền được nghỉ giữa giờ ít nhất 30 phút liên tục.\n- **Candidate final answer**: \"được nghỉ giữa giờ ít nhất 30 phút liên tục\"\n- **Best supporting legal evidence**: `vilqa-137-context` (Khoản 1 Điều 105 về nghỉ trong giờ làm việc)\n- **Anticipated opponent challenge**: Opponent có thể lập luận rằng thời gian nghỉ này chỉ áp dụng cho ca làm việc ban đêm hoặc khi có thỏa thuận khác, hoặc cố gắng làm loãng bằng cách trích dẫn các điều khoản về nghỉ hằng tuần không liên quan.\n- **Strategy for this round**: Tập trung trích dẫn rõ ràng Khoản 1 Điều 105 từ văn bản `vilqa-137-context` để khẳng định con số 30 phút là quy định bắt buộc cho ca làm việc ban ngày",
+        "public_argument": "Người lao động làm việc từ 06 giờ trở lên vào ban ngày được nghỉ giữa giờ ít nhất 30 phút liên tục. Quy định này được nêu rõ tại Khoản 1 Điều 105 của Bộ luật Lao động: \"Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục\". Đây là quyền lợi bắt buộc đối với ca làm việc ban ngày.\n\nĐáp án: được nghỉ giữa giờ ít nhất 30 phút liên tục",
+        "evidence_ids": [
+          "vilqa-137-context",
+          "vilqa-139-context",
+          "vilqa-162-context",
+          "vilqa-158-context",
+          "vilqa-159-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent's argument is factually correct regarding the 30-minute break for daytime work, but their strategy is overly rigid by anticipating only challenges about \"night work\" or \"weekly rest.\" They fail to address the critical nuance in the text: *\"Trường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.\"* If the opponent argues that the specific case involves \"continuous shift work\" (làm việc theo ca liên tục), the Proponent's simple \"30 minutes\" answer becomes legally inaccurate because the break time is then absorbed into working hours and not counted as a separate rest period. The Proponent ignores this conditional clause entirely.\n\n- **Alternative answer or interpretation**:\n  \"Trường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ",
+        "public_argument": "Câu trả lời \"30 phút\" chỉ đúng khi người lao động làm việc theo giờ quy định. Tuy nhiên, theo Khoản 1 Điều 105, trường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc, không phải là một khoảng nghỉ riêng biệt.",
+        "evidence_ids": [
+          "vilqa-137-context",
+          "vilqa-139-context",
+          "vilqa-162-context",
+          "vilqa-158-context",
+          "vilqa-159-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "ít nhất 30 phút liên tục",
+        "confidence": 100.0,
+        "reasoning": "Bối cảnh tại Khoản 1 Điều 105 quy định rõ: 'Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục'. Câu hỏi hỏi về trường hợp làm việc ban ngày (thuộc quy định giờ làm việc), do đó đáp án chính xác là 'ít nhất 30 phút liên tục'. Đối lập về việc nghỉ được tính vào giờ làm việc chỉ áp dụng cho trường hợp làm việc theo ca liên tục, không phải là câu trả lời trực tiếp cho câu hỏi về thời gian nghỉ tối thiểu."
+      }
+    ],
+    "verdict": {
+      "prediction": "ít nhất 30 phút liên tục",
+      "answer": "ít nhất 30 phút liên tục",
+      "confidence": 100.0,
+      "reasoning": "Khoản 1 Điều 105 trong ngữ cảnh quy định rõ ràng: 'Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục'. Câu hỏi đề cập đến việc làm việc ban ngày (thuộc quy định giờ làm việc), do đó đáp án trích dẫn trực tiếp từ văn bản là chính xác.",
+      "cited_evidence_ids": [
+        "vilqa-137-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:49:17.286711+00:00"
+  }
+}

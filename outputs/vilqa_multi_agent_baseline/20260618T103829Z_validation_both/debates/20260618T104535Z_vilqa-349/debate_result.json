@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-349",
+    "case_type": "legal_qa",
+    "context": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+    "question": "Người nào chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối thiểu bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 349
+    }
+  },
+  "result": {
+    "case_id": "vilqa-349",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-346-context",
+        "text": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 271.928990527892,
+        "metadata": {
+          "case_id": "vilqa-346",
+          "question": "Huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt như thế nào?",
+          "row_index": 346,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-347-context",
+        "text": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 271.928990527892,
+        "metadata": {
+          "case_id": "vilqa-347",
+          "question": "Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 347,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-348-context",
+        "text": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 271.928990527892,
+        "metadata": {
+          "case_id": "vilqa-348",
+          "question": "Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối thiểu bao nhiêu năm?",
+          "row_index": 348,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-350-context",
+        "text": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 271.928990527892,
+        "metadata": {
+          "case_id": "vilqa-350",
+          "question": "Người nào chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 350,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-18-context",
+        "text": "Tội lạm quyền trong khi thi hành công vụ\n\n1. Người nào vì vụ lợi hoặc động cơ cá nhân khác mà vượt quá quyền hạn của mình làm trái công vụ gây thiệt hại về tài sản từ 10.000.000 đồng đến dưới 100.000.000 đồng hoặc gây thiệt hại đến lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân, thì bị phạt tù từ 01 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 05 năm đến 10 năm:\n\na) Có tổ chức;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng, thì bị phạt tù từ 10 năm đến 15 năm.\n\n4. Phạm tội gây thiệt hại về tài sản 1.500.000.000 đồng trở lên, thì bị phạt tù từ 15 năm đến 20 năm.\n\n5. Người phạm tội còn bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 141.20541337638247,
+        "metadata": {
+          "case_id": "vilqa-18",
+          "question": "Người phạm tội lạm quyền trong khi thi hành công vụ còn có thể bị phạt tiền từ bao nhiêu đến bao nhiêu tiền?",
+          "row_index": 18,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Người chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 01 năm đến 05 năm.\n\nCandidate final answer: Người chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 01 năm đến 05 năm.\n\nBest supporting legal evidence: 2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\nAnticipated opponent challenge: The opponent may argue that the claim is not specific enough or may provide a different interpretation of the law.\n\nStrategy for this round: I will focus on providing clear and concise arguments based on the legal evidence provided. I will also address any potential counterarguments by acknowledging the opponent's points while sticking to the facts as presented in the case profile and legal evidence",
+        "public_argument": "Chúng ta hãy cùng xem xét đoạn văn pháp luật được cung cấp trong hồ sơ vụ việc để trả lời câu hỏi. Theo đoạn văn, \"Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\" Do đó, người chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố sẽ bị phạt tù từ 01 năm đến 05 năm.",
+        "evidence_ids": [
+          "vilqa-346-context",
+          "vilqa-347-context",
+          "vilqa-348-context",
+          "vilqa-350-context",
+          "vilqa-18-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The claim provided by the proponent may not be specific enough regarding the minimum term of imprisonment for the crime of preparing to commit the offense of mobilizing or supporting money, property, or assets for terrorist organizations or individuals.\n\nAlternative answer or interpretation (if any): \"Người chuẩn bị phạm tội này có thể bị phạt tù từ 01 năm đến 05 năm và còn có thể bị các hình phạt bổ sung khác như quản chế hoặc cấm cư trú.\" - Theo đoạn văn pháp luật được cung cấp trong hồ sơ vụ việc, người chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố có thể phải chịu một phạm vi rộng lớn của thời hạn tù từ 01 năm đến 05 năm.\n\nEvidence needed to support the challenge: Cần thêm bằng chứng pháp lý cụ thể và chi tiết hơn để hỗ trợ thách thức này. Điều này bao",
+        "public_argument": "Tôi xin phản hồi như sau: Theo đoạn văn pháp luật được cung cấp trong hồ sơ vụ việc, người chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố có thể phải chịu một phạm vi rộng lớn của thời hạn tù từ 01 năm đến 05 năm và còn có thể bị các hình phạt bổ sung khác như quản chế hoặc cấm cư trú.",
+        "evidence_ids": [
+          "vilqa-346-context",
+          "vilqa-347-context",
+          "vilqa-348-context",
+          "vilqa-350-context",
+          "vilqa-18-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "01 năm",
+        "confidence": 90.0,
+        "reasoning": "Theo đoạn văn pháp luật được cung cấp trong hồ sơ vụ việc, người chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố có thể phải chịu một phạm vi rộng lớn của thời hạn tù từ 01 năm đến 05 năm."
+      }
+    ],
+    "verdict": {
+      "prediction": "01 năm",
+      "answer": "Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm",
+      "confidence": 90.0,
+      "reasoning": "Theo đoạn văn pháp luật được cung cấp trong hồ sơ vụ việc, người chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố có thể phải chịu một phạm vi rộng lớn của thời hạn tù từ 01 năm đến 05 năm.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.2222222222222222,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T10:45:35.206874+00:00"
+  }
+}

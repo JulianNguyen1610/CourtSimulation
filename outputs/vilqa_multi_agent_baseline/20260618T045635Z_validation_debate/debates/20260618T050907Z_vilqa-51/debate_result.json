@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-51",
+    "case_type": "legal_qa",
+    "context": "Phạm tội chưa đạt\n\nPhạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nNgười phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.",
+    "question": "Phạm tội chưa đạt là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 51
+    }
+  },
+  "result": {
+    "case_id": "vilqa-51",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-50-context",
+        "text": "Phạm tội chưa đạt\n\nPhạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nNgười phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.",
+        "source": "vilqa_context",
+        "score": 164.0271083422382,
+        "metadata": {
+          "case_id": "vilqa-50",
+          "question": "Người phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm nào?",
+          "row_index": 50,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-53-context",
+        "text": "Tự ý nửa chừng chấm dứt việc phạm tội\n\nTự ý nửa chừng chấm dứt việc phạm tội là tự mình không thực hiện tội phạm đến cùng, tuy không có gì ngăn cản.\n\nNgười tự ý nửa chừng chấm dứt việc phạm tội được miễn trách nhiệm hình sự về tội định phạm; nếu hành vi thực tế đã thực hiện có đủ yếu tố cấu thành của một tội khác, thì người đó phải chịu trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 74.54107747298953,
+        "metadata": {
+          "case_id": "vilqa-53",
+          "question": "Người tự ý nửa chừng chấm dứt việc phạm tội được miễn trách nhiệm hình sự về tội nào?",
+          "row_index": 53,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-59-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-59",
+          "question": "Người giúp sức là ai?",
+          "row_index": 59,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-60-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-60",
+          "question": "Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của ai?",
+          "row_index": 60,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-55-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-55",
+          "question": "Người thực hành là ai?",
+          "row_index": 55,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nBest Supporting Legal Evidence: The retrieved legal evidence from doc_id 'vilqa-50-context' supports the key claim. It states that \"Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\"\n\nAnticipated Opponent Challenge: The opponent might argue that there are other definitions or interpretations of \"phạm tội chưa đạt\" not mentioned in the provided evidence.\n\nStrategy for this Round: Acknowledge the potential definition variations but emphasize the relevance and accuracy of the provided legal evidence. Use the context to explain why the retrieved evidence is most likely correct, and present counterarguments if necessary.",
+        "public_argument": "In this debate, I argue that \"phạm tội chưa đạt\" is indeed \"cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội,\" as supported by the legal evidence from doc_id 'vilqa-50-context'. This definition encompasses the intentional commission of a crime but with incomplete execution due to unforeseen circumstances. While there might be other definitions or interpretations, the provided evidence is highly relevant and accurate in explaining this specific legal concept.",
+        "evidence_ids": [
+          "vilqa-50-context",
+          "vilqa-53-context",
+          "vilqa-59-context",
+          "vilqa-60-context",
+          "vilqa-55-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weakening the Proponent's Position:\n\nWeaknesses:\n1. Limited legal evidence: The proponent relies solely on a single piece of retrieved legal evidence (doc_id 'vilqa-50-context') to support their definition of \"phạm tội chưa đạt.\" There may be other relevant definitions or interpretations not mentioned in this evidence.\n\n2. Lack of counterarguments: The proponent has not presented any counterarguments to potential criticisms of their position, making them vulnerable to challenges from the opponent.\n\nAlternative Answer/Interpretation:\nThe term \"phạm tội chưa đạt\" could also refer to situations where a person intentionally commits a crime but is unable to complete it due to external circumstances beyond their control. This interpretation emphasizes the role of external factors in determining whether a crime has been partially completed.\n\nEvidence Needed:\nTo support this alternative interpretation, evidence that highlights cases or legal precedents where a person's inability to complete a crime was caused by external factors would be necessary. Such evidence could include court decisions",
+        "public_argument": "In this debate, I acknowledge that \"phạm tội chưa đạt\" may refer to situations where a person intentionally commits a crime but cannot complete it due to external factors. However, relying solely on a single piece of legal evidence (doc_id 'vilqa-50-context') might not be sufficient to support all possible interpretations of this term. It is essential to consider other relevant definitions or cases that may provide alternative perspectives on \"phạm tội chưa đạt.\"",
+        "evidence_ids": [
+          "vilqa-50-context",
+          "vilqa-53-context",
+          "vilqa-59-context",
+          "vilqa-60-context",
+          "vilqa-55-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "phạm tội chưa đạt is cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.",
+        "confidence": 80.0,
+        "reasoning": "The proponent's argument aligns with the definition of 'phạm tội chưa đạt' provided in the case profile, and the evidence from doc_id 'vilqa-50-context' supports this interpretation. Although the opponent suggests that relying on a single piece of legal evidence may not be sufficient, the proponent's argument remains convincing based on the available information."
+      }
+    ],
+    "verdict": {
+      "prediction": "phạm tội chưa đạt is cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.",
+      "answer": "Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.",
+      "confidence": 80.0,
+      "reasoning": "The proponent's argument aligns with the definition of 'phạm tội chưa đạt' provided in the case profile, and the evidence from doc_id 'vilqa-50-context' supports this interpretation. Although the opponent suggests that relying on a single piece of legal evidence may not be sufficient, the proponent's argument remains convincing based on the available information.",
+      "cited_evidence_ids": [
+        "vilqa-50-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.9056603773584906,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T05:09:07.719555+00:00"
+  }
+}

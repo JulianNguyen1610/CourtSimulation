@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-441",
+    "case_type": "legal_qa",
+    "context": "Hiệu lực thi hành\n\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019.\n\n2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.\n\n3. Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.\n\nLuật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 5 thông qua ngày 12 tháng 6 năm 2018.\n\n\n\n\n\nCHỦ TỊCH QUỐC HỘI\n\n\n\n\nNguyễn Thị Kim Ngân",
+    "question": "Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn bao nhiêu tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật An ninh mạng 2018?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 441
+    }
+  },
+  "result": {
+    "case_id": "vilqa-441",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-440-context",
+        "text": "Hiệu lực thi hành\n\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019.\n\n2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.\n\n3. Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.\n\nLuật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 5 thông qua ngày 12 tháng 6 năm 2018.\n\n\n\n\n\nCHỦ TỊCH QUỐC HỘI\n\n\n\n\nNguyễn Thị Kim Ngân",
+        "source": "vilqa_context",
+        "score": 736.4326844275491,
+        "metadata": {
+          "case_id": "vilqa-440",
+          "question": "Luật An ninh mạng 2018 có hiệu lực thi hành từ ngày nào?",
+          "row_index": 440,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-426-context",
+        "text": "Đánh giá điều kiện an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Đánh giá điều kiện về an ninh mạng là hoạt động xem xét sự đáp ứng về an ninh mạng của hệ thống thông tin trước khi đưa vào vận hành, sử dụng.\n\n2. Hệ thống thông tin quan trọng về an ninh quốc gia phải đáp ứng các điều kiện sau đây về:\n\na) Quy định, quy trình và phương án bảo đảm an ninh mạng; nhân sự vận hành, quản trị hệ thống;\n\nb) Bảo đảm an ninh mạng đối với trang thiết bị, phần cứng, phần mềm là thành phần hệ thống;\n\nc) Biện pháp kỹ thuật để giám sát, bảo vệ an ninh mạng; biện pháp bảo vệ hệ thống điều khiển và giám sát tự động, Internet vạn vật, hệ thống phức hợp thực - ảo, điện toán đám mây, hệ thống dữ liệu lớn, hệ thống dữ liệu nhanh, hệ thống trí tuệ nhân tạo;\n\nd) Biện pháp bảo đảm an ninh vật lý bao gồm cách ly cô lập đặc biệt, chống rò rỉ dữ liệu, chống thu tin, kiểm soát ra vào.\n\n3. Thẩm quyền đánh giá điều kiện an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\n\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.\n\n4. Hệ thống thông tin quan trọng về an ninh quốc gia được đưa vào vận hành, sử dụng sau khi được chứng nhận đủ điều kiện an ninh mạng.\n\n5. Chính phủ quy định chi tiết khoản 2 Điều này.",
+        "source": "vilqa_context",
+        "score": 478.1922459062711,
+        "metadata": {
+          "case_id": "vilqa-426",
+          "question": "Đơn vị nào chịu trách nhiệm đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ?",
+          "row_index": 426,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-425-context",
+        "text": "Đánh giá điều kiện an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Đánh giá điều kiện về an ninh mạng là hoạt động xem xét sự đáp ứng về an ninh mạng của hệ thống thông tin trước khi đưa vào vận hành, sử dụng.\n\n2. Hệ thống thông tin quan trọng về an ninh quốc gia phải đáp ứng các điều kiện sau đây về:\n\na) Quy định, quy trình và phương án bảo đảm an ninh mạng; nhân sự vận hành, quản trị hệ thống;\n\nb) Bảo đảm an ninh mạng đối với trang thiết bị, phần cứng, phần mềm là thành phần hệ thống;\n\nc) Biện pháp kỹ thuật để giám sát, bảo vệ an ninh mạng; biện pháp bảo vệ hệ thống điều khiển và giám sát tự động, Internet vạn vật, hệ thống phức hợp thực - ảo, điện toán đám mây, hệ thống dữ liệu lớn, hệ thống dữ liệu nhanh, hệ thống trí tuệ nhân tạo;\n\nd) Biện pháp bảo đảm an ninh vật lý bao gồm cách ly cô lập đặc biệt, chống rò rỉ dữ liệu, chống thu tin, kiểm soát ra vào.\n\n3. Thẩm quyền đánh giá điều kiện an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\n\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.\n\n4. Hệ thống thông tin quan trọng về an ninh quốc gia được đưa vào vận hành, sử dụng sau khi được chứng nhận đủ điều kiện an ninh mạng.\n\n5. Chính phủ quy định chi tiết khoản 2 Điều này.",
+        "source": "vilqa_context",
+        "score": 478.1922459062711,
+        "metadata": {
+          "case_id": "vilqa-425",
+          "question": "Hoạt động xem xét sự đáp ứng về an ninh mạng của hệ thống thông tin trước khi đưa vào vận hành, sử dụng được gọi là gì?",
+          "row_index": 425,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-392-context",
+        "text": "Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia trong trường hợp sau đây:\n\na) Khi có hành vi vi phạm pháp luật về an ninh mạng xâm phạm an ninh quốc gia hoặc gây tổn hại nghiêm trọng trật tự, an toàn xã hội;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin.\n\n2. Đối tượng kiểm tra an ninh mạng bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nc) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật.\n\n3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi phạm pháp luật về an ninh mạng trên hệ thống thông tin thuộc phạm vi quản lý.\n\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này.\n\n5. Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ.\n\nTrong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\n\n7. Chính phủ quy định trình tự, thủ tục kiểm tra an ninh mạng quy định tại Điều này.",
+        "source": "vilqa_context",
+        "score": 464.1087855713526,
+        "metadata": {
+          "case_id": "vilqa-392",
+          "question": "trách nhiệm của chủ quản hệ thống là gì khi phát hiện hành vi vi phạm pháp luật?",
+          "row_index": 392,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-391-context",
+        "text": "Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia trong trường hợp sau đây:\n\na) Khi có hành vi vi phạm pháp luật về an ninh mạng xâm phạm an ninh quốc gia hoặc gây tổn hại nghiêm trọng trật tự, an toàn xã hội;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin.\n\n2. Đối tượng kiểm tra an ninh mạng bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nc) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật.\n\n3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi phạm pháp luật về an ninh mạng trên hệ thống thông tin thuộc phạm vi quản lý.\n\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này.\n\n5. Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ.\n\nTrong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\n\n7. Chính phủ quy định trình tự, thủ tục kiểm tra an ninh mạng quy định tại Điều này.",
+        "source": "vilqa_context",
+        "score": 464.1087855713526,
+        "metadata": {
+          "case_id": "vilqa-391",
+          "question": "Ngoài việc có hành vi vi phạm pháp luật thì trường hợp nào cần phải được kiểm tra an ninh mạng?",
+          "row_index": 391,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng.\n\nCandidate final answer: Trong thời hạn 12 tháng kể từ ngày Luật An ninh mạng 2018 có hiệu lực, chủ quản hệ thống thông tin phải bảo đảm đủ điều kiện an ninh mạng cho các hệ thống thông tin quan trọng về an ninh quốc gia. Trường hợp cần gia hạn thì không quá 12 tháng.\n\nBest supporting legal evidence: Điều 2 của Luật An ninh mạng 2018 quy định về việc bảo đảm đủ điều kiện an ninh mạng đối với các hệ thống thông tin quan trọng về an ninh quốc gia như sau:\n\n\"2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc",
+        "public_argument": "Xin lưu ý câu trả lời cuối cùng là Điều 2 của Luật An ninh mạng 2018.",
+        "evidence_ids": [
+          "vilqa-440-context",
+          "vilqa-426-context",
+          "vilqa-425-context",
+          "vilqa-392-context",
+          "vilqa-391-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The Proponent's claim that \"Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng\" may be challenged by the fact that there is no mention of what specific conditions or criteria are required to meet the \"đủ điều kiện an ninh mạng\" standard.\n\nAlternative answer or interpretation: The Proponent's claim could be interpreted more specifically as requiring not only a 12-month timeframe but also specific legal standards and guidelines for ensuring adequate cybersecurity measures. For example, the Proponent could argue that the \"đủ điều kiện an ninh mạng\" standard requires compliance with certain technical specifications, organizational structures, or personnel training programs.\n\nEvidence needed to support the challenge: More detailed information about the specific requirements for meeting the \"",
+        "public_argument": "Xin lưu ý câu trả lời cuối cùng là Điều 2 của Luật An ninh mạng 2018.",
+        "evidence_ids": [
+          "vilqa-440-context",
+          "vilqa-426-context",
+          "vilqa-425-context",
+          "vilqa-392-context",
+          "vilqa-391-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "12 tháng",
+        "confidence": 100.0,
+        "reasoning": "Theo Điều 2 của Luật An ninh mạng 2018, hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng."
+      }
+    ],
+    "verdict": {
+      "prediction": "12 tháng",
+      "answer": "12 tháng",
+      "confidence": 100.0,
+      "reasoning": "Theo Điều 2 của Luật An ninh mạng 2018, hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T10:58:01.042842+00:00"
+  }
+}

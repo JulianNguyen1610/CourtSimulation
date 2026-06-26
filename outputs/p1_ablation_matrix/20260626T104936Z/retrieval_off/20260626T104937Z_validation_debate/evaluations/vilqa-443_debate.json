@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-443",
+    "case_type": "legal_qa",
+    "context": "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự\n\n1. Ở nước Cộng hòa xã hội chủ nghĩa Việt Nam, các quyền dân sự được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật.\n\n2. Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.",
+    "question": "Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, quyền dân sự có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì các lý do nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 443
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.65625,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

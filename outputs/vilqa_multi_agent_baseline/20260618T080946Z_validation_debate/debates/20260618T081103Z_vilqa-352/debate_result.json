@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-352",
+    "case_type": "legal_qa",
+    "context": "Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.000 đồng trở lên;\n\nc) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+    "question": "Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền tối đa bao nhiêu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 352
+    }
+  },
+  "result": {
+    "case_id": "vilqa-352",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-353-context",
+        "text": "Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.000 đồng trở lên;\n\nc) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 473.40957995992505,
+        "metadata": {
+          "case_id": "vilqa-353",
+          "question": "Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm và làm chết người thì bị phạt như thế nào?",
+          "row_index": 353,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-354-context",
+        "text": "Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.000 đồng trở lên;\n\nc) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 473.40957995992505,
+        "metadata": {
+          "case_id": "vilqa-354",
+          "question": "Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích, thu lợi bất chính bao nhiêu thì bị phạt tù từ 03 năm đến 10 năm?",
+          "row_index": 354,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-351-context",
+        "text": "Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.000 đồng trở lên;\n\nc) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 473.40957995992505,
+        "metadata": {
+          "case_id": "vilqa-351",
+          "question": "Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt như thế nào?",
+          "row_index": 351,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-355-context",
+        "text": "Tội đánh bạc\n\n1. Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng, đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tính chất chuyên nghiệp;\n\nb) Tiền hoặc hiện vật dùng đánh bạc trị giá 50.000.000 đồng trở lên;\n\nc) Sử dụng mạng internet, mạng máy tính, mạng viễn thông, phương tiện điện tử để phạm tội;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 301.14724962221,
+        "metadata": {
+          "case_id": "vilqa-355",
+          "question": "Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng nhưng đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc đã bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt như thế nào?",
+          "row_index": 355,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-34-context",
+        "text": "Tội đánh bạc\n\n1. Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng, đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tính chất chuyên nghiệp;\n\nb) Tiền hoặc hiện vật dùng đánh bạc trị giá 50.000.000 đồng trở lên;\n\nc) Sử dụng mạng internet, mạng máy tính, mạng viễn thông, phương tiện điện tử để phạm tội;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 301.14724962221,
+        "metadata": {
+          "case_id": "vilqa-34",
+          "question": "Người đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng, thì bị phạt cải tạo không giam giữ đến bao nhiêu năm?",
+          "row_index": 34,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng.\n\nCandidate final answer: Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng.\n\nBest supporting legal evidence: Tội hành nghề mê tín, dị đoan\n\nAnticipated opponent challenge: Đối phương có thể tranh luận rằng mức phạt tiền tối đa là không rõ ràng vì chưa đề cập cụ thể số tiền tối",
+        "public_argument": "Chúng ta hãy xem xét các tình tiết cụ thể của vụ việc để xác định mức phạt tiền tối đa. Trong luật, người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm sẽ bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng. Do đó, mức phạt tiền tối đa cho người dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác là 100.000.000 đồng.",
+        "evidence_ids": [
+          "vilqa-353-context",
+          "vilqa-354-context",
+          "vilqa-351-context",
+          "vilqa-355-context",
+          "vilqa-34-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The proponent's claim seems to be based on a general understanding of the law without considering specific circumstances that might affect the maximum fine. The opponent could argue that the maximum fine is not clearly stated and may vary depending on the specifics of each case.\n\nAlternative answer or interpretation: \"Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng.\" (Translation: \"Anyone who uses divination, spirit mediumship or other forms of superstition and has been sanctioned for this behavior or convicted of the crime, without having their criminal record expunged, and still violates it, shall be fined from 10,000,000 VND to 100",
+        "public_argument": "Đối phương đưa ra mức tiền phạt tối đa là không rõ ràng vì chưa đề cập cụ thể số tiền tối. Tuy nhiên, theo luật, người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm sẽ bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng.",
+        "evidence_ids": [
+          "vilqa-353-context",
+          "vilqa-354-context",
+          "vilqa-351-context",
+          "vilqa-355-context",
+          "vilqa-34-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "100.000.000 đồng",
+        "confidence": 90.0,
+        "reasoning": "The context clearly states that the maximum fine for using fortune-telling, spirit medium or other forms of superstition is between 10.000.000 đồng and 100.000.000 đồng."
+      }
+    ],
+    "verdict": {
+      "prediction": "100.000.000 đồng",
+      "answer": "10.000.000 đồng đến 100.000.000 đồng",
+      "confidence": 90.0,
+      "reasoning": "The context clearly states that the maximum fine for using fortune-telling, spirit medium or other forms of superstition is between 10.000.000 đồng and 100.000.000 đồng.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.5714285714285715,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T08:11:03.720073+00:00"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-125",
+    "case_type": "legal_qa",
+    "context": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứng tiền lương.\n\n3. Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.",
+    "question": "Người lao động được tạm tứng tiền và không bị tính lãi theo điều kiện nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 125
+    }
+  },
+  "result": {
+    "case_id": "vilqa-125",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-127-context",
+        "text": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứng tiền lương.\n\n3. Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.",
+        "source": "vilqa_context",
+        "score": 379.05449250299694,
+        "metadata": {
+          "case_id": "vilqa-127",
+          "question": "Người lao động trong điều kiện nào thì không được tạm ứng tiền lương?",
+          "row_index": 127,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-126-context",
+        "text": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứng tiền lương.\n\n3. Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.",
+        "source": "vilqa_context",
+        "score": 379.05449250299694,
+        "metadata": {
+          "case_id": "vilqa-126",
+          "question": "Người lao động được tạm ứng tối đa là bao nhiêu?",
+          "row_index": 126,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-143-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 238.5631482109063,
+        "metadata": {
+          "case_id": "vilqa-143",
+          "question": "Người lao động có thể thỏa thuận nghỉ hằng năm như thế nào?",
+          "row_index": 143,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-141-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 238.5631482109063,
+        "metadata": {
+          "case_id": "vilqa-141",
+          "question": "Đối với người làm việc trong môi trường độc hại thì hằng năm được nghỉ bao nhiêu ngày?",
+          "row_index": 141,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-140-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 238.5631482109063,
+        "metadata": {
+          "case_id": "vilqa-140",
+          "question": "Đôi với người lao động trong đièu kiện bình thường thì được nghỉ bao lâu 1 năm?",
+          "row_index": 140,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\nCandidate Final Answer: Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\nBest Supporting Legal Evidence: Điều 1 trong chính sách \"Tạm ứng tiền lương\".\n\nAnticipated Opponent Challenge: Không có bằng chứng cụ thể cho việc thỏa thuận giữa hai bên.\n\nStrategy for this Round: Sử dụng chính sách để hỗ trợ câu trả lời của mình, đồng thời đề xuất các điều khoản cần thiết cho thỏa thuận tạm ứng tiền lương.",
+        "public_argument": "Đáp án cuối cùng là: Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi. Bằng chứng pháp lý là Điều 1 trong chính sách \"Tạm ứng tiền lương\". Không có bằng chứng cụ thể cho việc thỏa thuận giữa hai bên.",
+        "evidence_ids": [
+          "vilqa-127-context",
+          "vilqa-126-context",
+          "vilqa-143-context",
+          "vilqa-141-context",
+          "vilqa-140-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in Proponent's position:\nThe Proponent's argument relies heavily on the assumption that the temporary wage advance policy only requires mutual agreement between the employer and employee. However, there is no explicit evidence provided to support this claim.\n\nAlternative answer or interpretation:\n\"Tạm ứng tiền lương được thực hiện theo thỏa thuận của hai bên và không tính lãi.\"\n\nEvidence needed to support the challenge:\nTo strengthen their position, the Proponent could provide specific examples of cases where the temporary wage advance policy was successfully implemented through mutual agreement between employers and employees. Additionally, they could cite relevant legal documents or policies that explicitly state the conditions for such agreements.\n\nStrategy for this round:\nThe Opponent will focus on challenging the Proponent's assumption by questioning the lack of concrete evidence supporting their claim. They will suggest that a more comprehensive understanding of the policy requires considering other factors beyond mutual agreement between employers and employees. The Opponent may also propose alternative interpretations or introduce conflicting evidence to further weaken the Proponent's position",
+        "public_argument": "Đáp lại của đối thủ: \"Tôi muốn chỉ ra rằng, mặc dù Điều 1 chính sách 'Tạm ứng tiền lương' khẳng định quyền tạm ứng tiền lương giữa người lao động và sử dụng lao động thông qua thỏa thuận, nhưng không có bằng chứng cụ thể nào cho thấy điều này đã được thực hiện. Việc làm rõ thêm các điều khoản cụ thể của thỏa thuận sẽ giúp hiểu rõ hơn về chính sách này.\"",
+        "evidence_ids": [
+          "vilqa-127-context",
+          "vilqa-126-context",
+          "vilqa-143-context",
+          "vilqa-141-context",
+          "vilqa-140-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.",
+        "confidence": 80.0,
+        "reasoning": "Bằng chứng pháp lý là Điều 1 trong chính sách 'Tạm ứng tiền lương'."
+      }
+    ],
+    "verdict": {
+      "prediction": "Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.",
+      "answer": "do hai bên thỏa thuận",
+      "confidence": 80.0,
+      "reasoning": "Bằng chứng pháp lý là Điều 1 trong chính sách 'Tạm ứng tiền lương'.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T07:38:52.155827+00:00"
+  }
+}

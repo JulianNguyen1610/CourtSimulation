@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-98",
+    "case_type": "legal_qa",
+    "context": "Trả tiền thuê\n\n1. Bên thuê phải trả đủ tiền thuê đúng thời hạn đã thỏa thuận; nếu không có thỏa thuận về thời hạn trả tiền thuê thì thời hạn trả tiền thuê được xác định theo tập quán nơi trả tiền; nếu không thể xác định được thời hạn theo tập quán thì bên thuê phải trả tiền khi trả lại tài sản thuê.\n\n2. Trường hợp các bên thỏa thuận việc trả tiền thuê theo kỳ hạn thì bên cho thuê có quyền đơn phương chấm dứt thực hiện hợp đồng, nếu bên thuê không trả tiền trong ba kỳ liên tiếp, trừ trường hợp có thỏa thuận khác hoặc pháp luật có quy định khác.",
+    "question": "Nếu các bên không có thoả thuận về thời hạn trả tiền thuê và không thể xác định được thời hạn theo tập quán nơi trả tiền thì khi nào bên thuê cần trả tiền?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 98
+    }
+  },
+  "result": {
+    "case_id": "vilqa-98",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-99-context",
+        "text": "Trả lại tài sản thuê\n\n1. Bên thuê phải trả lại tài sản thuê trong tình trạng như khi nhận, trừ hao mòn tự nhiên hoặc theo đúng như tình trạng đã thỏa thuận; nếu giá trị của tài sản thuê bị giảm sút so với tình trạng khi nhận thì bên cho thuê có quyền yêu cầu bồi thường thiệt hại, trừ hao mòn tự nhiên.\n\n2. Trường hợp tài sản thuê là động sản thì địa điểm trả lại tài sản thuê là nơi cư trú hoặc trụ sở của bên cho thuê, trừ trường hợp có thỏa thuận khác.\n\n3. Trường hợp tài sản thuê là gia súc thì bên thuê phải trả lại gia súc đã thuê và cả gia súc được sinh ra trong thời gian thuê, trừ trường hợp có thỏa thuận khác. Bên cho thuê phải thanh toán chi phí chăm sóc gia súc được sinh ra cho bên thuê.\n\n4. Khi bên thuê chậm trả tài sản thuê thì bên cho thuê có quyền yêu cầu bên thuê trả lại tài sản thuê, trả tiền thuê trong thời gian chậm trả và phải bồi thường thiệt hại; bên thuê phải trả tiền phạt vi phạm do chậm trả tài sản thuê, nếu có thỏa thuận.\n\n5. Bên thuê phải chịu rủi ro xảy ra đối với tài sản thuê trong thời gian chậm trả.\n\nTiểu mục 2. HỢP ĐỒNG THUÊ KHOÁN TÀI SẢN",
+        "source": "vilqa_context",
+        "score": 280.86269115510527,
+        "metadata": {
+          "case_id": "vilqa-99",
+          "question": "Bên cho thuê có quyền gì nếu bên thuê chậm trả tài sản thuê?",
+          "row_index": 99,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-94-context",
+        "text": "Mua sau khi sử dụng thử\n\n1. Các bên có thể thỏa thuận về việc bên mua được dùng thử vật mua trong một thời hạn gọi là thời hạn dùng thử. Trong thời hạn dùng thử, bên mua có thể trả lời mua hoặc không mua; nếu hết thời hạn dùng thử mà bên mua không trả lời thì coi như đã chấp nhận mua theo các điều kiện đã thỏa thuận trước khi nhận vật dùng thử.\n\nTrường hợp các bên không thỏa thuận hoặc thỏa thuận không rõ ràng về thời hạn dùng thử thì thời hạn này được xác định theo tập quán của giao dịch có đối tượng cùng loại.\n\n2. Trong thời hạn dùng thử, vật vẫn thuộc sở hữu của bên bán. Bên bán phải chịu mọi rủi ro xảy ra đối với vật, trừ trường hợp có thỏa thuận khác. Trong thời hạn dùng thử, bên bán không được bán, tặng cho, cho thuê, trao đổi, thế chấp, cầm cố tài sản khi bên mua chưa trả lời.\n\n3. Trường hợp bên dùng thử trả lời không mua thì phải trả lại vật cho bên bán và phải bồi thường thiệt hại cho bên bán, nếu làm mất, hư hỏng vật dùng thử. Bên dùng thử không phải chịu trách nhiệm về những hao mòn thông thường do việc dùng thử gây ra và không phải hoàn trả hoa lợi do việc dùng thử mang lại.",
+        "source": "vilqa_context",
+        "score": 249.12462921942728,
+        "metadata": {
+          "case_id": "vilqa-94",
+          "question": "Trong thời gian dùng thử vật mua thuộc sở hữu của bên nào?",
+          "row_index": 94,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-97-context",
+        "text": "Nghĩa vụ trả nợ của bên vay\n\n1. Bên vay tài sản là tiền thì phải trả đủ tiền khi đến hạn; nếu tài sản là vật thì phải trả vật cùng loại đúng số lượng, chất lượng, trừ trường hợp có thỏa thuận khác.\n\n2. Trường hợp bên vay không thể trả vật thì có thể trả bằng tiền theo trị giá của vật đã vay tại địa điểm và thời điểm trả nợ, nếu được bên cho vay đồng ý.\n\n3. Địa điểm trả nợ là nơi cư trú hoặc nơi đặt trụ sở của bên cho vay, trừ trường hợp có thỏa thuận khác.\n\n4. Trường hợp vay không có lãi mà khi đến hạn bên vay không trả nợ hoặc trả không đầy đủ thì bên cho vay có quyền yêu cầu trả tiền lãi với mức lãi suất theo quy định tại khoản 2 Điều 468 của Bộ luật này trên số tiền chậm trả tương ứng với thời gian chậm trả, trừ trường hợp có thỏa thuận khác hoặc luật có quy định khác.\n\n5. Trường hợp vay có lãi mà khi đến hạn bên vay không trả hoặc trả không đầy đủ thì bên vay phải trả lãi như sau:\n\na) Lãi trên nợ gốc theo lãi suất thỏa thuận trong hợp đồng tương ứng với thời hạn vay mà đến hạn chưa trả; trường hợp chậm trả thì còn phải trả lãi theo mức lãi suất quy định tại khoản 2 Điều 468 của Bộ luật này;\n\nb) Lãi trên nợ gốc quá hạn chưa trả bằng 150% lãi suất vay theo hợp đồng tương ứng với thời gian chậm trả, trừ trường hợp có thỏa thuận khác.",
+        "source": "vilqa_context",
+        "score": 234.5532322661802,
+        "metadata": {
+          "case_id": "vilqa-97",
+          "question": "Bên vay có nghĩa vụ gì nếu không thể trả vật cùng loại đúng số lượng chất lượng?",
+          "row_index": 97,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-85-context",
+        "text": "Nghĩa vụ trả tiền\n\n1. Bên mua có nghĩa vụ thanh toán tiền theo thời hạn, địa điểm và mức tiền được quy định trong hợp đồng.\n\n2. Trường hợp các bên chỉ có thỏa thuận về thời hạn giao tài sản thì thời hạn thanh toán tiền cũng được xác định tương ứng với thời hạn giao tài sản. Nếu các bên không có thỏa thuận về thời hạn giao tài sản và thời hạn thanh toán tiền thì bên mua phải thanh toán tiền tại thời điểm nhận tài sản.\n\n3. Trường hợp bên mua không thực hiện đúng nghĩa vụ trả tiền thì phải trả lãi trên số tiền chậm trả theo quy định tại Điều 357 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 226.62825069485112,
+        "metadata": {
+          "case_id": "vilqa-85",
+          "question": "Nếu bên bán và bên mua chỉ thoả thuận về thời hạn giao tài sản thì thời hạn thanh toán tiền được xác định như thế nào?",
+          "row_index": 85,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-86-context",
+        "text": "Nghĩa vụ trả tiền\n\n1. Bên mua có nghĩa vụ thanh toán tiền theo thời hạn, địa điểm và mức tiền được quy định trong hợp đồng.\n\n2. Trường hợp các bên chỉ có thỏa thuận về thời hạn giao tài sản thì thời hạn thanh toán tiền cũng được xác định tương ứng với thời hạn giao tài sản. Nếu các bên không có thỏa thuận về thời hạn giao tài sản và thời hạn thanh toán tiền thì bên mua phải thanh toán tiền tại thời điểm nhận tài sản.\n\n3. Trường hợp bên mua không thực hiện đúng nghĩa vụ trả tiền thì phải trả lãi trên số tiền chậm trả theo quy định tại Điều 357 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 226.62825069485112,
+        "metadata": {
+          "case_id": "vilqa-86",
+          "question": "Bên mua cần thanh toán tiền lúc nào trong trường hợp các bên không có thoả thuận về thời gian giao tài sản và thời hạn thanh toán?",
+          "row_index": 86,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- Key claim: Theo quy định tại Điều 1 về \"Trả tiền thuê\" trong hồ sơ vụ việc, khi không có thỏa thuận về thời hạn và không xác định được theo tập quán, nghĩa vụ trả tiền thuê được thực hiện đồng thời với nghĩa vụ trả lại tài sản thuê.\n\n- Candidate final answer: trả tiền khi trả lại tài sản thuê\n\n- Best supporting legal evidence: {'doc_id': 'vilqa-98-context', 'text': 'Trả tiền thuê\\n\\n1. Bên thuê phải trả đủ tiền thuê đúng thời hạn đã thỏa thuận; nếu không có thỏa thuận về thời hạn trả tiền thuê thì thời hạn trả tiền thuê được xác định theo tập quán nơi trả tiền; nếu không thể xác định được thời hạn theo tập quán thì bên thuê phải trả tiền khi trả lại tài sản thuê.\\n\\n2. Trường hợp các bên thỏa thuận việc trả tiền thuê theo kỳ hạn thì bên cho thuê có quyền đơn phương chấm dứt thực hiện hợp đồng,",
+        "public_argument": "Theo quy định tại mục 1 của hồ sơ vụ việc, khi các bên không có thỏa thuận về thời hạn trả tiền thuê và không thể xác định được thời hạn theo tập quán nơi trả tiền, nghĩa vụ của bên thuê là phải trả tiền khi trả lại tài sản thuê. Do đó, câu trả lời chính xác là: trả tiền khi trả lại tài sản thuê",
+        "evidence_ids": [
+          "vilqa-99-context",
+          "vilqa-94-context",
+          "vilqa-97-context",
+          "vilqa-85-context",
+          "vilqa-86-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- Strongest weakness in the Proponent's position:\nThe Proponent's argument is legally sound based on the explicit text of the provided context for `vilqa-98`. However, the weakness lies in the **irrelevance and potential confusion caused by the cited evidence IDs**. The Proponent cites `vilqa-99-context` (which discusses returning the leased property, not paying rent) and `vilqa-94-context` (which discusses trial sales) as supporting evidence. These documents do not contain the legal rule regarding the *timing of rent payment* when no agreement exists; they are contextually distinct legal scenarios (returning goods vs. trial sales). While the Proponent correctly identifies the rule from the *case profile* text, their reliance on external, irrelevant document IDs weakens the evidentiary chain, suggesting a retrieval error or misunderstanding of which document contains the specific rule. The challenge should focus on the fact that the Proponent's *justification*",
+        "public_argument": "Lập luận của Proponent đúng về kết quả nhưng sai về cơ sở chứng cứ. Proponent viện dẫn các tài liệu `vilqa-99`, `vilqa-94`, `vilqa-97`, `vilqa-85`, `vilqa-86` hoàn toàn không liên quan đến quy định về thời hạn trả tiền thuê trong vụ án này. Các tài liệu này đề cập đến các tình huống pháp lý khác (như trả lại tài sản, bán thử nghiệm) và không chứa điều khoản pháp lý trực tiếp giải quyết câu hỏi. Do thiếu bằng chứng pháp lý phù hợp trong phần trích dẫn, lập luận của Proponent bị suy yếu nghiêm trọng về mặt chứng minh. Quy định chính xác phải được trích xuất trực tiếp từ ngữ cảnh vụ án `vilqa-98-context` chứ không phải từ các nguồn bên ngoài không liên quan.\n\ntrả tiền khi trả lại tài sản thuê",
+        "evidence_ids": [
+          "vilqa-99-context",
+          "vilqa-94-context",
+          "vilqa-97-context",
+          "vilqa-85-context",
+          "vilqa-86-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "bên thuê phải trả tiền khi trả lại tài sản thuê",
+        "confidence": 100.0,
+        "reasoning": "Dự đoán được trích xuất trực tiếp từ đoạn văn bản ngữ cảnh, cụ thể là phần cuối của mục 1, nơi quy định rõ thời hạn trả tiền trong trường hợp không có thỏa thuận và không xác định được theo tập quán."
+      }
+    ],
+    "verdict": {
+      "prediction": "trả tiền khi trả lại tài sản thuê",
+      "answer": "trả tiền khi trả lại tài sản thuê",
+      "confidence": 100.0,
+      "reasoning": "Dựa trên mục 1 của ngữ cảnh vụ việc, khi không có thỏa thuận về thời hạn trả tiền thuê và không thể xác định theo tập quán, quy định rõ ràng là bên thuê phải trả tiền khi trả lại tài sản thuê. Lập luận của Proponent đúng về mặt pháp lý dựa trên văn bản này, mặc dù Opponent chỉ ra sai sót trong việc trích dẫn các ID tài liệu không liên quan, nhưng điều này không làm thay đổi nội dung quy định pháp luật được cung cấp trong ngữ cảnh chính của vụ án.",
+      "cited_evidence_ids": [
+        "vilqa-98-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.8571428571428571,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:44:50.182401+00:00"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-232",
+    "case_type": "legal_qa",
+    "context": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+    "question": "Sau bao lâu kể từ ngày thông báo công khai về gia súc không phải gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc thuộc về người bắt được gia súc?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 232
+    }
+  },
+  "result": {
+    "case_id": "vilqa-232",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-230-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 667.702277899886,
+        "metadata": {
+          "case_id": "vilqa-230",
+          "question": "Người bắt được gia súc bị thất lạc phải làm gì?",
+          "row_index": 230,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-233-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 667.702277899886,
+        "metadata": {
+          "case_id": "vilqa-233",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai về gia súc bị thất lạc là gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc thuộc về người bắt được gia súc?",
+          "row_index": 233,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-231-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 667.702277899886,
+        "metadata": {
+          "case_id": "vilqa-231",
+          "question": "Chủ sở hữu được nhận lại gia súc phải thực hiện nghĩa vụ gì với người bắt được gia súc?",
+          "row_index": 231,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-234-context",
+        "text": "Xác lập quyền sở hữu đối với gia cầm bị thất lạc\n\n1. Trường hợp gia cầm của một người bị thất lạc mà người khác bắt được thì người bắt được phải thông báo công khai để chủ sở hữu gia cầm biết mà nhận lại. Sau 01 tháng, kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu đối với gia cầm và hoa lợi do gia cầm sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia cầm.\n\n2. Trường hợp chủ sở hữu được nhận lại gia cầm bị thất lạc thì phải thanh toán tiền công nuôi giữ và chi phí khác cho người bắt được gia cầm. Trong thời gian nuôi giữ gia cầm bị thất lạc, người bắt được gia cầm được hưởng hoa lợi do gia cầm sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia cầm.",
+        "source": "vilqa_context",
+        "score": 398.343046132248,
+        "metadata": {
+          "case_id": "vilqa-234",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận gia cẩm bị thất lạc thì quyền sở hữu đối với gia cầm thuộc về người bắt được?",
+          "row_index": 234,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-99-context",
+        "text": "Trả lại tài sản thuê\n\n1. Bên thuê phải trả lại tài sản thuê trong tình trạng như khi nhận, trừ hao mòn tự nhiên hoặc theo đúng như tình trạng đã thỏa thuận; nếu giá trị của tài sản thuê bị giảm sút so với tình trạng khi nhận thì bên cho thuê có quyền yêu cầu bồi thường thiệt hại, trừ hao mòn tự nhiên.\n\n2. Trường hợp tài sản thuê là động sản thì địa điểm trả lại tài sản thuê là nơi cư trú hoặc trụ sở của bên cho thuê, trừ trường hợp có thỏa thuận khác.\n\n3. Trường hợp tài sản thuê là gia súc thì bên thuê phải trả lại gia súc đã thuê và cả gia súc được sinh ra trong thời gian thuê, trừ trường hợp có thỏa thuận khác. Bên cho thuê phải thanh toán chi phí chăm sóc gia súc được sinh ra cho bên thuê.\n\n4. Khi bên thuê chậm trả tài sản thuê thì bên cho thuê có quyền yêu cầu bên thuê trả lại tài sản thuê, trả tiền thuê trong thời gian chậm trả và phải bồi thường thiệt hại; bên thuê phải trả tiền phạt vi phạm do chậm trả tài sản thuê, nếu có thỏa thuận.\n\n5. Bên thuê phải chịu rủi ro xảy ra đối với tài sản thuê trong thời gian chậm trả.\n\nTiểu mục 2. HỢP ĐỒNG THUÊ KHOÁN TÀI SẢN",
+        "source": "vilqa_context",
+        "score": 313.2221052818647,
+        "metadata": {
+          "case_id": "vilqa-99",
+          "question": "Bên cho thuê có quyền gì nếu bên thuê chậm trả tài sản thuê?",
+          "row_index": 99,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Theo quy định pháp luật, quyền sở hữu đối với gia súc bị thất lạc (không phải gia súc thả rông theo tập quán) sẽ thuộc về người bắt được sau 06 tháng kể từ ngày thông báo công khai.\n\nCandidate final answer: \"Sau 06 tháng, kể từ ngày thông báo công khai\"\n\nBest supporting legal evidence: \"Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\"\n\nAnticipated opponent challenge: Đối thủ có thể lập luận rằng thời gian chờ đợi là 01 năm, nhầm lẫn giữa hai loại gia súc (thất lạc thông thường và gia súc thả rông theo tập quán).\n\nStrategy for this round: Tập trung làm rõ sự phân biệt giữa hai trường hợp trong văn",
+        "public_argument": "Câu trả lời chính xác là \"Sau 06 tháng, kể từ ngày thông báo công khai\". Quy định pháp luật phân biệt rõ ràng giữa hai trường hợp: quyền sở hữu thuộc về người bắt được sau 06 tháng đối với gia súc bị thất lạc thông thường, và chỉ sau 01 năm đối với gia súc thả rông theo tập quán. Do câu hỏi cụ thể loại trừ trường hợp gia súc thả rông, thời gian chờ đợi áp dụng là 06 tháng.",
+        "evidence_ids": [
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-234-context",
+          "vilqa-99-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent's argument relies heavily on the specific phrasing of the question (\"gia súc không phải gia súc thả rông theo tập quán\") to justify the 6-month period. However, the Proponent fails to explicitly cite the *exact* clause in the legal text that creates this distinction as a primary condition for the time limit. By focusing only on the outcome (6 months) without rigorously contrasting the \"or\" (hoặc) condition in the source text, the Proponent leaves the argument vulnerable to a challenge claiming the 1-year period is the default rule and the 6-month period is an exception that requires stricter proof of the animal's status. The Proponent's strategy assumes the distinction is obvious, whereas the legal text makes it a critical conditional element (\"Sau 06 tháng... **hoặc** sau 01 năm...\").\n\n- **Alternative answer or interpretation**:\n  \"Sau 06 tháng",
+        "public_argument": "Câu trả lời của Người đề xuất là chính xác. Văn bản pháp luật quy định rõ: \"Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc... thuộc về người bắt được gia súc.\" Vì câu hỏi đã loại trừ trường hợp \"gia súc thả rông theo tập quán\", thời gian áp dụng đúng là 06 tháng.",
+        "evidence_ids": [
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-234-context",
+          "vilqa-99-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Sau 06 tháng, kể từ ngày thông báo công khai",
+        "confidence": 100.0,
+        "reasoning": "Văn bản pháp luật trong ngữ cảnh quy định rõ: 'Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán'. Câu hỏi đã loại trừ trường hợp gia súc thả rông, do đó thời gian áp dụng là 06 tháng kể từ ngày thông báo công khai."
+      }
+    ],
+    "verdict": {
+      "prediction": "Sau 06 tháng, kể từ ngày thông báo công khai",
+      "answer": "06 tháng",
+      "confidence": 100.0,
+      "reasoning": "Văn bản pháp luật quy định rõ: 'Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán'. Câu hỏi đã loại trừ trường hợp gia súc thả rông, do đó thời gian áp dụng là 06 tháng kể từ ngày thông báo công khai.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T16:18:58.603761+00:00"
+  }
+}

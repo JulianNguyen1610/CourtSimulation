@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-189",
+    "case_type": "legal_qa",
+    "context": "Khái niệm chiếm hữu\n\n1. Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.\n\n2. Chiếm hữu bao gồm chiếm hữu của chủ sở hữu và chiếm hữu của người không phải là chủ sở hữu.\n\nViệc chiếm hữu của người không phải là chủ sở hữu không thể là căn cứ xác lập quyền sở hữu, trừ trường hợp quy định tại các điều 228, 229, 230, 231, 232, 233 và 236 của Bộ luật này.",
+    "question": "Việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản được gọi là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 189
+    }
+  },
+  "result": {
+    "case_id": "vilqa-189",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-187-context",
+        "text": "Quyền khác đối với tài sản\n\n1. Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác.\n\n2. Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\n\nb) Quyền hưởng dụng;\n\nc) Quyền bề mặt.",
+        "source": "vilqa_context",
+        "score": 158.95427009353423,
+        "metadata": {
+          "case_id": "vilqa-187",
+          "question": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng, và quyền nào.",
+          "row_index": 187,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-207-context",
+        "text": "Định đoạt tài sản chung\n\n1. Mỗi chủ sở hữu chung theo phần có quyền định đoạt phần quyền sở hữu của mình.\n\n2. Việc định đoạt tài sản chung hợp nhất được thực hiện theo thỏa thuận của các chủ sở hữu chung hoặc theo quy định của pháp luật.\n\n3. Trường hợp một chủ sở hữu chung theo phần bán phần quyền sở hữu của mình thì chủ sở hữu chung khác được quyền ưu tiên mua.\n\nTrong thời hạn 03 tháng đối với tài sản chung là bất động sản, 01 tháng đối với tài sản chung là động sản, kể từ ngày các chủ sở hữu chung khác nhận được thông báo về việc bán và các điều kiện bán mà không có chủ sở hữu chung nào mua thì chủ sở hữu đó được quyền bán cho người khác. Việc thông báo phải được thể hiện bằng văn bản và các điều kiện bán cho chủ sở hữu chung khác phải giống như điều kiện bán cho người không phải là chủ sở hữu chung.\n\nTrường hợp bán phần quyền sở hữu mà có sự vi phạm về quyền ưu tiên mua thì trong thời hạn 03 tháng, kể từ ngày phát hiện có sự vi phạm về quyền ưu tiên mua, chủ sở hữu chung theo phần trong số các chủ sở hữu chung có quyền yêu cầu Tòa án chuyển sang cho mình quyền và nghĩa vụ của người mua; bên có lỗi gây thiệt hại phải bồi thường thiệt hại.\n\n4. Trường hợp một trong các chủ sở hữu chung đối với bất động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc về Nhà nước, trừ trường hợp sở hữu chung của cộng đồng thì thuộc sở hữu chung của các chủ sở hữu chung còn lại.\n\n5. Trường hợp một trong các chủ sở hữu chung đối với động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc sở hữu chung của các chủ sở hữu còn lại.\n\n6. Trường hợp tất cả các chủ sở hữu từ bỏ quyền sở hữu của mình đối với tài sản chung thì việc xác lập quyền sở hữu được áp dụng theo quy định tại Điều 228 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 139.48855043097953,
+        "metadata": {
+          "case_id": "vilqa-207",
+          "question": "Trường hợp một trong các chủ sở hữu chung đối với bất động sản từ bỏ phần quyền sở hữu của mình thì phần quyền sở hữu đó thuộc về chủ thể nào nếu tài sản đó là sở hữu chung của cộng đồng?",
+          "row_index": 207,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-209-context",
+        "text": "Định đoạt tài sản chung\n\n1. Mỗi chủ sở hữu chung theo phần có quyền định đoạt phần quyền sở hữu của mình.\n\n2. Việc định đoạt tài sản chung hợp nhất được thực hiện theo thỏa thuận của các chủ sở hữu chung hoặc theo quy định của pháp luật.\n\n3. Trường hợp một chủ sở hữu chung theo phần bán phần quyền sở hữu của mình thì chủ sở hữu chung khác được quyền ưu tiên mua.\n\nTrong thời hạn 03 tháng đối với tài sản chung là bất động sản, 01 tháng đối với tài sản chung là động sản, kể từ ngày các chủ sở hữu chung khác nhận được thông báo về việc bán và các điều kiện bán mà không có chủ sở hữu chung nào mua thì chủ sở hữu đó được quyền bán cho người khác. Việc thông báo phải được thể hiện bằng văn bản và các điều kiện bán cho chủ sở hữu chung khác phải giống như điều kiện bán cho người không phải là chủ sở hữu chung.\n\nTrường hợp bán phần quyền sở hữu mà có sự vi phạm về quyền ưu tiên mua thì trong thời hạn 03 tháng, kể từ ngày phát hiện có sự vi phạm về quyền ưu tiên mua, chủ sở hữu chung theo phần trong số các chủ sở hữu chung có quyền yêu cầu Tòa án chuyển sang cho mình quyền và nghĩa vụ của người mua; bên có lỗi gây thiệt hại phải bồi thường thiệt hại.\n\n4. Trường hợp một trong các chủ sở hữu chung đối với bất động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc về Nhà nước, trừ trường hợp sở hữu chung của cộng đồng thì thuộc sở hữu chung của các chủ sở hữu chung còn lại.\n\n5. Trường hợp một trong các chủ sở hữu chung đối với động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc sở hữu chung của các chủ sở hữu còn lại.\n\n6. Trường hợp tất cả các chủ sở hữu từ bỏ quyền sở hữu của mình đối với tài sản chung thì việc xác lập quyền sở hữu được áp dụng theo quy định tại Điều 228 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 139.48855043097953,
+        "metadata": {
+          "case_id": "vilqa-209",
+          "question": "Trường hợp một trong các chủ sở hữu chung đối với bất động sản chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc về chủ thể nào nếu tài sản đó là sở hữu chung của cộng đồng?",
+          "row_index": 209,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-211-context",
+        "text": "Định đoạt tài sản chung\n\n1. Mỗi chủ sở hữu chung theo phần có quyền định đoạt phần quyền sở hữu của mình.\n\n2. Việc định đoạt tài sản chung hợp nhất được thực hiện theo thỏa thuận của các chủ sở hữu chung hoặc theo quy định của pháp luật.\n\n3. Trường hợp một chủ sở hữu chung theo phần bán phần quyền sở hữu của mình thì chủ sở hữu chung khác được quyền ưu tiên mua.\n\nTrong thời hạn 03 tháng đối với tài sản chung là bất động sản, 01 tháng đối với tài sản chung là động sản, kể từ ngày các chủ sở hữu chung khác nhận được thông báo về việc bán và các điều kiện bán mà không có chủ sở hữu chung nào mua thì chủ sở hữu đó được quyền bán cho người khác. Việc thông báo phải được thể hiện bằng văn bản và các điều kiện bán cho chủ sở hữu chung khác phải giống như điều kiện bán cho người không phải là chủ sở hữu chung.\n\nTrường hợp bán phần quyền sở hữu mà có sự vi phạm về quyền ưu tiên mua thì trong thời hạn 03 tháng, kể từ ngày phát hiện có sự vi phạm về quyền ưu tiên mua, chủ sở hữu chung theo phần trong số các chủ sở hữu chung có quyền yêu cầu Tòa án chuyển sang cho mình quyền và nghĩa vụ của người mua; bên có lỗi gây thiệt hại phải bồi thường thiệt hại.\n\n4. Trường hợp một trong các chủ sở hữu chung đối với bất động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc về Nhà nước, trừ trường hợp sở hữu chung của cộng đồng thì thuộc sở hữu chung của các chủ sở hữu chung còn lại.\n\n5. Trường hợp một trong các chủ sở hữu chung đối với động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc sở hữu chung của các chủ sở hữu còn lại.\n\n6. Trường hợp tất cả các chủ sở hữu từ bỏ quyền sở hữu của mình đối với tài sản chung thì việc xác lập quyền sở hữu được áp dụng theo quy định tại Điều 228 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 139.48855043097953,
+        "metadata": {
+          "case_id": "vilqa-211",
+          "question": "Trường hợp một trong các chủ sở hữu chung đối với động sản chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc về chủ thể nào?",
+          "row_index": 211,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-206-context",
+        "text": "Định đoạt tài sản chung\n\n1. Mỗi chủ sở hữu chung theo phần có quyền định đoạt phần quyền sở hữu của mình.\n\n2. Việc định đoạt tài sản chung hợp nhất được thực hiện theo thỏa thuận của các chủ sở hữu chung hoặc theo quy định của pháp luật.\n\n3. Trường hợp một chủ sở hữu chung theo phần bán phần quyền sở hữu của mình thì chủ sở hữu chung khác được quyền ưu tiên mua.\n\nTrong thời hạn 03 tháng đối với tài sản chung là bất động sản, 01 tháng đối với tài sản chung là động sản, kể từ ngày các chủ sở hữu chung khác nhận được thông báo về việc bán và các điều kiện bán mà không có chủ sở hữu chung nào mua thì chủ sở hữu đó được quyền bán cho người khác. Việc thông báo phải được thể hiện bằng văn bản và các điều kiện bán cho chủ sở hữu chung khác phải giống như điều kiện bán cho người không phải là chủ sở hữu chung.\n\nTrường hợp bán phần quyền sở hữu mà có sự vi phạm về quyền ưu tiên mua thì trong thời hạn 03 tháng, kể từ ngày phát hiện có sự vi phạm về quyền ưu tiên mua, chủ sở hữu chung theo phần trong số các chủ sở hữu chung có quyền yêu cầu Tòa án chuyển sang cho mình quyền và nghĩa vụ của người mua; bên có lỗi gây thiệt hại phải bồi thường thiệt hại.\n\n4. Trường hợp một trong các chủ sở hữu chung đối với bất động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc về Nhà nước, trừ trường hợp sở hữu chung của cộng đồng thì thuộc sở hữu chung của các chủ sở hữu chung còn lại.\n\n5. Trường hợp một trong các chủ sở hữu chung đối với động sản từ bỏ phần quyền sở hữu của mình hoặc khi người này chết mà không có người thừa kế thì phần quyền sở hữu đó thuộc sở hữu chung của các chủ sở hữu còn lại.\n\n6. Trường hợp tất cả các chủ sở hữu từ bỏ quyền sở hữu của mình đối với tài sản chung thì việc xác lập quyền sở hữu được áp dụng theo quy định tại Điều 228 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 139.48855043097953,
+        "metadata": {
+          "case_id": "vilqa-206",
+          "question": "Trường hợp một trong các chủ sở hữu chung đối với bất động sản từ bỏ phần quyền sở hữu của mình thì phần quyền sở hữu đó thuộc về chủ thể nào nếu tài sản đó không phải là sở hữu chung của cộng đồng?",
+          "row_index": 206,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Định nghĩa về \"chiếm hữu\" trong câu hỏi khớp chính xác với nội dung được nêu tại điểm 1 của ngữ cảnh pháp lý đã cung cấp.\n- **Candidate final answer**: \"Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.\"\n- **Best supporting legal evidence**: `vilqa-189-context` (chứa đoạn văn bản định nghĩa chiếm hữu).\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng các văn bản pháp luật khác (như `vilqa-207-context` về quyền định đoạt hoặc `vilqa-187-context` về quyền khác) cũng đề cập đến việc \"nắm giữ, chi phối\" tài sản, do đó câu trả lời cần phân biệt rõ ràng giữa \"chiếm hữu\" và các \"quyền khác đối với tài sản\".",
+        "public_argument": "Câu trả lời đúng là \"Chiếm hữu\". Theo ngữ cảnh pháp lý tại điểm 1, khái niệm này được định nghĩa rõ ràng: \"Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.\" Định nghĩa này khớp chính xác với mô tả trong câu hỏi, xác lập \"Chiếm hữu\" là thuật ngữ pháp lý chính xác cho hành vi được nêu.",
+        "evidence_ids": [
+          "vilqa-187-context",
+          "vilqa-207-context",
+          "vilqa-209-context",
+          "vilqa-211-context",
+          "vilqa-206-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent's argument relies entirely on a direct textual match between the question and the definition in `vilqa-189-context`. However, the Proponent fails to address the critical distinction made in `vilqa-187-context` regarding \"Quyền khác đối với tài sản\" (Other rights to property), which also involves \"trực tiếp nắm giữ, chi phối tài sản\" (directly holding and controlling property). By not explicitly differentiating between \"Chiếm hữu\" (possession) and \"Quyền khác đối với tài sản\" (other rights like usufruct or surface rights where one holds property owned by another), the Proponent's answer risks being incomplete or misleading if the debate shifts to the nature of the right holder (owner vs. non-owner). The Proponent assumes the definition is unique to \"Chiếm hữu\" without clarifying that the *subject* (owner vs. non-owner)",
+        "public_argument": "Câu trả lời của Proponent chưa đầy đủ vì định nghĩa này cũng áp dụng cho \"Chiếm hữu của người không phải là chủ sở hữu\". Theo ngữ cảnh, việc nắm giữ tài sản không tự động xác lập quyền sở hữu, trừ các trường hợp đặc biệt. Do đó, khái niệm cần được làm rõ hơn: \"Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.\"",
+        "evidence_ids": [
+          "vilqa-187-context",
+          "vilqa-207-context",
+          "vilqa-209-context",
+          "vilqa-211-context",
+          "vilqa-206-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Chiếm hữu",
+        "confidence": 100.0,
+        "reasoning": "Ngữ cảnh tại điểm 1 định nghĩa rõ ràng: 'Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản', khớp chính xác với câu hỏi."
+      }
+    ],
+    "verdict": {
+      "prediction": "Chiếm hữu",
+      "answer": "Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản",
+      "confidence": 100.0,
+      "reasoning": "Câu hỏi yêu cầu định nghĩa về việc chủ thể nắm giữ, chi phối tài sản. Ngữ cảnh tại điểm 1 cung cấp chính xác định nghĩa này: 'Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản'. Đây là sự khớp hoàn toàn giữa câu hỏi và văn bản pháp lý.",
+      "cited_evidence_ids": [
+        "vilqa-189-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.13333333333333333,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T16:15:50.072416+00:00"
+  }
+}

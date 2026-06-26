@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hungntt/Projects/legalsim/src/main.py", line 583, in <module>
+    main()
+  File "/home/hungntt/Projects/legalsim/src/main.py", line 499, in main
+    run_dir = runner.run(
+              ^^^^^^^^^^^
+  File "/home/hungntt/Projects/legalsim/src/experiment_runner.py", line 157, in run
+    records.append(self._run_debate(case, config, run_dir))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungntt/Projects/legalsim/src/experiment_runner.py", line 262, in _run_debate
+    result = orchestrator.run(case)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungntt/Projects/legalsim/src/orchestrator.py", line 57, in run
+    proponent_output = self.proponent.generate_argument(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungntt/Projects/legalsim/src/agents/debate_agent.py", line 66, in generate_argument
+    private_strategy = self.llm.generate(strategy_prompt)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hungntt/Projects/legalsim/src/llm.py", line 212, in generate
+    with urllib.request.urlopen(request, timeout=self.timeout) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+Baseline scaffold loaded successfully.
+Dataset: data/ALQAC.csv
+Split sizes: train=424, validation=53, test=53
+First case id: vilqa-0
+First question: Chiếm đoạt di vật của tử sĩ có thể bị phạt tù lên đến bao nhiêu năm?
+First answer: 07 năm

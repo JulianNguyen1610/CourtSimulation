@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-338",
+    "case_type": "legal_qa",
+    "context": "Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000 đồng đến 500.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Làm chết 01 người hoặc gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 500.000.000 đồng đến 1.500.000.000 đồng hoặc bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 1.500.000.000 đồng đến 3.000.000.000 đồng hoặc bị phạt tù từ 05 năm đến 12 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên.\n\n5. Người điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60%, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.",
+    "question": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tiền tối thiểu bao nhiêu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 338
+    }
+  },
+  "result": {
+    "case_id": "vilqa-338",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-339-context",
+        "text": "Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000 đồng đến 500.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Làm chết 01 người hoặc gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 500.000.000 đồng đến 1.500.000.000 đồng hoặc bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 1.500.000.000 đồng đến 3.000.000.000 đồng hoặc bị phạt tù từ 05 năm đến 12 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên.\n\n5. Người điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60%, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.",
+        "source": "vilqa_context",
+        "score": 621.0206870670788,
+        "metadata": {
+          "case_id": "vilqa-339",
+          "question": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tù như thế nào?",
+          "row_index": 339,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-337-context",
+        "text": "Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000 đồng đến 500.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Làm chết 01 người hoặc gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 500.000.000 đồng đến 1.500.000.000 đồng hoặc bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 1.500.000.000 đồng đến 3.000.000.000 đồng hoặc bị phạt tù từ 05 năm đến 12 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên.\n\n5. Người điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60%, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.",
+        "source": "vilqa_context",
+        "score": 621.0206870670788,
+        "metadata": {
+          "case_id": "vilqa-337",
+          "question": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tiền tối đa bao nhiêu?",
+          "row_index": 337,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-336-context",
+        "text": "Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000 đồng đến 500.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Làm chết 01 người hoặc gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 500.000.000 đồng đến 1.500.000.000 đồng hoặc bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 1.500.000.000 đồng đến 3.000.000.000 đồng hoặc bị phạt tù từ 05 năm đến 12 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên.\n\n5. Người điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60%, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.",
+        "source": "vilqa_context",
+        "score": 621.0206870670788,
+        "metadata": {
+          "case_id": "vilqa-336",
+          "question": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tiền như thế nào?",
+          "row_index": 336,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-340-context",
+        "text": "Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000 đồng đến 500.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Làm chết 01 người hoặc gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 500.000.000 đồng đến 1.500.000.000 đồng hoặc bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 1.500.000.000 đồng đến 3.000.000.000 đồng hoặc bị phạt tù từ 05 năm đến 12 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên.\n\n5. Người điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này gây thương tích hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60%, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.",
+        "source": "vilqa_context",
+        "score": 621.0206870670788,
+        "metadata": {
+          "case_id": "vilqa-340",
+          "question": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam, không gây hậu quả nghiêm trọng có thể bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 340,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-37-context",
+        "text": "Tội phá thai trái phép\n\n1. Người nào thực hiện việc phá thai trái phép cho người khác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc bị phạt tù từ 01 năm đến 03 năm:\n\na) Làm chết 01 người hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Đã bị xử lý kỷ luật, xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên.\n\n4. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.\n\nÐiều 317. Tội vi phạm quy định về vệ sinh an toàn thực phẩm\n\n1. Người nào thực hiện một trong các hành vi sau đây vi phạm các quy định về an toàn thực phẩm, thì bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Sử dụng chất cấm trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm hoặc bán, cung cấp thực phẩm mà biết rõ là thực phẩm có sử dụng chất cấm;\n\nb) Sử dụng hóa chất, kháng sinh, thuốc thú y, thuốc bảo vệ thực vật cấm sử dụng trong trồng trọt, chăn nuôi, nuôi trồng thủy sản, làm muối, sơ chế, chế biến, bảo quản nông, lâm, thủy sản và muối tạo ra dư lượng vượt ngưỡng cho phép trong sản phẩm;\n\nc) Sử dụng các loại hóa chất, kháng sinh, thuốc thú y, thuốc bảo vệ thực vật, chất xử lý cải tạo môi trường ngoài danh mục được phép sử dụng hoặc không rõ nguồn gốc xuất xứ hoặc không đúng quy định trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm trong trồng trọt, chăn nuôi, nuôi trồng thủy sản, làm muối tạo ra dư lượng vượt ngưỡng cho phép trong sản phẩm hoặc đã bị xử phạt vi phạm hành chính về một trong các hành vi tại điểm này hoặc điểm a khoản này mà còn vi phạm;\n\nd) Chế biến, cung cấp hoặc bán thực phẩm mà biết rõ là thực phẩm không bảo đảm quy chuẩn kỹ thuật, quy định về an toàn thực phẩm; sử dụng hóa chất, phụ gia, chất hỗ trợ chế biến ngoài danh mục được phép sử dụng hoặc không rõ nguồn gốc xuất xứ trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm: gây tổn hại cho sức khỏe của 01 người mà tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60% hoặc thu lợi bất chính từ 50.000.000 đồng đến 100.000.000 đồng.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 200.000.000 đồng đến 500.000.000 đồng hoặc phạt tù 03 năm đến 07 năm:\n\na) Phạm tội có tổ chức;\n\nb) Làm chết 01 người hoặc gây tổn hại sức khỏe cho 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nd) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%.\n\nđ) Thu lợi bất chính từ 100.000.000 đồng đến dưới 500.000.000 đồng;\n\ne) Phạm tội 02 lần trở lên;\n\ng) Tái phạm nguy hiểm.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Làm chết 02 người;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Thu lợi bất chính từ 500.000.000 đồng đến dưới 1.000.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 12 năm đến 20 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây tổn hại cho sức khỏe của 03 người trở lên với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Thu lợi bất chính 1.000.000.000 đồng trở lên.\n\n5. Người phạm tội còn có thể bị phạt tiền từ 20.000.000 đồng đến 100.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 423.22216637833793,
+        "metadata": {
+          "case_id": "vilqa-37",
+          "question": "Người thực hiện việc phá thai trái phép cho người khác dẫn đến làm chết 03 người trở lên thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 37,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: The minimum fine for controlling an aircraft into or out of Vietnam while violating the aviation rules of the Socialist Republic of Vietnam is 100,000,000 Vietnamese Dong.\n\nBest Supporting Legal Evidence: According to Article 1 of the case profile provided, \"Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\"\n\nAnticipated Opponent Challenge: The opponent may argue that the fine can be lower than 100,000,000 Vietnamese Dong or that there are other provisions that allow for a lower fine.\n\nStrategy for this Round: In this round, we should focus on emphasizing the key claim and supporting it with the best legal",
+        "public_argument": "The minimum fine for controlling an aircraft into or out of Vietnam while violating aviation rules is 100,000,000 Vietnamese Dong. According to Article 1 of the case profile, individuals who violate these rules face a fine ranging from 100,000,000 to 300,000,000 Vietnamese Dong. This evidence directly supports our key claim and refutes any potential argument for a lower fine.",
+        "evidence_ids": [
+          "vilqa-339-context",
+          "vilqa-337-context",
+          "vilqa-336-context",
+          "vilqa-340-context",
+          "vilqa-37-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest Weakness in Proponent's Position:\n\nThe proponent's key claim that the minimum fine for controlling an aircraft into or out of Vietnam while violating aviation rules is 100,000,000 Vietnamese Dong may be challenged based on ambiguous wording and missing conditions. The case profile states that individuals who violate these rules face a fine ranging from 100,000,000 to 300,000,000 Vietnamese Dong only if they do not fall under the provisions of Articles 110 and 111. It is unclear how these specific provisions may affect the minimum fine, potentially leaving room for lower fines in certain cases.\n\nAlternative Answer or Interpretation:\n\nAn alternative interpretation could be that the minimum fine is dependent on the specific circumstances outlined in Articles 110 and 111. If an individual's case falls under one of these articles, they might be subject to a different fine range, which could be lower than 100,000,000 Vietnamese Dong.\n\nEvidence Needed to Support the Challenge:\n\nTo support this challenge",
+        "public_argument": "I appreciate your clarification on the case profile. However, I must point out that Article 1 only specifies fines ranging from 100,000,000 to 300,000,000 Vietnamese Dong for individuals who do not fall under Articles 110 and 111. It leaves room for other provisions that may result in lower fines depending on specific circumstances. Therefore, it's premature to assert the minimum fine as 100,000,000 Vietnamese Dong without considering these exceptions.",
+        "evidence_ids": [
+          "vilqa-339-context",
+          "vilqa-337-context",
+          "vilqa-336-context",
+          "vilqa-340-context",
+          "vilqa-37-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "100,000,000 Vietnamese Dong",
+        "confidence": 80.0,
+        "reasoning": "According to the case profile and proponent argument, individuals who violate aviation rules while controlling an aircraft into or out of Vietnam face a fine ranging from 100,000,000 to 300,000,000 Vietnamese Dong. The minimum fine is therefore 100,000,000 Vietnamese Dong."
+      }
+    ],
+    "verdict": {
+      "prediction": "100,000,000 Vietnamese Dong",
+      "answer": "100,000,000 Vietnamese Dong",
+      "confidence": 80.0,
+      "reasoning": "According to Article 1 of the case profile, individuals who violate aviation rules while controlling an aircraft into or out of Vietnam face a fine ranging from 100,000,000 to 300,000,000 Vietnamese Dong. The minimum fine is therefore 100,000,000 Vietnamese Dong.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.4,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T05:12:27.682065+00:00"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-148",
+    "case_type": "legal_qa",
+    "context": "Hiệu lực của nội quy lao động\n\nNội quy lao động có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của Bộ luật này nhận được đầy đủ hồ sơ đăng ký nội quy lao động.\n\nTrường hợp người sử dụng lao động sử dụng dưới 10 người lao động ban hành nội quy lao động bằng văn bản thì hiệu lực do người sử dụng lao động quyết định trong nội quy lao động.",
+    "question": "Sau bao lâu thì nội quy lao động có hiệu lực sau khi cơ quan nhà nước có thẩm quyền nhận đầy đủ hồ sơ đăng ký?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 148
+    }
+  },
+  "result": {
+    "case_id": "vilqa-148",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-146-context",
+        "text": "Đăng ký nội quy lao động\n\n1. Người sử dụng lao động sử dụng từ 10 người lao động trở lên phải đăng ký nội quy lao động tại cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh nơi người sử dụng lao động đăng ký kinh doanh.\n\n2. Trong thời hạn 10 ngày kể từ ngày ban hành nội quy lao động, người sử dụng lao động phải nộp hồ sơ đăng ký nội quy lao động.\n\n3. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ đăng ký nội quy lao động, nếu nội dung nội quy lao động có quy định trái với pháp luật thì cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh thông báo, hướng dẫn người sử dụng lao động sửa đổi, bổ sung và đăng ký lại.\n\n4. Người sử dụng lao động có các chi nhánh, đơn vị, cơ sở sản xuất, kinh doanh đặt ở nhiều địa bàn khác nhau thì gửi nội quy lao động đã được đăng ký đến cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh nơi đặt chi nhánh, đơn vị, cơ sở sản xuất, kinh doanh.\n\n5. Căn cứ điều kiện cụ thể, cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh có thể ủy quyền cho cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp huyện thực hiện việc đăng ký nội quy lao động theo quy định tại Điều này.",
+        "source": "vilqa_context",
+        "score": 174.8889519149,
+        "metadata": {
+          "case_id": "vilqa-146",
+          "question": "Người sử dụng lao  phải đăng ký nội quy lao động đối khi có bao nhiêu lao động?",
+          "row_index": 146,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-147-context",
+        "text": "Đăng ký nội quy lao động\n\n1. Người sử dụng lao động sử dụng từ 10 người lao động trở lên phải đăng ký nội quy lao động tại cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh nơi người sử dụng lao động đăng ký kinh doanh.\n\n2. Trong thời hạn 10 ngày kể từ ngày ban hành nội quy lao động, người sử dụng lao động phải nộp hồ sơ đăng ký nội quy lao động.\n\n3. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ đăng ký nội quy lao động, nếu nội dung nội quy lao động có quy định trái với pháp luật thì cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh thông báo, hướng dẫn người sử dụng lao động sửa đổi, bổ sung và đăng ký lại.\n\n4. Người sử dụng lao động có các chi nhánh, đơn vị, cơ sở sản xuất, kinh doanh đặt ở nhiều địa bàn khác nhau thì gửi nội quy lao động đã được đăng ký đến cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh nơi đặt chi nhánh, đơn vị, cơ sở sản xuất, kinh doanh.\n\n5. Căn cứ điều kiện cụ thể, cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh có thể ủy quyền cho cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp huyện thực hiện việc đăng ký nội quy lao động theo quy định tại Điều này.",
+        "source": "vilqa_context",
+        "score": 174.8889519149,
+        "metadata": {
+          "case_id": "vilqa-147",
+          "question": "Cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh làm gì khi phát hiện sai phạm trong hồ sơ đăng ký nội quy lao động được nộp trong vòng 7 ngày?",
+          "row_index": 147,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-259-context",
+        "text": "Thẩm quyền giao kết hợp đồng lao động\n\n1. Người lao động trực tiếp giao kết hợp đồng lao động, trừ trường hợp quy định tại khoản 2 Điều này.\n\n2. Đối với công việc theo mùa vụ, công việc nhất định có thời hạn dưới 12 tháng thì nhóm người lao động từ đủ 18 tuổi trở lên có thể ủy quyền cho một người lao động trong nhóm để giao kết hợp đồng lao động; trong trường hợp này, hợp đồng lao động phải được giao kết bằng văn bản và có hiệu lực như giao kết với từng người lao động.\n\nHợp đồng lao động do người được ủy quyền ký kết phải kèm theo danh sách ghi rõ họ tên, ngày tháng năm sinh, giới tính, nơi cư trú và chữ ký của từng người lao động.\n\n3. Người giao kết hợp đồng lao động bên phía người sử dụng lao động là người thuộc một trong các trường hợp sau đây:\n\na) Người đại diện theo pháp luật của doanh nghiệp hoặc người được ủy quyền theo quy định của pháp luật;\n\nb) Người đứng đầu cơ quan, tổ chức có tư cách pháp nhân theo quy định của pháp luật hoặc người được ủy quyền theo quy định của pháp luật;\n\nc) Người đại diện của hộ gia đình, tổ hợp tác, tổ chức khác không có tư cách pháp nhân hoặc người được ủy quyền theo quy định của pháp luật;\n\nd) Cá nhân trực tiếp sử dụng lao động.\n\n4. Người giao kết hợp đồng lao động bên phía người lao động là người thuộc một trong các trường hợp sau đây:\n\na) Người lao động từ đủ 18 tuổi trở lên;\n\nb) Người lao động từ đủ 15 tuổi đến chưa đủ 18 tuổi khi có sự đồng ý bằng văn bản của người đại diện theo pháp luật của người đó;\n\nc) Người chưa đủ 15 tuổi và người đại diện theo pháp luật của người đó;\n\nd) Người lao động được những người lao động trong nhóm ủy quyền hợp pháp giao kết hợp đồng lao động.\n\n5. Người được ủy quyền giao kết hợp đồng lao động không được ủy quyền lại cho người khác giao kết hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 126.80733329207526,
+        "metadata": {
+          "case_id": "vilqa-259",
+          "question": "Đối với công việc theo mùa vụ, công việc nhất định có thời hạn dưới bao nhiêu tháng thì nhóm người lao động từ đủ 18 tuổi trở lên có thể ủy quyền cho một người lao động trong nhóm để giao kết hợp đồng lao động",
+          "row_index": 259,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-260-context",
+        "text": "Thẩm quyền giao kết hợp đồng lao động\n\n1. Người lao động trực tiếp giao kết hợp đồng lao động, trừ trường hợp quy định tại khoản 2 Điều này.\n\n2. Đối với công việc theo mùa vụ, công việc nhất định có thời hạn dưới 12 tháng thì nhóm người lao động từ đủ 18 tuổi trở lên có thể ủy quyền cho một người lao động trong nhóm để giao kết hợp đồng lao động; trong trường hợp này, hợp đồng lao động phải được giao kết bằng văn bản và có hiệu lực như giao kết với từng người lao động.\n\nHợp đồng lao động do người được ủy quyền ký kết phải kèm theo danh sách ghi rõ họ tên, ngày tháng năm sinh, giới tính, nơi cư trú và chữ ký của từng người lao động.\n\n3. Người giao kết hợp đồng lao động bên phía người sử dụng lao động là người thuộc một trong các trường hợp sau đây:\n\na) Người đại diện theo pháp luật của doanh nghiệp hoặc người được ủy quyền theo quy định của pháp luật;\n\nb) Người đứng đầu cơ quan, tổ chức có tư cách pháp nhân theo quy định của pháp luật hoặc người được ủy quyền theo quy định của pháp luật;\n\nc) Người đại diện của hộ gia đình, tổ hợp tác, tổ chức khác không có tư cách pháp nhân hoặc người được ủy quyền theo quy định của pháp luật;\n\nd) Cá nhân trực tiếp sử dụng lao động.\n\n4. Người giao kết hợp đồng lao động bên phía người lao động là người thuộc một trong các trường hợp sau đây:\n\na) Người lao động từ đủ 18 tuổi trở lên;\n\nb) Người lao động từ đủ 15 tuổi đến chưa đủ 18 tuổi khi có sự đồng ý bằng văn bản của người đại diện theo pháp luật của người đó;\n\nc) Người chưa đủ 15 tuổi và người đại diện theo pháp luật của người đó;\n\nd) Người lao động được những người lao động trong nhóm ủy quyền hợp pháp giao kết hợp đồng lao động.\n\n5. Người được ủy quyền giao kết hợp đồng lao động không được ủy quyền lại cho người khác giao kết hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 126.80733329207526,
+        "metadata": {
+          "case_id": "vilqa-260",
+          "question": "Đối với công việc theo mùa vụ, công việc nhất định có thời hạn dưới 12 tháng thì nhóm người lao động từ đủ bao nhiêu tuổi trở lên có thể ủy quyền cho một người lao động trong nhóm để giao kết hợp đồng lao động?",
+          "row_index": 260,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-262-context",
+        "text": "Loại hợp đồng lao động\n\n1. Hợp đồng lao động phải được giao kết theo một trong các loại sau đây:\n\na) Hợp đồng lao động không xác định thời hạn là hợp đồng mà trong đó hai bên không xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng;\n\nb) Hợp đồng lao động xác định thời hạn là hợp đồng mà trong đó hai bên xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng.\n\n2. Khi hợp đồng lao động quy định tại điểm b khoản 1 Điều này hết hạn mà người lao động vẫn tiếp tục làm việc thì thực hiện như sau:\n\na) Trong thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn, hai bên phải ký kết hợp đồng lao động mới; trong thời gian chưa ký kết hợp đồng lao động mới thì quyền, nghĩa vụ và lợi ích của hai bên được thực hiện theo hợp đồng đã giao kết;\n\nb) Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn;\n\nc) Trường hợp hai bên ký kết hợp đồng lao động mới là hợp đồng lao động xác định thời hạn thì cũng chỉ được ký thêm 01 lần, sau đó nếu người lao động vẫn tiếp tục làm việc thì phải ký kết hợp đồng lao động không xác định thời hạn, trừ hợp đồng lao động đối với người được thuê làm giám đốc trong doanh nghiệp có vốn nhà nước và trường hợp quy định tại khoản 1 Điều 149, khoản 2 Điều 151 và khoản 4 Điều 177 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 120.73239349775594,
+        "metadata": {
+          "case_id": "vilqa-262",
+          "question": "Trong thời hạn bao nhiêu ngày kể từ ngày hợp đồng lao động hết hạn, hai bên phải ký kết hợp đồng lao động mới?",
+          "row_index": 262,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Nội quy lao động có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền nhận được đầy đủ hồ sơ đăng ký.\n- **Candidate final answer**: \"hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của Bộ luật này nhận được đầy đủ hồ sơ đăng ký nội quy lao động\"\n- **Best supporting legal evidence**: `vilqa-148-context` (This document explicitly states the rule regarding the 15-day validity period upon receipt of the registration dossier).\n- **Anticipated opponent challenge**: Opponent may argue that the 7-day review period mentioned in `vilqa-146-context` and `vilqa-147-context` implies the effectiveness starts immediately after that 7-day period, or they might confuse the deadline for *submitting* the dossier (10 days) with the deadline",
+        "public_argument": "Nội quy lao động có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của Bộ luật này nhận được đầy đủ hồ sơ đăng ký. Đây là quy định rõ ràng trong ngữ cảnh, không phụ thuộc vào các thời hạn khác như 7 ngày hay 10 ngày. Do đó, câu trả lời chính xác là: \"hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của Bộ luật này nhận được đầy đủ hồ sơ đăng ký nội quy lao động\".",
+        "evidence_ids": [
+          "vilqa-146-context",
+          "vilqa-147-context",
+          "vilqa-259-context",
+          "vilqa-260-context",
+          "vilqa-262-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "### Strongest Weakness in Proponent's Position\nThe Proponent's argument relies entirely on the specific text provided in the case profile (`vilqa-148-context`), stating a flat \"15 days\" rule. However, the Proponent fails to account for the **conditional nature** of this rule found in the same context snippet: \"Trường hợp người sử dụng lao động sử dụng dưới 10 người lao động...\". The Proponent presents the 15-day rule as universal, ignoring the exception for small employers (under 10 workers) where the effectiveness is decided by the employer themselves. If the case implies a general rule or involves a small employer, the Proponent's answer is incomplete or incorrect.\n\n### Alternative Answer or Interpretation\nThe effectiveness period depends on the number of employees. For small employers, the rule is:\n> \"hiệu lực do người sử dụng lao động quyết định trong nội quy lao động\"\n\n### Evidence Needed to",
+        "public_argument": "Cần phân biệt hai trường hợp: nếu doanh nghiệp có dưới 10 người lao động, nội quy có hiệu lực do người sử dụng lao động quyết định. Chỉ khi doanh nghiệp có từ 10 người trở lên, nội quy mới có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền nhận được đầy đủ hồ sơ đăng ký.",
+        "evidence_ids": [
+          "vilqa-146-context",
+          "vilqa-147-context",
+          "vilqa-259-context",
+          "vilqa-260-context",
+          "vilqa-262-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của Bộ luật này nhận được đầy đủ hồ sơ đăng ký",
+        "confidence": 100.0,
+        "reasoning": "Câu trả lời được trích xuất trực tiếp từ ngữ cảnh, xác định rõ thời hạn hiệu lực cho trường hợp cần đăng ký với cơ quan nhà nước có thẩm quyền, loại trừ trường hợp doanh nghiệp dưới 10 người lao động."
+      }
+    ],
+    "verdict": {
+      "prediction": "sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của Bộ luật này nhận được đầy đủ hồ sơ đăng ký",
+      "answer": "15 ngày",
+      "confidence": 100.0,
+      "reasoning": "Ngữ cảnh quy định rõ ràng rằng nội quy lao động có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền nhận được đầy đủ hồ sơ đăng ký, trừ trường hợp doanh nghiệp dưới 10 người. Câu hỏi hỏi về thời hạn hiệu lực sau khi cơ quan nhà nước nhận hồ sơ, do đó câu trả lời phải là đoạn văn bản nêu trên.",
+      "cited_evidence_ids": [
+        "vilqa-148-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T16:23:43.211402+00:00"
+  }
+}

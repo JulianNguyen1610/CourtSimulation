@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-331",
+    "case_type": "legal_qa",
+    "context": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+    "question": "Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa bao nhiêu năm tù?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 331
+    }
+  },
+  "result": {
+    "case_id": "vilqa-331",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-330-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-330",
+          "question": "Cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối thiểu bao nhiêu năm tù?",
+          "row_index": 330,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-332-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-332",
+          "question": "Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối thiểu bao nhiêu năm tù?",
+          "row_index": 332,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-334-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-334",
+          "question": "Cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tiền tối \bthiểu bao nhiêu?",
+          "row_index": 334,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-333-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-333",
+          "question": "Cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tiền tối đa bao nhiêu?",
+          "row_index": 333,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-329-context",
+        "text": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 367.9091169297787,
+        "metadata": {
+          "case_id": "vilqa-329",
+          "question": "Cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa bao nhiêu năm tù?",
+          "row_index": 329,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe user's question asks for the maximum prison sentence for the crime of harboring illegal drug use when committed by \"abusing position or authority\" (lợi dụng chức vụ, quyền hạn). According to the provided legal text (Article 307, Paragraph 2, Clause a), this specific aggravating circumstance falls under the sentencing range of 7 to 15 years. Therefore, the maximum penalty is 15 years.\n\n**Candidate final answer**\n15 năm\n\n**Best supporting legal evidence**\n{'doc_id': 'vilqa-330-context', 'text': 'Tội chứa chấp việc sử dụng trái phép chất ma túy\\n\\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm",
+        "public_argument": "Căn cứ vào quy định tại Khoản 2, Điểm a Điều 307 Bộ luật Hình sự, hành vi lợi dụng chức vụ, quyền hạn để chứa chấp việc sử dụng trái phép chất ma túy thuộc trường hợp bị phạt tù từ 07 năm đến 15 năm. Do đó, mức phạt tù tối đa áp dụng cho hành vi này là 15 năm.\n\n15 năm",
+        "evidence_ids": [
+          "vilqa-330-context",
+          "vilqa-332-context",
+          "vilqa-334-context",
+          "vilqa-333-context",
+          "vilqa-329-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent's answer is legally and factually correct based on the provided text. There is no ambiguity in the statute regarding the maximum penalty for this specific aggravating circumstance. The weakness lies in the lack of nuance: the Proponent treats the statutory maximum as the *only* possible outcome, ignoring that the actual sentence depends on judicial discretion within the range, and fails to address the potential interaction with other laws (e.g., if the \"position\" involves state officials, additional administrative or criminal liabilities might apply, though not changing the *maximum* for this specific crime). However, since the question asks for the *maximum possible* penalty (\"tối đa bao nhiêu\"), the Proponent's answer is robust. The only potential \"weakness\" is a technicality: does \"tối đa\" refer to the statutory limit (15 years) or the practical limit considering mitigating/aggravating factors? But legally, the",
+        "public_argument": "Tôi thừa nhận câu trả lời \"15 năm\" là chính xác về mặt văn bản luật. Tuy nhiên, lập luận của đối phương thiếu tính thực tiễn. Mức \"tối đa\" trong luật là khung định khung, nhưng án thực tế phụ thuộc vào tình tiết giảm nhẹ/tăng nặng cụ thể. Việc khẳng định cứng nhắc 15 năm như một kết quả tất yếu bỏ qua quyền tự do thẩm lượng của Tòa án. Dù vậy, vì câu hỏi yêu cầu \"tối đa bao nhiêu\" theo quy định pháp luật, tôi không thể đưa ra con số khác.",
+        "evidence_ids": [
+          "vilqa-330-context",
+          "vilqa-332-context",
+          "vilqa-334-context",
+          "vilqa-333-context",
+          "vilqa-329-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "15 năm",
+        "confidence": 100.0,
+        "reasoning": "Căn cứ vào Khoản 2, Điểm a Điều 307 Bộ luật Hình sự được trích dẫn trong ngữ cảnh, hành vi lợi dụng chức vụ, quyền hạn để chứa chấp việc sử dụng trái phép chất ma túy bị phạt tù từ 07 năm đến 15 năm. Do đó, mức phạt tù tối đa là 15 năm. Lập luận của Proponent hoàn toàn chính xác dựa trên văn bản luật, trong khi Opponent thừa nhận tính chính xác này nhưng chỉ trích tính thực tiễn, không phủ nhận con số pháp lý."
+      }
+    ],
+    "verdict": {
+      "prediction": "15 năm",
+      "answer": "15 năm",
+      "confidence": 100.0,
+      "reasoning": "Căn cứ vào Khoản 2, Điểm a của văn bản pháp luật được cung cấp, hành vi lợi dụng chức vụ, quyền hạn để chứa chấp việc sử dụng trái phép chất ma túy thuộc trường hợp bị phạt tù từ 07 năm đến 15 năm. Do đó, mức phạt tù tối đa là 15 năm.",
+      "cited_evidence_ids": [
+        "vilqa-330-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:33:20.376538+00:00"
+  }
+}

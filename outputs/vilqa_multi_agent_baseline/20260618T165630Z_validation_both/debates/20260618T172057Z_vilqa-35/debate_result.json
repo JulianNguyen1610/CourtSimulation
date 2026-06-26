@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-35",
+    "case_type": "legal_qa",
+    "context": "Tội đánh bạc\n\n1. Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng, đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tính chất chuyên nghiệp;\n\nb) Tiền hoặc hiện vật dùng đánh bạc trị giá 50.000.000 đồng trở lên;\n\nc) Sử dụng mạng internet, mạng máy tính, mạng viễn thông, phương tiện điện tử để phạm tội;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+    "question": "Người phạm tội đánh bạc còn có thể bị phạt tiền từ bao nhiêu đến bao nhiêu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 35
+    }
+  },
+  "result": {
+    "case_id": "vilqa-35",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-355-context",
+        "text": "Tội đánh bạc\n\n1. Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng, đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tính chất chuyên nghiệp;\n\nb) Tiền hoặc hiện vật dùng đánh bạc trị giá 50.000.000 đồng trở lên;\n\nc) Sử dụng mạng internet, mạng máy tính, mạng viễn thông, phương tiện điện tử để phạm tội;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 456.81768500668807,
+        "metadata": {
+          "case_id": "vilqa-355",
+          "question": "Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng nhưng đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc đã bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt như thế nào?",
+          "row_index": 355,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-34-context",
+        "text": "Tội đánh bạc\n\n1. Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng, đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tính chất chuyên nghiệp;\n\nb) Tiền hoặc hiện vật dùng đánh bạc trị giá 50.000.000 đồng trở lên;\n\nc) Sử dụng mạng internet, mạng máy tính, mạng viễn thông, phương tiện điện tử để phạm tội;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 456.81768500668807,
+        "metadata": {
+          "case_id": "vilqa-34",
+          "question": "Người đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng, thì bị phạt cải tạo không giam giữ đến bao nhiêu năm?",
+          "row_index": 34,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-33-context",
+        "text": "Tội đánh bạc\n\n1. Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng, đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tính chất chuyên nghiệp;\n\nb) Tiền hoặc hiện vật dùng đánh bạc trị giá 50.000.000 đồng trở lên;\n\nc) Sử dụng mạng internet, mạng máy tính, mạng viễn thông, phương tiện điện tử để phạm tội;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 456.81768500668807,
+        "metadata": {
+          "case_id": "vilqa-33",
+          "question": "Người đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng, thì bị phạt tiền từ bao nhiêu đến bao nhiêu?",
+          "row_index": 33,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-353-context",
+        "text": "Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.000 đồng trở lên;\n\nc) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 283.8977426389147,
+        "metadata": {
+          "case_id": "vilqa-353",
+          "question": "Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm và làm chết người thì bị phạt như thế nào?",
+          "row_index": 353,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-354-context",
+        "text": "Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.000 đồng trở lên;\n\nc) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 283.8977426389147,
+        "metadata": {
+          "case_id": "vilqa-354",
+          "question": "Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích, thu lợi bất chính bao nhiêu thì bị phạt tù từ 03 năm đến 10 năm?",
+          "row_index": 354,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Theo quy định tại Điều 322 Bộ luật Hình sự, người phạm tội đánh bạc còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.\n- **Candidate final answer**: \"phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng\"\n- **Best supporting legal evidence**: `vilqa-35-context` (cụ thể đoạn: \"3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.\")\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng mức phạt tiền chỉ áp dụng cho các trường hợp đặc biệt (như đánh bạc chuyên nghiệp, sử dụng internet) và không áp dụng cho",
+        "public_argument": "Theo quy định tại Điều 322 Bộ luật Hình sự được nêu trong hồ sơ, khoản 3 khẳng định rõ ràng: \"Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.\" Đây là mức phạt tiền bổ sung áp dụng cho người phạm tội đánh bạc nói chung, không chỉ giới hạn ở các trường hợp đặc biệt. Do đó, câu trả lời chính xác là: \"phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng\".",
+        "evidence_ids": [
+          "vilqa-355-context",
+          "vilqa-34-context",
+          "vilqa-33-context",
+          "vilqa-353-context",
+          "vilqa-354-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "### Strongest weakness in the Proponent's position\nThe Proponent presents the fine range (10.000.000 - 50.000.000 VND) as a general penalty applicable to \"anyone\" committing the crime of gambling. However, the legal text explicitly structures the penalties hierarchically:\n1.  **Clause 1 & 2**: Define imprisonment or community correction for specific value ranges or recidivism.\n2.  **Clause 3**: States \"Người phạm tội **còn có thể** bị phạt tiền...\" (The offender **may also** be fined...).\n\nThe linguistic marker \"**còn có thể**\" (may also) implies that the fine is an **additional** or **alternative** penalty, not necessarily mandatory for every single case, and its application might depend on judicial discretion or specific circumstances not fully detailed in the Proponent's simplified claim. The Proponent fails to clarify if this",
+        "public_argument": "Theo văn bản, khoản 3 chỉ nêu người phạm tội \"còn có thể\" bị phạt tiền. Điều này cho thấy phạt tiền là hình phạt bổ sung hoặc tùy chọn, không phải là mức phạt duy nhất áp dụng cho mọi trường hợp như Proponent khẳng định. Mức phạt tiền này chỉ được áp dụng thêm vào các trường hợp đã bị xử lý về hình thức cải tạo không giam giữ hoặc tù theo các khoản 1 và 2. Do đó, câu trả lời cần làm rõ: \"phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng\" chỉ là khả năng bổ sung, không phải là hình phạt bắt buộc cho tất cả người phạm tội.",
+        "evidence_ids": [
+          "vilqa-355-context",
+          "vilqa-34-context",
+          "vilqa-33-context",
+          "vilqa-353-context",
+          "vilqa-354-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "từ 10.000.000 đồng đến 50.000.000 đồng",
+        "confidence": 100.0,
+        "reasoning": "Khoản 3 của Điều 322 trong ngữ cảnh quy định rõ ràng mức phạt tiền là 'từ 10.000.000 đồng đến 50.000.000 đồng', đây là câu trả lời trực tiếp cho câu hỏi về mức phạt tiền. Các lập luận của Proponent và Opponent đều xác nhận con số này, chỉ khác nhau về bản chất hình phạt (bổ sung/tùy chọn) chứ không thay đổi con số."
+      }
+    ],
+    "verdict": {
+      "prediction": "từ 10.000.000 đồng đến 50.000.000 đồng",
+      "answer": "từ 10.000.000 đồng đến 50.000.000 đồng",
+      "confidence": 100.0,
+      "reasoning": "Khoản 3 của Điều 322 trong ngữ cảnh quy định rõ ràng: 'Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.' Đây là câu trả lời trực tiếp cho câu hỏi về mức phạt tiền bổ sung.",
+      "cited_evidence_ids": [
+        "vilqa-35-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:20:57.334260+00:00"
+  }
+}

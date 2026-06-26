@@ -1,0 +1,117 @@
+{
+  "split_name": "validation",
+  "method": "both",
+  "limit": 0,
+  "resolved_num_cases": 53,
+  "rounds": 1,
+  "evidence_top_k": 5,
+  "memory_top_k": 5,
+  "output_dir": "outputs/vilqa_multi_agent_baseline",
+  "memory_path": "memory-bank/baseline_memory.json",
+  "update_memory": false,
+  "save_debate_artifacts": true,
+  "llm_backend": "local",
+  "model": "qwen3.5:9b",
+  "gemini_model": "qwen3.5:9b",
+  "temperature": 0.1,
+  "max_output_tokens": 256,
+  "top_p": 0.95,
+  "role_llm_configs": {
+    "direct": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.1,
+      "max_output_tokens": 128,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "cot": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.1,
+      "max_output_tokens": 256,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "vanilla": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.3,
+      "max_output_tokens": 256,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "proponent": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.4,
+      "max_output_tokens": 200,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "opponent": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.4,
+      "max_output_tokens": 200,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "judge": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.1,
+      "max_output_tokens": 256,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "evaluator": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.0,
+      "max_output_tokens": 256,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "prosecutor": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.4,
+      "max_output_tokens": 200,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "defense": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.4,
+      "max_output_tokens": 200,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "defendant": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.4,
+      "max_output_tokens": 200,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    }
+  },
+  "extractive_qa_model": "deepset/xlm-roberta-base-squad2",
+  "retrieval_method": "bm25_only",
+  "retrieval_rough_top_n": 50,
+  "retrieval_reranker_model": "BAAI/bge-m3",
+  "include_uts_vlc": false,
+  "uts_vlc_dataset": "VietnamAIHub/UTS_VLC",
+  "uts_vlc_split": "train",
+  "uts_vlc_limit": null,
+  "memory_mode": false,
+  "memory_retrieval": "lexical",
+  "memory_max_entries": 1000,
+  "memory_embedding_model": "intfloat/multilingual-e5-large",
+  "include_closing_statements": false,
+  "enable_judge_question": false,
+  "early_stop_confidence": null,
+  "enable_llm_evaluator": false
+}

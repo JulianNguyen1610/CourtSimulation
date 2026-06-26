@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-427",
+    "case_type": "legal_qa",
+    "context": "Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.\n\n2. Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được thực hiện trong trường hợp sau đây:\n\na) Khi đưa phương tiện điện tử, dịch vụ an toàn thông tin mạng vào sử dụng trong hệ thống thông tin;\n\nb) Khi có thay đổi hiện trạng hệ thống thông tin;\n\nc) Kiểm tra định kỳ hằng năm;\n\nd) Kiểm tra đột xuất khi xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; khi có yêu cầu quản lý nhà nước về an ninh mạng; khi hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng.\n\n3. Đối tượng kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Quy định, biện pháp bảo vệ an ninh mạng;\n\nc) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nd) Phương án ứng phó, khắc phục sự cố an ninh mạng của chủ quản hệ thống thông tin;\n\nđ) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật;\n\ne) Nhân lực bảo vệ an ninh mạng.\n\n4. Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm kiểm tra an ninh mạng đối với hệ thống thông tin thuộc phạm vi quản lý trong trường hợp quy định tại các điểm a, b và c khoản 2 Điều này; thông báo kết quả kiểm tra bằng văn bản trước tháng 10 hằng năm cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng đối với hệ thống thông tin quân sự.\n\n5. Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;\n\nb) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;\n\nc) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ hệ thống thông tin quân sự do Bộ Quốc phòng quản lý, hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước.\n\nLực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quân sự.\n\nBan Cơ yếu Chính phủ kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước;\n\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.",
+    "question": "Kiểm tra an ninh mạng là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 427
+    }
+  },
+  "result": {
+    "case_id": "vilqa-427",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-428-context",
+        "text": "Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.\n\n2. Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được thực hiện trong trường hợp sau đây:\n\na) Khi đưa phương tiện điện tử, dịch vụ an toàn thông tin mạng vào sử dụng trong hệ thống thông tin;\n\nb) Khi có thay đổi hiện trạng hệ thống thông tin;\n\nc) Kiểm tra định kỳ hằng năm;\n\nd) Kiểm tra đột xuất khi xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; khi có yêu cầu quản lý nhà nước về an ninh mạng; khi hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng.\n\n3. Đối tượng kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Quy định, biện pháp bảo vệ an ninh mạng;\n\nc) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nd) Phương án ứng phó, khắc phục sự cố an ninh mạng của chủ quản hệ thống thông tin;\n\nđ) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật;\n\ne) Nhân lực bảo vệ an ninh mạng.\n\n4. Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm kiểm tra an ninh mạng đối với hệ thống thông tin thuộc phạm vi quản lý trong trường hợp quy định tại các điểm a, b và c khoản 2 Điều này; thông báo kết quả kiểm tra bằng văn bản trước tháng 10 hằng năm cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng đối với hệ thống thông tin quân sự.\n\n5. Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;\n\nb) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;\n\nc) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ hệ thống thông tin quân sự do Bộ Quốc phòng quản lý, hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước.\n\nLực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quân sự.\n\nBan Cơ yếu Chính phủ kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước;\n\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.",
+        "source": "vilqa_context",
+        "score": 523.2903531815127,
+        "metadata": {
+          "case_id": "vilqa-428",
+          "question": "Kết quả kiểm tra an ninh mạng được bảo mật hay công khai?",
+          "row_index": 428,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-392-context",
+        "text": "Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia trong trường hợp sau đây:\n\na) Khi có hành vi vi phạm pháp luật về an ninh mạng xâm phạm an ninh quốc gia hoặc gây tổn hại nghiêm trọng trật tự, an toàn xã hội;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin.\n\n2. Đối tượng kiểm tra an ninh mạng bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nc) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật.\n\n3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi phạm pháp luật về an ninh mạng trên hệ thống thông tin thuộc phạm vi quản lý.\n\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này.\n\n5. Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ.\n\nTrong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\n\n7. Chính phủ quy định trình tự, thủ tục kiểm tra an ninh mạng quy định tại Điều này.",
+        "source": "vilqa_context",
+        "score": 440.72356213576415,
+        "metadata": {
+          "case_id": "vilqa-392",
+          "question": "trách nhiệm của chủ quản hệ thống là gì khi phát hiện hành vi vi phạm pháp luật?",
+          "row_index": 392,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-391-context",
+        "text": "Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia trong trường hợp sau đây:\n\na) Khi có hành vi vi phạm pháp luật về an ninh mạng xâm phạm an ninh quốc gia hoặc gây tổn hại nghiêm trọng trật tự, an toàn xã hội;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin.\n\n2. Đối tượng kiểm tra an ninh mạng bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nc) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật.\n\n3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi phạm pháp luật về an ninh mạng trên hệ thống thông tin thuộc phạm vi quản lý.\n\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này.\n\n5. Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ.\n\nTrong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\n\n7. Chính phủ quy định trình tự, thủ tục kiểm tra an ninh mạng quy định tại Điều này.",
+        "source": "vilqa_context",
+        "score": 440.72356213576415,
+        "metadata": {
+          "case_id": "vilqa-391",
+          "question": "Ngoài việc có hành vi vi phạm pháp luật thì trường hợp nào cần phải được kiểm tra an ninh mạng?",
+          "row_index": 391,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-393-context",
+        "text": "Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia trong trường hợp sau đây:\n\na) Khi có hành vi vi phạm pháp luật về an ninh mạng xâm phạm an ninh quốc gia hoặc gây tổn hại nghiêm trọng trật tự, an toàn xã hội;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin.\n\n2. Đối tượng kiểm tra an ninh mạng bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nc) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật.\n\n3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi phạm pháp luật về an ninh mạng trên hệ thống thông tin thuộc phạm vi quản lý.\n\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này.\n\n5. Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ.\n\nTrong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\n\n7. Chính phủ quy định trình tự, thủ tục kiểm tra an ninh mạng quy định tại Điều này.",
+        "source": "vilqa_context",
+        "score": 440.72356213576415,
+        "metadata": {
+          "case_id": "vilqa-393",
+          "question": "Thời hạn là bao lâu đối với việc thông báo kết quả kiểm tra trong trường hợp phát hiện lỗ hổng bảo mật?",
+          "row_index": 393,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-368-context",
+        "text": "Phòng, chống gián điệp mạng; bảo vệ thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư trên không gian mạng\n\n1. Hành vi gián điệp mạng; xâm phạm bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư trên không gian mạng bao gồm:\n\na) Chiếm đoạt, mua bán, thu giữ, cố ý làm lộ thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư gây ảnh hưởng đến danh dự, uy tín, nhân phẩm, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân;\n\nb) Cố ý xóa, làm hư hỏng, thất lạc, thay đổi thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư được truyền đưa, lưu trữ trên không gian mạng;\n\nc) Cố ý thay đổi, hủy bỏ hoặc làm vô hiệu hóa biện pháp kỹ thuật được xây dựng, áp dụng để bảo vệ thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư;\n\nd) Đưa lên không gian mạng những thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư trái quy định của pháp luật;\n\nđ) Cố ý nghe, ghi âm, ghi hình trái phép các cuộc đàm thoại;\n\ne) Hành vi khác cố ý xâm phạm bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư.\n\n2. Chủ quản hệ thống thông tin có trách nhiệm sau đây:\n\na) Kiểm tra an ninh mạng nhằm phát hiện, loại bỏ mã độc, phần cứng độc hại, khắc phục điểm yếu, lỗ hổng bảo mật; phát hiện, ngăn chặn và xử lý các hoạt động xâm nhập bất hợp pháp hoặc nguy cơ khác đe dọa an ninh mạng;\n\nb) Triển khai biện pháp quản lý, kỹ thuật để phòng ngừa, phát hiện, ngăn chặn hành vi gián điệp mạng, xâm phạm bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư trên hệ thống thông tin và kịp thời gỡ bỏ thông tin liên quan đến hành vi này;\n\nc) Phối hợp, thực hiện yêu cầu của lực lượng chuyên trách an ninh mạng về phòng, chống gián điệp mạng, bảo vệ thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư trên hệ thống thông tin.\n\n3. Cơ quan soạn thảo, lưu trữ thông tin, tài liệu thuộc bí mật nhà nước có trách nhiệm bảo vệ bí mật nhà nước được soạn thảo, lưu giữ trên máy tính, thiết bị khác hoặc trao đổi trên không gian mạng theo quy định của pháp luật về bảo vệ bí mật nhà nước.\n\n4. Bộ Công an có trách nhiệm sau đây, trừ quy định tại khoản 5 và khoản 6 Điều này:\n\na) Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia nhằm phát hiện, loại bỏ mã độc, phần cứng độc hại, khắc phục điểm yếu, lỗ hổng bảo mật; phát hiện, ngăn chặn, xử lý hoạt động xâm nhập bất hợp pháp;\n\nb) Kiểm tra an ninh mạng đối với thiết bị, sản phẩm, dịch vụ thông tin liên lạc, thiết bị kỹ thuật số, thiết bị điện tử trước khi đưa vào sử dụng trong hệ thống thông tin quan trọng về an ninh quốc gia;\n\nc) Giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia nhằm phát hiện, xử lý hoạt động thu thập trái phép thông tin thuộc bí mật nhà nước;\n\nd) Phát hiện, xử lý các hành vi đăng tải, lưu trữ, trao đổi trái phép thông tin, tài liệu có nội dung thuộc bí mật nhà nước trên không gian mạng;\n\nđ) Tham gia nghiên cứu, sản xuất sản phẩm lưu trữ, truyền đưa thông tin, tài liệu có nội dung thuộc bí mật nhà nước; sản phẩm mã hóa thông tin trên không gian mạng theo chức năng, nhiệm vụ được giao;\n\ne) Thanh tra, kiểm tra công tác bảo vệ bí mật nhà nước trên không gian mạng của cơ quan nhà nước và bảo vệ an ninh mạng của chủ quản hệ thống thông tin quan trọng về an ninh quốc gia;\n\ng) Tổ chức đào tạo, tập huấn nâng cao nhận thức và kiến thức về bảo vệ bí mật nhà nước trên không gian mạng, phòng, chống tấn công mạng, bảo vệ an ninh mạng đối với lực lượng bảo vệ an ninh mạng quy định tại khoản 2 Điều 30 của Luật này.\n\n5. Bộ Quốc phòng có trách nhiệm thực hiện các nội dung quy định tại các điểm a, b, c, d, đ và e khoản 4 Điều này đối với hệ thống thông tin quân sự.\n\n6. Ban Cơ yếu Chính phủ có trách nhiệm tổ chức thực hiện các quy định của pháp luật trong việc sử dụng mật mã để bảo vệ thông tin thuộc bí mật nhà nước được lưu trữ, trao đổi trên không gian mạng.",
+        "source": "vilqa_context",
+        "score": 386.4550314064282,
+        "metadata": {
+          "case_id": "vilqa-368",
+          "question": "Những tài liệu bí mật của nhà nước thường được lưu trữ ở đâu?",
+          "row_index": 368,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Kiểm tra an ninh mạng là hoạt động nhằm xác định thực trạng an ninh mạng, phòng ngừa và xử lý các nguy cơ đe dọa hệ thống thông tin.\n- **Candidate final answer**: \"Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.\"\n- **Best supporting legal evidence**: `vilqa-428-context` (Đoạn văn bản định nghĩa rõ ràng về Kiểm tra an ninh mạng tại Điều 1).\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng định nghĩa này chỉ áp dụng cho \"hệ thống thông tin quan trọng về an",
+        "public_argument": "Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin. Định nghĩa này được nêu rõ tại Điều 1 của văn bản quy định về kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia.",
+        "evidence_ids": [
+          "vilqa-428-context",
+          "vilqa-392-context",
+          "vilqa-391-context",
+          "vilqa-393-context",
+          "vilqa-368-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent provides a generic definition of \"Kiểm tra an ninh mạng\" (Network security inspection) without explicitly distinguishing between inspections for \"hệ thống thông tin quan trọng về an ninh quốc gia\" (Critical Information Systems regarding National Security) and those for other systems. While the retrieved evidence `vilqa-428-context` defines the inspection for critical systems, the Proponent's answer presents it as the sole or primary definition, potentially ignoring the specific legal conditions (e.g., periodic checks, specific triggers) that apply *only* to critical systems versus the broader scope or different triggers for non-critical systems found in `vilqa-392-context`. If the question implies a general definition, the Proponent's answer might be too narrow by focusing exclusively on the critical system context without clarifying the scope limitation.\n\n- **Alternative answer or interpretation**:\n  \"Kiểm tra an ninh mạng đối với hệ",
+        "public_argument": "Định nghĩa của Người đề xuất quá chung chung và không phân biệt rõ đối tượng áp dụng. Theo quy định, kiểm tra an ninh mạng đối với **hệ thống thông tin quan trọng về an ninh quốc gia** chỉ được thực hiện trong các trường hợp cụ thể như: khi đưa phương tiện điện tử vào sử dụng, khi có thay đổi hiện trạng, kiểm tra định kỳ hằng năm, hoặc kiểm tra đột xuất khi xảy ra sự cố. Việc áp dụng chung cho mọi hệ thống mà không nêu rõ các điều kiện này là thiếu chính xác.",
+        "evidence_ids": [
+          "vilqa-428-context",
+          "vilqa-392-context",
+          "vilqa-391-context",
+          "vilqa-393-context",
+          "vilqa-368-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.",
+        "confidence": 100.0,
+        "reasoning": "Câu trả lời này trích verbatim từ định nghĩa trong mục 1 của ngữ cảnh, cung cấp câu trả lời trực tiếp và đầy đủ nhất cho câu hỏi 'Kiểm tra an ninh mạng là gì?', bất chấp lập luận của đối thủ về phạm vi áp dụng cụ thể hơn."
+      }
+    ],
+    "verdict": {
+      "prediction": "Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.",
+      "answer": "Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin",
+      "confidence": 50.0,
+      "reasoning": "Fallback verdict because judge output was not valid JSON.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:53:46.377119+00:00"
+  }
+}

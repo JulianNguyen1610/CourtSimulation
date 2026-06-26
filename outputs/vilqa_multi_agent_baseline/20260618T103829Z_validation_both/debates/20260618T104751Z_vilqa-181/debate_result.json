@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-181",
+    "case_type": "legal_qa",
+    "context": "Thời điểm bắt đầu thời hạn\n\n1. Khi thời hạn được xác định bằng phút, giờ thì thời hạn được bắt đầu từ thời điểm đã xác định.\n\n2. Khi thời hạn được xác định bằng ngày, tuần, tháng, năm thì ngày đầu tiên của thời hạn không được tính mà tính từ ngày tiếp theo liền kề ngày được xác định.\n\n3. Khi thời hạn bắt đầu bằng một sự kiện thì ngày xảy ra sự kiện không được tính mà tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó.",
+    "question": "Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 181
+    }
+  },
+  "result": {
+    "case_id": "vilqa-181",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-180-context",
+        "text": "Quy định về thời hạn, thời điểm tính thời hạn\n\n1. Trường hợp các bên có thỏa thuận về thời hạn là một năm, nửa năm, một tháng, nửa tháng, một tuần, một ngày, một giờ, một phút mà khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau:\n\na) Một năm là ba trăm sáu mươi lăm ngày;\n\nb) Nửa năm là sáu tháng;\n\nc) Một tháng là ba mươi ngày;\n\nd) Nửa tháng là mười lăm ngày;\n\nđ) Một tuần là bảy ngày;\n\ne) Một ngày là hai mươi tư giờ;\n\ng) Một giờ là sáu mươi phút;\n\nh) Một phút là sáu mươi giây.\n\n2. Trường hợp các bên thỏa thuận về thời điểm đầu tháng, giữa tháng, cuối tháng thì thời điểm đó được quy định như sau:\n\na) Đầu tháng là ngày đầu tiên của tháng;\n\nb) Giữa tháng là ngày thứ mười lăm của tháng;\n\nc) Cuối tháng là ngày cuối cùng của tháng.\n\n3. Trường hợp các bên thỏa thuận về thời điểm đầu năm, giữa năm, cuối năm thì thời điểm đó được quy định như sau:\n\na) Đầu năm là ngày đầu tiên của tháng một;\n\nb) Giữa năm là ngày cuối cùng của tháng sáu;\n\nc) Cuối năm là ngày cuối cùng của tháng mười hai.",
+        "source": "vilqa_context",
+        "score": 173.3685740008739,
+        "metadata": {
+          "case_id": "vilqa-180",
+          "question": "Theo luật về thời hạn, thời điểm tính thời hạn, khi khoảng thời gian diễn ra không liền nhau, một phút được tính là?",
+          "row_index": 180,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-179-context",
+        "text": "Quy định về thời hạn, thời điểm tính thời hạn\n\n1. Trường hợp các bên có thỏa thuận về thời hạn là một năm, nửa năm, một tháng, nửa tháng, một tuần, một ngày, một giờ, một phút mà khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau:\n\na) Một năm là ba trăm sáu mươi lăm ngày;\n\nb) Nửa năm là sáu tháng;\n\nc) Một tháng là ba mươi ngày;\n\nd) Nửa tháng là mười lăm ngày;\n\nđ) Một tuần là bảy ngày;\n\ne) Một ngày là hai mươi tư giờ;\n\ng) Một giờ là sáu mươi phút;\n\nh) Một phút là sáu mươi giây.\n\n2. Trường hợp các bên thỏa thuận về thời điểm đầu tháng, giữa tháng, cuối tháng thì thời điểm đó được quy định như sau:\n\na) Đầu tháng là ngày đầu tiên của tháng;\n\nb) Giữa tháng là ngày thứ mười lăm của tháng;\n\nc) Cuối tháng là ngày cuối cùng của tháng.\n\n3. Trường hợp các bên thỏa thuận về thời điểm đầu năm, giữa năm, cuối năm thì thời điểm đó được quy định như sau:\n\na) Đầu năm là ngày đầu tiên của tháng một;\n\nb) Giữa năm là ngày cuối cùng của tháng sáu;\n\nc) Cuối năm là ngày cuối cùng của tháng mười hai.",
+        "source": "vilqa_context",
+        "score": 173.3685740008739,
+        "metadata": {
+          "case_id": "vilqa-179",
+          "question": "Theo luật về thời hạn, thời điểm tính thời hạn, khi khoảng thời gian diễn ra không liền nhau, một giờ được tính là?",
+          "row_index": 179,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-175-context",
+        "text": "Quy định về thời hạn, thời điểm tính thời hạn\n\n1. Trường hợp các bên có thỏa thuận về thời hạn là một năm, nửa năm, một tháng, nửa tháng, một tuần, một ngày, một giờ, một phút mà khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau:\n\na) Một năm là ba trăm sáu mươi lăm ngày;\n\nb) Nửa năm là sáu tháng;\n\nc) Một tháng là ba mươi ngày;\n\nd) Nửa tháng là mười lăm ngày;\n\nđ) Một tuần là bảy ngày;\n\ne) Một ngày là hai mươi tư giờ;\n\ng) Một giờ là sáu mươi phút;\n\nh) Một phút là sáu mươi giây.\n\n2. Trường hợp các bên thỏa thuận về thời điểm đầu tháng, giữa tháng, cuối tháng thì thời điểm đó được quy định như sau:\n\na) Đầu tháng là ngày đầu tiên của tháng;\n\nb) Giữa tháng là ngày thứ mười lăm của tháng;\n\nc) Cuối tháng là ngày cuối cùng của tháng.\n\n3. Trường hợp các bên thỏa thuận về thời điểm đầu năm, giữa năm, cuối năm thì thời điểm đó được quy định như sau:\n\na) Đầu năm là ngày đầu tiên của tháng một;\n\nb) Giữa năm là ngày cuối cùng của tháng sáu;\n\nc) Cuối năm là ngày cuối cùng của tháng mười hai.",
+        "source": "vilqa_context",
+        "score": 173.3685740008739,
+        "metadata": {
+          "case_id": "vilqa-175",
+          "question": "Theo luật về thời hạn, thời điểm tính thời hạn, khi khoảng thời gian diễn ra không liền nhau, một tháng được tính là?",
+          "row_index": 175,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-177-context",
+        "text": "Quy định về thời hạn, thời điểm tính thời hạn\n\n1. Trường hợp các bên có thỏa thuận về thời hạn là một năm, nửa năm, một tháng, nửa tháng, một tuần, một ngày, một giờ, một phút mà khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau:\n\na) Một năm là ba trăm sáu mươi lăm ngày;\n\nb) Nửa năm là sáu tháng;\n\nc) Một tháng là ba mươi ngày;\n\nd) Nửa tháng là mười lăm ngày;\n\nđ) Một tuần là bảy ngày;\n\ne) Một ngày là hai mươi tư giờ;\n\ng) Một giờ là sáu mươi phút;\n\nh) Một phút là sáu mươi giây.\n\n2. Trường hợp các bên thỏa thuận về thời điểm đầu tháng, giữa tháng, cuối tháng thì thời điểm đó được quy định như sau:\n\na) Đầu tháng là ngày đầu tiên của tháng;\n\nb) Giữa tháng là ngày thứ mười lăm của tháng;\n\nc) Cuối tháng là ngày cuối cùng của tháng.\n\n3. Trường hợp các bên thỏa thuận về thời điểm đầu năm, giữa năm, cuối năm thì thời điểm đó được quy định như sau:\n\na) Đầu năm là ngày đầu tiên của tháng một;\n\nb) Giữa năm là ngày cuối cùng của tháng sáu;\n\nc) Cuối năm là ngày cuối cùng của tháng mười hai.",
+        "source": "vilqa_context",
+        "score": 173.3685740008739,
+        "metadata": {
+          "case_id": "vilqa-177",
+          "question": "Theo luật về thời hạn, thời điểm tính thời hạn, khi khoảng thời gian diễn ra không liền nhau, một tuần được tính là?",
+          "row_index": 177,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-178-context",
+        "text": "Quy định về thời hạn, thời điểm tính thời hạn\n\n1. Trường hợp các bên có thỏa thuận về thời hạn là một năm, nửa năm, một tháng, nửa tháng, một tuần, một ngày, một giờ, một phút mà khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau:\n\na) Một năm là ba trăm sáu mươi lăm ngày;\n\nb) Nửa năm là sáu tháng;\n\nc) Một tháng là ba mươi ngày;\n\nd) Nửa tháng là mười lăm ngày;\n\nđ) Một tuần là bảy ngày;\n\ne) Một ngày là hai mươi tư giờ;\n\ng) Một giờ là sáu mươi phút;\n\nh) Một phút là sáu mươi giây.\n\n2. Trường hợp các bên thỏa thuận về thời điểm đầu tháng, giữa tháng, cuối tháng thì thời điểm đó được quy định như sau:\n\na) Đầu tháng là ngày đầu tiên của tháng;\n\nb) Giữa tháng là ngày thứ mười lăm của tháng;\n\nc) Cuối tháng là ngày cuối cùng của tháng.\n\n3. Trường hợp các bên thỏa thuận về thời điểm đầu năm, giữa năm, cuối năm thì thời điểm đó được quy định như sau:\n\na) Đầu năm là ngày đầu tiên của tháng một;\n\nb) Giữa năm là ngày cuối cùng của tháng sáu;\n\nc) Cuối năm là ngày cuối cùng của tháng mười hai.",
+        "source": "vilqa_context",
+        "score": 173.3685740008739,
+        "metadata": {
+          "case_id": "vilqa-178",
+          "question": "Theo luật về thời hạn, thời điểm tính thời hạn, khi khoảng thời gian diễn ra không liền nhau, một ngày được tính là?",
+          "row_index": 178,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì ngày xảy ra sự kiện không được tính mà tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó.\n\nCandidate final answer: Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào? Thời hạn được tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó.\n\nBest supporting legal evidence: Theo quy định về thời hạn, thời điểm tính thời hạn, khi khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau:\n\na) Một năm là ba trăm sáu mươi lăm ngày;\n\nb) Nửa năm là sáu tháng;\n\nc) Một tháng là ba mươi ngày;\n\nd) Nửa tháng là mười lăm ngày;\n\nđ) Một tuần là bảy ngày;\n\ne) Một ngày là hai mươi tư giờ;\n\ng) Một giờ là s",
+        "public_argument": "Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào? Thời hạn được tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó. Theo quy định về thời hạn, thời điểm tính thời hạn, khi khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau:\n\na) Một năm là ba trăm sáu mươi lăm ngày;\n\nb) Nửa năm là sáu tháng;\n\nc) Một tháng là ba mươi ngày;\n\nd) Nửa tháng là mười lăm ngày;\n\nđ) Một tuần là bảy ngày;\n\ne) Một ngày là hai mươi tư giờ;\n\ng) Một giờ là sáu mươi phút.",
+        "evidence_ids": [
+          "vilqa-180-context",
+          "vilqa-179-context",
+          "vilqa-175-context",
+          "vilqa-177-context",
+          "vilqa-178-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The Proponent has not considered that the legal evidence provided does not specifically address the calculation of time when it starts with an event.\n\nAlternative answer or interpretation (using a short Vietnamese extractive span copied verbatim from context): Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì ngày xảy ra sự kiện không được tính mà tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó. Tuy nhiên, nếu sự kiện đó diễn ra vào cuối ngày hôm trước thì thời hạn sẽ được tính từ đầu ngày hôm sau.\n\nEvidence needed to support the challenge: The legal evidence provided does not specifically address the calculation of time when it starts with an event. More specific evidence is needed to support this aspect of the debate.\n\nStrategy for this round: I will challenge the Proponent's position by pointing out that their interpretation may not be accurate if the event occurs at the end of a day. Additionally, I will ask the",
+        "public_argument": "Đối với vị trí của tôi là đối thủ, tôi thách thức lập luận của người đề xuất bằng cách chỉ ra rằng nếu sự kiện diễn ra vào cuối ngày hôm trước thì thời hạn sẽ được tính từ đầu ngày hôm sau. Tôi không tìm thấy bằng chứng pháp lý cụ thể hỗ trợ cho khía cạnh này của tranh luận.",
+        "evidence_ids": [
+          "vilqa-180-context",
+          "vilqa-179-context",
+          "vilqa-175-context",
+          "vilqa-177-context",
+          "vilqa-178-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Thời hạn được tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó.",
+        "confidence": 100.0,
+        "reasoning": "Theo quy định về thời hạn, khi khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau: Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào? Thời hạn được tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó."
+      }
+    ],
+    "verdict": {
+      "prediction": "Thời hạn được tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó.",
+      "answer": "Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào? Thời hạn được tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó",
+      "confidence": 100.0,
+      "reasoning": "Theo quy định về thời hạn, khi khoảng thời gian diễn ra không liền nhau thì thời hạn đó được tính như sau: Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào? Thời hạn được tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.47058823529411764,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T10:47:51.207951+00:00"
+  }
+}

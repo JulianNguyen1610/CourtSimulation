@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-447",
+    "case_type": "legal_qa",
+    "context": "Áp dụng tương tự pháp luật\n\n1. Trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì áp dụng quy định của pháp luật điều chỉnh quan hệ dân sự tương tự.\n\n2. Trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều này thì áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng.",
+    "question": "Theo Bộ luật dân sự 2015, trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều 6 của Bộ luật này thì phải áp dụng như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 447
+    }
+  },
+  "result": {
+    "case_id": "vilqa-447",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-446-context",
+        "text": "Áp dụng tương tự pháp luật\n\n1. Trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì áp dụng quy định của pháp luật điều chỉnh quan hệ dân sự tương tự.\n\n2. Trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều này thì áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng.",
+        "source": "vilqa_context",
+        "score": 245.2044370215486,
+        "metadata": {
+          "case_id": "vilqa-446",
+          "question": "Theo Bộ luật dân sự 2015, trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì phải áp dụng quy định của pháp luật như thế nào?",
+          "row_index": 446,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-444-context",
+        "text": "Áp dụng tập quán\n\n1. Tập quán là quy tắc xử sự có nội dung rõ ràng để xác định quyền, nghĩa vụ của cá nhân, pháp nhân trong quan hệ dân sự cụ thể, được hình thành và lặp đi lặp lại nhiều lần trong một thời gian dài, được thừa nhận và áp dụng rộng rãi trong một vùng, miền, dân tộc, cộng đồng dân cư hoặc trong một lĩnh vực dân sự.\n\n2. Trường hợp các bên không có thỏa thuận và pháp luật không quy định thì có thể áp dụng tập quán nhưng tập quán áp dụng không được trái với các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 151.79343332637723,
+        "metadata": {
+          "case_id": "vilqa-444",
+          "question": "Theo Điều 5: Áp dụng tập quán, trong Bộ luật dân sự 2015, tập quán là gì?",
+          "row_index": 444,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-460-context",
+        "text": "Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền\n\n1. Tòa án, cơ quan có thẩm quyền khác có trách nhiệm tôn trọng, bảo vệ quyền dân sự của cá nhân, pháp nhân.\n\nTrường hợp quyền dân sự bị xâm phạm hoặc có tranh chấp thì việc bảo vệ quyền được thực hiện theo pháp luật tố tụng tại Tòa án hoặc trọng tài.\n\nViệc bảo vệ quyền dân sự theo thủ tục hành chính được thực hiện trong trường hợp luật quy định. Quyết định giải quyết vụ việc theo thủ tục hành chính có thể được xem xét lại tại Tòa án.\n\n2. Tòa án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại Điều 5 và Điều 6 của Bộ luật này được áp dụng.",
+        "source": "vilqa_context",
+        "score": 120.75035852307356,
+        "metadata": {
+          "case_id": "vilqa-460",
+          "question": "Toà án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại điều mấy của Bộ luật dân sự 2015 được áp dụng?",
+          "row_index": 460,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-458-context",
+        "text": "Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền\n\n1. Tòa án, cơ quan có thẩm quyền khác có trách nhiệm tôn trọng, bảo vệ quyền dân sự của cá nhân, pháp nhân.\n\nTrường hợp quyền dân sự bị xâm phạm hoặc có tranh chấp thì việc bảo vệ quyền được thực hiện theo pháp luật tố tụng tại Tòa án hoặc trọng tài.\n\nViệc bảo vệ quyền dân sự theo thủ tục hành chính được thực hiện trong trường hợp luật quy định. Quyết định giải quyết vụ việc theo thủ tục hành chính có thể được xem xét lại tại Tòa án.\n\n2. Tòa án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại Điều 5 và Điều 6 của Bộ luật này được áp dụng.",
+        "source": "vilqa_context",
+        "score": 120.75035852307356,
+        "metadata": {
+          "case_id": "vilqa-458",
+          "question": "Theo Điều 14: Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền, trong Bộ luật dân sự 2015, toà án, cơ quan có thẩm quyền khác có trách nhiệm gì?",
+          "row_index": 458,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-149-context",
+        "text": "Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n\n1. Việc xử lý kỷ luật lao động được quy định như sau:\n\na) Người sử dụng lao động phải chứng minh được lỗi của người lao động;\n\nb) Phải có sự tham gia của tổ chức đại diện người lao động tại cơ sở mà người lao động đang bị xử lý kỷ luật là thành viên;\n\nc) Người lao động phải có mặt và có quyền tự bào chữa, nhờ luật sư hoặc tổ chức đại diện người lao động bào chữa; trường hợp là người chưa đủ 15 tuổi thì phải có sự tham gia của người đại diện theo pháp luật;\n\nd) Việc xử lý kỷ luật lao động phải được ghi thành biên bản.\n\n2. Không được áp dụng nhiều hình thức xử lý kỷ luật lao động đối với một hành vi vi phạm kỷ luật lao động.\n\n3. Khi một người lao động đồng thời có nhiều hành vi vi phạm kỷ luật lao động thì chỉ áp dụng hình thức kỷ luật cao nhất tương ứng với hành vi vi phạm nặng nhất.\n\n4. Không được xử lý kỷ luật lao động đối với người lao động đang trong thời gian sau đây:\n\na) Nghỉ ốm đau, điều dưỡng; nghỉ việc được sự đồng ý của người sử dụng lao động;\n\nb) Đang bị tạm giữ, tạm giam;\n\nc) Đang chờ kết quả của cơ quan có thẩm quyền điều tra xác minh và kết luận đối với hành vi vi phạm được quy định tại khoản 1 và khoản 2 Điều 125 của Bộ luật này;\n\nd) Người lao động nữ mang thai; người lao động nghỉ thai sản, nuôi con dưới 12 tháng tuổi.\n\n5. Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình.\n\n6. Chính phủ quy định trình tự, thủ tục xử lý kỷ luật lao động.",
+        "source": "vilqa_context",
+        "score": 114.86734441738288,
+        "metadata": {
+          "case_id": "vilqa-149",
+          "question": "Đối với người lao động dưới 15 tuổi thì cần có ai tham gia khi bị kỷ luật?",
+          "row_index": 149,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Khi không thể áp dụng tương tự pháp luật theo khoản 1 Điều 6, pháp luật yêu cầu phải áp dụng các nguyên tắc cơ bản của pháp luật dân sự (Điều 3), án lệ và lẽ công bằng.\n- **Candidate final answer**: \"áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng\"\n- **Best supporting legal evidence**: `vilqa-446-context` (Điều 6, Khoản 2 của Bộ luật Dân sự 2015).\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng việc áp dụng án lệ và lẽ công bằng chỉ là biện pháp cuối cùng khi các nguyên tắc cơ bản cũng không giải quyết được vấn đề, hoặc cố gắng làm mờ ranh giới giữa \"không thể áp dụng tương tự\" và \"không có quy định cụ thể\".\n- **Strategy for",
+        "public_argument": "Theo quy định tại khoản 2 Điều 6 Bộ luật Dân sự 2015, khi không thể áp dụng tương tự pháp luật theo khoản 1, các bên phải áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3, án lệ và lẽ công bằng. Đây là trình tự pháp lý bắt buộc được nêu rõ trong văn bản.\n\nĐáp án: áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng",
+        "evidence_ids": [
+          "vilqa-446-context",
+          "vilqa-444-context",
+          "vilqa-460-context",
+          "vilqa-458-context",
+          "vilqa-149-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent presents the application of \"basic principles, precedents, and fairness\" as a single, unified mandatory sequence without clarifying the **hierarchical order** or **conditional nature** of these remedies. Specifically, the Proponent fails to explicitly state that \"basic principles\" are the primary fallback, while \"precedents\" (án lệ) and \"fairness\" (lẽ công bằng) are likely secondary or supplementary measures to be used only when basic principles are insufficient or ambiguous. This ambiguity allows the Opponent to challenge whether all three must be applied simultaneously or if they represent a graduated hierarchy.\n\n- **Alternative answer or interpretation**:\n  \"áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng\"\n  *(Note: This is the Proponent's current answer; the alternative interpretation is that \"án lệ\" and \"",
+        "public_argument": "Proponent, bạn đã nêu đúng quy định tại khoản 2 Điều 6, nhưng chưa làm rõ thứ tự ưu tiên. Văn bản liệt kê \"nguyên tắc cơ bản\", \"án lệ\" và \"lẽ công bằng\" như một danh sách, chưa khẳng định đây là trình tự bắt buộc tuần tự hay các biện pháp song hành.\n\nTheo ngữ cảnh pháp lý, việc áp dụng \"án lệ\" và \"lẽ công bằng\" thường là biện pháp bổ sung khi nguyên tắc cơ bản chưa đủ. Do đó, câu trả lời chính xác cần phản ánh rõ hơn tính chất phân cấp này, tránh hiểu nhầm rằng cả ba yếu tố luôn được áp dụng đồng thời mà không có điều kiện.\n\nĐáp án cần điều chỉnh: \"áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng\" (với lưu ý về thứ tự áp dụng).",
+        "evidence_ids": [
+          "vilqa-446-context",
+          "vilqa-444-context",
+          "vilqa-460-context",
+          "vilqa-458-context",
+          "vilqa-149-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng",
+        "confidence": 95.0,
+        "reasoning": "Proponent đã trích dẫn chính xác nội dung khoản 2 Điều 6 trong văn bản, liệt kê đầy đủ các phương án thay thế khi không áp dụng được tương tự pháp luật. Opponent chỉ nghi ngờ về thứ tự ưu tiên nhưng không phủ nhận việc áp dụng các yếu tố này. Do đó, câu trả lời ngắn gọn nhất và chính xác nhất dựa trên văn bản là trích dẫn toàn bộ danh sách các biện pháp được nêu trong khoản 2 Điều 6."
+      }
+    ],
+    "verdict": {
+      "prediction": "áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng",
+      "answer": "áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng",
+      "confidence": 95.0,
+      "reasoning": "Khoản 2 Điều 6 của Bộ luật Dân sự 2015 quy định rõ ràng rằng khi không thể áp dụng tương tự pháp luật, các bên phải áp dụng các nguyên tắc cơ bản tại Điều 3, án lệ và lẽ công bằng. Đây là nội dung trích dẫn trực tiếp và chính xác nhất từ ngữ cảnh.",
+      "cited_evidence_ids": [
+        "vilqa-446-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:01:18.400279+00:00"
+  }
+}

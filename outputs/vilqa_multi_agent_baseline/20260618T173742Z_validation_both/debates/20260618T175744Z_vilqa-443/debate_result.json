@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-443",
+    "case_type": "legal_qa",
+    "context": "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự\n\n1. Ở nước Cộng hòa xã hội chủ nghĩa Việt Nam, các quyền dân sự được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật.\n\n2. Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.",
+    "question": "Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, quyền dân sự có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì các lý do nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 443
+    }
+  },
+  "result": {
+    "case_id": "vilqa-443",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-442-context",
+        "text": "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự\n\n1. Ở nước Cộng hòa xã hội chủ nghĩa Việt Nam, các quyền dân sự được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật.\n\n2. Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.",
+        "source": "vilqa_context",
+        "score": 267.31705566570184,
+        "metadata": {
+          "case_id": "vilqa-442",
+          "question": "Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, các quyền gì được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật?",
+          "row_index": 442,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-513-context",
+        "text": "Trách nhiệm về nghĩa vụ dân sự của Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương trong quan hệ dân sự với một bên là nhà nước, pháp nhân, cá nhân nước ngoài\n\n1. Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương chịu trách nhiệm về nghĩa vụ dân sự do mình xác lập với nhà nước, pháp nhân, cá nhân nước ngoài trong trường hợp sau đây:\n\na) Điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định về việc từ bỏ quyền miễn trừ;\n\nb) Các bên trong quan hệ dân sự có thỏa thuận từ bỏ quyền miễn trừ;\n\nc) Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương từ bỏ quyền miễn trừ.\n\n2. Trách nhiệm về nghĩa vụ dân sự của nhà nước, cơ quan nhà nước của nước ngoài khi tham gia quan hệ dân sự với Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương, pháp nhân, cá nhân Việt Nam được áp dụng tương tự khoản 1 Điều này.",
+        "source": "vilqa_context",
+        "score": 136.6708234559289,
+        "metadata": {
+          "case_id": "vilqa-513",
+          "question": "Theo Bộ luật Dân sự 2015, Nhà nước Cộng hòa xã hội chủ nghĩa\nViệt Nam, cơ quan nhà nước ở trung ương, ở địa phương chịu trách nhiệm về\nnghĩa vụ dân sự do mình xác lập với nhà nước, pháp nhân, cá nhân nước\nngoài trong trường hợp nào sau đây?",
+          "row_index": 513,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-408-context",
+        "text": "Nguyên tắc bảo vệ an ninh mạng\n\n1. Tuân thủ Hiến pháp và pháp luật; bảo đảm lợi ích của Nhà nước, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n\n2. Đặt dưới sự lãnh đạo của Đảng Cộng sản Việt Nam, sự quản lý thống nhất của Nhà nước; huy động sức mạnh tổng hợp của hệ thống chính trị và toàn dân tộc; phát huy vai trò nòng cốt của lực lượng chuyên trách bảo vệ an ninh mạng.\n\n3. Kết hợp chặt chẽ giữa nhiệm vụ bảo vệ an ninh mạng, bảo vệ hệ thống thông tin quan trọng về an ninh quốc gia với nhiệm vụ phát triển kinh tế - xã hội, bảo đảm quyền con người, quyền công dân, tạo điều kiện cho cơ quan, tổ chức, cá nhân hoạt động trên không gian mạng.\n\n4. Chủ động phòng ngừa, phát hiện, ngăn chặn, đấu tranh, làm thất bại mọi hoạt động sử dụng không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân; sẵn sàng ngăn chặn các nguy cơ đe dọa an ninh mạng.\n\n5. Triển khai hoạt động bảo vệ an ninh mạng đối với cơ sở hạ tầng không gian mạng quốc gia; áp dụng các biện pháp bảo vệ hệ thống thông tin quan trọng về an ninh quốc gia.\n\n6. Hệ thống thông tin quan trọng về an ninh quốc gia được thẩm định, chứng nhận đủ điều kiện về an ninh mạng trước khi đưa vào vận hành, sử dụng; thường xuyên kiểm tra, giám sát về an ninh mạng trong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cố an ninh mạng.\n\n7. Mọi hành vi vi phạm pháp luật về an ninh mạng phải được xử lý kịp thời, nghiêm minh.",
+        "source": "vilqa_context",
+        "score": 131.55507831332727,
+        "metadata": {
+          "case_id": "vilqa-408",
+          "question": "Nguyên tắc bảo vệ an ninh mạng được đặt dưới sự lãnh đạo của ai?",
+          "row_index": 408,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-492-context",
+        "text": "Đại diện tham gia quan hệ dân sự\n\nViệc đại diện cho Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở trung ương, ở địa phương tham gia quan hệ dân sự được thực hiện theo quy định của pháp luật về chức năng, nhiệm vụ, quyền hạn và tổ chức bộ máy của cơ quan nhà nước. Việc đại diện thông qua cá nhân, pháp nhân khác chỉ được thực hiện trong các trường hợp và theo trình tự, thủ tục do pháp luật quy định.",
+        "source": "vilqa_context",
+        "score": 127.05599719321928,
+        "metadata": {
+          "case_id": "vilqa-492",
+          "question": "Bộ luật dân sự 2015 quy định thế nào về Đại diện tham gia quan hệ dân sự?",
+          "row_index": 492,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-448-context",
+        "text": "Chính sách của Nhà nước đối với quan hệ dân sự\n\n1. Việc xác lập, thực hiện, chấm dứt quyền, nghĩa vụ dân sự phải bảo đảm giữ gìn bản sắc dân tộc, tôn trọng và phát huy phong tục, tập quán, truyền thống tốt đẹp, tình đoàn kết, tương thân, tương ái, mỗi người vì cộng đồng, cộng đồng vì mỗi người và các giá trị đạo đức cao đẹp của các dân tộc cùng sinh sống trên đất nước Việt Nam.\n\n2. Trong quan hệ dân sự, việc hòa giải giữa các bên phù hợp với quy định của pháp luật được khuyến khích.",
+        "source": "vilqa_context",
+        "score": 122.7082576049174,
+        "metadata": {
+          "case_id": "vilqa-448",
+          "question": "Theo Bộ luật dân sự 2015, việc xác lập, thực hiện, chấm dứt quyền, nghĩa vụ dân sự phải bảo đảm giữ gìn những giá trị gì?",
+          "row_index": 448,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Theo Bộ luật Dân sự 2015, quyền dân sự chỉ có thể bị hạn chế khi có quy định của luật và vì các lý do cụ thể liên quan đến quốc phòng, an ninh, trật tự xã hội, đạo đức và sức khỏe cộng đồng.\n- **Candidate final answer**: \"quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng\"\n- **Best supporting legal evidence**: `vilqa-442-context` (chứa đoạn văn bản trích dẫn từ Hiến pháp và Bộ luật Dân sự 2015 về điều khoản hạn chế quyền dân sự).\n- **Anticipated opponent challenge**: Đối thủ có thể tranh cãi rằng việc hạn chế quyền dân sự cần phải có sự phê chuẩn của Quốc hội hoặc Tòa án",
+        "public_argument": "Theo quy định tại Điều 2 của văn bản pháp lý liên quan, quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng. Các lý do này được nêu rõ trực tiếp trong văn bản, không yêu cầu phê chuẩn riêng của Quốc hội hay Tòa án cho từng trường hợp cụ thể. Do đó, câu trả lời chính xác là: \"quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng\".",
+        "evidence_ids": [
+          "vilqa-442-context",
+          "vilqa-513-context",
+          "vilqa-408-context",
+          "vilqa-492-context",
+          "vilqa-448-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent relies entirely on a single retrieved context (`vilqa-442-context`) which is explicitly labeled as \"Hiến pháp\" (Constitution) in its metadata, not the \"Bộ luật Dân sự 2015\" (Civil Code 2015) as the question specifically asks. While the text content is identical, the legal source cited in the question is different from the evidence provided. In strict legal QA, citing the wrong statute (Constitution vs. Civil Code) is a critical error, even if the content overlaps, because the question asks \"Theo Bộ luật dân sự 2015\". The Proponent fails to acknowledge this discrepancy or provide evidence from the actual Civil Code.\n\n- **Alternative answer or interpretation**: The question asks for the specific reasons according to the *Civil Code*. The provided evidence `vilqa-442-context` states the rule but attributes it to",
+        "public_argument": "Câu trả lời của Người đề xuất không chính xác vì họ trích dẫn từ **Hiến pháp** thay vì **Bộ luật Dân sự 2015** như yêu cầu của câu hỏi. Mặc dù nội dung có thể tương đồng, việc viện dẫn nguồn pháp luật sai là lỗi nghiêm trọng trong tư duy pháp lý. Theo đúng yêu cầu \"Theo Bộ luật dân sự 2015\", các lý do hạn chế quyền dân sự bao gồm: \"quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng\".",
+        "evidence_ids": [
+          "vilqa-442-context",
+          "vilqa-513-context",
+          "vilqa-408-context",
+          "vilqa-492-context",
+          "vilqa-448-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng",
+        "confidence": 95.0,
+        "reasoning": "Dựa trên nội dung của văn bản pháp lý được cung cấp trong trường hợp (Điều 2), quyền dân sự chỉ có thể bị hạn chế vì các lý do: quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng. Mặc dù đối lập chỉ ra việc trích dẫn từ Hiến pháp thay vì Bộ luật Dân sự 2015, nhưng nội dung liệt kê các lý do hạn chế quyền dân sự trong đoạn trích ngữ cảnh là chính xác và khớp với yêu cầu của câu hỏi về các lý do cụ thể."
+      }
+    ],
+    "verdict": {
+      "prediction": "quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng",
+      "answer": "quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng",
+      "confidence": 95.0,
+      "reasoning": "Dựa trên đoạn trích ngữ cảnh từ Điều 2 của văn bản pháp lý (mặc dù được gắn nhãn là Hiến pháp trong metadata, nhưng nội dung khớp với yêu cầu về các lý do hạn chế quyền dân sự), câu trả lời chính xác liệt kê đầy đủ các lý do: quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.",
+      "cited_evidence_ids": [
+        "vilqa-442-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.65625,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:57:44.544500+00:00"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-51",
+    "case_type": "legal_qa",
+    "context": "Phạm tội chưa đạt\n\nPhạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nNgười phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.",
+    "question": "Phạm tội chưa đạt là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 51
+    }
+  },
+  "result": {
+    "case_id": "vilqa-51",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-50-context",
+        "text": "Phạm tội chưa đạt\n\nPhạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nNgười phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.",
+        "source": "vilqa_context",
+        "score": 164.0271083422382,
+        "metadata": {
+          "case_id": "vilqa-50",
+          "question": "Người phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm nào?",
+          "row_index": 50,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-53-context",
+        "text": "Tự ý nửa chừng chấm dứt việc phạm tội\n\nTự ý nửa chừng chấm dứt việc phạm tội là tự mình không thực hiện tội phạm đến cùng, tuy không có gì ngăn cản.\n\nNgười tự ý nửa chừng chấm dứt việc phạm tội được miễn trách nhiệm hình sự về tội định phạm; nếu hành vi thực tế đã thực hiện có đủ yếu tố cấu thành của một tội khác, thì người đó phải chịu trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 74.54107747298953,
+        "metadata": {
+          "case_id": "vilqa-53",
+          "question": "Người tự ý nửa chừng chấm dứt việc phạm tội được miễn trách nhiệm hình sự về tội nào?",
+          "row_index": 53,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-59-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-59",
+          "question": "Người giúp sức là ai?",
+          "row_index": 59,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-60-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-60",
+          "question": "Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của ai?",
+          "row_index": 60,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-55-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-55",
+          "question": "Người thực hành là ai?",
+          "row_index": 55,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nCandidate final answer: Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nBest supporting legal evidence: Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội. Người phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.\n\nAnticipated opponent challenge: Đối phương có thể tranh luận rằng \"Phạm tội chưa đạt\" chỉ liên quan đến việc cố ý thực hiện tội phạm nhưng không hoàn thành, và không đề cập đến việc người phạm tội phải chịu trách nhiệm hình sự cho tội phạm đó.\n\nStrategy for this round: Tôi sẽ nhấn mạnh vào phần \"Người phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội",
+        "public_argument": "Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thể hoàn thành do nguyên nhân ngoài ý muốn của người phạm tội. Điều này được quy định trong pháp luật và người phạm tội phải chịu trách nhiệm hình sự cho hành vi của mình.",
+        "evidence_ids": [
+          "vilqa-50-context",
+          "vilqa-53-context",
+          "vilqa-59-context",
+          "vilqa-60-context",
+          "vilqa-55-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The Proponent's argument relies heavily on the definition of \"Phạm tội chưa đạt,\" but it lacks specific information about how and when a person is held responsible for such an offense.\n\nAlternative answer or interpretation: Nếu người phạm tội chưa đạt không hoàn thành tội phạm do nguyên nhân ngoài ý muốn của mình, thì họ vẫn phải chịu trách nhiệm hình sự về hành vi cố ý thực hiện tội phạm đó. (Extracted from context)\n\nEvidence needed to support the challenge: Cần có bằng chứng cụ thể và rõ ràng về cách và thời điểm mà một người được coi là chịu trách nhiệm hình sự khi phạm tội chưa đạt.\n\nStrategy for this round: Tôi sẽ tập trung vào việc làm sáng tỏ vai trò của người phạm tội chưa đạt trong việc hoàn thành tội phạm, đồng thời nhấn mạnh vào việc họ vẫn phải chịu trách nhiệm hình sự cho hành vi cố ý thực hiện tội phạm đó.",
+        "public_argument": "Tôi đồng ý với định nghĩa của đối phương về \"Phạm tội chưa đạt\" là cố ý thực hiện tội phạm nhưng không thể hoàn thành do nguyên nhân ngoài ý muốn của người phạm tội. Tuy nhiên, tôi nhấn mạnh rằng pháp luật cũng quy định người phạm tội chưa đạt phải chịu trách nhiệm hình sự cho hành vi của mình. Cần có bằng chứng cụ thể và rõ ràng về cách và thời điểm mà một người được coi là chịu trách nhiệm hình sự khi phạm tội chưa đạt.",
+        "evidence_ids": [
+          "vilqa-50-context",
+          "vilqa-53-context",
+          "vilqa-59-context",
+          "vilqa-60-context",
+          "vilqa-55-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thể hoàn thành do nguyên nhân ngoài ý muốn của người phạm tội. Điều này được quy định trong pháp luật và người phạm tội phải chịu trách nhiệm hình sự cho hành vi của mình.",
+        "confidence": 100.0,
+        "reasoning": "Both the proponent and opponent agree on the definition of 'Phạm tội chưa đạt' as intentional commission of a crime that cannot be completed due to external reasons. They also concur that the person committing such a crime must bear criminal responsibility for their actions, which is supported by legal provisions."
+      }
+    ],
+    "verdict": {
+      "prediction": "Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thể hoàn thành do nguyên nhân ngoài ý muốn của người phạm tội. Điều này được quy định trong pháp luật và người phạm tội phải chịu trách nhiệm hình sự cho hành vi của mình.",
+      "answer": "Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thể hoàn thành do nguyên nhân ngoài ý muốn của người phạm tội",
+      "confidence": 100.0,
+      "reasoning": "Both the proponent and opponent agree on the definition of 'Phạm tội chưa đạt' as intentional commission of a crime that cannot be completed due to external reasons. They also concur that the person committing such a crime must bear criminal responsibility for their actions, which is supported by legal provisions.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.68,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T08:21:28.078832+00:00"
+  }
+}

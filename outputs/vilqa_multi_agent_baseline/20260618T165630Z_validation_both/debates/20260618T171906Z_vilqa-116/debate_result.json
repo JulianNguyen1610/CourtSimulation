@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-116",
+    "case_type": "legal_qa",
+    "context": "Di chúc bằng văn bản có giá trị như di chúc được công chứng hoặc chứng thực\n\n1. Di chúc của quân nhân tại ngũ có xác nhận của thủ trưởng đơn vị từ cấp đại đội trở lên, nếu quân nhân không thể yêu cầu công chứng hoặc chứng thực.\n\n2. Di chúc của người đang đi trên tàu biển, máy bay có xác nhận của người chỉ huy phương tiện đó.\n\n3. Di chúc của người đang điều trị tại bệnh viện, cơ sở chữa bệnh, điều dưỡng khác có xác nhận của người phụ trách bệnh viện, cơ sở đó.\n\n4. Di chúc của người đang làm công việc khảo sát, thăm dò, nghiên cứu ở vùng rừng núi, hải đảo có xác nhận của người phụ trách đơn vị.\n\n5. Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó.\n\n6. Di chúc của người đang bị tạm giam, tạm giữ, đang chấp hành hình phạt tù, người đang chấp hành biện pháp xử lý hành chính tại cơ sở giáo dục, cơ sở chữa bệnh có xác nhận của người phụ trách cơ sở đó.",
+    "question": "Di chúc của công dân Việt Nam đang ở nước ngoài cần điều kiện gì để có giá trị như di chúc được công chứng?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 116
+    }
+  },
+  "result": {
+    "case_id": "vilqa-116",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-121-context",
+        "text": "Công bố di chúc\n\n1. Trường hợp di chúc bằng văn bản được lưu giữ tại tổ chức hành nghề công chứng thì công chứng viên là người công bố di chúc.\n\n2. Trường hợp người để lại di chúc chỉ định người công bố di chúc thì người này có nghĩa vụ công bố di chúc; nếu người để lại di chúc không chỉ định hoặc có chỉ định nhưng người được chỉ định từ chối công bố di chúc thì những người thừa kế còn lại thỏa thuận cử người công bố di chúc.\n\n3. Sau thời điểm mở thừa kế, người công bố di chúc phải sao gửi di chúc tới tất cả những người có liên quan đến nội dung di chúc.\n\n4. Người nhận được bản sao di chúc có quyền yêu cầu đối chiếu với bản gốc của di chúc.\n\n5. Trường hợp di chúc được lập bằng tiếng nước ngoài thì bản di chúc đó phải được dịch ra tiếng Việt và phải có công chứng hoặc chứng thực.",
+        "source": "vilqa_context",
+        "score": 294.4790698868496,
+        "metadata": {
+          "case_id": "vilqa-121",
+          "question": "Ai công bố di chúc nếu di chúc bằng văn bản được lưu tại tổ chức hành nghề công chứng?",
+          "row_index": 121,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-115-context",
+        "text": "Di chúc hợp pháp\n\n1. Di chúc hợp pháp phải có đủ các điều kiện sau đây:\n\na) Người lập di chúc minh mẫn, sáng suốt trong khi lập di chúc; không bị lừa dối, đe doạ, cưỡng ép;\n\nb) Nội dung của di chúc không vi phạm điều cấm của luật, không trái đạo đức xã hội; hình thức di chúc không trái quy định của luật.\n\n2. Di chúc của người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi phải được lập thành văn bản và phải được cha, mẹ hoặc người giám hộ đồng ý về việc lập di chúc.\n\n3. Di chúc của người bị hạn chế về thể chất hoặc của người không biết chữ phải được người làm chứng lập thành văn bản và có công chứng hoặc chứng thực.\n\n4. Di chúc bằng văn bản không có công chứng, chứng thực chỉ được coi là hợp pháp, nếu có đủ các điều kiện được quy định tại khoản 1 Điều này.\n\n5. Di chúc miệng được coi là hợp pháp nếu người di chúc miệng thể hiện ý chí cuối cùng của mình trước mặt ít nhất hai người làm chứng và ngay sau khi người di chúc miệng thể hiện ý chí cuối cùng, người làm chứng ghi chép lại, cùng ký tên hoặc điểm chỉ. Trong thời hạn 05 ngày làm việc, kể từ ngày người di chúc miệng thể hiện ý chí cuối cùng thì di chúc phải được công chứng viên hoặc cơ quan có thẩm quyền chứng thực xác nhận chữ ký hoặc điểm chỉ của người làm chứng.",
+        "source": "vilqa_context",
+        "score": 281.8404275333342,
+        "metadata": {
+          "case_id": "vilqa-115",
+          "question": "Di chúc của người không biết chữ như thế nào là hợp pháp?",
+          "row_index": 115,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-122-context",
+        "text": "Phân chia di sản theo di chúc\n\n1. Việc phân chia di sản được thực hiện theo ý chí của người để lại di chúc; nếu di chúc không xác định rõ phần của từng người thừa kế thì di sản được chia đều cho những người được chỉ định trong di chúc, trừ trường hợp có thỏa thuận khác.\n\n2. Trường hợp di chúc xác định phân chia di sản theo hiện vật thì người thừa kế được nhận hiện vật kèm theo hoa lợi, lợi tức thu được từ hiện vật đó hoặc phải chịu phần giá trị của hiện vật bị giảm sút tính đến thời điểm phân chia di sản; nếu hiện vật bị tiêu hủy do lỗi của người khác thì người thừa kế có quyền yêu cầu bồi thường thiệt hại.\n\n3. Trường hợp di chúc chỉ xác định phân chia di sản theo tỷ lệ đối với tổng giá trị khối di sản thì tỷ lệ này được tính trên giá trị khối di sản đang còn vào thời điểm phân chia di sản.",
+        "source": "vilqa_context",
+        "score": 263.60779477399296,
+        "metadata": {
+          "case_id": "vilqa-122",
+          "question": "Di chúc không xác định rõ từng phần của từng người thừa kế thì chia thế nào?",
+          "row_index": 122,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-118-context",
+        "text": "Di chúc bị thất lạc, hư hại\n\n1. Kể từ thời điểm mở thừa kế, nếu bản di chúc bị thất lạc hoặc bị hư hại đến mức không thể hiện được đầy đủ ý chí của người lập di chúc và cũng không có bằng chứng nào chứng minh được ý nguyện đích thực của người lập di chúc thì coi như không có di chúc và áp dụng các quy định về thừa kế theo pháp luật.\n\n2. Trường hợp di sản chưa chia mà tìm thấy di chúc thì di sản được chia theo di chúc.\n\n3. Trong thời hiệu yêu cầu chia di sản, trường hợp di sản đã chia mà tìm thấy di chúc thì phải chia lại theo di chúc nếu người thừa kế theo di chúc yêu cầu.",
+        "source": "vilqa_context",
+        "score": 231.793688534654,
+        "metadata": {
+          "case_id": "vilqa-118",
+          "question": "Đã tiến hành chia di sản mà tìm lại được di chúc thất lạc thì chia như thế nào?",
+          "row_index": 118,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-120-context",
+        "text": "Di sản dùng vào việc thờ cúng\n\n1. Trường hợp người lập di chúc để lại một phần di sản dùng vào việc thờ cúng thì phần di sản đó không được chia thừa kế và được giao cho người đã được chỉ định trong di chúc quản lý để thực hiện việc thờ cúng; nếu người được chỉ định không thực hiện đúng di chúc hoặc không theo thỏa thuận của những người thừa kế thì những người thừa kế có quyền giao phần di sản dùng vào việc thờ cúng cho người khác quản lý để thờ cúng.\n\nTrường hợp người để lại di sản không chỉ định người quản lý di sản thờ cúng thì những người thừa kế cử người quản lý di sản thờ cúng.\n\nTrường hợp tất cả những người thừa kế theo di chúc đều đã chết thì phần di sản dùng để thờ cúng thuộc về người đang quản lý hợp pháp di sản đó trong số những người thuộc diện thừa kế theo pháp luật.\n\n2. Trường hợp toàn bộ di sản của người chết không đủ để thanh toán nghĩa vụ tài sản của người đó thì không được dành một phần di sản dùng vào việc thờ cúng.",
+        "source": "vilqa_context",
+        "score": 217.4228988728338,
+        "metadata": {
+          "case_id": "vilqa-120",
+          "question": "Có được chia thừa kế di sản cho việc thờ cúng không?",
+          "row_index": 120,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Di chúc của công dân Việt Nam đang ở nước ngoài có giá trị như di chúc được công chứng nếu có chứng nhận của cơ quan lãnh sự hoặc đại diện ngoại giao Việt Nam tại nước đó.\n- **Candidate final answer**: \"Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó.\"\n- **Best supporting legal evidence**: `vilqa-116-context` (cụ thể điểm 5: \"Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó.\")\n- **Anticipated opponent challenge**: Đối thủ có thể tranh luận rằng chỉ có chứng nhận của lãnh sự là đủ mà không cần đại diện ngoại giao, hoặc ngược lại, hoặc rằng cần thêm các điều kiện về nội dung di chúc khác.\n- **Strategy for this round**: Tập trung",
+        "public_argument": "Di chúc của công dân Việt Nam đang ở nước ngoài có giá trị như di chúc được công chứng nếu có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó. Điều này được quy định rõ tại điểm 5 của văn bản: \"Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó.\"",
+        "evidence_ids": [
+          "vilqa-121-context",
+          "vilqa-115-context",
+          "vilqa-122-context",
+          "vilqa-118-context",
+          "vilqa-120-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent's argument relies entirely on a single clause (Clause 5) from the provided context without addressing potential ambiguities regarding the *nature* of the \"chứng nhận\" (certification). Specifically, the Proponent fails to clarify if the certification must be issued by a specific type of consular officer or if there are additional procedural requirements (e.g., specific forms, notarization of the certification itself) that might be implied by \"như di chúc được công chứng\" (equivalent to a notarized will). The Proponent also lists multiple evidence IDs (`vilqa-121-context`, `vilqa-115-context`, etc.) that are irrelevant to the specific condition of a will made abroad, suggesting a lack of precision in evidence selection.\n\n- **Alternative answer or interpretation**: The condition is strictly limited to the certification by Vietnamese diplomatic/consular representatives; no other conditions (like witnesses or specific",
+        "public_argument": "Di chúc của công dân Việt Nam đang ở nước ngoài có giá trị như di chúc được công chứng nếu có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó. Tuy nhiên, lập luận của Proponent thiếu chính xác khi trích dẫn các bằng chứng không liên quan (`vilqa-121-context`, `vilqa-115-context`,...) thay vì tập trung vào điểm 5 của `vilqa-116-context`. Điều kiện duy nhất và đủ là chứng nhận của cơ quan lãnh sự hoặc đại diện ngoại giao Việt Nam tại nước đó, không cần thêm các điều kiện khác.",
+        "evidence_ids": [
+          "vilqa-121-context",
+          "vilqa-115-context",
+          "vilqa-122-context",
+          "vilqa-118-context",
+          "vilqa-120-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó.",
+        "confidence": 100.0,
+        "reasoning": "Câu trả lời được trích xuất trực tiếp từ điểm 5 trong đoạn văn bản cung cấp, xác định rõ điều kiện cần thiết cho di chúc của công dân Việt Nam đang ở nước ngoài."
+      }
+    ],
+    "verdict": {
+      "prediction": "Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó.",
+      "answer": "Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó",
+      "confidence": 100.0,
+      "reasoning": "Câu trả lời được trích xuất trực tiếp từ điểm 5 của văn bản cung cấp, xác định rõ điều kiện cần thiết để di chúc của công dân Việt Nam đang ở nước ngoài có giá trị như di chúc được công chứng.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.7555555555555554,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:19:06.910405+00:00"
+  }
+}

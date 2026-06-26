@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-35",
+    "case_type": "legal_qa",
+    "context": "Tội đánh bạc\n\n1. Người nào đánh bạc trái phép dưới bất kỳ hình thức nào được thua bằng tiền hay hiện vật trị giá từ 5.000.000 đồng đến dưới 50.000.000 đồng hoặc dưới 5.000.000 đồng, đã bị xử phạt vi phạm hành chính về hành vi này hoặc hành vi quy định tại Điều 322 của Bộ luật này hoặc bị kết án về tội này hoặc tội quy định tại Điều 322 của Bộ luật này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tính chất chuyên nghiệp;\n\nb) Tiền hoặc hiện vật dùng đánh bạc trị giá 50.000.000 đồng trở lên;\n\nc) Sử dụng mạng internet, mạng máy tính, mạng viễn thông, phương tiện điện tử để phạm tội;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+    "question": "Người phạm tội đánh bạc còn có thể bị phạt tiền từ bao nhiêu đến bao nhiêu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 35
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.7272727272727272,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

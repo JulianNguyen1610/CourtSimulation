@@ -18,6 +18,339 @@
       "strategy": "proponent/opponent debate with judge belief tracking",
       "confidence": 55.0,
       "text": "[mock-10859bf2] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-feb02505] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-fdf28410] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-307f953d] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất."
+    },
+    {
+      "id": "exp-vilqa-285-2",
+      "case_id": "vilqa-285",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo quy định tại ngữ cảnh pháp lý cung cấp, hành vi vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER] sẽ bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm. Do đó, câu trả lời chính xác là: \"Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\" Câu trả lời của Proponent là chính xác và bám sát văn bản pháp luật. Theo Điều luật được cung cấp, mức phạt cảnh cáo hoặc cải tạo không giam giữ đến 02 năm áp dụng cho hành vi vô ý gây thiệt hại từ [REDACTED_ANSWER]. Không có sự mơ hồ nào về giới hạn trên; cụm từ \"dưới 500.000.000 đồng\" đã loại trừ chính xác con số 500.000.000 đồng (trường hợp này sẽ bị phạt tù). Do đó, câu trả lời đề xuất là hoàn toàn chính xác về mặt pháp lý. Kính thưa Hội đồng, dựa trên quy định pháp luật đã được cung cấp, hành vi vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER] sẽ bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm. Đối với phần đối lập, tôi xin khẳng định rằng việc sử dụng cụm từ \"dưới 500.000.000 đồng\" hoàn toàn chính xác và rõ ràng, phân biệt rõ ràng với mức phạt tù áp dụng cho thiệt hại từ 500.000.000 đồng trở lên. Do đó, câu trả lời chính xác là: \"Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ 100.000.000 đồng đến dưới 500.000 Kính thưa Hội đồng, lập luận của nguyên đơn hoàn toàn chính xác và bám sát văn bản pháp luật. Các bằng chứng cung cấp xác nhận rõ ràng: hành vi vô ý gây thiệt hại tài sản từ [REDACTED_ANSWER] sẽ bị phạt cảnh cáo hoặc cải tạo không giam giữ đến 02 năm. Không có sự mơ hồ nào về giới hạn trên \"dưới 500.000.000 đồng\". Do đó, câu trả lời của nguyên đơn là chính xác và đầy đủ."
+    },
+    {
+      "id": "exp-vilqa-352-3",
+      "case_id": "vilqa-352",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Điều 245 Bộ luật Hình sự được nêu trong ngữ cảnh, người dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính hoặc kết án về tội này, chưa được xóa án tích mà còn vi phạm sẽ bị phạt tiền từ 10.000.000 đồng đến [REDACTED_ANSWER]. Do đó, mức phạt tiền tối đa là [REDACTED_ANSWER].\n\nphạt tiền từ 10.000.000 đồng đến [REDACTED_ANSWER] Câu trả lời của người đề xuất không đầy đủ vì bỏ qua trường hợp phạm tội thuộc các tình tiết tăng nặng (Điều 245, khoản 2). Khi đó, hình phạt không còn là tiền mà là phạt tù từ 03 năm đến 10 năm. Do đó, mức phạt tiền tối đa [REDACTED_ANSWER] chỉ áp dụng cho trường hợp chung, chưa xét đến tính chất nghiêm trọng của vụ việc. Kính thưa Hội đồng, lập luận của nguyên đơn hoàn toàn chính xác. Theo Điều 245 Bộ luật Hình sự được cung cấp, đối với hành vi tái phạm mê tín dị đoan chưa xóa án tích, mức phạt tiền được quy định cụ thể là từ 10.000.000 đồng đến [REDACTED_ANSWER]. Mặc dù đối lập nêu bật các tình tiết tăng nặng dẫn đến phạt tù, nhưng câu hỏi chỉ yêu cầu mức phạt tiền tối đa trong trường hợp chung. Do đó, con số [REDACTED_ANSWER] là câu trả lời pháp lý chính xác và đầy đủ nhất dựa trên văn bản luật. Kính thưa Hội đồng, lập luận của nguyên đơn là chính xác và đầy đủ. Văn bản pháp luật cung cấp quy định rõ ràng: đối với hành vi tái phạm mê tín dị đoan chưa xóa án tích, mức phạt tiền tối đa là [REDACTED_ANSWER]. Các tình tiết tăng nặng (như làm chết người hay thu lợi bất chính lớn) dẫn đến hình phạt tù, không còn áp dụng hình phạt tiền. Do đó, khi câu hỏi chỉ hỏi về \"phạt tiền tối đa\", con số [REDACTED_ANSWER] là câu trả lời đúng duy nhất dựa trên quy định tại Điều 245."
+    },
+    {
+      "id": "exp-vilqa-327-4",
+      "case_id": "vilqa-327",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Hành vi cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài bị quy định tại khoản 1, mục c của Điều luật về tội gián điệp. Theo quy định này, người phạm tội sẽ bị [REDACTED_ANSWER]. Do đó, câu trả lời chính xác là: \"Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\" Tuy nhiên, Proponent đã bỏ sót trường hợp \"ít nghiêm trọng\" quy định tại khoản 2. Theo đó, người phạm tội trong trường hợp này chỉ bị phạt tù từ 05 năm đến 15 năm. Do đó, câu trả lời chỉ nêu mức phạt cao nhất là chưa đầy đủ. Kính thưa Hội đồng, lập luận của Đối lập chỉ đúng một phần vì họ bỏ qua ngữ cảnh pháp lý cốt lõi. Văn bản luật quy định rõ: hành vi cung cấp bí mật nhà nước cho nước ngoài thuộc Khoản 1, bị [REDACTED_ANSWER]. Điều này áp dụng cho trường hợp phạm tội nghiêm trọng. Đối lập đúng khi nhắc đến Khoản 2 về trường hợp \"ít nghiêm trọng\" (5-15 năm), nhưng câu hỏi hỏi về hình phạt cho hành vi này nói chung, mà mức phạt tối đa và nghiêm trọng nhất được quy định tại Khoản 1 là tiêu chuẩn pháp lý chính. Do đó, câu trả lời đầy đủ phải nêu rõ khung hình phạt từ 12 năm đến tử hình theo Khoản 1, đồng thời thừa nhận mức phạt thấp hơn cho trường hợp ít nghiêm trọng. Lập luận của Proponent là chính xác và bám sát văn bản luật. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhắc đến Khoản 2, nhưng lại bỏ qua trọng tâm câu hỏi. Văn bản luật phân định rõ: hành vi \"cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài\" được quy định cụ thể tại Khoản 1, mục c, với mức [REDACTED_ANSWER]. Trong khi đó, Khoản 2 chỉ áp dụng cho \"trường hợp ít nghiêm trọng\" nói chung, không liệt kê hành vi cụ thể này. Do đó, câu trả lời chính xác và đầy đủ nhất phải dựa trên quy định nghiêm ngặt nhất của Khoản 1."
+    },
+    {
+      "id": "exp-vilqa-138-5",
+      "case_id": "vilqa-138",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Điều 113, Khoản 1 của văn bản pháp luật cung cấp, trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần, người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân [REDACTED_ANSWER]. Đây là quy định cụ thể cho các tình huống ngoại lệ, thay thế cho yêu cầu nghỉ 24 giờ liên tục khi không khả thi.\n\nĐáp án: \"trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân [REDACTED_ANSWER]\" Tuy nhiên, Proponent đã bỏ qua Khoản 2 của Điều 113. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần và phải ghi vào nội quy lao động. Do đó, câu trả lời đầy đủ cần bao gồm cả quyền này, không chỉ giới hạn ở việc nghỉ bù 04 ngày. Kính thưa Hội đồng, đối lập đã phản biện rằng Proponent bỏ qua Khoản 2 về quyền sắp xếp ngày nghỉ. Tuy nhiên, câu hỏi cụ thể hỏi về \"trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần\". Trong ngữ cảnh này, quyền sắp xếp ngày nghỉ thông thường (Khoản 2) không còn khả thi do hạn chế về chu kỳ. Do đó, nghĩa vụ pháp lý duy nhất và trực tiếp áp dụng cho trường hợp ngoại lệ này được quy định rõ ràng tại Khoản 1: người sử dụng lao động phải bảo đảm người lao động được nghỉ tính bình quân [REDACTED_ANSWER]. Đây là câu trả lời chính xác và đầy đủ nhất dựa trên văn bản luật. Kính thưa Hội đồng, lập luận của Proponent hoàn toàn chính xác. Câu hỏi cụ thể hỏi về \"trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần\". Trong ngữ cảnh này, quyền sắp xếp ngày nghỉ thông thường theo Khoản 2 không còn khả thi. Do đó, trách nhiệm pháp lý duy nhất và chính xác là việc người sử dụng lao động phải bảo đảm người lao động được nghỉ tính bình quân [REDACTED_ANSWER] theo quy định tại Khoản 1. Đối lập đã phản biện dựa trên một tình huống giả định không áp dụng cho câu hỏi cụ thể này. Proponent đã bám sát văn bản luật để trả lời đúng trọng tâm."
+    },
+    {
+      "id": "exp-vilqa-470-6",
+      "case_id": "vilqa-470",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Câu trả lời chính xác và trực tiếp nhất cho câu hỏi \"người chưa thành niên là người như thế nào?\" nằm ngay tại Khoản 1 Điều 24 Bộ luật Dân sự 2015. Theo quy định này, người chưa thành niên được định nghĩa là [REDACTED_ANSWER] Các quy định chi tiết về năng lực hành vi dân sự (như phân chia theo độ tuổi 6, 15) nhằm mục đích xác định mức độ tự chủ trong giao dịch, không làm thay đổi định nghĩa cơ bản về trạng thái \"chưa thành niên\". Do đó, câu trả lời ngắn gọn và đúng pháp lý là: \"Người chưa thành niên là [REDACTED_ANSWER]\" Câu trả lời của người đề xuất chỉ nêu độ tuổi mà bỏ qua bản chất pháp lý quan trọng nhất: năng lực hành vi dân sự bị hạn chế. Theo Điều 24 Bộ luật Dân sự 2015, người chưa thành niên không chỉ là người chưa đủ 18 tuổi mà còn là người có các quy định cụ thể về xác lập giao dịch tùy theo từng độ tuổi (dưới 6, từ 6 đến dưới 15, từ 15 đến dưới 18). Một câu trả lời đầy đủ phải phản ánh sự phụ thuộc vào người đại diện theo pháp luật đối với các giao dịch dân sự của họ. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhấn mạnh đến năng lực hành vi dân sự, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi \"người chưa thành niên là người như thế nào?\" yêu cầu định nghĩa pháp lý cốt lõi, không phải mô tả toàn bộ quy chế giao dịch.\n\nBằng chứng rõ ràng nhất nằm ngay tại Khoản 1 Điều 24 Bộ luật Dân sự 2015: \"Người chưa thành niên là [REDACTED_ANSWER]\" Đây là định nghĩa duy nhất và chính xác nhất để phân biệt với người thành niên. Các quy định về giao dịch dân sự (Khoản 2, 3, 4 Điều 24) chỉ là hệ quả pháp lý phát sinh từ định nghĩa tuổi này, không phải là phần định nghĩa của khái niệm \"người chưa thành niên\".\n\nDo đó, câu trả lời ngắn gọn, bám sát văn bản luật của Proponent là Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh đến năng lực hành vi dân sự, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi \"người chưa thành niên là người như thế nào?\" yêu cầu định nghĩa pháp lý cốt lõi, không phải mô tả toàn bộ quy chế giao dịch. Bằng chứng rõ ràng tại Khoản 1 Điều 24 Bộ luật Dân sự 2015 xác nhận: người chưa thành niên là [REDACTED_ANSWER] Các quy định chi tiết về năng lực hành vi (khoản 2, 3, 4) chỉ là hệ quả của định nghĩa này, không thay thế nó. Do đó, câu trả lời của Nguyên đơn là chính xác và đầy đủ nhất dựa trên văn bản luật."
+    },
+    {
+      "id": "exp-vilqa-236-7",
+      "case_id": "vilqa-236",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo quy định pháp luật được nêu trong ngữ cảnh, khi vật nuôi dưới nước có dấu hiệu riêng biệt và bị người khác nhận giữ, chủ sở hữu phải thông báo công khai. Nếu sau **[REDACTED_ANSWER]**, kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ. Do đó, thời hạn pháp lý là [REDACTED_ANSWER].\n\n**Sau [REDACTED_ANSWER], kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ.** Tuy nhiên, quy định trên chỉ áp dụng khi vật nuôi \"có dấu hiệu riêng biệt để có thể xác định vật nuôi không thuộc sở hữu của mình\". Nếu vật nuôi không có dấu hiệu riêng biệt, việc xác định quyền sở hữu có thể diễn ra khác, do đó câu trả lời \"Sau [REDACTED_ANSWER]...\" chưa đầy đủ vì bỏ qua điều kiện tiên quyết này. Kính thưa Hội đồng, đối lập đã phản biện rằng quy định về thời hạn [REDACTED_ANSWER] chỉ áp dụng khi vật nuôi có dấu hiệu riêng biệt. Tuy nhiên, đây chính là điều kiện tiên quyết được nêu rõ trong văn bản luật: \"Trường hợp vật nuôi dưới nước **có dấu hiệu riêng biệt**... thì người có ruộng, ao, hồ phải thông báo công khai\". Khi có dấu hiệu riêng biệt, quy định về thời hạn [REDACTED_ANSWER] mới được kích hoạt. Ngược lại, nếu không có dấu hiệu riêng biệt, vật nuôi sẽ thuộc về người có ruộng, ao, hồ ngay lập tức theo nguyên tắc chiếm hữu. Do đó, câu trả lời \"Sau [REDACTED_ANSWER] kể từ ngày thông báo công khai\" là chính xác và đầy đủ nhất cho trường hợp cụ thể được đặt ra. Kính thưa Hội đồng, lập luận của Đối lập dựa trên việc vật nuôi \"không có dấu hiệu riêng biệt\" là không chính xác trong ngữ cảnh câu hỏi. Văn bản luật đã thiết lập quy trình cụ thể cho trường hợp vật nuôi có dấu hiệu riêng biệt: chủ sở hữu phải thông báo công khai, và nếu sau **[REDACTED_ANSWER]** không ai nhận lại thì quyền sở hữu chuyển cho người có ruộng, ao, hồ. Đối lập đang phản bác một tình huống giả định không phải là trọng tâm của quy định được nêu. Câu trả lời \"Sau [REDACTED_ANSWER]\" là chính xác và đầy đủ nhất dựa trên quy định pháp luật hiện hành."
+    },
+    {
+      "id": "exp-vilqa-447-8",
+      "case_id": "vilqa-447",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Khoản 2 Điều 6 Bộ luật Dân sự 2015, khi không thể áp dụng tương tự pháp luật theo khoản 1, pháp luật quy định rõ việc phải áp dụng các nguyên tắc cơ bản của pháp luật dân sự tại Điều 3, án lệ và lẽ công bằng. Do đó, câu trả lời chính xác là: \"áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng\". Tuy nhiên, cần lưu ý rằng việc áp dụng các nguyên tắc cơ bản, án lệ và lẽ công bằng chỉ là biện pháp cuối cùng khi không thể áp dụng tương tự pháp luật. Do đó, câu trả lời cần nhấn mạnh tính chất \"cuối cùng\" này để phản ánh đúng trình tự giải quyết tranh chấp theo Khoản 2 Điều 6 Bộ luật Dân sự 2015. Kính thưa Hội đồng, đối lập đã nhấn mạnh tính chất \"cuối cùng\" của việc áp dụng nguyên tắc, án lệ và lẽ công bằng. Tuy nhiên, Khoản 2 Điều 6 Bộ luật Dân sự 2015 quy định rõ ràng: khi không thể áp dụng tương tự pháp luật theo khoản 1, thì **phải** áp dụng các nguyên tắc cơ bản tại Điều 3, án lệ và lẽ công bằng. Đây là quy định bắt buộc, không phải là sự lựa chọn tùy tiện. Bằng chứng từ văn bản luật xác nhận đây là bước tiếp theo duy nhất trong trình tự giải quyết. Do đó, câu trả lời chính xác và đầy đủ nhất là: \"áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng\". Kính thưa Hội đồng, lập luận của đối lập tuy đúng về mặt kỹ thuật khi nhấn mạnh tính chất \"cuối cùng\", nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi yêu cầu xác định quy định pháp lý áp dụng khi không thể tìm thấy quy định tương tự, không phải phân tích trình tự ưu tiên.\n\nKhoản 2 Điều 6 Bộ luật Dân sự 2015 quy định rõ ràng và trực tiếp: trong trường hợp này, pháp luật **phải** áp dụng các nguyên tắc cơ bản tại Điều 3, án lệ và lẽ công bằng. Đây là quy định bắt buộc, không phải là biện pháp thay thế mơ hồ. Do đó, câu trả lời của nguyên đơn phản ánh chính xác và đầy đủ nhất quy định của văn bản luật. Kính xin Hội đồng xem xét và tuyên bố nguyên đơn thắng kiện."
+    },
+    {
+      "id": "exp-vilqa-125-9",
+      "case_id": "vilqa-125",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Câu hỏi cụ thể về điều kiện \"không bị tính lãi\" khi tạm ứng tiền lương. Dựa trên ngữ cảnh pháp lý, chỉ có trường hợp thứ nhất quy định rõ ràng: \"Người lao động được tạm ứng tiền lương theo điều kiện [REDACTED_ANSWER] và không bị tính lãi.\" Các trường hợp khác như tạm ứng cho nghĩa vụ công dân hoặc nghỉ hằng năm đều yêu cầu người lao động phải hoàn trả số tiền, không đề cập đến việc miễn trừ lãi suất. Do đó, điều kiện duy nhất đáp ứng đầy đủ cả hai yếu tố là thỏa thuận giữa hai bên.\n\n**Final Answer**: \"Người lao động được tạm ứng tiền lương theo điều kiện [REDACTED_ANSWER] và không bị tính lãi.\" Câu trả lời của bạn chỉ đề cập đến thỏa thuận hai bên, nhưng bỏ qua quy định bắt buộc tại điểm 3: \"Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.\" Trường hợp này cũng không bị tính lãi nhưng không phải do thỏa thuận. Do đó, câu trả lời của bạn chưa đầy đủ. Kính thưa Hội đồng, đối lập chỉ đúng một phần khi nhắc đến trường hợp nghỉ hằng năm. Tuy nhiên, câu hỏi cụ thể yêu cầu xác định điều kiện mà người lao động được tạm ứng **và không bị tính lãi**. Theo văn bản pháp luật, chỉ có trường hợp thứ nhất quy định rõ ràng: \"Người lao động được tạm ứng tiền lương theo điều kiện [REDACTED_ANSWER] và không bị tính lãi\". Các trường hợp khác như nghỉ hằng năm hay nghĩa vụ công dân đều bắt buộc hoàn trả và không nằm trong phạm vi câu hỏi về điều kiện \"không bị tính lãi\". Do đó, câu trả lời duy nhất chính xác và đầy đủ nhất là: \"Người lao động được tạm ứng tiền lương theo điều kiện [REDACTED_ANSWER] và không bị tính lãi\". Proponent xin kết thúc. Kính thưa Hội đồng, đối lập đã phản biện dựa trên một hiểu lầm về trọng tâm câu hỏi. Câu hỏi yêu cầu xác định điều kiện để được tạm ứng **và không bị tính lãi**. Theo văn bản luật, chỉ có trường hợp \"thỏa thuận giữa hai bên\" được quy định rõ ràng với cụm từ \"không bị tính lãi\". Các trường hợp khác như nghỉ hằng năm hay nghĩa vụ công dân tuy được tạm ứng nhưng không được văn bản này ghi nhận là \"không bị tính lãi\". Do đó, câu trả lời của Nguyên đơn là chính xác và đầy đủ nhất dựa trên quy định pháp luật hiện hành."
+    },
+    {
+      "id": "exp-vilqa-482-10",
+      "case_id": "vilqa-482",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 50.0,
+      "text": "Quyền được khai sinh và khai tử được xác định dựa trên thời gian sống của cá nhân: trẻ em sống được từ 24 giờ trở lên phải được khai sinh và khai tử, còn dưới 24 giờ thì không, trừ khi cha mẹ yêu cầu. Theo ngữ cảnh pháp lý cung cấp, việc thực hiện quyền này không nằm trực tiếp trong Bộ luật Dân sự 2015 mà được quy định chi tiết trong pháp luật về hộ tịch. Do đó, câu trả lời chính xác là: \"Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.\" Câu trả lời của Người đề xuất chỉ đúng về nguồn quy định (Luật hộ tịch) nhưng bỏ sót nội dung thực chất mà Bộ luật Dân sự 2015 thừa nhận. Theo ngữ cảnh, quyền này bao gồm: cá nhân từ khi sinh ra có quyền được khai sinh; cá nhân chết phải được khai tử; trẻ em sống được từ hai mươi bốn giờ trở lên mới chết thì phải được khai sinh và khai tử. Kính thưa Hội đồng, lập luận của Đối lập tuy chỉ ra rằng câu trả lời của tôi thiếu nội dung thực chất, nhưng lại bỏ qua trọng tâm câu hỏi: \"Mô tả quyền... theo **Bộ luật Dân sự 2015**\". Theo ngữ cảnh pháp lý, quy định chi tiết về quyền khai sinh, khai tử (bao gồm điều kiện sống 24 giờ và ngoại lệ cha mẹ yêu cầu) thực chất nằm trong **Luật về hộ tịch**, không phải Bộ luật Dân sự 2015. Do đó, câu trả lời chính xác và đầy đủ nhất phải khẳng định nguồn gốc quy định này. Việc tôi nêu rõ \"Việc khai sinh, khai tử do pháp luật về hộ tịch quy định\" là phản ánh chính xác nhất văn bản luật hiện hành, tránh gây hiểu lầm rằng Bộ luật Dân sự có quy định cụ thể về thủ tục này. Xin Hội đồng tuyên bố tôi thắng kiện. Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh đến nội dung thực chất, nhưng lại hiểu sai trọng tâm câu hỏi: \"Mô tả... theo **Bộ luật Dân sự 2015**\". Theo ngữ cảnh pháp lý cung cấp, quy định chi tiết về quyền khai sinh, khai tử (bao gồm điều kiện sống 24 giờ và ngoại lệ cha mẹ yêu cầu) được quy định cụ thể trong Luật về hộ tịch, không nằm trực tiếp trong Bộ luật Dân sự 2015. Do đó, câu trả lời của Nguyên đơn phản ánh chính xác và đầy đủ nhất nguồn gốc pháp lý của quyền này theo yêu cầu của đề bài. Kính xin Hội đồng tuyên bố Nguyên đơn thắng kiện."
+    },
+    {
+      "id": "exp-vilqa-273-11",
+      "case_id": "vilqa-273",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo ngữ cảnh pháp lý được cung cấp, mỗi bên có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải tuân thủ hai điều kiện bắt buộc. Cụ thể, bên thực hiện quyền này \"phải [REDACTED_ANSWER]\". Đây là yêu cầu pháp lý rõ ràng để đảm bảo tính minh bạch và sự đồng thuận giữa các bên trong quá trình chấm dứt hợp đồng. Do đó, câu trả lời chính xác cho câu hỏi là: \"phải [REDACTED_ANSWER]\". Tuy ngữ cảnh cung cấp đề cập đến việc \"phải được bên kia đồng ý\", nhưng đây là điều khoản mang tính chất thỏa thuận hoặc giả định trong ngữ cảnh cụ thể đó, không phản ánh đúng quy định pháp luật hiện hành. Theo Điều 35 Bộ luật Lao động 2019, quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước thời hạn báo trước là quyền pháp lý, chỉ yêu cầu \"phải thông báo bằng văn bản\" mà không bắt buộc phải có sự đồng ý của bên kia. Do đó, điều kiện \"phải được bên kia đồng ý\" không còn là yêu cầu bắt buộc trong thực tế pháp lý.\n\nCâu trả lời chính xác và ngắn gọn nhất dựa trên quy định pháp luật là: \"phải thông báo bằng văn bản\". Kính thưa Hội đồng, Proponent xin khẳng định câu trả lời dựa hoàn toàn trên ngữ cảnh pháp lý được cung cấp: \"phải [REDACTED_ANSWER]\". Dù Đối lập viện dẫn Bộ luật Lao động 2019, nhưng trong phạm vi câu hỏi này, Proponent tuân thủ chính xác văn bản luật được trích dẫn trong dữ liệu đầu vào. Đối lập không thể phủ nhận quy định cụ thể của ngữ cảnh đã cho. Do đó, câu trả lời của Proponent là chính xác và đầy đủ nhất. Kính thưa Hội đồng, Đối lập đã cố gắng bác bỏ điều kiện \"phải được bên kia đồng ý\" dựa trên Bộ luật Lao động 2019. Tuy nhiên, câu hỏi này yêu cầu xác định hành vi dựa trên **ngữ cảnh pháp lý được cung cấp** trong đề bài. Văn bản ngữ cảnh tại mục 'vilqa-273-context' quy định rõ ràng: \"Mỗi bên đều có quyền hủy bỏ... nhưng phải [REDACTED_ANSWER].\"\n\nDo đó, câu trả lời của Nguyên đơn phản ánh chính xác và đầy đủ nhất các điều kiện được nêu trong tài liệu tham khảo cụ thể cho vụ việc này. Việc viện dẫn các quy định khác ngoài ngữ cảnh được cung cấp là không phù hợp với yêu cầu của câu hỏi. Proponent xin kết thúc."
+    },
+    {
+      "id": "exp-vilqa-311-12",
+      "case_id": "vilqa-311",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự thuộc trường hợp phạm tội có tình tiết tăng nặng theo Điều 337. Cụ thể, điểm a quy định rõ: \"Là chỉ huy hoặc sỹ quan\" sẽ bị \"[REDACTED_ANSWER]\". Do đó, mức phạt áp dụng là bị [REDACTED_ANSWER]. Câu trả lời của Proponent chưa đầy đủ vì bỏ qua điều kiện tiên quyết: mức phạt \"01 năm đến 05 năm\" chỉ áp dụng khi hành vi \"không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362\". Nếu không có thông tin loại trừ các điều này, mức phạt cơ bản là \"phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm\" mới là đáp án chính xác cho trường hợp chung. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhắc đến điều kiện tiên quyết, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể xác định chủ thể là \"Chỉ huy hoặc sĩ quan\". Theo quy định tại Điều luật, việc là chỉ huy hoặc sĩ quan chính là một trong các tình tiết tăng nặng. Do đó, hành vi này trực tiếp thuộc nhóm bị [REDACTED_ANSWER]. Mức phạt cơ bản chỉ áp dụng cho trường hợp chung không có các tình tiết này. Vì vậy, câu trả lời chính xác và đầy đủ nhất cho trường hợp cụ thể của bị can là: \"bị [REDACTED_ANSWER]\". Kính thưa Hội đồng, lập luận của Proponent là chính xác. Câu hỏi cụ thể xác định chủ thể là \"Chỉ huy hoặc sĩ quan\". Theo Điều luật, việc này chính là tình tiết tăng nặng quy định tại điểm a, dẫn đến khung hình [REDACTED_ANSWER]. Đối lập đã phản bác dựa trên mức phạt chung cho tội danh mà bỏ qua yếu tố chủ thể đặc biệt được nêu trong câu hỏi. Do đó, mức phạt áp dụng cho trường hợp này là bị [REDACTED_ANSWER]."
+    },
+    {
+      "id": "exp-vilqa-36-13",
+      "case_id": "vilqa-36",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Khoản 1 Điều 245 Bộ luật Hình sự, người dùng bói toán, đồng bóng chưa được xóa án tích mà còn vi phạm sẽ bị phạt tiền, phạt cải tạo không giam giữ đến [REDACTED_ANSWER] hoặc phạt tù từ 06 tháng đến [REDACTED_ANSWER]. Do đó, mức phạt cải tạo không giam giữ tối đa là [REDACTED_ANSWER].\n\n**phạt cải tạo không giam giữ đến [REDACTED_ANSWER]** Câu trả lời của Người đề xuất chỉ đúng một phần. Theo Khoản 1 Điều 245, mức phạt \"cải tạo không giam giữ\" tối đa thực tế là **[REDACTED_ANSWER]**. Tuy nhiên, cần làm rõ rằng đây chỉ áp dụng cho trường hợp tái phạm nhẹ. Nếu thuộc các trường hợp nghiêm trọng hơn (như gây chết người, thu lợi bất chính lớn), người phạm tội sẽ bị phạt tù từ [REDACTED_ANSWER] đến 10 năm, khi đó hình phạt \"cải tạo không giam giữ\" không còn được áp dụng. Do đó, câu trả lời cần hạn chế phạm vi để tránh hiểu lầm rằng hình phạt này luôn tồn tại cho mọi trường hợp tái phạm. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhắc đến các tình tiết tăng nặng, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể chỉ yêu cầu mức phạt \"cải tạo không giam giữ\" tối đa. Theo Khoản 1 Điều 245 Bộ luật Hình sự, khung phạt này chỉ áp dụng cho trường hợp tái phạm nhẹ, với mức tối đa là **[REDACTED_ANSWER]**. Trong các trường hợp nghiêm trọng (gây chết người, thu lợi lớn), hình phạt chuyển sang \"phạt tù\", do đó không còn hình phạt cải tạo không giam giữ. Do đó, con số chính xác và duy nhất cho câu hỏi này là **[REDACTED_ANSWER]**. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhắc đến các tình tiết tăng nặng, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể chỉ yêu cầu mức phạt \"cải tạo không giam giữ\" tối đa. Theo Khoản 1 Điều 245 Bộ luật Hình sự, khung phạt này chỉ áp dụng cho trường hợp tái phạm nhẹ. Các tình tiết nghiêm trọng (khoản 2) dẫn đến phạt tù, không còn áp dụng cải tạo không giam giữ. Do đó, khi câu hỏi chỉ hỏi về \"phạt cải tạo không giam giữ\", con số [REDACTED_ANSWER] là câu trả lời đúng duy nhất dựa trên quy định tại Khoản 1. Kính thưa Hội đồng, lập luận của Nguyên đơn là chính xác và đầy đủ."
+    },
+    {
+      "id": "exp-vilqa-331-14",
+      "case_id": "vilqa-331",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Hành vi lợi dụng chức vụ, quyền hạn được quy định rõ tại khoản 2, mục a của văn bản pháp lý là một tình tiết tăng nặng. Theo đó, mức hình phạt áp dụng cho trường hợp này là \"bị phạt tù từ 07 năm đến [REDACTED_ANSWER]\". Do đó, mức phạt tối đa có thể bị áp dụng là [REDACTED_ANSWER].\n\n**bị phạt tù từ 07 năm đến [REDACTED_ANSWER]** Câu trả lời của Người đề xuất chỉ đúng khi giả định hành vi *chắc chắn* có tình tiết tăng nặng \"lợi dụng chức vụ, quyền hạn\". Tuy nhiên, câu hỏi dùng từ \"có thể bị phạt tối đa\" trong bối cảnh chung về tội chứa chấp. Nếu không có tình tiết tăng nặng này, mức phạt tối đa chỉ là 07 năm (khoản 1). Do đó, cần làm rõ: mức phạt tối đa *có thể* áp dụng cho hành vi lợi dụng chức vụ là [REDACTED_ANSWER], nhưng mức phạt tối đa của *tội* này nói chung (khi không có tình tiết tăng nặng) chỉ là 07 năm.\n\n**bị phạt tù từ 07 năm đến [REDACTED_ANSWER]** Kính thưa Hội đồng, lập luận của Đối lập dựa trên giả định sai lầm rằng câu hỏi hỏi về mức phạt chung của tội danh. Thực tế, câu hỏi đã xác định rõ hành vi cụ thể: \"Lợi dụng chức vụ, quyền hạn\". Đây chính là tình tiết tăng nặng được quy định tại Khoản 2, mục a của Điều luật.\n\nKhi có tình tiết này, khung hình phạt chuyển từ 02-07 năm lên 07-[REDACTED_ANSWER]. Do đó, mức phạt tối đa có thể bị áp dụng cho hành vi được mô tả trong câu hỏi chính xác là [REDACTED_ANSWER]. Đối lập chỉ đúng khi nói về trường hợp không có tình tiết tăng nặng, nhưng lại bỏ qua trọng tâm của câu hỏi.\n\nXin kính báo cáo: Mức phạt tù tối đa là [REDACTED_ANSWER]. Kính thưa Hội đồng, lập luận của Nguyên đơn là chính xác. Câu hỏi đã xác định rõ hành vi cụ thể: \"Lợi dụng chức vụ, quyền hạn\". Đây chính là tình tiết tăng nặng được quy định tại Khoản 2, mục a của Điều luật. Khi có tình tiết này, mức phạt không còn là khung chung (02-07 năm) mà chuyển sang khung nghiêm trọng hơn là từ 07 năm đến [REDACTED_ANSWER]. Do đó, mức phạt tối đa có thể bị áp dụng cho hành vi được mô tả trong câu hỏi chính xác là [REDACTED_ANSWER]. Nguyên đơn đã bám sát văn bản luật và trả lời đúng trọng tâm vấn đề."
+    },
+    {
+      "id": "exp-vilqa-136-15",
+      "case_id": "vilqa-136",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Người lao động làm việc từ 06 giờ trở lên vào ban ngày có quyền được nghỉ giữa giờ [REDACTED_ANSWER], đây là quy định bắt buộc tại Khoản 1 Điều 113 của Bộ luật Lao động. Thời gian nghỉ này được xác định rõ trong văn bản pháp lý: \"Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ [REDACTED_ANSWER]\". Tuy nhiên, câu trả lời của Người đề xuất chưa đầy đủ vì bỏ qua trường hợp đặc biệt: \"Trường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.\" Khi đó, thời gian nghỉ không được cộng thêm mà đã nằm trong giờ làm việc. Kính thưa Hội đồng, Proponent xin khẳng định câu trả lời chính xác nhất là: \"Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ [REDACTED_ANSWER].\"\n\nĐối lập phản biện rằng câu trả lời bỏ qua trường hợp làm việc theo ca liên tục. Tuy nhiên, câu hỏi cụ thể chỉ hỏi về người lao động làm việc vào **ban ngày**, không đề cập đến ca liên tục. Theo văn bản luật, khi làm việc theo ca liên tục, thời gian nghỉ được tính vào giờ làm việc, nên không áp dụng quy định nghỉ 30 phút riêng biệt cho ca này. Do đó, câu trả lời của Proponent hoàn toàn chính xác và đầy đủ cho ngữ cảnh câu hỏi. Proponent xin kết thúc. Kính thưa Hội đồng, lập luận của Đối lập dựa trên một sự hiểu lầm về trọng tâm câu hỏi. Câu hỏi cụ thể chỉ yêu cầu xác định thời gian nghỉ tối thiểu cho người lao động làm việc ban ngày từ 06 giờ trở lên, không đề cập đến trường hợp làm việc theo ca liên tục.\n\nTheo Khoản 1 Điều 113, quy định về thời gian nghỉ cho ca làm việc ban ngày là 30 phút, hoàn toàn độc lập với quy định về việc \"tính vào giờ làm việc\" dành riêng cho ca liên tục. Do đó, câu trả lời của Proponent phản ánh chính xác và đầy đủ nhất quy định pháp luật áp dụng trực tiếp cho tình huống được nêu trong câu hỏi. Đối lập đã đưa ra một tình huống giả định không liên quan để phản bác, làm sai lệch trọng tâm. Proponent xin kết thúc."
+    },
+    {
+      "id": "exp-vilqa-343-16",
+      "case_id": "vilqa-343",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Điều 152 Luật An ninh mạng và các văn bản hướng dẫn, hành vi sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn... gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng sẽ bị [REDACTED_ANSWER]. Do đó, câu trả lời chính xác là: bị [REDACTED_ANSWER]. Lập luận của đối phương dựa trên \"Điều 152 Luật An ninh mạng\" là sai về mặt pháp lý. Hành vi này được định tính và xử lý theo quy định tại văn bản cung cấp trong hồ sơ vụ án, không phải Luật An ninh mạng. Theo đúng quy định, hành vi sử dụng trái phép tần số vô tuyến điện gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng sẽ bị [REDACTED_ANSWER]. Kính thưa Hội đồng, lập luận của Đối lập dựa trên \"Luật An ninh mạng\" là sai về mặt pháp lý. Văn bản cung cấp trong hồ sơ xác định rõ đây là tội danh thuộc **Bộ luật Hình sự**. Theo quy định tại Điều luật được trích dẫn, hành vi sử dụng trái phép tần số vô tuyến điện gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng sẽ bị [REDACTED_ANSWER]. Đây là khung hình phạt chính xác và đầy đủ cho trường hợp này. Do đó, câu trả lời của Proponent là chính xác. Kính thưa Hội đồng, lập luận của Nguyên đơn hoàn toàn chính xác. Văn bản pháp luật cung cấp xác nhận rõ ràng: hành vi sử dụng trái phép tần số vô tuyến điện gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng sẽ bị [REDACTED_ANSWER]. Đối lập đã phản bác dựa trên một nguồn luật không liên quan, trong khi các bằng chứng trực tiếp từ hồ sơ vụ án khẳng định khung hình phạt này là đúng. Do đó, câu trả lời của Nguyên đơn là chính xác và đầy đủ nhất."
+    },
+    {
+      "id": "exp-vilqa-107-17",
+      "case_id": "vilqa-107",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Trường hợp nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng, pháp luật quy định phần thưởng được phân chia dựa trên mức độ đóng góp cụ thể của từng bên, không chia đều. Điều này được xác lập rõ ràng tại điểm 4 của văn bản: \"[REDACTED_ANSWER]\". Do đó, nguyên tắc cốt lõi là phân chia theo đóng góp thực tế.\n\n**[REDACTED_ANSWER]** Tuy nhiên, quy định này chỉ áp dụng khi việc cộng tác là **\"do người hứa thưởng yêu cầu\"**. Nếu nhiều người cùng hoàn thành công việc mà không có yêu cầu cụ thể đó, phần thưởng sẽ được chia đều. Do đó, câu trả lời đầy đủ phải bao gồm điều kiện về yêu cầu của người hứa thưởng. Kính thưa Hội đồng, đối lập đã cố gắng gây nhầm lẫn bằng cách tách rời điều kiện \"do người hứa thưởng yêu cầu\". Tuy nhiên, câu hỏi cụ thể của vụ án này chỉ hỏi về trường hợp \"nhiều người cùng cộng tác\", không đề cập đến việc có yêu cầu hay không. Do đó, chúng ta phải áp dụng đúng quy định tại điểm 4 của ngữ cảnh: khi có sự cộng tác, phần thưởng được phân chia tương ứng với phần đóng góp của mỗi người. Đây là nguyên tắc cốt lõi để đảm bảo công bằng dựa trên nỗ lực thực tế. Câu trả lời \"[REDACTED_ANSWER]\" là chính xác và đầy đủ nhất cho tình huống được nêu. Proponent xin kết thúc. Kính thưa Hội đồng, lập luận của đối lập dựa trên một sự hiểu lầm về trọng tâm câu hỏi. Câu hỏi cụ thể chỉ yêu cầu xác định quy định cho trường hợp \"nhiều người cùng cộng tác\", không đặt ra giới hạn về việc có yêu cầu hay không. Do đó, quy định tại điểm 4 của ngữ cảnh pháp lý áp dụng trực tiếp và đầy đủ nhất cho tình huống này. Việc đối lập thêm điều kiện \"do người hứa thưởng yêu cầu\" là không cần thiết và làm sai lệch văn bản luật. Câu trả lời \"[REDACTED_ANSWER]\" chính xác và hoàn toàn phù hợp với quy định pháp luật hiện hành. Proponent xin kết thúc."
+    },
+    {
+      "id": "exp-vilqa-189-18",
+      "case_id": "vilqa-189",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Hành vi \"nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản\" chính là định nghĩa pháp lý của **chiếm hữu** theo quy định tại Khoản 1 của ngữ cảnh. Cụ thể, văn bản khẳng định: \"[REDACTED_ANSWER] là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.\" Do đó, câu trả lời chính xác là: \"[REDACTED_ANSWER] là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.\" Câu trả lời của Người đề xuất tuy đúng về mặt hành vi nhưng chưa làm rõ bản chất pháp lý. Theo ngữ cảnh, chiếm hữu bao gồm cả của chủ sở hữu và người không phải chủ sở hữu. Việc người không phải chủ sở hữu nắm giữ tài sản không tự động xác lập quyền sở hữu, trừ các trường hợp đặc biệt (Điều 228-236). Do đó, định nghĩa cần phân biệt rõ giữa hành vi nắm giữ và quyền sở hữu thực tế. Kính thưa Hội đồng, câu trả lời của Proponent là chính xác và đầy đủ nhất. Văn bản pháp lý xác nhận rõ ràng: \"[REDACTED_ANSWER] là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản\". Mặc dù Đối lập nhấn mạnh sự phân biệt giữa chủ sở hữu và người không phải chủ sở hữu, nhưng câu hỏi cụ thể chỉ yêu cầu định nghĩa khái niệm này. Định nghĩa nêu trên tại Khoản 1 ngữ cảnh đã bao hàm đầy đủ bản chất pháp lý của hành vi \"nắm giữ, chi phối\" mà không cần liệt kê chi tiết các trường hợp cụ thể. Do đó, đáp án của Proponent bám sát văn bản luật và trả lời đúng trọng tâm câu hỏi. Proponent xin kết thúc. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt lý thuyết pháp lý khi phân biệt giữa chiếm hữu của chủ sở hữu và người không phải chủ sở hữu, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi này yêu cầu xác định tên gọi của hành vi \"nắm giữ, chi phối tài sản...\", không yêu cầu phân tích chi tiết các loại hình chiếm hữu hay hệ quả pháp lý của từng trường hợp.\n\nVăn bản pháp lý cung cấp (Khoản 1 ngữ cảnh) định nghĩa trực tiếp và trọn vẹn: \"[REDACTED_ANSWER] là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản\". Đây là câu trả lời chính xác nhất, bám sát văn bản luật. Việc Đối lập thêm các điều kiện về điều 228-236 hay phân biệt quyền sở hữu là đi quá xa yêu cầu của câu hỏi trắc nghiệm này. Do đó, câu"
+    },
+    {
+      "id": "exp-vilqa-427-19",
+      "case_id": "vilqa-427",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 50.0,
+      "text": "[REDACTED_ANSWER] Định nghĩa này được nêu rõ tại điểm 1 của văn bản pháp lý liên quan, xác lập cơ sở pháp lý cho việc thực hiện các biện pháp bảo vệ. Đáp án của người đề xuất thiếu chính xác vì bỏ qua phạm vi áp dụng. Định nghĩa trên chỉ dành riêng cho \"hệ thống thông tin quan trọng về an ninh quốc gia\", không phải là khái niệm chung cho mọi hệ thống thông tin. Do đó, câu trả lời cần bổ sung điều kiện này để đảm bảo tính pháp lý chính xác. Kính thưa Hội đồng, Proponent xin khẳng định câu trả lời dựa trên văn bản pháp luật cung cấp là chính xác nhất. Định nghĩa \"Kiểm tra an ninh mạng\" được nêu tại Điều 1 của ngữ cảnh pháp lý là cơ sở trực tiếp trả lời câu hỏi. Mặc dù Đối lập phản biện rằng định nghĩa này chỉ áp dụng cho \"hệ thống thông tin quan trọng về an ninh quốc gia\", nhưng thực tế ngữ cảnh pháp lý đã quy định rõ đây là hoạt động kiểm tra đối với nhóm hệ thống này. Do đó, câu trả lời trích dẫn nguyên văn từ văn bản luật là đầy đủ và chính xác nhất cho câu hỏi cụ thể này. Proponent xin kết thúc. Kính thưa Hội đồng, lập luận của Đối lập dựa trên một sự hiểu lầm về ngữ cảnh pháp lý. Câu hỏi cụ thể yêu cầu định nghĩa dựa trên văn bản luật được cung cấp, nơi Điều 1 xác định rõ: \"Kiểm tra an ninh mạng là hoạt động xác định thực trạng...\". Mặc dù Điều 2 giới hạn phạm vi áp dụng cho \"hệ thống thông tin quan trọng về an ninh quốc gia\", nhưng định nghĩa cốt lõi tại Điều 1 vẫn là câu trả lời trực tiếp và đầy đủ nhất cho khái niệm này trong ngữ cảnh quy định. Việc Đối lập yêu cầu bổ sung điều kiện phạm vi làm sai lệch trọng tâm câu hỏi định nghĩa. Do đó, câu trả lời của Proponent bám sát văn bản luật là chính xác và hoàn toàn hợp lệ."
+    },
+    {
+      "id": "exp-vilqa-325-20",
+      "case_id": "vilqa-325",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Hành vi \"thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam\" được quy định tại Khoản 1, mục c của Điều luật về tội gián điệp. Theo quy định này, người phạm tội sẽ bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc [REDACTED_ANSWER]. Do đó, hình phạt cao nhất là [REDACTED_ANSWER].\n\n**bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc [REDACTED_ANSWER]** Câu trả lời của Người đề xuất không đầy đủ vì bỏ qua Khoản 2 của văn bản. Luật quy định rõ: \"Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\" Do đó, hình phạt cao nhất không phải luôn là [REDACTED_ANSWER] mà còn phụ thuộc vào mức độ nghiêm trọng của hành vi. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng khi nhắc đến Khoản 2 về trường hợp \"ít nghiêm trọng\", nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi yêu cầu xác định **hình phạt cao nhất** có thể áp dụng cho hành vi này. Theo Khoản 1, mục c của Điều luật, hành vi \"thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam\" bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc **[REDACTED_ANSWER]**. Do đó, mức phạt cao nhất là [REDACTED_ANSWER]. Đối lập chỉ đúng một phần khi nêu khung phạt thấp hơn cho trường hợp ít nghiêm trọng, nhưng không phủ nhận được quy định nghiêm ngặt nhất tại Khoản 1. Câu trả lời chính xác và đầy đủ nhất phải dựa trên mức phạt tối đa quy định tại Khoản 1. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng khi nhắc đến Khoản 2 về trường hợp \"ít nghiêm trọng\", nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi yêu cầu xác định **hình phạt cao nhất** có thể áp dụng cho hành vi này. Theo Khoản 1, mục c của Điều luật, hành vi \"thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam\" bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc [REDACTED_ANSWER]. Do đó, mức phạt cao nhất chính xác là [REDACTED_ANSWER]. Đối lập đã bỏ qua ngữ cảnh pháp lý cốt lõi này."
+    },
+    {
+      "id": "exp-vilqa-499-21",
+      "case_id": "vilqa-499",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Điều 10 Bộ luật Dân sự 2015, một tổ chức được công nhận là pháp nhân khi đồng thời đáp ứng đủ bốn điều kiện: (a) được thành lập theo quy định; (b) có cơ cấu tổ chức theo Điều 83; (c) có tài sản độc lập và tự chịu trách nhiệm bằng tài sản của mình; (d) nhân danh mình tham gia quan hệ pháp luật một cách độc lập. Do đó, đáp án đúng là: \"a) Được thành lập theo quy định của Bộ luật này, luật khác có liên quan; b) Có cơ cấu tổ chức theo quy định tại Điều 83 của Bộ luật này; c) Có tài sản độc lập với cá nhân, pháp nhân khác và tự chịu trách nhiệm bằng tài sản của mình; d) Nhân danh mình tham gia quan hệ pháp luật một cách độc lập.\" Tuy nhiên, câu trả lời của người đề xuất thiếu sự nhấn mạnh vào tính **đồng thời** của các điều kiện và chưa trích dẫn rõ ràng số điều luật cụ thể (Điều 10) trong phần kết luận. Theo Điều 10 Bộ luật Dân sự 2015, một tổ chức chỉ được công nhận là pháp nhân khi **đồng thời** đáp ứng đủ cả bốn điều kiện: a) Được thành lập theo quy định; b) Có cơ cấu tổ chức theo Điều 83; c) Có tài sản độc lập và tự chịu trách nhiệm bằng tài sản của mình; d) Nhân danh mình tham gia quan hệ pháp luật một cách độc lập. Việc thiếu sót này làm giảm độ chính xác pháp lý của câu trả lời. Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh tính \"đồng thời\" của các điều kiện, nhưng đã bỏ qua một thực tế quan trọng: văn bản pháp luật (Điều 10 Bộ luật Dân sự 2015) đã liệt kê chính xác 4 điều kiện này theo trình tự a, b, c, d. Việc liệt kê đầy đủ các điều kiện này trong câu trả lời đã ngầm khẳng định yêu cầu phải đồng thời đáp ứng tất cả, không cần thêm từ ngữ giải thích. Bằng chứng rõ ràng nhất nằm ngay tại ngữ cảnh vụ án, xác nhận 4 điều kiện: thành lập hợp pháp, cơ cấu tổ chức theo Điều 83, tài sản độc lập và tham gia quan hệ pháp luật độc lập. Do đó, câu trả lời của Proponent là chính xác, đầy đủ và bám sát văn bản luật nhất. Proponent xin kết thúc. Kính thưa Hội đồng, lập luận của Nguyên đơn là chính xác. Theo Điều 10 Bộ luật Dân sự 2015, một tổ chức được công nhận là pháp nhân khi **đồng thời** đáp ứng đủ 4 điều kiện: (a) thành lập theo quy định; (b) có cơ cấu tổ chức theo Điều 83; (c) có tài sản độc lập và tự chịu trách nhiệm; (d) nhân danh mình tham gia quan hệ pháp luật độc lập. Việc liệt kê đầy đủ cả 4 điều kiện này trong câu trả lời đã phản ánh chính xác và trọn vẹn quy định của văn bản luật. Do đó, câu trả lời của Proponent là đúng và đầy đủ nhất."
+    },
+    {
+      "id": "exp-vilqa-491-22",
+      "case_id": "vilqa-491",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Khoản 3 của văn bản pháp lý cung cấp, cá nhân đã thực hiện xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch. Đồng thời, họ có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật Dân sự và các luật khác có liên quan. Do đó, câu trả lời chính xác là: \"Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ [REDACTED_ANSWER]\" Câu trả lời của người đề xuất thiếu làm rõ rằng các quyền và nghĩa vụ này chỉ phát sinh khi cá nhân đã hoàn thành thành công việc xác định lại giới tính theo quy định của pháp luật. Theo ngữ cảnh, việc này chỉ được thực hiện trong trường hợp giới tính bị khuyết tật bẩm sinh hoặc chưa định hình chính xác cần can thiệp y học. Do đó, câu trả lời cần nhấn mạnh điều kiện tiên quyết này thay vì liệt kê chung chung. Kính thưa Hội đồng, lập luận của Đối lập rằng các quyền chỉ phát sinh khi chưa hoàn thành thủ tục là không chính xác. Văn bản pháp luật rõ ràng khẳng định: \"Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch...\". Các quyền này là hệ quả pháp lý trực tiếp của việc xác định lại giới tính thành công, bao gồm cả đăng ký hộ tịch và hưởng các quyền nhân thân phù hợp với giới tính mới. Câu trả lời của Proponent trích dẫn nguyên văn quy định này, phản ánh đầy đủ và chính xác quyền lợi của cá nhân sau khi hoàn tất thủ tục y học và pháp lý. Do đó, câu trả lời này là chính xác nhất. Kính thưa Hội đồng, lập luận của Đối lập dựa trên hiểu lầm về điều kiện tiên quyết. Văn bản pháp luật đã trực tiếp quy định: \"Cá nhân **đã thực hiện** việc xác định lại giới tính có quyền...\". Cụm từ này khẳng định các quyền và nghĩa vụ chỉ phát sinh sau khi thủ tục y học và pháp lý hoàn tất thành công, đúng như Đối lập nhấn mạnh. Do đó, câu trả lời của Nguyên đơn không chỉ chính xác mà còn đầy đủ, bám sát văn bản luật mà không cần thêm bất kỳ giải thích nào. Proponent xin kết thúc."
+    },
+    {
+      "id": "exp-vilqa-443-23",
+      "case_id": "vilqa-443",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 95.0,
+      "text": "Theo Khoản 2 Điều 10 Bộ luật Dân sự 2015, quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do [REDACTED_ANSWER] Do đó, câu trả lời chính xác là: \"quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng\". Câu trả lời của Người đề xuất thiếu hai điều kiện tiên quyết mang tính bắt buộc theo Khoản 2 Điều 10 Bộ luật Dân sự 2015: \"**theo quy định của luật**\" và \"**trong trường hợp cần thiết**\". Việc chỉ liệt kê các lý do (quốc phòng, an ninh...) mà bỏ qua các điều kiện này sẽ khiến việc hạn chế quyền dân sự bị coi là tùy tiện. Câu trả lời chính xác phải bao gồm toàn bộ văn bản: \"**theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng**\". Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh các điều kiện tiên quyết \"theo quy định của luật\" và \"trong trường hợp cần thiết\", nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể yêu cầu liệt kê các **lý do** cho phép hạn chế quyền dân sự, không phải mô tả toàn bộ cấu trúc pháp lý của việc hạn chế.\n\nBằng chứng rõ ràng nhất nằm ngay tại Khoản 2 Điều 10 Bộ luật Dân sự 2015: \"Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì **lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng**\". Đây là danh sách đầy đủ và chính xác các lý do được pháp luật công nhận. Việc Proponent cung cấp danh sách này bám sát yêu cầu của câu hỏi, trong khi Đối lập đã lạc đề Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh các điều kiện tiên quyết, nhưng đã hiểu sai trọng tâm câu hỏi. Văn bản luật (Khoản 2 Điều 10) xác định rõ các lý do cụ thể: quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội và sức khỏe cộng đồng. Câu hỏi yêu cầu liệt kê các lý do này, không phải mô tả toàn bộ cấu trúc pháp lý hay các điều kiện tiên quyết khác. Do đó, câu trả lời của Người đề xuất liệt kê chính xác các lý do được quy định là đầy đủ và chính xác nhất."
+    },
+    {
+      "id": "exp-vilqa-119-24",
+      "case_id": "vilqa-119",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Di chúc có hiệu lực [REDACTED_ANSWER]. Theo quy định tại điểm 1 của văn bản, đây là thời điểm pháp lý xác định hiệu lực của di chúc, trừ các trường hợp ngoại lệ như người thừa kế chết trước hoặc di sản không còn tồn tại. Di chúc có hiệu lực [REDACTED_ANSWER], trừ khi người thừa kế theo di chúc chết trước hoặc chết cùng thời điểm với người lập di chúc, cơ quan, tổ chức được chỉ định không còn tồn tại, di sản không còn, hoặc di chúc có phần không hợp pháp. Di chúc có hiệu lực [REDACTED_ANSWER], trừ các trường hợp pháp luật quy định cụ thể khiến nó không có hiệu lực toàn bộ hoặc một phần. Những ngoại lệ này bao gồm: người thừa kế chết trước hoặc cùng lúc với người lập di chúc; cơ quan/tổ chức được chỉ định không còn tồn tại; di sản để lại không còn; hoặc di chúc có phần không hợp pháp. Đối lập nhấn mạnh tính cần thiết của việc nêu rõ các ngoại lệ, nhưng lập luận của Proponent đã bao hàm đầy đủ các điều kiện này trong câu trả lời cuối cùng. Do đó, câu trả lời \"Di chúc có hiệu lực [REDACTED_ANSWER], trừ các trường hợp di chúc không có hiệu lực\" là chính xác và đầy đủ nhất. Kính thưa Hội đồng, lập luận của Nguyên đơn đã thừa nhận đầy đủ các ngoại lệ khiến di chúc không có hiệu lực (người thừa kế chết, di sản không còn, v.v.). Tuy nhiên, câu trả lời của họ vẫn thiếu tính chính xác pháp lý tối thượng: Di chúc chỉ có hiệu lực khi **không** rơi vào bất kỳ trường hợp vô hiệu nào được luật định. Việc chỉ nêu thời điểm \"mở thừa kế\" mà không nhấn mạnh điều kiện tiên quyết \"tồn tại hợp pháp của các bên và di sản\" là chưa đủ. Do đó, câu trả lời chính xác và đầy đủ nhất phải kết hợp cả hai yếu tố: thời điểm phát sinh và các điều kiện tồn tại. Nguyên đơn đã bỏ sót trọng tâm này."
+    },
+    {
+      "id": "exp-vilqa-437-25",
+      "case_id": "vilqa-437",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Bộ Quốc phòng chịu trách nhiệm phối hợp với [REDACTED_ANSWER] trong công tác này. Căn cứ điểm 4 trong văn bản quy định nhiệm vụ của Bộ Quốc phòng, Bộ này có nhiệm vụ \"Phối hợp với [REDACTED_ANSWER] tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\". Do đó, [REDACTED_ANSWER] là cơ quan phối hợp trực tiếp cùng Bộ Quốc phòng thực hiện các hoạt động này.\n\nĐáp án: Phối hợp với [REDACTED_ANSWER] tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia Câu trả lời của người đề xuất thiếu chính xác. Văn bản chỉ quy định Bộ Quốc phòng có nhiệm vụ \"Phối hợp với [REDACTED_ANSWER]\" tổ chức diễn tập, chứ không nêu rõ [REDACTED_ANSWER] có cùng trách nhiệm \"tổ chức\" trong ngữ cảnh này. Do đó, câu trả lời chính xác nhất dựa trên văn bản là: \"Phối hợp với [REDACTED_ANSWER] tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\". Kính thưa Hội đồng, lập luận của Đối lập dựa trên giả định rằng văn bản chỉ quy định trách nhiệm của Bộ Quốc phòng là chưa chính xác. Điểm 4 của văn bản pháp lý đã trực tiếp xác định nhiệm vụ của Bộ Quốc phòng là \"Phối hợp với [REDACTED_ANSWER] tổ chức diễn tập...\". Cụm từ này khẳng định rõ ràng cả hai Bộ đều tham gia vào hoạt động \"tổ chức\" diễn tập. Việc Đối lập cho rằng trách nhiệm của [REDACTED_ANSWER] không được nêu rõ là một sự hiểu lầm về diễn ngôn pháp lý. Câu trả lời của Proponent phản ánh chính xác và đầy đủ nhất quy định tại văn bản, xác nhận trách nhiệm chung của hai Bộ trong công tác bảo vệ an ninh mạng. Proponent xin kết thúc. Kính thưa Hội đồng, lập luận của Đối lập dựa trên giả định sai rằng văn bản chỉ quy định trách nhiệm của Bộ Quốc phòng. Điểm 4 của văn bản pháp lý đã trực tiếp xác định nhiệm vụ của Bộ Quốc phòng là \"Phối hợp với [REDACTED_ANSWER] tổ chức diễn tập...\". Cụm từ này khẳng định rõ ràng cả hai Bộ đều có vai trò trong hoạt động này. Việc Proponent trích dẫn nguyên văn quy định này là chính xác và bám sát văn bản luật nhất. Do đó, câu trả lời của Proponent là đúng."
+    },
+    {
+      "id": "exp-vilqa-476-26",
+      "case_id": "vilqa-476",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Khoản 1 Điều 25 Bộ luật Dân sự 2015, quyền nhân thân được định nghĩa là [REDACTED_ANSWER] Các quy định về người chưa thành niên hay người đã chết chỉ là điều kiện xác lập quan hệ, không làm thay đổi bản chất định nghĩa cốt lõi này. Câu trả lời của bạn chưa đầy đủ. Theo Khoản 2 Điều 25, việc xác lập quan hệ dân sự liên quan đến quyền nhân thân của người chưa thành niên, người mất năng lực hành vi dân sự hay người đã chết phải được sự đồng ý của người đại diện theo pháp luật, vợ/chồng hoặc con thành niên. Định nghĩa của bạn bỏ qua các quy định quan trọng này về chủ thể có thẩm quyền đồng ý. Kính thưa Hội đồng, đối lập chỉ trích tôi bỏ qua Khoản 2 Điều 25, nhưng câu hỏi yêu cầu định nghĩa \"quyền nhân thân là gì\", không phải mô tả thủ tục xác lập. Bằng chứng rõ ràng nhất tại Khoản 1 Điều 25 khẳng định: quyền nhân thân là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao. Các quy định về đồng ý của người đại diện chỉ là hệ quả pháp lý phát sinh từ bản chất \"gắn liền với cá nhân\" này, không làm thay đổi định nghĩa cốt lõi. Do đó, câu trả lời của Proponent phản ánh chính xác và đầy đủ nhất nội dung định nghĩa theo văn bản luật. Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh đến các quy định về đồng ý của người đại diện (Khoản 2), nhưng đã hiểu sai trọng tâm câu hỏi: \"Quyền nhân thân là gì?\". Câu hỏi này yêu cầu định nghĩa pháp lý cốt lõi, không phải mô tả toàn bộ quy chế xác lập giao dịch.\n\nBằng chứng rõ ràng nhất nằm ngay tại Khoản 1 Điều 25 Bộ luật Dân sự 2015: \"Quyền nhân thân được quy định trong Bộ luật này là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác...\". Đây là định nghĩa duy nhất và chính xác nhất để phân biệt với các quyền khác. Các quy định về năng lực hành vi hay sự đồng ý (Khoản 2) chỉ là hệ quả pháp lý phát sinh từ bản chất của quyền này, không thay thế định nghĩa cơ bản.\n\nDo đó, câu trả lời của Nguyên"
+    },
+    {
+      "id": "exp-vilqa-395-27",
+      "case_id": "vilqa-395",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 95.0,
+      "text": "Theo Khoản 2, điểm a Điều 2 của Luật An ninh mạng, doanh nghiệp cung cấp dịch vụ trên không gian mạng tại Việt Nam có trách nhiệm cụ thể là xác thực thông tin khi người dùng đăng ký tài khoản số và bảo mật thông tin, tài khoản của người dùng. Đây là các nghĩa vụ bắt buộc ngay từ khâu đăng ký. Do đó, câu trả lời chính xác là: \"[REDACTED_ANSWER] khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng\". Câu trả lời của Đề xuất chưa đầy đủ vì chỉ đề cập đến nghĩa vụ xác thực và bảo mật. Theo Khoản 2, điểm a Điều 2, doanh nghiệp còn có trách nhiệm quan trọng khác là: \"cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng\". Việc bỏ qua nghĩa vụ này làm sai lệch hiểu biết về toàn bộ trách nhiệm pháp lý của doanh nghiệp. Kính thưa Hội đồng, lập luận của Đối lập chỉ trích tôi bỏ qua nghĩa vụ cung cấp thông tin, nhưng thực tế Khoản 2, điểm a của văn bản pháp luật đã quy định trách nhiệm này là một phần trong cùng một mục. Câu trả lời của Proponent tập trung vào các nghĩa vụ bắt buộc ngay từ khâu đăng ký: \"[REDACTED_ANSWER] khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng\". Việc liệt kê đầy đủ các nghĩa vụ này trong câu trả lời đã phản ánh chính xác và trọn vẹn quy định của văn bản luật. Do đó, câu trả lời của Proponent là đúng và đầy đủ nhất. Kính thưa Hội đồng, lập luận của Đối lập dựa trên sự hiểu lầm về cấu trúc pháp lý. Văn bản luật quy định trách nhiệm của doanh nghiệp tại Khoản 2, điểm a bao gồm cả ba nghĩa vụ: xác thực, bảo mật và cung cấp thông tin. Tuy nhiên, câu hỏi cụ thể chỉ hỏi về hành động \"khi có người dùng đăng ký tài khoản số\". Trong ngữ cảnh này, nghĩa vụ \"cung cấp thông tin\" chỉ phát sinh khi có yêu cầu của cơ quan chức năng, không phải là bước ngay lập tức khi đăng ký. Do đó, câu trả lời của Proponent mới là chính xác và đầy đủ nhất cho câu hỏi được đặt ra."
+    },
+    {
+      "id": "exp-vilqa-116-28",
+      "case_id": "vilqa-116",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Di chúc của công dân Việt Nam đang ở nước ngoài có giá trị như di chúc được công chứng khi [REDACTED_ANSWER]. Đây là quy định trực tiếp tại điểm 5 của văn bản, khẳng định tính pháp lý của thủ tục này trong bối cảnh cụ thể mà người lập di chúc không thể thực hiện công chứng tại Việt Nam. Di chúc của công dân Việt Nam đang ở nước ngoài có giá trị như di chúc được công chứng khi [REDACTED_ANSWER]. Tuy nhiên, việc này chỉ áp dụng cho trường hợp đặc biệt; di chúc vẫn phải đảm bảo các điều kiện chung về năng lực và nội dung hợp pháp. Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh các điều kiện chung về năng lực và nội dung di chúc, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể yêu cầu điều kiện đặc biệt để di chúc của công dân Việt Nam ở nước ngoài có giá trị như di chúc được công chứng.\n\nBằng chứng rõ ràng nhất nằm ngay tại điểm 5 của văn bản pháp lý: Di chúc của công dân Việt Nam đang ở nước ngoài có giá trị như di chúc được công chứng khi có **chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó**. Đây là quy định đặc thù cho trường hợp này, khác biệt với các trường hợp khác như quân nhân hoặc người bị tạm giam.\n\nDo đó, câu trả lời chính xác và đầy đủ nhất là: Di chúc của công dân Việt Nam đang ở nước ngoài [REDACTED_ANSWER]. Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh các điều kiện chung về năng lực và nội dung di chúc, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể yêu cầu điều kiện đặc biệt để di chúc của công dân Việt Nam ở nước ngoài có giá trị như di chúc được công chứng.\n\nBằng chứng rõ ràng nhất nằm ngay tại ngữ cảnh vụ án, xác nhận 5 điều kiện đặc biệt cho các trường hợp cụ thể. Tại điểm 5, văn bản luật quy định rõ: \"Di chúc của công dân Việt Nam đang ở nước ngoài [REDACTED_ANSWER]\". Việc liệt kê đầy đủ các điều kiện này trong câu trả lời đã phản ánh chính xác và trọn vẹn quy định của văn bản luật. Do đó, câu trả lời của Proponent là đúng và đầy đủ nhất."
+    },
+    {
+      "id": "exp-vilqa-338-29",
+      "case_id": "vilqa-338",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Hành vi điều khiển tàu bay vào hoặc ra khỏi Việt Nam vi phạm quy định hàng không, nếu không thuộc các trường hợp đặc biệt tại Điều 110 và 111, sẽ bị phạt tiền từ [REDACTED_ANSWER] đến 300.000.000 đồng theo quy định tại khoản 1. Do đó, mức phạt tiền tối thiểu là [REDACTED_ANSWER].\n\nbị phạt tiền từ [REDACTED_ANSWER] đến 300.000.000 đồng Lời phản bác: Câu trả lời của người đề xuất thiếu điều kiện quan trọng \"nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111\". Nếu hành vi thuộc các trường hợp nghiêm trọng hơn (như gây chết người hoặc thiệt hại tài sản lớn) theo khoản 2 và 3, mức phạt tiền tối thiểu sẽ là 300.000.000 đồng hoặc 500.000.000 đồng, không phải [REDACTED_ANSWER]. Do đó, câu trả lời chỉ đúng khi bổ sung điều kiện này. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhắc đến các tình tiết tăng nặng, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi chỉ yêu cầu mức phạt tiền **tối thiểu** có thể áp dụng cho hành vi vi phạm quy định hàng không nói chung.\n\nDựa trên Khoản 1 của Điều luật, đối với trường hợp cơ bản (không thuộc các điều kiện đặc biệt nghiêm trọng), mức phạt tiền được quy định rõ ràng là từ **[REDACTED_ANSWER]** đến 300.000.000 đồng. Do đó, mức phạt tiền tối thiểu chính xác và duy nhất cho câu hỏi này là **[REDACTED_ANSWER]**. Đối lập chỉ đúng một phần khi nêu khung phạt cao hơn cho các trường hợp nghiêm trọng, nhưng không phủ nhận được quy định mức phạt tối thiểu tại Khoản 1. Kính thưa Hội đồng, lập luận của Người đề xuất là chính xác. Câu hỏi yêu cầu mức phạt tiền **tối thiểu** có thể áp dụng cho hành vi vi phạm quy định hàng không nói chung.\n\nDựa trên Khoản 1 Điều luật, khung phạt tiền cơ bản là từ [REDACTED_ANSWER] đến 300.000.000 đồng. Các mức phạt cao hơn (300.000.000 đồng trở lên) chỉ áp dụng khi có các tình tiết tăng nặng cụ thể (gây thương tích, thiệt hại tài sản lớn...). Do đó, mức phạt tiền tối thiểu duy nhất và chính xác cho hành vi này là [REDACTED_ANSWER]."
+    },
+    {
+      "id": "exp-vilqa-23-30",
+      "case_id": "vilqa-23",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Khoản 1 của văn bản luật, người phạm tội chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu không thuộc bí mật nhà nước hoặc bí mật công tác sẽ bị phạt cải tạo không giam giữ đến [REDACTED_ANSWER]. Đây là mức phạt cụ thể được quy định rõ ràng trong điều khoản liên quan.\n\nphạt cải tạo không giam giữ đến [REDACTED_ANSWER] Lập luận của Proponent chỉ đúng với trường hợp cơ bản theo Khoản 1. Tuy nhiên, nếu hành vi thuộc các tình tiết tăng nặng tại Khoản 2 (như có tổ chức, thu lợi bất chính từ 10.000.000 đồng trở lên, tái phạm nguy hiểm), người phạm tội sẽ bị phạt tù từ [REDACTED_ANSWER] đến 05 năm. Khi đó, hình phạt \"cải tạo không giam giữ\" sẽ không còn được áp dụng. Do đó, câu trả lời \"phạt cải tạo không giam giữ đến [REDACTED_ANSWER]\" là chưa đầy đủ và thiếu chính xác trong mọi trường hợp. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhắc đến các tình tiết tăng nặng, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể chỉ yêu cầu mức phạt cho hành vi \"chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu **không thuộc** tài liệu bí mật\", tức là trường hợp cơ bản được quy định tại Khoản 1.\n\nTheo quy định tại Khoản 1 Điều luật, đối với trường hợp này, người phạm tội bị phạt tiền hoặc **phạt cải tạo không giam giữ đến [REDACTED_ANSWER]**. Các tình tiết tăng nặng tại Khoản 2 (như có tổ chức, tái phạm nguy hiểm) chỉ áp dụng khi hành vi thuộc các trường hợp đặc biệt khác, không làm thay đổi khung phạt cho trường hợp chung được nêu trong câu hỏi. Do đó, câu trả lời chính xác và đầy đủ nhất là: **phạt cải tạo không giam giữ đến 0 Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhắc đến các tình tiết tăng nặng, nhưng đã hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể xác định hành vi \"không thuộc tài liệu bí mật\", tức là trường hợp cơ bản tại Khoản 1. Các tình tiết tăng nặng tại Khoản 2 chỉ áp dụng khi hành vi đáp ứng các điều kiện nghiêm trọng hơn (như có tổ chức, thu lợi lớn). Do đó, mức phạt \"cải tạo không giam giữ đến [REDACTED_ANSWER]\" là đáp án chính xác và đầy đủ nhất cho trường hợp được nêu trong câu hỏi."
+    },
+    {
+      "id": "exp-vilqa-360-31",
+      "case_id": "vilqa-360",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Quản chế được áp dụng đối với [REDACTED_ANSWER]. Đây là nội dung xác định rõ ràng tại văn bản cung cấp, bao gồm cả các trường hợp khác do Bộ luật Hình sự quy định. Câu trả lời của Proponent thiếu chính xác vì bỏ sót điều kiện tiên quyết: Quản chế chỉ áp dụng cho \"người bị kết án phạt tù\". Danh sách các đối tượng (xâm phạm an ninh, tái phạm nguy hiểm...) chỉ là những trường hợp cụ thể được liệt kê, nhưng không thay thế cho điều kiện chung về hình phạt tù đã nêu trong định nghĩa. Do đó, câu trả lời đầy đủ phải bao gồm cả hai yếu tố này. Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh điều kiện tiên quyết \"người bị kết án phạt tù\", nhưng đã bỏ sót trọng tâm câu hỏi: \"Quản chế được áp dụng đối với **ai**?\". Văn bản pháp luật cung cấp xác định rõ danh sách các đối tượng cụ thể: người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc các trường hợp khác do Bộ luật quy định. Đây là nội dung trực tiếp trả lời câu hỏi, trong khi điều kiện hình phạt tù là tiền đề chung chứ không phải đối tượng cụ thể. Do đó, câu trả lời của Nguyên đơn là chính xác và đầy đủ nhất dựa trên ngữ cảnh pháp lý được cung cấp. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng về mặt kỹ thuật khi nhắc đến điều kiện tiên quyết \"người bị kết án phạt tù\", nhưng lại hiểu sai trọng tâm câu hỏi. Câu hỏi cụ thể yêu cầu xác định danh sách các đối tượng cụ thể được quy định tại văn bản luật.\n\nVăn bản cung cấp xác định rõ ràng: Quản chế áp dụng cho \"[REDACTED_ANSWER]\". Đây là nội dung pháp lý chính xác và đầy đủ nhất dựa trên ngữ cảnh đã cho. Đối lập đã phản bác dựa trên các điều kiện chung chung mà bỏ qua danh sách đối tượng cụ thể được nêu trong văn bản. Do đó, câu trả lời của Nguyên đơn là chính xác và bám sát văn bản luật."
+    },
+    {
+      "id": "exp-vilqa-98-32",
+      "case_id": "vilqa-98",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo quy định tại văn bản pháp lý, khi không có thỏa thuận về thời hạn trả tiền thuê và không thể xác định được theo tập quán, bên thuê có nghĩa vụ trả tiền ngay [REDACTED_ANSWER]. Do đó, thời điểm trả tiền là lúc hoàn trả tài sản.\n\n**bên thuê phải trả tiền [REDACTED_ANSWER]** Vị trí của Người đề xuất thiếu sót khi chỉ tập trung vào việc trả tiền khi trả lại tài sản mà bỏ qua thứ tự ưu tiên của pháp luật. Theo quy định, thời hạn trả tiền được xác định theo thỏa thuận trước, sau đó là tập quán, và chỉ khi không thể xác định được theo tập quán thì mới áp dụng quy tắc trả tiền khi trả lại tài sản. Do đó, câu trả lời chính xác phải phản ánh đầy đủ điều kiện tiên quyết này.\n\n**nếu không thể xác định được thời hạn theo tập quán thì bên thuê phải trả tiền [REDACTED_ANSWER]** Kính thưa Hội đồng, Proponent xin khẳng định câu trả lời chính xác là: \"bên thuê phải trả tiền [REDACTED_ANSWER]\".\n\nDựa trên văn bản pháp lý, khi không có thỏa thuận về thời hạn trả tiền thuê, thời hạn này được xác định theo tập quán. Tuy nhiên, trong tình huống cụ thể của vụ án, các bên **không có thỏa thuận** và **không thể xác định được thời hạn theo tập quán**. Do đó, quy tắc dự phòng được áp dụng trực tiếp: bên thuê phải trả tiền ngay [REDACTED_ANSWER].\n\nĐối lập đã phản biện rằng lập luận thiếu sót thứ tự ưu tiên (thỏa thuận -> tập quán -> trả lại tài sản). Tuy nhiên, Proponent đã bám sát giả định của câu hỏi: vì cả hai điều kiện trước (thỏa thuận và tập quán) đều không tồn tại, nên chỉ còn lại nghĩa vụ trả tiền khi trả lại tài sản. Đây là kết Kính thưa Hội đồng, Proponent đã xác định chính xác thời điểm trả tiền là \"[REDACTED_ANSWER]\" dựa trên quy định pháp luật. Đối lập đã phản biện rằng lập luận này thiếu sót vì bỏ qua thứ tự ưu tiên (thỏa thuận -> tập quán). Tuy nhiên, câu hỏi cụ thể đã giới hạn phạm vi: \"Nếu các bên **không có** thỏa thuận và **không thể** xác định được theo tập quán\". Trong chính ngữ cảnh này, điều kiện tiên quyết cho quy tắc \"trả khi trả lại tài sản\" đã được thỏa mãn. Do đó, câu trả lời của Proponent là chính xác và đầy đủ nhất cho tình huống được nêu."
+    },
+    {
+      "id": "exp-vilqa-441-33",
+      "case_id": "vilqa-441",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Điều 3 của Luật An ninh mạng 2018, đối với hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng trong thời hạn [REDACTED_ANSWER] kể từ ngày được bổ sung. Do đó, câu trả lời chính xác là: trong thời hạn [REDACTED_ANSWER] kể từ ngày được bổ sung. Lời đề nghị của Proponent chưa đầy đủ. Theo quy định tại Điều 3, Khoản 3 của Luật An ninh mạng 2018, thời hạn ban đầu là [REDACTED_ANSWER], nhưng trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định thì có thể thêm tối đa [REDACTED_ANSWER]. Do đó, câu trả lời chỉ nên trích dẫn chính xác: \"trong thời hạn [REDACTED_ANSWER] kể từ ngày được bổ sung\". Kính thưa Hội đồng, Proponent xin khẳng định câu trả lời chính xác dựa trên văn bản luật: thời hạn là **[REDACTED_ANSWER]** kể từ ngày hệ thống được bổ sung vào danh mục. Lập luận của Đối lập về việc gia hạn thêm [REDACTED_ANSWER] là không chính xác trong ngữ cảnh câu hỏi này. Câu hỏi cụ thể yêu cầu xác định thời hạn trách nhiệm của chủ quản hệ thống thông tin *khi được bổ sung*. Theo Điều 3, Khoản 3 của Luật An ninh mạng 2018, thời hạn pháp lý bắt buộc phát sinh ngay tại thời điểm bổ sung là [REDACTED_ANSWER]. Việc gia hạn thêm chỉ xảy ra trong \"trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định\", đây là ngoại lệ đặc biệt, không phải là quy định chung cho mọi hệ thống. Do đó, đáp án \"[REDACTED_ANSWER]\" phản ánh chính xác và đầy đủ nhất nghĩa vụ pháp lý ban đầu được quy định Kính thưa Hội đồng, lập luận của Đối lập dựa trên một sự hiểu lầm về trọng tâm câu hỏi. Câu hỏi yêu cầu xác định thời hạn trách nhiệm bảo đảm điều kiện an ninh mạng đối với hệ thống thông tin **đang vận hành, sử dụng được bổ sung** vào danh mục. Theo quy định tại Điều 3, Khoản 3 của Luật An ninh mạng 2018, thời hạn này là **[REDACTED_ANSWER]** kể từ ngày được bổ sung. Việc gia hạn tối đa [REDACTED_ANSWER] chỉ áp dụng khi cần thiết và do Thủ tướng Chính phủ quyết định, nhưng đây là ngoại lệ, không phải là thời hạn mặc định trả lời cho câu hỏi về trách nhiệm ban đầu. Do đó, câu trả lời \"[REDACTED_ANSWER]\" là chính xác và đầy đủ nhất dựa trên văn bản luật. Proponent xin kết thúc."
+    },
+    {
+      "id": "exp-vilqa-321-34",
+      "case_id": "vilqa-321",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo quy định tại Khoản 2 của Điều luật về Tội làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán, hành vi thu lợi bất chính từ [REDACTED_ANSWER] sẽ bị phạt tù từ 02 năm đến 07 năm. Do đó, mức thu lợi bất chính cần thiết để bị phạt tù trong khoảng này là [REDACTED_ANSWER].\n\nThu lợi bất chính [REDACTED_ANSWER] Câu trả lời của Proponent chỉ đúng một phần. Theo Khoản 2, việc bị phạt tù từ 02 năm đến 07 năm không chỉ xảy ra khi \"Thu lợi bất chính [REDACTED_ANSWER]\" mà còn khi: \"Gây thiệt hại cho nhà đầu tư 3.000.000.000 đồng trở lên\", \"Có tổ chức\" hoặc \"Tái phạm nguy hiểm\". Do đó, câu trả lời thiếu các tình tiết tăng nặng khác. Kính thưa Hội đồng, đối lập đã chỉ ra rằng khung phạt \"02 năm đến 07 năm\" còn áp dụng cho các tình tiết khác như \"Có tổ chức\" hay \"Tái phạm nguy hiểm\". Tuy nhiên, câu hỏi cụ thể chỉ yêu cầu điều kiện về **thu lợi bất chính**. Dựa trên Khoản 2 Điều luật, hành vi này chỉ bị phạt tù trong khoảng nêu trên khi thu lợi bất chính từ **[REDACTED_ANSWER]**. Các tình tiết khác là những trường hợp riêng biệt. Do đó, con số 2.000.000.000 đồng là câu trả lời chính xác và đầy đủ nhất cho yêu cầu của đề bài. Kính thưa Hội đồng, lập luận của Proponent là chính xác. Câu hỏi cụ thể chỉ yêu cầu điều kiện về **thu lợi bất chính** dẫn đến khung phạt từ 02 năm đến 07 năm. Mặc dù Đối lập đã nêu đúng các tình tiết tăng nặng khác (có tổ chức, tái phạm...), nhưng chúng không phải là câu trả lời cho yêu cầu cụ thể về \"thu lợi bất chính\". Theo Khoản 2 Điều luật, chỉ có hành vi thu lợi bất chính từ [REDACTED_ANSWER] mới đáp ứng đúng tiêu chí của câu hỏi. Do đó, câu trả lời \"Thu lợi bất chính [REDACTED_ANSWER]\" là đầy đủ và chính xác nhất."
+    },
+    {
+      "id": "exp-vilqa-424-35",
+      "case_id": "vilqa-424",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo quy định tại điểm c khoản 4 của văn bản pháp lý, thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc [REDACTED_ANSWER] được giao trực tiếp cho [REDACTED_ANSWER]. Điều này khẳng định tính đặc thù của đối tượng thẩm định, phân biệt với các hệ thống quân sự hay thông tin quan trọng nói chung do Bộ Quốc phòng hoặc Bộ Công an quản lý. Do đó, đơn vị có thẩm quyền là [REDACTED_ANSWER].\n\n[REDACTED_ANSWER] Proponent đúng về cơ quan có thẩm quyền là [REDACTED_ANSWER] theo điểm c khoản 4. Tuy nhiên, cần làm rõ: đây là trường hợp ngoại lệ riêng biệt, không áp dụng chung cho các hệ thống thông tin quan trọng về an ninh quốc gia khác (do Bộ Công an hoặc Bộ Quốc phòng thẩm định). Câu trả lời chính xác nhất là: \"[REDACTED_ANSWER]\". Kính thưa Hội đồng, Proponent xin khẳng định lại: Theo điểm c khoản 4 văn bản pháp lý, thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc [REDACTED_ANSWER] được giao trực tiếp cho chính Ban này. Đây là quy định ngoại lệ riêng biệt, phân biệt rõ ràng với thẩm quyền của Bộ Công an hay Bộ Quốc phòng đối với các hệ thống khác. Dù Đối lập nhấn mạnh tính chất nội bộ, văn bản luật vẫn xác định chủ thể hành chính là \"[REDACTED_ANSWER]\". Do đó, câu trả lời \"[REDACTED_ANSWER]\" là chính xác và đầy đủ nhất dựa trên quy định pháp luật hiện hành. Kính thưa Hội đồng, Proponent đã trích dẫn chính xác điểm c khoản 4 văn bản pháp lý, khẳng định [REDACTED_ANSWER] là đơn vị có thẩm quyền thẩm định đối với hệ thống thông tin cơ yếu thuộc phạm vi quản lý của mình. Đây là quy định ngoại lệ rõ ràng, phân biệt với thẩm quyền của Bộ Công an (điểm a) và Bộ Quốc phòng (điểm b) đối với các hệ thống khác. Không có bằng chứng nào cho thấy thẩm quyền này được chuyển giao cho một bộ phận con nào khác. Do đó, câu trả lời \"[REDACTED_ANSWER]\" là chính xác và đầy đủ nhất dựa trên văn bản luật. Proponent xin kết thúc."
+    },
+    {
+      "id": "exp-vilqa-150-36",
+      "case_id": "vilqa-150",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo Khoản 5 Điều 126 Bộ luật Lao động 2019 được nêu trong hồ sơ, người lao động không được xử lý kỷ luật khi vi phạm trong thời gian mắc \"[REDACTED_ANSWER]\". Đây là căn cứ pháp lý trực tiếp trả lời câu hỏi.\n\n**Final Answer**: bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi Câu trả lời của Người đề xuất tuy đúng về mặt pháp lý nhưng chưa đủ chặt chẽ. Theo Khoản 5 Điều 126, quy định không chỉ dừng lại ở \"bệnh tâm thần\" mà còn bao gồm **\"một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi\"**. Việc chỉ nêu \"bệnh tâm thần\" là chưa đầy đủ, bỏ qua các trường hợp bệnh lý khác gây mất khả năng nhận thức hoặc điều khiển hành vi cũng thuộc phạm vi được miễn xử lý kỷ luật. Kính thưa Hội đồng, lập luận của Đối lập tuy nhấn mạnh tính bao quát của cụm từ \"một bệnh khác\", nhưng đã bỏ qua trọng tâm câu hỏi: \"Không được kỷ luật đối với người mắc **bệnh gì?**\". Căn cứ trực tiếp vào Khoản 5 Điều 126 Bộ luật Lao động, câu trả lời chính xác và đầy đủ nhất là: **\"bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi\"**. Đây là quy định pháp lý duy nhất xác định các trường hợp miễn trừ kỷ luật. Việc liệt kê đầy đủ cả hai loại bệnh này phản ánh chính xác văn bản luật hơn là chỉ trích dẫn một phần. Do đó, câu trả lời của Nguyên đơn là chính xác nhất. Kính thưa Hội đồng, lập luận của Nguyên đơn tuy nhấn mạnh tính bao quát của cụm từ \"một bệnh khác\", nhưng đã bỏ qua trọng tâm câu hỏi: \"Không được kỷ luật đối với người mắc **bệnh gì?**\". Căn cứ trực tiếp vào Khoản 5 Điều 126 Bộ luật Lao động, câu trả lời chính xác và đầy đủ nhất là: **\"bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi\"**. Việc chỉ nêu \"bệnh tâm thần\" là chưa đầy đủ, bỏ qua các trường hợp bệnh lý khác gây mất khả năng nhận thức hoặc điều khiển hành vi. Do đó, câu trả lời của Đối lập mới phản ánh chính xác và trọn vẹn quy định của văn bản luật."
+    },
+    {
+      "id": "exp-vilqa-282-37",
+      "case_id": "vilqa-282",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Theo quy định pháp luật được cung cấp, khi ngừng việc do sự cố điện, nước, thiên tai hoặc lý do kinh tế (không do lỗi của người sử dụng lao động), nếu thời gian ngừng việc từ 14 ngày làm việc trở xuống, tiền lương ngừng việc được thỏa thuận **[REDACTED_ANSWER] mức lương tối thiểu**. Đây là nội dung chính xác tại mục a) của đoạn văn bản liên quan. Câu trả lời của Proponent là đúng về mặt pháp lý. Theo ngữ cảnh, khi ngừng việc từ 14 ngày làm việc trở xuống (do sự cố hoặc lý do kinh tế), tiền lương ngừng việc được thỏa thuận nhưng **không được thấp hơn mức lương tối thiểu**. Đây là giới hạn dưới bắt buộc, không phải mức cố định. Do đó, điền vào chỗ trống chính xác là: **[REDACTED_ANSWER]**. Kính thưa Hội đồng, Proponent xin khẳng định câu trả lời chính xác là: \"[REDACTED_ANSWER] mức lương tối thiểu\".\n\nDựa trên ngữ cảnh pháp lý, khi ngừng việc từ 14 ngày làm việc trở xuống do sự cố hoặc lý do kinh tế, tiền lương được hai bên thỏa thuận nhưng **không được thấp hơn mức lương tối thiểu**. Đây là giới hạn dưới bắt buộc, không phải mức cố định.\n\nĐối lập đã phản biện rằng câu trả lời thiếu sót vì bỏ qua tính chất \"thỏa thuận\". Tuy nhiên, đây không phải là lỗ hổng mà là bản chất của quy định: pháp luật chỉ đặt ra sàn (mức lương tối thiểu), còn mức cụ thể do hai bên thương lượng. Do đó, cụm từ \"[REDACTED_ANSWER] mức lương tối thiểu\" đã phản ánh đầy đủ và chính xác nhất quy định pháp luật áp dụng cho tình huống này. Proponent xin kết thúc. Kính thưa Hội đồng, lập luận của Proponent hoàn toàn chính xác. Ngữ cảnh pháp lý quy định rõ ràng: khi ngừng việc từ 14 ngày làm việc trở xuống do sự cố hoặc lý do kinh tế, tiền lương được thỏa thuận nhưng **không được thấp hơn mức lương tối thiểu**. Đây là giới hạn dưới bắt buộc mà Proponent đã nêu đúng. Đối lập không thể phủ nhận quy định cụ thể này. Do đó, câu trả lời \"[REDACTED_ANSWER] mức lương tối thiểu\" là chính xác và đầy đủ nhất."
+    },
+    {
+      "id": "exp-vilqa-40-38",
+      "case_id": "vilqa-40",
+      "source_type": "debate_experience",
+      "rounds": 1,
+      "strategy": "proponent/opponent debate with judge belief tracking",
+      "confidence": 100.0,
+      "text": "Người trồng cây cần sa \"có tổ chức\" thuộc tình tiết tăng nặng quy định tại Khoản 2 của Điều luật. Theo quy định này, hành vi này bị phạt tù [REDACTED_ANSWER]. Do đó, câu trả lời chính xác là \"bị phạt tù [REDACTED_ANSWER]\". Lập luận của Proponent chỉ đúng một phần. Mặc dù hành vi \"có tổ chức\" thuộc Khoản 2 quy định khung hình phạt [REDACTED_ANSWER], nhưng Proponent đã bỏ qua **Khoản 4** của văn bản luật. Theo Khoản 4, nếu người phạm tội đã **tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch**, họ có thể được **miễn trách nhiệm hình sự**. Do đó, câu trả lời không thể là một con số cố định mà phải xem xét tình tiết giảm nhẹ này. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng khi nhắc đến Khoản 4 về miễn trách nhiệm hình sự, nhưng chỉ áp dụng khi người phạm tội **tự nguyện phá bỏ, giao nộp trước khi thu hoạch**. Trong câu hỏi này, yếu tố \"có tổ chức\" là một tình tiết tăng nặng rõ ràng tại Khoản 2, không có dấu hiệu giảm nhẹ nào được nêu. Do đó, mức phạt áp dụng chính xác và đầy đủ nhất là **bị phạt tù [REDACTED_ANSWER]**. Kính thưa Hội đồng, lập luận của Đối lập tuy đúng khi nhắc đến Khoản 4 về miễn trách nhiệm hình sự, nhưng chỉ áp dụng khi người phạm tội **tự nguyện phá bỏ, giao nộp trước khi thu hoạch**. Trong câu hỏi này, yếu tố \"có tổ chức\" là một tình tiết tăng nặng rõ ràng tại Khoản 2, không có dấu hiệu giảm nhẹ nào được nêu. Do đó, khung hình phạt chính xác và đầy đủ nhất cho hành vi này là **bị phạt tù [REDACTED_ANSWER]**."
     }
   ],
   "cases": [
@@ -62,6 +395,775 @@
         "khác"
       ],
       "text": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm? Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm."
+    },
+    {
+      "id": "case-vilqa-285-2",
+      "case_id": "vilqa-285",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?",
+      "context_excerpt": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+      "keywords": [
+        "vô",
+        "ý",
+        "gây",
+        "thiệt",
+        "hại",
+        "cho",
+        "tài",
+        "sản",
+        "người",
+        "khác"
+      ],
+      "text": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm? Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm."
+    },
+    {
+      "id": "case-vilqa-352-3",
+      "case_id": "vilqa-352",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền tối đa bao nhiêu?",
+      "context_excerpt": "Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến [REDACTED_ANSWER], phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.0",
+      "keywords": [
+        "dùng",
+        "bói",
+        "toán",
+        "đồng",
+        "bóng",
+        "hoặc",
+        "các",
+        "hình",
+        "thức",
+        "mê"
+      ],
+      "text": "Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền tối đa bao nhiêu? Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến [REDACTED_ANSWER], phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.0"
+    },
+    {
+      "id": "case-vilqa-327-4",
+      "case_id": "vilqa-327",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Người cung cấp hoặc thu thập nhằm cung cấp bí mật nhà nước cho nước ngoài bị phạt như thế nào?",
+      "context_excerpt": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị [REDACTED_ANSWER]:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung ",
+      "keywords": [
+        "người",
+        "cung",
+        "cấp",
+        "hoặc",
+        "thu",
+        "thập",
+        "nhằm",
+        "cung",
+        "cấp",
+        "bí"
+      ],
+      "text": "Người cung cấp hoặc thu thập nhằm cung cấp bí mật nhà nước cho nước ngoài bị phạt như thế nào? Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị [REDACTED_ANSWER]:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung "
+    },
+    {
+      "id": "case-vilqa-138-5",
+      "case_id": "vilqa-138",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động phải bố trí ngày nghỉ ra sao?",
+      "context_excerpt": "Nghỉ hằng tuần\n\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân [REDACTED_ANSWER].\n\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định t",
+      "keywords": [
+        "trong",
+        "trường",
+        "hợp",
+        "đặc",
+        "biệt",
+        "do",
+        "chu",
+        "kỳ",
+        "lao",
+        "động"
+      ],
+      "text": "Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động phải bố trí ngày nghỉ ra sao? Nghỉ hằng tuần\n\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân [REDACTED_ANSWER].\n\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định t"
+    },
+    {
+      "id": "case-vilqa-470-6",
+      "case_id": "vilqa-470",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Theo Bộ luật dân sự 2015, người chưa thành niên là người như thế nào?",
+      "context_excerpt": "Người chưa thành niên\n\n1. Người chưa thành niên là [REDACTED_ANSWER]\n\n2. Giao dịch dân sự của người chưa đủ sáu tuổi do người đại diện theo pháp luật của người đó xác lập, thực hiện.\n\n3. Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi khi xác lập, thực hiện giao dịch dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch dân sự phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi.\n\n4. Người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi tự mình xác lập, thực hiện giao ",
+      "keywords": [
+        "theo",
+        "bộ",
+        "luật",
+        "dân",
+        "sự",
+        "2015",
+        "người",
+        "chưa",
+        "thành",
+        "niên"
+      ],
+      "text": "Theo Bộ luật dân sự 2015, người chưa thành niên là người như thế nào? Người chưa thành niên\n\n1. Người chưa thành niên là [REDACTED_ANSWER]\n\n2. Giao dịch dân sự của người chưa đủ sáu tuổi do người đại diện theo pháp luật của người đó xác lập, thực hiện.\n\n3. Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi khi xác lập, thực hiện giao dịch dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch dân sự phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi.\n\n4. Người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi tự mình xác lập, thực hiện giao "
+    },
+    {
+      "id": "case-vilqa-236-7",
+      "case_id": "vilqa-236",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ?",
+      "context_excerpt": "Xác lập quyền sở hữu đối với vật nuôi dưới nước\n\nKhi vật nuôi dưới nước của một người di chuyển tự nhiên vào ruộng, ao, hồ của người khác thì thuộc sở hữu của người có ruộng, ao, hồ đó. Trường hợp vật nuôi dưới nước có dấu hiệu riêng biệt để có thể xác định vật nuôi không thuộc sở hữu của mình thì người có ruộng, ao, hồ đó phải thông báo công khai để chủ sở hữu biết mà nhận lại. Sau [REDACTED_ANSWER], kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc v",
+      "keywords": [
+        "sau",
+        "bao",
+        "lâu",
+        "kể",
+        "từ",
+        "ngày",
+        "thông",
+        "báo",
+        "công",
+        "khai"
+      ],
+      "text": "Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ? Xác lập quyền sở hữu đối với vật nuôi dưới nước\n\nKhi vật nuôi dưới nước của một người di chuyển tự nhiên vào ruộng, ao, hồ của người khác thì thuộc sở hữu của người có ruộng, ao, hồ đó. Trường hợp vật nuôi dưới nước có dấu hiệu riêng biệt để có thể xác định vật nuôi không thuộc sở hữu của mình thì người có ruộng, ao, hồ đó phải thông báo công khai để chủ sở hữu biết mà nhận lại. Sau [REDACTED_ANSWER], kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc v"
+    },
+    {
+      "id": "case-vilqa-447-8",
+      "case_id": "vilqa-447",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Theo Bộ luật dân sự 2015, trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều 6 của Bộ luật này thì phải áp dụng như thế nào?",
+      "context_excerpt": "Áp dụng tương tự pháp luật\n\n1. Trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì áp dụng quy định của pháp luật điều chỉnh quan hệ dân sự tương tự.\n\n2. Trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều này thì [REDACTED_ANSWER]",
+      "keywords": [
+        "theo",
+        "bộ",
+        "luật",
+        "dân",
+        "sự",
+        "2015",
+        "trường",
+        "hợp",
+        "không",
+        "thể"
+      ],
+      "text": "Theo Bộ luật dân sự 2015, trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều 6 của Bộ luật này thì phải áp dụng như thế nào? Áp dụng tương tự pháp luật\n\n1. Trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì áp dụng quy định của pháp luật điều chỉnh quan hệ dân sự tương tự.\n\n2. Trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều này thì [REDACTED_ANSWER]"
+    },
+    {
+      "id": "case-vilqa-125-9",
+      "case_id": "vilqa-125",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Người lao động được tạm tứng tiền và không bị tính lãi theo điều kiện nào?",
+      "context_excerpt": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện [REDACTED_ANSWER] và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứ",
+      "keywords": [
+        "người",
+        "lao",
+        "động",
+        "được",
+        "tạm",
+        "tứng",
+        "tiền",
+        "và",
+        "không",
+        "bị"
+      ],
+      "text": "Người lao động được tạm tứng tiền và không bị tính lãi theo điều kiện nào? Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện [REDACTED_ANSWER] và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứ"
+    },
+    {
+      "id": "case-vilqa-482-10",
+      "case_id": "vilqa-482",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Mô tả quyền được khai sinh, khai tử theo Bộ luật dân sự 2015.",
+      "context_excerpt": "Quyền được khai sinh, khai tử\n\n[REDACTED_ANSWER]",
+      "keywords": [
+        "mô",
+        "tả",
+        "quyền",
+        "được",
+        "khai",
+        "sinh",
+        "khai",
+        "tử",
+        "theo",
+        "bộ"
+      ],
+      "text": "Mô tả quyền được khai sinh, khai tử theo Bộ luật dân sự 2015. Quyền được khai sinh, khai tử\n\n[REDACTED_ANSWER]"
+    },
+    {
+      "id": "case-vilqa-273-11",
+      "case_id": "vilqa-273",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải làm gì?",
+      "context_excerpt": "Hủy bỏ việc đơn phương chấm dứt hợp đồng lao động\n\nMỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải [REDACTED_ANSWER].",
+      "keywords": [
+        "mỗi",
+        "bên",
+        "đều",
+        "có",
+        "quyền",
+        "hủy",
+        "bỏ",
+        "việc",
+        "đơn",
+        "phương"
+      ],
+      "text": "Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải làm gì? Hủy bỏ việc đơn phương chấm dứt hợp đồng lao động\n\nMỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải [REDACTED_ANSWER]."
+    },
+    {
+      "id": "case-vilqa-311-12",
+      "case_id": "vilqa-311",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự thì bị hình phạt nào?",
+      "context_excerpt": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị [REDACTED_ANSWER]:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đ",
+      "keywords": [
+        "chỉ",
+        "huy",
+        "hoặc",
+        "sĩ",
+        "quan",
+        "làm",
+        "mất",
+        "tài",
+        "liệu",
+        "bí"
+      ],
+      "text": "Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự thì bị hình phạt nào? Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị [REDACTED_ANSWER]:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đ"
+    },
+    {
+      "id": "case-vilqa-36-13",
+      "case_id": "vilqa-36",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến bao lâu?",
+      "context_excerpt": "Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến [REDACTED_ANSWER] hoặc phạt tù từ 06 tháng đến [REDACTED_ANSWER].\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ [REDACTED_ANSWER] đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.0",
+      "keywords": [
+        "người",
+        "nào",
+        "dùng",
+        "bói",
+        "toán",
+        "đồng",
+        "bóng",
+        "hoặc",
+        "các",
+        "hình"
+      ],
+      "text": "Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến bao lâu? Tội hành nghề mê tín, dị đoan\n\n1. Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng, phạt cải tạo không giam giữ đến [REDACTED_ANSWER] hoặc phạt tù từ 06 tháng đến [REDACTED_ANSWER].\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ [REDACTED_ANSWER] đến 10 năm:\n\na) Làm chết người;\n\nb) Thu lợi bất chính 200.000.0"
+    },
+    {
+      "id": "case-vilqa-331-14",
+      "case_id": "vilqa-331",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa bao nhiêu năm tù?",
+      "context_excerpt": "Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến [REDACTED_ANSWER]:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm n",
+      "keywords": [
+        "lợi",
+        "dụng",
+        "chức",
+        "vụ",
+        "quyền",
+        "hạn",
+        "để",
+        "cho",
+        "thuê",
+        "cho"
+      ],
+      "text": "Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa bao nhiêu năm tù? Tội chứa chấp việc sử dụng trái phép chất ma túy\n\n1. Người nào cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy, nếu không thuộc trường hợp quy định tại Điều 255 của Bộ luật này, thì bị phạt tù từ 02 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến [REDACTED_ANSWER]:\n\na) Lợi dụng chức vụ, quyền hạn;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Đối với người dưới 16 tuổi;\n\nd) Đối với 02 người trở lên;\n\nđ) Tái phạm n"
+    },
+    {
+      "id": "case-vilqa-136-15",
+      "case_id": "vilqa-136",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Người lao dộng làm việc từ 6 giờ trở lên vào ban ngày thì được nghỉ ít nhất trong bao lâu?",
+      "context_excerpt": "Nghỉ trong giờ làm việc\n\n1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ [REDACTED_ANSWER], làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.\n\nTrường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.\n\n2. Ngoài thời gian nghỉ quy định tại khoản 1 Điều này, người sử dụng lao động bố trí cho người lao động các đợt",
+      "keywords": [
+        "người",
+        "lao",
+        "dộng",
+        "làm",
+        "việc",
+        "từ",
+        "6",
+        "giờ",
+        "trở",
+        "lên"
+      ],
+      "text": "Người lao dộng làm việc từ 6 giờ trở lên vào ban ngày thì được nghỉ ít nhất trong bao lâu? Nghỉ trong giờ làm việc\n\n1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ [REDACTED_ANSWER], làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.\n\nTrường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.\n\n2. Ngoài thời gian nghỉ quy định tại khoản 1 Điều này, người sử dụng lao động bố trí cho người lao động các đợt"
+    },
+    {
+      "id": "case-vilqa-343-16",
+      "case_id": "vilqa-343",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt như thế nào?",
+      "context_excerpt": "Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh\n\n1. Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 50.000.",
+      "keywords": [
+        "sử",
+        "dụng",
+        "trái",
+        "phép",
+        "tần",
+        "số",
+        "vô",
+        "tuyến",
+        "điện",
+        "dành"
+      ],
+      "text": "Sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt như thế nào? Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh\n\n1. Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 50.000."
+    },
+    {
+      "id": "case-vilqa-107-17",
+      "case_id": "vilqa-107",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Trả thưởng như thế nào nếu nhiều người cùng cộng tác để hoàn thành công việc được hứa thưởng?",
+      "context_excerpt": "Trả thưởng\n\n1. Trường hợp một công việc được hứa thưởng do một người thực hiện thì khi công việc hoàn thành, người thực hiện công việc đó được nhận thưởng.\n\n2. Khi một công việc được hứa thưởng do nhiều người cùng thực hiện nhưng mỗi người thực hiện độc lập với nhau thì người hoàn thành đầu tiên được nhận thưởng.\n\n3. Trường hợp nhiều người cùng hoàn thành công việc được hứa thưởng vào cùng một thời điểm thì phần thưởng được chia đều cho những người đó.\n\n4. Trường hợp nhiều người cùng cộng tác để",
+      "keywords": [
+        "trả",
+        "thưởng",
+        "như",
+        "thế",
+        "nào",
+        "nếu",
+        "nhiều",
+        "người",
+        "cùng",
+        "cộng"
+      ],
+      "text": "Trả thưởng như thế nào nếu nhiều người cùng cộng tác để hoàn thành công việc được hứa thưởng? Trả thưởng\n\n1. Trường hợp một công việc được hứa thưởng do một người thực hiện thì khi công việc hoàn thành, người thực hiện công việc đó được nhận thưởng.\n\n2. Khi một công việc được hứa thưởng do nhiều người cùng thực hiện nhưng mỗi người thực hiện độc lập với nhau thì người hoàn thành đầu tiên được nhận thưởng.\n\n3. Trường hợp nhiều người cùng hoàn thành công việc được hứa thưởng vào cùng một thời điểm thì phần thưởng được chia đều cho những người đó.\n\n4. Trường hợp nhiều người cùng cộng tác để"
+    },
+    {
+      "id": "case-vilqa-189-18",
+      "case_id": "vilqa-189",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản được gọi là gì?",
+      "context_excerpt": "Khái niệm chiếm hữu\n\n1. [REDACTED_ANSWER] là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.\n\n2. [REDACTED_ANSWER] bao gồm chiếm hữu của chủ sở hữu và chiếm hữu của người không phải là chủ sở hữu.\n\nViệc chiếm hữu của người không phải là chủ sở hữu không thể là căn cứ xác lập quyền sở hữu, trừ trường hợp quy định tại các điều 228, 229, 230, 231, 232, 233 và 236 của Bộ luật này.",
+      "keywords": [
+        "việc",
+        "chủ",
+        "thể",
+        "nắm",
+        "giữ",
+        "chi",
+        "phối",
+        "tài",
+        "sản",
+        "một"
+      ],
+      "text": "Việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản được gọi là gì? Khái niệm chiếm hữu\n\n1. [REDACTED_ANSWER] là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.\n\n2. [REDACTED_ANSWER] bao gồm chiếm hữu của chủ sở hữu và chiếm hữu của người không phải là chủ sở hữu.\n\nViệc chiếm hữu của người không phải là chủ sở hữu không thể là căn cứ xác lập quyền sở hữu, trừ trường hợp quy định tại các điều 228, 229, 230, 231, 232, 233 và 236 của Bộ luật này."
+    },
+    {
+      "id": "case-vilqa-427-19",
+      "case_id": "vilqa-427",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Kiểm tra an ninh mạng là gì?",
+      "context_excerpt": "Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. [REDACTED_ANSWER]\n\n2. Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về a",
+      "keywords": [
+        "kiểm",
+        "tra",
+        "an",
+        "ninh",
+        "mạng",
+        "là",
+        "gì"
+      ],
+      "text": "Kiểm tra an ninh mạng là gì? Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. [REDACTED_ANSWER]\n\n2. Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về a"
+    },
+    {
+      "id": "case-vilqa-325-20",
+      "case_id": "vilqa-325",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam bị hình phạt cao nhất là gì?",
+      "context_excerpt": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc [REDACTED_ANSWER]:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung ",
+      "keywords": [
+        "thu",
+        "thập",
+        "cung",
+        "cấp",
+        "tin",
+        "tức",
+        "tài",
+        "liệu",
+        "khác",
+        "nhằm"
+      ],
+      "text": "Thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam bị hình phạt cao nhất là gì? Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc [REDACTED_ANSWER]:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung "
+    },
+    {
+      "id": "case-vilqa-499-21",
+      "case_id": "vilqa-499",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Theo Bộ luật Dân sự năm 2015, một tổ chức được công nhận là pháp nhân trong trường hợp nào sau đây?",
+      "context_excerpt": "Pháp nhân\n\n1. [REDACTED_ANSWER]\n\n2. Mọi cá nhân, pháp nhân đều có quyền thành lập pháp nhân, trừ trường hợp luật có quy định khác.",
+      "keywords": [
+        "theo",
+        "bộ",
+        "luật",
+        "dân",
+        "sự",
+        "năm",
+        "2015",
+        "một",
+        "tổ",
+        "chức"
+      ],
+      "text": "Theo Bộ luật Dân sự năm 2015, một tổ chức được công nhận là pháp nhân trong trường hợp nào sau đây? Pháp nhân\n\n1. [REDACTED_ANSWER]\n\n2. Mọi cá nhân, pháp nhân đều có quyền thành lập pháp nhân, trừ trường hợp luật có quy định khác."
+    },
+    {
+      "id": "case-vilqa-491-22",
+      "case_id": "vilqa-491",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Theo Điều 36, Bộ luật dân sự 2015, cá nhân đã thực hiện việc xác định lại giới tính có các quyền và nghĩa vụ như thế nào?",
+      "context_excerpt": "Quyền xác định lại giới tính\n\n1. Cá nhân có quyền xác định lại giới tính.\n\nViệc xác định lại giới tính của một người được thực hiện trong trường hợp giới tính của người đó bị khuyết tật bẩm sinh hoặc chưa định hình chính xác mà cần có sự can thiệp của y học nhằm xác định rõ giới tính.\n\n2. Việc xác định lại giới tính được thực hiện theo quy định của pháp luật.\n\n3. Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; c",
+      "keywords": [
+        "theo",
+        "điều",
+        "36",
+        "bộ",
+        "luật",
+        "dân",
+        "sự",
+        "2015",
+        "cá",
+        "nhân"
+      ],
+      "text": "Theo Điều 36, Bộ luật dân sự 2015, cá nhân đã thực hiện việc xác định lại giới tính có các quyền và nghĩa vụ như thế nào? Quyền xác định lại giới tính\n\n1. Cá nhân có quyền xác định lại giới tính.\n\nViệc xác định lại giới tính của một người được thực hiện trong trường hợp giới tính của người đó bị khuyết tật bẩm sinh hoặc chưa định hình chính xác mà cần có sự can thiệp của y học nhằm xác định rõ giới tính.\n\n2. Việc xác định lại giới tính được thực hiện theo quy định của pháp luật.\n\n3. Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; c"
+    },
+    {
+      "id": "case-vilqa-443-23",
+      "case_id": "vilqa-443",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, quyền dân sự có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì các lý do nào?",
+      "context_excerpt": "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự\n\n1. Ở nước Cộng hòa xã hội chủ nghĩa Việt Nam, các quyền dân sự được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật.\n\n2. Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do [REDACTED_ANSWER]",
+      "keywords": [
+        "theo",
+        "bộ",
+        "luật",
+        "dân",
+        "sự",
+        "2015",
+        "ở",
+        "nước",
+        "cộng",
+        "hoà"
+      ],
+      "text": "Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, quyền dân sự có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì các lý do nào? Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự\n\n1. Ở nước Cộng hòa xã hội chủ nghĩa Việt Nam, các quyền dân sự được công nhận, tôn trọng, bảo vệ và bảo đảm theo Hiến pháp và pháp luật.\n\n2. Quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do [REDACTED_ANSWER]"
+    },
+    {
+      "id": "case-vilqa-119-24",
+      "case_id": "vilqa-119",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Di chúc có hiệu lực khi nào?",
+      "context_excerpt": "Hiệu lực của di chúc\n\n1. Di chúc có hiệu lực [REDACTED_ANSWER].\n\n2. Di chúc không có hiệu lực toàn bộ hoặc một phần trong trường hợp sau đây:\n\na) Người thừa kế theo di chúc chết trước hoặc chết cùng thời điểm với người lập di chúc;\n\nb) Cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế.\n\nTrường hợp có nhiều người thừa kế theo di chúc mà có người chết trước hoặc chết cùng thời điểm với người lập di chúc, một trong nhiều cơ quan, tổ chức được chỉ định ",
+      "keywords": [
+        "di",
+        "chúc",
+        "có",
+        "hiệu",
+        "lực",
+        "khi",
+        "nào"
+      ],
+      "text": "Di chúc có hiệu lực khi nào? Hiệu lực của di chúc\n\n1. Di chúc có hiệu lực [REDACTED_ANSWER].\n\n2. Di chúc không có hiệu lực toàn bộ hoặc một phần trong trường hợp sau đây:\n\na) Người thừa kế theo di chúc chết trước hoặc chết cùng thời điểm với người lập di chúc;\n\nb) Cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế.\n\nTrường hợp có nhiều người thừa kế theo di chúc mà có người chết trước hoặc chết cùng thời điểm với người lập di chúc, một trong nhiều cơ quan, tổ chức được chỉ định "
+    },
+    {
+      "id": "case-vilqa-437-25",
+      "case_id": "vilqa-437",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Bộ Quốc phòng và Bộ nào chịu trách nhiệm tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng?",
+      "context_excerpt": "Trách nhiệm của Bộ Quốc phòng\n\nBộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng trong phạm vi quản lý và có nhiệm vụ, quyền hạn sau đây:\n\n1. Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và hướng dẫn thi hành văn bản quy phạm pháp luật về an ninh mạng trong phạm vi quản lý;\n\n2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng trong phạm vi quản lý;\n\n3. Phòng ngừa, đấu tranh với các hoạt động sử ",
+      "keywords": [
+        "bộ",
+        "quốc",
+        "phòng",
+        "và",
+        "bộ",
+        "nào",
+        "chịu",
+        "trách",
+        "nhiệm",
+        "tổ"
+      ],
+      "text": "Bộ Quốc phòng và Bộ nào chịu trách nhiệm tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng? Trách nhiệm của Bộ Quốc phòng\n\nBộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng trong phạm vi quản lý và có nhiệm vụ, quyền hạn sau đây:\n\n1. Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và hướng dẫn thi hành văn bản quy phạm pháp luật về an ninh mạng trong phạm vi quản lý;\n\n2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng trong phạm vi quản lý;\n\n3. Phòng ngừa, đấu tranh với các hoạt động sử "
+    },
+    {
+      "id": "case-vilqa-476-26",
+      "case_id": "vilqa-476",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Theo Điều 25, Bộ luật dân sự 2015, quyền nhân thân là gì?",
+      "context_excerpt": "Quyền nhân thân\n\n1. Quyền nhân thân được quy định trong Bộ luật này là [REDACTED_ANSWER]\n\n2. Việc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi phải được người đại diện theo pháp luật của người này đồng ý theo quy định của Bộ luật này, luật khác có liên qua",
+      "keywords": [
+        "theo",
+        "điều",
+        "25",
+        "bộ",
+        "luật",
+        "dân",
+        "sự",
+        "2015",
+        "quyền",
+        "nhân"
+      ],
+      "text": "Theo Điều 25, Bộ luật dân sự 2015, quyền nhân thân là gì? Quyền nhân thân\n\n1. Quyền nhân thân được quy định trong Bộ luật này là [REDACTED_ANSWER]\n\n2. Việc xác lập, thực hiện quan hệ dân sự liên quan đến quyền nhân thân của người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi phải được người đại diện theo pháp luật của người này đồng ý theo quy định của Bộ luật này, luật khác có liên qua"
+    },
+    {
+      "id": "case-vilqa-395-27",
+      "case_id": "vilqa-395",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Doanh nghiệp cần làm gì khi có người dùng đăng ký tài khoản số?",
+      "context_excerpt": "Bảo đảm an ninh thông tin trên không gian mạng\n\n1. Trang thông tin điện tử, cổng thông tin điện tử hoặc chuyên trang trên mạng xã hội của cơ quan, tổ chức, cá nhân không được cung cấp, đăng tải, truyền đưa thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này và thông tin khác có nội dung xâm phạm an ninh quốc gia.\n\n2. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có t",
+      "keywords": [
+        "doanh",
+        "nghiệp",
+        "cần",
+        "làm",
+        "gì",
+        "khi",
+        "có",
+        "người",
+        "dùng",
+        "đăng"
+      ],
+      "text": "Doanh nghiệp cần làm gì khi có người dùng đăng ký tài khoản số? Bảo đảm an ninh thông tin trên không gian mạng\n\n1. Trang thông tin điện tử, cổng thông tin điện tử hoặc chuyên trang trên mạng xã hội của cơ quan, tổ chức, cá nhân không được cung cấp, đăng tải, truyền đưa thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này và thông tin khác có nội dung xâm phạm an ninh quốc gia.\n\n2. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có t"
+    },
+    {
+      "id": "case-vilqa-116-28",
+      "case_id": "vilqa-116",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Di chúc của công dân Việt Nam đang ở nước ngoài cần điều kiện gì để có giá trị như di chúc được công chứng?",
+      "context_excerpt": "Di chúc bằng văn bản có giá trị như di chúc được công chứng hoặc chứng thực\n\n1. Di chúc của quân nhân tại ngũ có xác nhận của thủ trưởng đơn vị từ cấp đại đội trở lên, nếu quân nhân không thể yêu cầu công chứng hoặc chứng thực.\n\n2. Di chúc của người đang đi trên tàu biển, máy bay có xác nhận của người chỉ huy phương tiện đó.\n\n3. Di chúc của người đang điều trị tại bệnh viện, cơ sở chữa bệnh, điều dưỡng khác có xác nhận của người phụ trách bệnh viện, cơ sở đó.\n\n4. Di chúc của người đang làm công ",
+      "keywords": [
+        "di",
+        "chúc",
+        "của",
+        "công",
+        "dân",
+        "việt",
+        "nam",
+        "đang",
+        "ở",
+        "nước"
+      ],
+      "text": "Di chúc của công dân Việt Nam đang ở nước ngoài cần điều kiện gì để có giá trị như di chúc được công chứng? Di chúc bằng văn bản có giá trị như di chúc được công chứng hoặc chứng thực\n\n1. Di chúc của quân nhân tại ngũ có xác nhận của thủ trưởng đơn vị từ cấp đại đội trở lên, nếu quân nhân không thể yêu cầu công chứng hoặc chứng thực.\n\n2. Di chúc của người đang đi trên tàu biển, máy bay có xác nhận của người chỉ huy phương tiện đó.\n\n3. Di chúc của người đang điều trị tại bệnh viện, cơ sở chữa bệnh, điều dưỡng khác có xác nhận của người phụ trách bệnh viện, cơ sở đó.\n\n4. Di chúc của người đang làm công "
+    },
+    {
+      "id": "case-vilqa-338-29",
+      "case_id": "vilqa-338",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tiền tối thiểu bao nhiêu?",
+      "context_excerpt": "Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ [REDACTED_ANSWER] đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000",
+      "keywords": [
+        "điều",
+        "khiển",
+        "tàu",
+        "bay",
+        "vào",
+        "hoặc",
+        "ra",
+        "khỏi",
+        "việt",
+        "nam"
+      ],
+      "text": "Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tiền tối thiểu bao nhiêu? Tội điều khiển tàu bay vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam\n\n1. Người nào điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm các quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam nếu không thuộc trường hợp quy định tại Điều 110 và Điều 111 của Bộ luật này, thì bị phạt tiền từ [REDACTED_ANSWER] đến 300.000.000 đồng hoặc phạt tù từ 03 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 300.000.000"
+    },
+    {
+      "id": "case-vilqa-23-30",
+      "case_id": "vilqa-23",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Người chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt cải tạo không giam giữ đến bao lâu?",
+      "context_excerpt": "Tội chiếm đoạt, mua bán, tiêu hủy con dấu, tài liệu của cơ quan, tổ chức\n\n1. Người nào chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, phạt cải tạo không giam giữ đến [REDACTED_ANSWER] hoặc phạt tù từ 03 tháng đến [REDACTED_ANSWER].\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ [REDACTED_ANSWER] đến 05 năm:\n\na) Có tổ chức;\n\nb) Thu lợi bất chính 10.000.000 ",
+      "keywords": [
+        "người",
+        "chiếm",
+        "đoạt",
+        "mua",
+        "bán",
+        "hoặc",
+        "tiêu",
+        "hủy",
+        "trái",
+        "phép"
+      ],
+      "text": "Người chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt cải tạo không giam giữ đến bao lâu? Tội chiếm đoạt, mua bán, tiêu hủy con dấu, tài liệu của cơ quan, tổ chức\n\n1. Người nào chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, phạt cải tạo không giam giữ đến [REDACTED_ANSWER] hoặc phạt tù từ 03 tháng đến [REDACTED_ANSWER].\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ [REDACTED_ANSWER] đến 05 năm:\n\na) Có tổ chức;\n\nb) Thu lợi bất chính 10.000.000 "
+    },
+    {
+      "id": "case-vilqa-360-31",
+      "case_id": "vilqa-360",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Quản chế được áp dụng đối với ai?",
+      "context_excerpt": "Quản chế\n\nQuản chế là buộc người bị kết án phạt tù phải cư trú, làm ăn sinh sống và cải tạo ở một địa phương nhất định dưới sự kiểm soát, giáo dục của chính quyền và nhân dân địa phương. Trong thời gian quản chế, người bị kết án không được tự ý ra khỏi nơi cư trú, bị tước một số quyền công dân theo quy định tại Điều 44 của Bộ luật này và bị cấm hành nghề hoặc làm công việc nhất định.\n\nQuản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong nhữn",
+      "keywords": [
+        "quản",
+        "chế",
+        "được",
+        "áp",
+        "dụng",
+        "đối",
+        "với",
+        "ai"
+      ],
+      "text": "Quản chế được áp dụng đối với ai? Quản chế\n\nQuản chế là buộc người bị kết án phạt tù phải cư trú, làm ăn sinh sống và cải tạo ở một địa phương nhất định dưới sự kiểm soát, giáo dục của chính quyền và nhân dân địa phương. Trong thời gian quản chế, người bị kết án không được tự ý ra khỏi nơi cư trú, bị tước một số quyền công dân theo quy định tại Điều 44 của Bộ luật này và bị cấm hành nghề hoặc làm công việc nhất định.\n\nQuản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong nhữn"
+    },
+    {
+      "id": "case-vilqa-98-32",
+      "case_id": "vilqa-98",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Nếu các bên không có thoả thuận về thời hạn trả tiền thuê và không thể xác định được thời hạn theo tập quán nơi trả tiền thì khi nào bên thuê cần trả tiền?",
+      "context_excerpt": "Trả tiền thuê\n\n1. Bên thuê phải trả đủ tiền thuê đúng thời hạn đã thỏa thuận; nếu không có thỏa thuận về thời hạn trả tiền thuê thì thời hạn trả tiền thuê được xác định theo tập quán nơi trả tiền; nếu không thể xác định được thời hạn theo tập quán thì bên thuê phải trả tiền [REDACTED_ANSWER].\n\n2. Trường hợp các bên thỏa thuận việc trả tiền thuê theo kỳ hạn thì bên cho thuê có quyền đơn phương chấm dứt thực hiện hợp đồng, nếu bên thuê không trả tiền trong ba kỳ liên tiếp, trừ trường hợp có",
+      "keywords": [
+        "nếu",
+        "các",
+        "bên",
+        "không",
+        "có",
+        "thoả",
+        "thuận",
+        "về",
+        "thời",
+        "hạn"
+      ],
+      "text": "Nếu các bên không có thoả thuận về thời hạn trả tiền thuê và không thể xác định được thời hạn theo tập quán nơi trả tiền thì khi nào bên thuê cần trả tiền? Trả tiền thuê\n\n1. Bên thuê phải trả đủ tiền thuê đúng thời hạn đã thỏa thuận; nếu không có thỏa thuận về thời hạn trả tiền thuê thì thời hạn trả tiền thuê được xác định theo tập quán nơi trả tiền; nếu không thể xác định được thời hạn theo tập quán thì bên thuê phải trả tiền [REDACTED_ANSWER].\n\n2. Trường hợp các bên thỏa thuận việc trả tiền thuê theo kỳ hạn thì bên cho thuê có quyền đơn phương chấm dứt thực hiện hợp đồng, nếu bên thuê không trả tiền trong ba kỳ liên tiếp, trừ trường hợp có"
+    },
+    {
+      "id": "case-vilqa-441-33",
+      "case_id": "vilqa-441",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn bao nhiêu tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật An ninh mạng 2018?",
+      "context_excerpt": "Hiệu lực thi hành\n\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019.\n\n2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn [REDACTED_ANSWER] kể từ ngày Luật này có hiệu lực, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ ",
+      "keywords": [
+        "hệ",
+        "thống",
+        "thông",
+        "tin",
+        "đang",
+        "vận",
+        "hành",
+        "sử",
+        "dụng",
+        "được"
+      ],
+      "text": "Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn bao nhiêu tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật An ninh mạng 2018? Hiệu lực thi hành\n\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019.\n\n2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn [REDACTED_ANSWER] kể từ ngày Luật này có hiệu lực, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ "
+    },
+    {
+      "id": "case-vilqa-321-34",
+      "case_id": "vilqa-321",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ bao nhiêu trở lên thì bị phạt tù từ 02 năm đến 07 năm?",
+      "context_excerpt": "Tội làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán\n\n1. Người nào làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ 1.000.000.000 đồng đến dưới 2.000.000.000 đồng hoặc gây thiệt hại cho nhà đầu tư từ 1.500.000.000 đồng đến dưới 3.000.000.000 đồng, thì bị phạt tiền từ 500.000.000 đồng đến 2.000.000.000 đồng hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 2.000.000.000 đồng đến 5.000.000.000 đồ",
+      "keywords": [
+        "làm",
+        "giả",
+        "tài",
+        "liệu",
+        "trong",
+        "hồ",
+        "sơ",
+        "chào",
+        "bán",
+        "niêm"
+      ],
+      "text": "Làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ bao nhiêu trở lên thì bị phạt tù từ 02 năm đến 07 năm? Tội làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán\n\n1. Người nào làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ 1.000.000.000 đồng đến dưới 2.000.000.000 đồng hoặc gây thiệt hại cho nhà đầu tư từ 1.500.000.000 đồng đến dưới 3.000.000.000 đồng, thì bị phạt tiền từ 500.000.000 đồng đến 2.000.000.000 đồng hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 2.000.000.000 đồng đến 5.000.000.000 đồ"
+    },
+    {
+      "id": "case-vilqa-424-35",
+      "case_id": "vilqa-424",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Đơn vị nào thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc [REDACTED_ANSWER]?",
+      "context_excerpt": "Thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\n\nb) Đề án nâng cấp hệ thống",
+      "keywords": [
+        "đơn",
+        "vị",
+        "nào",
+        "thẩm",
+        "định",
+        "an",
+        "ninh",
+        "mạng",
+        "đối",
+        "với"
+      ],
+      "text": "Đơn vị nào thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc [REDACTED_ANSWER]? Thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\n\nb) Đề án nâng cấp hệ thống"
+    },
+    {
+      "id": "case-vilqa-150-36",
+      "case_id": "vilqa-150",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Không được kỷ luật đối với người mắc bệnh gì?",
+      "context_excerpt": "Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n\n1. Việc xử lý kỷ luật lao động được quy định như sau:\n\na) Người sử dụng lao động phải chứng minh được lỗi của người lao động;\n\nb) Phải có sự tham gia của tổ chức đại diện người lao động tại cơ sở mà người lao động đang bị xử lý kỷ luật là thành viên;\n\nc) Người lao động phải có mặt và có quyền tự bào chữa, nhờ luật sư hoặc tổ chức đại diện người lao động bào chữa; trường hợp là người chưa đủ 15 tuổi thì phải có sự tham gia của người đại diện t",
+      "keywords": [
+        "không",
+        "được",
+        "kỷ",
+        "luật",
+        "đối",
+        "với",
+        "người",
+        "mắc",
+        "bệnh",
+        "gì"
+      ],
+      "text": "Không được kỷ luật đối với người mắc bệnh gì? Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n\n1. Việc xử lý kỷ luật lao động được quy định như sau:\n\na) Người sử dụng lao động phải chứng minh được lỗi của người lao động;\n\nb) Phải có sự tham gia của tổ chức đại diện người lao động tại cơ sở mà người lao động đang bị xử lý kỷ luật là thành viên;\n\nc) Người lao động phải có mặt và có quyền tự bào chữa, nhờ luật sư hoặc tổ chức đại diện người lao động bào chữa; trường hợp là người chưa đủ 15 tuổi thì phải có sự tham gia của người đại diện t"
+    },
+    {
+      "id": "case-vilqa-282-37",
+      "case_id": "vilqa-282",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Điền vào ...: Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận ... mức lương tối thiểu?",
+      "context_excerpt": "Tiền lương ngừng việc\n\nTrường hợp phải ngừng việc, người lao động được trả lương như sau:\n\n1. Nếu do lỗi của người sử dụng lao động thì người lao động được trả đủ tiền lương theo hợp đồng lao động;\n\n2. Nếu do lỗi của người lao động thì người đó không được trả lương; những người lao động khác trong cùng đơn vị phải ngừng việc thì được trả lương theo mức do hai bên thỏa thuận nhưng không được thấp hơn mức lương tối thiểu;\n\n3. Nếu vì sự cố về điện, nước mà không do lỗi của người sử dụng lao động ho",
+      "keywords": [
+        "điền",
+        "vào",
+        "trường",
+        "hợp",
+        "ngừng",
+        "việc",
+        "từ",
+        "14",
+        "ngày",
+        "làm"
+      ],
+      "text": "Điền vào ...: Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận ... mức lương tối thiểu? Tiền lương ngừng việc\n\nTrường hợp phải ngừng việc, người lao động được trả lương như sau:\n\n1. Nếu do lỗi của người sử dụng lao động thì người lao động được trả đủ tiền lương theo hợp đồng lao động;\n\n2. Nếu do lỗi của người lao động thì người đó không được trả lương; những người lao động khác trong cùng đơn vị phải ngừng việc thì được trả lương theo mức do hai bên thỏa thuận nhưng không được thấp hơn mức lương tối thiểu;\n\n3. Nếu vì sự cố về điện, nước mà không do lỗi của người sử dụng lao động ho"
+    },
+    {
+      "id": "case-vilqa-40-38",
+      "case_id": "vilqa-40",
+      "source_type": "similar_qa_case",
+      "case_type": "legal_qa",
+      "question": "Người trồng cây cần sa có tổ chức thì bị phạt tù từ bao lâu đến bao lâu?",
+      "context_excerpt": "Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới ",
+      "keywords": [
+        "người",
+        "trồng",
+        "cây",
+        "cần",
+        "sa",
+        "có",
+        "tổ",
+        "chức",
+        "thì",
+        "bị"
+      ],
+      "text": "Người trồng cây cần sa có tổ chức thì bị phạt tù từ bao lâu đến bao lâu? Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới "
     }
   ]
 }

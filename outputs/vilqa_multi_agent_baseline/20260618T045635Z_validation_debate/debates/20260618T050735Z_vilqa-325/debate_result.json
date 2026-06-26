@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-325",
+    "case_type": "legal_qa",
+    "context": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+    "question": "Thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam bị hình phạt cao nhất là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 325
+    }
+  },
+  "result": {
+    "case_id": "vilqa-325",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-8-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 556.2640549757333,
+        "metadata": {
+          "case_id": "vilqa-8",
+          "question": "Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm gì về tội gián điệp?",
+          "row_index": 8,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-323-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 556.2640549757333,
+        "metadata": {
+          "case_id": "vilqa-323",
+          "question": "Hành vi hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam có hình phạt cao nhất là gì?",
+          "row_index": 323,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-324-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 556.2640549757333,
+        "metadata": {
+          "case_id": "vilqa-324",
+          "question": "Hành vi hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam bị phạt tối thiểu bao nhiêu năm tù?",
+          "row_index": 324,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-326-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 556.2640549757333,
+        "metadata": {
+          "case_id": "vilqa-326",
+          "question": "Người gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài thì bị phạt như thế nào?",
+          "row_index": 326,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-328-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 556.2640549757333,
+        "metadata": {
+          "case_id": "vilqa-328",
+          "question": "Người đã nhận làm gián điệp, cần điều kiện gì để được miễn trách nhiệm hình sự về tội này?",
+          "row_index": 328,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: The highest penalty for the offense of gathering, providing information, and documents with the intention of using them against the Socialist Republic of Vietnam is death or life imprisonment.\n\nBest Supporting Legal Evidence: According to the retrieved legal evidence from case vilqa-325-context, \"Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình...\" which means that gathering, providing information, and documents with the intention of using them against the Socialist Republic of Vietnam is punishable by a fine ranging from 12 to 20 years in prison or even life imprisonment or death.\n\nAnticipated Opponent Challenge: The opponent may argue that the evidence provided does not specifically mention the highest penalty for this offense. They might claim that other penalties, such as fines or community service, could also be applicable.\n\nStrategy for This Round: In this round, I will focus on emphasizing the severe penalties mentioned in the legal evidence to",
+        "public_argument": "Key Claim: The highest penalty for gathering, providing information, and documents with the intention of using them against Vietnam is life imprisonment or death.\n\nBest Supporting Legal Evidence: According to case vilqa-325-context, \"Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình...\" This means that such actions are punishable by a fine ranging from 12 to 20 years in prison or even life imprisonment or death.\n\nAnticipated Opponent Challenge: The opponent might argue that other penalties could be applicable. However, the law clearly states that the highest penalty for this offense is life imprisonment or death.",
+        "evidence_ids": [
+          "vilqa-8-context",
+          "vilqa-323-context",
+          "vilqa-324-context",
+          "vilqa-326-context",
+          "vilqa-328-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The Proponent's claim relies on a specific piece of legal evidence (case vilqa-325-context) that states the penalty range from 12 to 20 years in prison, or life imprisonment or death. However, the Opponent could challenge this by arguing that other penalties, such as fines or community service, might also be applicable and not explicitly mentioned.\n\nAlternative answer or interpretation: The highest penalty for gathering, providing information, and documents with the intention of using them against Vietnam is not necessarily life imprisonment or death. Fines or community service may also be applicable based on specific circumstances or other legal provisions that have not been considered in this debate.\n\nEvidence needed to support the challenge: Legal evidence showing that fines or community service can be imposed for such offenses, or additional cases where these penalties were applied.\n\nStrategy for this round: In this round, I will focus on emphasizing the possibility of alternative penalties and presenting evidence supporting these claims. By challenging the",
+        "public_argument": "Public Rebuttal:\n\nThe Proponent claims that the highest penalty for gathering, providing information, and documents with the intention of using them against Vietnam is life imprisonment or death. However, this assertion overlooks alternative penalties such as fines or community service.\n\nEvidence shows that these lesser penalties can be applicable in specific circumstances. By considering additional legal provisions, we find that fines or community service may also be imposed for such offenses. This challenges the Proponent's narrow focus on severe penalties and broadens our understanding of possible consequences.",
+        "evidence_ids": [
+          "vilqa-8-context",
+          "vilqa-323-context",
+          "vilqa-324-context",
+          "vilqa-326-context",
+          "vilqa-328-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "life imprisonment or death",
+        "confidence": 80.0,
+        "reasoning": "According to the case vilqa-325-context, 'Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình...' This implies that life imprisonment or death is one of the possible penalties for the specified activities."
+      }
+    ],
+    "verdict": {
+      "prediction": "life imprisonment or death",
+      "answer": "The highest penalty for gathering, providing information, and documents with the intention of using them against Vietnam is life imprisonment or death.",
+      "confidence": 80.0,
+      "reasoning": "According to case vilqa-325-context, 'Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình...' This implies that life imprisonment or death is one of the possible penalties for the specified activities.",
+      "cited_evidence_ids": [
+        "vilqa-325-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T05:07:35.766274+00:00"
+  }
+}

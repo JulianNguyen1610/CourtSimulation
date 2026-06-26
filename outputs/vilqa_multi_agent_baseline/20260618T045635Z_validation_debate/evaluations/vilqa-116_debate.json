@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-116",
+    "case_type": "legal_qa",
+    "context": "Di chúc bằng văn bản có giá trị như di chúc được công chứng hoặc chứng thực\n\n1. Di chúc của quân nhân tại ngũ có xác nhận của thủ trưởng đơn vị từ cấp đại đội trở lên, nếu quân nhân không thể yêu cầu công chứng hoặc chứng thực.\n\n2. Di chúc của người đang đi trên tàu biển, máy bay có xác nhận của người chỉ huy phương tiện đó.\n\n3. Di chúc của người đang điều trị tại bệnh viện, cơ sở chữa bệnh, điều dưỡng khác có xác nhận của người phụ trách bệnh viện, cơ sở đó.\n\n4. Di chúc của người đang làm công việc khảo sát, thăm dò, nghiên cứu ở vùng rừng núi, hải đảo có xác nhận của người phụ trách đơn vị.\n\n5. Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó.\n\n6. Di chúc của người đang bị tạm giam, tạm giữ, đang chấp hành hình phạt tù, người đang chấp hành biện pháp xử lý hành chính tại cơ sở giáo dục, cơ sở chữa bệnh có xác nhận của người phụ trách cơ sở đó.",
+    "question": "Di chúc của công dân Việt Nam đang ở nước ngoài cần điều kiện gì để có giá trị như di chúc được công chứng?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 116
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.5161290322580645,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

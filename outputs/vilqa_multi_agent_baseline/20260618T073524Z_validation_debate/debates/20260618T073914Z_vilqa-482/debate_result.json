@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-482",
+    "case_type": "legal_qa",
+    "context": "Quyền được khai sinh, khai tử\n\n1. Cá nhân từ khi sinh ra có quyền được khai sinh.\n\n2. Cá nhân chết phải được khai tử.\n\n3. Trẻ em sinh ra mà sống được từ hai mươi bốn giờ trở lên mới chết thì phải được khai sinh và khai tử; nếu sinh ra mà sống dưới hai mươi bốn giờ thì không phải khai sinh và khai tử, trừ trường hợp cha đẻ, mẹ đẻ có yêu cầu.\n\n4. Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.",
+    "question": "Mô tả quyền được khai sinh, khai tử theo Bộ luật dân sự 2015.",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 482
+    }
+  },
+  "result": {
+    "case_id": "vilqa-482",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-478-context",
+        "text": "Quyền có họ, tên\n\n1. Cá nhân có quyền có họ, tên (bao gồm cả chữ đệm, nếu có). Họ, tên của một người được xác định theo họ, tên khai sinh của người đó.\n\n2. Họ của cá nhân được xác định là họ của cha đẻ hoặc họ của mẹ đẻ theo thỏa thuận của cha mẹ; nếu không có thỏa thuận thì họ của con được xác định theo tập quán. Trường hợp chưa xác định được cha đẻ thì họ của con được xác định theo họ của mẹ đẻ.\n\nTrường hợp trẻ em bị bỏ rơi, chưa xác định được cha đẻ, mẹ đẻ và được nhận làm con nuôi thì họ của trẻ em được xác định theo họ của cha nuôi hoặc họ của mẹ nuôi theo thỏa thuận của cha mẹ nuôi. Trường hợp chỉ có cha nuôi hoặc mẹ nuôi thì họ của trẻ em được xác định theo họ của người đó.\n\nTrường hợp trẻ em bị bỏ rơi, chưa xác định được cha đẻ, mẹ đẻ và chưa được nhận làm con nuôi thì họ của trẻ em được xác định theo đề nghị của người đứng đầu cơ sở nuôi dưỡng trẻ em đó hoặc theo đề nghị của người có yêu cầu đăng ký khai sinh cho trẻ em, nếu trẻ em đang được người đó tạm thời nuôi dưỡng.\n\nCha đẻ, mẹ đẻ được quy định trong Bộ luật này là cha, mẹ được xác định dựa trên sự kiện sinh đẻ; người nhờ mang thai hộ với người được sinh ra từ việc mang thai hộ theo quy định của Luật hôn nhân và gia đình.\n\n3. Việc đặt tên bị hạn chế trong trường hợp xâm phạm đến quyền, lợi ích hợp pháp của người khác hoặc trái với các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này.\n\nTên của công dân Việt Nam phải bằng tiếng Việt hoặc tiếng dân tộc khác của Việt Nam; không đặt tên bằng số, bằng một ký tự mà không phải là chữ.\n\n4. Cá nhân xác lập, thực hiện quyền, nghĩa vụ dân sự theo họ, tên của mình.\n\n5. Việc sử dụng bí danh, bút danh không được gây thiệt hại đến quyền, lợi ích hợp pháp của người khác.",
+        "source": "vilqa_context",
+        "score": 154.80192362564304,
+        "metadata": {
+          "case_id": "vilqa-478",
+          "question": "Theo Điều 26, Bộ luật dân sự 2015, họ tên của một người được xác định như thế nào?",
+          "row_index": 478,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-230-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-230",
+          "question": "Người bắt được gia súc bị thất lạc phải làm gì?",
+          "row_index": 230,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-233-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-233",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai về gia súc bị thất lạc là gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc thuộc về người bắt được gia súc?",
+          "row_index": 233,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-231-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-231",
+          "question": "Chủ sở hữu được nhận lại gia súc phải thực hiện nghĩa vụ gì với người bắt được gia súc?",
+          "row_index": 231,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-234-context",
+        "text": "Xác lập quyền sở hữu đối với gia cầm bị thất lạc\n\n1. Trường hợp gia cầm của một người bị thất lạc mà người khác bắt được thì người bắt được phải thông báo công khai để chủ sở hữu gia cầm biết mà nhận lại. Sau 01 tháng, kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu đối với gia cầm và hoa lợi do gia cầm sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia cầm.\n\n2. Trường hợp chủ sở hữu được nhận lại gia cầm bị thất lạc thì phải thanh toán tiền công nuôi giữ và chi phí khác cho người bắt được gia cầm. Trong thời gian nuôi giữ gia cầm bị thất lạc, người bắt được gia cầm được hưởng hoa lợi do gia cầm sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia cầm.",
+        "source": "vilqa_context",
+        "score": 109.42229474336689,
+        "metadata": {
+          "case_id": "vilqa-234",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận gia cẩm bị thất lạc thì quyền sở hữu đối với gia cầm thuộc về người bắt được?",
+          "row_index": 234,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Cá nhân từ khi sinh ra có quyền được khai sinh.\n\nCandidate final answer: Theo Bộ luật dân sự 2015, cá nhân từ khi sinh ra có quyền được khai sinh.\n\nBest supporting legal evidence: Điều 26, Bộ luật dân sự 2015 quy định về họ tên của một người.\n\nAnticipated opponent challenge: Có thể là việc áp dụng của các quy định trên thực tế và trường hợp cụ thể nào đó không phù hợp với quy định.\n\nStrategy for this round: Chú trọng vào việc giải thích rõ ràng quyền được khai sinh theo Bộ luật dân sự 2015, đồng thời đưa ra các ví dụ minh họa để làm sáng tỏ ý nghĩa của nó.",
+        "public_argument": "Theo Bộ luật dân sự 2015, cá nhân từ khi sinh ra có quyền được khai sinh. Điều này được cụ thể hóa tại Điều 26 về họ tên của một người. Việc áp dụng các quy định này là cần thiết để đảm bảo việc ghi nhận thông tin cá nhân đúng cách và duy trì tính pháp lý cho mọi cá nhân kể từ khi sinh ra.",
+        "evidence_ids": [
+          "vilqa-478-context",
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-234-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The Proponent's claim that \"Cá nhân từ khi sinh ra có quyền được khai sinh\" may be challenged by real-life cases where individuals are not officially registered at birth, potentially leading to disputes over identity and legal rights.\n\nAlternative answer or interpretation: Theo Bộ luật dân sự 2015, mặc dù cá nhân từ khi sinh ra có quyền được khai sinh, nhưng việc thực hiện này phụ thuộc vào hoàn cảnh cụ thể của mỗi người và khả năng tiếp cận dịch vụ đăng ký khai sinh. Trong một số trường hợp, các yếu tố xã hội, kinh tế hoặc văn hóa có thể ảnh hưởng đến quá trình ghi nhận thông tin cá nhân.\n\nEvidence needed to support the challenge: Cần có bằng chứng về những trường hợp cụ thể nơi quyền được khai sinh không được thực hiện đúng theo quy định hoặc những vướng mắc trong việc đăng ký khai sinh để làm sáng tỏ vấn đề này.\n\nStrategy for this round: Chú trọng vào",
+        "public_argument": "Trong khi Proponent nhấn mạnh rằng cá nhân từ khi sinh ra có quyền được khai sinh theo Bộ luật dân sự 2015, thì thực tế lại cho thấy việc đăng ký khai sinh phụ thuộc vào nhiều yếu tố như hoàn cảnh cá nhân và khả năng tiếp cận dịch vụ. Điều này thể hiện qua các trường hợp cụ thể nơi quyền được khai sinh không được thực hiện đúng quy định hoặc vướng mắc trong việc đăng ký. Cần lưu ý rằng Điều 26 của Bộ luật dân sự 2015 quy định về họ tên, nhưng việc áp dụng các quy định này có thể gặp phải thách thức khi đưa vào thực tế.",
+        "evidence_ids": [
+          "vilqa-478-context",
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-234-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Theo Bộ luật dân sự 2015, cá nhân từ khi sinh ra có quyền được khai sinh.",
+        "confidence": 95.0,
+        "reasoning": "Proponent nhấn mạnh rằng cá nhân từ khi sinh ra có quyền được khai sinh theo Bộ luật dân sự 2015 và Điều 26 về họ tên của một người. Việc áp dụng các quy định này là cần thiết để đảm bảo việc ghi nhận thông tin cá nhân đúng cách và duy trì tính pháp lý cho mọi cá nhân kể từ khi sinh ra."
+      }
+    ],
+    "verdict": {
+      "prediction": "Theo Bộ luật dân sự 2015, cá nhân từ khi sinh ra có quyền được khai sinh.",
+      "answer": "Cá nhân từ khi sinh ra có quyền được khai sinh",
+      "confidence": 95.0,
+      "reasoning": "Proponent nhấn mạnh rằng cá nhân từ khi sinh ra có quyền được khai sinh theo Bộ luật dân sự 2015 và Điều 26 về họ tên của một người. Việc áp dụng các quy định này là cần thiết để đảm bảo việc ghi nhận thông tin cá nhân đúng cách và duy trì tính pháp lý cho mọi cá nhân kể từ khi sinh ra.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.22448979591836737,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T07:39:14.617026+00:00"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-327",
+    "case_type": "legal_qa",
+    "context": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+    "question": "Người cung cấp hoặc thu thập nhằm cung cấp bí mật nhà nước cho nước ngoài bị phạt như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 327
+    }
+  },
+  "result": {
+    "case_id": "vilqa-327",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-8-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 527.1421766680324,
+        "metadata": {
+          "case_id": "vilqa-8",
+          "question": "Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm gì về tội gián điệp?",
+          "row_index": 8,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-323-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 527.1421766680324,
+        "metadata": {
+          "case_id": "vilqa-323",
+          "question": "Hành vi hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam có hình phạt cao nhất là gì?",
+          "row_index": 323,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-324-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 527.1421766680324,
+        "metadata": {
+          "case_id": "vilqa-324",
+          "question": "Hành vi hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam bị phạt tối thiểu bao nhiêu năm tù?",
+          "row_index": 324,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-326-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 527.1421766680324,
+        "metadata": {
+          "case_id": "vilqa-326",
+          "question": "Người gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài thì bị phạt như thế nào?",
+          "row_index": 326,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-328-context",
+        "text": "Tội gián điệp\n\n1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:\n\na) Hoạt động tình báo, phá hoại hoặc gây cơ sở để hoạt động tình báo, phá hoại chống nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nb) Gây cơ sở để hoạt động tình báo, phá hoại theo sự chỉ đạo của nước ngoài; hoạt động thám báo, chỉ điểm, chứa chấp, dẫn đường hoặc thực hiện hành vi khác giúp người nước ngoài hoạt động tình báo, phá hoại;\n\nc) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\n2. Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\n\n3. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n4. Người đã nhận làm gián điệp, nhưng không thực hiện nhiệm vụ được giao và tự thú, thành khẩn khai báo với cơ quan nhà nước có thẩm quyền, thì được miễn trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 527.1421766680324,
+        "metadata": {
+          "case_id": "vilqa-328",
+          "question": "Người đã nhận làm gián điệp, cần điều kiện gì để được miễn trách nhiệm hình sự về tội này?",
+          "row_index": 328,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe act of providing or collecting state secrets for foreign entities constitutes the crime of espionage under Article 1, Clause c. The standard penalty for this specific act, as it does not fall under the \"minor circumstances\" exception, is imprisonment from 12 to 20 years, life imprisonment, or the death penalty.\n\n**Candidate final answer**\nbị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình\n\n**Best supporting legal evidence**\nCase profile context: \"1. Người nào có một trong các hành vi sau đây, thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình:... c) Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài...\"\n\n**Anticipated opponent challenge**\nThe opponent might argue that the penalty depends on the severity of the consequences or attempt to cite Clause 2 (5-15 years",
+        "public_argument": "Căn cứ Điều 1 Luật Hình sự, hành vi \"Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài\" thuộc nhóm hành vi cấu thành tội gián điệp. Pháp luật quy định rõ mức phạt cho hành vi này là: **bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình**.\n\nMức phạt này áp dụng cho trường hợp cơ bản, không thuộc trường hợp \"ít nghiêm trọng\" (phạt 05-15 năm) theo Khoản 2. Do đó, câu trả lời đúng là: bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",
+        "evidence_ids": [
+          "vilqa-8-context",
+          "vilqa-323-context",
+          "vilqa-324-context",
+          "vilqa-326-context",
+          "vilqa-328-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "**Strongest weakness in the Proponent's position**\nThe Proponent's argument relies on a rigid, literal interpretation of Clause 1, ignoring the critical legal principle of \"lesser severity\" (trường hợp ít nghiêm trọng) explicitly defined in Clause 2 of the provided context. By stating the penalty is *only* 12-20 years, life, or death, the Proponent fails to account for the statutory exception that allows for a reduced sentence (5-15 years) when the circumstances are less serious. This makes their answer legally incomplete and potentially misleading, as it omits a significant portion of the applicable law regarding sentencing discretion.\n\n**Alternative answer or interpretation, if any**\n\"Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\"\n\n**Evidence needed to support the challenge**\nThe specific text from Clause 2 of the case profile context: \"2. Phạm tội",
+        "public_argument": "Lập luận của phe đối phương thiếu chính xác về mặt pháp lý do bỏ sót điều khoản giảm nhẹ trách nhiệm hình sự.\n\nMặc dù khoản 1 quy định mức phạt cơ bản từ 12 năm đến 20 năm, tù chung thân hoặc tử hình, nhưng khoản 2 của cùng điều luật đã quy định rõ một ngoại lệ quan trọng: \"Phạm tội trong trường hợp ít nghiêm trọng, thì bị phạt tù từ 05 năm đến 15 năm.\"\n\nViệc phe đối phương khẳng định mức phạt *chỉ* là 12-20 năm, tù chung thân hoặc tử hình là không đầy đủ, vì nó bỏ qua khả năng áp dụng mức phạt thấp hơn khi có tình tiết giảm nhẹ. Do đó, câu trả lời đúng phải bao gồm cả hai khả năng này tùy thuộc vào mức độ nghiêm trọng của hành vi.\n\nĐáp án đầy đủ hơn:\n\"bị phạt tù từ 12 năm đến",
+        "evidence_ids": [
+          "vilqa-8-context",
+          "vilqa-323-context",
+          "vilqa-324-context",
+          "vilqa-326-context",
+          "vilqa-328-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",
+        "confidence": 95.0,
+        "reasoning": "The question asks for the punishment for providing or collecting state secrets for foreigners. According to Article 1, Paragraph 1, item c) of the provided context, this specific act falls under the crime of espionage and is punishable by imprisonment from 12 to 20 years, life imprisonment, or death. While the opponent mentions the possibility of a lesser penalty for 'minor cases' (Paragraph 2), the primary statutory penalty for the act itself is defined in Paragraph 1. The proponent correctly cites this primary penalty."
+      }
+    ],
+    "verdict": {
+      "prediction": "bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",
+      "answer": "phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",
+      "confidence": 95.0,
+      "reasoning": "Câu hỏi yêu cầu xác định mức phạt cho hành vi cụ thể là 'cung cấp hoặc thu thập nhằm cung cấp bí mật nhà nước cho nước ngoài'. Căn cứ khoản 1, điểm c của ngữ cảnh pháp luật được cung cấp, hành vi này cấu thành tội gián điệp và mức phạt cơ bản là 'bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình'. Mặc dù khoản 2 có quy định mức phạt thấp hơn cho trường hợp ít nghiêm trọng, nhưng khi không có thông tin bổ sung về tính chất ít nghiêm trọng, mức phạt chính được quy định tại khoản 1 là câu trả lời trực tiếp và đầy đủ nhất cho câu hỏi về hậu quả pháp lý của hành vi này.",
+      "cited_evidence_ids": [
+        "vilqa-327-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:28:23.297583+00:00"
+  }
+}

@@ -1,0 +1,11 @@
+Baseline scaffold loaded successfully.
+Dataset: data/ALQAC.csv
+Split sizes: train=424, validation=53, test=53
+First case id: vilqa-0
+First question: Chiếm đoạt di vật của tử sĩ có thể bị phạt tù lên đến bao nhiêu năm?
+First answer: 07 năm
+
+Batch baseline completed.
+Run directory: outputs/vilqa_multi_agent_baseline/20260620T004952Z_validation_debate
+Metrics: outputs/vilqa_multi_agent_baseline/20260620T004952Z_validation_debate/metrics.json
+Predictions: outputs/vilqa_multi_agent_baseline/20260620T004952Z_validation_debate/predictions.csv

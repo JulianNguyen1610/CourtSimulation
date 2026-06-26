@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-311",
+    "case_type": "legal_qa",
+    "context": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+    "question": "Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự thì bị hình phạt nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 311
+    }
+  },
+  "result": {
+    "case_id": "vilqa-311",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-313-context",
+        "text": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 296.82054497110255,
+        "metadata": {
+          "case_id": "vilqa-313",
+          "question": "Làm mất tài liệu bí mật công tác quân sự trong khu vực có chiến sự thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 313,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-312-context",
+        "text": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 296.82054497110255,
+        "metadata": {
+          "case_id": "vilqa-312",
+          "question": "Làm mất tài liệu bí mật công tác quân sự trong khu vực có chiến sự thì bị hình phạt nào?",
+          "row_index": 312,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-14-context",
+        "text": "Tội đầu hàng địch\n\n1. Người nào đầu hàng địch, thì bị phạt tù từ 03 năm đến 10 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Là chỉ huy hoặc sĩ quan;\n\nb) Giao nộp cho địch vũ khí, phương tiện kỹ thuật quân sự;\n\nc) Giao nộp tài liệu quan trọng hoặc khai báo bí mật công tác quân sự;\n\nd) Lôi kéo người khác phạm tội;\n\nđ) Gây hậu quả nghiêm trọng hoặc rất nghiêm trọng.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 12 năm đến 20 năm hoặc tù chung thân:\n\na) Giao nộp cho địch vật, tài liệu bí mật nhà nước hoặc khai báo bí mật nhà nước;\n\nb) Gây hậu quả đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 209.15687964560965,
+        "metadata": {
+          "case_id": "vilqa-14",
+          "question": "Người là sĩ quan đầu hàng địch thì bị phạt tù từ bao nhiêu đến bao nhiêu năm?",
+          "row_index": 14,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-315-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 176.63502050195336,
+        "metadata": {
+          "case_id": "vilqa-315",
+          "question": "Trong khu vực có chiến sự, nếu cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng thì bị phạt như thế nào?",
+          "row_index": 315,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-317-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 176.63502050195336,
+        "metadata": {
+          "case_id": "vilqa-317",
+          "question": "Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 317,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim:\nChỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự thuộc trường hợp phạm tội bị phạt tù từ 01 năm đến 05 năm.\n\nCandidate final answer:\n\"Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm: a) Là chỉ huy hoặc sỹ quan;\"\n\nBest supporting legal evidence:\n- Document ID: vilqa-313-context (and vilqa-312-context)\n- Text span: \"2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\\na) Là chỉ huy hoặc sỹ quan;\"\n\nAnticipated opponent challenge:\n- Opponent may argue that the penalty depends on the severity of consequences (nghiêm trọng, rất nghiêm trọng, đặc biệt nghiêm trọng) and claim the base penalty is only \"",
+        "public_argument": "Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự bị phạt tù từ 01 năm đến 05 năm. Điều này được quy định rõ tại khoản 2, mục a của văn bản pháp lý: \"Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm: a) Là chỉ huy hoặc sỹ quan;\". Do đó, việc thuộc đối tượng chỉ huy hoặc sĩ quan đã đủ điều kiện để áp dụng khung hình phạt này, bất kể hậu quả cụ thể, trừ khi có các tình tiết tăng nặng khác.",
+        "evidence_ids": [
+          "vilqa-313-context",
+          "vilqa-312-context",
+          "vilqa-14-context",
+          "vilqa-315-context",
+          "vilqa-317-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**:\n  The Proponent's argument presents the penalty for being a commander or officer (\"Là chỉ huy hoặc sỹ quan\") as a definitive, standalone rule, completely ignoring the **hierarchical structure** of the statute. The law explicitly states that if the act falls under specific circumstances (like being a commander), the penalty is **01 to 05 years**. However, it simultaneously states that if the act **does not** fall under these circumstances (Clause 1), the penalty is **re-education without imprisonment up to 2 years OR imprisonment from 03 months to 02 years**. The Proponent fails to clarify that the \"01-05 years\" penalty is contingent upon the act meeting the criteria in Clause 2, whereas the \"03 months to 02 years\" penalty applies to the general case. By omitting this distinction, the answer is misleading for a commander who might",
+        "public_argument": "Lập luận của Người đề xuất chưa đầy đủ. Hình phạt \"từ 01 năm đến 05 năm\" chỉ áp dụng khi phạm tội thuộc các trường hợp quy định tại Khoản 2 (bao gồm là chỉ huy/sĩ quan). Nếu không thuộc các trường hợp này, hình phạt sẽ là \"phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm\" theo Khoản 1. Do đó, cần phân biệt rõ điều kiện áp dụng từng mức phạt.",
+        "evidence_ids": [
+          "vilqa-313-context",
+          "vilqa-312-context",
+          "vilqa-14-context",
+          "vilqa-315-context",
+          "vilqa-317-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "phạt tù từ 01 năm đến 05 năm",
+        "confidence": 100.0,
+        "reasoning": "Câu hỏi hỏi về hình phạt cụ thể cho trường hợp 'Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự'. Theo ngữ cảnh, trường hợp này được quy định tại Khoản 2, mục a với hình phạt 'phạt tù từ 01 năm đến 05 năm'. Đây là câu trả lời trực tiếp và chính xác nhất cho câu hỏi."
+      }
+    ],
+    "verdict": {
+      "prediction": "phạt tù từ 01 năm đến 05 năm",
+      "answer": "phạt tù từ 01 năm đến 05 năm",
+      "confidence": 100.0,
+      "reasoning": "Theo Điều 339 của Bộ luật Hình sự (được trích dẫn trong ngữ cảnh), hành vi làm mất tài liệu bí mật công tác quân sự của chỉ huy hoặc sĩ quan thuộc trường hợp quy định tại khoản 2, mục a, dẫn đến hình phạt tù từ 01 năm đến 05 năm.",
+      "cited_evidence_ids": [
+        "vilqa-313-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T16:10:37.865822+00:00"
+  }
+}

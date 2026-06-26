@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-482",
+    "case_type": "legal_qa",
+    "context": "Quyền được khai sinh, khai tử\n\n1. Cá nhân từ khi sinh ra có quyền được khai sinh.\n\n2. Cá nhân chết phải được khai tử.\n\n3. Trẻ em sinh ra mà sống được từ hai mươi bốn giờ trở lên mới chết thì phải được khai sinh và khai tử; nếu sinh ra mà sống dưới hai mươi bốn giờ thì không phải khai sinh và khai tử, trừ trường hợp cha đẻ, mẹ đẻ có yêu cầu.\n\n4. Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.",
+    "question": "Mô tả quyền được khai sinh, khai tử theo Bộ luật dân sự 2015.",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 482
+    }
+  },
+  "result": {
+    "case_id": "vilqa-482",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-478-context",
+        "text": "Quyền có họ, tên\n\n1. Cá nhân có quyền có họ, tên (bao gồm cả chữ đệm, nếu có). Họ, tên của một người được xác định theo họ, tên khai sinh của người đó.\n\n2. Họ của cá nhân được xác định là họ của cha đẻ hoặc họ của mẹ đẻ theo thỏa thuận của cha mẹ; nếu không có thỏa thuận thì họ của con được xác định theo tập quán. Trường hợp chưa xác định được cha đẻ thì họ của con được xác định theo họ của mẹ đẻ.\n\nTrường hợp trẻ em bị bỏ rơi, chưa xác định được cha đẻ, mẹ đẻ và được nhận làm con nuôi thì họ của trẻ em được xác định theo họ của cha nuôi hoặc họ của mẹ nuôi theo thỏa thuận của cha mẹ nuôi. Trường hợp chỉ có cha nuôi hoặc mẹ nuôi thì họ của trẻ em được xác định theo họ của người đó.\n\nTrường hợp trẻ em bị bỏ rơi, chưa xác định được cha đẻ, mẹ đẻ và chưa được nhận làm con nuôi thì họ của trẻ em được xác định theo đề nghị của người đứng đầu cơ sở nuôi dưỡng trẻ em đó hoặc theo đề nghị của người có yêu cầu đăng ký khai sinh cho trẻ em, nếu trẻ em đang được người đó tạm thời nuôi dưỡng.\n\nCha đẻ, mẹ đẻ được quy định trong Bộ luật này là cha, mẹ được xác định dựa trên sự kiện sinh đẻ; người nhờ mang thai hộ với người được sinh ra từ việc mang thai hộ theo quy định của Luật hôn nhân và gia đình.\n\n3. Việc đặt tên bị hạn chế trong trường hợp xâm phạm đến quyền, lợi ích hợp pháp của người khác hoặc trái với các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này.\n\nTên của công dân Việt Nam phải bằng tiếng Việt hoặc tiếng dân tộc khác của Việt Nam; không đặt tên bằng số, bằng một ký tự mà không phải là chữ.\n\n4. Cá nhân xác lập, thực hiện quyền, nghĩa vụ dân sự theo họ, tên của mình.\n\n5. Việc sử dụng bí danh, bút danh không được gây thiệt hại đến quyền, lợi ích hợp pháp của người khác.",
+        "source": "vilqa_context",
+        "score": 154.80192362564304,
+        "metadata": {
+          "case_id": "vilqa-478",
+          "question": "Theo Điều 26, Bộ luật dân sự 2015, họ tên của một người được xác định như thế nào?",
+          "row_index": 478,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-230-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-230",
+          "question": "Người bắt được gia súc bị thất lạc phải làm gì?",
+          "row_index": 230,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-233-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-233",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai về gia súc bị thất lạc là gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc thuộc về người bắt được gia súc?",
+          "row_index": 233,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-231-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-231",
+          "question": "Chủ sở hữu được nhận lại gia súc phải thực hiện nghĩa vụ gì với người bắt được gia súc?",
+          "row_index": 231,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-234-context",
+        "text": "Xác lập quyền sở hữu đối với gia cầm bị thất lạc\n\n1. Trường hợp gia cầm của một người bị thất lạc mà người khác bắt được thì người bắt được phải thông báo công khai để chủ sở hữu gia cầm biết mà nhận lại. Sau 01 tháng, kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu đối với gia cầm và hoa lợi do gia cầm sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia cầm.\n\n2. Trường hợp chủ sở hữu được nhận lại gia cầm bị thất lạc thì phải thanh toán tiền công nuôi giữ và chi phí khác cho người bắt được gia cầm. Trong thời gian nuôi giữ gia cầm bị thất lạc, người bắt được gia cầm được hưởng hoa lợi do gia cầm sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia cầm.",
+        "source": "vilqa_context",
+        "score": 109.42229474336689,
+        "metadata": {
+          "case_id": "vilqa-234",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận gia cẩm bị thất lạc thì quyền sở hữu đối với gia cầm thuộc về người bắt được?",
+          "row_index": 234,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: According to the provided context, the rights of being registered at birth and death are regulated by Vietnamese law.\n\nBest Supporting Legal Evidence: \n- Case profile: The case states that \"Cá nhân từ khi sinh ra có quyền được khai sinh. Cá nhân chết phải được khai tử.\"\n\nAnticipated Opponent Challenge:\nThe opponent may argue that there is no specific regulation in the provided context about the rights of being registered at birth and death.\n\nStrategy for this Round: \nI will focus on emphasizing the importance of registering one's birth and death as stated in the case profile. I will also use the retrieved legal evidence to support my claim, while addressing any potential counterarguments by the opponent.",
+        "public_argument": "Honorable judges, according to the case profile, Vietnamese law recognizes two fundamental rights for individuals: being registered at birth and being registered upon death. These rights are explicitly stated as \"Cá nhân từ khi sinh ra có quyền được khai sinh\" and \"Cá nhân chết phải được khai tử.\" \n\nThe key legal evidence provided in the case profile clearly asserts that these rights are protected under Vietnamese law, emphasizing the importance of registering one's birth and death. Therefore, it is evident that the rights of being registered at birth and death are indeed regulated by Vietnamese law as stated in the context.\n\nIn response to potential counterarguments, I would like to highlight that any attempt to undermine the significance of these registrations undermines the very foundation of individual identity and legal personhood within our society. The opponent's argument lacks substantial evidence, as it fails to address the explicit rights mentioned in the case profile.\n\nIn conclusion, based on the retrieved legal evidence provided in the case profile, the rights of being registered at birth",
+        "evidence_ids": [
+          "vilqa-478-context",
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-234-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest Weakness: The proponent's claim relies heavily on the case profile without providing specific legal evidence from Vietnamese law. The opponent can challenge the lack of concrete legal references supporting these rights.\n\nAlternative Answer or Interpretation: While the case profile mentions the rights to be registered at birth and death, it does not explicitly state how these rights are enforced or regulated by Vietnamese law. There may be other legal provisions that provide more detailed information on these rights.\n\nEvidence Needed: To strengthen their position, the proponent could retrieve relevant legal evidence from Vietnamese law, such as specific articles or sections in the Civil Code of Vietnam (2006) or subsequent amendments, that address the registration of birth and death.\n\nStrategy for this Round: In this round, I will focus on challenging the proponent's claim by highlighting the lack of concrete legal evidence supporting their position. I will emphasize the need for specific references from Vietnamese law to substantiate these rights. Additionally, I will present alternative interpretations and suggest that the pro",
+        "public_argument": "Honorable judges, while the proponent emphasizes the rights of being registered at birth and death as per the case profile, it is crucial to acknowledge that these rights are not explicitly regulated by Vietnamese law. The provided context lacks specific legal references, such as articles or sections from the Civil Code of Vietnam (2006) or subsequent amendments, which substantiate these rights. Therefore, I kindly request the proponent to present concrete evidence from Vietnamese law to support their claim.",
+        "evidence_ids": [
+          "vilqa-478-context",
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-234-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Cá nhân từ khi sinh ra có quyền được khai sinh và cá nhân chết phải được khai tử.",
+        "confidence": 95.0,
+        "reasoning": "The proponent's argument aligns with the case profile, which clearly states that individuals have the right to be registered at birth and upon death. The opponent's argument is not supported by specific legal references as mentioned in the context."
+      }
+    ],
+    "verdict": {
+      "prediction": "Cá nhân từ khi sinh ra có quyền được khai sinh và cá nhân chết phải được khai tử.",
+      "answer": "Cá nhân từ khi sinh ra có quyền được khai sinh và cá nhân chết phải được khai tử",
+      "confidence": 95.0,
+      "reasoning": "The proponent's argument aligns with the case profile, which clearly states that individuals have the right to be registered at birth and upon death. The opponent's argument is not supported by specific legal references as mentioned in the context.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.3584905660377358,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T07:14:11.131970+00:00"
+  }
+}

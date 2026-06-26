@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-450",
+    "case_type": "legal_qa",
+    "context": "Căn cứ xác lập quyền dân sự\n\nQuyền dân sự được xác lập từ các căn cứ sau đây:\n\n1. Hợp đồng.\n\n2. Hành vi pháp lý đơn phương.\n\n3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.\n\n4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.\n\n5. Chiếm hữu tài sản.\n\n6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.\n\n7. Bị thiệt hại do hành vi trái pháp luật.\n\n8. Thực hiện công việc không có ủy quyền.\n\n9. Căn cứ khác do pháp luật quy định.",
+    "question": "Theo Bộ luật dân sự 2015, hãy liệt kê 9 căn cứ xác lập nên Quyền dân sự.",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 450
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.12068965517241383,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

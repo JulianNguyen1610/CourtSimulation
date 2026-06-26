@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-453",
+    "case_type": "legal_qa",
+    "context": "Giới hạn việc thực hiện quyền dân sự\n\n1. Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.\n\n2. Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều này thì Tòa án hoặc cơ quan có thẩm quyền khác căn cứ vào tính chất, hậu quả của hành vi vi phạm mà có thể không bảo vệ một phần hoặc toàn bộ quyền của họ, buộc bồi thường nếu gây thiệt hại và có thể áp dụng chế tài khác do luật quy định.",
+    "question": "Theo Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình để?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 453
+    }
+  },
+  "result": {
+    "case_id": "vilqa-453",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-454-context",
+        "text": "Giới hạn việc thực hiện quyền dân sự\n\n1. Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.\n\n2. Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều này thì Tòa án hoặc cơ quan có thẩm quyền khác căn cứ vào tính chất, hậu quả của hành vi vi phạm mà có thể không bảo vệ một phần hoặc toàn bộ quyền của họ, buộc bồi thường nếu gây thiệt hại và có thể áp dụng chế tài khác do luật quy định.",
+        "source": "vilqa_context",
+        "score": 245.06131971069982,
+        "metadata": {
+          "case_id": "vilqa-454",
+          "question": "Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, thì Toà án hoặc cơ quan có thẩm quyền khác có thể?",
+          "row_index": 454,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-460-context",
+        "text": "Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền\n\n1. Tòa án, cơ quan có thẩm quyền khác có trách nhiệm tôn trọng, bảo vệ quyền dân sự của cá nhân, pháp nhân.\n\nTrường hợp quyền dân sự bị xâm phạm hoặc có tranh chấp thì việc bảo vệ quyền được thực hiện theo pháp luật tố tụng tại Tòa án hoặc trọng tài.\n\nViệc bảo vệ quyền dân sự theo thủ tục hành chính được thực hiện trong trường hợp luật quy định. Quyết định giải quyết vụ việc theo thủ tục hành chính có thể được xem xét lại tại Tòa án.\n\n2. Tòa án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại Điều 5 và Điều 6 của Bộ luật này được áp dụng.",
+        "source": "vilqa_context",
+        "score": 133.6036156607796,
+        "metadata": {
+          "case_id": "vilqa-460",
+          "question": "Toà án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại điều mấy của Bộ luật dân sự 2015 được áp dụng?",
+          "row_index": 460,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-458-context",
+        "text": "Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền\n\n1. Tòa án, cơ quan có thẩm quyền khác có trách nhiệm tôn trọng, bảo vệ quyền dân sự của cá nhân, pháp nhân.\n\nTrường hợp quyền dân sự bị xâm phạm hoặc có tranh chấp thì việc bảo vệ quyền được thực hiện theo pháp luật tố tụng tại Tòa án hoặc trọng tài.\n\nViệc bảo vệ quyền dân sự theo thủ tục hành chính được thực hiện trong trường hợp luật quy định. Quyết định giải quyết vụ việc theo thủ tục hành chính có thể được xem xét lại tại Tòa án.\n\n2. Tòa án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại Điều 5 và Điều 6 của Bộ luật này được áp dụng.",
+        "source": "vilqa_context",
+        "score": 133.6036156607796,
+        "metadata": {
+          "case_id": "vilqa-458",
+          "question": "Theo Điều 14: Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền, trong Bộ luật dân sự 2015, toà án, cơ quan có thẩm quyền khác có trách nhiệm gì?",
+          "row_index": 458,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-455-context",
+        "text": "Các phương thức bảo vệ quyền dân sự\n\nKhi quyền dân sự của cá nhân, pháp nhân bị xâm phạm thì chủ thể đó có quyền tự bảo vệ theo quy định của Bộ luật này, luật khác có liên quan hoặc yêu cầu cơ quan, tổ chức có thẩm quyền:\n\n1. Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự của mình.\n\n2. Buộc chấm dứt hành vi xâm phạm.\n\n3. Buộc xin lỗi, cải chính công khai.\n\n4. Buộc thực hiện nghĩa vụ.\n\n5. Buộc bồi thường thiệt hại.\n\n6. Hủy quyết định cá biệt trái pháp luật của cơ quan, tổ chức, người có thẩm quyền.\n\n7. Yêu cầu khác theo quy định của luật.",
+        "source": "vilqa_context",
+        "score": 132.2968386169392,
+        "metadata": {
+          "case_id": "vilqa-455",
+          "question": "Liệt kê 7 phương thức bảo vệ quyền dân sự mà chủ thể có thể yêu cầu cơ quan, tổ chức có thẩm quyền khi bị xâm phạm trong Bộ luật dân sự 2015.",
+          "row_index": 455,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-452-context",
+        "text": "Thực hiện quyền dân sự\n\n1. Cá nhân, pháp nhân thực hiện quyền dân sự theo ý chí của mình, không được trái với quy định tại Điều 3 và Điều 10 của Bộ luật này.\n\n2. Việc cá nhân, pháp nhân không thực hiện quyền dân sự của mình không phải là căn cứ làm chấm dứt quyền, trừ trường hợp luật có quy định khác.",
+        "source": "vilqa_context",
+        "score": 123.04615247725472,
+        "metadata": {
+          "case_id": "vilqa-452",
+          "question": "Theo Điều 9: Thực hiện quyền dân sự, trong Bộ luật dân sự 2015, việc cá nhân, pháp nhân không thực hiện quyền dân sự của mình không phải là căn cứ làm chấm dứt quyền, trừ trường hợp nào?",
+          "row_index": 452,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Theo Điều 10 Bộ luật Dân sự 2015, cá nhân và pháp nhân bị cấm lạm dụng quyền dân sự để gây thiệt hại cho người khác, vi phạm nghĩa vụ của mình hoặc thực hiện mục đích trái pháp luật.\n- **Candidate final answer**: \"gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật\"\n- **Best supporting legal evidence**: `vilqa-454-context` (chứa toàn văn khoản 1 Điều 10 về giới hạn việc thực hiện quyền dân sự).\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng việc lạm dụng quyền chỉ bị cấm trong các trường hợp cụ thể đã nêu, còn các hành vi lạm dụng khác không nằm trong phạm vi điều chỉnh của điều luật này.\n- **Strategy for this round**: Tập trung trích dẫn nguyên văn khoản 1 Điều 10 từ",
+        "public_argument": "Theo khoản 1 Điều 10 Bộ luật Dân sự 2015, cá nhân và pháp nhân bị nghiêm cấm lạm dụng quyền dân sự để \"gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật\". Đây là giới hạn pháp lý rõ ràng nhằm ngăn chặn việc sử dụng quyền sai mục đích. Do đó, câu trả lời chính xác là: \"gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật\".",
+        "evidence_ids": [
+          "vilqa-454-context",
+          "vilqa-460-context",
+          "vilqa-458-context",
+          "vilqa-455-context",
+          "vilqa-452-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**:\n  The Proponent's argument relies entirely on a direct quote from Article 10, Paragraph 1 without addressing the critical nuance in Paragraph 2 regarding the *consequences* of such abuse. While the Proponent correctly identifies the prohibited acts, they fail to preempt the Opponent's likely challenge: \"Does the law prohibit *all* forms of abuse, or only those resulting in specific harms (damage to others, breach of obligations, illegal purposes)?\" The Proponent's answer is factually correct but lacks the strategic depth to explain that the *legal consequence* (non-protection of rights, compensation) is triggered specifically when these three conditions are met, potentially leaving room for the Opponent to argue about edge cases of \"abuse\" that don't fit these exact categories.\n\n- **Alternative answer or interpretation, if any**:\n  No alternative answer exists as the Proponent's quote is the verbatim",
+        "public_argument": "Câu trả lời của Proponent là chính xác. Theo Khoản 1 Điều 10 Bộ luật Dân sự 2015, cá nhân, pháp nhân không được lạm dụng quyền dân sự để: \"gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật\". Đây là các giới hạn pháp lý rõ ràng mà luật định.",
+        "evidence_ids": [
+          "vilqa-454-context",
+          "vilqa-460-context",
+          "vilqa-458-context",
+          "vilqa-455-context",
+          "vilqa-452-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật",
+        "confidence": 100.0,
+        "reasoning": "Câu hỏi yêu cầu liệt kê các hành vi bị cấm khi lạm dụng quyền dân sự theo Điều 10. Đoạn văn bản trong context (khoản 1) nêu rõ: 'không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật'. Đây là câu trả lời chính xác và đầy đủ nhất trích xuất trực tiếp từ ngữ cảnh."
+      }
+    ],
+    "verdict": {
+      "prediction": "gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật",
+      "answer": "gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật",
+      "confidence": 100.0,
+      "reasoning": "Khoản 1 Điều 10 Bộ luật Dân sự 2015 trong ngữ cảnh nêu rõ: 'Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật'. Đây là câu trả lời chính xác và đầy đủ nhất trích xuất trực tiếp từ văn bản.",
+      "cited_evidence_ids": [
+        "vilqa-454-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:24:24.728818+00:00"
+  }
+}

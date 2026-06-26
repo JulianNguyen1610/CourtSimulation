@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-40",
+    "case_type": "legal_qa",
+    "context": "Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới 3.000 cây.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tổ chức;\n\nb) Với số lượng 3.000 cây trở lên;\n\nc) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng.\n\n4. Người nào phạm tội thuộc khoản 1 Điều này, nhưng đã tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch, thì có thể được miễn trách nhiệm hình sự.",
+    "question": "Người trồng cây cần sa có tổ chức thì bị phạt tù từ bao lâu đến bao lâu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 40
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.9090909090909091,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

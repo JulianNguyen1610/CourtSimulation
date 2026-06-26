@@ -1,0 +1,153 @@
+{
+  "case": {
+    "case_id": "vilqa-437",
+    "case_type": "legal_qa",
+    "context": "Trách nhiệm của Bộ Quốc phòng\n\nBộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng trong phạm vi quản lý và có nhiệm vụ, quyền hạn sau đây:\n\n1. Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và hướng dẫn thi hành văn bản quy phạm pháp luật về an ninh mạng trong phạm vi quản lý;\n\n2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng trong phạm vi quản lý;\n\n3. Phòng ngừa, đấu tranh với các hoạt động sử dụng không gian mạng xâm phạm an ninh quốc gia trong phạm vi quản lý;\n\n4. Phối hợp với Bộ Công an tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng;\n\n5. Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật về an ninh mạng trong phạm vi quản lý.",
+    "question": "Bộ Quốc phòng và Bộ nào chịu trách nhiệm tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 437
+    }
+  },
+  "result": {
+    "case_id": "vilqa-437",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-435-context",
+        "text": "Trách nhiệm của Bộ Quốc phòng\n\nBộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng trong phạm vi quản lý và có nhiệm vụ, quyền hạn sau đây:\n\n1. Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và hướng dẫn thi hành văn bản quy phạm pháp luật về an ninh mạng trong phạm vi quản lý;\n\n2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng trong phạm vi quản lý;\n\n3. Phòng ngừa, đấu tranh với các hoạt động sử dụng không gian mạng xâm phạm an ninh quốc gia trong phạm vi quản lý;\n\n4. Phối hợp với Bộ Công an tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng;\n\n5. Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật về an ninh mạng trong phạm vi quản lý.",
+        "source": "vilqa_context",
+        "score": 555.5514422267039,
+        "metadata": {
+          "case_id": "vilqa-435",
+          "question": "Bộ nào chịu trách nhiệm xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng trong phạm vi quản lý?",
+          "row_index": 435,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-436-context",
+        "text": "Trách nhiệm của Bộ Quốc phòng\n\nBộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng trong phạm vi quản lý và có nhiệm vụ, quyền hạn sau đây:\n\n1. Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và hướng dẫn thi hành văn bản quy phạm pháp luật về an ninh mạng trong phạm vi quản lý;\n\n2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng trong phạm vi quản lý;\n\n3. Phòng ngừa, đấu tranh với các hoạt động sử dụng không gian mạng xâm phạm an ninh quốc gia trong phạm vi quản lý;\n\n4. Phối hợp với Bộ Công an tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng;\n\n5. Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật về an ninh mạng trong phạm vi quản lý.",
+        "source": "vilqa_context",
+        "score": 555.5514422267039,
+        "metadata": {
+          "case_id": "vilqa-436",
+          "question": "Bộ nào chịu trách nhiệm kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật về an ninh mạng trong phạm vi quản lý?",
+          "row_index": 436,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-428-context",
+        "text": "Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.\n\n2. Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được thực hiện trong trường hợp sau đây:\n\na) Khi đưa phương tiện điện tử, dịch vụ an toàn thông tin mạng vào sử dụng trong hệ thống thông tin;\n\nb) Khi có thay đổi hiện trạng hệ thống thông tin;\n\nc) Kiểm tra định kỳ hằng năm;\n\nd) Kiểm tra đột xuất khi xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; khi có yêu cầu quản lý nhà nước về an ninh mạng; khi hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng.\n\n3. Đối tượng kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Quy định, biện pháp bảo vệ an ninh mạng;\n\nc) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nd) Phương án ứng phó, khắc phục sự cố an ninh mạng của chủ quản hệ thống thông tin;\n\nđ) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật;\n\ne) Nhân lực bảo vệ an ninh mạng.\n\n4. Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm kiểm tra an ninh mạng đối với hệ thống thông tin thuộc phạm vi quản lý trong trường hợp quy định tại các điểm a, b và c khoản 2 Điều này; thông báo kết quả kiểm tra bằng văn bản trước tháng 10 hằng năm cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng đối với hệ thống thông tin quân sự.\n\n5. Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;\n\nb) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;\n\nc) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ hệ thống thông tin quân sự do Bộ Quốc phòng quản lý, hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước.\n\nLực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quân sự.\n\nBan Cơ yếu Chính phủ kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước;\n\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.",
+        "source": "vilqa_context",
+        "score": 391.0046996896367,
+        "metadata": {
+          "case_id": "vilqa-428",
+          "question": "Kết quả kiểm tra an ninh mạng được bảo mật hay công khai?",
+          "row_index": 428,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-387-context",
+        "text": "Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị ở trung ương và địa phương\n\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\n\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ, mạng máy tính có kết nối mạng Internet; phương án bảo đảm an ninh mạng đối với hệ thống thông tin; phương án ứng phó, khắc phục sự cố an ninh mạng;\n\nb) Ứng dụng, triển khai phương án, biện pháp, công nghệ bảo vệ an ninh mạng đối với hệ thống thông tin và thông tin, tài liệu được lưu trữ, soạn thảo, truyền đưa trên hệ thống thông tin thuộc phạm vi quản lý;\n\nc) Tổ chức bồi dưỡng kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động; nâng cao năng lực bảo vệ an ninh mạng cho lực lượng bảo vệ an ninh mạng;\n\nd) Bảo vệ an ninh mạng trong hoạt động cung cấp dịch vụ công trên không gian mạng, cung cấp, trao đổi, thu thập thông tin với cơ quan, tổ chức, cá nhân, chia sẻ thông tin trong nội bộ và với cơ quan khác hoặc trong hoạt động khác theo quy định của Chính phủ;\n\nđ) Đầu tư, xây dựng hạ tầng cơ sở vật chất phù hợp với điều kiện bảo đảm triển khai hoạt động bảo vệ an ninh mạng đối với hệ thống thông tin;\n\ne) Kiểm tra an ninh mạng đối với hệ thống thông tin; phòng, chống hành vi vi phạm pháp luật về an ninh mạng; ứng phó, khắc phục sự cố an ninh mạng.\n\n2. Người đứng đầu cơ quan, tổ chức có trách nhiệm triển khai hoạt động bảo vệ an ninh mạng thuộc quyền quản lý.",
+        "source": "vilqa_context",
+        "score": 359.6858994720018,
+        "metadata": {
+          "case_id": "vilqa-387",
+          "question": "Để đảm bảo an ninh mạng, cần phải có vấn đề gì đối với hệ thống thông tin ?",
+          "row_index": 387,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-389-context",
+        "text": "Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị ở trung ương và địa phương\n\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\n\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ, mạng máy tính có kết nối mạng Internet; phương án bảo đảm an ninh mạng đối với hệ thống thông tin; phương án ứng phó, khắc phục sự cố an ninh mạng;\n\nb) Ứng dụng, triển khai phương án, biện pháp, công nghệ bảo vệ an ninh mạng đối với hệ thống thông tin và thông tin, tài liệu được lưu trữ, soạn thảo, truyền đưa trên hệ thống thông tin thuộc phạm vi quản lý;\n\nc) Tổ chức bồi dưỡng kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động; nâng cao năng lực bảo vệ an ninh mạng cho lực lượng bảo vệ an ninh mạng;\n\nd) Bảo vệ an ninh mạng trong hoạt động cung cấp dịch vụ công trên không gian mạng, cung cấp, trao đổi, thu thập thông tin với cơ quan, tổ chức, cá nhân, chia sẻ thông tin trong nội bộ và với cơ quan khác hoặc trong hoạt động khác theo quy định của Chính phủ;\n\nđ) Đầu tư, xây dựng hạ tầng cơ sở vật chất phù hợp với điều kiện bảo đảm triển khai hoạt động bảo vệ an ninh mạng đối với hệ thống thông tin;\n\ne) Kiểm tra an ninh mạng đối với hệ thống thông tin; phòng, chống hành vi vi phạm pháp luật về an ninh mạng; ứng phó, khắc phục sự cố an ninh mạng.\n\n2. Người đứng đầu cơ quan, tổ chức có trách nhiệm triển khai hoạt động bảo vệ an ninh mạng thuộc quyền quản lý.",
+        "source": "vilqa_context",
+        "score": 359.6858994720018,
+        "metadata": {
+          "case_id": "vilqa-389",
+          "question": "Làm thế nào để nâng cao năng lực bảo vệ an ninh mạng cho người lao động?",
+          "row_index": 389,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe Ministry of National Defense (Bộ Quốc phòng) is the entity responsible for organizing cyber defense drills, but it must do so in coordination with the Ministry of Public Security (Bộ Công an). The question asks for \"Bộ nào\" (which Ministry/MoE), implying a need to identify the partner agency involved in this specific joint responsibility.\n\n**Candidate final answer**\nBộ Quốc phòng và Bộ Công an\n\n**Best supporting legal evidence**\nItem 4 of the provided context: \"Phối hợp với Bộ Công an tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng;\"\n\n**Anticipated opponent challenge**\nThe opponent may argue that the subject of the sentence is \"Bộ Quốc phòng\" and that \"Bộ Công an\" is merely the party being coordinated with,",
+        "public_argument": "Căn cứ khoản 4 về nhiệm vụ của Bộ Quốc phòng, cơ quan này có trách nhiệm \"Phối hợp với Bộ Công an tổ chức diễn tập phòng, chống tấn công mạng...\". Do đó, đáp án đúng là \"Bộ Quốc phòng và Bộ Công an\".",
+        "evidence_ids": [
+          "vilqa-435-context",
+          "vilqa-436-context",
+          "vilqa-428-context",
+          "vilqa-387-context",
+          "vilqa-389-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "**Strongest weakness in the Proponent's position**\nThe Proponent conflates the *subject* of the legal duty with the *partner* in the execution. The legal text explicitly assigns the responsibility (\"có nhiệm vụ... tổ chức\") to the Ministry of National Defense (Bộ Quốc phòng). The phrase \"Phối hợp với Bộ Công an\" describes the *method* or *condition* of execution (coordination), not a joint assignment of primary responsibility for the act of \"organizing\" in the grammatical sense of the question asking who bears the responsibility. By answering \"Bộ Quốc phòng và Bộ Công an,\" the Proponent incorrectly elevates the Ministry of Public Security to a co-primary subject of the specific duty listed in item 4, whereas the law frames it as the MoND's duty to coordinate *with* the MPS. The question asks who is responsible for organizing; the text says MoND is responsible (and must coordinate). It does not say \"MoND and",
+        "public_argument": "Lập luận của phe Đối phương mắc lỗi ngữ pháp và pháp lý cơ bản. Văn bản quy định rõ chủ thể thực hiện nhiệm vụ là \"Bộ Quốc phòng\". Cụm từ \"Phối hợp với Bộ Công an\" chỉ là phương thức thực hiện (phối hợp), không làm thay đổi chủ thể chịu trách nhiệm chính là Bộ Quốc phòng.\n\nCâu hỏi yêu cầu xác định cơ quan chịu trách nhiệm tổ chức. Theo khoản 4, Bộ Quốc phòng là đơn vị có nhiệm vụ tổ chức (thông qua phối hợp). Việc liệt kê Bộ Công an vào đáp án như một chủ thể đồng chịu trách nhiệm tổ chức là sai, vì Bộ Công an chỉ là đối tác phối hợp, không phải là chủ thể của nhiệm vụ \"tổ chức\" được nêu trong câu. Do đó, đáp án chính xác và đầy đủ nhất chỉ là Bộ Quốc phòng.\n\nĐáp án: Bộ Quốc phòng",
+        "evidence_ids": [
+          "vilqa-435-context",
+          "vilqa-436-context",
+          "vilqa-428-context",
+          "vilqa-387-context",
+          "vilqa-389-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Bộ Quốc phòng và Bộ Công an",
+        "confidence": 95.0,
+        "reasoning": "Context explicitly states in item 4 that the Ministry of National Defense 'Phối hợp với Bộ Công an' (cooperates with the Ministry of Public Security) to organize these exercises. The question asks for the entities responsible for organizing the exercises, and the text identifies both ministries as the actors involved in this specific task."
+      }
+    ],
+    "verdict": {
+      "prediction": "Bộ Quốc phòng và Bộ Công an",
+      "answer": "Bộ Quốc phòng và Bộ Công an",
+      "confidence": 95.0,
+      "reasoning": "Căn cứ khoản 4 trong văn bản, Bộ Quốc phòng có nhiệm vụ 'Phối hợp với Bộ Công an tổ chức diễn tập...'. Câu hỏi yêu cầu xác định các bộ chịu trách nhiệm tổ chức, và văn bản quy định rõ sự phối hợp giữa Bộ Quốc phòng và Bộ Công an cho hoạt động này. Do đó, cả hai bộ đều là các chủ thể tham gia thực hiện nhiệm vụ được nêu.",
+      "cited_evidence_ids": [
+        "vilqa-435-context",
+        "vilqa-436-context",
+        "vilqa-428-context",
+        "vilqa-387-context",
+        "vilqa-389-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.6,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:40:56.986319+00:00"
+  }
+}

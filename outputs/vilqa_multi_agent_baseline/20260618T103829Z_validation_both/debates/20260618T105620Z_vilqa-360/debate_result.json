@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-360",
+    "case_type": "legal_qa",
+    "context": "Quản chế\n\nQuản chế là buộc người bị kết án phạt tù phải cư trú, làm ăn sinh sống và cải tạo ở một địa phương nhất định dưới sự kiểm soát, giáo dục của chính quyền và nhân dân địa phương. Trong thời gian quản chế, người bị kết án không được tự ý ra khỏi nơi cư trú, bị tước một số quyền công dân theo quy định tại Điều 44 của Bộ luật này và bị cấm hành nghề hoặc làm công việc nhất định.\n\nQuản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định.\n\nThời hạn quản chế là từ 01 năm đến 05 năm, kể từ ngày chấp hành xong hình phạt tù.",
+    "question": "Quản chế được áp dụng đối với ai?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 360
+    }
+  },
+  "result": {
+    "case_id": "vilqa-360",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-361-context",
+        "text": "Quản chế\n\nQuản chế là buộc người bị kết án phạt tù phải cư trú, làm ăn sinh sống và cải tạo ở một địa phương nhất định dưới sự kiểm soát, giáo dục của chính quyền và nhân dân địa phương. Trong thời gian quản chế, người bị kết án không được tự ý ra khỏi nơi cư trú, bị tước một số quyền công dân theo quy định tại Điều 44 của Bộ luật này và bị cấm hành nghề hoặc làm công việc nhất định.\n\nQuản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định.\n\nThời hạn quản chế là từ 01 năm đến 05 năm, kể từ ngày chấp hành xong hình phạt tù.",
+        "source": "vilqa_context",
+        "score": 302.1638282030868,
+        "metadata": {
+          "case_id": "vilqa-361",
+          "question": "Thời hạn quản chế là từ bao nhiêu đến bao nhiêu năm?",
+          "row_index": 361,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-5-context",
+        "text": "Cấm cư trú\n\nCấm cư trú là buộc người bị kết án phạt tù không được tạm trú hoặc thường trú ở một số địa phương nhất định.\n\nThời hạn cấm cư trú là từ 01 năm đến 05 năm, kể từ ngày chấp hành xong hình phạt tù.",
+        "source": "vilqa_context",
+        "score": 140.00780051662218,
+        "metadata": {
+          "case_id": "vilqa-5",
+          "question": "Thời hạn cấm cư trú là từ bao nhiêu đến bao nhiêu năm, kể từ ngày chấp hành xong hình phạt tù?",
+          "row_index": 5,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-76-context",
+        "text": "Các hình phạt đối với người phạm tội\n\n1. Hình phạt chính bao gồm:\n\na) Cảnh cáo;\n\nb) Phạt tiền;\n\nc) Cải tạo không giam giữ;\n\nd) Trục xuất;\n\nđ) Tù có thời hạn;\n\ne) Tù chung thân;\n\ng) Tử hình.\n\n2. Hình phạt bổ sung bao gồm:\n\na) Cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định;\n\nb) Cấm cư trú;\n\nc) Quản chế;\n\nd) Tước một số quyền công dân;\n\nđ) Tịch thu tài sản;\n\ne) Phạt tiền, khi không áp dụng là hình phạt chính;\n\ng) Trục xuất, khi không áp dụng là hình phạt chính.\n\n3. Đối với mỗi tội phạm, người phạm tội chỉ bị áp dụng một hình phạt chính và có thể bị áp dụng một hoặc một số hình phạt bổ sung.",
+        "source": "vilqa_context",
+        "score": 138.21634386049524,
+        "metadata": {
+          "case_id": "vilqa-76",
+          "question": "Đối với mỗi tội phạm, người phạm tội chỉ bị áp dụng mấy hình phạt chính?",
+          "row_index": 76,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-522-context",
+        "text": "Quản lý người sử dụng trái phép chất ma túy\n\n1. Quản lý người sử dụng trái phép chất ma túy là biện pháp phòng ngừa nhằm giúp người sử dụng trái phép chất ma túy không tiếp tục sử dụng trái phép chất ma túy, phòng ngừa các hành vi vi phạm pháp luật của họ.\n\nQuản lý người sử dụng trái phép chất ma túy không phải là biện pháp xử lý hành chính.\n\n2. Thời hạn quản lý người sử dụng trái phép chất ma túy là 01 năm kể từ ngày Chủ tịch Ủy ban nhân dân cấp xã ra quyết định quản lý.\n\n3. Nội dung quản lý người sử dụng trái phép chất ma túy bao gồm:\n\na) Tư vấn, động viên, giáo dục, giúp đỡ người sử dụng trái phép chất ma túy để họ không tiếp tục sử dụng trái phép chất ma túy;\n\nb) Xét nghiệm chất ma túy trong cơ thể;\n\nc) Ngăn chặn người sử dụng trái phép chất ma túy có hành vi gây mất trật tự, an toàn xã hội.\n\n4. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được kết quả xét nghiệm dương tính của người cư trú tại địa phương, Chủ tịch Ủy ban nhân dân cấp xã có trách nhiệm ra quyết định và tổ chức quản lý người sử dụng trái phép chất ma túy cư trú tại địa phương.\n\n5. Trong thời hạn quản lý, Chủ tịch Ủy ban nhân dân cấp xã ra quyết định dừng quản lý người sử dụng trái phép chất ma túy trong các trường hợp sau đây:\n\na) Người sử dụng trái phép chất ma túy được xác định là người nghiện ma túy;\n\nb) Người sử dụng trái phép chất ma túy bị áp dụng biện pháp xử lý hành chính giáo dục tại xã, phường, thị trấn do có hành vi sử dụng trái phép chất ma túy;\n\nc) Người sử dụng trái phép chất ma túy bị áp dụng biện pháp xử lý hành chính đưa vào cơ sở giáo dục bắt buộc, đưa vào trường giáo dưỡng;\n\nd) Người sử dụng trái phép chất ma túy phải thi hành án phạt tù;\n\nđ) Người sử dụng trái phép chất ma túy trong danh sách quản lý chết, bị Tòa án tuyên bố là mất tích.\n\n6. Chính phủ quy định chi tiết Điều này.",
+        "source": "vilqa_context",
+        "score": 124.06732612667221,
+        "metadata": {
+          "case_id": "vilqa-522",
+          "question": "Thời hạn quản lý người sử dụng trái phép chất ma túy là bao lâu kể từ ngày Chủ tịch Ủy ban nhân dân cấp xã, phường ra quyết định quản lý?",
+          "row_index": 522,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-37-context",
+        "text": "Tội phá thai trái phép\n\n1. Người nào thực hiện việc phá thai trái phép cho người khác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc bị phạt tù từ 01 năm đến 03 năm:\n\na) Làm chết 01 người hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Đã bị xử lý kỷ luật, xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên.\n\n4. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.\n\nÐiều 317. Tội vi phạm quy định về vệ sinh an toàn thực phẩm\n\n1. Người nào thực hiện một trong các hành vi sau đây vi phạm các quy định về an toàn thực phẩm, thì bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Sử dụng chất cấm trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm hoặc bán, cung cấp thực phẩm mà biết rõ là thực phẩm có sử dụng chất cấm;\n\nb) Sử dụng hóa chất, kháng sinh, thuốc thú y, thuốc bảo vệ thực vật cấm sử dụng trong trồng trọt, chăn nuôi, nuôi trồng thủy sản, làm muối, sơ chế, chế biến, bảo quản nông, lâm, thủy sản và muối tạo ra dư lượng vượt ngưỡng cho phép trong sản phẩm;\n\nc) Sử dụng các loại hóa chất, kháng sinh, thuốc thú y, thuốc bảo vệ thực vật, chất xử lý cải tạo môi trường ngoài danh mục được phép sử dụng hoặc không rõ nguồn gốc xuất xứ hoặc không đúng quy định trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm trong trồng trọt, chăn nuôi, nuôi trồng thủy sản, làm muối tạo ra dư lượng vượt ngưỡng cho phép trong sản phẩm hoặc đã bị xử phạt vi phạm hành chính về một trong các hành vi tại điểm này hoặc điểm a khoản này mà còn vi phạm;\n\nd) Chế biến, cung cấp hoặc bán thực phẩm mà biết rõ là thực phẩm không bảo đảm quy chuẩn kỹ thuật, quy định về an toàn thực phẩm; sử dụng hóa chất, phụ gia, chất hỗ trợ chế biến ngoài danh mục được phép sử dụng hoặc không rõ nguồn gốc xuất xứ trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm: gây tổn hại cho sức khỏe của 01 người mà tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60% hoặc thu lợi bất chính từ 50.000.000 đồng đến 100.000.000 đồng.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 200.000.000 đồng đến 500.000.000 đồng hoặc phạt tù 03 năm đến 07 năm:\n\na) Phạm tội có tổ chức;\n\nb) Làm chết 01 người hoặc gây tổn hại sức khỏe cho 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nd) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%.\n\nđ) Thu lợi bất chính từ 100.000.000 đồng đến dưới 500.000.000 đồng;\n\ne) Phạm tội 02 lần trở lên;\n\ng) Tái phạm nguy hiểm.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Làm chết 02 người;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Thu lợi bất chính từ 500.000.000 đồng đến dưới 1.000.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 12 năm đến 20 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây tổn hại cho sức khỏe của 03 người trở lên với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Thu lợi bất chính 1.000.000.000 đồng trở lên.\n\n5. Người phạm tội còn có thể bị phạt tiền từ 20.000.000 đồng đến 100.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 117.15524135727011,
+        "metadata": {
+          "case_id": "vilqa-37",
+          "question": "Người thực hiện việc phá thai trái phép cho người khác dẫn đến làm chết 03 người trở lên thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 37,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: Quản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định.\n\nCandidate Final Answer: Người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định. (Quản chế được áp dụng đối với ai?)\n\nBest Supporting Legal Evidence: Quản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định.\n\nAnticipated Opponent Challenge: Đối phương có thể tranh luận rằng quản chế không chỉ áp dụng cho người phạm tội xâm phạm an ninh quốc gia và người tái phạm nguy hiểm mà còn áp dụng cho các trường hợp khác theo quy định của Bộ luật.\n\nStrategy for this Round: Chú trọng vào việc làm rõ khái niệm về \"quản chế\" và những",
+        "public_argument": "Quản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định.",
+        "evidence_ids": [
+          "vilqa-361-context",
+          "vilqa-5-context",
+          "vilqa-76-context",
+          "vilqa-522-context",
+          "vilqa-37-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest Weakness in the Proponent's Position:\nThe proponent's claim that quản chế is only applied to người phạm tội xâm phạm an ninh quốc gia and người tái phạm nguy hiểm may be too narrow. The law states that quản chế can also be applied in other cases as specified by the Bộ luật.\n\nAlternative Answer or Interpretation:\nQuản chế có thể được áp dụng đối với cả người phạm tội xâm phạm an ninh quốc gia và người tái phạm nguy hiểm, cũng như trong những trường hợp khác theo quy định của Bộ luật.\n\nEvidence Needed to Support the Challenge:\n- Điều 44 của Bộ luật hình sự có quy định về quyền và nghĩa vụ của người bị kết án phạt tù.\n- Các văn bản pháp luật liên quan đến quản chế, chẳng hạn như Nghị định 38/2019/NĐ-CP hướng dẫn thi hành một số điều của Luật Hình sự về biện pháp xử lý đặc biệt đối với người phạm tội xâm phạm an ninh quốc gia.",
+        "public_argument": "Đối phương cho rằng quản chế chỉ áp dụng cho người phạm tội xâm phạm an ninh quốc gia và người tái phạm nguy hiểm là quá hẹp. Theo pháp luật, ngoài hai trường hợp này, quản chế còn có thể được áp dụng trong các trường hợp khác theo quy định của Bộ luật.",
+        "evidence_ids": [
+          "vilqa-361-context",
+          "vilqa-5-context",
+          "vilqa-76-context",
+          "vilqa-522-context",
+          "vilqa-37-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Quản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định.",
+        "confidence": 100.0,
+        "reasoning": "Doanh trình cho biết quản chế được áp dụng cho ba nhóm đối tượng: người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm và các trường hợp khác theo quy định của Bộ luật. Đối phương chỉ đề cập đến hai nhóm đầu tiên nên đánh giá của tôi là đúng."
+      }
+    ],
+    "verdict": {
+      "prediction": "Người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định.",
+      "answer": "Quản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định",
+      "confidence": 100.0,
+      "reasoning": "Doanh trình cho biết quản chế được áp dụng cho ba nhóm đối tượng: người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm và các trường hợp khác theo quy định của Bộ luật. Đối phương chỉ đề cập đến hai nhóm đầu tiên nên đánh giá của tôi là đúng.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.8813559322033898,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T10:56:20.307834+00:00"
+  }
+}

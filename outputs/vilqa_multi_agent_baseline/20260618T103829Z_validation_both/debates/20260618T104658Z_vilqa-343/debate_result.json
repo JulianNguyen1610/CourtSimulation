@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-343",
+    "case_type": "legal_qa",
+    "context": "Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh\n\n1. Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Có tổ chức;\n\nb) Gây thiệt hại 500.000.000 đồng trở lên;\n\nc) Tái phạm nguy hiểm.",
+    "question": "Sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 343
+    }
+  },
+  "result": {
+    "case_id": "vilqa-343",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-341-context",
+        "text": "Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh\n\n1. Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Có tổ chức;\n\nb) Gây thiệt hại 500.000.000 đồng trở lên;\n\nc) Tái phạm nguy hiểm.",
+        "source": "vilqa_context",
+        "score": 610.6352704827765,
+        "metadata": {
+          "case_id": "vilqa-341",
+          "question": "Sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại bao nhiêu thì bị phạt?",
+          "row_index": 341,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-344-context",
+        "text": "Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh\n\n1. Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Có tổ chức;\n\nb) Gây thiệt hại 500.000.000 đồng trở lên;\n\nc) Tái phạm nguy hiểm.",
+        "source": "vilqa_context",
+        "score": 610.6352704827765,
+        "metadata": {
+          "case_id": "vilqa-344",
+          "question": "Sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác, đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm thì bị phạt tiền như thế nào?",
+          "row_index": 344,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-345-context",
+        "text": "Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh\n\n1. Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Có tổ chức;\n\nb) Gây thiệt hại 500.000.000 đồng trở lên;\n\nc) Tái phạm nguy hiểm.",
+        "source": "vilqa_context",
+        "score": 610.6352704827765,
+        "metadata": {
+          "case_id": "vilqa-345",
+          "question": "Người sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác, nếu tái phạm nguy hiểm thì bị phạt tù tối thiểu bao nhiêu năm?",
+          "row_index": 345,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-342-context",
+        "text": "Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh\n\n1. Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng hoặc đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Có tổ chức;\n\nb) Gây thiệt hại 500.000.000 đồng trở lên;\n\nc) Tái phạm nguy hiểm.",
+        "source": "vilqa_context",
+        "score": 610.6352704827765,
+        "metadata": {
+          "case_id": "vilqa-342",
+          "question": "Sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại bao nhiêu thì bị phạt tù lên đến 05 năm?",
+          "row_index": 342,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-308-context",
+        "text": "Tội cố ý làm trái quy định về phân phối tiền, hàng cứu trợ\n\n1. Người nào lợi dụng chức vụ, quyền hạn cố ý làm trái những quy định về phân phối tiền, hàng cứu trợ gây thiệt hại hoặc thất thoát tiền, hàng cứu trợ từ 100.000.000 đồng đến dưới 300.000.000 đồng, thì bị phạt cảnh cáo, phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 200.000.000 đồng đến 1.000.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Có tổ chức;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Gây thiệt hại hoặc thất thoát tiền, hàng cứu trợ 300.000.000 đồng trở lên;\n\nd) Gây ảnh hưởng xấu về an ninh, trật tự, an toàn xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 305.85285462434484,
+        "metadata": {
+          "case_id": "vilqa-308",
+          "question": "Người gây thiệt hại hoặc thất thoát tiền, hàng cứu trợ có giá trị bao nhiêu trở lên thì bị phạt tiền từ 200.000.000 đồng đến 1.000.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm?",
+          "row_index": 308,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt tiền.\n\nCandidate final answer: Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc cải tạo không giam giữ đến 03 năm.\n\nBest supporting legal evidence: Tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm",
+        "public_argument": "Đáp án đề xuất: Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc cải tạo không giam giữ đến 03 năm.\n\nLời giải: Theo quy định tại điểm 1 của tội danh này, người phạm tội sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000",
+        "evidence_ids": [
+          "vilqa-341-context",
+          "vilqa-344-context",
+          "vilqa-345-context",
+          "vilqa-342-context",
+          "vilqa-308-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\n\nThe Proponent's argument relies on the assumption that using the frequency band for purposes other than rescue, safety, search and rescue, emergency, national defense, and security will result in financial losses between 200,000,000 VND and 500,000,000 VND. However, this assumption may not be accurate as it does not take into account other factors that could affect the outcome of such actions.\n\nAlternative answer or interpretation:\n\nThe Proponent's argument is based on a narrow perspective that only considers financial losses in determining the appropriate penalty for misuse of frequency bands. However, there could be other consequences and considerations that should also be taken into account when assessing penalties for such offenses.\n\nEvidence needed to support the challenge:\n\nTo strengthen the position of the Opponent agent, it would be helpful to have evidence that shows how the use of frequency bands for purposes other than rescue, safety, search and rescue, emergency, national defense, and security can",
+        "public_argument": "Chúng ta cần xem xét toàn diện các yếu tố ảnh hưởng đến hậu quả của việc sử dụng tần số vô tuyến điện không đúng mục đích. Không chỉ có thiệt hại tài chính mà còn có thể có những hậu quả khác, và chúng ta cần tính đến tất cả các yếu tố đó khi đánh giá mức phạt cho tội phạm này.",
+        "evidence_ids": [
+          "vilqa-341-context",
+          "vilqa-344-context",
+          "vilqa-345-context",
+          "vilqa-342-context",
+          "vilqa-308-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc cải tạ...",
+        "confidence": 100.0,
+        "reasoning": "Đáp án đề xuất nêu rõ mức phạt đối với hành vi sử dụng trái phép tần số vô tuyến điện."
+      }
+    ],
+    "verdict": {
+      "prediction": "Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc cải tạo không giam giữ đến 03 năm.",
+      "answer": "Người nào sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc cải tạo không giam giữ đến 03 năm",
+      "confidence": 100.0,
+      "reasoning": "Đáp án đề xuất nêu rõ mức phạt đối với hành vi sử dụng trái phép tần số vô tuyến điện.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.41975308641975306,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T10:46:58.294613+00:00"
+  }
+}

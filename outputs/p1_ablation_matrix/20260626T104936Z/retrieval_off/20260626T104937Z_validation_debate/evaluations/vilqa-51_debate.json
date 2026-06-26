@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-51",
+    "case_type": "legal_qa",
+    "context": "Phạm tội chưa đạt\n\nPhạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nNgười phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.",
+    "question": "Phạm tội chưa đạt là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 51
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

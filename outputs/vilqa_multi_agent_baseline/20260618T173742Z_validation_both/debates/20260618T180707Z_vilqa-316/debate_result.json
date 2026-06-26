@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-316",
+    "case_type": "legal_qa",
+    "context": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+    "question": "Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối thiểu bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 316
+    }
+  },
+  "result": {
+    "case_id": "vilqa-316",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-315-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 293.722780026011,
+        "metadata": {
+          "case_id": "vilqa-315",
+          "question": "Trong khu vực có chiến sự, nếu cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng thì bị phạt như thế nào?",
+          "row_index": 315,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-317-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 293.722780026011,
+        "metadata": {
+          "case_id": "vilqa-317",
+          "question": "Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 317,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-314-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 293.722780026011,
+        "metadata": {
+          "case_id": "vilqa-314",
+          "question": "Trong tình trạng khẩn cấp, cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng thì bị phạt như thế nào?",
+          "row_index": 314,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-12-context",
+        "text": "Tội vi phạm quy định về trực ban, trực chiến, trực chỉ huy\n\n1. Người nào không chấp hành nghiêm chỉnh chế độ trực ban, trực chiến, trực chỉ huy gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong khi thực hiện nhiệm vụ cứu hộ, cứu nạn;\n\nd) Trong tình trạng khẩn cấp;\n\nđ) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 216.15309619931102,
+        "metadata": {
+          "case_id": "vilqa-12",
+          "question": "Người không chấp hành nghiêm chỉnh chế độ trực ban, trực chiến, trực chỉ huy gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng, thì bị phạt tù từ bao nhiêu đến bao nhiêu năm?",
+          "row_index": 12,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-313-context",
+        "text": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 200.33622525945626,
+        "metadata": {
+          "case_id": "vilqa-313",
+          "question": "Làm mất tài liệu bí mật công tác quân sự trong khu vực có chiến sự thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 313,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Hành vi cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng khi xảy ra trong tình huống \"Trong chiến đấu\" thuộc trường hợp tăng nặng hình phạt quy định tại khoản 2 của Điều liên quan.\n- **Candidate final answer**: \"phạt tù từ 02 năm đến 07 năm\"\n- **Best supporting legal evidence**: `vilqa-315-context` (hoặc `vilqa-317-context`), cụ thể là đoạn văn bản: \"2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm: a) Trong chiến đấu;\"\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng câu hỏi chỉ hỏi về mức phạt cơ bản (khoản 1) hoặc nhầm lẫn giữa \"cải tạo không giam giữ\" và \"phạt tù\", hoặc cố tình bỏ qua điều kiện",
+        "public_argument": "Hành vi cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng khi xảy ra trong tình huống \"Trong chiến đấu\" thuộc trường hợp tăng nặng hình phạt quy định tại khoản 2 của Điều liên quan. Cụ thể, văn bản nêu rõ: \"Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm: a) Trong chiến đấu;\". Do đó, mức phạt tù tối thiểu là 02 năm.\n\nphạt tù từ 02 năm đến 07 năm",
+        "evidence_ids": [
+          "vilqa-315-context",
+          "vilqa-317-context",
+          "vilqa-314-context",
+          "vilqa-12-context",
+          "vilqa-313-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent correctly identifies the applicable penalty range (\"02 năm đến 07 năm\") but fails to explicitly address the potential ambiguity regarding the term \"hoạt động quân sự\" (military activity) versus \"hoạt động chiến đấu\" (combat activity). While the law groups them, a strict legal interpretation might argue that \"combat\" is a subset, and the Proponent should clarify that the specific scenario of \"combat\" automatically triggers the aggravated clause without needing separate proof of \"military activity\" beyond that context. Additionally, the Proponent does not explicitly rule out the possibility of the penalty being \"cải tạo không giam giữ\" (non-custodial reform) if the circumstances don't meet the strict definition of \"gây hậu quả nghiêm trọng\" combined with \"trong chiến đấu\" in a way that mandates imprisonment, though the text implies imprisonment for these aggravated cases. The main gap is the lack of a",
+        "public_argument": "Proponent đúng về khung hình phạt \"phạt tù từ 02 năm đến 07 năm\" theo khoản 2. Tuy nhiên, cần làm rõ: câu hỏi hỏi mức phạt *tối thiểu* trong trường hợp *chiến đấu*. Dù khung chung là 02-07 năm, nhưng nếu hậu quả chỉ ở mức \"nghiêm trọng\" (không phải \"rất nghiêm trọng\"), việc áp dụng khoản 2 (chiến đấu) vẫn giữ nguyên khung này. Do đó, mức tối thiểu chính xác là **02 năm**. Không có cơ sở để giảm xuống mức cải tạo không giam giữ khi đã có tình tiết tăng nặng \"trong chiến đấu\".",
+        "evidence_ids": [
+          "vilqa-315-context",
+          "vilqa-317-context",
+          "vilqa-314-context",
+          "vilqa-12-context",
+          "vilqa-313-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "02 năm",
+        "confidence": 100.0,
+        "reasoning": "Theo khoản 2 của Điều luật trong ngữ cảnh, trường hợp 'Trong chiến đấu' bị phạt tù từ 02 năm đến 07 năm, do đó mức phạt tối thiểu là 02 năm."
+      }
+    ],
+    "verdict": {
+      "prediction": "02 năm",
+      "answer": "02 năm",
+      "confidence": 100.0,
+      "reasoning": "Theo khoản 2 của văn bản, trường hợp phạm tội trong chiến đấu bị phạt tù từ 02 năm đến 07 năm. Mức phạt tối thiểu trong khung này là 02 năm.",
+      "cited_evidence_ids": [
+        "vilqa-315-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T18:07:07.361544+00:00"
+  }
+}

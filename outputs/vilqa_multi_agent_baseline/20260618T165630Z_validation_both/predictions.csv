@@ -1,0 +1,291 @@
+case_id,split,method,question,gold_answer,predicted_answer,exact_match,f1,output_path
+vilqa-112,validation,direct,Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?,"người đang chiếm hữu, sử dụng, quản lý di sản","{
+  ""prediction"": ""Người đang chiếm hữu, sử dụng, quản lý di sản"",
+  ""answer"": ""Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản."",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly states in clause 2 that if the will does not designate an estate administrator and the heirs have not yet appointed",0.0,0.18867924528301885,
+vilqa-112,validation,debate,Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?,"người đang chiếm hữu, sử dụng, quản lý di sản","người đang chiếm hữu, sử dụng, quản lý di sản",1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T165711Z_vilqa-112/debate_result.json
+vilqa-285,validation,direct,Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?,100.000.000 đồng đến dưới 500.000.000 đồng,"{
+  ""prediction"": ""từ 100.000.000 đồng đến dưới 500.000.000 đồng"",
+  ""answer"": ""từ 100.000.000 đồng đến dưới 500.000.000 đồng"",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly states in clause 1 that causing damage to another's property valued from 100,000,000 VND to under 500,0",0.0,0.2666666666666667,
+vilqa-285,validation,debate,Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?,100.000.000 đồng đến dưới 500.000.000 đồng,từ 100.000.000 đồng đến dưới 500.000.000 đồng,0.0,0.923076923076923,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T165748Z_vilqa-285/debate_result.json
+vilqa-352,validation,direct,"Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền tối đa bao nhiêu?",100.000.000 đồng,"{
+  ""prediction"": ""100.000.000 đồng"",
+  ""answer"": ""phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng"",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly states in clause 1 that individuals who have been administratively punished or sentenced for this offense and reoffend without having their record expunged are subject to a fine ranging from 10,000,000 to 10",0.0,0.07547169811320754,
+vilqa-352,validation,debate,"Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền tối đa bao nhiêu?",100.000.000 đồng,100.000.000 đồng,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T165829Z_vilqa-352/debate_result.json
+vilqa-327,validation,direct,Người cung cấp hoặc thu thập nhằm cung cấp bí mật nhà nước cho nước ngoài bị phạt như thế nào?,"phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình","{
+  ""prediction"": ""Bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình."",
+  ""answer"": ""Cung cấp hoặc thu thập nhằm cung cấp bí mật Nhà nước cho nước ngoài; thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam. thì bị phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình"",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly lists 'Cung",0.0,0.288659793814433,
+vilqa-327,validation,debate,Người cung cấp hoặc thu thập nhằm cung cấp bí mật nhà nước cho nước ngoài bị phạt như thế nào?,"phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình","phạt tù từ 12 năm đến 20 năm, tù chung thân hoặc tử hình",1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T165902Z_vilqa-327/debate_result.json
+vilqa-138,validation,direct,Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động phải bố trí ngày nghỉ ra sao?,01 tháng ít nhất 04 ngày,"{
+  ""prediction"": ""Người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày."",
+  ""answer"": ""Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày."",
+  ""confidence"": 100,
+  ""reasoning"": ""Câu trả lời được trích xuất trực tiếp từ khoản 1 của văn bản cung cấp, nơi quy định cụ",0.0,0.12371134020618557,
+vilqa-138,validation,debate,Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động phải bố trí ngày nghỉ ra sao?,01 tháng ít nhất 04 ngày,01 tháng ít nhất 04 ngày,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T165937Z_vilqa-138/debate_result.json
+vilqa-470,validation,direct,"Theo Bộ luật dân sự 2015, người chưa thành niên là người như thế nào?",người chưa đủ mười tám tuổi.,Người chưa thành niên là người chưa đủ mười tám tuổi.,0.0,0.7058823529411764,
+vilqa-470,validation,debate,"Theo Bộ luật dân sự 2015, người chưa thành niên là người như thế nào?",người chưa đủ mười tám tuổi.,người chưa đủ mười tám tuổi,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170008Z_vilqa-470/debate_result.json
+vilqa-236,validation,direct,"Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ?",01 tháng,"Sau 01 tháng, kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ.",0.0,0.11764705882352941,
+vilqa-236,validation,debate,"Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ?",01 tháng,Sau 01 tháng,0.0,0.8,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170039Z_vilqa-236/debate_result.json
+vilqa-447,validation,direct,"Theo Bộ luật dân sự 2015, trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều 6 của Bộ luật này thì phải áp dụng như thế nào?","áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng.","{
+  ""prediction"": ""Áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng."",
+  ""answer"": ""áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng"",
+  ""confidence"": 100,
+  ""reasoning"": ""Context explicitly states in point 2 that if similar law application is not possible, one must apply the basic principles of civil law in Article 3, precedents, and fairness.",0.0,0.46428571428571425,
+vilqa-447,validation,debate,"Theo Bộ luật dân sự 2015, trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều 6 của Bộ luật này thì phải áp dụng như thế nào?","áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng.","áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng",1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170118Z_vilqa-447/debate_result.json
+vilqa-125,validation,direct,Người lao động được tạm tứng tiền và không bị tính lãi theo điều kiện nào?,do hai bên thỏa thuận,Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.,0.0,0.3846153846153846,
+vilqa-125,validation,debate,Người lao động được tạm tứng tiền và không bị tính lãi theo điều kiện nào?,do hai bên thỏa thuận,do hai bên thỏa thuận,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170151Z_vilqa-125/debate_result.json
+vilqa-482,validation,direct,"Mô tả quyền được khai sinh, khai tử theo Bộ luật dân sự 2015.","1. Cá nhân từ khi sinh ra có quyền được khai sinh.
+
+2. Cá nhân chết phải được khai tử.
+
+3. Trẻ em sinh ra mà sống được từ hai mươi bốn giờ trở lên mới chết thì phải được khai sinh và khai tử; nếu sinh ra mà sống dưới hai mươi bốn giờ thì không phải khai sinh và khai tử, trừ trường hợp cha đẻ, mẹ đẻ có yêu cầu.
+
+4. Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.","{
+  ""prediction"": ""Quyền được khai sinh, khai tử được quy định tại Điều 10 của Luật Hộ tịch (pháp luật về hộ tịch), không phải Bộ luật Dân sự 2015."",
+  ""answer"": ""Việc khai sinh, khai tử do pháp luật về hộ tịch quy định."",
+  ""confidence"": 95,
+  ""reasoning"": ""Context explicitly states that birth and death registration are governed by 'pháp luật về hộ tịch' (law on household registration), not the Civil Code 2015. The provided text lists specific rules for registration",0.0,0.2650602409638554,
+vilqa-482,validation,debate,"Mô tả quyền được khai sinh, khai tử theo Bộ luật dân sự 2015.","1. Cá nhân từ khi sinh ra có quyền được khai sinh.
+
+2. Cá nhân chết phải được khai tử.
+
+3. Trẻ em sinh ra mà sống được từ hai mươi bốn giờ trở lên mới chết thì phải được khai sinh và khai tử; nếu sinh ra mà sống dưới hai mươi bốn giờ thì không phải khai sinh và khai tử, trừ trường hợp cha đẻ, mẹ đẻ có yêu cầu.
+
+4. Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.","Việc khai sinh, khai tử do pháp luật về hộ tịch quy định",0.0,0.26000000000000006,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170238Z_vilqa-482/debate_result.json
+vilqa-273,validation,direct,Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải làm gì?,thông báo bằng văn bản và phải được bên kia đồng ý,phải thông báo bằng văn bản và phải được bên kia đồng ý,0.0,0.9600000000000001,
+vilqa-273,validation,debate,Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải làm gì?,thông báo bằng văn bản và phải được bên kia đồng ý,phải thông báo bằng văn bản và phải được bên kia đồng ý,0.0,0.9600000000000001,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170312Z_vilqa-273/debate_result.json
+vilqa-87,validation,direct,Bên mua chịu rủi ro từ thời điểm nào khi tài sản trong hợp đồng mua bán phải đăng ký quyền sở hữu theo quy định của pháp luật?,kể từ thời điểm hoàn thành thủ tục đăng ký,bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký,0.0,0.8,
+vilqa-87,validation,debate,Bên mua chịu rủi ro từ thời điểm nào khi tài sản trong hợp đồng mua bán phải đăng ký quyền sở hữu theo quy định của pháp luật?,kể từ thời điểm hoàn thành thủ tục đăng ký,bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký,0.0,0.8,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170342Z_vilqa-87/debate_result.json
+vilqa-450,validation,direct,"Theo Bộ luật dân sự 2015, hãy liệt kê 9 căn cứ xác lập nên Quyền dân sự.","1. Hợp đồng.
+
+2. Hành vi pháp lý đơn phương.
+
+3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.
+
+4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.
+
+5. Chiếm hữu tài sản.
+
+6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.
+
+7. Bị thiệt hại do hành vi trái pháp luật.
+
+8. Thực hiện công việc không có ủy quyền.
+
+9. Căn cứ khác do pháp luật quy định.","{
+  ""prediction"": ""Theo Bộ luật dân sự 2015, các căn cứ xác lập quyền dân sự bao gồm: Hợp đồng; Hành vi pháp lý đơn phương; Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật; Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ; Chiếm hữu tài sản; Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật; Bị thiệt hại do hành vi trái pháp luật; Thực hiện công việc không có ủy quyền; Căn",0.0,0.8571428571428572,
+vilqa-450,validation,debate,"Theo Bộ luật dân sự 2015, hãy liệt kê 9 căn cứ xác lập nên Quyền dân sự.","1. Hợp đồng.
+
+2. Hành vi pháp lý đơn phương.
+
+3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.
+
+4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.
+
+5. Chiếm hữu tài sản.
+
+6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.
+
+7. Bị thiệt hại do hành vi trái pháp luật.
+
+8. Thực hiện công việc không có ủy quyền.
+
+9. Căn cứ khác do pháp luật quy định.","1. Hợp đồng.
+
+2. Hành vi pháp lý đơn phương.
+
+3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.
+
+4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.
+
+5. Chiếm hữu tài sản.
+
+6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.
+
+7. Bị thiệt hại do hành vi trái pháp luật.
+
+8. Thực hiện công việc không có ủy quyền.
+
+9. Căn cứ khác do pháp luật quy định",1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170432Z_vilqa-450/debate_result.json
+vilqa-311,validation,direct,Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự thì bị hình phạt nào?,phạt tù từ 01 năm đến 05 năm,bị phạt tù từ 01 năm đến 05 năm,0.0,0.9411764705882353,
+vilqa-311,validation,debate,Chỉ huy hoặc sĩ quan làm mất tài liệu bí mật công tác quân sự thì bị hình phạt nào?,phạt tù từ 01 năm đến 05 năm,b) Là chỉ huy hoặc sỹ quan;,0.0,0.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170504Z_vilqa-311/debate_result.json
+vilqa-36,validation,direct,"Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến bao lâu?",03 năm,phạt cải tạo không giam giữ đến 03 năm,0.0,0.3636363636363636,
+vilqa-36,validation,debate,"Người nào dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến bao lâu?",03 năm,03 năm,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170542Z_vilqa-36/debate_result.json
+vilqa-331,validation,direct,"Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa bao nhiêu năm tù?",15 năm,bị phạt tù từ 07 năm đến 15 năm,0.0,0.3636363636363636,
+vilqa-331,validation,debate,"Lợi dụng chức vụ, quyền hạn để cho thuê, cho mượn địa điểm hoặc có bất kỳ hành vi nào khác chứa chấp việc sử dụng trái phép chất ma túy có thể bị phạt tối đa bao nhiêu năm tù?",15 năm,bị phạt tù từ 07 năm đến 15 năm,0.0,0.3636363636363636,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170615Z_vilqa-331/debate_result.json
+vilqa-349,validation,direct,"Người nào chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối thiểu bao nhiêu năm?",01 năm,"Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.",0.0,0.2222222222222222,
+vilqa-349,validation,debate,"Người nào chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối thiểu bao nhiêu năm?",01 năm,01 năm,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170646Z_vilqa-349/debate_result.json
+vilqa-359,validation,direct,"Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong trường hợp khó khăn đặc biệt khác của xã hội thì bị phạt tù tối đa bao nhiêu năm?",07 năm,bị phạt tù từ 02 năm đến 07 năm,0.0,0.3636363636363636,
+vilqa-359,validation,debate,"Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong trường hợp khó khăn đặc biệt khác của xã hội thì bị phạt tù tối đa bao nhiêu năm?",07 năm,02 năm đến 07 năm,0.0,0.5714285714285715,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170721Z_vilqa-359/debate_result.json
+vilqa-136,validation,direct,Người lao dộng làm việc từ 6 giờ trở lên vào ban ngày thì được nghỉ ít nhất trong bao lâu?,ít nhất 30 phút liên tục,được nghỉ giữa giờ ít nhất 30 phút liên tục,0.0,0.7499999999999999,
+vilqa-136,validation,debate,Người lao dộng làm việc từ 6 giờ trở lên vào ban ngày thì được nghỉ ít nhất trong bao lâu?,ít nhất 30 phút liên tục,ít nhất 30 phút liên tục,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170754Z_vilqa-136/debate_result.json
+vilqa-343,validation,direct,"Sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt như thế nào?",phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm,"{
+  ""prediction"": ""Bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm."",
+  ""answer"": ""thì bị phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm"",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly states in clause 1 that",0.0,0.5142857142857142,
+vilqa-343,validation,debate,"Sử dụng trái phép tần số vô tuyến điện dành riêng cho mục đích cấp cứu, an toàn, tìm kiếm, cứu hộ, cứu nạn, quốc phòng, an ninh vào mục đích khác gây thiệt hại từ 200.000.000 đồng đến dưới 500.000.000 đồng thì bị phạt như thế nào?",phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm,50.000.000 đồng đến 100.000.000 đồng,0.0,0.4347826086956522,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170843Z_vilqa-343/debate_result.json
+vilqa-107,validation,direct,Trả thưởng như thế nào nếu nhiều người cùng cộng tác để hoàn thành công việc được hứa thưởng?,mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình,"{
+  ""prediction"": ""Mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình."",
+  ""answer"": ""Trường hợp nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng do người hứa thưởng yêu cầu thì mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình."",
+  ""confidence"": 100,
+  ""reasoning"": ""Câu trả lời được trích xuất trực tiếp từ điểm 4 trong ngữ cảnh pháp lý, nơi quy định cụ thể về việc chia phần thưởng khi nhiều người cùng cộng tác theo yêu cầu của người",0.0,0.29565217391304344,
+vilqa-107,validation,debate,Trả thưởng như thế nào nếu nhiều người cùng cộng tác để hoàn thành công việc được hứa thưởng?,mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình,mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170913Z_vilqa-107/debate_result.json
+vilqa-181,validation,direct,"Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào?",ngày tiếp theo liền kề của ngày xảy ra sự kiện đó,Khi thời hạn bắt đầu bằng một sự kiện thì ngày xảy ra sự kiện không được tính mà tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó.,0.0,0.5333333333333333,
+vilqa-181,validation,debate,"Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào?",ngày tiếp theo liền kề của ngày xảy ra sự kiện đó,khi thời hạn bắt đầu bằng một sự kiện thì ngày xảy ra sự kiện không được tính mà tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó,0.0,0.5333333333333333,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T170946Z_vilqa-181/debate_result.json
+vilqa-189,validation,direct,"Việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản được gọi là gì?",Chiếm hữu,"{
+  ""prediction"": ""Chiếm hữu"",
+  ""answer"": ""Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản."",
+  ""confidence"": 100,
+  ""reasoning"": ""Câu hỏi mô tả định nghĩa của 'chiếm hữu' được nêu rõ trong câu 1 của ngữ cảnh pháp lý: 'Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản.'
+""
+}",0.0,0.047058823529411764,
+vilqa-189,validation,debate,"Việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản được gọi là gì?",Chiếm hữu,"Chiếm hữu là việc chủ thể nắm giữ, chi phối tài sản một cách trực tiếp hoặc gián tiếp như chủ thể có quyền đối với tài sản",0.0,0.13333333333333333,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171020Z_vilqa-189/debate_result.json
+vilqa-83,validation,direct,Bên mua có quyền gì khi bên bán giao số lượng tài sản nhiều hơn đã thoả thuận?,quyền nhận hoặc không nhận phần dôi ra,"{
+  ""prediction"": ""Bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác."",
+  ""answer"": ""Trường hợp bên bán giao tài sản với số lượng nhiều hơn số lượng đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác."",
+  ""confidence"": 100,",0.0,0.15384615384615385,
+vilqa-83,validation,debate,Bên mua có quyền gì khi bên bán giao số lượng tài sản nhiều hơn đã thoả thuận?,quyền nhận hoặc không nhận phần dôi ra,bên mua có quyền nhận hoặc không nhận phần dôi ra,0.0,0.8421052631578948,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171055Z_vilqa-83/debate_result.json
+vilqa-186,validation,direct,"Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền bề mặt và quyền nào?",Quyền hưởng dụng,"{
+  ""prediction"": ""quyền hưởng dụng"",
+  ""answer"": ""Quyền khác đối với tài sản bao gồm: a) Quyền đối với bất động sản liền kề; b) Quyền hưởng dụng; c) Quyền bề mặt."",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly lists the components of 'Quyền khác đối với tài sản' as: a) Quyền đối với bất động sản liền kề, b) Quyền hưởng dụng, and c) Quyền bề mặt. The question asks for the third right besides the first two mentioned, which corresponds to '",0.0,0.07228915662650602,
+vilqa-186,validation,debate,"Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền bề mặt và quyền nào?",Quyền hưởng dụng,Quyền hưởng dụng,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171127Z_vilqa-186/debate_result.json
+vilqa-427,validation,direct,Kiểm tra an ninh mạng là gì?,"Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.","{
+  ""prediction"": ""Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin."",
+  ""answer"": ""Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc",0.0,0.8306010928961748,
+vilqa-427,validation,debate,Kiểm tra an ninh mạng là gì?,"Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.","Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin",1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171215Z_vilqa-427/debate_result.json
+vilqa-325,validation,direct,"Thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam bị hình phạt cao nhất là gì?",tử hình,tù chung thân hoặc tử hình,0.0,0.5,
+vilqa-325,validation,debate,"Thu thập, cung cấp tin tức, tài liệu khác nhằm mục đích để nước ngoài sử dụng chống nước Cộng hòa xã hội chủ nghĩa Việt Nam bị hình phạt cao nhất là gì?",tử hình,tù chung thân hoặc tử hình,0.0,0.5,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171248Z_vilqa-325/debate_result.json
+vilqa-232,validation,direct,Sau bao lâu kể từ ngày thông báo công khai về gia súc không phải gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc thuộc về người bắt được gia súc?,06 tháng,"Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.",0.0,0.07692307692307693,
+vilqa-232,validation,debate,Sau bao lâu kể từ ngày thông báo công khai về gia súc không phải gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc thuộc về người bắt được gia súc?,06 tháng,06 tháng,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171324Z_vilqa-232/debate_result.json
+vilqa-499,validation,direct,"Theo Bộ luật Dân sự năm 2015, một tổ chức được công nhận là pháp nhân trong trường hợp nào sau đây?","Một tổ chức được công nhận là pháp nhân khi có đủ các điều kiện sau đây:
+
+a) Được thành lập theo quy định của Bộ luật này, luật khác có liên quan;
+
+b) Có cơ cấu tổ chức theo quy định tại Điều 83 của Bộ luật này;
+
+c) Có tài sản độc lập với cá nhân, pháp nhân khác và tự chịu trách nhiệm bằng tài sản của mình;
+
+d) Nhân danh mình tham gia quan hệ pháp luật một cách độc lập.","{
+  ""prediction"": ""Một tổ chức được công nhận là pháp nhân khi có đủ các điều kiện: được thành lập theo quy định, có cơ cấu tổ chức theo Điều 83, có tài sản độc lập và tự chịu trách nhiệm bằng tài sản của mình, nhân danh mình tham gia quan hệ pháp luật một cách độc lập."",
+  ""answer"": ""Một tổ chức được công nhận là pháp nhân khi có đủ các điều kiện sau đây: a) Được thành lập theo quy định của Bộ luật này, luật khác có liên quan; b) Có cơ cấu tổ chức theo quy định tại Điều 8",0.0,0.7936507936507936,
+vilqa-499,validation,debate,"Theo Bộ luật Dân sự năm 2015, một tổ chức được công nhận là pháp nhân trong trường hợp nào sau đây?","Một tổ chức được công nhận là pháp nhân khi có đủ các điều kiện sau đây:
+
+a) Được thành lập theo quy định của Bộ luật này, luật khác có liên quan;
+
+b) Có cơ cấu tổ chức theo quy định tại Điều 83 của Bộ luật này;
+
+c) Có tài sản độc lập với cá nhân, pháp nhân khác và tự chịu trách nhiệm bằng tài sản của mình;
+
+d) Nhân danh mình tham gia quan hệ pháp luật một cách độc lập.","Được thành lập theo quy định của Bộ luật này, luật khác có liên quan",0.0,0.3,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171403Z_vilqa-499/debate_result.json
+vilqa-491,validation,direct,"Theo Điều 36, Bộ luật dân sự 2015, cá nhân đã thực hiện việc xác định lại giới tính có các quyền và nghĩa vụ như thế nào?",đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan.,"{
+  ""prediction"": ""Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan."",
+  ""answer"": ""Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này",0.0,0.5526315789473685,
+vilqa-491,validation,debate,"Theo Điều 36, Bộ luật dân sự 2015, cá nhân đã thực hiện việc xác định lại giới tính có các quyền và nghĩa vụ như thế nào?",đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan.,"Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan",0.0,0.8484848484848484,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171440Z_vilqa-491/debate_result.json
+vilqa-51,validation,direct,Phạm tội chưa đạt là gì?,cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội,"{
+  ""prediction"": ""Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội."",
+  ""answer"": ""Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội."",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly defines 'Phạm tội chưa đạt' as 'cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người",0.0,0.4067796610169491,
+vilqa-51,validation,debate,Phạm tội chưa đạt là gì?,cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội,Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội,0.0,0.9056603773584906,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171514Z_vilqa-51/debate_result.json
+vilqa-443,validation,direct,"Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, quyền dân sự có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì các lý do nào?","quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.","{
+  ""prediction"": ""quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng"",
+  ""answer"": ""quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng"",
+  ""confidence"": 100,
+  ""reasoning"": ""Câu trả lời được trích xuất trực tiếp từ điểm 2 của văn bản ngữ cảnh, liệt",0.0,0.3925233644859813,
+vilqa-443,validation,debate,"Theo Bộ luật dân sự 2015, ở nước Cộng hoà xã hội chủ nghĩa Việt Nam, quyền dân sự có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì các lý do nào?","quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng.","quyền dân sự chỉ có thể bị hạn chế theo quy định của luật trong trường hợp cần thiết vì lý do quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, đạo đức xã hội, sức khỏe của cộng đồng",0.0,0.65625,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171549Z_vilqa-443/debate_result.json
+vilqa-119,validation,direct,Di chúc có hiệu lực khi nào?,từ thời điểm mở thừa kế,Di chúc có hiệu lực từ thời điểm mở thừa kế.,0.0,0.7058823529411764,
+vilqa-119,validation,debate,Di chúc có hiệu lực khi nào?,từ thời điểm mở thừa kế,Di chúc có hiệu lực từ thời điểm mở thừa kế,0.0,0.7058823529411764,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171619Z_vilqa-119/debate_result.json
+vilqa-437,validation,direct,"Bộ Quốc phòng và Bộ nào chịu trách nhiệm tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng?",Bộ Công an,"{
+  ""prediction"": ""Bộ Quốc phòng và Bộ Công an"",
+  ""answer"": ""Phối hợp với Bộ Công an tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng"",
+  ""confidence"": 100,
+  ""reasoning"": ""Dựa trên điểm 4 trong văn bản quy định trách nhiệm của Bộ Quốc phòng, nêu rõ việc phối hợp với Bộ Công an để tổ chức diễn tập và triển",0.0,0.0625,
+vilqa-437,validation,debate,"Bộ Quốc phòng và Bộ nào chịu trách nhiệm tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng?",Bộ Công an,Bộ Công an,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171649Z_vilqa-437/debate_result.json
+vilqa-476,validation,direct,"Theo Điều 25, Bộ luật dân sự 2015, quyền nhân thân là gì?","quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.","{
+  ""prediction"": ""Quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác."",
+  ""answer"": ""Quyền nhân thân được quy định trong Bộ luật này là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác."",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly defines 'Quyền nhân thân' in the first sentence of the provided text, stating it is a civil right",0.0,0.4576271186440678,
+vilqa-476,validation,debate,"Theo Điều 25, Bộ luật dân sự 2015, quyền nhân thân là gì?","quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác.","Quyền nhân thân được quy định trong Bộ luật này là quyền dân sự gắn liền với mỗi cá nhân, không thể chuyển giao cho người khác, trừ trường hợp luật khác có liên quan quy định khác",0.0,0.8307692307692308,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171725Z_vilqa-476/debate_result.json
+vilqa-148,validation,direct,Sau bao lâu thì nội quy lao động có hiệu lực sau khi cơ quan nhà nước có thẩm quyền nhận đầy đủ hồ sơ đăng ký?,15 ngày,"{
+  ""prediction"": ""15 ngày"",
+  ""answer"": ""Hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của Bộ luật này nhận được đầy đủ hồ sơ đăng ký nội quy lao động."",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly states that the labor regulations become effective 15 days after the competent state authority receives the complete registration dossier.
+""
+}",0.0,0.059701492537313446,
+vilqa-148,validation,debate,Sau bao lâu thì nội quy lao động có hiệu lực sau khi cơ quan nhà nước có thẩm quyền nhận đầy đủ hồ sơ đăng ký?,15 ngày,15 ngày,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171759Z_vilqa-148/debate_result.json
+vilqa-395,validation,direct,Doanh nghiệp cần làm gì khi có người dùng đăng ký tài khoản số?,Xác thực thông tin,"{
+  ""prediction"": ""Doanh nghiệp cần xác thực thông tin khi người dùng đăng ký tài khoản số."",
+  ""answer"": ""Xác thực thông tin khi người dùng đăng ký tài khoản số"",
+  ""confidence"": 100,
+  ""reasoning"": ""Dựa trên khoản 2, điểm a của văn bản quy định: Doanh nghiệp cung cấp dịch vụ trên không gian mạng có trách nhiệm 'Xác thực thông tin khi người dùng đăng ký tài khoản số'.
+""
+}",0.0,0.1111111111111111,
+vilqa-395,validation,debate,Doanh nghiệp cần làm gì khi có người dùng đăng ký tài khoản số?,Xác thực thông tin,"Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng",0.0,0.32,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171833Z_vilqa-395/debate_result.json
+vilqa-116,validation,direct,Di chúc của công dân Việt Nam đang ở nước ngoài cần điều kiện gì để có giá trị như di chúc được công chứng?,"có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó","{
+  ""prediction"": ""Di chúc của công dân Việt Nam đang ở nước ngoài có giá trị như di chúc được công chứng nếu có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó."",
+  ""answer"": ""Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó."",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly lists condition 5: 'Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự",0.0,0.3008849557522124,
+vilqa-116,validation,debate,Di chúc của công dân Việt Nam đang ở nước ngoài cần điều kiện gì để có giá trị như di chúc được công chứng?,"có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó","Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó",0.0,0.7555555555555554,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171906Z_vilqa-116/debate_result.json
+vilqa-338,validation,direct,Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tiền tối thiểu bao nhiêu?,100.000.000 đồng,"{
+  ""prediction"": ""100.000.000 đồng"",
+  ""answer"": ""phạt tiền từ 100.000.000 đồng đến 300.000.000 đồng"",
+  ""confidence"": 100,
+  ""reasoning"": ""The text explicitly states in clause 1 that the penalty for violating aviation regulations is a fine from 100.000.000 đồng to 300.000.000 đồng or imprisonment from 03 months",0.0,0.08888888888888888,
+vilqa-338,validation,debate,Điều khiển tàu bay vào hoặc ra khỏi Việt Nam mà vi phạm quy định về hàng không của nước Cộng hòa xã hội chủ nghĩa Việt Nam có thể bị phạt tiền tối thiểu bao nhiêu?,100.000.000 đồng,100.000.000 đồng,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T171943Z_vilqa-338/debate_result.json
+vilqa-23,validation,direct,"Người chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt cải tạo không giam giữ đến bao lâu?",02 năm,phạt cải tạo không giam giữ đến 02 năm,0.0,0.3636363636363636,
+vilqa-23,validation,debate,"Người chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt cải tạo không giam giữ đến bao lâu?",02 năm,02 năm,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172018Z_vilqa-23/debate_result.json
+vilqa-35,validation,direct,Người phạm tội đánh bạc còn có thể bị phạt tiền từ bao nhiêu đến bao nhiêu?,từ 10.000.000 đồng đến 50.000.000 đồng,"{
+  ""prediction"": ""Người phạm tội đánh bạc còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng."",
+  ""answer"": ""phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng"",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly states in paragraph 3: 'Người phạm tội còn có thể bị phạt tiền từ 10.000.00",0.0,0.2222222222222222,
+vilqa-35,validation,debate,Người phạm tội đánh bạc còn có thể bị phạt tiền từ bao nhiêu đến bao nhiêu?,từ 10.000.000 đồng đến 50.000.000 đồng,từ 10.000.000 đồng đến 50.000.000 đồng,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172057Z_vilqa-35/debate_result.json
+vilqa-360,validation,direct,Quản chế được áp dụng đối với ai?,"người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định","{
+  ""prediction"": ""Quản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định."",
+  ""answer"": ""Quản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định."",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly states: 'Quản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái",0.0,0.43697478991596633,
+vilqa-360,validation,debate,Quản chế được áp dụng đối với ai?,"người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định","người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định",1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172135Z_vilqa-360/debate_result.json
+vilqa-98,validation,direct,Nếu các bên không có thoả thuận về thời hạn trả tiền thuê và không thể xác định được thời hạn theo tập quán nơi trả tiền thì khi nào bên thuê cần trả tiền?,khi trả lại tài sản thuê,nếu không thể xác định được thời hạn theo tập quán thì bên thuê phải trả tiền khi trả lại tài sản thuê,0.0,0.41379310344827586,
+vilqa-98,validation,debate,Nếu các bên không có thoả thuận về thời hạn trả tiền thuê và không thể xác định được thời hạn theo tập quán nơi trả tiền thì khi nào bên thuê cần trả tiền?,khi trả lại tài sản thuê,bên thuê phải trả tiền khi trả lại tài sản thuê,0.0,0.7058823529411764,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172209Z_vilqa-98/debate_result.json
+vilqa-295,validation,direct,Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá bao nhiêu phần của mức tiền phạt mà điều luật quy định?,một phần hai,không quá một phần hai mức tiền phạt mà điều luật quy định,0.0,0.375,
+vilqa-295,validation,debate,Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá bao nhiêu phần của mức tiền phạt mà điều luật quy định?,một phần hai,một phần hai mức tiền phạt mà điều luật quy định,0.0,0.42857142857142855,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172239Z_vilqa-295/debate_result.json
+vilqa-185,validation,direct,"Quyền khác đối với tài sản bao gồm quyền hưởng dụng, quyền bề mặt và quyền nào?",Quyền đối với bất động sản liền kề,"{
+  ""prediction"": ""Quyền đối với bất động sản liền kề"",
+  ""answer"": ""Quyền khác đối với tài sản bao gồm: a) Quyền đối với bất động sản liền kề; b) Quyền hưởng dụng; c) Quyền bề mặt."",
+  ""confidence"": 100,
+  ""reasoning"": ""The context explicitly lists the components of 'Quyền khác đối với tài sản' in point 2, which includes 'Quyền đối với bất động sản liền kề', 'Quyền hưởng dụng', and 'Quyền bề mặt'. The question asks for the third right besides",0.0,0.18390804597701146,
+vilqa-185,validation,debate,"Quyền khác đối với tài sản bao gồm quyền hưởng dụng, quyền bề mặt và quyền nào?",Quyền đối với bất động sản liền kề,Quyền đối với bất động sản liền kề,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172313Z_vilqa-185/debate_result.json
+vilqa-441,validation,direct,"Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn bao nhiêu tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật An ninh mạng 2018?",12 tháng,trong thời hạn 12 tháng kể từ ngày được bổ sung,0.0,0.3076923076923077,
+vilqa-441,validation,debate,"Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn bao nhiêu tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật An ninh mạng 2018?",12 tháng,12 tháng,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172349Z_vilqa-441/debate_result.json
+vilqa-453,validation,direct,"Theo Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình để?","gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.","Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.",0.0,0.7719298245614035,
+vilqa-453,validation,debate,"Theo Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình để?","gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.","gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật",1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172424Z_vilqa-453/debate_result.json
+vilqa-316,validation,direct,Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối thiểu bao nhiêu năm?,02 năm,b) Trong chiến đấu;,0.0,0.0,
+vilqa-316,validation,debate,Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối thiểu bao nhiêu năm?,02 năm,02 năm,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172453Z_vilqa-316/debate_result.json
+vilqa-321,validation,direct,"Làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ bao nhiêu trở lên thì bị phạt tù từ 02 năm đến 07 năm?",2.000.000.000 đồng trở lên,Thu lợi bất chính 2.000.000.000 đồng trở lên,0.0,0.6666666666666666,
+vilqa-321,validation,debate,"Làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ bao nhiêu trở lên thì bị phạt tù từ 02 năm đến 07 năm?",2.000.000.000 đồng trở lên,Thu lợi bất chính 2.000.000.000 đồng trở lên;,0.0,0.6666666666666666,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172528Z_vilqa-321/debate_result.json
+vilqa-424,validation,direct,Đơn vị nào thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ?,Ban Cơ yếu Chính phủ,Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.,0.0,0.3448275862068966,
+vilqa-424,validation,debate,Đơn vị nào thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ?,Ban Cơ yếu Chính phủ,Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ,0.0,0.3448275862068966,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172600Z_vilqa-424/debate_result.json
+vilqa-150,validation,direct,Không được kỷ luật đối với người mắc bệnh gì?,bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình,"{
+  ""prediction"": ""Không được kỷ luật đối với người mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình."",
+  ""answer"": ""Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình."",
+  ""confidence"": 100,
+  ""reasoning"": ""Câu trả lời được trích xuất trực tiếp từ Khoản 5 của văn bản pháp lý cung cấp, quy định rõ",0.0,0.3636363636363636,
+vilqa-150,validation,debate,Không được kỷ luật đối với người mắc bệnh gì?,bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình,bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi,0.0,0.9523809523809523,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172635Z_vilqa-150/debate_result.json
+vilqa-282,validation,direct,Điền vào ...: Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận ... mức lương tối thiểu?,không thấp hơn,tiền lương ngừng việc được thỏa thuận không thấp hơn mức lương tối thiểu,0.0,0.35294117647058826,
+vilqa-282,validation,debate,Điền vào ...: Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận ... mức lương tối thiểu?,không thấp hơn,không thấp hơn mức lương tối thiểu,0.0,0.6,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172705Z_vilqa-282/debate_result.json
+vilqa-40,validation,direct,Người trồng cây cần sa có tổ chức thì bị phạt tù từ bao lâu đến bao lâu?,từ 03 năm đến 07 năm,"Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm: a) Có tổ chức",0.0,0.4,
+vilqa-40,validation,debate,Người trồng cây cần sa có tổ chức thì bị phạt tù từ bao lâu đến bao lâu?,từ 03 năm đến 07 năm,từ 03 năm đến 07 năm,1.0,1.0,outputs/vilqa_multi_agent_baseline/20260618T165630Z_validation_both/debates/20260618T172738Z_vilqa-40/debate_result.json

@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-23",
+    "case_type": "legal_qa",
+    "context": "Tội chiếm đoạt, mua bán, tiêu hủy con dấu, tài liệu của cơ quan, tổ chức\n\n1. Người nào chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 05 năm:\n\na) Có tổ chức;\n\nb) Thu lợi bất chính 10.000.000 đồng trở lên;\n\nc) Thực hiện hành vi trái pháp luật;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 20.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+    "question": "Người chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt cải tạo không giam giữ đến bao lâu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 23
+    }
+  },
+  "result": {
+    "case_id": "vilqa-23",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-320-context",
+        "text": "Tội làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán\n\n1. Người nào làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ 1.000.000.000 đồng đến dưới 2.000.000.000 đồng hoặc gây thiệt hại cho nhà đầu tư từ 1.500.000.000 đồng đến dưới 3.000.000.000 đồng, thì bị phạt tiền từ 500.000.000 đồng đến 2.000.000.000 đồng hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 2.000.000.000 đồng đến 5.000.000.000 đồng hoặc phạt tù từ 02 năm đến 07 năm:\n\na) Thu lợi bất chính 2.000.000.000 đồng trở lên;\n\nb) Gây thiệt hại cho nhà đầu tư 3.000.000.000 đồng trở lên;\n\nc) Có tổ chức;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 250.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 282.25295532156713,
+        "metadata": {
+          "case_id": "vilqa-320",
+          "question": "Người đã từng làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính, nếu tái phạm nguy hiểm thì bị phạt như thế nào?",
+          "row_index": 320,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-305-context",
+        "text": "Tội tổ chức mang thai hộ vì mục đích thương mại\n\n1. Người nào tổ chức mang thai hộ vì mục đích thương mại, thì bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Đối với 02 người trở lên;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Lợi dụng danh nghĩa của cơ quan, tổ chức;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 279.61837167588493,
+        "metadata": {
+          "case_id": "vilqa-305",
+          "question": "Người phạm tội mang thai hộ vì mục đích thương mại mà tái phạm nguy hiểm, thì bị phạt tù từ bao nhiêu năm?",
+          "row_index": 305,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-18-context",
+        "text": "Tội lạm quyền trong khi thi hành công vụ\n\n1. Người nào vì vụ lợi hoặc động cơ cá nhân khác mà vượt quá quyền hạn của mình làm trái công vụ gây thiệt hại về tài sản từ 10.000.000 đồng đến dưới 100.000.000 đồng hoặc gây thiệt hại đến lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân, thì bị phạt tù từ 01 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 05 năm đến 10 năm:\n\na) Có tổ chức;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng, thì bị phạt tù từ 10 năm đến 15 năm.\n\n4. Phạm tội gây thiệt hại về tài sản 1.500.000.000 đồng trở lên, thì bị phạt tù từ 15 năm đến 20 năm.\n\n5. Người phạm tội còn bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 253.64796918465044,
+        "metadata": {
+          "case_id": "vilqa-18",
+          "question": "Người phạm tội lạm quyền trong khi thi hành công vụ còn có thể bị phạt tiền từ bao nhiêu đến bao nhiêu tiền?",
+          "row_index": 18,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-17-context",
+        "text": "Tội lạm quyền trong khi thi hành công vụ\n\n1. Người nào vì vụ lợi hoặc động cơ cá nhân khác mà vượt quá quyền hạn của mình làm trái công vụ gây thiệt hại về tài sản từ 10.000.000 đồng đến dưới 100.000.000 đồng hoặc gây thiệt hại đến lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân, thì bị phạt tù từ 01 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 05 năm đến 10 năm:\n\na) Có tổ chức;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng, thì bị phạt tù từ 10 năm đến 15 năm.\n\n4. Phạm tội gây thiệt hại về tài sản 1.500.000.000 đồng trở lên, thì bị phạt tù từ 15 năm đến 20 năm.\n\n5. Người phạm tội còn bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 253.64796918465044,
+        "metadata": {
+          "case_id": "vilqa-17",
+          "question": "Người phạm tội lạm quyền trong khi thi hành công vụ còn bị cấm đảm nhiệm chức vụ nhất định từ bao nhiêu đến bao nhiêu năm?",
+          "row_index": 17,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-37-context",
+        "text": "Tội phá thai trái phép\n\n1. Người nào thực hiện việc phá thai trái phép cho người khác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc bị phạt tù từ 01 năm đến 03 năm:\n\na) Làm chết 01 người hoặc gây tổn hại cho sức khỏe của 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%;\n\nd) Đã bị xử lý kỷ luật, xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Làm chết 02 người;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây tổn hại cho sức khỏe của 03 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên.\n\n4. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.\n\nÐiều 317. Tội vi phạm quy định về vệ sinh an toàn thực phẩm\n\n1. Người nào thực hiện một trong các hành vi sau đây vi phạm các quy định về an toàn thực phẩm, thì bị phạt tiền từ 50.000.000 đồng đến 200.000.000 đồng hoặc phạt tù từ 01 năm đến 05 năm:\n\na) Sử dụng chất cấm trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm hoặc bán, cung cấp thực phẩm mà biết rõ là thực phẩm có sử dụng chất cấm;\n\nb) Sử dụng hóa chất, kháng sinh, thuốc thú y, thuốc bảo vệ thực vật cấm sử dụng trong trồng trọt, chăn nuôi, nuôi trồng thủy sản, làm muối, sơ chế, chế biến, bảo quản nông, lâm, thủy sản và muối tạo ra dư lượng vượt ngưỡng cho phép trong sản phẩm;\n\nc) Sử dụng các loại hóa chất, kháng sinh, thuốc thú y, thuốc bảo vệ thực vật, chất xử lý cải tạo môi trường ngoài danh mục được phép sử dụng hoặc không rõ nguồn gốc xuất xứ hoặc không đúng quy định trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm trong trồng trọt, chăn nuôi, nuôi trồng thủy sản, làm muối tạo ra dư lượng vượt ngưỡng cho phép trong sản phẩm hoặc đã bị xử phạt vi phạm hành chính về một trong các hành vi tại điểm này hoặc điểm a khoản này mà còn vi phạm;\n\nd) Chế biến, cung cấp hoặc bán thực phẩm mà biết rõ là thực phẩm không bảo đảm quy chuẩn kỹ thuật, quy định về an toàn thực phẩm; sử dụng hóa chất, phụ gia, chất hỗ trợ chế biến ngoài danh mục được phép sử dụng hoặc không rõ nguồn gốc xuất xứ trong sản xuất, sơ chế, chế biến, bảo quản thực phẩm: gây tổn hại cho sức khỏe của 01 người mà tỷ lệ tổn thương cơ thể từ 31% đến 60% hoặc gây tổn hại cho sức khỏe của 02 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 31% đến 60% hoặc thu lợi bất chính từ 50.000.000 đồng đến 100.000.000 đồng.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 200.000.000 đồng đến 500.000.000 đồng hoặc phạt tù 03 năm đến 07 năm:\n\na) Phạm tội có tổ chức;\n\nb) Làm chết 01 người hoặc gây tổn hại sức khỏe cho 01 người với tỷ lệ tổn thương cơ thể 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người từ 31% đến 60%;\n\nd) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 61% đến 121%.\n\nđ) Thu lợi bất chính từ 100.000.000 đồng đến dưới 500.000.000 đồng;\n\ne) Phạm tội 02 lần trở lên;\n\ng) Tái phạm nguy hiểm.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Làm chết 02 người;\n\nb) Gây tổn hại cho sức khỏe của 02 người với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này từ 122% đến 200%;\n\nd) Thu lợi bất chính từ 500.000.000 đồng đến dưới 1.000.000.000 đồng.\n\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 12 năm đến 20 năm:\n\na) Làm chết 03 người trở lên;\n\nb) Gây tổn hại cho sức khỏe của 03 người trở lên với tỷ lệ tổn thương cơ thể của mỗi người 61% trở lên;\n\nc) Gây tổn hại cho sức khỏe của 03 người trở lên mà tổng tỷ lệ tổn thương cơ thể của những người này 201% trở lên;\n\nd) Thu lợi bất chính 1.000.000.000 đồng trở lên.\n\n5. Người phạm tội còn có thể bị phạt tiền từ 20.000.000 đồng đến 100.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+        "source": "vilqa_context",
+        "score": 251.49970212921596,
+        "metadata": {
+          "case_id": "vilqa-37",
+          "question": "Người thực hiện việc phá thai trái phép cho người khác dẫn đến làm chết 03 người trở lên thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 37,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe user's question specifically asks for the duration of \"non-custodial rehabilitation\" (cải tạo không giam giữ) for the crime of illegally appropriating, buying, selling, or destroying seals/documents of agencies/organizations that are *not* state secrets. The provided case profile explicitly contains the relevant legal provision (Article 343 of the Penal Code) which states this penalty is \"up to 02 years\". The retrieved evidence is irrelevant as it pertains to different crimes (securities fraud and commercial surrogacy).\n\n**Candidate final answer**\n02 năm\n\n**Best supporting legal evidence**\nCase profile context: \"1. Người nào chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt tiền từ 5.000.000 đồng đến 50.000",
+        "public_argument": "Dựa trên điều khoản pháp luật được cung cấp trong hồ sơ vụ án (vilqa-23), hành vi chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác bị xử phạt bằng một trong các hình thức: phạt tiền, phạt cải tạo không giam giữ hoặc phạt tù.\n\nCụ thể, khoản 1 của quy định pháp luật nêu rõ: \"phạt cải tạo không giam giữ đến 02 năm\". Do đó, mức thời gian tối đa cho hình phạt cải tạo không giam giữ đối với hành vi này là 02 năm.\n\nCâu trả lời đúng là: 02 năm",
+        "evidence_ids": [
+          "vilqa-320-context",
+          "vilqa-305-context",
+          "vilqa-18-context",
+          "vilqa-17-context",
+          "vilqa-37-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "**Strongest weakness in the Proponent's position**\nThe Proponent's primary weakness lies in the **misuse of irrelevant retrieved evidence**. Although the Proponent correctly identifies the answer (\"02 năm\") from the case context, they explicitly cite `vilqa-320-context` (securities fraud) and `vilqa-305-context` (commercial surrogacy) as supporting evidence. These documents are legally distinct crimes with different penalty structures and do not support the claim regarding seals/documents. This creates a logical disconnect: the answer is correct, but the justification relies on hallucinated or irrelevant legal precedents, undermining the reliability of the reasoning process. Additionally, the Proponent fails to clarify that \"up to 02 years\" is a *maximum* limit for a specific penalty option, not the sole mandatory penalty (as fines are also an option), which could be seen as an oversimplification if the question implies a mandatory sentence.\n\n**Alternative answer or",
+        "public_argument": "Lập luận của đối phương thiếu vững chắc do dựa vào bằng chứng không liên quan. Mặc dù đáp án \"02 năm\" là đúng theo hồ sơ vụ án, việc đối phương trích dẫn `vilqa-320-context` (lừa đảo chứng khoán) và `vilqa-305-context` (mang thai hộ thương mại) là sai lầm nghiêm trọng. Các văn bản này không hỗ trợ cho tội danh chiếm đoạt con dấu.\n\nHơn nữa, đối phương đã đơn giản hóa vấn đề. Câu hỏi hỏi về hình thức \"cải tạo không giam giữ\", và luật quy định đây là một trong các lựa chọn phạt, với mức tối đa là \"02 năm\". Tuy nhiên, cần nhấn mạnh rằng đây là mức *tối đa* cho hình phạt cụ thể này, không phải mức phạt duy nhất hoặc bắt buộc (vì còn có phạt tiền). Việc bỏ qua ngữ cảnh này khiến lập luận trở nên thiếu chính xác",
+        "evidence_ids": [
+          "vilqa-320-context",
+          "vilqa-305-context",
+          "vilqa-18-context",
+          "vilqa-17-context",
+          "vilqa-37-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "02 năm",
+        "confidence": 100.0,
+        "reasoning": "Dựa trên mục 1 của hồ sơ vụ án, hình phạt 'cải tạo không giam giữ' được quy định là 'đến 02 năm'. Đây là trích dẫn trực tiếp và chính xác từ ngữ liệu pháp luật được cung cấp."
+      }
+    ],
+    "verdict": {
+      "prediction": "02 năm",
+      "answer": "02 năm",
+      "confidence": 100.0,
+      "reasoning": "Dựa trực tiếp vào mục 1 của hồ sơ vụ án (vilqa-23), quy định pháp luật nêu rõ: 'phạt cải tạo không giam giữ đến 02 năm'. Đây là khoảng thời gian tối đa được quy định cho hình phạt này.",
+      "cited_evidence_ids": [
+        "vilqa-23-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:43:37.113319+00:00"
+  }
+}

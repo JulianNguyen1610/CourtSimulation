@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-295",
+    "case_type": "legal_qa",
+    "context": "Phạt tiền\n\nPhạt tiền được áp dụng là hình phạt chính đối với người từ đủ 16 tuổi đến dưới 18 tuổi, nếu người đó có thu nhập hoặc có tài sản riêng.\n\nMức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.",
+    "question": "Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá bao nhiêu phần của mức tiền phạt mà điều luật quy định?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 295
+    }
+  },
+  "result": {
+    "case_id": "vilqa-295",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-296-context",
+        "text": "Cải tạo không giam giữ\n\n1. Hình phạt cải tạo không giam giữ được áp dụng đối với người từ đủ 16 đến dưới 18 tuổi phạm tội ít nghiêm trọng, phạm tội nghiêm trọng hoặc phạm tội rất nghiêm trọng do vô ý hoặc người từ đủ 14 tuổi đến dưới 16 tuổi phạm tội rất nghiêm trọng do cố ý.\n\n2. Khi áp dụng hình phạt cải tạo không giam giữ đối với người dưới 18 tuổi phạm tội, thì không khấu trừ thu nhập của người đó.\n\nThời hạn cải tạo không giam giữ đối với người dưới 18 tuổi phạm tội không quá một phần hai thời hạn mà điều luật quy định.",
+        "source": "vilqa_context",
+        "score": 168.37210370706902,
+        "metadata": {
+          "case_id": "vilqa-296",
+          "question": "Hình phạt cải tạo không giam giữ được áp dụng đối với người từ đủ 14 tuổi đến dưới 16 tuổi phạm tội mức độ nào?",
+          "row_index": 296,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-31-context",
+        "text": "Tội mua dâm người dưới 18 tuổi\n\n1. Người nào đủ 18 tuổi trở lên mua dâm người dưới 18 tuổi trừ trường hợp quy định tại điểm b khoản 1 Điều 142 của Bộ luật này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Mua dâm 02 lần trở lên;\n\nb) Mua dâm người từ đủ 13 tuổi đến dưới 16 tuổi;\n\nc) Gây tổn hại cho sức khỏe của nạn nhân mà tỷ lệ tổn thương cơ thể từ 31% đến 60%.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Phạm tội 02 lần trở lên đối với người từ đủ 13 tuổi đến dưới 16 tuổi;\n\nb) Gây tổn hại cho sức khỏe của nạn nhân mà tỷ lệ tổn thương cơ thể 61% trở lên.\n\n4. Người phạm tội còn bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 142.49035808059193,
+        "metadata": {
+          "case_id": "vilqa-31",
+          "question": "Theo Bộ luật Hình sự 2017, người đủ 18 tuổi trở lên mua dâm người dưới 18 tuổi trừ trường hợp quy định tại điểm b khoản 1 Điều 142 của Bộ luật này, thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 31,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-4-context",
+        "text": "Tử hình\n\n1. Tử hình là hình phạt đặc biệt chỉ áp dụng đối với người phạm tội đặc biệt nghiêm trọng thuộc một trong nhóm các tội xâm phạm an ninh quốc gia, xâm phạm tính mạng con người, các tội phạm về ma túy, tham nhũng và một số tội phạm đặc biệt nghiêm trọng khác do Bộ luật này quy định.\n\n2. Không áp dụng hình phạt tử hình đối với người dưới 18 tuổi khi phạm tội, phụ nữ có thai, phụ nữ đang nuôi con dưới 36 tháng tuổi hoặc người đủ 75 tuổi trở lên khi phạm tội hoặc khi xét xử.\n\n3. Không thi hành án tử hình đối với người bị kết án nếu thuộc một trong các trường hợp sau đây:\n\na) Phụ nữ có thai hoặc phụ nữ đang nuôi con dưới 36 tháng tuổi;\n\nb) Người đủ 75 tuổi trở lên;\n\nc) Người bị kết án tử hình về tội tham ô tài sản, tội nhận hối lộ mà sau khi bị kết án đã chủ động nộp lại ít nhất ba phần tư tài sản tham ô, nhận hối lộ và hợp tác tích cực với cơ quan chức năng trong việc phát hiện, điều tra, xử lý tội phạm hoặc lập công lớn.\n\n4. Trong trường hợp quy định tại khoản 3 Điều này hoặc trường hợp người bị kết án tử hình được ân giảm, thì hình phạt tử hình được chuyển thành tù chung thân.",
+        "source": "vilqa_context",
+        "score": 113.19087942504692,
+        "metadata": {
+          "case_id": "vilqa-4",
+          "question": "Trong trường hợp người bị kết án tử hình được ân giảm, thì hình phạt tử hình được chuyển thành hình phạt gì?",
+          "row_index": 4,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-362-context",
+        "text": "Tù chung thân\n\nTù chung thân là hình phạt tù không thời hạn được áp dụng đối với người phạm tội đặc biệt nghiêm trọng, nhưng chưa đến mức bị xử phạt tử hình.\n\nKhông áp dụng hình phạt tù chung thân đối với người dưới 18 tuổi phạm tội.",
+        "source": "vilqa_context",
+        "score": 113.115110395015,
+        "metadata": {
+          "case_id": "vilqa-362",
+          "question": "Tù chung thân là gì?",
+          "row_index": 362,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-1-context",
+        "text": "Tù chung thân\n\nTù chung thân là hình phạt tù không thời hạn được áp dụng đối với người phạm tội đặc biệt nghiêm trọng, nhưng chưa đến mức bị xử phạt tử hình.\n\nKhông áp dụng hình phạt tù chung thân đối với người dưới 18 tuổi phạm tội.",
+        "source": "vilqa_context",
+        "score": 113.115110395015,
+        "metadata": {
+          "case_id": "vilqa-1",
+          "question": "Theo Bộ luật Hình sự năm 2017, không áp dụng hình phạt tù chung thân đối với người dưới bao nhiêu tuổi phạm tội?",
+          "row_index": 1,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.\n\nCandidate final answer: \"Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.\"\n\nBest supporting legal evidence: Mặc dù không có văn bản cụ thể về mức tiền phạt chính xác, nhưng thông tin được cung cấp cho biết hình phạt tiền là dành cho người từ đủ 16 tuổi đến dưới 18 tuổi và mức tiền phạt này không quá một phần hai của mức tiền phạt mà điều luật quy định.\n\nAnticipated opponent challenge: Đối phương có thể thách thức bằng cách đưa ra các văn bản pháp luật cụ thể để hỗ trợ cho lập luận của họ, hoặc đưa ra các trường hợp thực tế để chứng minh rằng thông tin được cung cấp là không chính xác.\n\nStrategy for this round:",
+        "public_argument": "Mặc dù không có văn bản cụ thể về mức tiền phạt chính xác, nhưng thông tin được cung cấp cho biết hình phạt tiền là dành cho người từ đủ 16 tuổi đến dưới 18 tuổi và mức tiền phạt này không quá một phần hai của mức tiền phạt mà điều luật quy định.",
+        "evidence_ids": [
+          "vilqa-296-context",
+          "vilqa-31-context",
+          "vilqa-4-context",
+          "vilqa-362-context",
+          "vilqa-1-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The Proponent's claim lacks specific legal evidence and real-life cases to support their assertion that the fine is limited to half of the penalty stated in the relevant legislation.\n\nAlternative answer or interpretation: Mặc dù thông tin được cung cấp cho biết hình phạt tiền dành cho người từ đủ 16 tuổi đến dưới 18 tuổi và không quá một phần hai của mức tiền phạt mà điều luật quy định, nhưng cần có bằng chứng pháp lý cụ thể để xác nhận tính chính xác của tuyên bố này.\n\nEvidence needed to support the challenge: Cần văn bản pháp luật cụ thể hoặc các trường hợp thực tế được ghi nhận để hỗ trợ cho lập luận của đối phương.\n\nStrategy for this round: Đối phương nên tập trung vào việc đưa ra các bằng chứng pháp lý cụ thể và các trường hợp thực tế để củng cố cho vị trí của mình. Đồng thời, đối phương cũng có thể thách thức Proponent về tính chính xác của thông tin",
+        "public_argument": "Đối phương cho rằng mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai của mức tiền phạt mà điều luật quy định. Tuy nhiên, để khẳng định tính chính xác của tuyên bố này cần có bằng chứng pháp lý cụ thể hoặc các trường hợp thực tế được ghi nhận. Việc đưa ra thông tin chung chưa đủ để hỗ trợ cho lập luận của đối phương.",
+        "evidence_ids": [
+          "vilqa-296-context",
+          "vilqa-31-context",
+          "vilqa-4-context",
+          "vilqa-362-context",
+          "vilqa-1-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "một phần hai của mức tiền phạt mà điều luật quy định",
+        "confidence": 80.0,
+        "reasoning": "Thông tin được cung cấp cho biết hình phạt tiền là dành cho người từ đủ 16 tuổi đến dưới 18 tuổi và mức tiền phạt này không quá một phần hai của mức tiền phạt mà điều luật quy định. Mặc dù đối phương đưa ra ý kiến nhưng chưa có bằng chứng cụ thể, nhưng thông tin ban đầu vẫn chính xác."
+      }
+    ],
+    "verdict": {
+      "prediction": "một phần hai của mức tiền phạt mà điều luật quy định",
+      "answer": "một phần hai của mức tiền phạt mà điều luật quy định",
+      "confidence": 80.0,
+      "reasoning": "Thông tin được cung cấp cho biết hình phạt tiền là dành cho người từ đủ 16 tuổi đến dưới 18 tuổi và mức tiền phạt này không quá một phần hai của mức tiền phạt mà điều luật quy định. Mặc dù đối phương đưa ra ý kiến nhưng chưa có bằng chứng cụ thể, nhưng thông tin ban đầu vẫn chính xác.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.4,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T10:57:07.210184+00:00"
+  }
+}

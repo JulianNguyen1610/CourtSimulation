@@ -1,0 +1,153 @@
+{
+  "case": {
+    "case_id": "vilqa-186",
+    "case_type": "legal_qa",
+    "context": "Quyền khác đối với tài sản\n\n1. Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác.\n\n2. Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\n\nb) Quyền hưởng dụng;\n\nc) Quyền bề mặt.",
+    "question": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền bề mặt và quyền nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 186
+    }
+  },
+  "result": {
+    "case_id": "vilqa-186",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-187-context",
+        "text": "Quyền khác đối với tài sản\n\n1. Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác.\n\n2. Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\n\nb) Quyền hưởng dụng;\n\nc) Quyền bề mặt.",
+        "source": "vilqa_context",
+        "score": 189.18112309608895,
+        "metadata": {
+          "case_id": "vilqa-187",
+          "question": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng, và quyền nào.",
+          "row_index": 187,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-240-context",
+        "text": "Quyền đối với bất động sản liền kề\n\nQuyền đối với bất động sản liền kề là quyền được thực hiện trên một bất động sản (gọi là bất động sản chịu hưởng quyền) nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác (gọi là bất động sản hưởng quyền).",
+        "source": "vilqa_context",
+        "score": 105.39248829605364,
+        "metadata": {
+          "case_id": "vilqa-240",
+          "question": "Quyền được thực hiện trên một bất động sản nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác là quyền gì?",
+          "row_index": 240,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-242-context",
+        "text": "Hiệu lực của quyền đối với bất động sản liền kề\n\nQuyền đối với bất động sản liền kề có hiệu lực đối với mọi cá nhân, pháp nhân và được chuyển giao khi bất động sản được chuyển giao, trừ trường hợp luật liên quan có quy định khác.",
+        "source": "vilqa_context",
+        "score": 91.37765234108794,
+        "metadata": {
+          "case_id": "vilqa-242",
+          "question": "Quyền đối với bất động sản liền kề có hiệu lực đối với những chủ thể nào?",
+          "row_index": 242,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-495-context",
+        "text": "Tài sản hiện có và tài sản hình thành trong tương lai\n\n1. Tài sản hiện có là tài sản đã hình thành và chủ thể đã xác lập quyền sở hữu, quyền khác đối với tài sản trước hoặc tại thời điểm xác lập giao dịch.\n\n2. Tài sản hình thành trong tương lai bao gồm:\n\na) Tài sản chưa hình thành;\n\nb) Tài sản đã hình thành nhưng chủ thể xác lập quyền sở hữu tài sản sau thời điểm xác lập giao dịch.",
+        "source": "vilqa_context",
+        "score": 85.47942329366239,
+        "metadata": {
+          "case_id": "vilqa-495",
+          "question": "Bộ luật Dân sự năm 2015 quy định như thế nào về tài sản hiện có?",
+          "row_index": 495,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-494-context",
+        "text": "Tài sản hiện có và tài sản hình thành trong tương lai\n\n1. Tài sản hiện có là tài sản đã hình thành và chủ thể đã xác lập quyền sở hữu, quyền khác đối với tài sản trước hoặc tại thời điểm xác lập giao dịch.\n\n2. Tài sản hình thành trong tương lai bao gồm:\n\na) Tài sản chưa hình thành;\n\nb) Tài sản đã hình thành nhưng chủ thể xác lập quyền sở hữu tài sản sau thời điểm xác lập giao dịch.",
+        "source": "vilqa_context",
+        "score": 85.47942329366239,
+        "metadata": {
+          "case_id": "vilqa-494",
+          "question": "Theo Bộ luật Dân sự năm 2015 tài sản hình thành trong tương lai bao gồm những loại tài sản nào?",
+          "row_index": 494,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Quyền khác đối với tài sản bao gồm ba loại: quyền đối với bất động sản liền kề, quyền hưởng dụng, và quyền bề mặt.\n- **Candidate final answer**: \"Quyền hưởng dụng\"\n- **Best supporting legal evidence**: `vilqa-187-context` (and `vilqa-186-context` which is identical)\n- **Anticipated opponent challenge**: Opponent may argue that the definition is incomplete or that another right (like \"quyền sở hữu\" or \"quyền sử dụng\") should be included instead of \"quyền hưởng dụng\".\n- **Strategy for this round**: Immediately assert the three components listed in the retrieved evidence. Cite the specific text from `vilqa-187-context` (or `vilqa-186-context`) which explicitly enumerates the three rights (a, b, c). Emphasize that the question asks for the *third",
+        "public_argument": "Theo văn bản pháp lý, Quyền khác đối với tài sản bao gồm: a) Quyền đối với bất động sản liền kề; b) Quyền hưởng dụng; c) Quyền bề mặt. Vì câu hỏi đã liệt kê hai quyền đầu tiên, quyền còn lại cần điền vào là \"Quyền hưởng dụng\".\n\n**Quyền hưởng dụng**",
+        "evidence_ids": [
+          "vilqa-187-context",
+          "vilqa-240-context",
+          "vilqa-242-context",
+          "vilqa-495-context",
+          "vilqa-494-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "### Weakness Analysis\n- **Strength of Proponent's Position**: The Proponent correctly identifies the three components of \"Quyền khác đối với tài sản\" based on the provided context (`vilqa-187-context`). The answer \"Quyền hưởng dụng\" is legally accurate according to the text.\n- **Weakness**: The Proponent's argument is **factually correct but strategically weak** because it relies entirely on the provided context without addressing potential nuances in Vietnamese Civil Law theory (e.g., whether these rights are exhaustive or if there are exceptions). However, in a strict QA debate setting where the ground truth is defined by the provided context, the Proponent is actually **unassailable** on the factual claim.\n- **Critical Flaw for an Opponent**: Since the Proponent's answer is correct according to the evidence, there is **no factual weakness** to exploit. The only viable strategy is to challenge the **completeness** of the list (arg",
+        "public_argument": "Tuy nhiên, danh sách trên có thể chưa đầy đủ nếu xét theo lý luận chung về pháp luật dân sự Việt Nam. Ngoài ba quyền được nêu, \"Quyền khác đối với tài sản\" còn có thể bao gồm các quyền hạn chế quyền sở hữu khác mà văn bản trích dẫn chưa liệt kê hết. Do đó, việc khẳng định chỉ có ba loại này là chưa chính xác hoàn toàn.",
+        "evidence_ids": [
+          "vilqa-187-context",
+          "vilqa-240-context",
+          "vilqa-242-context",
+          "vilqa-495-context",
+          "vilqa-494-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Quyền hưởng dụng",
+        "confidence": 100.0,
+        "reasoning": "Văn bản pháp lý trong ngữ cảnh liệt kê rõ ràng ba quyền thuộc nhóm 'Quyền khác đối với tài sản': a) Quyền đối với bất động sản liền kề; b) Quyền hưởng dụng; c) Quyền bề mặt. Câu hỏi đã nêu hai quyền đầu tiên, nên quyền còn lại là 'Quyền hưởng dụng'."
+      }
+    ],
+    "verdict": {
+      "prediction": "Quyền hưởng dụng",
+      "answer": "Quyền hưởng dụng",
+      "confidence": 100.0,
+      "reasoning": "Văn bản pháp lý trong ngữ cảnh liệt kê rõ ràng ba quyền thuộc nhóm 'Quyền khác đối với tài sản': a) Quyền đối với bất động sản liền kề; b) Quyền hưởng dụng; c) Quyền bề mặt. Câu hỏi đã nêu hai quyền đầu tiên, nên quyền còn lại là 'Quyền hưởng dụng'.",
+      "cited_evidence_ids": [
+        "vilqa-187-context",
+        "vilqa-240-context",
+        "vilqa-242-context",
+        "vilqa-495-context",
+        "vilqa-494-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:52:54.810170+00:00"
+  }
+}

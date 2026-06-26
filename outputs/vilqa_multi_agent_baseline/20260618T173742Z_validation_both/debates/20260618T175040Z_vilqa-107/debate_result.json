@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-107",
+    "case_type": "legal_qa",
+    "context": "Trả thưởng\n\n1. Trường hợp một công việc được hứa thưởng do một người thực hiện thì khi công việc hoàn thành, người thực hiện công việc đó được nhận thưởng.\n\n2. Khi một công việc được hứa thưởng do nhiều người cùng thực hiện nhưng mỗi người thực hiện độc lập với nhau thì người hoàn thành đầu tiên được nhận thưởng.\n\n3. Trường hợp nhiều người cùng hoàn thành công việc được hứa thưởng vào cùng một thời điểm thì phần thưởng được chia đều cho những người đó.\n\n4. Trường hợp nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng do người hứa thưởng yêu cầu thì mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình.",
+    "question": "Trả thưởng như thế nào nếu nhiều người cùng cộng tác để hoàn thành công việc được hứa thưởng?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 107
+    }
+  },
+  "result": {
+    "case_id": "vilqa-107",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-131-context",
+        "text": "Thưởng\n\n1. Thưởng là số tiền hoặc tài sản hoặc bằng các hình thức khác mà người sử dụng lao động thưởng cho người lao động căn cứ vào kết quả sản xuất, kinh doanh, mức độ hoàn thành công việc của người lao động.\n\n2. Quy chế thưởng do người sử dụng lao động quyết định và công bố công khai tại nơi làm việc sau khi tham khảo ý kiến của tổ chức đại diện người lao động tại cơ sở đối với nơi có tổ chức đại diện người lao động tại cơ sở.",
+        "source": "vilqa_context",
+        "score": 162.8081108729858,
+        "metadata": {
+          "case_id": "vilqa-131",
+          "question": "Thưởng cho người lao động dựa vào điệu kiện gì?",
+          "row_index": 131,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-102-context",
+        "text": "Trả tiền dịch vụ\n\n1. Bên sử dụng dịch vụ phải trả tiền dịch vụ theo thỏa thuận.\n\n2. Khi giao kết hợp đồng, nếu không có thỏa thuận về giá dịch vụ, phương pháp xác định giá dịch vụ và không có bất kỳ chỉ dẫn nào khác về giá dịch vụ thì giá dịch vụ được xác định căn cứ vào giá thị trường của dịch vụ cùng loại tại thời điểm và địa điểm giao kết hợp đồng.\n\n3. Bên sử dụng dịch vụ phải trả tiền dịch vụ tại địa điểm thực hiện công việc khi hoàn thành dịch vụ, trừ trường hợp có thỏa thuận khác.\n\n4. Trường hợp dịch vụ được cung ứng không đạt được như thỏa thuận hoặc công việc không được hoàn thành đúng thời hạn thì bên sử dụng dịch vụ có quyền giảm tiền dịch vụ và yêu cầu bồi thường thiệt hại.",
+        "source": "vilqa_context",
+        "score": 127.07748076543415,
+        "metadata": {
+          "case_id": "vilqa-102",
+          "question": "Bên sử dụng dịch vụ có quyền gì khi dịch vụ cung ứng không đạt được như thoả thuận?",
+          "row_index": 102,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-100-context",
+        "text": "Tài sản chung của các thành viên hợp tác\n\n1. Tài sản do các thành viên đóng góp, cùng tạo lập và tài sản khác theo quy định của pháp luật là tài sản chung theo phần của các thành viên hợp tác.\n\nTrường hợp có thỏa thuận về góp tiền mà thành viên hợp tác chậm thực hiện thì phải có trách nhiệm trả lãi đối với phần tiền chậm trả theo quy định tại Điều 357 của Bộ luật này và phải bồi thường thiệt hại.\n\n2. Việc định đoạt tài sản là quyền sử dụng đất, nhà, xưởng sản xuất, tư liệu sản xuất khác phải có thỏa thuận bằng văn bản của tất cả các thành viên; việc định đoạt tài sản khác do đại diện của các thành viên quyết định, trừ trường hợp có thỏa thuận khác.\n\n3. Không được phân chia tài sản chung trước khi chấm dứt hợp đồng hợp tác, trừ trường hợp tất cả các thành viên hợp tác có thỏa thuận.\n\nViệc phân chia tài sản chung quy định tại khoản này không làm thay đổi hoặc chấm dứt quyền, nghĩa vụ được xác lập, thực hiện trước thời điểm tài sản được phân chia.",
+        "source": "vilqa_context",
+        "score": 125.67969147828775,
+        "metadata": {
+          "case_id": "vilqa-100",
+          "question": "Tài sản chung của các thành viên hợp tác là gì?",
+          "row_index": 100,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-101-context",
+        "text": "Rút khỏi hợp đồng hợp tác\n\n1. Thành viên có quyền rút khỏi hợp đồng hợp tác trong trường hợp sau đây:\n\na) Theo điều kiện đã thỏa thuận trong hợp đồng hợp tác;\n\nb) Có lý do chính đáng và được sự đồng ý của hơn một nửa tổng số thành viên hợp tác.\n\n2. Thành viên rút khỏi hợp đồng hợp tác có quyền yêu cầu nhận lại tài sản đã đóng góp, được chia phần tài sản trong khối tài sản chung và phải thanh toán các nghĩa vụ theo thỏa thuận. Trường hợp việc phân chia tài sản bằng hiện vật làm ảnh hưởng đến hoạt động hợp tác thì tài sản được tính giá trị thành tiền để chia.\n\nViệc rút khỏi hợp đồng hợp tác không làm chấm dứt quyền, nghĩa vụ của người này được xác lập, thực hiện trước thời điểm rút khỏi hợp đồng hợp tác.\n\n3. Việc rút khỏi hợp đồng hợp tác không thuộc trường hợp được quy định tại khoản 1 Điều này thì thành viên rút khỏi hợp đồng được xác định là bên vi phạm hợp đồng và phải thực hiện trách nhiệm dân sự theo quy định của Bộ luật này, luật khác có liên quan.",
+        "source": "vilqa_context",
+        "score": 116.60177566432591,
+        "metadata": {
+          "case_id": "vilqa-101",
+          "question": "Thành viên rút khỏi hợp đồng hợp tác có quyền gì?",
+          "row_index": 101,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-229-context",
+        "text": "Xác lập quyền sở hữu đối với tài sản do người khác đánh rơi, bỏ quên\n\n1. Người phát hiện tài sản do người khác đánh rơi, bỏ quên mà biết được địa chỉ của người đánh rơi hoặc bỏ quên thì phải thông báo hoặc trả lại tài sản cho người đó; nếu không biết địa chỉ của người đánh rơi hoặc bỏ quên thì phải thông báo hoặc giao nộp cho Ủy ban nhân dân cấp xã hoặc công an cấp xã nơi gần nhất để thông báo công khai cho chủ sở hữu biết mà nhận lại.\n\nỦy ban nhân dân cấp xã hoặc công an cấp xã đã nhận tài sản phải thông báo cho người đã giao nộp về kết quả xác định chủ sở hữu.\n\n2. Sau 01 năm, kể từ ngày thông báo công khai về tài sản do người khác đánh rơi, bỏ quên mà không xác định được chủ sở hữu hoặc chủ sở hữu không đến nhận thì quyền sở hữu đối với tài sản này được xác định như sau:\n\na) Trường hợp tài sản bị đánh rơi, bỏ quên có giá trị nhỏ hơn hoặc bằng mười lần mức lương cơ sở do Nhà nước quy định thì người nhặt được được xác lập quyền sở hữu đối với tài sản đó theo quy định của Bộ luật này và quy định khác của pháp luật có liên quan; trường hợp tài sản có giá trị lớn hơn mười lần mức lương cơ sở do Nhà nước quy định thì sau khi trừ chi phí bảo quản, người nhặt được được hưởng giá trị bằng mười lần mức lương cơ sở do Nhà nước quy định và 50% giá trị của phần vượt quá mười lần mức lương cơ sở do Nhà nước quy định, phần giá trị còn lại thuộc về Nhà nước;\n\nb) Trường hợp tài sản bị đánh rơi, bị bỏ quên là tài sản thuộc di tích lịch sử - văn hóa theo quy định của Luật di sản văn hóa thì tài sản đó thuộc về Nhà nước; người nhặt được tài sản được hưởng một khoản tiền thưởng theo quy định của pháp luật.",
+        "source": "vilqa_context",
+        "score": 116.08250527654394,
+        "metadata": {
+          "case_id": "vilqa-229",
+          "question": "Người phát hiện tài sản do người khác đánh rơi, bỏ quên mà không biết địa chỉ của người đánh rơi hoặc bỏ quên thì phải làm gì?",
+          "row_index": 229,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Khi nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng, phần thưởng sẽ được phân chia dựa trên mức độ đóng góp cụ thể của từng người, không chia đều.\n- **Candidate final answer**: \"mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình\"\n- **Best supporting legal evidence**: `vilqa-107-context` (Đoạn 4 trong ngữ cảnh case profile: \"Trường hợp nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng do người hứa thưởng yêu cầu thì mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình.\")\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng nếu không có thỏa thuận cụ thể về tỷ lệ đóng góp, pháp luật sẽ quy định chia đều phần thưởng (dựa vào các trường hợp khác trong cùng văn bản như điểm 3), hoặc cho rằng bằng chứng tìm",
+        "public_argument": "Theo điểm 4 của ngữ cảnh, khi nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng, pháp luật quy định: \"mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình\". Do đó, phần thưởng không chia đều mà phân chia dựa trên tỷ lệ đóng góp cụ thể của từng người.",
+        "evidence_ids": [
+          "vilqa-131-context",
+          "vilqa-102-context",
+          "vilqa-100-context",
+          "vilqa-101-context",
+          "vilqa-229-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent relies exclusively on Clause 4 of the case profile, which explicitly mentions \"do người hứa thưởng yêu cầu\" (requested by the person promising the reward). The question asks generally about \"nhiều người cùng cộng tác\" (many people collaborating) without specifying if it was requested. The Proponent fails to address the critical distinction between *requested* collaboration (Clause 4) and *independent* collaboration (Clause 2) or *simultaneous* completion (Clause 3). If the collaboration was not requested by the promisor, Clause 4 might not apply, and the answer could be different (e.g., the first to finish gets it, or it's divided equally).\n- **Alternative answer or interpretation**: \"Trường hợp nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng do người hứa thưởng yêu cầu thì mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng",
+        "public_argument": "Tuy nhiên, quy định tại điểm 4 chỉ áp dụng khi công việc được thực hiện \"do người hứa thưởng yêu cầu\". Nếu nhiều người cùng cộng tác nhưng không phải theo yêu cầu của người hứa thưởng, phần thưởng có thể được chia đều (theo điểm 3) hoặc thuộc về người hoàn thành đầu tiên (theo điểm 2), tùy thuộc vào tính chất của sự cộng tác đó.",
+        "evidence_ids": [
+          "vilqa-131-context",
+          "vilqa-102-context",
+          "vilqa-100-context",
+          "vilqa-101-context",
+          "vilqa-229-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình",
+        "confidence": 100.0,
+        "reasoning": "The question asks specifically about the scenario where multiple people collaborate to complete the promised work. The context explicitly states in point 4 that in this case, each person receives a part of the reward corresponding to their contribution. The opponent's argument introduces a condition ('yêu cầu của người hứa thưởng') which is not present in the question, making the direct answer from point 4 the correct extractive span."
+      }
+    ],
+    "verdict": {
+      "prediction": "mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình",
+      "answer": "mỗi người được nhận một phần của phần thưởng tương ứng với phần đóng góp của mình",
+      "confidence": 100.0,
+      "reasoning": "Câu hỏi cụ thể về trường hợp 'nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng'. Theo điểm 4 trong ngữ cảnh, quy định này áp dụng cho trường hợp 'nhiều người cùng cộng tác để thực hiện công việc được hứa thưởng do người hứa thưởng yêu cầu'. Mặc dù đối thủ lập luận về điều kiện 'yêu cầu', nhưng trong các bài tập trích xuất (extractive QA) dựa trên ngữ cảnh pháp lý, câu trả lời chính xác nhất là đoạn văn bản trực tiếp giải quyết tình huống được hỏi. Đoạn văn bản tại điểm 4 cung cấp câu trả lời chính xác cho từ khóa 'cộng tác' và 'phần thưởng'.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:50:40.309498+00:00"
+  }
+}

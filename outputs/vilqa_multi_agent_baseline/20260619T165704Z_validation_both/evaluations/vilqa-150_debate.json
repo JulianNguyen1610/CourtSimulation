@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-150",
+    "case_type": "legal_qa",
+    "context": "Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n\n1. Việc xử lý kỷ luật lao động được quy định như sau:\n\na) Người sử dụng lao động phải chứng minh được lỗi của người lao động;\n\nb) Phải có sự tham gia của tổ chức đại diện người lao động tại cơ sở mà người lao động đang bị xử lý kỷ luật là thành viên;\n\nc) Người lao động phải có mặt và có quyền tự bào chữa, nhờ luật sư hoặc tổ chức đại diện người lao động bào chữa; trường hợp là người chưa đủ 15 tuổi thì phải có sự tham gia của người đại diện theo pháp luật;\n\nd) Việc xử lý kỷ luật lao động phải được ghi thành biên bản.\n\n2. Không được áp dụng nhiều hình thức xử lý kỷ luật lao động đối với một hành vi vi phạm kỷ luật lao động.\n\n3. Khi một người lao động đồng thời có nhiều hành vi vi phạm kỷ luật lao động thì chỉ áp dụng hình thức kỷ luật cao nhất tương ứng với hành vi vi phạm nặng nhất.\n\n4. Không được xử lý kỷ luật lao động đối với người lao động đang trong thời gian sau đây:\n\na) Nghỉ ốm đau, điều dưỡng; nghỉ việc được sự đồng ý của người sử dụng lao động;\n\nb) Đang bị tạm giữ, tạm giam;\n\nc) Đang chờ kết quả của cơ quan có thẩm quyền điều tra xác minh và kết luận đối với hành vi vi phạm được quy định tại khoản 1 và khoản 2 Điều 125 của Bộ luật này;\n\nd) Người lao động nữ mang thai; người lao động nghỉ thai sản, nuôi con dưới 12 tháng tuổi.\n\n5. Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình.\n\n6. Chính phủ quy định trình tự, thủ tục xử lý kỷ luật lao động.",
+    "question": "Không được kỷ luật đối với người mắc bệnh gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 150
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

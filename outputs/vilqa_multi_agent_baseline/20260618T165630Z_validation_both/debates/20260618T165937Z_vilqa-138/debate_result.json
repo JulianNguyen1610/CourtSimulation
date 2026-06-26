@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-138",
+    "case_type": "legal_qa",
+    "context": "Nghỉ hằng tuần\n\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\n\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định tại khoản 1 Điều 112 của Bộ luật này thì người lao động được nghỉ bù ngày nghỉ hằng tuần vào ngày làm việc kế tiếp.",
+    "question": "Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động phải bố trí ngày nghỉ ra sao?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 138
+    }
+  },
+  "result": {
+    "case_id": "vilqa-138",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-139-context",
+        "text": "Nghỉ hằng tuần\n\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\n\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định tại khoản 1 Điều 112 của Bộ luật này thì người lao động được nghỉ bù ngày nghỉ hằng tuần vào ngày làm việc kế tiếp.",
+        "source": "vilqa_context",
+        "score": 476.4014751437654,
+        "metadata": {
+          "case_id": "vilqa-139",
+          "question": "Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết thì người lao động sẽ được nghỉ như thế nào?",
+          "row_index": 139,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-143-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 256.956780773396,
+        "metadata": {
+          "case_id": "vilqa-143",
+          "question": "Người lao động có thể thỏa thuận nghỉ hằng năm như thế nào?",
+          "row_index": 143,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-141-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 256.956780773396,
+        "metadata": {
+          "case_id": "vilqa-141",
+          "question": "Đối với người làm việc trong môi trường độc hại thì hằng năm được nghỉ bao nhiêu ngày?",
+          "row_index": 141,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-140-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 256.956780773396,
+        "metadata": {
+          "case_id": "vilqa-140",
+          "question": "Đôi với người lao động trong đièu kiện bình thường thì được nghỉ bao lâu 1 năm?",
+          "row_index": 140,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-127-context",
+        "text": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứng tiền lương.\n\n3. Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.",
+        "source": "vilqa_context",
+        "score": 247.1222363760658,
+        "metadata": {
+          "case_id": "vilqa-127",
+          "question": "Người lao động trong điều kiện nào thì không được tạm ứng tiền lương?",
+          "row_index": 127,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần, người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\n\nCandidate final answer: \"Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\"\n\nBest supporting legal evidence: [{'doc_id': 'vilqa-139-context', 'text': 'Nghỉ hằng tuần\\n\\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\\n\\n2. Người",
+        "public_argument": "Theo quy định tại khoản 1 Điều về Nghỉ hằng tuần, trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần, người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày. Do đó, câu trả lời chính xác là: \"Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\"",
+        "evidence_ids": [
+          "vilqa-139-context",
+          "vilqa-143-context",
+          "vilqa-141-context",
+          "vilqa-140-context",
+          "vilqa-127-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**: The Proponent's answer is factually correct based on the provided text, but their reasoning lacks nuance regarding the *nature* of the alternative arrangement. They simply quote the clause about \"resting an average of at least 04 days per month\" without addressing the second part of the legal provision: the Employer's right to schedule this rest on a specific day (other than Sunday) and the requirement to record this in the labor regulations. A complete answer should ideally mention that this \"average rest\" is the *minimum* guarantee, and the employer has the flexibility to schedule it, provided it is documented. The Proponent's answer is incomplete because it ignores the procedural requirement (recording in labor regulations) and the specific scheduling rights of the employer mentioned in Clause 2.\n\n- **Alternative answer or interpretation**: \"Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày",
+        "public_argument": "Câu trả lời của Proponent chưa đầy đủ vì bỏ qua quyền quyết định của người sử dụng lao động trong việc sắp xếp ngày nghỉ. Theo khoản 2 Điều trên, người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động. Do đó, ngoài việc bảo đảm nghỉ bình quân 04 ngày/tháng, ngày nghỉ cụ thể còn phụ thuộc vào quy định nội bộ đã được ghi nhận.",
+        "evidence_ids": [
+          "vilqa-139-context",
+          "vilqa-143-context",
+          "vilqa-141-context",
+          "vilqa-140-context",
+          "vilqa-127-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày",
+        "confidence": 95.0,
+        "reasoning": "Câu trả lời trực tiếp giải quyết câu hỏi về việc bố trí ngày nghỉ trong trường hợp đặc biệt do chu kỳ lao động, dựa trên nội dung khoản 1 Điều về Nghỉ hằng tuần được cung cấp trong ngữ cảnh."
+      }
+    ],
+    "verdict": {
+      "prediction": "người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày",
+      "answer": "01 tháng ít nhất 04 ngày",
+      "confidence": 100.0,
+      "reasoning": "Câu hỏi yêu cầu xác định cách bố trí ngày nghỉ trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần. Dựa trên Khoản 1 Điều về Nghỉ hằng tuần trong ngữ cảnh, quy định rõ ràng rằng trong trường hợp này, người sử dụng lao động phải bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày. Đây là câu trả lời trực tiếp và chính xác nhất trích dẫn từ văn bản.",
+      "cited_evidence_ids": [
+        "vilqa-139-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T16:59:37.780394+00:00"
+  }
+}

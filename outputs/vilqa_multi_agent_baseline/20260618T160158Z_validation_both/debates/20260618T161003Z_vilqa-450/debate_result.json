@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-450",
+    "case_type": "legal_qa",
+    "context": "Căn cứ xác lập quyền dân sự\n\nQuyền dân sự được xác lập từ các căn cứ sau đây:\n\n1. Hợp đồng.\n\n2. Hành vi pháp lý đơn phương.\n\n3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.\n\n4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.\n\n5. Chiếm hữu tài sản.\n\n6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.\n\n7. Bị thiệt hại do hành vi trái pháp luật.\n\n8. Thực hiện công việc không có ủy quyền.\n\n9. Căn cứ khác do pháp luật quy định.",
+    "question": "Theo Bộ luật dân sự 2015, hãy liệt kê 9 căn cứ xác lập nên Quyền dân sự.",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 450
+    }
+  },
+  "result": {
+    "case_id": "vilqa-450",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-475-context",
+        "text": "Hạn chế năng lực hành vi dân sự\n\n1. Người nghiện ma túy, nghiện các chất kích thích khác dẫn đến phá tán tài sản của gia đình thì theo yêu cầu của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án có thể ra quyết định tuyên bố người này là người bị hạn chế năng lực hành vi dân sự.\n\nTòa án quyết định người đại diện theo pháp luật của người bị hạn chế năng lực hành vi dân sự và phạm vi đại diện.\n\n2. Việc xác lập, thực hiện giao dịch dân sự liên quan đến tài sản của người bị Tòa án tuyên bố hạn chế năng lực hành vi dân sự phải có sự đồng ý của người đại diện theo pháp luật, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc luật liên quan có quy định khác.\n\n3. Khi không còn căn cứ tuyên bố một người bị hạn chế năng lực hành vi dân sự thì theo yêu cầu của chính người đó hoặc của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định hủy bỏ quyết định tuyên bố hạn chế năng lực hành vi dân sự.",
+        "source": "vilqa_context",
+        "score": 129.58938211699623,
+        "metadata": {
+          "case_id": "vilqa-475",
+          "question": "Theo Điều 24, Bộ luật dân sự 2015, công dân bị hạn chế năng lực hành vi dân sự khi nào?",
+          "row_index": 475,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-474-context",
+        "text": "Mất năng lực hành vi dân sự\n\n1. Khi một người do bị bệnh tâm thần hoặc mắc bệnh khác mà không thể nhận thức, làm chủ được hành vi thì theo yêu cầu của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định tuyên bố người này là người mất năng lực hành vi dân sự trên cơ sở kết luận giám định pháp y tâm thần.\n\nKhi không còn căn cứ tuyên bố một người mất năng lực hành vi dân sự thì theo yêu cầu của chính người đó hoặc của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan, Tòa án ra quyết định hủy bỏ quyết định tuyên bố mất năng lực hành vi dân sự.\n\n2. Giao dịch dân sự của người mất năng lực hành vi dân sự phải do người đại diện theo pháp luật xác lập, thực hiện.",
+        "source": "vilqa_context",
+        "score": 127.99077114174518,
+        "metadata": {
+          "case_id": "vilqa-474",
+          "question": "Theo Điều 22, Bộ luật dân sự 2015, giao dịch dân sự của người mất năng lực hành vi dân sự phải do ai xác lập, thực hiện?",
+          "row_index": 474,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-454-context",
+        "text": "Giới hạn việc thực hiện quyền dân sự\n\n1. Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.\n\n2. Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều này thì Tòa án hoặc cơ quan có thẩm quyền khác căn cứ vào tính chất, hậu quả của hành vi vi phạm mà có thể không bảo vệ một phần hoặc toàn bộ quyền của họ, buộc bồi thường nếu gây thiệt hại và có thể áp dụng chế tài khác do luật quy định.",
+        "source": "vilqa_context",
+        "score": 123.48735649629741,
+        "metadata": {
+          "case_id": "vilqa-454",
+          "question": "Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, thì Toà án hoặc cơ quan có thẩm quyền khác có thể?",
+          "row_index": 454,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-212-context",
+        "text": "Xác lập quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ\n\nNgười lao động, người tiến hành hoạt động sản xuất, kinh doanh hợp pháp có quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, kể từ thời điểm có được tài sản đó.\n\nNgười tiến hành hoạt động sáng tạo có quyền sở hữu đối với tài sản có được từ hoạt động sáng tạo theo quy định của Luật sở hữu trí tuệ.",
+        "source": "vilqa_context",
+        "score": 118.3356161091569,
+        "metadata": {
+          "case_id": "vilqa-212",
+          "question": "Người lao động hợp pháp có quyền sở hữu đối với tài sản có được từ lao động kể từ thời điểm nào?",
+          "row_index": 212,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-213-context",
+        "text": "Xác lập quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ\n\nNgười lao động, người tiến hành hoạt động sản xuất, kinh doanh hợp pháp có quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, kể từ thời điểm có được tài sản đó.\n\nNgười tiến hành hoạt động sáng tạo có quyền sở hữu đối với tài sản có được từ hoạt động sáng tạo theo quy định của Luật sở hữu trí tuệ.",
+        "source": "vilqa_context",
+        "score": 118.3356161091569,
+        "metadata": {
+          "case_id": "vilqa-213",
+          "question": "Người tiến hành hoạt động sản xuất hợp pháp có quyền sở hữu đối với tài sản có được từ hoạt động sản xuất hợp pháp kể từ thời điểm nào?",
+          "row_index": 213,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Theo Bộ luật Dân sự 2015, quyền dân sự được xác lập từ 9 căn cứ cụ thể bao gồm: hợp đồng, hành vi pháp lý đơn phương, quyết định của Tòa án, kết quả lao động/sáng tạo, chiếm hữu, sử dụng không có căn cứ, thiệt hại trái pháp luật, công việc không có ủy quyền và các căn cứ khác do luật định.\n- **Candidate final answer**: \"Quyền dân sự được xác lập từ các căn cứ sau đây: 1. Hợp đồng. 2. Hành vi pháp lý đơn phương. 3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật. 4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ. 5. Chiếm hữu tài sản. 6. Sử dụng tài sản, được lợi về tài sản không",
+        "public_argument": "Theo Bộ luật Dân sự 2015, quyền dân sự được xác lập từ 9 căn cứ: Hợp đồng, Hành vi pháp lý đơn phương, Quyết định của Tòa án, Kết quả lao động/sáng tạo, Chiếm hữu tài sản, Sử dụng tài sản không có căn cứ, Thiệt hại do hành vi trái pháp luật, Công việc không có ủy quyền và Căn cứ khác do luật định.",
+        "evidence_ids": [
+          "vilqa-475-context",
+          "vilqa-474-context",
+          "vilqa-454-context",
+          "vilqa-212-context",
+          "vilqa-213-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness**: The Proponent's answer lists the 9 grounds but fails to explicitly cite the specific legal article (Điều 117) of the 2015 Civil Code that enumerates these grounds. In a legal QA debate, merely listing items without referencing the authoritative source clause is a significant evidentiary gap. Additionally, the Proponent's summary in the debate history truncates item 6 (\"Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật\"), omitting the crucial phrase \"không có căn cứ pháp luật\" (without legal basis), which is a substantive legal element defining the ground.\n\n- **Alternative answer or interpretation**:\n  \"Quyền dân sự được xác lập từ các căn cứ sau đây: 1. Hợp đồng. 2. Hành vi pháp lý đơn phương. 3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật. 4. Kết quả",
+        "public_argument": "Lời phản bác: Đối phương liệt kê đúng 9 căn cứ nhưng thiếu trích dẫn Điều 117 Bộ luật Dân sự 2015. Hơn nữa, nội dung mục 6 bị cắt cụt (\"Sử dụng tài sản, được lợi về tài sản không\") làm sai lệch ý nghĩa pháp lý, thiếu cụm từ quan trọng \"căn cứ pháp luật\". Cần bổ sung đầy đủ trích dẫn văn bản và giữ nguyên tính toàn vẹn của từng mục.",
+        "evidence_ids": [
+          "vilqa-475-context",
+          "vilqa-474-context",
+          "vilqa-454-context",
+          "vilqa-212-context",
+          "vilqa-213-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "\"prediction\": \"1. Hợp đồng.\\n\\n2. Hành vi pháp lý đơn phương.\\n\\n3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.\\n\\n4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.\\n\\n5. Chiếm hữu tài sản.\\n\\n6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.\\n\\n7. Bị thiệt hại do hành vi trái pháp luật.\\n\\n8. Thực hiện công việc không có ủy quyền.\\n\\n9. Căn cứ khác do pháp luật quy định.\",",
+        "confidence": 50.0,
+        "reasoning": "Fallback belief because judge output was not valid JSON."
+      }
+    ],
+    "verdict": {
+      "prediction": "\"prediction\": \"1. Hợp đồng.\\n\\n2. Hành vi pháp lý đơn phương.\\n\\n3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.\\n\\n4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.\\n\\n5. Chiếm hữu tài sản.\\n\\n6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.\\n\\n7. Bị thiệt hại do hành vi trái pháp luật.\\n\\n8. Thực hiện công việc không có ủy quyền.\\n\\n9. Căn cứ khác do pháp luật quy định.\",",
+      "answer": "prediction\": \"1. Hợp đồng.\\n\\n2. Hành vi pháp lý đơn phương.\\n\\n3. Quyết định của Tòa án, cơ quan có thẩm quyền khác theo quy định của luật.\\n\\n4. Kết quả của lao động, sản xuất, kinh doanh; kết quả của hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ.\\n\\n5. Chiếm hữu tài sản.\\n\\n6. Sử dụng tài sản, được lợi về tài sản không có căn cứ pháp luật.\\n\\n7. Bị thiệt hại do hành vi trái pháp luật.\\n\\n8. Thực hiện công việc không có ủy quyền.\\n\\n9. Căn cứ khác do pháp luật quy định.\",",
+      "confidence": 50.0,
+      "reasoning": "Fallback verdict because judge output was not valid JSON.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.8717948717948718,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T16:10:03.597691+00:00"
+  }
+}

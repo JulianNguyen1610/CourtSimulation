@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-51",
+    "case_type": "legal_qa",
+    "context": "Phạm tội chưa đạt\n\nPhạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nNgười phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.",
+    "question": "Phạm tội chưa đạt là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 51
+    }
+  },
+  "result": {
+    "case_id": "vilqa-51",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-50-context",
+        "text": "Phạm tội chưa đạt\n\nPhạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\n\nNgười phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.",
+        "source": "vilqa_context",
+        "score": 164.0271083422382,
+        "metadata": {
+          "case_id": "vilqa-50",
+          "question": "Người phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm nào?",
+          "row_index": 50,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-53-context",
+        "text": "Tự ý nửa chừng chấm dứt việc phạm tội\n\nTự ý nửa chừng chấm dứt việc phạm tội là tự mình không thực hiện tội phạm đến cùng, tuy không có gì ngăn cản.\n\nNgười tự ý nửa chừng chấm dứt việc phạm tội được miễn trách nhiệm hình sự về tội định phạm; nếu hành vi thực tế đã thực hiện có đủ yếu tố cấu thành của một tội khác, thì người đó phải chịu trách nhiệm hình sự về tội này.",
+        "source": "vilqa_context",
+        "score": 74.54107747298953,
+        "metadata": {
+          "case_id": "vilqa-53",
+          "question": "Người tự ý nửa chừng chấm dứt việc phạm tội được miễn trách nhiệm hình sự về tội nào?",
+          "row_index": 53,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-59-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-59",
+          "question": "Người giúp sức là ai?",
+          "row_index": 59,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-60-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-60",
+          "question": "Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của ai?",
+          "row_index": 60,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-55-context",
+        "text": "Đồng phạm\n\n1. Đồng phạm là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm.\n\n2. Phạm tội có tổ chức là hình thức đồng phạm có sự câu kết chặt chẽ giữa những người cùng thực hiện tội phạm.\n\n3. Người đồng phạm bao gồm người tổ chức, người thực hành, người xúi giục, người giúp sức.\n\nNgười thực hành là người trực tiếp thực hiện tội phạm.\n\nNgười tổ chức là người chủ mưu, cầm đầu, chỉ huy việc thực hiện tội phạm.\n\nNgười xúi giục là người kích động, dụ dỗ, thúc đẩy người khác thực hiện tội phạm.\n\nNgười giúp sức là người tạo điều kiện tinh thần hoặc vật chất cho việc thực hiện tội phạm.\n\n4. Người đồng phạm không phải chịu trách nhiệm hình sự về hành vi vượt quá của người thực hành.",
+        "source": "vilqa_context",
+        "score": 66.85269121154748,
+        "metadata": {
+          "case_id": "vilqa-55",
+          "question": "Người thực hành là ai?",
+          "row_index": 55,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe definition of \"attempted crime\" (Phạm tội chưa đạt) is explicitly provided in the context and retrieved evidence, characterized by the perpetrator's intent to commit a crime but failing to complete it due to reasons beyond their control.\n\n**Candidate final answer**\ncố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội\n\n**Best supporting legal evidence**\n{'doc_id': 'vilqa-50-context', 'text': 'Phạm tội chưa đạt\\n\\nPhạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.\\n\\nNgười phạm tội chưa đạt phải chịu trách nhiệm hình sự về tội phạm chưa đạt.', 'source': 'vilqa_context', 'score': 164.0271083422382, 'metadata': {'case",
+        "public_argument": "Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội.",
+        "evidence_ids": [
+          "vilqa-50-context",
+          "vilqa-53-context",
+          "vilqa-59-context",
+          "vilqa-60-context",
+          "vilqa-55-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "**Strongest weakness in the Proponent's position**\nThe Proponent's definition is technically correct regarding the *definition* of \"attempted crime\" (Phạm tội chưa đạt). However, the weakness lies in the **evidence selection and logical coherence**. The Proponent cites `vilqa-53-context` (regarding \"voluntary abandonment of crime\" - *Tự ý nửa chừng chấm dứt việc phạm tội*) as supporting evidence. This is a critical logical error because \"voluntary abandonment\" is legally distinct from and often mutually exclusive with \"attempted crime\" in terms of liability and definition (specifically the element of \"reasons beyond their control\"). Citing a concept that explicitly excludes the perpetrator's will as evidence for a concept defined by the perpetrator's will being thwarted by external factors is contradictory and weakens the argument's rigor. Additionally, the Proponent lists evidence IDs (`vilqa-59`, `vilqa-60`, `vilqa",
+        "public_argument": "Lập luận của Đối phương mắc lỗi logic nghiêm trọng trong việc lựa chọn bằng chứng. Đối phương trích dẫn `vilqa-53-context` (liên quan đến \"Tự ý nửa chừng chấm dứt việc phạm tội\") làm bằng chứng hỗ trợ cho định nghĩa \"Phạm tội chưa đạt\". Đây là sự nhầm lẫn cơ bản.\n\nTheo luật hình sự, \"Tự ý nửa chừng chấm dứt\" và \"Phạm tội chưa đạt\" là hai tình huống loại trừ nhau dựa trên yếu tố ý chí:\n1. **Phạm tội chưa đạt**: Ngừng lại do *nguyên nhân ngoài ý muốn*.\n2. **Tự ý chấm dứt**: Ngừng lại do *ý muốn chủ quan* của người phạm tội.\n\nViệc viện dẫn một khái niệm định nghĩa bởi sự từ bỏ tự nguyện để chứng minh cho khái niệm định nghĩa bởi trở ngại khách quan là mâu thuẫn nội tại. Bằng chứng `vilqa-53-context` không",
+        "evidence_ids": [
+          "vilqa-50-context",
+          "vilqa-53-context",
+          "vilqa-59-context",
+          "vilqa-60-context",
+          "vilqa-55-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội",
+        "confidence": 100.0,
+        "reasoning": "Đối phương đã đưa ra lập luận sai lệch bằng cách trích dẫn ngữ cảnh không liên quan (vilqa-53) để phủ nhận định nghĩa đúng. Lập luận của phe ủng hộ (Proponent) khớp chính xác với định nghĩa được cung cấp trong ngữ cảnh của vụ án (vilqa-51). Do đó, tôi cập nhật niềm tin để chấp nhận định nghĩa từ ngữ cảnh gốc."
+      }
+    ],
+    "verdict": {
+      "prediction": "cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội",
+      "answer": "cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội",
+      "confidence": 100.0,
+      "reasoning": "Ngữ cảnh vụ án (vilqa-51) cung cấp định nghĩa chính xác và trực tiếp cho câu hỏi 'Phạm tội chưa đạt là gì?'. Lập luận của phe ủng hộ (Proponent) dựa trên trích dẫn chính xác từ ngữ cảnh này, trong khi phe đối lập (Opponent) chỉ ra lỗi logic trong việc lựa chọn bằng chứng hỗ trợ nhưng không phủ nhận được định nghĩa cốt lõi. Do đó, định nghĩa trong ngữ cảnh là câu trả lời đúng và duy nhất.",
+      "cited_evidence_ids": [
+        "vilqa-51-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:39:47.571319+00:00"
+  }
+}

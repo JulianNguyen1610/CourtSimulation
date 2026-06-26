@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-186",
+    "case_type": "legal_qa",
+    "context": "Quyền khác đối với tài sản\n\n1. Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác.\n\n2. Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\n\nb) Quyền hưởng dụng;\n\nc) Quyền bề mặt.",
+    "question": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền bề mặt và quyền nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 186
+    }
+  },
+  "result": {
+    "case_id": "vilqa-186",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-187-context",
+        "text": "Quyền khác đối với tài sản\n\n1. Quyền khác đối với tài sản là quyền của chủ thể trực tiếp nắm giữ, chi phối tài sản thuộc quyền sở hữu của chủ thể khác.\n\n2. Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\n\nb) Quyền hưởng dụng;\n\nc) Quyền bề mặt.",
+        "source": "vilqa_context",
+        "score": 189.18112309608895,
+        "metadata": {
+          "case_id": "vilqa-187",
+          "question": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng, và quyền nào.",
+          "row_index": 187,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-240-context",
+        "text": "Quyền đối với bất động sản liền kề\n\nQuyền đối với bất động sản liền kề là quyền được thực hiện trên một bất động sản (gọi là bất động sản chịu hưởng quyền) nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác (gọi là bất động sản hưởng quyền).",
+        "source": "vilqa_context",
+        "score": 105.39248829605364,
+        "metadata": {
+          "case_id": "vilqa-240",
+          "question": "Quyền được thực hiện trên một bất động sản nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác là quyền gì?",
+          "row_index": 240,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-242-context",
+        "text": "Hiệu lực của quyền đối với bất động sản liền kề\n\nQuyền đối với bất động sản liền kề có hiệu lực đối với mọi cá nhân, pháp nhân và được chuyển giao khi bất động sản được chuyển giao, trừ trường hợp luật liên quan có quy định khác.",
+        "source": "vilqa_context",
+        "score": 91.37765234108794,
+        "metadata": {
+          "case_id": "vilqa-242",
+          "question": "Quyền đối với bất động sản liền kề có hiệu lực đối với những chủ thể nào?",
+          "row_index": 242,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-495-context",
+        "text": "Tài sản hiện có và tài sản hình thành trong tương lai\n\n1. Tài sản hiện có là tài sản đã hình thành và chủ thể đã xác lập quyền sở hữu, quyền khác đối với tài sản trước hoặc tại thời điểm xác lập giao dịch.\n\n2. Tài sản hình thành trong tương lai bao gồm:\n\na) Tài sản chưa hình thành;\n\nb) Tài sản đã hình thành nhưng chủ thể xác lập quyền sở hữu tài sản sau thời điểm xác lập giao dịch.",
+        "source": "vilqa_context",
+        "score": 85.47942329366239,
+        "metadata": {
+          "case_id": "vilqa-495",
+          "question": "Bộ luật Dân sự năm 2015 quy định như thế nào về tài sản hiện có?",
+          "row_index": 495,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-494-context",
+        "text": "Tài sản hiện có và tài sản hình thành trong tương lai\n\n1. Tài sản hiện có là tài sản đã hình thành và chủ thể đã xác lập quyền sở hữu, quyền khác đối với tài sản trước hoặc tại thời điểm xác lập giao dịch.\n\n2. Tài sản hình thành trong tương lai bao gồm:\n\na) Tài sản chưa hình thành;\n\nb) Tài sản đã hình thành nhưng chủ thể xác lập quyền sở hữu tài sản sau thời điểm xác lập giao dịch.",
+        "source": "vilqa_context",
+        "score": 85.47942329366239,
+        "metadata": {
+          "case_id": "vilqa-494",
+          "question": "Theo Bộ luật Dân sự năm 2015 tài sản hình thành trong tương lai bao gồm những loại tài sản nào?",
+          "row_index": 494,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng và quyền bề mặt.\n\nCandidate final answer: Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\n\nb) Quyền hưởng dụng;\n\nc) Quyền bề mặt.\n\nBest supporting legal evidence: Quyền đối với bất động sản liền kề là quyền được thực hiện trên một bất động sản (gọi là bất động sản chịu hưởng quyền) nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác (gọi là bất động sản hưởng quyền).\n\nAnticipated opponent challenge: Quyền bề mặt có phải là một loại quyền khác đối với tài sản?\n\nStrategy for this round: Chứng minh rằng quyền bề mặt cũng là một phần trong quyền khác đối với tài sản và sử dụng các bằng chứng pháp lý để hỗ trợ cho lập luận của mình.",
+        "public_argument": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng và quyền bề mặt. Quyền bề mặt là quyền được thực hiện trên một bất động sản (bất động sản chịu hưởng quyền) nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác (bất động sản hưởng quyền). Do đó, quyền bề mặt cũng là một phần trong quyền khác đối với tài sản.",
+        "evidence_ids": [
+          "vilqa-187-context",
+          "vilqa-240-context",
+          "vilqa-242-context",
+          "vilqa-495-context",
+          "vilqa-494-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\n\nThe Proponent's claim that \"Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng và quyền bề mặt\" is too broad and lacks specific legal support. The definition provided by the Proponent for \"quyền khác đối với tài sản\" does not clearly define what constitutes a \"right\" in relation to property.\n\nAlternative answer or interpretation:\n\nQuyền khác đối với tài sản chỉ bao gồm các quyền được thực hiện trên một bất động sản nhằm phục vụ cho việc khai thác một bất động sản khác thuộc quyền sở hữu của người khác, như là quyền đối với bất động sản liền kề và quyền hưởng dụng. Quyền bề mặt không được coi là một loại quyền khác đối với tài sản.\n\nEvidence needed to support the challenge:\n\nQuyền bề mặt chỉ là một khía cạnh của việc khai thác bất động sản, chứ không phải là một \"quy",
+        "public_argument": "Quyền bề mặt không được coi là một loại quyền khác đối với tài sản. Quyền đối với bất động sản liền kề và quyền hưởng dụng mới là những quyền thực sự liên quan đến việc khai thác các bất động sản khác thuộc sở hữu của người khác.",
+        "evidence_ids": [
+          "vilqa-187-context",
+          "vilqa-240-context",
+          "vilqa-242-context",
+          "vilqa-495-context",
+          "vilqa-494-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng và quyền bề mặt.",
+        "confidence": 95.0,
+        "reasoning": "Quyền đối với bất động sản liền kề, quyền hưởng dụng và quyền bề mặt đều là những quyền liên quan đến việc khai thác các tài sản khác thuộc sở hữu của người khác."
+      }
+    ],
+    "verdict": {
+      "prediction": "Quyền khác đối với tài sản bao gồm quyền đối với bất động sản liền kề, quyền hưởng dụng và quyền bề mặt.",
+      "answer": "Quyền khác đối với tài sản bao gồm:\n\na) Quyền đối với bất động sản liền kề;\nb) Quyền hưởng dụng;\nc) Quyền bề mặt",
+      "confidence": 95.0,
+      "reasoning": "Quyền đối với bất động sản liền kề, quyền hưởng dụng và quyền bề mặt đều là những quyền liên quan đến việc khai thác các tài sản khác thuộc sở hữu của người khác.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.21428571428571425,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T08:19:04.941646+00:00"
+  }
+}

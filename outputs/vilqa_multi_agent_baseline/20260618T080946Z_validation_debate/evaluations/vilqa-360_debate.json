@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-360",
+    "case_type": "legal_qa",
+    "context": "Quản chế\n\nQuản chế là buộc người bị kết án phạt tù phải cư trú, làm ăn sinh sống và cải tạo ở một địa phương nhất định dưới sự kiểm soát, giáo dục của chính quyền và nhân dân địa phương. Trong thời gian quản chế, người bị kết án không được tự ý ra khỏi nơi cư trú, bị tước một số quyền công dân theo quy định tại Điều 44 của Bộ luật này và bị cấm hành nghề hoặc làm công việc nhất định.\n\nQuản chế được áp dụng đối với người phạm tội xâm phạm an ninh quốc gia, người tái phạm nguy hiểm hoặc trong những trường hợp khác do Bộ luật này quy định.\n\nThời hạn quản chế là từ 01 năm đến 05 năm, kể từ ngày chấp hành xong hình phạt tù.",
+    "question": "Quản chế được áp dụng đối với ai?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 360
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.8813559322033898,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

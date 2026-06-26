@@ -1,0 +1,116 @@
+experiment:
+  name: vilqa_multi_agent_ollama
+  seed: 42
+  output_dir: outputs/vilqa_multi_agent_ollama
+
+dataset:
+  name: ViLQA_ALQAC
+  path: data/ALQAC.csv
+  format: csv
+  columns:
+    context: context
+    question: question
+    answer: answer
+  split:
+    train_ratio: 0.8
+    validation_ratio: 0.1
+    test_ratio: 0.1
+
+retrieval:
+  legal_evidence_top_k: 2
+  past_memory_top_k: 2
+  rough_top_n: 50
+  method: bm25_only
+
+memory:
+  path: memory-bank/baseline_memory.json
+  mode: off
+  retrieval: lexical
+  update_after_debate: false
+
+debate:
+  rounds: 1
+  argument_max_tokens: 200
+  include_closing_statements: false
+  enable_judge_question: false
+  early_stop_confidence: null
+  local_prompt_limits:
+    max_context_chars: 1500
+    max_evidence_docs: 2
+    max_evidence_chars: 500
+    max_history_turns: 4
+    max_history_chars: 300
+  roles:
+    proponent: supports_answer
+    opponent: challenges_answer
+    judge: decides_answer
+
+llm:
+  backend: local
+  default:
+    backend: local
+    model: dolphin3:latest
+    endpoint: http://localhost:11434/v1/chat/completions
+    temperature: 0.2
+    max_output_tokens: 256
+    top_p: 0.95
+    timeout: 900
+  local:
+    model: dolphin3:latest
+    endpoint: http://localhost:11434/v1/chat/completions
+    temperature: 0.2
+    max_output_tokens: 256
+    top_p: 0.95
+    timeout: 900
+  roles:
+    direct:
+      backend: local
+      model: dolphin3:latest
+      temperature: 0.1
+      max_output_tokens: 384
+    cot:
+      backend: local
+      model: dolphin3:latest
+      temperature: 0.1
+      max_output_tokens: 384
+    vanilla:
+      backend: local
+      model: dolphin3:latest
+      temperature: 0.3
+      max_output_tokens: 256
+    proponent:
+      backend: local
+      model: dolphin3:latest
+      temperature: 0.4
+      max_output_tokens: 200
+    opponent:
+      backend: local
+      model: dolphin3:latest
+      temperature: 0.4
+      max_output_tokens: 200
+    judge:
+      backend: local
+      model: dolphin3:latest
+      temperature: 0.1
+      max_output_tokens: 256
+    evaluator:
+      backend: local
+      model: dolphin3:latest
+      temperature: 0.0
+      max_output_tokens: 256
+
+models:
+  proponent: dolphin3:latest
+  opponent: dolphin3:latest
+  judge: dolphin3:latest
+
+baselines:
+  extractive_qa:
+    model: deepset/xlm-roberta-base-squad2
+
+evaluation:
+  enable_llm_evaluator: false
+  batch:
+    default_split: validation
+    default_method: debate
+    default_limit: 1

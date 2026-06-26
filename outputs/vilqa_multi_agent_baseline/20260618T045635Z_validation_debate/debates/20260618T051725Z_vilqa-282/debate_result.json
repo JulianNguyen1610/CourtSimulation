@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-282",
+    "case_type": "legal_qa",
+    "context": "Tiền lương ngừng việc\n\nTrường hợp phải ngừng việc, người lao động được trả lương như sau:\n\n1. Nếu do lỗi của người sử dụng lao động thì người lao động được trả đủ tiền lương theo hợp đồng lao động;\n\n2. Nếu do lỗi của người lao động thì người đó không được trả lương; những người lao động khác trong cùng đơn vị phải ngừng việc thì được trả lương theo mức do hai bên thỏa thuận nhưng không được thấp hơn mức lương tối thiểu;\n\n3. Nếu vì sự cố về điện, nước mà không do lỗi của người sử dụng lao động hoặc do thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, địch họa, di dời địa điểm hoạt động theo yêu cầu của cơ quan nhà nước có thẩm quyền hoặc vì lý do kinh tế thì hai bên thỏa thuận về tiền lương ngừng việc như sau:\n\na) Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận không thấp hơn mức lương tối thiểu;\n\nb) Trường hợp phải ngừng việc trên 14 ngày làm việc thì tiền lương ngừng việc do hai bên thỏa thuận nhưng phải bảo đảm tiền lương ngừng việc trong 14 ngày đầu tiên không thấp hơn mức lương tối thiểu.",
+    "question": "Điền vào ...: Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận ... mức lương tối thiểu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 282
+    }
+  },
+  "result": {
+    "case_id": "vilqa-282",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-270-context",
+        "text": "Chuyển người lao động làm công việc khác so với hợp đồng lao động\n\n1. Khi gặp khó khăn đột xuất do thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, áp dụng biện pháp ngăn ngừa, khắc phục tai nạn lao động, bệnh nghề nghiệp, sự cố điện, nước hoặc do nhu cầu sản xuất, kinh doanh thì người sử dụng lao động được quyền tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động nhưng không được quá 60 ngày làm việc cộng dồn trong 01 năm; trường hợp chuyển người lao động làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm thì chỉ được thực hiện khi người lao động đồng ý bằng văn bản.\n\nNgười sử dụng lao động quy định cụ thể trong nội quy lao động những trường hợp do nhu cầu sản xuất, kinh doanh mà người sử dụng lao động được tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động.\n\n2. Khi tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động quy định tại khoản 1 Điều này, người sử dụng lao động phải báo cho người lao động biết trước ít nhất 03 ngày làm việc, thông báo rõ thời hạn làm tạm thời và bố trí công việc phù hợp với sức khỏe, giới tính của người lao động.\n\n3. Người lao động chuyển sang làm công việc khác so với hợp đồng lao động được trả lương theo công việc mới. Nếu tiền lương của công việc mới thấp hơn tiền lương của công việc cũ thì được giữ nguyên tiền lương của công việc cũ trong thời hạn 30 ngày làm việc. Tiền lương theo công việc mới ít nhất phải bằng 85% tiền lương của công việc cũ nhưng không thấp hơn mức lương tối thiểu.\n\n4. Người lao động không đồng ý tạm thời làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm mà phải ngừng việc thì người sử dụng lao động phải trả lương ngừng việc theo quy định tại Điều 99 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 361.8679363441044,
+        "metadata": {
+          "case_id": "vilqa-270",
+          "question": "Tiền lương theo công việc mới ít nhất phải bằng bao nhiêu phần trăm tiền lương của công việc cũ?",
+          "row_index": 270,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-127-context",
+        "text": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứng tiền lương.\n\n3. Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.",
+        "source": "vilqa_context",
+        "score": 274.2809243296916,
+        "metadata": {
+          "case_id": "vilqa-127",
+          "question": "Người lao động trong điều kiện nào thì không được tạm ứng tiền lương?",
+          "row_index": 127,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-126-context",
+        "text": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứng tiền lương.\n\n3. Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.",
+        "source": "vilqa_context",
+        "score": 274.2809243296916,
+        "metadata": {
+          "case_id": "vilqa-126",
+          "question": "Người lao động được tạm ứng tối đa là bao nhiêu?",
+          "row_index": 126,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-143-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 259.1840637706817,
+        "metadata": {
+          "case_id": "vilqa-143",
+          "question": "Người lao động có thể thỏa thuận nghỉ hằng năm như thế nào?",
+          "row_index": 143,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-141-context",
+        "text": "Nghỉ hằng năm\n\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\n\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\n\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\n\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n\n7. Chính phủ quy định chi tiết điều này.",
+        "source": "vilqa_context",
+        "score": 259.1840637706817,
+        "metadata": {
+          "case_id": "vilqa-141",
+          "question": "Đối với người làm việc trong môi trường độc hại thì hằng năm được nghỉ bao nhiêu ngày?",
+          "row_index": 141,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận không thấp hơn mức lương tối thiểu.\n\nBest Supporting Legal Evidence: Chuyển người lao động làm công việc khác so với hợp đồng lao động\n\nAnticipated Opponent Challenge: The opponent may argue that the temporary transfer of tasks does not directly relate to the payment during a stoppage of work. \n\nStrategy for this Round: I will focus on the fact that if the stoppage is caused by unforeseen circumstances such as natural disasters or economic reasons, the two parties should agree on the payment during the stoppage and it should be at least equal to the minimum wage. The case profile supports this claim and the retrieved legal evidence provides a basis for understanding the temporary transfer of tasks in such situations.",
+        "public_argument": "Trường hợp ngừng việc từ 14 ngày làm việc trở xuống, tiền lương ngừng việc được thỏa thuận không thấp hơn mức lương tối thiểu. Điều này được quy định tại điểm a) của đoạn văn trong case profile. Nếu vì sự cố về điện, nước mà không do lỗi của người sử dụng lao động hoặc do thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, địch họa, di dời địa điểm hoạt động theo yêu cầu của cơ quan nhà nước có thẩm quyền hoặc vì lý do kinh tế thì hai bên thỏa thuận về tiền lương ngừng việc như sau: a) Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận không thấp hơn mức lương tối thiểu.",
+        "evidence_ids": [
+          "vilqa-270-context",
+          "vilqa-127-context",
+          "vilqa-126-context",
+          "vilqa-143-context",
+          "vilqa-141-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest Weakness in Proponent's Position: The proponent's claim relies heavily on the assumption that when a worker is temporarily transferred to another job due to unforeseen circumstances, their pay should be at least equal to the minimum wage. However, there may be cases where the temporary transfer does not directly relate to the payment during a stoppage of work.\n\nAlternative Answer or Interpretation: The proponent's claim might be valid in situations where the stoppage of work is caused by unforeseen circumstances such as natural disasters or economic reasons. In these cases, it would make sense for both parties to agree on the payment during the stoppage and ensure that it is at least equal to the minimum wage.\n\nEvidence Needed: To further support this challenge, evidence indicating that temporary transfers of tasks do not directly impact payments during a stoppage of work would be necessary.\n\nStrategy for This Round: In order to strengthen my position, I will focus on arguing that the proponent's claim may not apply in all",
+        "public_argument": "Trả lời công kích của đối thủ: Bạn cho rằng tiền lương ngừng việc không được thấp hơn mức lương tối thiểu trong trường hợp ngừng việc do sự cố về điện, nước hoặc các yếu tố ngoài ý muốn khác. Tuy nhiên, bạn cần cung cấp bằng chứng cụ thể để hỗ trợ cho lập luận này và giải thích rõ lý do tại sao người lao động vẫn nên nhận được ít nhất mức lương tối thiểu trong những tình huống đó.",
+        "evidence_ids": [
+          "vilqa-270-context",
+          "vilqa-127-context",
+          "vilqa-126-context",
+          "vilqa-143-context",
+          "vilqa-141-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Agree",
+        "confidence": 80.0,
+        "reasoning": "The case profile clearly states that in the event of a power outage or water disruption not caused by the employer, or due to natural disasters, fires, epidemics, war, relocation upon request from competent state agencies, or for economic reasons, the wage agreement during the stoppage should be as follows. Specifically, point 3a) mentions that if the stoppage lasts 14 days or less, the agreed wage should not be lower than the minimum wage."
+      }
+    ],
+    "verdict": {
+      "prediction": "Agree",
+      "answer": "Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc được thỏa thuận không thấp hơn mức lương tối thiểu.",
+      "confidence": 80.0,
+      "reasoning": "The case profile clearly states that in the event of a power outage or water disruption not caused by the employer, or due to natural disasters, fires, epidemics, war, relocation upon request from competent state agencies, or for economic reasons, the wage agreement during the stoppage should be as follows. Specifically, point 3a) mentions that if the stoppage lasts 14 days or less, the agreed wage should not be lower than the minimum wage.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.20689655172413793,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T05:17:25.622305+00:00"
+  }
+}

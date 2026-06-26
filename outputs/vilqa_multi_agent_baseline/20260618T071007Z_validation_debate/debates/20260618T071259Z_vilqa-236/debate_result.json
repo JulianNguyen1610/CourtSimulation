@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-236",
+    "case_type": "legal_qa",
+    "context": "Xác lập quyền sở hữu đối với vật nuôi dưới nước\n\nKhi vật nuôi dưới nước của một người di chuyển tự nhiên vào ruộng, ao, hồ của người khác thì thuộc sở hữu của người có ruộng, ao, hồ đó. Trường hợp vật nuôi dưới nước có dấu hiệu riêng biệt để có thể xác định vật nuôi không thuộc sở hữu của mình thì người có ruộng, ao, hồ đó phải thông báo công khai để chủ sở hữu biết mà nhận lại. Sau 01 tháng, kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ.",
+    "question": "Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 236
+    }
+  },
+  "result": {
+    "case_id": "vilqa-236",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-234-context",
+        "text": "Xác lập quyền sở hữu đối với gia cầm bị thất lạc\n\n1. Trường hợp gia cầm của một người bị thất lạc mà người khác bắt được thì người bắt được phải thông báo công khai để chủ sở hữu gia cầm biết mà nhận lại. Sau 01 tháng, kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu đối với gia cầm và hoa lợi do gia cầm sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia cầm.\n\n2. Trường hợp chủ sở hữu được nhận lại gia cầm bị thất lạc thì phải thanh toán tiền công nuôi giữ và chi phí khác cho người bắt được gia cầm. Trong thời gian nuôi giữ gia cầm bị thất lạc, người bắt được gia cầm được hưởng hoa lợi do gia cầm sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia cầm.",
+        "source": "vilqa_context",
+        "score": 174.26597329529076,
+        "metadata": {
+          "case_id": "vilqa-234",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận gia cẩm bị thất lạc thì quyền sở hữu đối với gia cầm thuộc về người bắt được?",
+          "row_index": 234,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-230-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 170.29908842364514,
+        "metadata": {
+          "case_id": "vilqa-230",
+          "question": "Người bắt được gia súc bị thất lạc phải làm gì?",
+          "row_index": 230,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-233-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 170.29908842364514,
+        "metadata": {
+          "case_id": "vilqa-233",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai về gia súc bị thất lạc là gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc thuộc về người bắt được gia súc?",
+          "row_index": 233,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-231-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 170.29908842364514,
+        "metadata": {
+          "case_id": "vilqa-231",
+          "question": "Chủ sở hữu được nhận lại gia súc phải thực hiện nghĩa vụ gì với người bắt được gia súc?",
+          "row_index": 231,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-221-context",
+        "text": "Xác lập quyền sở hữu đối với tài sản vô chủ, tài sản không xác định được chủ sở hữu\n\n1. Tài sản vô chủ là tài sản mà chủ sở hữu đã từ bỏ quyền sở hữu đối với tài sản đó.\n\nNgười đã phát hiện, người đang quản lý tài sản vô chủ là động sản thì có quyền sở hữu tài sản đó, trừ trường hợp luật có quy định khác; nếu tài sản là bất động sản thì thuộc về Nhà nước.\n\n2. Người phát hiện tài sản không xác định được ai là chủ sở hữu phải thông báo hoặc giao nộp cho Ủy ban nhân dân cấp xã hoặc công an cấp xã nơi gần nhất để thông báo công khai cho chủ sở hữu biết mà nhận lại.\n\nViệc giao nộp phải được lập biên bản, trong đó ghi rõ họ, tên, địa chỉ của người giao nộp, người nhận, tình trạng, số lượng, khối lượng tài sản giao nộp.\n\nỦy ban nhân dân cấp xã hoặc công an cấp xã đã nhận tài sản phải thông báo cho người phát hiện về kết quả xác định chủ sở hữu.\n\nSau 01 năm, kể từ ngày thông báo công khai mà không xác định được ai là chủ sở hữu tài sản là động sản thì quyền sở hữu đối với động sản đó thuộc về người phát hiện tài sản.\n\nSau 05 năm, kể từ ngày thông báo công khai mà không xác định được ai là chủ sở hữu tài sản là bất động sản thì bất động sản đó thuộc về Nhà nước; người phát hiện được hưởng một khoản tiền thưởng theo quy định của pháp luật.",
+        "source": "vilqa_context",
+        "score": 165.27097145293334,
+        "metadata": {
+          "case_id": "vilqa-221",
+          "question": "Người phát hiện động sản vô chủ có thể trở thành chủ sở hữu sau bao lâu kể từ ngày thông báo công khai mà không xác định được chủ sở hữu?",
+          "row_index": 221,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: After one month from the date of public notice, if no one comes to claim the ownership of the aquatic animal, then the right to own the aquatic animal belongs to the person with the field, pond, or lake.\n\nBest supporting legal evidence: Case profile\n\nAnticipated opponent challenge: The opponent may argue that the time limit for claiming ownership should be longer than one month.\n\nStrategy for this round: I will emphasize the importance of setting a specific time limit (one month) for claiming ownership to ensure fairness and efficiency in resolving disputes over aquatic animals. Additionally, I will highlight that the current evidence supports the claim of one month as the appropriate time limit based on the case profile provided.",
+        "public_argument": "In this case, we argue that after one month from the date of public notice, if no one comes to claim the ownership of the aquatic animal, then the right to own the aquatic animal belongs to the person with the field, pond, or lake. This time limit ensures fairness and efficiency in resolving disputes over aquatic animals. The current evidence supports this claim based on the case profile provided.",
+        "evidence_ids": [
+          "vilqa-234-context",
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-221-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\n\nThe Proponent's position relies heavily on a specific time limit of one month for claiming ownership of an aquatic animal after public notice. However, it may be argued that this time frame might not be sufficient or appropriate in certain situations.\n\nAlternative answer or interpretation:\n\nAn alternative interpretation could be that the time limit for claiming ownership should be based on individual circumstances and may vary depending on factors such as the value of the aquatic animal, the complexity of the dispute, or the availability of evidence to support a claim. A more flexible approach to determining the appropriate time frame could ensure fairness and efficiency in resolving disputes over aquatic animals.\n\nEvidence needed to support the challenge:\n\nTo support the challenge that one month may not be an adequate time limit for claiming ownership, additional legal evidence is required. This could include case law or legislation that establishes different time frames based on specific conditions or provides guidelines for determining an appropriate time limit in each individual case.\n\nStrategy for this round:\n\nIn this",
+        "public_argument": "I understand your position that after one month from the date of public notice, if no one comes to claim the ownership of the aquatic animal, then the right to own the aquatic animal belongs to the person with the field, pond, or lake. However, I argue that this time limit may not be sufficient in all cases and should be based on individual circumstances such as the value of the aquatic animal, complexity of the dispute, or availability of evidence to support a claim.",
+        "evidence_ids": [
+          "vilqa-234-context",
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-221-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "sau một tháng kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ.",
+        "confidence": 100.0,
+        "reasoning": "Both the proponent and opponent arguments agree on this point. The case profile also supports this statement."
+      }
+    ],
+    "verdict": {
+      "prediction": "sau một tháng kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ.",
+      "answer": "sau một tháng kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu vật nuôi dưới nước đó thuộc về người có ruộng, ao, hồ",
+      "confidence": 100.0,
+      "reasoning": "Both the proponent and opponent arguments agree on this point. The case profile also supports this statement.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.058823529411764705,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T07:12:59.369218+00:00"
+  }
+}

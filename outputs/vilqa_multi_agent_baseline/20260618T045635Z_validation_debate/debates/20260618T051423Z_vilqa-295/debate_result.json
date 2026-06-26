@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-295",
+    "case_type": "legal_qa",
+    "context": "Phạt tiền\n\nPhạt tiền được áp dụng là hình phạt chính đối với người từ đủ 16 tuổi đến dưới 18 tuổi, nếu người đó có thu nhập hoặc có tài sản riêng.\n\nMức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.",
+    "question": "Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá bao nhiêu phần của mức tiền phạt mà điều luật quy định?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 295
+    }
+  },
+  "result": {
+    "case_id": "vilqa-295",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-296-context",
+        "text": "Cải tạo không giam giữ\n\n1. Hình phạt cải tạo không giam giữ được áp dụng đối với người từ đủ 16 đến dưới 18 tuổi phạm tội ít nghiêm trọng, phạm tội nghiêm trọng hoặc phạm tội rất nghiêm trọng do vô ý hoặc người từ đủ 14 tuổi đến dưới 16 tuổi phạm tội rất nghiêm trọng do cố ý.\n\n2. Khi áp dụng hình phạt cải tạo không giam giữ đối với người dưới 18 tuổi phạm tội, thì không khấu trừ thu nhập của người đó.\n\nThời hạn cải tạo không giam giữ đối với người dưới 18 tuổi phạm tội không quá một phần hai thời hạn mà điều luật quy định.",
+        "source": "vilqa_context",
+        "score": 168.37210370706902,
+        "metadata": {
+          "case_id": "vilqa-296",
+          "question": "Hình phạt cải tạo không giam giữ được áp dụng đối với người từ đủ 14 tuổi đến dưới 16 tuổi phạm tội mức độ nào?",
+          "row_index": 296,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-31-context",
+        "text": "Tội mua dâm người dưới 18 tuổi\n\n1. Người nào đủ 18 tuổi trở lên mua dâm người dưới 18 tuổi trừ trường hợp quy định tại điểm b khoản 1 Điều 142 của Bộ luật này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Mua dâm 02 lần trở lên;\n\nb) Mua dâm người từ đủ 13 tuổi đến dưới 16 tuổi;\n\nc) Gây tổn hại cho sức khỏe của nạn nhân mà tỷ lệ tổn thương cơ thể từ 31% đến 60%.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Phạm tội 02 lần trở lên đối với người từ đủ 13 tuổi đến dưới 16 tuổi;\n\nb) Gây tổn hại cho sức khỏe của nạn nhân mà tỷ lệ tổn thương cơ thể 61% trở lên.\n\n4. Người phạm tội còn bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 142.49035808059193,
+        "metadata": {
+          "case_id": "vilqa-31",
+          "question": "Theo Bộ luật Hình sự 2017, người đủ 18 tuổi trở lên mua dâm người dưới 18 tuổi trừ trường hợp quy định tại điểm b khoản 1 Điều 142 của Bộ luật này, thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 31,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-4-context",
+        "text": "Tử hình\n\n1. Tử hình là hình phạt đặc biệt chỉ áp dụng đối với người phạm tội đặc biệt nghiêm trọng thuộc một trong nhóm các tội xâm phạm an ninh quốc gia, xâm phạm tính mạng con người, các tội phạm về ma túy, tham nhũng và một số tội phạm đặc biệt nghiêm trọng khác do Bộ luật này quy định.\n\n2. Không áp dụng hình phạt tử hình đối với người dưới 18 tuổi khi phạm tội, phụ nữ có thai, phụ nữ đang nuôi con dưới 36 tháng tuổi hoặc người đủ 75 tuổi trở lên khi phạm tội hoặc khi xét xử.\n\n3. Không thi hành án tử hình đối với người bị kết án nếu thuộc một trong các trường hợp sau đây:\n\na) Phụ nữ có thai hoặc phụ nữ đang nuôi con dưới 36 tháng tuổi;\n\nb) Người đủ 75 tuổi trở lên;\n\nc) Người bị kết án tử hình về tội tham ô tài sản, tội nhận hối lộ mà sau khi bị kết án đã chủ động nộp lại ít nhất ba phần tư tài sản tham ô, nhận hối lộ và hợp tác tích cực với cơ quan chức năng trong việc phát hiện, điều tra, xử lý tội phạm hoặc lập công lớn.\n\n4. Trong trường hợp quy định tại khoản 3 Điều này hoặc trường hợp người bị kết án tử hình được ân giảm, thì hình phạt tử hình được chuyển thành tù chung thân.",
+        "source": "vilqa_context",
+        "score": 113.19087942504692,
+        "metadata": {
+          "case_id": "vilqa-4",
+          "question": "Trong trường hợp người bị kết án tử hình được ân giảm, thì hình phạt tử hình được chuyển thành hình phạt gì?",
+          "row_index": 4,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-362-context",
+        "text": "Tù chung thân\n\nTù chung thân là hình phạt tù không thời hạn được áp dụng đối với người phạm tội đặc biệt nghiêm trọng, nhưng chưa đến mức bị xử phạt tử hình.\n\nKhông áp dụng hình phạt tù chung thân đối với người dưới 18 tuổi phạm tội.",
+        "source": "vilqa_context",
+        "score": 113.115110395015,
+        "metadata": {
+          "case_id": "vilqa-362",
+          "question": "Tù chung thân là gì?",
+          "row_index": 362,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-1-context",
+        "text": "Tù chung thân\n\nTù chung thân là hình phạt tù không thời hạn được áp dụng đối với người phạm tội đặc biệt nghiêm trọng, nhưng chưa đến mức bị xử phạt tử hình.\n\nKhông áp dụng hình phạt tù chung thân đối với người dưới 18 tuổi phạm tội.",
+        "source": "vilqa_context",
+        "score": 113.115110395015,
+        "metadata": {
+          "case_id": "vilqa-1",
+          "question": "Theo Bộ luật Hình sự năm 2017, không áp dụng hình phạt tù chung thân đối với người dưới bao nhiêu tuổi phạm tội?",
+          "row_index": 1,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim:\n\nThe maximum penalty that can be imposed on individuals between the ages of 16 and 18 years old who commit crimes is not more than half of the fine stipulated by the law.\n\nBest Supporting Legal Evidence:\n\nAccording to the case profile, \"Phạt tiền được áp dụng là hình phạt chính đối với người từ đủ 16 tuổi đến dưới 18 tuổi, nếu người đó có thu nhập hoặc có tài sản riêng. Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.\"\n\nAnticipated Opponent Challenge:\n\nThe opponent may argue that the maximum fine for individuals under 18 years old is not clearly defined in the provided evidence.\n\nStrategy for this Round:\n\nAcknowledge the potential ambiguity and emphasize the importance of context. Highlight that the case profile directly states that \"the penalty in the form of a fine shall be applied as the main punishment to individuals from 16 to below",
+        "public_argument": "In this debate, I assert that the maximum fine for individuals between 16 and 18 years old who commit crimes is not more than half of the fine stipulated by law. This claim is supported by the case profile which states: \"The penalty in the form of a fine shall be applied as the main punishment to individuals from 16 to below 18 years old, if such individuals have income or assets. The level of the fine for individuals between 16 and 18 years old who commit crimes shall not exceed half of the fine stipulated by the law.\"\n\nI acknowledge that there may be ambiguity in the provided evidence, but I emphasize that the context clearly defines the maximum penalty for this age group.",
+        "evidence_ids": [
+          "vilqa-296-context",
+          "vilqa-31-context",
+          "vilqa-4-context",
+          "vilqa-362-context",
+          "vilqa-1-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weakest Point in Proponent's Position: The proponent's claim relies heavily on a specific interpretation of the case profile without considering other related legal texts.\n\nAlternative Answer/Interpretation: While the case profile provides some context, it is crucial to consider additional legal documents and precedents that might provide more comprehensive information about the maximum fine for individuals under 18 years old who commit crimes.\n\nEvidence Needed: Further research into relevant legal articles or past cases involving similar situations would be necessary to support a challenge to the proponent's claim. This could include examining specific laws, court decisions, or other authoritative sources related to juvenile justice and penalties in Vietnam.\n\nStrategy for this Round: Emphasize that while the case profile offers some insight, it is essential to consider the broader legal context. Suggest that the proponent's position may be incomplete without considering additional evidence from relevant legal articles or past cases.",
+        "public_argument": "I acknowledge that you have presented an interpretation of the case profile. However, it is crucial to consider additional legal documents and precedents for a more comprehensive understanding. The maximum fine for individuals under 18 years old who commit crimes may be subject to broader legal context beyond what's provided in the case profile. Further research into relevant legal articles or past cases would provide stronger evidence to support our position.",
+        "evidence_ids": [
+          "vilqa-296-context",
+          "vilqa-31-context",
+          "vilqa-4-context",
+          "vilqa-362-context",
+          "vilqa-1-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "not more than half of the fine stipulated by law",
+        "confidence": 80.0,
+        "reasoning": "Based on the case profile provided, it is stated that the maximum fine for individuals between 16 and 18 years old who commit crimes is not more than half of the fine stipulated by law. Although the opponent suggests considering additional legal documents and precedents, there is no evidence presented to contradict or modify the claim in the case profile."
+      }
+    ],
+    "verdict": {
+      "prediction": "not more than half of the fine stipulated by law",
+      "answer": "not more than half of the fine stipulated by law",
+      "confidence": 80.0,
+      "reasoning": "Based on the case profile provided, it is stated that the maximum fine for individuals between 16 and 18 years old who commit crimes is not more than half of the fine stipulated by law. Although the opponent suggests considering additional legal documents and precedents, there is no evidence presented to contradict or modify the claim in the case profile.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T05:14:23.248630+00:00"
+  }
+}

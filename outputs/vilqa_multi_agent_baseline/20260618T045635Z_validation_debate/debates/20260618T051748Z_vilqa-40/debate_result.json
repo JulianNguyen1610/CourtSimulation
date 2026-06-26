@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-40",
+    "case_type": "legal_qa",
+    "context": "Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới 3.000 cây.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tổ chức;\n\nb) Với số lượng 3.000 cây trở lên;\n\nc) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng.\n\n4. Người nào phạm tội thuộc khoản 1 Điều này, nhưng đã tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch, thì có thể được miễn trách nhiệm hình sự.",
+    "question": "Người trồng cây cần sa có tổ chức thì bị phạt tù từ bao lâu đến bao lâu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 40
+    }
+  },
+  "result": {
+    "case_id": "vilqa-40",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-38-context",
+        "text": "Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới 3.000 cây.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tổ chức;\n\nb) Với số lượng 3.000 cây trở lên;\n\nc) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng.\n\n4. Người nào phạm tội thuộc khoản 1 Điều này, nhưng đã tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch, thì có thể được miễn trách nhiệm hình sự.",
+        "source": "vilqa_context",
+        "score": 550.0796754973405,
+        "metadata": {
+          "case_id": "vilqa-38",
+          "question": "Người trồng cây thuốc phiện với số lượng từ 500 cây đến dưới 3.000 cây, thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 38,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-41-context",
+        "text": "Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới 3.000 cây.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tổ chức;\n\nb) Với số lượng 3.000 cây trở lên;\n\nc) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng.\n\n4. Người nào phạm tội thuộc khoản 1 Điều này, nhưng đã tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch, thì có thể được miễn trách nhiệm hình sự.",
+        "source": "vilqa_context",
+        "score": 550.0796754973405,
+        "metadata": {
+          "case_id": "vilqa-41",
+          "question": "Người phạm tội trồng cây thuốc phiện, cây côca, cây cần sa còn có thể bị phạt tiền từ bao nhiêu?",
+          "row_index": 41,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-318-context",
+        "text": "Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới 3.000 cây.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tổ chức;\n\nb) Với số lượng 3.000 cây trở lên;\n\nc) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng.\n\n4. Người nào phạm tội thuộc khoản 1 Điều này, nhưng đã tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch, thì có thể được miễn trách nhiệm hình sự.",
+        "source": "vilqa_context",
+        "score": 550.0796754973405,
+        "metadata": {
+          "case_id": "vilqa-318",
+          "question": "Trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy do Chính phủ quy định với số lượng bao nhiêu thì có thể bị phạt tù đến 07 năm?",
+          "row_index": 318,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-319-context",
+        "text": "Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới 3.000 cây.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tổ chức;\n\nb) Với số lượng 3.000 cây trở lên;\n\nc) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng.\n\n4. Người nào phạm tội thuộc khoản 1 Điều này, nhưng đã tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch, thì có thể được miễn trách nhiệm hình sự.",
+        "source": "vilqa_context",
+        "score": 550.0796754973405,
+        "metadata": {
+          "case_id": "vilqa-319",
+          "question": "Trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy do Chính phủ quy định với số lượng bao nhiêu thì có thể bị phạt tù tối đa 03 năm?",
+          "row_index": 319,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-39-context",
+        "text": "Tội trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy\n\n1. Người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 06 tháng đến 03 năm:\n\na) Đã được giáo dục 02 lần và đã được tạo điều kiện ổn định cuộc sống;\n\nb) Đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm;\n\nc) Với số lượng từ 500 cây đến dưới 3.000 cây.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tổ chức;\n\nb) Với số lượng 3.000 cây trở lên;\n\nc) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng.\n\n4. Người nào phạm tội thuộc khoản 1 Điều này, nhưng đã tự nguyện phá bỏ, giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch, thì có thể được miễn trách nhiệm hình sự.",
+        "source": "vilqa_context",
+        "score": 550.0796754973405,
+        "metadata": {
+          "case_id": "vilqa-39",
+          "question": "Người trồng cây thuốc phiện với số lượng 3.000 cây trở lên thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 39,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim:\nNgười trồng cây cần sa có tổ chức thì bị phạt tù từ 3 năm đến 7 năm.\n\nBest Supporting Legal Evidence:\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Có tổ chức;\n\nb) Với số lượng 3.000 cây trở lên;\n\nc) Tái phạm nguy hiểm.\n\nStrategy for this Round:\nAcknowledge the opponent's potential argument that the specific punishment duration is not explicitly stated when growing marijuana in an organized manner with a quantity over 3,000 plants. Then, emphasize the general guidelines provided in the legal evidence which supports our claim of a 3-year to 7-year sentence for such offenses.\n\nAnticipated Opponent Challenge:\nThe opponent may argue that there isn't explicit information regarding the punishment duration when cultivating marijuana organizedly with more than 3,000 plants.",
+        "public_argument": "Chúng ta cần nhớ rằng, trong luật, người trồng cây cần sa có tổ chức thì bị phạt tù từ 3 năm đến 7 năm. Điều này được rõ ràng quy định tại điểm 2 về các trường hợp phạm tội khác nhau và mức phạt tương ứng. Mặc dù không nêu cụ thể mức thời hạn khi trồng có tổ chức với số lượng lớn hơn 3000 cây, nhưng dựa trên các hướng dẫn chung được cung cấp trong bằng chứng pháp lý, chúng ta có thể thấy rằng mức án 3 năm đến 7 năm là hợp lệ cho hành vi này.",
+        "evidence_ids": [
+          "vilqa-38-context",
+          "vilqa-41-context",
+          "vilqa-318-context",
+          "vilqa-319-context",
+          "vilqa-39-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weaknesses in Proponent's Position:\n\n1. Lack of specificity regarding punishment duration when cultivating marijuana organizedly with more than 3,000 plants.\n2. Overemphasis on general guidelines without considering other relevant factors that may affect the punishment duration.\n\nAlternative Answer or Interpretation:\n\nWhile the Proponent claims that a person who grows marijuana in an organized manner is subject to a three-year to seven-year sentence, there is no explicit information provided regarding the specific punishment duration when cultivating with more than 3,000 plants. Other factors such as the presence of intent, repetition of the offense, or involvement of dangerous substances may influence the length of the sentence.\n\nEvidence Needed:\n\nTo strengthen the challenge, it would be beneficial to find legal documents or case law examples where individuals who cultivate marijuana in an organized manner with more than 3,000 plants received sentences outside of the three-year to seven-year range. Additionally, evidence highlighting other factors that contribute to varying punishment durations would further support the argument.\n\nStrategy for",
+        "public_argument": "Chúng ta cần nhớ rằng, trong luật, người trồng cây cần sa có tổ chức thì bị phạt tù từ 3 năm đến 7 năm. Điều này được rõ ràng quy định tại điểm 2 về các trường hợp phạm tội khác nhau và mức phạt tương ứng. Mặc dù không nêu cụ thể mức thời hạn khi trồng có tổ chức với số lượng lớn hơn 3000 cây, nhưng...",
+        "evidence_ids": [
+          "vilqa-38-context",
+          "vilqa-41-context",
+          "vilqa-318-context",
+          "vilqa-319-context",
+          "vilqa-39-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "3 năm đến 7 năm",
+        "confidence": 90.0,
+        "reasoning": "The law clearly states that an individual who cultivates cannabis on an organized basis is subject to a penalty of imprisonment for a period ranging from three years to seven years, as specified in point 2 of the case profile. Although it does not explicitly mention the specific duration when cultivating in an organized manner with more than 3,000 plants, this information aligns with the general guidelines provided."
+      }
+    ],
+    "verdict": {
+      "prediction": "3 năm đến 7 năm",
+      "answer": "3 năm đến 7 năm",
+      "confidence": 90.0,
+      "reasoning": "The law clearly states that an individual who cultivates cannabis on an organized basis is subject to a penalty of imprisonment for a period ranging from three years to seven years, as specified in point 2 of the case profile. Although it does not explicitly mention the specific duration when cultivating in an organized manner with more than 3,000 plants, this information aligns with the general guidelines provided.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.5454545454545454,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T05:17:48.804312+00:00"
+  }
+}

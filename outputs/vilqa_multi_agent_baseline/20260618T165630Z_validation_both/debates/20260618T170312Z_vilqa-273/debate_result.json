@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-273",
+    "case_type": "legal_qa",
+    "context": "Hủy bỏ việc đơn phương chấm dứt hợp đồng lao động\n\nMỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.",
+    "question": "Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải làm gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 273
+    }
+  },
+  "result": {
+    "case_id": "vilqa-273",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-103-context",
+        "text": "Đơn phương chấm dứt thực hiện hợp đồng dịch vụ\n\n1. Trường hợp việc tiếp tục thực hiện công việc không có lợi cho bên sử dụng dịch vụ thì bên sử dụng dịch vụ có quyền đơn phương chấm dứt thực hiện hợp đồng, nhưng phải báo cho bên cung ứng dịch vụ biết trước một thời gian hợp lý; bên sử dụng dịch vụ phải trả tiền công theo phần dịch vụ mà bên cung ứng dịch vụ đã thực hiện và bồi thường thiệt hại.\n\n2. Trường hợp bên sử dụng dịch vụ vi phạm nghiêm trọng nghĩa vụ thì bên cung ứng dịch vụ có quyền đơn phương chấm dứt thực hiện hợp đồng và yêu cầu bồi thường thiệt hại.",
+        "source": "vilqa_context",
+        "score": 114.09424449358542,
+        "metadata": {
+          "case_id": "vilqa-103",
+          "question": "Bên cung ứng dịch vụ có quyền gì nếu bên sử dụng dịch vụ vi phạm nghiêm trọng nghĩa vụ thoả thuận trong hợp đồng?",
+          "row_index": 103,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-160-context",
+        "text": "Quyền đơn phương chấm dứt, tạm hoãn hợp đồng lao động của lao động nữ mang thai\n\n1. Lao động nữ mang thai nếu có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi thì có quyền đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động.\n\nTrường hợp đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động thì phải thông báo cho người sử dụng lao động kèm theo xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi.\n\n2. Trường hợp tạm hoãn thực hiện hợp đồng lao động, thời gian tạm hoãn do người lao động thỏa thuận với người sử dụng lao động nhưng tối thiểu phải bằng thời gian do cơ sở khám bệnh, chữa bệnh có thẩm quyền chỉ định tạm nghỉ. Trường hợp không có chỉ định của cơ sở khám bệnh, chữa bệnh có thẩm quyền về thời gian tạm nghỉ thì hai bên thỏa thuận về thời gian tạm hoãn thực hiện hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 113.24906574582278,
+        "metadata": {
+          "case_id": "vilqa-160",
+          "question": "Lao động nữ có thể đơn phương chấm dứt hợp đồng trong trường hợp nào?",
+          "row_index": 160,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-161-context",
+        "text": "Quyền đơn phương chấm dứt, tạm hoãn hợp đồng lao động của lao động nữ mang thai\n\n1. Lao động nữ mang thai nếu có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi thì có quyền đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động.\n\nTrường hợp đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động thì phải thông báo cho người sử dụng lao động kèm theo xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi.\n\n2. Trường hợp tạm hoãn thực hiện hợp đồng lao động, thời gian tạm hoãn do người lao động thỏa thuận với người sử dụng lao động nhưng tối thiểu phải bằng thời gian do cơ sở khám bệnh, chữa bệnh có thẩm quyền chỉ định tạm nghỉ. Trường hợp không có chỉ định của cơ sở khám bệnh, chữa bệnh có thẩm quyền về thời gian tạm nghỉ thì hai bên thỏa thuận về thời gian tạm hoãn thực hiện hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 113.24906574582278,
+        "metadata": {
+          "case_id": "vilqa-161",
+          "question": "Khi có chỉ định của cơ sở khám bênh, người lao động nữ có thẻ tạm hõa thực hiện hợp đồng lao động trong bao lâu?",
+          "row_index": 161,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-158-context",
+        "text": "Bảo vệ thai sản\n\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:\n\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;\n\nb) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.\n\n2. Lao động nữ làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hoặc làm nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con khi mang thai và có thông báo cho người sử dụng lao động biết thì được người sử dụng lao động chuyển sang làm công việc nhẹ hơn, an toàn hơn hoặc giảm bớt 01 giờ làm việc hằng ngày mà không bị cắt giảm tiền lương và quyền, lợi ích cho đến hết thời gian nuôi con dưới 12 tháng tuổi.\n\n3. Người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo pháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\n\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 95.02304770633225,
+        "metadata": {
+          "case_id": "vilqa-158",
+          "question": "Cần phải làm gì đối với lao động đang mang thai và đang làm công việc nặng nhọc, độc hại, nguy hiểm?",
+          "row_index": 158,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-159-context",
+        "text": "Bảo vệ thai sản\n\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:\n\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;\n\nb) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.\n\n2. Lao động nữ làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hoặc làm nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con khi mang thai và có thông báo cho người sử dụng lao động biết thì được người sử dụng lao động chuyển sang làm công việc nhẹ hơn, an toàn hơn hoặc giảm bớt 01 giờ làm việc hằng ngày mà không bị cắt giảm tiền lương và quyền, lợi ích cho đến hết thời gian nuôi con dưới 12 tháng tuổi.\n\n3. Người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo pháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\n\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.",
+        "source": "vilqa_context",
+        "score": 95.02304770633225,
+        "metadata": {
+          "case_id": "vilqa-159",
+          "question": "Trong trường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì người sử dụng lao động phải ưu tiên làm gì?",
+          "row_index": 159,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Theo quy định pháp luật Việt Nam, mỗi bên có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước thời hạn báo trước nếu được bên kia đồng ý, đồng thời phải thực hiện thủ tục thông báo bằng văn bản.\n- **Candidate final answer**: \"Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.\"\n- **Best supporting legal evidence**: `vilqa-273-context` (dựa trên câu hỏi và ngữ cảnh trực tiếp của trường hợp hiện tại).\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng các văn bản pháp luật khác (như Luật Lao động) quy định cụ thể về thời hạn báo trước và hậu quả pháp lý nếu không tuân thủ, từ đó cho rằng câu trả lời cần bổ sung thêm về nghĩa vụ bồi thường hoặc các trường",
+        "public_argument": "Theo ngữ cảnh pháp lý được cung cấp, mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý. Đây là điều kiện bắt buộc để thực hiện quyền này hợp pháp. Do đó, câu trả lời chính xác là: \"Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.\"",
+        "evidence_ids": [
+          "vilqa-103-context",
+          "vilqa-160-context",
+          "vilqa-161-context",
+          "vilqa-158-context",
+          "vilqa-159-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "### Strongest weakness in the Proponent's position\nThe Proponent relies entirely on the provided `context` snippet for the current case (`vilqa-273`), which explicitly states the conditions: \"phải thông báo bằng văn bản và phải được bên kia đồng ý\" (must notify in writing and must be agreed to by the other party). However, the Proponent fails to address a critical gap: **the legal basis for the \"agreement\" requirement**. In Vietnamese labor law (Labor Code 2019), unilateral termination before the notice period usually triggers a liability for compensation or damages unless there is a specific mutual agreement to rescind the termination act. The Proponent's answer treats the \"agreement\" as a mere procedural step, whereas legally, without the other party's consent, the termination might still be valid but subject to financial penalties (compensation for the notice period). The Proponent does not clarify if the \"agreement\" is a prerequisite for",
+        "public_argument": "Luật Lao động 2019 quy định rõ hơn về trách nhiệm pháp lý khi chấm dứt hợp đồng. Việc hủy bỏ đơn phương chấm dứt trước thời hạn báo trước không chỉ cần thông báo bằng văn bản mà còn phải được bên kia đồng ý. Nếu không có sự đồng ý này, bên chấm dứt hợp đồng có thể phải bồi thường. Do đó, câu trả lời đầy đủ phải nhấn mạnh cả hai điều kiện: thông báo bằng văn bản và được bên kia đồng ý, như đã nêu trong ngữ cảnh.",
+        "evidence_ids": [
+          "vilqa-103-context",
+          "vilqa-160-context",
+          "vilqa-161-context",
+          "vilqa-158-context",
+          "vilqa-159-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "phải thông báo bằng văn bản và phải được bên kia đồng ý",
+        "confidence": 100.0,
+        "reasoning": "Ngữ cảnh pháp lý trong case profile nêu rõ: 'Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.' Đây là câu trả lời trực tiếp cho câu hỏi về điều kiện cần làm. Các lập luận của Proponent và Opponent đều xác nhận các điều kiện này."
+      }
+    ],
+    "verdict": {
+      "prediction": "phải thông báo bằng văn bản và phải được bên kia đồng ý",
+      "answer": "phải thông báo bằng văn bản và phải được bên kia đồng ý",
+      "confidence": 100.0,
+      "reasoning": "Ngữ cảnh pháp lý trong case profile nêu rõ: 'Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.' Đây là câu trả lời trực tiếp cho câu hỏi về điều kiện cần làm. Các lập luận của Proponent và Opponent đều xác nhận các điều kiện này.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.9600000000000001,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:03:12.082333+00:00"
+  }
+}

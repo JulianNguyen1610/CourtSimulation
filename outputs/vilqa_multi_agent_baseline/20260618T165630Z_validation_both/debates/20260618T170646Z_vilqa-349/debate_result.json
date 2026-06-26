@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-349",
+    "case_type": "legal_qa",
+    "context": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+    "question": "Người nào chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối thiểu bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 349
+    }
+  },
+  "result": {
+    "case_id": "vilqa-349",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-346-context",
+        "text": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 271.928990527892,
+        "metadata": {
+          "case_id": "vilqa-346",
+          "question": "Huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt như thế nào?",
+          "row_index": 346,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-347-context",
+        "text": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 271.928990527892,
+        "metadata": {
+          "case_id": "vilqa-347",
+          "question": "Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 347,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-348-context",
+        "text": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 271.928990527892,
+        "metadata": {
+          "case_id": "vilqa-348",
+          "question": "Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối thiểu bao nhiêu năm?",
+          "row_index": 348,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-350-context",
+        "text": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+        "source": "vilqa_context",
+        "score": 271.928990527892,
+        "metadata": {
+          "case_id": "vilqa-350",
+          "question": "Người nào chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 350,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-18-context",
+        "text": "Tội lạm quyền trong khi thi hành công vụ\n\n1. Người nào vì vụ lợi hoặc động cơ cá nhân khác mà vượt quá quyền hạn của mình làm trái công vụ gây thiệt hại về tài sản từ 10.000.000 đồng đến dưới 100.000.000 đồng hoặc gây thiệt hại đến lợi ích của Nhà nước, quyền, lợi ích hợp pháp của tổ chức, cá nhân, thì bị phạt tù từ 01 năm đến 07 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 05 năm đến 10 năm:\n\na) Có tổ chức;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Gây thiệt hại về tài sản từ 100.000.000 đồng đến dưới 500.000.000 đồng.\n\n3. Phạm tội gây thiệt hại về tài sản từ 500.000.000 đồng đến dưới 1.500.000.000 đồng, thì bị phạt tù từ 10 năm đến 15 năm.\n\n4. Phạm tội gây thiệt hại về tài sản 1.500.000.000 đồng trở lên, thì bị phạt tù từ 15 năm đến 20 năm.\n\n5. Người phạm tội còn bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm, có thể bị phạt tiền từ 10.000.000 đồng đến 100.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 141.20541337638247,
+        "metadata": {
+          "case_id": "vilqa-18",
+          "question": "Người phạm tội lạm quyền trong khi thi hành công vụ còn có thể bị phạt tiền từ bao nhiêu đến bao nhiêu tiền?",
+          "row_index": 18,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim:**\nNgười chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản cho tổ chức, cá nhân khủng bố bị phạt tù từ 01 năm đến 05 năm.\n\n**Candidate final answer:**\n\"Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\"\n\n**Best supporting legal evidence:**\n{'doc_id': 'vilqa-346-context', 'text': 'Tội tài trợ khủng bố\\n\\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\\n\\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\\n\\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến",
+        "public_argument": "Theo quy định tại điểm 2 của văn bản pháp lý được cung cấp, người chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản cho tổ chức, cá nhân khủng bố sẽ bị phạt tù từ 01 năm đến 05 năm. Do đó, mức phạt tù tối thiểu là 01 năm.\n\n**Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.**",
+        "evidence_ids": [
+          "vilqa-346-context",
+          "vilqa-347-context",
+          "vilqa-348-context",
+          "vilqa-350-context",
+          "vilqa-18-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "**Strongest weakness in the Proponent's position:**\nThe Proponent's argument relies entirely on a direct extraction of the penalty range (\"từ 01 năm đến 05 năm\") without addressing the specific nuance of the question asking for the \"minimum\" (tối thiểu). While the conclusion is numerically correct based on the text, the reasoning is superficial. The Proponent fails to explicitly isolate the lower bound of the statutory range as the definitive answer to the \"minimum\" query, potentially missing the opportunity to clarify that this minimum applies strictly to the act of *preparation* and not the completed crime (which has a higher minimum of 5 years). This creates a vulnerability if the question implies a comparison between preparation and execution, though in this specific QA format, the direct extraction is usually sufficient. The main weakness is the lack of explicit logical deduction: \"Range is A to B -> Minimum is A.\"\n\n**Alternative answer or interpretation:**\nNo alternative legal interpretation exists",
+        "public_argument": "Thưa quý vị, lập luận của Proponent tuy đúng về con số nhưng thiếu sự phân biệt rõ ràng giữa tội danh hoàn thành và tội danh chuẩn bị. Theo điểm 2 quy định, mức phạt cho người *chuẩn bị* phạm tội là \"từ 01 năm đến 05 năm\". Trong khi đó, điểm 1 quy định người *huy động, hỗ trợ* (tội hoàn thành) bị phạt \"từ 05 năm đến 10 năm\". Do đó, mức phạt tối thiểu áp dụng cho hành vi chuẩn bị thực sự là 01 năm, thấp hơn đáng kể so với tội danh hoàn thành. Câu trả lời chính xác phải nhấn mạnh sự khác biệt này: \"Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\"",
+        "evidence_ids": [
+          "vilqa-346-context",
+          "vilqa-347-context",
+          "vilqa-348-context",
+          "vilqa-350-context",
+          "vilqa-18-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "01 năm",
+        "confidence": 100.0,
+        "reasoning": "Theo điểm 2 trong ngữ cảnh, người chuẩn bị phạm tội bị phạt tù từ 01 năm đến 05 năm, do đó mức phạt tối thiểu là 01 năm."
+      }
+    ],
+    "verdict": {
+      "prediction": "01 năm",
+      "answer": "01 năm",
+      "confidence": 100.0,
+      "reasoning": "Theo điểm 2 trong ngữ cảnh, người chuẩn bị phạm tội bị phạt tù từ 01 năm đến 05 năm, do đó mức phạt tù tối thiểu là 01 năm.",
+      "cited_evidence_ids": [
+        "vilqa-346-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:06:46.966839+00:00"
+  }
+}

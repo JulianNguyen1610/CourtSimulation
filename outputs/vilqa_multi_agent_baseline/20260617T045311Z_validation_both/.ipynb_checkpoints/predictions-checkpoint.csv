@@ -1,0 +1,7 @@
+case_id,split,method,question,gold_answer,predicted_answer,exact_match,f1,output_path
+vilqa-112,validation,direct,Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?,"người đang chiếm hữu, sử dụng, quản lý di sản",Không xác định,0.0,0.0,
+vilqa-112,validation,debate,Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?,"người đang chiếm hữu, sử dụng, quản lý di sản",Không xác định,0.0,0.0,
+vilqa-285,validation,direct,Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?,100.000.000 đồng đến dưới 500.000.000 đồng,02 năm,0.0,0.0,
+vilqa-285,validation,debate,Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?,100.000.000 đồng đến dưới 500.000.000 đồng,02 năm,0.0,0.0,
+vilqa-352,validation,direct,"Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền tối đa bao nhiêu?",100.000.000 đồng,10 năm,0.0,0.0,
+vilqa-352,validation,debate,"Dùng bói toán, đồng bóng hoặc các hình thức mê tín, dị đoan khác đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án về tội này, chưa được xóa án tích mà còn vi phạm, thì bị phạt tiền tối đa bao nhiêu?",100.000.000 đồng,10 năm,0.0,0.0,

@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-447",
+    "case_type": "legal_qa",
+    "context": "Áp dụng tương tự pháp luật\n\n1. Trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì áp dụng quy định của pháp luật điều chỉnh quan hệ dân sự tương tự.\n\n2. Trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều này thì áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng.",
+    "question": "Theo Bộ luật dân sự 2015, trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều 6 của Bộ luật này thì phải áp dụng như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 447
+    }
+  },
+  "result": {
+    "case_id": "vilqa-447",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-446-context",
+        "text": "Áp dụng tương tự pháp luật\n\n1. Trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì áp dụng quy định của pháp luật điều chỉnh quan hệ dân sự tương tự.\n\n2. Trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều này thì áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng.",
+        "source": "vilqa_context",
+        "score": 245.2044370215486,
+        "metadata": {
+          "case_id": "vilqa-446",
+          "question": "Theo Bộ luật dân sự 2015, trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì phải áp dụng quy định của pháp luật như thế nào?",
+          "row_index": 446,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-444-context",
+        "text": "Áp dụng tập quán\n\n1. Tập quán là quy tắc xử sự có nội dung rõ ràng để xác định quyền, nghĩa vụ của cá nhân, pháp nhân trong quan hệ dân sự cụ thể, được hình thành và lặp đi lặp lại nhiều lần trong một thời gian dài, được thừa nhận và áp dụng rộng rãi trong một vùng, miền, dân tộc, cộng đồng dân cư hoặc trong một lĩnh vực dân sự.\n\n2. Trường hợp các bên không có thỏa thuận và pháp luật không quy định thì có thể áp dụng tập quán nhưng tập quán áp dụng không được trái với các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 151.79343332637723,
+        "metadata": {
+          "case_id": "vilqa-444",
+          "question": "Theo Điều 5: Áp dụng tập quán, trong Bộ luật dân sự 2015, tập quán là gì?",
+          "row_index": 444,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-460-context",
+        "text": "Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền\n\n1. Tòa án, cơ quan có thẩm quyền khác có trách nhiệm tôn trọng, bảo vệ quyền dân sự của cá nhân, pháp nhân.\n\nTrường hợp quyền dân sự bị xâm phạm hoặc có tranh chấp thì việc bảo vệ quyền được thực hiện theo pháp luật tố tụng tại Tòa án hoặc trọng tài.\n\nViệc bảo vệ quyền dân sự theo thủ tục hành chính được thực hiện trong trường hợp luật quy định. Quyết định giải quyết vụ việc theo thủ tục hành chính có thể được xem xét lại tại Tòa án.\n\n2. Tòa án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại Điều 5 và Điều 6 của Bộ luật này được áp dụng.",
+        "source": "vilqa_context",
+        "score": 120.75035852307356,
+        "metadata": {
+          "case_id": "vilqa-460",
+          "question": "Toà án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại điều mấy của Bộ luật dân sự 2015 được áp dụng?",
+          "row_index": 460,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-458-context",
+        "text": "Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền\n\n1. Tòa án, cơ quan có thẩm quyền khác có trách nhiệm tôn trọng, bảo vệ quyền dân sự của cá nhân, pháp nhân.\n\nTrường hợp quyền dân sự bị xâm phạm hoặc có tranh chấp thì việc bảo vệ quyền được thực hiện theo pháp luật tố tụng tại Tòa án hoặc trọng tài.\n\nViệc bảo vệ quyền dân sự theo thủ tục hành chính được thực hiện trong trường hợp luật quy định. Quyết định giải quyết vụ việc theo thủ tục hành chính có thể được xem xét lại tại Tòa án.\n\n2. Tòa án không được từ chối giải quyết vụ, việc dân sự vì lý do chưa có điều luật để áp dụng; trong trường hợp này, quy định tại Điều 5 và Điều 6 của Bộ luật này được áp dụng.",
+        "source": "vilqa_context",
+        "score": 120.75035852307356,
+        "metadata": {
+          "case_id": "vilqa-458",
+          "question": "Theo Điều 14: Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền, trong Bộ luật dân sự 2015, toà án, cơ quan có thẩm quyền khác có trách nhiệm gì?",
+          "row_index": 458,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-149-context",
+        "text": "Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n\n1. Việc xử lý kỷ luật lao động được quy định như sau:\n\na) Người sử dụng lao động phải chứng minh được lỗi của người lao động;\n\nb) Phải có sự tham gia của tổ chức đại diện người lao động tại cơ sở mà người lao động đang bị xử lý kỷ luật là thành viên;\n\nc) Người lao động phải có mặt và có quyền tự bào chữa, nhờ luật sư hoặc tổ chức đại diện người lao động bào chữa; trường hợp là người chưa đủ 15 tuổi thì phải có sự tham gia của người đại diện theo pháp luật;\n\nd) Việc xử lý kỷ luật lao động phải được ghi thành biên bản.\n\n2. Không được áp dụng nhiều hình thức xử lý kỷ luật lao động đối với một hành vi vi phạm kỷ luật lao động.\n\n3. Khi một người lao động đồng thời có nhiều hành vi vi phạm kỷ luật lao động thì chỉ áp dụng hình thức kỷ luật cao nhất tương ứng với hành vi vi phạm nặng nhất.\n\n4. Không được xử lý kỷ luật lao động đối với người lao động đang trong thời gian sau đây:\n\na) Nghỉ ốm đau, điều dưỡng; nghỉ việc được sự đồng ý của người sử dụng lao động;\n\nb) Đang bị tạm giữ, tạm giam;\n\nc) Đang chờ kết quả của cơ quan có thẩm quyền điều tra xác minh và kết luận đối với hành vi vi phạm được quy định tại khoản 1 và khoản 2 Điều 125 của Bộ luật này;\n\nd) Người lao động nữ mang thai; người lao động nghỉ thai sản, nuôi con dưới 12 tháng tuổi.\n\n5. Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình.\n\n6. Chính phủ quy định trình tự, thủ tục xử lý kỷ luật lao động.",
+        "source": "vilqa_context",
+        "score": 114.86734441738288,
+        "metadata": {
+          "case_id": "vilqa-149",
+          "question": "Đối với người lao động dưới 15 tuổi thì cần có ai tham gia khi bị kỷ luật?",
+          "row_index": 149,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: If it is not possible to apply the provisions of the civil law according to clause 1 of Article 6 of the Civil Code, then the general principles of civil law specified in Article 3 of the Civil Code should be applied.\n\nBest Supporting Legal Evidence: \n- Case profile evidence: The case profile states that if it is impossible to apply the provisions of the civil law as per clause 1 of Article 6, then the general principles of civil law specified in Article 3 of the Civil Code should be applied.\n- Retrieved legal evidence: The retrieved legal evidence supports this claim by stating that when it is not possible to apply the provisions of the civil law according to clause 1 of Article 6, then the general principles of civil law specified in Article 3 of the Civil Code should be applied.\n\nAnticipated Opponent Challenge: The opponent may argue that there are other applicable laws or sources of law that should be considered instead of applying the general principles of civil law",
+        "public_argument": "In this legal QA debate, the key claim is that if it is impossible to apply the provisions of the civil law according to clause 1 of Article 6 of the Civil Code, then the general principles of civil law specified in Article 3 of the Civil Code should be applied. This claim is supported by both the case profile evidence and retrieved legal evidence.\n\nThe case profile states that if it is impossible to apply the provisions of the civil law as per clause 1 of Article 6, then the general principles of civil law specified in Article 3 of the Civil Code should be applied. The retrieved legal evidence also supports this claim by stating the same thing.\n\nAn anticipated opponent challenge may be that there are other applicable laws or sources of law that should be considered instead of applying the general principles of civil law. However, according to the rules of this debate, we can only cite evidence provided in the case or retrieved evidence and cannot invent legal provisions.\n\nIn summary, if it is impossible to apply",
+        "evidence_ids": [
+          "vilqa-446-context",
+          "vilqa-444-context",
+          "vilqa-460-context",
+          "vilqa-458-context",
+          "vilqa-149-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest Weakness:\nThe proponent's position relies heavily on the assumption that there are no other applicable laws or sources of law apart from the general principles of civil law specified in Article 3 of the Civil Code. The opponent could challenge this by presenting evidence of alternative legal frameworks, judicial precedents, or international conventions that may be relevant to the case at hand.\n\nAlternative Answer/Interpretation:\nThe opponent may argue that other applicable laws or sources of law should be considered before resorting to the general principles of civil law specified in Article 3. For example, if there is a specific law that directly addresses the issue at hand, it should take precedence over the general principles of civil law.\n\nEvidence Needed:\nTo support this challenge, the opponent could present relevant case law or legal documents that demonstrate the application of alternative legal frameworks or sources of law in similar cases. Additionally, expert opinions or academic articles discussing the hierarchy of legal sources in Vietnamese law may also be useful.\n\nStrategy for This Round",
+        "public_argument": "The opponent argues that other applicable laws or sources of law should be considered before resorting to the general principles of civil law specified in Article 3. This challenge undermines the proponent's assumption that there are no other relevant legal frameworks apart from those mentioned.\n\nEvidence: The opponent may present case law, legal documents, expert opinions, or academic articles demonstrating alternative legal frameworks or sources applicable to the case at hand.",
+        "evidence_ids": [
+          "vilqa-446-context",
+          "vilqa-444-context",
+          "vilqa-460-context",
+          "vilqa-458-context",
+          "vilqa-149-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "The general principles of civil law specified in Article 3 should be applied.",
+        "confidence": 80.0,
+        "reasoning": "According to the proponent's argument, if it is impossible to apply the provisions of the civil law according to clause 1 of Article 6, then the general principles of civil law specified in Article 3 should be applied. The opponent's argument does not provide any alternative legal frameworks that could be applicable in this situation."
+      }
+    ],
+    "verdict": {
+      "prediction": "The general principles of civil law specified in Article 3 should be applied.",
+      "answer": "The general principles of civil law specified in Article 3 should be applied.",
+      "confidence": 80.0,
+      "reasoning": "Based on the proponent's argument and the opponent's failure to provide alternative legal frameworks, it is reasonable to conclude that the general principles of civil law specified in Article 3 should be applied if it is impossible to apply the provisions of the civil law according to clause 1 of Article 6.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.05128205128205129,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T04:59:50.572518+00:00"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-491",
+    "case_type": "legal_qa",
+    "context": "Quyền xác định lại giới tính\n\n1. Cá nhân có quyền xác định lại giới tính.\n\nViệc xác định lại giới tính của một người được thực hiện trong trường hợp giới tính của người đó bị khuyết tật bẩm sinh hoặc chưa định hình chính xác mà cần có sự can thiệp của y học nhằm xác định rõ giới tính.\n\n2. Việc xác định lại giới tính được thực hiện theo quy định của pháp luật.\n\n3. Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan.",
+    "question": "Theo Điều 36, Bộ luật dân sự 2015, cá nhân đã thực hiện việc xác định lại giới tính có các quyền và nghĩa vụ như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 491
+    }
+  },
+  "result": {
+    "case_id": "vilqa-491",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-481-context",
+        "text": "Quyền thay đổi tên\n\n1. Cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi tên trong trường hợp sau đây:\n\na) Theo yêu cầu của người có tên mà việc sử dụng tên đó gây nhầm lẫn, ảnh hưởng đến tình cảm gia đình, đến danh dự, quyền, lợi ích hợp pháp của người đó;\n\nb) Theo yêu cầu của cha nuôi, mẹ nuôi về việc thay đổi tên cho con nuôi hoặc khi người con nuôi thôi làm con nuôi và người này hoặc cha đẻ, mẹ đẻ yêu cầu lấy lại tên mà cha đẻ, mẹ đẻ đã đặt;\n\nc) Theo yêu cầu của cha đẻ, mẹ đẻ hoặc người con khi xác định cha, mẹ cho con;\n\nd) Thay đổi tên của người bị lưu lạc đã tìm ra nguồn gốc huyết thống của mình;\n\nđ) Thay đổi tên của vợ, chồng trong quan hệ hôn nhân và gia đình có yếu tố nước ngoài để phù hợp với pháp luật của nước mà vợ, chồng người nước ngoài là công dân hoặc lấy lại tên trước khi thay đổi;\n\ne) Thay đổi tên của người đã xác định lại giới tính, người đã chuyển đổi giới tính;\n\ng) Trường hợp khác do pháp luật về hộ tịch quy định.\n\n2. Việc thay đổi tên cho người từ đủ chín tuổi trở lên phải có sự đồng ý của người đó.\n\n3. Việc thay đổi tên của cá nhân không làm thay đổi, chấm dứt quyền, nghĩa vụ dân sự được xác lập theo tên cũ.",
+        "source": "vilqa_context",
+        "score": 198.6856197468825,
+        "metadata": {
+          "case_id": "vilqa-481",
+          "question": "Theo Điều 28, Bộ luật dân sự 2015, cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi tên trong trường hợp nào?",
+          "row_index": 481,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-188-context",
+        "text": "Ranh giới giữa các bất động sản\n\n1. Ranh giới giữa các bất động sản liền kề được xác định theo thỏa thuận hoặc theo quyết định của cơ quan nhà nước có thẩm quyền.\n\nRanh giới cũng có thể được xác định theo tập quán hoặc theo ranh giới đã tồn tại từ 30 năm trở lên mà không có tranh chấp.\n\nKhông được lấn, chiếm, thay đổi mốc giới ngăn cách, kể cả trường hợp ranh giới là kênh, mương, hào, rãnh, bờ ruộng. Mọi chủ thể có nghĩa vụ tôn trọng, duy trì ranh giới chung.\n\n2. Người sử dụng đất được sử dụng không gian và lòng đất theo chiều thẳng đứng từ ranh giới của thửa đất phù hợp với quy định của pháp luật và không được làm ảnh hưởng đến việc sử dụng đất của người khác.\n\nNgười sử dụng đất chỉ được trồng cây và làm các việc khác trong khuôn viên đất thuộc quyền sử dụng của mình và theo ranh giới đã được xác định; nếu rễ cây, cành cây vượt quá ranh giới thì phải xén rễ, cắt, tỉa cành phần vượt quá, trừ trường hợp có thỏa thuận khác.",
+        "source": "vilqa_context",
+        "score": 146.4310239537127,
+        "metadata": {
+          "case_id": "vilqa-188",
+          "question": "Ranh giới giữa các bất động sản có thể được xác định theo ranh giới đã tồn tại bao lâu mà không có tranh chấp?",
+          "row_index": 188,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-454-context",
+        "text": "Giới hạn việc thực hiện quyền dân sự\n\n1. Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.\n\n2. Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều này thì Tòa án hoặc cơ quan có thẩm quyền khác căn cứ vào tính chất, hậu quả của hành vi vi phạm mà có thể không bảo vệ một phần hoặc toàn bộ quyền của họ, buộc bồi thường nếu gây thiệt hại và có thể áp dụng chế tài khác do luật quy định.",
+        "source": "vilqa_context",
+        "score": 137.03997359593302,
+        "metadata": {
+          "case_id": "vilqa-454",
+          "question": "Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, thì Toà án hoặc cơ quan có thẩm quyền khác có thể?",
+          "row_index": 454,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-479-context",
+        "text": "Quyền thay đổi họ\n\n1. Cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi họ trong trường hợp sau đây:\n\na) Thay đổi họ cho con đẻ từ họ của cha đẻ sang họ của mẹ đẻ hoặc ngược lại;\n\nb) Thay đổi họ cho con nuôi từ họ của cha đẻ hoặc mẹ đẻ sang họ của cha nuôi hoặc họ của mẹ nuôi theo yêu cầu của cha nuôi, mẹ nuôi;\n\nc) Khi người con nuôi thôi làm con nuôi và người này hoặc cha đẻ, mẹ đẻ yêu cầu lấy lại họ cho người đó theo họ của cha đẻ hoặc mẹ đẻ;\n\nd) Thay đổi họ cho con theo yêu cầu của cha đẻ, mẹ đẻ hoặc của con khi xác định cha, mẹ cho con;\n\nđ) Thay đổi họ của người bị lưu lạc đã tìm ra nguồn gốc huyết thống của mình;\n\ne) Thay đổi họ theo họ của vợ, họ của chồng trong quan hệ hôn nhân và gia đình có yếu tố nước ngoài để phù hợp với pháp luật của nước mà vợ, chồng người nước ngoài là công dân hoặc lấy lại họ trước khi thay đổi;\n\ng) Thay đổi họ của con khi cha, mẹ thay đổi họ;\n\nh) Trường hợp khác do pháp luật về hộ tịch quy định.\n\n2. Việc thay đổi họ cho người từ đủ chín tuổi trở lên phải có sự đồng ý của người đó.\n\n3. Việc thay đổi họ của cá nhân không làm thay đổi, chấm dứt quyền, nghĩa vụ dân sự được xác lập theo họ cũ.",
+        "source": "vilqa_context",
+        "score": 133.3229191693585,
+        "metadata": {
+          "case_id": "vilqa-479",
+          "question": "Theo Điều 27, Bộ luật dân sự 2015, cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi họ trong trường hợp nào?",
+          "row_index": 479,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-480-context",
+        "text": "Quyền thay đổi họ\n\n1. Cá nhân có quyền yêu cầu cơ quan nhà nước có thẩm quyền công nhận việc thay đổi họ trong trường hợp sau đây:\n\na) Thay đổi họ cho con đẻ từ họ của cha đẻ sang họ của mẹ đẻ hoặc ngược lại;\n\nb) Thay đổi họ cho con nuôi từ họ của cha đẻ hoặc mẹ đẻ sang họ của cha nuôi hoặc họ của mẹ nuôi theo yêu cầu của cha nuôi, mẹ nuôi;\n\nc) Khi người con nuôi thôi làm con nuôi và người này hoặc cha đẻ, mẹ đẻ yêu cầu lấy lại họ cho người đó theo họ của cha đẻ hoặc mẹ đẻ;\n\nd) Thay đổi họ cho con theo yêu cầu của cha đẻ, mẹ đẻ hoặc của con khi xác định cha, mẹ cho con;\n\nđ) Thay đổi họ của người bị lưu lạc đã tìm ra nguồn gốc huyết thống của mình;\n\ne) Thay đổi họ theo họ của vợ, họ của chồng trong quan hệ hôn nhân và gia đình có yếu tố nước ngoài để phù hợp với pháp luật của nước mà vợ, chồng người nước ngoài là công dân hoặc lấy lại họ trước khi thay đổi;\n\ng) Thay đổi họ của con khi cha, mẹ thay đổi họ;\n\nh) Trường hợp khác do pháp luật về hộ tịch quy định.\n\n2. Việc thay đổi họ cho người từ đủ chín tuổi trở lên phải có sự đồng ý của người đó.\n\n3. Việc thay đổi họ của cá nhân không làm thay đổi, chấm dứt quyền, nghĩa vụ dân sự được xác lập theo họ cũ.",
+        "source": "vilqa_context",
+        "score": 133.3229191693585,
+        "metadata": {
+          "case_id": "vilqa-480",
+          "question": "Theo Điều 27, Bộ luật dân sự 2015, việc thay đổi họ của cá nhân có làm thay đổi, chấm dứt quyền, nghĩa vụ dân sự được xác lập theo họ cũ hay không?",
+          "row_index": 480,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- Key claim: The individual who has undergone gender reassignment has the right and obligation to register for changes in household registration and enjoys personal rights appropriate to their reassigned gender, as stipulated by law.\n- Candidate final answer: Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan.\n- Best supporting legal evidence: {'doc_id': 'vilqa-491-context', 'text': 'Quyền xác định lại giới tính\\n\\n1. Cá nhân có quyền xác định lại giới tính.\\n\\nViệc xác định lại giới tính của một người được thực hiện trong trường hợp giới tính của người đó bị khuyết tật bẩm sinh hoặc chưa định hình chính xác mà cần có sự can thiệp của y học nhằm xác định rõ giới",
+        "public_argument": "Theo Điều 36 Bộ luật dân sự 2015, cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan.",
+        "evidence_ids": [
+          "vilqa-481-context",
+          "vilqa-188-context",
+          "vilqa-454-context",
+          "vilqa-479-context",
+          "vilqa-480-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- Strongest weakness in the Proponent's position: The Proponent's citation of evidence is critically flawed and logically incoherent. The retrieved evidence IDs `vilqa-481-context` (regarding the right to change names) and `vilqa-188-context` (regarding real estate boundaries) are completely irrelevant to the legal question about gender reassignment rights under Article 36. While the Proponent's final answer text is legally correct based on the provided context, their reliance on unrelated legal provisions constitutes a severe hallucination of authority and a failure in logical grounding. The argument fails to demonstrate *why* the cited laws support the conclusion, as those laws govern entirely different civil matters.\n\n- Alternative answer or interpretation, if any: \"Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được",
+        "public_argument": "Lập luận của Proponent bị bác bỏ vì lỗi suy luận nghiêm trọng. Mặc dù kết luận cuối cùng đúng, nhưng Proponent đã viện dẫn các bằng chứng không liên quan (`vilqa-481-context` về quyền đổi tên, `vilqa-188-context` về ranh giới bất động sản) để biện minh cho vấn đề xác định lại giới tính. Đây là sựhallucination của thẩm quyền pháp lý.\n\nCâu trả lời đúng phải dựa trực tiếp vào nội dung quy định về quyền và nghĩa vụ hộ tịch cũng như quyền nhân thân.\n\n\"Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan.\"",
+        "evidence_ids": [
+          "vilqa-481-context",
+          "vilqa-188-context",
+          "vilqa-454-context",
+          "vilqa-479-context",
+          "vilqa-480-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan",
+        "confidence": 100.0,
+        "reasoning": "Lập luận của Proponent trích dẫn chính xác và đầy đủ nội dung tại khoản 3 của văn bản pháp luật được cung cấp trong ngữ cảnh, trả lời đúng câu hỏi về quyền và nghĩa vụ của cá nhân sau khi xác định lại giới tính. Lập luận của Opponent sai lầm khi cho rằng Proponent viện dẫn các ngữ cảnh không liên quan (vilqa-481, vilqa-188), trong khi thực tế Proponent đã dựa trực tiếp vào ngữ cảnh của vụ án này (vilqa-491)."
+      }
+    ],
+    "verdict": {
+      "prediction": "có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan",
+      "answer": "có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan",
+      "confidence": 100.0,
+      "reasoning": "Ngữ cảnh cung cấp tại khoản 3 xác định rõ ràng quyền và nghĩa vụ của cá nhân đã thực hiện việc xác định lại giới tính. Lập luận của Proponent dựa trực tiếp vào ngữ cảnh này là chính xác, trong khi lập luận của Opponent sai lầm khi cho rằng Proponent viện dẫn các ngữ cảnh không liên quan.",
+      "cited_evidence_ids": [
+        "vilqa-491-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.9545454545454545,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:39:24.268457+00:00"
+  }
+}

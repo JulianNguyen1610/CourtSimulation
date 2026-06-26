@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-491",
+    "case_type": "legal_qa",
+    "context": "Quyền xác định lại giới tính\n\n1. Cá nhân có quyền xác định lại giới tính.\n\nViệc xác định lại giới tính của một người được thực hiện trong trường hợp giới tính của người đó bị khuyết tật bẩm sinh hoặc chưa định hình chính xác mà cần có sự can thiệp của y học nhằm xác định rõ giới tính.\n\n2. Việc xác định lại giới tính được thực hiện theo quy định của pháp luật.\n\n3. Cá nhân đã thực hiện việc xác định lại giới tính có quyền, nghĩa vụ đăng ký thay đổi hộ tịch theo quy định của pháp luật về hộ tịch; có quyền nhân thân phù hợp với giới tính đã được xác định lại theo quy định của Bộ luật này và luật khác có liên quan.",
+    "question": "Theo Điều 36, Bộ luật dân sự 2015, cá nhân đã thực hiện việc xác định lại giới tính có các quyền và nghĩa vụ như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 491
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.8316831683168318,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

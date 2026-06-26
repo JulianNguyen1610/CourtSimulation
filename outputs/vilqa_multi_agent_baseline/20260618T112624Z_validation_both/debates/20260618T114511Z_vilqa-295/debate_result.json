@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-295",
+    "case_type": "legal_qa",
+    "context": "Phạt tiền\n\nPhạt tiền được áp dụng là hình phạt chính đối với người từ đủ 16 tuổi đến dưới 18 tuổi, nếu người đó có thu nhập hoặc có tài sản riêng.\n\nMức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.",
+    "question": "Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá bao nhiêu phần của mức tiền phạt mà điều luật quy định?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 295
+    }
+  },
+  "result": {
+    "case_id": "vilqa-295",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-296-context",
+        "text": "Cải tạo không giam giữ\n\n1. Hình phạt cải tạo không giam giữ được áp dụng đối với người từ đủ 16 đến dưới 18 tuổi phạm tội ít nghiêm trọng, phạm tội nghiêm trọng hoặc phạm tội rất nghiêm trọng do vô ý hoặc người từ đủ 14 tuổi đến dưới 16 tuổi phạm tội rất nghiêm trọng do cố ý.\n\n2. Khi áp dụng hình phạt cải tạo không giam giữ đối với người dưới 18 tuổi phạm tội, thì không khấu trừ thu nhập của người đó.\n\nThời hạn cải tạo không giam giữ đối với người dưới 18 tuổi phạm tội không quá một phần hai thời hạn mà điều luật quy định.",
+        "source": "vilqa_context",
+        "score": 168.37210370706902,
+        "metadata": {
+          "case_id": "vilqa-296",
+          "question": "Hình phạt cải tạo không giam giữ được áp dụng đối với người từ đủ 14 tuổi đến dưới 16 tuổi phạm tội mức độ nào?",
+          "row_index": 296,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-31-context",
+        "text": "Tội mua dâm người dưới 18 tuổi\n\n1. Người nào đủ 18 tuổi trở lên mua dâm người dưới 18 tuổi trừ trường hợp quy định tại điểm b khoản 1 Điều 142 của Bộ luật này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 07 năm:\n\na) Mua dâm 02 lần trở lên;\n\nb) Mua dâm người từ đủ 13 tuổi đến dưới 16 tuổi;\n\nc) Gây tổn hại cho sức khỏe của nạn nhân mà tỷ lệ tổn thương cơ thể từ 31% đến 60%.\n\n3. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm:\n\na) Phạm tội 02 lần trở lên đối với người từ đủ 13 tuổi đến dưới 16 tuổi;\n\nb) Gây tổn hại cho sức khỏe của nạn nhân mà tỷ lệ tổn thương cơ thể 61% trở lên.\n\n4. Người phạm tội còn bị phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng.",
+        "source": "vilqa_context",
+        "score": 142.49035808059193,
+        "metadata": {
+          "case_id": "vilqa-31",
+          "question": "Theo Bộ luật Hình sự 2017, người đủ 18 tuổi trở lên mua dâm người dưới 18 tuổi trừ trường hợp quy định tại điểm b khoản 1 Điều 142 của Bộ luật này, thì bị phạt tù từ bao lâu đến bao lâu?",
+          "row_index": 31,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-4-context",
+        "text": "Tử hình\n\n1. Tử hình là hình phạt đặc biệt chỉ áp dụng đối với người phạm tội đặc biệt nghiêm trọng thuộc một trong nhóm các tội xâm phạm an ninh quốc gia, xâm phạm tính mạng con người, các tội phạm về ma túy, tham nhũng và một số tội phạm đặc biệt nghiêm trọng khác do Bộ luật này quy định.\n\n2. Không áp dụng hình phạt tử hình đối với người dưới 18 tuổi khi phạm tội, phụ nữ có thai, phụ nữ đang nuôi con dưới 36 tháng tuổi hoặc người đủ 75 tuổi trở lên khi phạm tội hoặc khi xét xử.\n\n3. Không thi hành án tử hình đối với người bị kết án nếu thuộc một trong các trường hợp sau đây:\n\na) Phụ nữ có thai hoặc phụ nữ đang nuôi con dưới 36 tháng tuổi;\n\nb) Người đủ 75 tuổi trở lên;\n\nc) Người bị kết án tử hình về tội tham ô tài sản, tội nhận hối lộ mà sau khi bị kết án đã chủ động nộp lại ít nhất ba phần tư tài sản tham ô, nhận hối lộ và hợp tác tích cực với cơ quan chức năng trong việc phát hiện, điều tra, xử lý tội phạm hoặc lập công lớn.\n\n4. Trong trường hợp quy định tại khoản 3 Điều này hoặc trường hợp người bị kết án tử hình được ân giảm, thì hình phạt tử hình được chuyển thành tù chung thân.",
+        "source": "vilqa_context",
+        "score": 113.19087942504692,
+        "metadata": {
+          "case_id": "vilqa-4",
+          "question": "Trong trường hợp người bị kết án tử hình được ân giảm, thì hình phạt tử hình được chuyển thành hình phạt gì?",
+          "row_index": 4,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-362-context",
+        "text": "Tù chung thân\n\nTù chung thân là hình phạt tù không thời hạn được áp dụng đối với người phạm tội đặc biệt nghiêm trọng, nhưng chưa đến mức bị xử phạt tử hình.\n\nKhông áp dụng hình phạt tù chung thân đối với người dưới 18 tuổi phạm tội.",
+        "source": "vilqa_context",
+        "score": 113.115110395015,
+        "metadata": {
+          "case_id": "vilqa-362",
+          "question": "Tù chung thân là gì?",
+          "row_index": 362,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-1-context",
+        "text": "Tù chung thân\n\nTù chung thân là hình phạt tù không thời hạn được áp dụng đối với người phạm tội đặc biệt nghiêm trọng, nhưng chưa đến mức bị xử phạt tử hình.\n\nKhông áp dụng hình phạt tù chung thân đối với người dưới 18 tuổi phạm tội.",
+        "source": "vilqa_context",
+        "score": 113.115110395015,
+        "metadata": {
+          "case_id": "vilqa-1",
+          "question": "Theo Bộ luật Hình sự năm 2017, không áp dụng hình phạt tù chung thân đối với người dưới bao nhiêu tuổi phạm tội?",
+          "row_index": 1,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe penalty for individuals aged 16 to under 18 is explicitly capped at no more than half (một phần hai) of the penalty prescribed by the specific article of the law.\n\n**Candidate final answer**\nkhông quá một phần hai\n\n**Best supporting legal evidence**\nThe case profile context itself provides the direct answer: \"Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.\"\n\n**Anticipated opponent challenge**\nThe opponent might attempt to confuse this with the \"improvement without detention\" (cải tạo không giam giữ) penalty, which also applies to minors but has different calculation rules or time limits, or they might cite the general age of criminal responsibility without addressing the specific *amount* of the fine. However, the question specifically asks for the *fraction/portion* of the standard penalty for a *fine",
+        "public_argument": "Dựa trên hồ sơ vụ án, mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội được quy định rõ ràng là \"không quá một phần hai\" mức tiền phạt mà điều luật quy định. Do đó, câu trả lời chính xác là:\n\nkhông quá một phần hai",
+        "evidence_ids": [
+          "vilqa-296-context",
+          "vilqa-31-context",
+          "vilqa-4-context",
+          "vilqa-362-context",
+          "vilqa-1-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "**Strongest weakness in the Proponent's position**\nThe Proponent's answer is legally correct based on the provided context, but it lacks precision regarding the *scope* of the penalty. The context explicitly states this rule applies to **\"Phạt tiền\"** (Fine) as a principal penalty. The Proponent fails to specify that this \"half\" limit applies specifically to the *fine amount*, not to other types of penalties (like imprisonment or improvement without detention) which have different calculation methods (e.g., time reduction). By giving a bare answer \"không quá một phần hai\" without the qualifier \"của mức tiền phạt\" (of the fine amount), the answer is technically incomplete and could be misleading if applied to non-monetary penalties.\n\n**Alternative answer or interpretation, if any**\n\"không quá một phần hai mức tiền phạt mà điều luật quy định\"\n\n**Evidence needed to support the challenge**\nThe context provided in the case profile itself: \"Phạt tiền được",
+        "public_argument": "Câu trả lời của đối phương thiếu chính xác về mặt phạm vi áp dụng. Ngữ cảnh pháp lý quy định rõ giới hạn \"không quá một phần hai\" chỉ áp dụng cho hình phạt **tiền phạt** (phạt tiền), không phải cho mọi loại hình phạt. Việc bỏ qua cụm từ \"mức tiền phạt\" khiến câu trả lời trở nên mơ hồ và có thể gây hiểu lầm khi áp dụng cho các hình phạt khác như cải tạo không giam giữ. Do đó, câu trả lời đầy đủ và chính xác phải là:\n\nkhông quá một phần hai mức tiền phạt mà điều luật quy định",
+        "evidence_ids": [
+          "vilqa-296-context",
+          "vilqa-31-context",
+          "vilqa-4-context",
+          "vilqa-362-context",
+          "vilqa-1-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "một phần hai",
+        "confidence": 100.0,
+        "reasoning": "Ngữ cảnh pháp lý cung cấp trong hồ sơ vụ án nêu rõ: 'Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.' Câu trả lời 'một phần hai' là trích dẫn trực tiếp và chính xác nhất từ ngữ cảnh để trả lời cho câu hỏi về tỷ lệ phần của mức tiền phạt."
+      }
+    ],
+    "verdict": {
+      "prediction": "không quá một phần hai",
+      "answer": "không quá một phần hai",
+      "confidence": 100.0,
+      "reasoning": "Ngữ cảnh pháp lý trong hồ sơ vụ án quy định rõ: 'Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.' Do đó, tỷ lệ phần của mức tiền phạt là 'không quá một phần hai'.",
+      "cited_evidence_ids": [
+        "vilqa-295-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.7499999999999999,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:45:11.214278+00:00"
+  }
+}

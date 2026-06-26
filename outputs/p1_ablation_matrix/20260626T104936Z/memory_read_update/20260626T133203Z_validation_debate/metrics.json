@@ -1,0 +1,95 @@
+{
+  "split": "validation",
+  "method": "debate",
+  "num_cases": 53,
+  "num_predictions": 53,
+  "models_by_method": {
+    "direct": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.1,
+      "max_output_tokens": 384,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "cot": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.1,
+      "max_output_tokens": 384,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "vanilla": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.3,
+      "max_output_tokens": 256,
+      "top_p": 0.95,
+      "endpoint": "http://localhost:11434/v1/chat/completions"
+    },
+    "debate": {
+      "proponent": {
+        "backend": "local",
+        "model": "qwen3.5:9b",
+        "temperature": 0.4,
+        "max_output_tokens": 200,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      },
+      "opponent": {
+        "backend": "local",
+        "model": "qwen3.5:9b",
+        "temperature": 0.4,
+        "max_output_tokens": 200,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      },
+      "judge": {
+        "backend": "local",
+        "model": "qwen3.5:9b",
+        "temperature": 0.1,
+        "max_output_tokens": 256,
+        "top_p": 0.95,
+        "endpoint": "http://localhost:11434/v1/chat/completions"
+      }
+    },
+    "extractive_qa": {
+      "model": "deepset/xlm-roberta-base-squad2"
+    },
+    "bm25_reader": {
+      "retriever": "lightweight_bm25",
+      "reader": "deepset/xlm-roberta-base-squad2"
+    }
+  },
+  "ablation_settings": {
+    "retrieval": "bm25_only",
+    "memory": "read_update",
+    "memory_retrieval": "lexical",
+    "rounds": 1,
+    "judge": "on",
+    "roles": "proponent-opponent",
+    "closing_statements": true,
+    "judge_question": false,
+    "early_stop_confidence": null
+  },
+  "fallbacks": {
+    "total_fallbacks": 4,
+    "total_parse_attempts": 106,
+    "fallback_rate": 0.03773584905660377,
+    "by_method": {
+      "debate": {
+        "fallbacks": 4,
+        "parse_attempts": 106,
+        "fallback_rate": 0.03773584905660377
+      }
+    }
+  },
+  "metrics_by_method": {
+    "debate": {
+      "num_predictions": 53,
+      "exact_match": 0.5660377358490566,
+      "f1": 0.847838265351595
+    }
+  }
+}

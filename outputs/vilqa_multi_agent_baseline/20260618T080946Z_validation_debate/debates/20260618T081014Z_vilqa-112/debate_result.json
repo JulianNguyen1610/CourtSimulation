@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-112",
+    "case_type": "legal_qa",
+    "context": "Người quản lý di sản\n\n1. Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\n2. Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\n3. Trường hợp chưa xác định được người thừa kế và di sản chưa có người quản lý theo quy định tại khoản 1 và khoản 2 Điều này thì di sản do cơ quan nhà nước có thẩm quyền quản lý.",
+    "question": "Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 112
+    }
+  },
+  "result": {
+    "case_id": "vilqa-112",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-120-context",
+        "text": "Di sản dùng vào việc thờ cúng\n\n1. Trường hợp người lập di chúc để lại một phần di sản dùng vào việc thờ cúng thì phần di sản đó không được chia thừa kế và được giao cho người đã được chỉ định trong di chúc quản lý để thực hiện việc thờ cúng; nếu người được chỉ định không thực hiện đúng di chúc hoặc không theo thỏa thuận của những người thừa kế thì những người thừa kế có quyền giao phần di sản dùng vào việc thờ cúng cho người khác quản lý để thờ cúng.\n\nTrường hợp người để lại di sản không chỉ định người quản lý di sản thờ cúng thì những người thừa kế cử người quản lý di sản thờ cúng.\n\nTrường hợp tất cả những người thừa kế theo di chúc đều đã chết thì phần di sản dùng để thờ cúng thuộc về người đang quản lý hợp pháp di sản đó trong số những người thuộc diện thừa kế theo pháp luật.\n\n2. Trường hợp toàn bộ di sản của người chết không đủ để thanh toán nghĩa vụ tài sản của người đó thì không được dành một phần di sản dùng vào việc thờ cúng.",
+        "source": "vilqa_context",
+        "score": 332.07884919195817,
+        "metadata": {
+          "case_id": "vilqa-120",
+          "question": "Có được chia thừa kế di sản cho việc thờ cúng không?",
+          "row_index": 120,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-122-context",
+        "text": "Phân chia di sản theo di chúc\n\n1. Việc phân chia di sản được thực hiện theo ý chí của người để lại di chúc; nếu di chúc không xác định rõ phần của từng người thừa kế thì di sản được chia đều cho những người được chỉ định trong di chúc, trừ trường hợp có thỏa thuận khác.\n\n2. Trường hợp di chúc xác định phân chia di sản theo hiện vật thì người thừa kế được nhận hiện vật kèm theo hoa lợi, lợi tức thu được từ hiện vật đó hoặc phải chịu phần giá trị của hiện vật bị giảm sút tính đến thời điểm phân chia di sản; nếu hiện vật bị tiêu hủy do lỗi của người khác thì người thừa kế có quyền yêu cầu bồi thường thiệt hại.\n\n3. Trường hợp di chúc chỉ xác định phân chia di sản theo tỷ lệ đối với tổng giá trị khối di sản thì tỷ lệ này được tính trên giá trị khối di sản đang còn vào thời điểm phân chia di sản.",
+        "source": "vilqa_context",
+        "score": 248.89701978880075,
+        "metadata": {
+          "case_id": "vilqa-122",
+          "question": "Di chúc không xác định rõ từng phần của từng người thừa kế thì chia thế nào?",
+          "row_index": 122,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-121-context",
+        "text": "Công bố di chúc\n\n1. Trường hợp di chúc bằng văn bản được lưu giữ tại tổ chức hành nghề công chứng thì công chứng viên là người công bố di chúc.\n\n2. Trường hợp người để lại di chúc chỉ định người công bố di chúc thì người này có nghĩa vụ công bố di chúc; nếu người để lại di chúc không chỉ định hoặc có chỉ định nhưng người được chỉ định từ chối công bố di chúc thì những người thừa kế còn lại thỏa thuận cử người công bố di chúc.\n\n3. Sau thời điểm mở thừa kế, người công bố di chúc phải sao gửi di chúc tới tất cả những người có liên quan đến nội dung di chúc.\n\n4. Người nhận được bản sao di chúc có quyền yêu cầu đối chiếu với bản gốc của di chúc.\n\n5. Trường hợp di chúc được lập bằng tiếng nước ngoài thì bản di chúc đó phải được dịch ra tiếng Việt và phải có công chứng hoặc chứng thực.",
+        "source": "vilqa_context",
+        "score": 244.10588677883334,
+        "metadata": {
+          "case_id": "vilqa-121",
+          "question": "Ai công bố di chúc nếu di chúc bằng văn bản được lưu tại tổ chức hành nghề công chứng?",
+          "row_index": 121,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-113-context",
+        "text": "Từ chối nhận di sản\n\n1. Người thừa kế có quyền từ chối nhận di sản, trừ trường hợp việc từ chối nhằm trốn tránh việc thực hiện nghĩa vụ tài sản của mình đối với người khác.\n\n2. Việc từ chối nhận di sản phải được lập thành văn bản và gửi đến người quản lý di sản, những người thừa kế khác, người được giao nhiệm vụ phân chia di sản để biết.\n\n3. Việc từ chối nhận di sản phải được thể hiện trước thời điểm phân chia di sản.",
+        "source": "vilqa_context",
+        "score": 237.26227027497157,
+        "metadata": {
+          "case_id": "vilqa-113",
+          "question": "Từ chối nhận di sản cần được thực hiện khi nào?",
+          "row_index": 113,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-118-context",
+        "text": "Di chúc bị thất lạc, hư hại\n\n1. Kể từ thời điểm mở thừa kế, nếu bản di chúc bị thất lạc hoặc bị hư hại đến mức không thể hiện được đầy đủ ý chí của người lập di chúc và cũng không có bằng chứng nào chứng minh được ý nguyện đích thực của người lập di chúc thì coi như không có di chúc và áp dụng các quy định về thừa kế theo pháp luật.\n\n2. Trường hợp di sản chưa chia mà tìm thấy di chúc thì di sản được chia theo di chúc.\n\n3. Trong thời hiệu yêu cầu chia di sản, trường hợp di sản đã chia mà tìm thấy di chúc thì phải chia lại theo di chúc nếu người thừa kế theo di chúc yêu cầu.",
+        "source": "vilqa_context",
+        "score": 231.88139244431397,
+        "metadata": {
+          "case_id": "vilqa-118",
+          "question": "Đã tiến hành chia di sản mà tìm lại được di chúc thất lạc thì chia như thế nào?",
+          "row_index": 118,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\nCandidate final answer: Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\nBest supporting legal evidence: Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\nAnticipated opponent challenge: Người quản lý di sản có thể là một người duy nhất hoặc một nhóm người.\n\nStrategy for this round: Chú trọng vào việc giải thích rõ ràng về quyền và nghĩa vụ của người quản lý di sản trong trường hợp di chúc không chỉ định. Sử dụng các ví dụ cụ thể từ câu hỏi để minh họa cho điểm này.",
+        "public_argument": "Trong trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.",
+        "evidence_ids": [
+          "vilqa-120-context",
+          "vilqa-122-context",
+          "vilqa-121-context",
+          "vilqa-113-context",
+          "vilqa-118-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The Proponent has not considered the possibility that there may be no agreement among the heirs regarding who should manage the estate.\n\nAlternative answer or interpretation (if any): Nếu không có thỏa thuận chung giữa các thừa kế, người quản lý di sản sẽ do một người duy nhất được chỉ định trong di chúc cử ra. Trường hợp này không đề cập đến việc ai là người quản lý di sản khi di chúc không chỉ định và các thừa kế chưa thống nhất cử một người.\n\nEvidence needed to support the challenge: Cần thêm bằng chứng về quy định pháp luật cụ thể liên quan đến việc lựa chọn người quản lý di sản trong trường hợp di chúc không chỉ định và các thừa kế không có thỏa thuận chung.\n\nStrategy for this round: Chú trọng vào việc làm rõ sự thiếu sót trong lập luận của đối thủ, nhấn mạnh tầm quan trọng của việc thống nhất giữa các thừa kế trong việc cử một người quản lý di sản",
+        "public_argument": "Đối với trường hợp di chúc không chỉ định người quản lý di sản và các thừa kế chưa thống nhất cử một người, điều quan trọng là phải duy trì trật tự cho đến khi có thể chọn được một người quản lý di sản. Cần thêm bằng chứng về quy định pháp luật cụ thể liên quan đến việc lựa chọn người quản lý di sản trong trường hợp này.",
+        "evidence_ids": [
+          "vilqa-120-context",
+          "vilqa-122-context",
+          "vilqa-121-context",
+          "vilqa-113-context",
+          "vilqa-118-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.",
+        "confidence": 100.0,
+        "reasoning": "Điểm 2 trong case profile nêu rõ rằng trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản."
+      }
+    ],
+    "verdict": {
+      "prediction": "Người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.",
+      "answer": "Người đang chiếm hữu, sử dụng, quản lý di sản",
+      "confidence": 100.0,
+      "reasoning": "Điểm 2 trong case profile nêu rõ rằng trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì người đang chiếm hữu, sử dụng, quản lý di sản tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T08:10:14.690782+00:00"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-87",
+    "case_type": "legal_qa",
+    "context": "Thời điểm chịu rủi ro\n\n1. Bên bán chịu rủi ro đối với tài sản trước khi tài sản được giao cho bên mua, bên mua chịu rủi ro đối với tài sản kể từ thời điểm nhận tài sản, trừ trường hợp có thỏa thuận khác hoặc luật có quy định khác.\n\n2. Đối với hợp đồng mua bán tài sản mà pháp luật quy định tài sản đó phải đăng ký quyền sở hữu thì bên bán chịu rủi ro cho đến khi hoàn thành thủ tục đăng ký, bên mua chịu rủi ro kể từ thời điểm hoàn thành thủ tục đăng ký, trừ trường hợp có thỏa thuận khác.",
+    "question": "Bên mua chịu rủi ro từ thời điểm nào khi tài sản trong hợp đồng mua bán phải đăng ký quyền sở hữu theo quy định của pháp luật?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 87
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.625,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-453",
+    "case_type": "legal_qa",
+    "context": "Giới hạn việc thực hiện quyền dân sự\n\n1. Cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình gây thiệt hại cho người khác, để vi phạm nghĩa vụ của mình hoặc thực hiện mục đích khác trái pháp luật.\n\n2. Trường hợp cá nhân, pháp nhân không tuân thủ quy định tại khoản 1 Điều này thì Tòa án hoặc cơ quan có thẩm quyền khác căn cứ vào tính chất, hậu quả của hành vi vi phạm mà có thể không bảo vệ một phần hoặc toàn bộ quyền của họ, buộc bồi thường nếu gây thiệt hại và có thể áp dụng chế tài khác do luật quy định.",
+    "question": "Theo Điều 10: Giới hạn việc thực hiện quyền dân sự, trong Bộ luật dân sự 2015, cá nhân, pháp nhân không được lạm dụng quyền dân sự của mình để?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 453
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.7719298245614035,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

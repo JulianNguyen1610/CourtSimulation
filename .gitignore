@@ -11,4 +11,5 @@ __pycache__/
 *$py.class
 
 # Giữ lại các file .yaml (Không chặn configs)
-# Bạn vẫn có thể push thoải mái các file trong configs/ như configs/ollama.yaml
+# Bạn vẫn có thể push thoải mái các file trong configs/ như configs/ollama.yamlhuy/XAI2026/
+Kaggle/

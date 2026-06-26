@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-98",
+    "case_type": "legal_qa",
+    "context": "Trả tiền thuê\n\n1. Bên thuê phải trả đủ tiền thuê đúng thời hạn đã thỏa thuận; nếu không có thỏa thuận về thời hạn trả tiền thuê thì thời hạn trả tiền thuê được xác định theo tập quán nơi trả tiền; nếu không thể xác định được thời hạn theo tập quán thì bên thuê phải trả tiền khi trả lại tài sản thuê.\n\n2. Trường hợp các bên thỏa thuận việc trả tiền thuê theo kỳ hạn thì bên cho thuê có quyền đơn phương chấm dứt thực hiện hợp đồng, nếu bên thuê không trả tiền trong ba kỳ liên tiếp, trừ trường hợp có thỏa thuận khác hoặc pháp luật có quy định khác.",
+    "question": "Nếu các bên không có thoả thuận về thời hạn trả tiền thuê và không thể xác định được thời hạn theo tập quán nơi trả tiền thì khi nào bên thuê cần trả tiền?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 98
+    }
+  },
+  "result": {
+    "case_id": "vilqa-98",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-99-context",
+        "text": "Trả lại tài sản thuê\n\n1. Bên thuê phải trả lại tài sản thuê trong tình trạng như khi nhận, trừ hao mòn tự nhiên hoặc theo đúng như tình trạng đã thỏa thuận; nếu giá trị của tài sản thuê bị giảm sút so với tình trạng khi nhận thì bên cho thuê có quyền yêu cầu bồi thường thiệt hại, trừ hao mòn tự nhiên.\n\n2. Trường hợp tài sản thuê là động sản thì địa điểm trả lại tài sản thuê là nơi cư trú hoặc trụ sở của bên cho thuê, trừ trường hợp có thỏa thuận khác.\n\n3. Trường hợp tài sản thuê là gia súc thì bên thuê phải trả lại gia súc đã thuê và cả gia súc được sinh ra trong thời gian thuê, trừ trường hợp có thỏa thuận khác. Bên cho thuê phải thanh toán chi phí chăm sóc gia súc được sinh ra cho bên thuê.\n\n4. Khi bên thuê chậm trả tài sản thuê thì bên cho thuê có quyền yêu cầu bên thuê trả lại tài sản thuê, trả tiền thuê trong thời gian chậm trả và phải bồi thường thiệt hại; bên thuê phải trả tiền phạt vi phạm do chậm trả tài sản thuê, nếu có thỏa thuận.\n\n5. Bên thuê phải chịu rủi ro xảy ra đối với tài sản thuê trong thời gian chậm trả.\n\nTiểu mục 2. HỢP ĐỒNG THUÊ KHOÁN TÀI SẢN",
+        "source": "vilqa_context",
+        "score": 280.86269115510527,
+        "metadata": {
+          "case_id": "vilqa-99",
+          "question": "Bên cho thuê có quyền gì nếu bên thuê chậm trả tài sản thuê?",
+          "row_index": 99,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-94-context",
+        "text": "Mua sau khi sử dụng thử\n\n1. Các bên có thể thỏa thuận về việc bên mua được dùng thử vật mua trong một thời hạn gọi là thời hạn dùng thử. Trong thời hạn dùng thử, bên mua có thể trả lời mua hoặc không mua; nếu hết thời hạn dùng thử mà bên mua không trả lời thì coi như đã chấp nhận mua theo các điều kiện đã thỏa thuận trước khi nhận vật dùng thử.\n\nTrường hợp các bên không thỏa thuận hoặc thỏa thuận không rõ ràng về thời hạn dùng thử thì thời hạn này được xác định theo tập quán của giao dịch có đối tượng cùng loại.\n\n2. Trong thời hạn dùng thử, vật vẫn thuộc sở hữu của bên bán. Bên bán phải chịu mọi rủi ro xảy ra đối với vật, trừ trường hợp có thỏa thuận khác. Trong thời hạn dùng thử, bên bán không được bán, tặng cho, cho thuê, trao đổi, thế chấp, cầm cố tài sản khi bên mua chưa trả lời.\n\n3. Trường hợp bên dùng thử trả lời không mua thì phải trả lại vật cho bên bán và phải bồi thường thiệt hại cho bên bán, nếu làm mất, hư hỏng vật dùng thử. Bên dùng thử không phải chịu trách nhiệm về những hao mòn thông thường do việc dùng thử gây ra và không phải hoàn trả hoa lợi do việc dùng thử mang lại.",
+        "source": "vilqa_context",
+        "score": 249.12462921942728,
+        "metadata": {
+          "case_id": "vilqa-94",
+          "question": "Trong thời gian dùng thử vật mua thuộc sở hữu của bên nào?",
+          "row_index": 94,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-97-context",
+        "text": "Nghĩa vụ trả nợ của bên vay\n\n1. Bên vay tài sản là tiền thì phải trả đủ tiền khi đến hạn; nếu tài sản là vật thì phải trả vật cùng loại đúng số lượng, chất lượng, trừ trường hợp có thỏa thuận khác.\n\n2. Trường hợp bên vay không thể trả vật thì có thể trả bằng tiền theo trị giá của vật đã vay tại địa điểm và thời điểm trả nợ, nếu được bên cho vay đồng ý.\n\n3. Địa điểm trả nợ là nơi cư trú hoặc nơi đặt trụ sở của bên cho vay, trừ trường hợp có thỏa thuận khác.\n\n4. Trường hợp vay không có lãi mà khi đến hạn bên vay không trả nợ hoặc trả không đầy đủ thì bên cho vay có quyền yêu cầu trả tiền lãi với mức lãi suất theo quy định tại khoản 2 Điều 468 của Bộ luật này trên số tiền chậm trả tương ứng với thời gian chậm trả, trừ trường hợp có thỏa thuận khác hoặc luật có quy định khác.\n\n5. Trường hợp vay có lãi mà khi đến hạn bên vay không trả hoặc trả không đầy đủ thì bên vay phải trả lãi như sau:\n\na) Lãi trên nợ gốc theo lãi suất thỏa thuận trong hợp đồng tương ứng với thời hạn vay mà đến hạn chưa trả; trường hợp chậm trả thì còn phải trả lãi theo mức lãi suất quy định tại khoản 2 Điều 468 của Bộ luật này;\n\nb) Lãi trên nợ gốc quá hạn chưa trả bằng 150% lãi suất vay theo hợp đồng tương ứng với thời gian chậm trả, trừ trường hợp có thỏa thuận khác.",
+        "source": "vilqa_context",
+        "score": 234.5532322661802,
+        "metadata": {
+          "case_id": "vilqa-97",
+          "question": "Bên vay có nghĩa vụ gì nếu không thể trả vật cùng loại đúng số lượng chất lượng?",
+          "row_index": 97,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-85-context",
+        "text": "Nghĩa vụ trả tiền\n\n1. Bên mua có nghĩa vụ thanh toán tiền theo thời hạn, địa điểm và mức tiền được quy định trong hợp đồng.\n\n2. Trường hợp các bên chỉ có thỏa thuận về thời hạn giao tài sản thì thời hạn thanh toán tiền cũng được xác định tương ứng với thời hạn giao tài sản. Nếu các bên không có thỏa thuận về thời hạn giao tài sản và thời hạn thanh toán tiền thì bên mua phải thanh toán tiền tại thời điểm nhận tài sản.\n\n3. Trường hợp bên mua không thực hiện đúng nghĩa vụ trả tiền thì phải trả lãi trên số tiền chậm trả theo quy định tại Điều 357 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 226.62825069485112,
+        "metadata": {
+          "case_id": "vilqa-85",
+          "question": "Nếu bên bán và bên mua chỉ thoả thuận về thời hạn giao tài sản thì thời hạn thanh toán tiền được xác định như thế nào?",
+          "row_index": 85,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-86-context",
+        "text": "Nghĩa vụ trả tiền\n\n1. Bên mua có nghĩa vụ thanh toán tiền theo thời hạn, địa điểm và mức tiền được quy định trong hợp đồng.\n\n2. Trường hợp các bên chỉ có thỏa thuận về thời hạn giao tài sản thì thời hạn thanh toán tiền cũng được xác định tương ứng với thời hạn giao tài sản. Nếu các bên không có thỏa thuận về thời hạn giao tài sản và thời hạn thanh toán tiền thì bên mua phải thanh toán tiền tại thời điểm nhận tài sản.\n\n3. Trường hợp bên mua không thực hiện đúng nghĩa vụ trả tiền thì phải trả lãi trên số tiền chậm trả theo quy định tại Điều 357 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 226.62825069485112,
+        "metadata": {
+          "case_id": "vilqa-86",
+          "question": "Bên mua cần thanh toán tiền lúc nào trong trường hợp các bên không có thoả thuận về thời gian giao tài sản và thời hạn thanh toán?",
+          "row_index": 86,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: If the tenant and landlord have not agreed on a payment deadline, the payment should be made when the leased property is returned.\n\nBest supporting legal evidence: The retrieved legal evidence from case 'vilqa-99' states that \"Bên thuê phải trả lại tài sản thuê trong tình trạng như khi nhận, trừ hao mòn tự nhiên hoặc theo đúng như tình trạng đã thỏa thuận; nếu giá trị của tài sản thuê bị giảm sút so với tình trạng khi nhận thì bên cho thuê có quyền yêu cầu bồi thường thiệt hại, trừ hao mòn tự nhiên.\"\n\nAnticipated opponent challenge: The opponent may argue that there is no specific time frame mentioned in the case profile and evidence for when the tenant should make the payment.\n\nStrategy for this round: I will emphasize the importance of returning the leased property in its original condition as stated in the retrieved legal evidence. Additionally, I will highlight that there is no explicit mention of a deadline for payment in the case",
+        "public_argument": "In this debate, I argue that if the tenant and landlord have not agreed on a payment deadline, the payment should be made when the leased property is returned. This claim is supported by evidence from case 'vilqa-99', which states that \"Bên thuê phải trả lại tài sản thuê trong tình trạng như khi nhận, trừ hao mòn tự nhiên hoặc theo đúng như tình trạng đã thỏa thuận; nếu giá trị của tài sản thuê bị giảm sút so với tình trạng khi nhận thì bên cho thuê có quyền yêu cầu bồi thường thiệt hại, trừ hao mòn tự nhiên.\" This evidence emphasizes the importance of returning the leased property in its original condition.",
+        "evidence_ids": [
+          "vilqa-99-context",
+          "vilqa-94-context",
+          "vilqa-97-context",
+          "vilqa-85-context",
+          "vilqa-86-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position: The Proponent's claim relies heavily on returning the leased property in its original condition and making the payment at that time. However, it does not address the specific situation when there is no agreed-upon deadline or established custom for paying rent.\n\nAlternative answer or interpretation: If there is no agreement between the tenant and landlord regarding a payment deadline, and no established custom exists, then the payment should be made as soon as possible after returning the leased property. There may be other factors to consider, such as the terms of the lease agreement or any applicable laws.\n\nEvidence needed to support the challenge: Legal evidence that supports making rent payments immediately upon returning the leased property when there is no agreed-upon deadline or custom can be provided. This could include cases where a tenant was required to make immediate payment after returning the property, or legal articles that discuss the implications of not having an established deadline for rent.\n\nStrategy for this round: I will emphasize the importance of",
+        "public_argument": "In this round, I argue that if there is no agreed-upon deadline for rent payment and no established custom exists, then the tenant should make the payment as soon as possible after returning the leased property. This position is supported by legal evidence that emphasizes the importance of restoring the property to its original condition upon return.\n\nThe Proponent's claim relies heavily on returning the property in its original condition and making the payment at that time. However, it does not address the specific situation when there is no agreed-upon deadline or established custom for paying rent. In such cases, the tenant should prioritize restoring the property to its original condition upon return and make the payment as soon as possible.\n\nLegal evidence supporting this position can include cases where a tenant was required to make immediate payment after returning the property, or legal articles that discuss the implications of not having an established deadline for rent. By emphasizing the tenant's responsibility to restore the property upon return and making the payment promptly, we can ensure fair treatment for both parties",
+        "evidence_ids": [
+          "vilqa-99-context",
+          "vilqa-94-context",
+          "vilqa-97-context",
+          "vilqa-85-context",
+          "vilqa-86-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "The tenant should make the payment as soon as possible after returning the leased property.",
+        "confidence": 80.0,
+        "reasoning": "Based on the opponent's argument and legal evidence, it is reasonable to conclude that if there is no agreed-upon deadline for rent payment and no established custom exists, then the tenant should pay the rent promptly upon returning the leased property. The proponent's argument, which suggests waiting until the property is returned before making any payments, does not seem as convincing without further evidence."
+      }
+    ],
+    "verdict": {
+      "prediction": "The tenant should make the payment as soon as possible after returning the leased property.",
+      "answer": "The tenant should make the payment as soon as possible after returning the leased property.",
+      "confidence": 80.0,
+      "reasoning": "Based on the opponent's argument and legal evidence, it is reasonable to conclude that if there is no agreed-upon deadline for rent payment and no established custom exists, then the tenant should pay the rent promptly upon returning the leased property. The proponent's argument, which suggests waiting until the property is returned before making any payments, does not seem as convincing without further evidence.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T05:14:00.519175+00:00"
+  }
+}

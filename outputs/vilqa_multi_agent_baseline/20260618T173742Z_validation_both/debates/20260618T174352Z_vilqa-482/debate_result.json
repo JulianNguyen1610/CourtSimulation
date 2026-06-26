@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-482",
+    "case_type": "legal_qa",
+    "context": "Quyền được khai sinh, khai tử\n\n1. Cá nhân từ khi sinh ra có quyền được khai sinh.\n\n2. Cá nhân chết phải được khai tử.\n\n3. Trẻ em sinh ra mà sống được từ hai mươi bốn giờ trở lên mới chết thì phải được khai sinh và khai tử; nếu sinh ra mà sống dưới hai mươi bốn giờ thì không phải khai sinh và khai tử, trừ trường hợp cha đẻ, mẹ đẻ có yêu cầu.\n\n4. Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.",
+    "question": "Mô tả quyền được khai sinh, khai tử theo Bộ luật dân sự 2015.",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 482
+    }
+  },
+  "result": {
+    "case_id": "vilqa-482",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-478-context",
+        "text": "Quyền có họ, tên\n\n1. Cá nhân có quyền có họ, tên (bao gồm cả chữ đệm, nếu có). Họ, tên của một người được xác định theo họ, tên khai sinh của người đó.\n\n2. Họ của cá nhân được xác định là họ của cha đẻ hoặc họ của mẹ đẻ theo thỏa thuận của cha mẹ; nếu không có thỏa thuận thì họ của con được xác định theo tập quán. Trường hợp chưa xác định được cha đẻ thì họ của con được xác định theo họ của mẹ đẻ.\n\nTrường hợp trẻ em bị bỏ rơi, chưa xác định được cha đẻ, mẹ đẻ và được nhận làm con nuôi thì họ của trẻ em được xác định theo họ của cha nuôi hoặc họ của mẹ nuôi theo thỏa thuận của cha mẹ nuôi. Trường hợp chỉ có cha nuôi hoặc mẹ nuôi thì họ của trẻ em được xác định theo họ của người đó.\n\nTrường hợp trẻ em bị bỏ rơi, chưa xác định được cha đẻ, mẹ đẻ và chưa được nhận làm con nuôi thì họ của trẻ em được xác định theo đề nghị của người đứng đầu cơ sở nuôi dưỡng trẻ em đó hoặc theo đề nghị của người có yêu cầu đăng ký khai sinh cho trẻ em, nếu trẻ em đang được người đó tạm thời nuôi dưỡng.\n\nCha đẻ, mẹ đẻ được quy định trong Bộ luật này là cha, mẹ được xác định dựa trên sự kiện sinh đẻ; người nhờ mang thai hộ với người được sinh ra từ việc mang thai hộ theo quy định của Luật hôn nhân và gia đình.\n\n3. Việc đặt tên bị hạn chế trong trường hợp xâm phạm đến quyền, lợi ích hợp pháp của người khác hoặc trái với các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này.\n\nTên của công dân Việt Nam phải bằng tiếng Việt hoặc tiếng dân tộc khác của Việt Nam; không đặt tên bằng số, bằng một ký tự mà không phải là chữ.\n\n4. Cá nhân xác lập, thực hiện quyền, nghĩa vụ dân sự theo họ, tên của mình.\n\n5. Việc sử dụng bí danh, bút danh không được gây thiệt hại đến quyền, lợi ích hợp pháp của người khác.",
+        "source": "vilqa_context",
+        "score": 154.80192362564304,
+        "metadata": {
+          "case_id": "vilqa-478",
+          "question": "Theo Điều 26, Bộ luật dân sự 2015, họ tên của một người được xác định như thế nào?",
+          "row_index": 478,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-230-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-230",
+          "question": "Người bắt được gia súc bị thất lạc phải làm gì?",
+          "row_index": 230,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-233-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-233",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai về gia súc bị thất lạc là gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc thuộc về người bắt được gia súc?",
+          "row_index": 233,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-231-context",
+        "text": "Xác lập quyền sở hữu đối với gia súc bị thất lạc\n\n1. Người bắt được gia súc bị thất lạc phải nuôi giữ và báo ngay cho Ủy ban nhân dân cấp xã nơi người đó cư trú để thông báo công khai cho chủ sở hữu biết mà nhận lại. Sau 06 tháng, kể từ ngày thông báo công khai hoặc sau 01 năm đối với gia súc thả rông theo tập quán thì quyền sở hữu đối với gia súc và số gia súc được sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia súc.\n\n2. Trường hợp chủ sở hữu được nhận lại gia súc bị thất lạc thì phải thanh toán tiền công nuôi giữ và các chi phí khác cho người bắt được gia súc. Trong thời gian nuôi giữ gia súc bị thất lạc, nếu gia súc có sinh con thì người bắt được gia súc được hưởng một nửa số gia súc sinh ra hoặc 50% giá trị số gia súc sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia súc.",
+        "source": "vilqa_context",
+        "score": 114.50028841890241,
+        "metadata": {
+          "case_id": "vilqa-231",
+          "question": "Chủ sở hữu được nhận lại gia súc phải thực hiện nghĩa vụ gì với người bắt được gia súc?",
+          "row_index": 231,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-234-context",
+        "text": "Xác lập quyền sở hữu đối với gia cầm bị thất lạc\n\n1. Trường hợp gia cầm của một người bị thất lạc mà người khác bắt được thì người bắt được phải thông báo công khai để chủ sở hữu gia cầm biết mà nhận lại. Sau 01 tháng, kể từ ngày thông báo công khai mà không có người đến nhận thì quyền sở hữu đối với gia cầm và hoa lợi do gia cầm sinh ra trong thời gian nuôi giữ thuộc về người bắt được gia cầm.\n\n2. Trường hợp chủ sở hữu được nhận lại gia cầm bị thất lạc thì phải thanh toán tiền công nuôi giữ và chi phí khác cho người bắt được gia cầm. Trong thời gian nuôi giữ gia cầm bị thất lạc, người bắt được gia cầm được hưởng hoa lợi do gia cầm sinh ra và phải bồi thường thiệt hại nếu có lỗi cố ý làm chết gia cầm.",
+        "source": "vilqa_context",
+        "score": 109.42229474336689,
+        "metadata": {
+          "case_id": "vilqa-234",
+          "question": "Sau bao lâu kể từ ngày thông báo công khai mà không có người đến nhận gia cẩm bị thất lạc thì quyền sở hữu đối với gia cầm thuộc về người bắt được?",
+          "row_index": 234,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Theo quy định của pháp luật về hộ tịch (được đề cập trong ngữ cảnh), cá nhân từ khi sinh ra có quyền được khai sinh và cá nhân chết phải được khai tử; trẻ em sống được từ 24 giờ trở lên mới chết thì phải khai sinh và khai tử.\n- **Candidate final answer**: \"Cá nhân từ khi sinh ra có quyền được khai sinh.\"\n- **Best supporting legal evidence**: `vilqa-482-context` (chứa đầy đủ các điều khoản về khai sinh, khai tử và điều kiện cụ thể cho trẻ em).\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng Bộ luật Dân sự 2015 không trực tiếp quy định chi tiết thủ tục khai sinh/khai tử mà chỉ quy định về quyền có họ tên, nên cần trích dẫn một điều khoản cụ thể trong Bộ luật Dân sự thay vì văn bản về hộ tịch.\n- **Strategy for",
+        "public_argument": "Theo ngữ cảnh pháp lý được cung cấp, quyền được khai sinh và khai tử được quy định cụ thể tại văn bản về hộ tịch. Cá nhân từ khi sinh ra có quyền được khai sinh và cá nhân chết phải được khai tử. Đối với trẻ em sống được từ hai mươi bốn giờ trở lên mới chết thì phải được khai sinh và khai tử. Do đó, câu trả lời chính xác là: \"Cá nhân từ khi sinh ra có quyền được khai sinh.\"",
+        "evidence_ids": [
+          "vilqa-478-context",
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-234-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "- **Strongest weakness in the Proponent's position**:\n  Proponent relies entirely on the provided `context` (which explicitly states \"Việc khai sinh, khai tử do pháp luật về hộ tịch quy định\") without addressing the specific constraint in the user's question: \"theo Bộ luật dân sự 2015\" (according to the 2015 Civil Code). The Proponent's argument implicitly admits that the detailed rules are in the \"law on household registration\" (pháp luật về hộ tịch), not the Civil Code itself. This creates a logical gap: if the question asks for the basis in the *Civil Code*, and the evidence shows the rules are in the *Household Registration Law*, the Proponent's answer is technically incomplete or misleading regarding the specific legal source requested. The retrieved evidence `vilqa-478-context` supports rights under the Civil Code (họ, tên) but does not contain the specific articles on birth/death",
+        "public_argument": "Chào bạn, lập luận của bạn chưa chính xác về nguồn pháp lý. Câu hỏi yêu cầu mô tả theo **Bộ luật dân sự 2015**, nhưng ngữ cảnh chỉ trích dẫn quy định chi tiết về khai sinh, khai tử trong **pháp luật về hộ tịch**.\n\nTheo ngữ cảnh: \"Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.\"\n\nVì vậy, các quy định cụ thể về điều kiện khai sinh/khai tử (như trẻ em sống được từ hai mươi bốn giờ trở lên) không nằm trong Bộ luật Dân sự 2015 mà nằm trong văn bản về hộ tịch. Bạn cần điều chỉnh lại câu trả lời để phản ánh đúng nguồn luật được hỏi.",
+        "evidence_ids": [
+          "vilqa-478-context",
+          "vilqa-230-context",
+          "vilqa-233-context",
+          "vilqa-231-context",
+          "vilqa-234-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.",
+        "confidence": 95.0,
+        "reasoning": "Đối thủ lập luận rằng ngữ cảnh chỉ trích dẫn quy định về hộ tịch chứ không phải Bộ luật dân sự 2015. Câu trả lời trích dẫn trực tiếp từ ngữ cảnh xác nhận nguồn pháp lý thực tế là pháp luật về hộ tịch, phù hợp với yêu cầu tìm câu trả lời dựa trên ngữ cảnh được cung cấp."
+      }
+    ],
+    "verdict": {
+      "prediction": "Cá nhân từ khi sinh ra có quyền được khai sinh.",
+      "answer": "Cá nhân từ khi sinh ra có quyền được khai sinh",
+      "confidence": 95.0,
+      "reasoning": "Câu trả lời được trích dẫn trực tiếp từ ngữ cảnh, khẳng định quyền được khai sinh của cá nhân ngay từ khi sinh ra, phù hợp với nội dung pháp lý được cung cấp.",
+      "cited_evidence_ids": [
+        "vilqa-482-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.22448979591836737,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T17:43:52.679278+00:00"
+  }
+}

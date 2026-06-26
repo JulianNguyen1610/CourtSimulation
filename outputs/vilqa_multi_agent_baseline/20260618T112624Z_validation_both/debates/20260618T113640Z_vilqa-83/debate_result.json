@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-83",
+    "case_type": "legal_qa",
+    "context": "Trách nhiệm do giao tài sản không đúng số lượng\n\n1. Trường hợp bên bán giao tài sản với số lượng nhiều hơn số lượng đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác.\n\n2. Trường hợp bên bán giao ít hơn số lượng đã thỏa thuận thì bên mua có một trong các quyền sau đây:\n\na) Nhận phần đã giao và định thời hạn để bên bán giao tiếp phần còn thiếu;\n\nb) Nhận phần đã giao và yêu cầu bồi thường thiệt hại;\n\nc) Hủy bỏ hợp đồng và yêu cầu bồi thường thiệt hại nếu việc vi phạm làm cho bên mua không đạt được mục đích giao kết hợp đồng.",
+    "question": "Bên mua có quyền gì khi bên bán giao số lượng tài sản nhiều hơn đã thoả thuận?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 83
+    }
+  },
+  "result": {
+    "case_id": "vilqa-83",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-84-context",
+        "text": "Trách nhiệm do giao vật không đồng bộ\n\n1. Trường hợp vật được giao không đồng bộ làm cho mục đích sử dụng của vật không đạt được thì bên mua có một trong các quyền sau đây:\n\na) Nhận và yêu cầu bên bán giao tiếp phần hoặc bộ phận còn thiếu, yêu cầu bồi thường thiệt hại và hoãn thanh toán phần hoặc bộ phận đã nhận cho đến khi vật được giao đồng bộ;\n\nb) Hủy bỏ hợp đồng và yêu cầu bồi thường thiệt hại.\n\n2. Trường hợp bên mua đã trả tiền nhưng chưa nhận vật do giao không đồng bộ thì được trả lãi đối với số tiền đã trả theo lãi suất thỏa thuận giữa các bên nhưng không được vượt quá mức lãi suất được quy định tại khoản 1 Điều 468 của Bộ luật này; nếu không có thỏa thuận thì thực hiện theo quy định tại khoản 2 Điều 468 của Bộ luật này và yêu cầu bên bán bồi thường thiệt hại do giao vật không đồng bộ, kể từ thời điểm phải thực hiện hợp đồng cho đến khi vật được giao đồng bộ.",
+        "source": "vilqa_context",
+        "score": 275.237907012684,
+        "metadata": {
+          "case_id": "vilqa-84",
+          "question": "Bên mua được trả lãi như thế nào nếu bên mua đã trả tiền nhưng vật không được giao đồng bộ?",
+          "row_index": 84,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-82-context",
+        "text": "Thời hạn thực hiện hợp đồng mua bán\n\n1. Thời hạn thực hiện hợp đồng mua bán do các bên thỏa thuận. Bên bán phải giao tài sản cho bên mua đúng thời hạn đã thỏa thuận; bên bán chỉ được giao tài sản trước hoặc sau thời hạn nếu được bên mua đồng ý.\n\n2. Khi các bên không thỏa thuận thời hạn giao tài sản thì bên mua có quyền yêu cầu bên bán giao tài sản và bên bán cũng có quyền yêu cầu bên mua nhận tài sản bất cứ lúc nào, nhưng phải báo trước cho nhau một thời gian hợp lý.\n\n3. Bên mua thanh toán tiền mua theo thời gian thỏa thuận. Nếu không xác định hoặc xác định không rõ ràng thời gian thanh toán thì bên mua phải thanh toán ngay tại thời điểm nhận tài sản mua hoặc nhận giấy tờ chứng nhận quyền sở hữu tài sản.",
+        "source": "vilqa_context",
+        "score": 231.69746208581068,
+        "metadata": {
+          "case_id": "vilqa-82",
+          "question": "Nếu hai bên không xác định rõ ràng thời gian thanh toán thì bên mua cần thanh toán lúc nào?",
+          "row_index": 82,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-94-context",
+        "text": "Mua sau khi sử dụng thử\n\n1. Các bên có thể thỏa thuận về việc bên mua được dùng thử vật mua trong một thời hạn gọi là thời hạn dùng thử. Trong thời hạn dùng thử, bên mua có thể trả lời mua hoặc không mua; nếu hết thời hạn dùng thử mà bên mua không trả lời thì coi như đã chấp nhận mua theo các điều kiện đã thỏa thuận trước khi nhận vật dùng thử.\n\nTrường hợp các bên không thỏa thuận hoặc thỏa thuận không rõ ràng về thời hạn dùng thử thì thời hạn này được xác định theo tập quán của giao dịch có đối tượng cùng loại.\n\n2. Trong thời hạn dùng thử, vật vẫn thuộc sở hữu của bên bán. Bên bán phải chịu mọi rủi ro xảy ra đối với vật, trừ trường hợp có thỏa thuận khác. Trong thời hạn dùng thử, bên bán không được bán, tặng cho, cho thuê, trao đổi, thế chấp, cầm cố tài sản khi bên mua chưa trả lời.\n\n3. Trường hợp bên dùng thử trả lời không mua thì phải trả lại vật cho bên bán và phải bồi thường thiệt hại cho bên bán, nếu làm mất, hư hỏng vật dùng thử. Bên dùng thử không phải chịu trách nhiệm về những hao mòn thông thường do việc dùng thử gây ra và không phải hoàn trả hoa lợi do việc dùng thử mang lại.",
+        "source": "vilqa_context",
+        "score": 207.50563711670145,
+        "metadata": {
+          "case_id": "vilqa-94",
+          "question": "Trong thời gian dùng thử vật mua thuộc sở hữu của bên nào?",
+          "row_index": 94,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-90-context",
+        "text": "Bảo đảm quyền sở hữu của bên mua đối với tài sản mua bán\n\n1. Bên bán có nghĩa vụ bảo đảm quyền sở hữu đối với tài sản đã bán cho bên mua không bị người thứ ba tranh chấp.\n\n2. Trường hợp tài sản bị người thứ ba tranh chấp thì bên bán phải đứng về phía bên mua để bảo vệ quyền lợi của bên mua; nếu người thứ ba có quyền sở hữu một phần hoặc toàn bộ tài sản mua bán thì bên mua có quyền hủy bỏ hợp đồng và yêu cầu bên bán bồi thường thiệt hại.\n\n3. Trường hợp bên mua biết hoặc phải biết tài sản mua bán thuộc sở hữu của người thứ ba mà vẫn mua thì phải trả lại tài sản cho chủ sở hữu và không có quyền yêu cầu bồi thường thiệt hại.",
+        "source": "vilqa_context",
+        "score": 184.07513881663616,
+        "metadata": {
+          "case_id": "vilqa-90",
+          "question": "Bên mua có quyền gì nếu tài sản mua bán bị người thứ ba tranh chấp do có quyền sở hữu một phần tài sản đó?",
+          "row_index": 90,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-85-context",
+        "text": "Nghĩa vụ trả tiền\n\n1. Bên mua có nghĩa vụ thanh toán tiền theo thời hạn, địa điểm và mức tiền được quy định trong hợp đồng.\n\n2. Trường hợp các bên chỉ có thỏa thuận về thời hạn giao tài sản thì thời hạn thanh toán tiền cũng được xác định tương ứng với thời hạn giao tài sản. Nếu các bên không có thỏa thuận về thời hạn giao tài sản và thời hạn thanh toán tiền thì bên mua phải thanh toán tiền tại thời điểm nhận tài sản.\n\n3. Trường hợp bên mua không thực hiện đúng nghĩa vụ trả tiền thì phải trả lãi trên số tiền chậm trả theo quy định tại Điều 357 của Bộ luật này.",
+        "source": "vilqa_context",
+        "score": 183.52359087645365,
+        "metadata": {
+          "case_id": "vilqa-85",
+          "question": "Nếu bên bán và bên mua chỉ thoả thuận về thời hạn giao tài sản thì thời hạn thanh toán tiền được xác định như thế nào?",
+          "row_index": 85,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "**Key claim**\nThe buyer has the right to either accept or reject the excess quantity. If accepted, payment is required for the excess at the contractually agreed price, unless otherwise agreed.\n\n**Candidate final answer**\nbên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác\n\n**Best supporting legal evidence**\n{'doc_id': 'vilqa-83-context', 'text': 'Trách nhiệm do giao tài sản không đúng số lượng\\n\\n1. Trường hợp bên bán giao tài sản với số lượng nhiều hơn số lượng đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác.\\n\\n2. Trường hợp bên bán giao ít hơn số lượng",
+        "public_argument": "Căn cứ khoản 1 Điều quy định về \"Trách nhiệm do giao tài sản không đúng số lượng\", khi bên bán giao nhiều hơn số lượng thỏa thuận, bên mua có quyền lựa chọn. Cụ thể, văn bản pháp luật khẳng định: \"bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác\". Đây là quyền lợi pháp lý trực tiếp được bảo vệ, đảm bảo tính linh hoạt cho bên mua mà không gây thiệt hại do giá cả không rõ ràng. Do đó, đáp án chính xác là:\n\nbên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác",
+        "evidence_ids": [
+          "vilqa-84-context",
+          "vilqa-82-context",
+          "vilqa-94-context",
+          "vilqa-90-context",
+          "vilqa-85-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "**Strongest weakness in the Proponent's position**\nThe Proponent's primary weakness lies in the **irrelevance and low quality of the retrieved evidence**. While the Proponent correctly states the legal rule (which is actually contained in the `case_id: vilqa-83-context` provided in the inputs), their cited evidence IDs (`vilqa-84-context`, `vilqa-82-context`, etc.) refer to *different* legal issues (non-conforming delivery/synchronization and time limits, respectively). Specifically:\n1.  `vilqa-84-context` deals with \"giao vật không đồng bộ\" (non-synchronous delivery), not quantity discrepancies.\n2.  `vilqa-82-context` deals with \"thời hạn thực hiện hợp đồng\" (time limits), not quantity.\n3.  The Proponent cites `vilqa-94-context`, `vilqa-90-context`, `vilqa-8",
+        "public_argument": "Lập luận của đối phương về quyền của bên mua là chính xác về mặt nội dung pháp lý. Tuy nhiên, lập luận này mắc lỗi nghiêm trọng về nguồn dẫn chứng (evidence citation).\n\nĐối phương đã trích dẫn các tài liệu `vilqa-84-context` (liên quan đến giao không đồng bộ) và `vilqa-82-context` (liên quan đến thời hạn thực hiện) để chứng minh cho vấn đề **số lượng** tài sản. Đây là sự nhầm lẫn về ngữ cảnh pháp lý. Quy định chính xác cho trường hợp này nằm ở `vilqa-83-context` mà đối phương đã liệt kê trong metadata nhưng không dùng làm bằng chứng chính cho lập luận, hoặc đã bỏ sót trong phần trích dẫn công khai.\n\nDo đó, mặc dù kết luận đúng, nhưng cơ sở pháp lý được đưa ra trong phần tranh luận là không tương thích và thiếu chính xác về mặt kỹ thuật dẫn chứng.",
+        "evidence_ids": [
+          "vilqa-84-context",
+          "vilqa-82-context",
+          "vilqa-94-context",
+          "vilqa-90-context",
+          "vilqa-85-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác",
+        "confidence": 100.0,
+        "reasoning": "Đoạn trích này được sao chép chính xác từ mục 1 của ngữ cảnh pháp lý được cung cấp, trả lời trực tiếp câu hỏi về quyền của bên mua khi nhận được số lượng tài sản nhiều hơn thỏa thuận."
+      }
+    ],
+    "verdict": {
+      "prediction": "bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác",
+      "answer": "bên mua có quyền nhận hoặc không nhận phần dôi ra; nếu nhận thì phải thanh toán đối với phần dôi ra theo giá được thỏa thuận trong hợp đồng, trừ trường hợp có thỏa thuận khác",
+      "confidence": 100.0,
+      "reasoning": "Câu trả lời được trích xuất chính xác từ khoản 1 của ngữ cảnh pháp lý được cung cấp, trực tiếp giải đáp quyền của bên mua khi bên bán giao nhiều hơn số lượng thỏa thuận. Mặc dù đối phương chỉ trích việc trích dẫn nguồn sai lệch (evidence IDs không khớp), nhưng nội dung pháp lý cơ bản vẫn đúng và nằm ngay trong ngữ cảnh chính của vụ việc (vilqa-83-context).",
+      "cited_evidence_ids": [
+        "vilqa-83-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.35555555555555557,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T11:36:40.524577+00:00"
+  }
+}

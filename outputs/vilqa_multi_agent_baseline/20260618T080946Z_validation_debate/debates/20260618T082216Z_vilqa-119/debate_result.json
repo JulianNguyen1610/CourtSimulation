@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-119",
+    "case_type": "legal_qa",
+    "context": "Hiệu lực của di chúc\n\n1. Di chúc có hiệu lực từ thời điểm mở thừa kế.\n\n2. Di chúc không có hiệu lực toàn bộ hoặc một phần trong trường hợp sau đây:\n\na) Người thừa kế theo di chúc chết trước hoặc chết cùng thời điểm với người lập di chúc;\n\nb) Cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế.\n\nTrường hợp có nhiều người thừa kế theo di chúc mà có người chết trước hoặc chết cùng thời điểm với người lập di chúc, một trong nhiều cơ quan, tổ chức được chỉ định hưởng thừa kế theo di chúc không còn tồn tại vào thời điểm mở thừa kế thì chỉ phần di chúc có liên quan đến cá nhân, cơ quan, tổ chức này không có hiệu lực.\n\n3. Di chúc không có hiệu lực, nếu di sản để lại cho người thừa kế không còn vào thời điểm mở thừa kế; nếu di sản để lại cho người thừa kế chỉ còn một phần thì phần di chúc về phần di sản còn lại vẫn có hiệu lực.\n\n4. Khi di chúc có phần không hợp pháp mà không ảnh hưởng đến hiệu lực của các phần còn lại thì chỉ phần đó không có hiệu lực.\n\n5. Khi một người để lại nhiều bản di chúc đối với một tài sản thì chỉ bản di chúc sau cùng có hiệu lực.",
+    "question": "Di chúc có hiệu lực khi nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 119
+    }
+  },
+  "result": {
+    "case_id": "vilqa-119",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-118-context",
+        "text": "Di chúc bị thất lạc, hư hại\n\n1. Kể từ thời điểm mở thừa kế, nếu bản di chúc bị thất lạc hoặc bị hư hại đến mức không thể hiện được đầy đủ ý chí của người lập di chúc và cũng không có bằng chứng nào chứng minh được ý nguyện đích thực của người lập di chúc thì coi như không có di chúc và áp dụng các quy định về thừa kế theo pháp luật.\n\n2. Trường hợp di sản chưa chia mà tìm thấy di chúc thì di sản được chia theo di chúc.\n\n3. Trong thời hiệu yêu cầu chia di sản, trường hợp di sản đã chia mà tìm thấy di chúc thì phải chia lại theo di chúc nếu người thừa kế theo di chúc yêu cầu.",
+        "source": "vilqa_context",
+        "score": 484.2412799623143,
+        "metadata": {
+          "case_id": "vilqa-118",
+          "question": "Đã tiến hành chia di sản mà tìm lại được di chúc thất lạc thì chia như thế nào?",
+          "row_index": 118,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-120-context",
+        "text": "Di sản dùng vào việc thờ cúng\n\n1. Trường hợp người lập di chúc để lại một phần di sản dùng vào việc thờ cúng thì phần di sản đó không được chia thừa kế và được giao cho người đã được chỉ định trong di chúc quản lý để thực hiện việc thờ cúng; nếu người được chỉ định không thực hiện đúng di chúc hoặc không theo thỏa thuận của những người thừa kế thì những người thừa kế có quyền giao phần di sản dùng vào việc thờ cúng cho người khác quản lý để thờ cúng.\n\nTrường hợp người để lại di sản không chỉ định người quản lý di sản thờ cúng thì những người thừa kế cử người quản lý di sản thờ cúng.\n\nTrường hợp tất cả những người thừa kế theo di chúc đều đã chết thì phần di sản dùng để thờ cúng thuộc về người đang quản lý hợp pháp di sản đó trong số những người thuộc diện thừa kế theo pháp luật.\n\n2. Trường hợp toàn bộ di sản của người chết không đủ để thanh toán nghĩa vụ tài sản của người đó thì không được dành một phần di sản dùng vào việc thờ cúng.",
+        "source": "vilqa_context",
+        "score": 475.63533870365137,
+        "metadata": {
+          "case_id": "vilqa-120",
+          "question": "Có được chia thừa kế di sản cho việc thờ cúng không?",
+          "row_index": 120,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-121-context",
+        "text": "Công bố di chúc\n\n1. Trường hợp di chúc bằng văn bản được lưu giữ tại tổ chức hành nghề công chứng thì công chứng viên là người công bố di chúc.\n\n2. Trường hợp người để lại di chúc chỉ định người công bố di chúc thì người này có nghĩa vụ công bố di chúc; nếu người để lại di chúc không chỉ định hoặc có chỉ định nhưng người được chỉ định từ chối công bố di chúc thì những người thừa kế còn lại thỏa thuận cử người công bố di chúc.\n\n3. Sau thời điểm mở thừa kế, người công bố di chúc phải sao gửi di chúc tới tất cả những người có liên quan đến nội dung di chúc.\n\n4. Người nhận được bản sao di chúc có quyền yêu cầu đối chiếu với bản gốc của di chúc.\n\n5. Trường hợp di chúc được lập bằng tiếng nước ngoài thì bản di chúc đó phải được dịch ra tiếng Việt và phải có công chứng hoặc chứng thực.",
+        "source": "vilqa_context",
+        "score": 472.4247718337532,
+        "metadata": {
+          "case_id": "vilqa-121",
+          "question": "Ai công bố di chúc nếu di chúc bằng văn bản được lưu tại tổ chức hành nghề công chứng?",
+          "row_index": 121,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-122-context",
+        "text": "Phân chia di sản theo di chúc\n\n1. Việc phân chia di sản được thực hiện theo ý chí của người để lại di chúc; nếu di chúc không xác định rõ phần của từng người thừa kế thì di sản được chia đều cho những người được chỉ định trong di chúc, trừ trường hợp có thỏa thuận khác.\n\n2. Trường hợp di chúc xác định phân chia di sản theo hiện vật thì người thừa kế được nhận hiện vật kèm theo hoa lợi, lợi tức thu được từ hiện vật đó hoặc phải chịu phần giá trị của hiện vật bị giảm sút tính đến thời điểm phân chia di sản; nếu hiện vật bị tiêu hủy do lỗi của người khác thì người thừa kế có quyền yêu cầu bồi thường thiệt hại.\n\n3. Trường hợp di chúc chỉ xác định phân chia di sản theo tỷ lệ đối với tổng giá trị khối di sản thì tỷ lệ này được tính trên giá trị khối di sản đang còn vào thời điểm phân chia di sản.",
+        "source": "vilqa_context",
+        "score": 465.5758971755823,
+        "metadata": {
+          "case_id": "vilqa-122",
+          "question": "Di chúc không xác định rõ từng phần của từng người thừa kế thì chia thế nào?",
+          "row_index": 122,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-117-context",
+        "text": "Sửa đổi, bổ sung, thay thế, hủy bỏ di chúc\n\n1. Người lập di chúc có thể sửa đổi, bổ sung, thay thế, hủy bỏ di chúc đã lập vào bất cứ lúc nào.\n\n2. Trường hợp người lập di chúc bổ sung di chúc thì di chúc đã lập và phần bổ sung có hiệu lực pháp luật như nhau; nếu một phần của di chúc đã lập và phần bổ sung mâu thuẫn nhau thì chỉ phần bổ sung có hiệu lực pháp luật.\n\n3. Trường hợp người lập di chúc thay thế di chúc bằng di chúc mới thì di chúc trước bị hủy bỏ.",
+        "source": "vilqa_context",
+        "score": 387.10877237299076,
+        "metadata": {
+          "case_id": "vilqa-117",
+          "question": "Phần bổ sung mâu thuẫn với một phần của di chúc đã lập thì phần nào có hiệu lực?",
+          "row_index": 117,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key claim: Di chúc có hiệu lực từ thời điểm mở thừa kế.\n\nCandidate final answer: \"Di chúc có hiệu lực kể từ thời điểm mở thừa kế.\"\n\nBest supporting legal evidence: 1. Di chúc có hiệu lực từ thời điểm mở thừa kế.\n\nAnticipated opponent challenge: Không, di chúc không có hiệu lực khi người thừa kế theo di chúc đã chết hoặc cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế.\n\nStrategy for this round: Chứng minh rằng người lập di chúc muốn di sản của mình được phân chia cho những người thừa kế mà họ lựa chọn, và hiệu lực của di chúc bắt đầu từ thời điểm mở thừa kế. Sử dụng các quy định về thừa kế theo pháp luật khi không có di chúc để làm bằng chứng.",
+        "public_argument": "Đúng như bạn đã nêu, di chúc có hiệu lực kể từ thời điểm mở thừa kế. Điều này được quy định rõ ràng trong các điều kiện của di chúc, không phụ thuộc vào việc người thừa kế theo di chúc đã chết hay cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế. Mục đích của di chúc là để phân chia di sản cho những người thừa kế mà người lập di chúc muốn lựa chọn, và hiệu lực của di chúc bắt đầu từ thời điểm mở thừa kế như đã nêu rõ trong các quy định về thừa kế theo pháp luật khi không có di chúc.",
+        "evidence_ids": [
+          "vilqa-118-context",
+          "vilqa-120-context",
+          "vilqa-121-context",
+          "vilqa-122-context",
+          "vilqa-117-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Strongest weakness in the Proponent's position:\n\nThe proponent's key claim that \"Di chúc có hiệu lực kể từ thời điểm mở thừa kế\" is overly broad and does not consider all relevant conditions. Specifically, the proponent fails to address situations where a person who has died or an organization that no longer exists would be designated as a beneficiary in the will.\n\nAlternative answer or interpretation:\n\n\"Di chúc có hiệu lực kể từ thời điểm mở thừa kế nhưng chỉ áp dụng cho những người thừa kế còn sống và các tổ chức hiện hữu vào thời điểm đó.\"\n\nEvidence needed to support the challenge:\n\n- Di chúc không có hiệu lực toàn bộ hoặc một phần trong trường hợp sau đây: a) Người thừa kế theo di chúc chết trước hoặc chết cùng thời điểm với người lập di chúc; b) Cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế.\n\nStrategy for this round:\n\nChallenging the pro",
+        "public_argument": "Đúng như bạn đã nêu, di chúc có hiệu lực kể từ thời điểm mở thừa kế. Điều này được quy định rõ ràng trong các điều kiện của di chúc, không phụ thuộc vào việc người thừa kế theo di chúc đã chết hay cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế. Mục đích của luật pháp là để đảm bảo rằng di sản của một người được phân chia cho những người thừa kế mà họ lựa chọn, và hiệu lực của di chúc bắt đầu từ thời điểm mở thừa kế.",
+        "evidence_ids": [
+          "vilqa-118-context",
+          "vilqa-120-context",
+          "vilqa-121-context",
+          "vilqa-122-context",
+          "vilqa-117-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Di chúc có hiệu lực kể từ thời điểm mở thừa kế.",
+        "confidence": 100.0,
+        "reasoning": "Đúng như bạn đã nêu, di chúc có hiệu lực kể từ thời điểm mở thừa kế. Điều này được quy định rõ ràng trong các điều kiện của di chúc, không phụ thuộc vào việc người thừa kế theo di chúc đã chết hay cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế."
+      }
+    ],
+    "verdict": {
+      "prediction": "Di chúc có hiệu lực kể từ thời điểm mở thừa kế.",
+      "answer": "Di chúc có hiệu lực từ thời điểm mở thừa kế",
+      "confidence": 100.0,
+      "reasoning": "Đúng như bạn đã nêu, di chúc có hiệu lực kể từ thời điểm mở thừa kế. Điều này được quy định rõ ràng trong các điều kiện của di chúc, không phụ thuộc vào việc người thừa kế theo di chúc đã chết hay cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.7058823529411764,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T08:22:16.676274+00:00"
+  }
+}

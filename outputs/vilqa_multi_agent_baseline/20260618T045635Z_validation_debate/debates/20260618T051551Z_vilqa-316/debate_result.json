@@ -1,0 +1,147 @@
+{
+  "case": {
+    "case_id": "vilqa-316",
+    "case_type": "legal_qa",
+    "context": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+    "question": "Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối thiểu bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 316
+    }
+  },
+  "result": {
+    "case_id": "vilqa-316",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-315-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 293.722780026011,
+        "metadata": {
+          "case_id": "vilqa-315",
+          "question": "Trong khu vực có chiến sự, nếu cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng thì bị phạt như thế nào?",
+          "row_index": 315,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-317-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 293.722780026011,
+        "metadata": {
+          "case_id": "vilqa-317",
+          "question": "Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 317,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-314-context",
+        "text": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 293.722780026011,
+        "metadata": {
+          "case_id": "vilqa-314",
+          "question": "Trong tình trạng khẩn cấp, cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng thì bị phạt như thế nào?",
+          "row_index": 314,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-12-context",
+        "text": "Tội vi phạm quy định về trực ban, trực chiến, trực chỉ huy\n\n1. Người nào không chấp hành nghiêm chỉnh chế độ trực ban, trực chiến, trực chỉ huy gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 05 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 03 năm đến 10 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong khi thực hiện nhiệm vụ cứu hộ, cứu nạn;\n\nd) Trong tình trạng khẩn cấp;\n\nđ) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 216.15309619931102,
+        "metadata": {
+          "case_id": "vilqa-12",
+          "question": "Người không chấp hành nghiêm chỉnh chế độ trực ban, trực chiến, trực chỉ huy gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng, thì bị phạt tù từ bao nhiêu đến bao nhiêu năm?",
+          "row_index": 12,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-313-context",
+        "text": "Tội làm mất tài liệu bí mật công tác quân sự\n\n1. Người nào làm mất tài liệu bí mật công tác quân sự, nếu không thuộc một trong các trường hợp quy định tại Điều 338 và Điều 362 của Bộ luật này, thì bị phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm:\n\na) Là chỉ huy hoặc sỹ quan;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong chiến đấu;\n\nd) Gây hậu quả nghiêm trọng, rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "source": "vilqa_context",
+        "score": 200.33622525945626,
+        "metadata": {
+          "case_id": "vilqa-313",
+          "question": "Làm mất tài liệu bí mật công tác quân sự trong khu vực có chiến sự thì bị phạt tù tối đa bao nhiêu năm?",
+          "row_index": 313,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "Key Claim: If a person intentionally reports false information in military activities causing severe consequences, they should be penalized with a minimum of 2 years in prison.\n\nBest Supporting Legal Evidence: The retrieved legal evidence states that if the crime happens during combat (a) or within an area with ongoing warfare (b), the perpetrator will face a penalty of up to 7 years in prison. This implies that intentionally reporting false information in military activities causing severe consequences can result in a minimum sentence of 2 years.\n\nAnticipated Opponent Challenge: The opponent may argue that the claim does not specifically mention the minimum punishment for intentional reporting of false information during combat, and therefore cannot be confirmed as being at least 2 years.\n\nStrategy for this Round: In this round, I will focus on the fact that the crime takes place during combat, which falls under one of the specified circumstances in the legal evidence. By emphasizing that a penalty of up to 7 years can be imposed for such an offense, I",
+        "public_argument": "The legal evidence clearly states that intentionally reporting false information in military activities causing severe consequences can result in a penalty of up to 7 years in prison. This is applicable when the crime occurs during combat, which falls under one of the specified circumstances. Therefore, it is evident that the minimum punishment for such an offense in this case is at least 2 years.",
+        "evidence_ids": [
+          "vilqa-315-context",
+          "vilqa-317-context",
+          "vilqa-314-context",
+          "vilqa-12-context",
+          "vilqa-313-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "Weakest Point in Proponent's Position: The proponent claims that a person intentionally reporting false information in military activities causing severe consequences should be penalized with a minimum of 2 years in prison. However, the legal evidence provided by the proponent only states that the perpetrator can face up to 7 years in prison for such an offense when it occurs during combat or within an area with ongoing warfare.\n\nAlternative Answer/Interpretation: The alternative interpretation is that there is no specific mention of a minimum punishment of 2 years in prison for intentionally reporting false information in military activities causing severe consequences. Instead, the legal evidence suggests that the penalty can range from 2 to 7 years in prison depending on the circumstances.\n\nEvidence Needed to Support the Challenge: To support this challenge, it would be necessary to find legal evidence or case law that specifically addresses the minimum punishment for intentionally reporting false information in military activities causing severe consequences. This could help clarify whether there is a specific minimum sentence that must be",
+        "public_argument": "I understand your point that intentionally reporting false information in military activities causing severe consequences should be penalized with a minimum of 2 years in prison. However, according to the legal evidence provided, the penalty can range from 2 to 7 years in prison depending on the circumstances, such as during combat or within an area with ongoing warfare. Therefore, it is not possible to confirm that the minimum punishment is 2 years without further legal evidence.",
+        "evidence_ids": [
+          "vilqa-315-context",
+          "vilqa-317-context",
+          "vilqa-314-context",
+          "vilqa-12-context",
+          "vilqa-313-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "2 years",
+        "confidence": 80.0,
+        "reasoning": "According to the opponent's argument, the penalty for intentionally reporting false information in military activities causing severe consequences can range from 2 to 7 years in prison. Therefore, the minimum sentence that can be imposed is 2 years."
+      }
+    ],
+    "verdict": {
+      "prediction": "2 years",
+      "answer": "2 years",
+      "confidence": 80.0,
+      "reasoning": "Based on the opponent's argument, the minimum sentence for intentionally reporting false information in military activities causing severe consequences is 2 years.",
+      "cited_evidence_ids": []
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T05:15:51.030275+00:00"
+  }
+}

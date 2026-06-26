@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-470",
+    "case_type": "legal_qa",
+    "context": "Người chưa thành niên\n\n1. Người chưa thành niên là người chưa đủ mười tám tuổi.\n\n2. Giao dịch dân sự của người chưa đủ sáu tuổi do người đại diện theo pháp luật của người đó xác lập, thực hiện.\n\n3. Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi khi xác lập, thực hiện giao dịch dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch dân sự phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi.\n\n4. Người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi tự mình xác lập, thực hiện giao dịch dân sự, trừ giao dịch dân sự liên quan đến bất động sản, động sản phải đăng ký và giao dịch dân sự khác theo quy định của luật phải được người đại diện theo pháp luật đồng ý.",
+    "question": "Theo Bộ luật dân sự 2015, người chưa thành niên là người như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 470
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.47619047619047616,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

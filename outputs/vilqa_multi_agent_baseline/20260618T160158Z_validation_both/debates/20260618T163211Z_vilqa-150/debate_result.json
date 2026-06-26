@@ -1,0 +1,149 @@
+{
+  "case": {
+    "case_id": "vilqa-150",
+    "case_type": "legal_qa",
+    "context": "Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n\n1. Việc xử lý kỷ luật lao động được quy định như sau:\n\na) Người sử dụng lao động phải chứng minh được lỗi của người lao động;\n\nb) Phải có sự tham gia của tổ chức đại diện người lao động tại cơ sở mà người lao động đang bị xử lý kỷ luật là thành viên;\n\nc) Người lao động phải có mặt và có quyền tự bào chữa, nhờ luật sư hoặc tổ chức đại diện người lao động bào chữa; trường hợp là người chưa đủ 15 tuổi thì phải có sự tham gia của người đại diện theo pháp luật;\n\nd) Việc xử lý kỷ luật lao động phải được ghi thành biên bản.\n\n2. Không được áp dụng nhiều hình thức xử lý kỷ luật lao động đối với một hành vi vi phạm kỷ luật lao động.\n\n3. Khi một người lao động đồng thời có nhiều hành vi vi phạm kỷ luật lao động thì chỉ áp dụng hình thức kỷ luật cao nhất tương ứng với hành vi vi phạm nặng nhất.\n\n4. Không được xử lý kỷ luật lao động đối với người lao động đang trong thời gian sau đây:\n\na) Nghỉ ốm đau, điều dưỡng; nghỉ việc được sự đồng ý của người sử dụng lao động;\n\nb) Đang bị tạm giữ, tạm giam;\n\nc) Đang chờ kết quả của cơ quan có thẩm quyền điều tra xác minh và kết luận đối với hành vi vi phạm được quy định tại khoản 1 và khoản 2 Điều 125 của Bộ luật này;\n\nd) Người lao động nữ mang thai; người lao động nghỉ thai sản, nuôi con dưới 12 tháng tuổi.\n\n5. Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình.\n\n6. Chính phủ quy định trình tự, thủ tục xử lý kỷ luật lao động.",
+    "question": "Không được kỷ luật đối với người mắc bệnh gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 150
+    }
+  },
+  "result": {
+    "case_id": "vilqa-150",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-149-context",
+        "text": "Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n\n1. Việc xử lý kỷ luật lao động được quy định như sau:\n\na) Người sử dụng lao động phải chứng minh được lỗi của người lao động;\n\nb) Phải có sự tham gia của tổ chức đại diện người lao động tại cơ sở mà người lao động đang bị xử lý kỷ luật là thành viên;\n\nc) Người lao động phải có mặt và có quyền tự bào chữa, nhờ luật sư hoặc tổ chức đại diện người lao động bào chữa; trường hợp là người chưa đủ 15 tuổi thì phải có sự tham gia của người đại diện theo pháp luật;\n\nd) Việc xử lý kỷ luật lao động phải được ghi thành biên bản.\n\n2. Không được áp dụng nhiều hình thức xử lý kỷ luật lao động đối với một hành vi vi phạm kỷ luật lao động.\n\n3. Khi một người lao động đồng thời có nhiều hành vi vi phạm kỷ luật lao động thì chỉ áp dụng hình thức kỷ luật cao nhất tương ứng với hành vi vi phạm nặng nhất.\n\n4. Không được xử lý kỷ luật lao động đối với người lao động đang trong thời gian sau đây:\n\na) Nghỉ ốm đau, điều dưỡng; nghỉ việc được sự đồng ý của người sử dụng lao động;\n\nb) Đang bị tạm giữ, tạm giam;\n\nc) Đang chờ kết quả của cơ quan có thẩm quyền điều tra xác minh và kết luận đối với hành vi vi phạm được quy định tại khoản 1 và khoản 2 Điều 125 của Bộ luật này;\n\nd) Người lao động nữ mang thai; người lao động nghỉ thai sản, nuôi con dưới 12 tháng tuổi.\n\n5. Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của mình.\n\n6. Chính phủ quy định trình tự, thủ tục xử lý kỷ luật lao động.",
+        "source": "vilqa_context",
+        "score": 503.6983317854005,
+        "metadata": {
+          "case_id": "vilqa-149",
+          "question": "Đối với người lao động dưới 15 tuổi thì cần có ai tham gia khi bị kỷ luật?",
+          "row_index": 149,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-152-context",
+        "text": "Áp dụng hình thức xử lý kỷ luật sa thải\n\nHình thức xử lý kỷ luật sa thải được người sử dụng lao động áp dụng trong trường hợp sau đây:\n\n1. Người lao động có hành vi trộm cắp, tham ô, đánh bạc, cố ý gây thương tích, sử dụng ma túy tại nơi làm việc;\n\n2. Người lao động có hành vi tiết lộ bí mật kinh doanh, bí mật công nghệ, xâm phạm quyền sở hữu trí tuệ của người sử dụng lao động, có hành vi gây thiệt hại nghiêm trọng hoặc đe dọa gây thiệt hại đặc biệt nghiêm trọng về tài sản, lợi ích của người sử dụng lao động hoặc quấy rối tình dục tại nơi làm việc được quy định trong nội quy lao động;\n\n3. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương hoặc cách chức mà tái phạm trong thời gian chưa xóa kỷ luật. Tái phạm là trường hợp người lao động lặp lại hành vi vi phạm đã bị xử lý kỷ luật mà chưa được xóa kỷ luật theo quy định tại Điều 126 của Bộ luật này;\n\n4. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý do chính đáng.\n\nTrường hợp được coi là có lý do chính đáng bao gồm thiên tai, hỏa hoạn, bản thân, thân nhân bị ốm có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền và trường hợp khác được quy định trong nội quy lao động.",
+        "source": "vilqa_context",
+        "score": 311.5094221483616,
+        "metadata": {
+          "case_id": "vilqa-152",
+          "question": "Người lao động sẽ bị sả thải nếu bỏ việc bao nhiêu ngày cộng dồn trong vòng 30 ngày mà không có lý do chính đáng?",
+          "row_index": 152,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-153-context",
+        "text": "Tạm đình chỉ công việc\n\n1. Người sử dụng lao động có quyền tạm đình chỉ công việc của người lao động khi vụ việc vi phạm có những tình tiết phức tạp nếu xét thấy để người lao động tiếp tục làm việc sẽ gây khó khăn cho việc xác minh. Việc tạm đình chỉ công việc của người lao động chỉ được thực hiện sau khi tham khảo ý kiến của tổ chức đại diện người lao động tại cơ sở mà người lao động đang bị xem xét tạm đình chỉ công việc là thành viên.\n\n2. Thời hạn tạm đình chỉ công việc không được quá 15 ngày, trường hợp đặc biệt không được quá 90 ngày. Trong thời gian bị tạm đình chỉ công việc, người lao động được tạm ứng 50% tiền lương trước khi bị đình chỉ công việc.\n\nHết thời hạn tạm đình chỉ công việc, người sử dụng lao động phải nhận người lao động trở lại làm việc.\n\n3. Trường hợp người lao động bị xử lý kỷ luật lao động, người lao động cũng không phải trả lại số tiền lương đã tạm ứng.\n\n4. Trường hợp người lao động không bị xử lý kỷ luật lao động thì được người sử dụng lao động trả đủ tiền lương cho thời gian bị tạm đình chỉ công việc.",
+        "source": "vilqa_context",
+        "score": 291.9893660290729,
+        "metadata": {
+          "case_id": "vilqa-153",
+          "question": "Trong thời gian bị đình chỉ công việc, người lao động được tạm ứng bao nhiêu phần trăm tiền lương trước khi bị đình chỉ công việc?",
+          "row_index": 153,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-151-context",
+        "text": "Thời hiệu xử lý kỷ luật lao động\n\n1. Thời hiệu xử lý kỷ luật lao động là 06 tháng kể từ ngày xảy ra hành vi vi phạm; trường hợp hành vi vi phạm liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, bí mật kinh doanh của người sử dụng lao động thì thời hiệu xử lý kỷ luật lao động là 12 tháng.\n\n2. Khi hết thời gian quy định tại khoản 4 Điều 122 của Bộ luật này, nếu hết thời hiệu hoặc còn thời hiệu nhưng không đủ 60 ngày thì được kéo dài thời hiệu để xử lý kỷ luật lao động nhưng không quá 60 ngày kể từ ngày hết thời gian nêu trên.\n\n3. Người sử dụng lao động phải ban hành quyết định xử lý kỷ luật lao động trong thời hạn quy định tại khoản 1 và khoản 2 Điều này.",
+        "source": "vilqa_context",
+        "score": 270.08289985355196,
+        "metadata": {
+          "case_id": "vilqa-151",
+          "question": "Trong trường hợp vi phạm nhiều lần và ảnh hướng đến tài chính của người sử dụng lạo động, thời hiệu xử lý kỹ luật là bao lâu?",
+          "row_index": 151,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-246-context",
+        "text": "Giải thích từ ngữ\n\nTrong Bộ luật này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Người lao động là người làm việc cho người sử dụng lao động theo thỏa thuận, được trả lương và chịu sự quản lý, điều hành, giám sát của người sử dụng lao động.\n\nĐộ tuổi lao động tối thiểu của người lao động là đủ 15 tuổi, trừ trường hợp quy định tại Mục 1 Chương XI của Bộ luật này.\n\n2. Người sử dụng lao động là doanh nghiệp, cơ quan, tổ chức, hợp tác xã, hộ gia đình, cá nhân có thuê mướn, sử dụng người lao động làm việc cho mình theo thỏa thuận; trường hợp người sử dụng lao động là cá nhân thì phải có năng lực hành vi dân sự đầy đủ.\n\n3. Tổ chức đại diện người lao động tại cơ sở là tổ chức được thành lập trên cơ sở tự nguyện của người lao động tại một đơn vị sử dụng lao động nhằm mục đích bảo vệ quyền và lợi ích hợp pháp, chính đáng của người lao động trong quan hệ lao động thông qua thương lượng tập thể hoặc các hình thức khác theo quy định của pháp luật về lao động. Tổ chức đại diện người lao động tại cơ sở bao gồm công đoàn cơ sở và tổ chức của người lao động tại doanh nghiệp.\n\n4. Tổ chức đại diện người sử dụng lao động là tổ chức được thành lập hợp pháp, đại diện và bảo vệ quyền, lợi ích hợp pháp của người sử dụng lao động trong quan hệ lao động.\n\n5. Quan hệ lao động là quan hệ xã hội phát sinh trong việc thuê mướn, sử dụng lao động, trả lương giữa người lao động, người sử dụng lao động, các tổ chức đại diện của các bên, cơ quan nhà nước có thẩm quyền. Quan hệ lao động bao gồm quan hệ lao động cá nhân và quan hệ lao động tập thể.\n\n6. Người làm việc không có quan hệ lao động là người làm việc không trên cơ sở thuê mướn bằng hợp đồng lao động.\n\n7. Cưỡng bức lao động là việc dùng vũ lực, đe dọa dùng vũ lực hoặc các thủ đoạn khác để ép buộc người lao động phải làm việc trái ý muốn của họ.\n\n8. Phân biệt đối xử trong lao động là hành vi phân biệt, loại trừ hoặc ưu tiên dựa trên chủng tộc, màu da, nguồn gốc quốc gia hoặc nguồn gốc xã hội, dân tộc, giới tính, độ tuổi, tình trạng thai sản, tình trạng hôn nhân, tôn giáo, tín ngưỡng, chính kiến, khuyết tật, trách nhiệm gia đình hoặc trên cơ sở tình trạng nhiễm HIV hoặc vì lý do thành lập, gia nhập và hoạt động công đoàn, tổ chức của người lao động tại doanh nghiệp có tác động làm ảnh hưởng đến bình đẳng về cơ hội việc làm hoặc nghề nghiệp.\n\nViệc phân biệt, loại trừ hoặc ưu tiên xuất phát từ yêu cầu đặc thù của công việc và các hành vi duy trì, bảo vệ việc làm cho người lao động dễ bị tổn thương thì không bị xem là phân biệt đối xử.\n\n9. Quấy rối tình dục tại nơi làm việc là hành vi có tính chất tình dục của bất kỳ người nào đối với người khác tại nơi làm việc mà không được người đó mong muốn hoặc chấp nhận. Nơi làm việc là bất kỳ nơi nào mà người lao động thực tế làm việc theo thỏa thuận hoặc phân công của người sử dụng lao động.",
+        "source": "vilqa_context",
+        "score": 233.1071563748773,
+        "metadata": {
+          "case_id": "vilqa-246",
+          "question": "Định nghĩa của \"Tổ chức đại diện người lao động tại cơ sở\"?",
+          "row_index": 246,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [],
+      "cases": []
+    },
+    "transcript": [
+      {
+        "role": "proponent",
+        "round_index": 1,
+        "private_strategy": "- **Key claim**: Người lao động không được xử lý kỷ luật khi mắc bệnh tâm thần hoặc các bệnh khác làm mất khả năng nhận thức/điều khiển hành vi.\n- **Candidate final answer**: \"bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi\"\n- **Best supporting legal evidence**: Đoạn văn bản trong `vilqa-150-context` (khoản 5 Điều 125 Bộ luật Lao động) quy định rõ: \"Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của người lao động\".\n- **Anticipated opponent challenge**: Đối thủ có thể lập luận rằng việc không kỷ luật sẽ làm mất tính nghiêm minh của kỷ luật lao động hoặc rằng các bệnh khác (như ốm đau thông thường) cũng được miễn trừ",
+        "public_argument": "Theo khoản 5 Điều 125 trong ngữ cảnh, pháp luật quy định rõ: \"Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của người lao động\". Do đó, người lao động không được kỷ luật khi mắc bệnh tâm thần hoặc các bệnh làm mất khả năng nhận thức/điều khiển hành vi.\n\n**Final Answer**: \"bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi\"",
+        "evidence_ids": [
+          "vilqa-149-context",
+          "vilqa-152-context",
+          "vilqa-153-context",
+          "vilqa-151-context",
+          "vilqa-246-context"
+        ],
+        "memory_ids": []
+      },
+      {
+        "role": "opponent",
+        "round_index": 1,
+        "private_strategy": "### Strongest Weakness in Proponent's Position\nThe Proponent's argument relies on a specific extractive span from the truncated text (`vilqa-150-context`) which explicitly mentions \"bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi\". However, the Proponent fails to address the critical nuance in the full legal provision (which is partially visible in the input `case_profile` but truncated in the `retrieved legal evidence`): **the condition applies specifically to violations occurring *while* the worker is suffering from these conditions (\"trong khi mắc...\")**. \n\nFurthermore, the Proponent's answer might be interpreted as excluding *all* diseases, whereas the law excludes only those that impair cognition or control. If the Proponent does not explicitly clarify the \"while suffering from\" condition or the specific nature of the impairment, the answer is legally imprecise. The Proponent also ignores the list of other specific exclus",
+        "public_argument": "Câu trả lời của Proponent chưa đủ chính xác vì thiếu điều kiện quan trọng \"trong khi mắc\". Pháp luật chỉ miễn trừ xử lý kỷ luật đối với người lao động vi phạm **trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi**. Các bệnh lý khác (như ốm đau thông thường) không thuộc diện này.",
+        "evidence_ids": [
+          "vilqa-149-context",
+          "vilqa-152-context",
+          "vilqa-153-context",
+          "vilqa-151-context",
+          "vilqa-246-context"
+        ],
+        "memory_ids": []
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi",
+        "confidence": 95.0,
+        "reasoning": "Proponent trích dẫn đúng điều kiện miễn trừ xử lý kỷ luật trong khoản 5 Điều 125, tuy nhiên Opponent chỉ ra rằng điều kiện tiên quyết là hành vi vi phạm phải xảy ra 'trong khi mắc' bệnh. Do đó, câu trả lời chính xác nhất phải bao gồm cả loại bệnh và điều kiện thời điểm mắc bệnh đó, như đoạn văn bản đã nêu."
+      }
+    ],
+    "verdict": {
+      "prediction": "bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi",
+      "answer": "bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi",
+      "confidence": 100.0,
+      "reasoning": "Khoản 5 Điều 125 trong ngữ cảnh quy định rõ ràng: 'Không xử lý kỷ luật lao động đối với người lao động vi phạm kỷ luật lao động trong khi mắc bệnh tâm thần hoặc một bệnh khác làm mất khả năng nhận thức hoặc khả năng điều khiển hành vi của người lao động'. Đây là câu trả lời trích dẫn trực tiếp và chính xác nhất cho câu hỏi.",
+      "cited_evidence_ids": [
+        "vilqa-150-context"
+      ]
+    },
+    "evaluation": {
+      "exact_match": 0.0,
+      "f1": 0.9523809523809523,
+      "legal_accuracy": null,
+      "argument_quality": null,
+      "logical_consistency": null,
+      "notes": "Gold answer appears in context."
+    },
+    "created_at": "2026-06-18T16:32:11.727323+00:00"
+  }
+}
