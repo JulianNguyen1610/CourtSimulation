@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-447",
+    "case_type": "legal_qa",
+    "context": "Áp dụng tương tự pháp luật\n\n1. Trường hợp phát sinh quan hệ thuộc phạm vi điều chỉnh của pháp luật dân sự mà các bên không có thỏa thuận, pháp luật không có quy định và không có tập quán được áp dụng thì áp dụng quy định của pháp luật điều chỉnh quan hệ dân sự tương tự.\n\n2. Trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều này thì áp dụng các nguyên tắc cơ bản của pháp luật dân sự quy định tại Điều 3 của Bộ luật này, án lệ, lẽ công bằng.",
+    "question": "Theo Bộ luật dân sự 2015, trường hợp không thể áp dụng tương tự pháp luật theo quy định tại khoản 1 Điều 6 của Bộ luật này thì phải áp dụng như thế nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 447
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

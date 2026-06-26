@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-359",
+    "case_type": "legal_qa",
+    "context": "Tội đào nhiệm\n\n1. Người nào là cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác thuộc một trong các trường hợp sau đây, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm:\n\na) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể 31% trở lên;\n\nb) Gây thiệt hại về tài sản từ 300.000.000 đồng đến dưới 1.000.000.000 đồng;\n\nc) Đã bị xử lý kỷ luật về hành vi này mà còn vi phạm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Làm chết người;\n\nb) Lôi kéo người khác đào nhiệm;\n\nc) Gây thiệt hại về tài sản 1.000.000.000 đồng trở lên;\n\nd) Phạm tội trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong những trường hợp khó khăn đặc biệt khác của xã hội.\n\n3. Người phạm tội còn có thể bị cấm đảm nhiệm chức vụ nhất định từ 01 năm đến 05 năm.",
+    "question": "Cán bộ, công chức, viên chức mà cố ý từ bỏ nhiệm vụ công tác trong hoàn cảnh chiến tranh, thiên tai, dịch bệnh hoặc trong trường hợp khó khăn đặc biệt khác của xã hội thì bị phạt tù tối đa bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 359
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.052631578947368425,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

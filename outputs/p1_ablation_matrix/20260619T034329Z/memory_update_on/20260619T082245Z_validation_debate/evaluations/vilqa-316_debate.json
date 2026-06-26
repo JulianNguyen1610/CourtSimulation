@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-316",
+    "case_type": "legal_qa",
+    "context": "Tội báo cáo sai\n\n1. Người nào cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 07 năm:\n\na) Trong chiến đấu;\n\nb) Trong khu vực có chiến sự;\n\nc) Trong tình trạng khẩn cấp;\n\nd) Gây hậu quả rất nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+    "question": "Cố ý báo cáo sai trong hoạt động quân sự gây hậu quả nghiêm trọng trong trường hợp chiến đấu thì bị phạt tù tối thiểu bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 316
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.5,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

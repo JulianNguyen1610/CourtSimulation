@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-437",
+    "case_type": "legal_qa",
+    "context": "Trách nhiệm của Bộ Quốc phòng\n\nBộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng trong phạm vi quản lý và có nhiệm vụ, quyền hạn sau đây:\n\n1. Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và hướng dẫn thi hành văn bản quy phạm pháp luật về an ninh mạng trong phạm vi quản lý;\n\n2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng trong phạm vi quản lý;\n\n3. Phòng ngừa, đấu tranh với các hoạt động sử dụng không gian mạng xâm phạm an ninh quốc gia trong phạm vi quản lý;\n\n4. Phối hợp với Bộ Công an tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng;\n\n5. Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật về an ninh mạng trong phạm vi quản lý.",
+    "question": "Bộ Quốc phòng và Bộ nào chịu trách nhiệm tổ chức diễn tập phòng, chống tấn công mạng, diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, triển khai thực hiện công tác bảo vệ an ninh mạng?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 437
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.11320754716981131,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

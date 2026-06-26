@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-273",
+    "case_type": "legal_qa",
+    "context": "Hủy bỏ việc đơn phương chấm dứt hợp đồng lao động\n\nMỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.",
+    "question": "Mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải làm gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 273
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.8799999999999999,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

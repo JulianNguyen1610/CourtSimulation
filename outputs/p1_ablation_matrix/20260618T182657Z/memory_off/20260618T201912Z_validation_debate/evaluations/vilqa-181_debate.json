@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-181",
+    "case_type": "legal_qa",
+    "context": "Thời điểm bắt đầu thời hạn\n\n1. Khi thời hạn được xác định bằng phút, giờ thì thời hạn được bắt đầu từ thời điểm đã xác định.\n\n2. Khi thời hạn được xác định bằng ngày, tuần, tháng, năm thì ngày đầu tiên của thời hạn không được tính mà tính từ ngày tiếp theo liền kề ngày được xác định.\n\n3. Khi thời hạn bắt đầu bằng một sự kiện thì ngày xảy ra sự kiện không được tính mà tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó.",
+    "question": "Theo luật về thời hạn, khi thời hạn bắt đầu bằng một sự kiện thì thời hạn được tính từ ngày nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 181
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.4799999999999999,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

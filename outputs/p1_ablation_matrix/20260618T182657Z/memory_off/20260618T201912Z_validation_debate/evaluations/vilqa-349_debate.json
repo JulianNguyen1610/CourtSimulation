@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-349",
+    "case_type": "legal_qa",
+    "context": "Tội tài trợ khủng bố\n\n1. Người nào huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù từ 05 năm đến 10 năm.\n\n2. Người chuẩn bị phạm tội này, thì bị phạt tù từ 01 năm đến 05 năm.\n\n3. Người phạm tội còn có thể bị phạt quản chế, cấm cư trú từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản.",
+    "question": "Người nào chuẩn bị phạm tội huy động, hỗ trợ tiền, tài sản dưới bất kỳ hình thức nào cho tổ chức, cá nhân khủng bố, thì bị phạt tù tối thiểu bao nhiêu năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 349
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.1081081081081081,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

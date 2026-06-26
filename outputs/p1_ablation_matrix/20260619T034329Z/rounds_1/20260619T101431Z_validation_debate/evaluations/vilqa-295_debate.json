@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-295",
+    "case_type": "legal_qa",
+    "context": "Phạt tiền\n\nPhạt tiền được áp dụng là hình phạt chính đối với người từ đủ 16 tuổi đến dưới 18 tuổi, nếu người đó có thu nhập hoặc có tài sản riêng.\n\nMức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá một phần hai mức tiền phạt mà điều luật quy định.",
+    "question": "Mức tiền phạt đối với người từ đủ 16 tuổi đến dưới 18 tuổi phạm tội không quá bao nhiêu phần của mức tiền phạt mà điều luật quy định?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 295
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

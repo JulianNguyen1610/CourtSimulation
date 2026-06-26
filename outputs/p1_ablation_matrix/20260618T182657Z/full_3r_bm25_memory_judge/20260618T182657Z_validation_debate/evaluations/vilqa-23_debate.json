@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-23",
+    "case_type": "legal_qa",
+    "context": "Tội chiếm đoạt, mua bán, tiêu hủy con dấu, tài liệu của cơ quan, tổ chức\n\n1. Người nào chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt tiền từ 5.000.000 đồng đến 50.000.000 đồng, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 02 năm đến 05 năm:\n\na) Có tổ chức;\n\nb) Thu lợi bất chính 10.000.000 đồng trở lên;\n\nc) Thực hiện hành vi trái pháp luật;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 20.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+    "question": "Người chiếm đoạt, mua bán hoặc tiêu hủy trái phép con dấu, tài liệu của cơ quan, tổ chức không thuộc tài liệu bí mật nhà nước hoặc bí mật công tác, thì bị phạt cải tạo không giam giữ đến bao lâu?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 23
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.5,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-119",
+    "case_type": "legal_qa",
+    "context": "Hiệu lực của di chúc\n\n1. Di chúc có hiệu lực từ thời điểm mở thừa kế.\n\n2. Di chúc không có hiệu lực toàn bộ hoặc một phần trong trường hợp sau đây:\n\na) Người thừa kế theo di chúc chết trước hoặc chết cùng thời điểm với người lập di chúc;\n\nb) Cơ quan, tổ chức được chỉ định là người thừa kế không còn tồn tại vào thời điểm mở thừa kế.\n\nTrường hợp có nhiều người thừa kế theo di chúc mà có người chết trước hoặc chết cùng thời điểm với người lập di chúc, một trong nhiều cơ quan, tổ chức được chỉ định hưởng thừa kế theo di chúc không còn tồn tại vào thời điểm mở thừa kế thì chỉ phần di chúc có liên quan đến cá nhân, cơ quan, tổ chức này không có hiệu lực.\n\n3. Di chúc không có hiệu lực, nếu di sản để lại cho người thừa kế không còn vào thời điểm mở thừa kế; nếu di sản để lại cho người thừa kế chỉ còn một phần thì phần di chúc về phần di sản còn lại vẫn có hiệu lực.\n\n4. Khi di chúc có phần không hợp pháp mà không ảnh hưởng đến hiệu lực của các phần còn lại thì chỉ phần đó không có hiệu lực.\n\n5. Khi một người để lại nhiều bản di chúc đối với một tài sản thì chỉ bản di chúc sau cùng có hiệu lực.",
+    "question": "Di chúc có hiệu lực khi nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 119
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.24242424242424243,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-321",
+    "case_type": "legal_qa",
+    "context": "Tội làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán\n\n1. Người nào làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ 1.000.000.000 đồng đến dưới 2.000.000.000 đồng hoặc gây thiệt hại cho nhà đầu tư từ 1.500.000.000 đồng đến dưới 3.000.000.000 đồng, thì bị phạt tiền từ 500.000.000 đồng đến 2.000.000.000 đồng hoặc phạt tù từ 06 tháng đến 03 năm.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tiền từ 2.000.000.000 đồng đến 5.000.000.000 đồng hoặc phạt tù từ 02 năm đến 07 năm:\n\na) Thu lợi bất chính 2.000.000.000 đồng trở lên;\n\nb) Gây thiệt hại cho nhà đầu tư 3.000.000.000 đồng trở lên;\n\nc) Có tổ chức;\n\nd) Tái phạm nguy hiểm.\n\n3. Người phạm tội còn có thể bị phạt tiền từ 50.000.000 đồng đến 250.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm.",
+    "question": "Làm giả tài liệu trong hồ sơ chào bán, niêm yết chứng khoán thu lợi bất chính từ bao nhiêu trở lên thì bị phạt tù từ 02 năm đến 07 năm?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 321
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

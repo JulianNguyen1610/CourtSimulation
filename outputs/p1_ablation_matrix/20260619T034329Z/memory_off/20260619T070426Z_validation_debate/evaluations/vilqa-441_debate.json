@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-441",
+    "case_type": "legal_qa",
+    "context": "Hiệu lực thi hành\n\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019.\n\n2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.\n\n3. Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.\n\nLuật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 5 thông qua ngày 12 tháng 6 năm 2018.\n\n\n\n\n\nCHỦ TỊCH QUỐC HỘI\n\n\n\n\nNguyễn Thị Kim Ngân",
+    "question": "Hệ thống thông tin đang vận hành, sử dụng được bổ sung vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn bao nhiêu tháng kể từ ngày được bổ sung, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật An ninh mạng 2018?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 441
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

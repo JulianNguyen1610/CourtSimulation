@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-427",
+    "case_type": "legal_qa",
+    "context": "Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.\n\n2. Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được thực hiện trong trường hợp sau đây:\n\na) Khi đưa phương tiện điện tử, dịch vụ an toàn thông tin mạng vào sử dụng trong hệ thống thông tin;\n\nb) Khi có thay đổi hiện trạng hệ thống thông tin;\n\nc) Kiểm tra định kỳ hằng năm;\n\nd) Kiểm tra đột xuất khi xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; khi có yêu cầu quản lý nhà nước về an ninh mạng; khi hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng.\n\n3. Đối tượng kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Quy định, biện pháp bảo vệ an ninh mạng;\n\nc) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nd) Phương án ứng phó, khắc phục sự cố an ninh mạng của chủ quản hệ thống thông tin;\n\nđ) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật;\n\ne) Nhân lực bảo vệ an ninh mạng.\n\n4. Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm kiểm tra an ninh mạng đối với hệ thống thông tin thuộc phạm vi quản lý trong trường hợp quy định tại các điểm a, b và c khoản 2 Điều này; thông báo kết quả kiểm tra bằng văn bản trước tháng 10 hằng năm cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng đối với hệ thống thông tin quân sự.\n\n5. Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;\n\nb) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;\n\nc) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ hệ thống thông tin quân sự do Bộ Quốc phòng quản lý, hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước.\n\nLực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quân sự.\n\nBan Cơ yếu Chính phủ kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước;\n\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.",
+    "question": "Kiểm tra an ninh mạng là gì?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 427
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.13793103448275862,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-482",
+    "case_type": "legal_qa",
+    "context": "Quyền được khai sinh, khai tử\n\n1. Cá nhân từ khi sinh ra có quyền được khai sinh.\n\n2. Cá nhân chết phải được khai tử.\n\n3. Trẻ em sinh ra mà sống được từ hai mươi bốn giờ trở lên mới chết thì phải được khai sinh và khai tử; nếu sinh ra mà sống dưới hai mươi bốn giờ thì không phải khai sinh và khai tử, trừ trường hợp cha đẻ, mẹ đẻ có yêu cầu.\n\n4. Việc khai sinh, khai tử do pháp luật về hộ tịch quy định.",
+    "question": "Mô tả quyền được khai sinh, khai tử theo Bộ luật dân sự 2015.",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 482
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.34285714285714286,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

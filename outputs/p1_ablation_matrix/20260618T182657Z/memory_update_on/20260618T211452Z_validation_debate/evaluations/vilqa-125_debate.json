@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-125",
+    "case_type": "legal_qa",
+    "context": "Tạm ứng tiền lương\n\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.\n\nNgười lao động nhập ngũ theo quy định của Luật Nghĩa vụ quân sự thì không được tạm ứng tiền lương.\n\n3. Khi nghỉ hằng năm, người lao động được tạm ứng một khoản tiền ít nhất bằng tiền lương của những ngày nghỉ.",
+    "question": "Người lao động được tạm tứng tiền và không bị tính lãi theo điều kiện nào?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 125
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.2727272727272727,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}

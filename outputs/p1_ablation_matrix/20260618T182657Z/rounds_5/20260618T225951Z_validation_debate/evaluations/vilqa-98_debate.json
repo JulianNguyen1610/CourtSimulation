@@ -1,0 +1,24 @@
+{
+  "case": {
+    "case_id": "vilqa-98",
+    "case_type": "legal_qa",
+    "context": "Trả tiền thuê\n\n1. Bên thuê phải trả đủ tiền thuê đúng thời hạn đã thỏa thuận; nếu không có thỏa thuận về thời hạn trả tiền thuê thì thời hạn trả tiền thuê được xác định theo tập quán nơi trả tiền; nếu không thể xác định được thời hạn theo tập quán thì bên thuê phải trả tiền khi trả lại tài sản thuê.\n\n2. Trường hợp các bên thỏa thuận việc trả tiền thuê theo kỳ hạn thì bên cho thuê có quyền đơn phương chấm dứt thực hiện hợp đồng, nếu bên thuê không trả tiền trong ba kỳ liên tiếp, trừ trường hợp có thỏa thuận khác hoặc pháp luật có quy định khác.",
+    "question": "Nếu các bên không có thoả thuận về thời hạn trả tiền thuê và không thể xác định được thời hạn theo tập quán nơi trả tiền thì khi nào bên thuê cần trả tiền?",
+    "metadata": {
+      "dataset": "ViLQA/ALQAC",
+      "source_path": "data/ALQAC.csv",
+      "row_index": 98
+    }
+  },
+  "method": "debate",
+  "automated_metrics": {
+    "exact_match": 0.0,
+    "f1": 0.08888888888888889,
+    "legal_accuracy": null,
+    "argument_quality": null,
+    "logical_consistency": null,
+    "notes": "Gold answer appears in context."
+  },
+  "llm_rubric_metrics": null,
+  "human_eval_subset": false
+}
