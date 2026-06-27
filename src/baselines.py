@@ -131,8 +131,6 @@ def finetuned_reader_prediction(
     should outperform the generic SQuAD2-pretrained model on Vietnamese
     legal text patterns.
     """
-    from src.reader.finetune_reader import LegalQAReader
-
     reader = _get_finetuned_reader(
         model_path,
         max_seq_length=max_seq_length,
@@ -164,8 +162,6 @@ def tuned_bm25_reader_prediction(
     reader across original context and all retrieved passages. Returns
     the highest-confidence answer span.
     """
-    from src.reader.finetune_reader import LegalQAReader
-
     reader = _get_finetuned_reader(
         model_path,
         max_seq_length=max_seq_length,
@@ -198,14 +194,14 @@ def _get_finetuned_reader(
     max_answer_length: int = 50,
 ) -> Any:
     """Return a cached LegalQAReader instance for the given model path."""
-    import src.reader.finetune_reader as _reader_mod
+    from src.reader.finetune_reader import LegalQAReader
 
     key = str(model_path)
     cached = _FINETUNED_READERS.get(key)
     if cached is not None:
         return cached
 
-    reader = _reader_mod.LegalQAReader(
+    reader = LegalQAReader(
         model_path=model_path,
         max_seq_length=max_seq_length,
         doc_stride=doc_stride,
