@@ -7,6 +7,7 @@ import unittest
 from src.models import CaseProfile
 from src.reader.finetune_reader import (
     LegalQADataset,
+    _build_training_arguments,
     _extract_squad_answer_span,
     _tokenize_squad_data,
     ReaderConfig,
@@ -46,6 +47,35 @@ class SquadAnswerParsingTest(unittest.TestCase):
         )
         self.assertIsNone(text)
         self.assertIsNone(start)
+
+
+class TrainingArgumentsCompatTest(unittest.TestCase):
+    def test_build_training_arguments_maps_eval_strategy(self) -> None:
+        class FakeTrainingArguments:
+            def __init__(self, **kwargs) -> None:
+                self.kwargs = kwargs
+
+        args = _build_training_arguments(
+            FakeTrainingArguments,
+            output_dir="out",
+            eval_strategy="steps",
+            eval_steps=100,
+        )
+        self.assertEqual(args.kwargs["evaluation_strategy"], "steps")
+        self.assertNotIn("eval_strategy", args.kwargs)
+
+        class NewFakeTrainingArguments:
+            def __init__(self, *, eval_strategy: str | None = None, **kwargs) -> None:
+                self.eval_strategy = eval_strategy
+                self.kwargs = kwargs
+
+        args = _build_training_arguments(
+            NewFakeTrainingArguments,
+            output_dir="out",
+            eval_strategy="epoch",
+        )
+        self.assertEqual(args.eval_strategy, "epoch")
+        self.assertNotIn("evaluation_strategy", args.kwargs)
 
 
 class TokenizeSquadDataTest(unittest.TestCase):

@@ -21,6 +21,7 @@ import logging
 import re
 from collections import Counter
 from dataclasses import dataclass, field
+from inspect import signature
 from pathlib import Path
 from typing import Any
 
@@ -346,7 +347,8 @@ def finetune_reader(
     val_features = _tokenize_squad_data(val_dict, tokenizer, config)
 
     # 4. Set up Trainer
-    training_args = TrainingArguments(
+    training_args = _build_training_arguments(
+        TrainingArguments,
         output_dir=str(output_dir),
         learning_rate=config.learning_rate,
         per_device_train_batch_size=config.per_device_train_batch_size,
@@ -417,6 +419,18 @@ def finetune_reader(
     )
     logger.info("Fine-tuned model saved to %s", best_model_dir)
     return best_model_dir
+
+
+def _build_training_arguments(TrainingArguments: type, **kwargs: Any):
+    """Build ``TrainingArguments`` across transformers version differences."""
+    eval_strategy = kwargs.pop("eval_strategy", None)
+    if eval_strategy is not None:
+        param_names = signature(TrainingArguments.__init__).parameters
+        if "eval_strategy" in param_names:
+            kwargs["eval_strategy"] = eval_strategy
+        else:
+            kwargs["evaluation_strategy"] = eval_strategy
+    return TrainingArguments(**kwargs)
 
 
 def _extract_squad_answer_span(
