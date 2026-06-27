@@ -30,6 +30,11 @@ from src.models import CaseProfile
 logger = logging.getLogger(__name__)
 
 _MIN_ACCELERATE_VERSION = (0, 21, 0)
+READER_TRAINING_INSTALL_HINT = (
+    "pip install -U pip && "
+    "pip install 'torch>=2.0.0' 'transformers>=4.36.0,<5.0.0' "
+    "'accelerate>=0.21.0' 'datasets>=2.14.0' 'sentencepiece>=0.1.99'"
+)
 
 
 def _parse_version_tuple(version: str) -> tuple[int, ...]:
@@ -78,8 +83,21 @@ def check_reader_training_dependencies() -> dict[str, str]:
         raise ImportError(
             f"accelerate>={'.'.join(map(str, _MIN_ACCELERATE_VERSION))} required "
             f"(found {accelerate.__version__}). "
-            "Upgrade with: pip install -U 'accelerate>=0.21.0'"
+            f"Upgrade with: {READER_TRAINING_INSTALL_HINT}"
         )
+
+    # Match the same gate Hugging Face Trainer uses internally.
+    try:
+        from transformers.utils.import_utils import is_accelerate_available
+
+        if not is_accelerate_available():
+            raise ImportError(
+                "transformers reports accelerate>=0.21.0 is unavailable "
+                f"(installed {accelerate.__version__}). "
+                f"Run: {READER_TRAINING_INSTALL_HINT}"
+            )
+    except ImportError:
+        pass
 
     try:
         import sentencepiece  # noqa: F401
@@ -511,7 +529,14 @@ def _build_training_arguments(TrainingArguments: type, **kwargs: Any):
             kwargs["eval_strategy"] = eval_strategy
         else:
             kwargs["evaluation_strategy"] = eval_strategy
-    return TrainingArguments(**kwargs)
+    try:
+        return TrainingArguments(**kwargs)
+    except ImportError as exc:
+        if "accelerate" in str(exc).lower():
+            raise ImportError(
+                f"{exc}\n\nInstall reader training stack:\n  {READER_TRAINING_INSTALL_HINT}"
+            ) from exc
+        raise
 
 
 def _extract_squad_answer_span(

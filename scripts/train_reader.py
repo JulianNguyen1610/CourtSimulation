@@ -236,6 +236,29 @@ def main() -> None:
 
     args = build_parser().parse_args()
 
+    if not args.eval_only:
+        from src.reader.finetune_reader import (
+            READER_TRAINING_INSTALL_HINT,
+            check_reader_training_dependencies,
+        )
+
+        try:
+            versions = check_reader_training_dependencies()
+        except ImportError as exc:
+            print("ERROR: Reader training dependencies are missing or too old.", file=sys.stderr)
+            print(exc, file=sys.stderr)
+            print(f"\nRun:\n  {READER_TRAINING_INSTALL_HINT}", file=sys.stderr)
+            print("\nThen verify:\n  python scripts/verify_reader_deps.py", file=sys.stderr)
+            raise SystemExit(1) from exc
+
+        logger.info(
+            "Training dependencies OK: torch=%s transformers=%s accelerate=%s sentencepiece=%s",
+            versions["torch"],
+            versions["transformers"],
+            versions["accelerate"],
+            versions["sentencepiece"],
+        )
+
     if args.eval_only:
         run_evaluation(args)
     else:
