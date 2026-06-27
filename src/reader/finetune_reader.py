@@ -419,6 +419,36 @@ def finetune_reader(
     return best_model_dir
 
 
+def _extract_squad_answer_span(
+    answers: Any,
+    *,
+    is_impossible: bool,
+) -> tuple[str | None, int | None]:
+    """Parse SQuAD2 ``answers`` into ``(text, char_start)``.
+
+    ``LegalQADataset.to_squad_dict()`` uses the HF/SQuAD2 dict form:
+    ``{"text": [str], "answer_start": [int]}``. Some loaders use a list of
+    per-answer dicts; both are accepted here.
+    """
+    if is_impossible:
+        return None, None
+
+    if isinstance(answers, dict):
+        texts = answers.get("text") or []
+        starts = answers.get("answer_start") or []
+        if texts and starts:
+            text = texts[0] if isinstance(texts[0], str) else str(texts[0])
+            return text, int(starts[0])
+        return None, None
+
+    if isinstance(answers, list) and answers:
+        first = answers[0]
+        if isinstance(first, dict) and first.get("text") is not None:
+            return str(first["text"]), int(first["answer_start"])
+
+    return None, None
+
+
 def _tokenize_squad_data(
     squad_dict: dict[str, Any],
     tokenizer,
@@ -439,7 +469,10 @@ def _tokenize_squad_data(
             for qa in paragraph.get("qas", []):
                 question_text = qa["question"]
                 is_impossible = qa.get("is_impossible", False)
-                answer_list = qa.get("answers", [])
+                answer_text, answer_start_char = _extract_squad_answer_span(
+                    qa.get("answers"),
+                    is_impossible=is_impossible,
+                )
 
                 # Tokenize with truncation and stride
                 tokenized = tokenizer(
@@ -454,13 +487,11 @@ def _tokenize_squad_data(
                 )
 
                 # Find answer span in context
-                if not is_impossible and answer_list:
-                    answer_text = answer_list[0]["text"]
-                    answer_start_char = answer_list[0]["answer_start"]
+                if answer_text is not None and answer_start_char is not None:
                     answer_end_char = answer_start_char + len(answer_text)
 
                     offset_mapping = tokenized.pop("offset_mapping", None)
-                    sample_ids = tokenized.pop("overflow_to_sample_mapping", None)
+                    tokenized.pop("overflow_to_sample_mapping", None)
 
                     input_ids_list = tokenized["input_ids"]
                     attention_mask_list = tokenized["attention_mask"]
@@ -472,7 +503,6 @@ def _tokenize_squad_data(
 
                             if offset_mapping and i < len(offset_mapping):
                                 offsets = offset_mapping[i]
-                                cls_token_id = tokenizer.cls_token_id
 
                                 # Find token positions that overlap with answer
                                 for idx, (os_start, os_end) in enumerate(offsets):
