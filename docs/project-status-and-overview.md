@@ -113,8 +113,8 @@ flowchart TD
 
 | Phase | Mục tiêu | Task chính | Trạng thái |
 |---|---|---|---|
-| **Phase 1** | ViLQA extractive QA qua structured debate | Pipeline đầy đủ + baselines + batch + ablation | **Đã implement**; đang validation LLM thật |
-| **Phase 2** | Memory & RAG nâng cao | UTS_VLC, rerank, memory ablation, similar-case | **Một phần** (code có, chưa ablation đầy đủ) |
+| **Phase 1** | ViLQA extractive QA qua structured debate | Pipeline + baselines + ablation + test split | **Hoàn tất (M1)** |
+| **Phase 2** | Memory & RAG nâng cao | UTS_VLC comparison (optional) | **Ablation done**; UTS_VLC chưa so sánh |
 | **Phase 3** | Courtroom LJP simulation | Roles pháp lý, protocol 3 giai đoạn, LJP metrics | **Scaffold xong**; chưa batch runner |
 | **Phase 4** | Đánh giá & an toàn | Citation check, hallucination, human eval, LegalSim red-team | **Chưa bắt đầu** |
 
@@ -169,40 +169,41 @@ flowchart TD
 
 ## 6. Kết quả thí nghiệm đã ghi nhận
 
-| Thí nghiệm | Model | Split | Kết quả nổi bật | Ghi chú |
-|---|---|---|---|---|
-| Mock batch | MockLLM | validation | EM/F1 thấp, orchestration OK | Không phải baseline thực |
-| Direct validation | dolphin3:latest | val 53 | EM=0.264, F1=0.680 | Direct mạnh với model nhỏ |
-| Debate validation (trước fix) | dolphin3:latest | val 53 | EM=0.076, F1=0.368 | Over-extraction / paraphrase |
-| Debate validation (sau fix) | dolphin3:latest | val 53 | EM=0.170, F1=0.511 | Postprocess + prompt siết span |
-| Both (qwen3.5:9b) | qwen3.5:9b | val 53 | **Debate EM=0.472, F1=0.811** vs Direct EM=0.019, F1=0.403 | Debate thắng lớn; direct bị cắt token |
-| Gemini smoke | gemini-2.5-flash | 1 case | Verdict đúng "07 năm" | 1 round, pipeline end-to-end OK |
-| Courtroom smoke | MockLLM | case_01_theft | Session hoàn tất | Phase 3 kỹ thuật OK |
+| Thí nghiệm | Model | Split | EM | F1 | Ghi chú |
+|---|---|---|---:|---:|---|
+| **Vanilla debate** | qwen3.5:9b | val 53 | **0.679** | **0.940** | SOTA val |
+| Structured optimized | qwen3.5:9b | val 53 | 0.585 | 0.854 | retrieval=off |
+| Structured r=1 baseline | qwen3.5:9b | val 53 | 0.491 | 0.812 | bm25 default |
+| Direct | qwen3.5:9b | val 53 | 0.245 | 0.663 | fair config |
+| CoT | qwen3.5:9b | val 53 | 0.472 | 0.861 | |
+| **Vanilla debate** | qwen3.5:9b | **test 53** | **0.377** | **0.771** | B.5.8 one-shot |
+| Structured optimized | qwen3.5:9b | test 53 | 0.321 | 0.696 | retrieval=off, memory=RO |
+| Ablation matrix | qwen3.5:9b | val 53 | — | — | 6 variants, run 20260626T104936Z |
+| Courtroom smoke | MockLLM | case_01 | — | — | Phase 3 kỹ thuật OK |
 
-**Lưu ý khoa học:** Chưa claim chính thức "debate > direct" cho đến khi ablation matrix chạy xong trên cùng config ổn định và test split chạy một lần cuối.
+**Claim hợp lệ:** vanilla > structured > direct (val); debate > direct (+100% EM val). Báo cáo val/test gap trên test (−30 pp EM vanilla).
+
+Chi tiết: [`docs/experiments/results-summary.md`](./experiments/results-summary.md), [`p1_ablation_summary.csv`](./experiments/p1_ablation_summary.csv).
 
 ---
 
 ## 7. Đang thực hiện
 
-- Error analysis P1 (over-extraction, paraphrase, wrong law span).
-- Validation courtroom pilot bằng Gemini/local LLM.
-- Mapping field SimuCourt / VLegal-Bench sau khi tải HuggingFace.
-- Gemini validation full split + ablation matrix `--execute`.
+- Phase 3 courtroom pilot LLM thật (D.3.8, D.4.5).
+- Mapping SimuCourt / VLegal-Bench (planned).
 
 ---
 
 ## 8. Chưa hoàn thành
 
-- [ ] Batch courtroom runner + metrics aggregation cho LJP.
-- [ ] Ablation matrix P1 chạy đầy đủ với LLM ổn định (Gemini hoặc qwen3.5).
+- [ ] Batch courtroom runner + metrics aggregation cho LJP (D.6).
 - [ ] Similar-case retrieval (Courtroom-LLM style).
-- [ ] Citation validity checker (LegalCiteBench style).
-- [ ] Legal hallucination detection (LegalHalBench style).
-- [ ] Procedural exploit red-team (LegalSim style).
-- [ ] Human evaluation rubric cho courtroom sessions.
-- [ ] So sánh Phase 1 vs Phase 3 trên cùng case adapter.
-- [ ] Báo cáo paper-ready: bảng ablation, error analysis, case study transcript.
+- [ ] Citation validity / hallucination checker (E.1).
+- [ ] Human evaluation rubric (E.2).
+- [ ] Case study transcript appendix (F.2.8).
+- [x] Ablation matrix P1 — done 2026-06-26.
+- [x] Test split one-shot — done 2026-06-27.
+- [x] Báo cáo results-summary + ablation-analysis.
 
 ---
 

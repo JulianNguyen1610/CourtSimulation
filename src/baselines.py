@@ -11,6 +11,7 @@ from src.llm import LLMClient, extract_candidate_from_context
 from src.models import CaseProfile
 
 _EXTRACTIVE_QA_PIPELINES: dict[str, Any] = {}
+_FINETUNED_READERS: dict[str, Any] = {}
 
 
 def direct_context_candidate(case: CaseProfile) -> str:
@@ -114,6 +115,110 @@ def clear_extractive_qa_pipeline_cache() -> None:
     """Clear cached extractive QA pipelines (mainly for tests)."""
 
     _EXTRACTIVE_QA_PIPELINES.clear()
+
+
+def finetuned_reader_prediction(
+    case: CaseProfile,
+    model_path: str | Path = "checkpoints/legal_qa_reader/best_model",
+    *,
+    max_seq_length: int = 384,
+    doc_stride: int = 128,
+    max_answer_length: int = 50,
+) -> str:
+    """Fine-tuned extractive QA reader baseline.
+
+    Uses a reader model fine-tuned on the ALQAC train split, which
+    should outperform the generic SQuAD2-pretrained model on Vietnamese
+    legal text patterns.
+    """
+    from src.reader.finetune_reader import LegalQAReader
+
+    reader = _get_finetuned_reader(
+        model_path,
+        max_seq_length=max_seq_length,
+        doc_stride=doc_stride,
+        max_answer_length=max_answer_length,
+    )
+    result = reader.predict(question=case.question, context=case.context)
+    answer = result.answer
+    if not answer:
+        raise RuntimeError(
+            f"Fine-tuned reader returned no answer for {case.case_id}."
+        )
+    return answer.strip()
+
+
+def tuned_bm25_reader_prediction(
+    case: CaseProfile,
+    retrieved_contexts: list[str],
+    model_path: str | Path = "checkpoints/legal_qa_reader/best_model",
+    *,
+    max_seq_length: int = 384,
+    doc_stride: int = 128,
+    max_answer_length: int = 50,
+    top_k_answers: int = 5,
+) -> str:
+    """Tuned BM25 + fine-tuned reader baseline.
+
+    Retrieves top-k evidence via tuned BM25, then runs the fine-tuned
+    reader across original context and all retrieved passages. Returns
+    the highest-confidence answer span.
+    """
+    from src.reader.finetune_reader import LegalQAReader
+
+    reader = _get_finetuned_reader(
+        model_path,
+        max_seq_length=max_seq_length,
+        doc_stride=doc_stride,
+        max_answer_length=max_answer_length,
+    )
+    result = reader.predict_with_retrieved_context(
+        question=case.question,
+        context=case.context,
+        retrieved_contexts=retrieved_contexts,
+        top_k_answers=top_k_answers,
+    )
+    answer = result.answer
+    if not answer:
+        # Fallback to direct context only
+        result = reader.predict(question=case.question, context=case.context)
+        answer = result.answer
+    if not answer:
+        raise RuntimeError(
+            f"Tuned BM25+reader returned no answer for {case.case_id}."
+        )
+    return answer.strip()
+
+
+def _get_finetuned_reader(
+    model_path: str | Path,
+    *,
+    max_seq_length: int = 384,
+    doc_stride: int = 128,
+    max_answer_length: int = 50,
+) -> Any:
+    """Return a cached LegalQAReader instance for the given model path."""
+    import src.reader.finetune_reader as _reader_mod
+
+    key = str(model_path)
+    cached = _FINETUNED_READERS.get(key)
+    if cached is not None:
+        return cached
+
+    reader = _reader_mod.LegalQAReader(
+        model_path=model_path,
+        max_seq_length=max_seq_length,
+        doc_stride=doc_stride,
+        max_answer_length=max_answer_length,
+    )
+    _FINETUNED_READERS[key] = reader
+    return reader
+
+
+def clear_finetuned_reader_cache() -> None:
+    """Clear cached fine-tuned reader instances (mainly for tests)."""
+
+    _FINETUNED_READERS.clear()
 
 
 def bm25_reader_prediction(

@@ -13,7 +13,7 @@ from src.agents.defendant import DefendantAgent
 from src.agents.defense import DefenseAgent
 from src.agents.judge_agent import JudgeAgent
 from src.agents.prosecutor import ProsecutorAgent
-from src.artifacts import save_debate_result
+from src.artifacts import save_courtroom_result, save_debate_result
 from src.courtroom.session import CourtroomSession
 from src.data_loader import load_court_case_json, load_vilqa_csv, split_cases
 from src.evaluation.ljp_evaluator import LJPEvaluator
@@ -63,6 +63,17 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=Path("configs/courtroom.yaml"),
         help="Courtroom protocol YAML for --run-courtroom.",
+    )
+    parser.add_argument(
+        "--save-courtroom",
+        action="store_true",
+        help="Save courtroom transcript JSON under the courtroom output directory.",
+    )
+    parser.add_argument(
+        "--courtroom-output-dir",
+        type=Path,
+        default=Path("outputs/courtroom_pilot"),
+        help="Output directory for --save-courtroom artifacts.",
     )
     parser.add_argument(
         "--run-debate",
@@ -121,6 +132,8 @@ def build_parser() -> argparse.ArgumentParser:
             "all",
             "extractive_qa",
             "bm25_reader",
+            "finetuned_reader",
+            "tuned_bm25_reader",
         ],
         default="both",
         help="Baseline method for --run-batch.",
@@ -170,6 +183,14 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Hugging Face QA model for extractive_qa and bm25_reader.",
     )
+    parser.add_argument(
+        "--finetuned-reader-path",
+        default=None,
+        help="Checkpoint path for finetuned_reader and tuned_bm25_reader baselines.",
+    )
+    parser.add_argument("--reader-max-seq-length", type=int, default=None)
+    parser.add_argument("--reader-doc-stride", type=int, default=None)
+    parser.add_argument("--reader-max-answer-length", type=int, default=None)
     parser.add_argument(
         "--retrieval-method",
         choices=["off", "bm25_only", "bm25_rerank"],
@@ -383,6 +404,27 @@ def resolve_evaluation_settings(raw_config: dict[str, Any], args: argparse.Names
     }
 
 
+def resolve_reader_settings(raw_config: dict[str, Any], args: argparse.Namespace) -> dict[str, Any]:
+    baselines = get_section(raw_config, "baselines")
+    reader = baselines.get("finetuned_reader", {})
+    if not isinstance(reader, dict):
+        reader = {}
+    return {
+        "finetuned_reader_path": (
+            args.finetuned_reader_path
+            or reader.get("model_path")
+            or "checkpoints/legal_qa_reader/best_model"
+        ),
+        "reader_max_seq_length": int(
+            args.reader_max_seq_length or reader.get("max_seq_length", 384)
+        ),
+        "reader_doc_stride": int(args.reader_doc_stride or reader.get("doc_stride", 128)),
+        "reader_max_answer_length": int(
+            args.reader_max_answer_length or reader.get("max_answer_length", 50)
+        ),
+    }
+
+
 def resolve_courtroom_agent_kwargs(
     courtroom_config_path: Path,
     debate_settings: dict[str, Any],
@@ -427,6 +469,7 @@ def main() -> None:
     memory_settings = resolve_memory_settings(raw_config, args)
     debate_settings = resolve_debate_settings(raw_config, args)
     evaluation_settings = resolve_evaluation_settings(raw_config, args)
+    reader_settings = resolve_reader_settings(raw_config, args)
     cases = load_vilqa_csv(args.dataset)
     split = split_cases(
         cases,
@@ -453,13 +496,7 @@ def main() -> None:
             memory_store=MemoryStore.load(args.memory_path),
         )
         courtroom_result = session.run(court_case)
-        print("\nCourtroom session completed.")
-        print(f"Case id: {courtroom_result.case_id}")
-        print(f"Phases: {', '.join(courtroom_result.phases_completed)}")
-        print(f"Transcript turns: {len(courtroom_result.transcript)}")
-        if courtroom_result.legal_judgment is not None:
-            print(f"Predicted charge: {courtroom_result.legal_judgment.charge}")
-            print(f"Predicted sentence: {courtroom_result.legal_judgment.sentence}")
+
         if court_case.ground_truth and courtroom_result.legal_judgment is not None:
             evaluation = LJPEvaluator().evaluate(
                 courtroom_result.legal_judgment,
@@ -467,8 +504,41 @@ def main() -> None:
                 valid_evidence_ids={item.evidence_id for item in court_case.evidence},
             )
             courtroom_result.evaluation = evaluation
+
+        print("\nCourtroom session completed.")
+        print(f"Case id: {courtroom_result.case_id}")
+        print(f"Phases: {', '.join(courtroom_result.phases_completed)}")
+        print(f"Transcript turns: {len(courtroom_result.transcript)}")
+        if courtroom_result.legal_judgment is not None:
+            print(f"Predicted charge: {courtroom_result.legal_judgment.charge}")
+            print(
+                f"Predicted articles: {', '.join(courtroom_result.legal_judgment.articles)}"
+            )
+            print(f"Predicted sentence: {courtroom_result.legal_judgment.sentence}")
+        if court_case.ground_truth:
+            print(f"Ground truth charge: {court_case.ground_truth.charge}")
+            print(
+                f"Ground truth articles: {', '.join(court_case.ground_truth.articles)}"
+            )
+            print(f"Ground truth sentence: {court_case.ground_truth.sentence}")
+        if courtroom_result.evaluation is not None:
+            evaluation = courtroom_result.evaluation
             print(f"LJP charge accuracy: {evaluation.charge_accuracy}")
             print(f"LJP article accuracy: {evaluation.article_accuracy}")
+            if evaluation.sentence_mae_years is not None:
+                print(f"LJP sentence MAE (years): {evaluation.sentence_mae_years:.2f}")
+            if evaluation.sentence_bucket_accuracy is not None:
+                print(
+                    f"LJP sentence bucket accuracy: {evaluation.sentence_bucket_accuracy}"
+                )
+
+        if args.save_courtroom:
+            output_path = save_courtroom_result(
+                courtroom_result,
+                court_case,
+                output_dir=args.courtroom_output_dir,
+            )
+            print(f"Courtroom artifact: {output_path}")
         return
 
     first_case = cases[0]
@@ -522,6 +592,7 @@ def main() -> None:
                 **memory_settings,
                 **debate_settings,
                 **evaluation_settings,
+                **reader_settings,
             ),
         )
         print("\nBatch baseline completed.")

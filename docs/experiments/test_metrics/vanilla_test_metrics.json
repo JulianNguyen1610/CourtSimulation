@@ -1,0 +1,30 @@
+{
+  "split": "test",
+  "method": "vanilla",
+  "num_cases": 53,
+  "num_predictions": 53,
+  "models_by_method": {
+    "vanilla": {
+      "backend": "local",
+      "model": "qwen3.5:9b",
+      "temperature": 0.3,
+      "max_output_tokens": 256
+    }
+  },
+  "ablation_settings": {
+    "retrieval": "bm25_only",
+    "memory": false,
+    "rounds": 1,
+    "judge": "off"
+  },
+  "fallbacks": {
+    "fallback_rate": 0.0
+  },
+  "metrics_by_method": {
+    "vanilla": {
+      "num_predictions": 53,
+      "exact_match": 0.37735849056603776,
+      "f1": 0.7712320117057705
+    }
+  }
+}

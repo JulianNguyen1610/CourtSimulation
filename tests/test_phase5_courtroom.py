@@ -154,6 +154,36 @@ class CourtroomSessionTest(unittest.TestCase):
         self.assertIn("final_ruling", result.phases_completed)
         self.assertIsNotNone(result.legal_judgment)
 
+    def test_save_courtroom_result_writes_json(self) -> None:
+        from src.artifacts import save_courtroom_result
+
+        court_case = load_court_case_json("data/processed/case_01_theft.json")
+        llm = MockLLM()
+        session = CourtroomSession.from_config(
+            "configs/courtroom.yaml",
+            prosecutor=ProsecutorAgent(llm),
+            defense=DefenseAgent(llm),
+            defendant=DefendantAgent(llm),
+            judge=JudgeAgent(llm),
+        )
+        result = session.run(court_case)
+        if court_case.ground_truth and result.legal_judgment is not None:
+            result.evaluation = LJPEvaluator().evaluate(
+                result.legal_judgment,
+                court_case.ground_truth,
+                valid_evidence_ids={item.evidence_id for item in court_case.evidence},
+            )
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_path = save_courtroom_result(result, court_case, output_dir=temp_dir)
+            self.assertTrue(output_path.exists())
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+            self.assertEqual(payload["case"]["case_id"], court_case.case_id)
+            self.assertEqual(payload["result"]["case_id"], court_case.case_id)
+            if result.evaluation is not None:
+                metrics_path = output_path.parent / "ljp_metrics.json"
+                self.assertTrue(metrics_path.exists())
+
 
 if __name__ == "__main__":
     unittest.main()

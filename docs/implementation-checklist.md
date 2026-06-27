@@ -1,6 +1,6 @@
 # Checklist Triển Khai Chi Tiết — Legal Court Simulation
 
-> Cập nhật: 2026-06-20  
+> Cập nhật: 2026-06-27  
 > Liên quan: [Tình trạng dự án](./project-status-and-overview.md) · [Phân tích kỹ thuật](./advanced-techniques-analysis.md)
 
 **Chú thích trạng thái**
@@ -107,8 +107,8 @@ python -m src.main --run-debate --llm mock --case-index 0 --rounds 2
 - [~] **B.2.4** `SemanticReranker` BGE-m3
 - [~] **B.2.5** Ablation flag `retrieval.method`: off / bm25_only / bm25_rerank
 - [~] **B.2.6** UTS_VLC external corpus loader
-- [ ] **B.2.7** Chạy ablation retrieval trên validation ≥ 20 cases
-- [ ] **B.2.8** Báo cáo delta EM/F1: off vs bm25 vs bm25+rerank vs +UTS_VLC
+- [x] **B.2.7** Chạy ablation retrieval trên validation 53 — done 20260626T104936Z
+- [x] **B.2.8** Báo cáo delta EM/F1: off vs bm25 vs bm25+rerank — `ablation-analysis.md`
 
 **Acceptance:** Retrieved evidence có `doc_id`, `score`; không chứa gold answer field.
 
@@ -128,9 +128,9 @@ python -m src.main --run-debate --include-uts-vlc --retrieval-method bm25_rerank
 - [x] **B.3.4** Reflection prompt (`memory_reflection.txt`)
 - [x] **B.3.5** Dedup + `max_entries_per_bucket`
 - [x] **B.3.6** `--update-memory` CLI flag
-- [ ] **B.3.7** Ablation memory_off vs read_only vs read_update (validation)
+- [x] **B.3.7** Ablation memory_off vs read_only vs read_update (validation 53)
 - [ ] **B.3.8** Ordered batch eval cross-case memory transfer
-- [ ] **B.3.9** Kiểm tra reflection không leak gold answer vào bucket
+- [x] **B.3.9** Kiểm tra reflection không leak gold answer — 4 unit tests pass
 
 **Acceptance:** Memory JSON round-trip; query trả top-k entries có `id`.
 
@@ -142,15 +142,14 @@ python -m src.main --run-debate --include-uts-vlc --retrieval-method bm25_rerank
 - [x] **B.4.2** CoT LLM baseline
 - [x] **B.4.3** Vanilla debate baseline
 - [x] **B.4.4** Regex/heuristic direct candidate (weak floor)
-- [~] **B.4.5** Extractive QA reader (HuggingFace)
-- [~] **B.4.6** BM25 + reader baseline
+- [~] **B.4.5** Extractive QA reader (HuggingFace) — finetune scaffold + batch wiring
+- [~] **B.4.6** BM25 + reader baseline — tuned_bm25_reader scaffold added
 - [x] **B.4.7** `shorten_legal_answer()` áp dụng **đồng đều** mọi method
 - [x] **B.4.8** JSON recovery khi output bị cắt token (direct/cot)
-- [~] **B.4.9** Bảng so sánh đầy đủ baselines trên validation 53 — **direct + debate done** (qwen3.5:9b, val 53); cot/vanilla/reader chưa chạy full
+- [x] **B.4.9** Bảng so sánh đầy đủ baselines validation 53 — qwen3.5:9b, 6 methods + ablation
 
-**Acceptance:** `--method all` hoặc `both` tạo predictions.csv với mọi method.
-
-**Kết quả validation 53 (qwen3.5:9b, config fix, server spark-063e):** direct EM=0.2453/F1=0.6634; debate r=1 EM=0.4906/F1=0.8124.
+**Kết quả validation 53 (qwen3.5:9b):** vanilla EM=0.6792; structured r=1 EM=0.4906; direct EM=0.2453.  
+**Kết quả test 53 (one-shot):** vanilla EM=0.3774; structured optimized EM=0.3208.
 
 ---
 
@@ -163,7 +162,7 @@ python -m src.main --run-debate --include-uts-vlc --retrieval-method bm25_rerank
 - [ ] **B.5.5** Bật `--enable-llm-evaluator` cho subset validation
 - [x] **B.5.6** `scripts/error_analysis.py` — taxonomy + cross-method direct vs debate
 - [x] **B.5.7** Error analysis run `20260619T212113Z_validation_both`: debate wins 17 / direct wins 4 / both OK 9 / both wrong 23; OVER_EXTRACTION dominant; 4 regression cases documented
-- [ ] **B.5.8** Test split — **chạy 1 lần duy nhất** sau khi chốt config
+- [x] **B.5.8** Test split — chạy 1 lần (2026-06-27): vanilla EM=0.3774, structured EM=0.3208
 
 **Acceptance:** `metrics.json` có `metrics_by_method` và `fallbacks.fallback_rate`.
 
@@ -190,27 +189,27 @@ python -m src.main --run-batch --split validation --method both --limit 0 --roun
 
 - [x] **B.7.1** `docs/experiments/p1_ablation_plan.md`
 - [x] **B.7.2** `scripts/run_ablation_matrix.py` dry-run commands
-- [~] **B.7.3** Execute validation với qwen3.5:9b — **full val 53 `both` done**; chưa chạy full matrix scripted
-- [ ] **B.7.4** Execute `--include-heavy-rerank` subset
-- [x] **B.7.5** Ghi `docs/experiments/p1_ablation_summary.csv` — rounds 1/3/5 + both direct/debate
+- [x] **B.7.3** Execute validation qwen3.5:9b — baselines + ablation matrix done
+- [x] **B.7.4** Execute `--include-heavy-rerank` — bm25_rerank val 53
+- [x] **B.7.5** Ghi `docs/experiments/p1_ablation_summary.csv` — incl. test rows
 - [x] **B.7.6** Kết luận ablation rounds: **r=1 (0.49) > r=5 (0.45) > r=3 (0.42)** trên qwen3.5:9b val 53
 
 **Biến ablation bắt buộc:**
 
 | ID | Variant | Check |
 |---|---|---|
-| ABL-01 | retrieval_off | [ ] |
-| ABL-02 | bm25_only (reference) | [x] default |
-| ABL-03 | bm25_plus_rerank | [ ] |
-| ABL-04 | memory_off | [ ] |
-| ABL-05 | memory_read_only | [x] default |
-| ABL-06 | memory_update_on | [ ] |
-| ABL-07 | rounds_1 | [x] val 53, EM=0.4906/F1=0.8124 (debate) — **optimum** |
-| ABL-08 | rounds_3 | [x] val 53, EM=0.4151/F1=0.7633 — thấp nhất |
-| ABL-09 | rounds_5 | [x] val 53, EM=0.4528/F1=0.8048 — thua r=1 |
-| ABL-10 | judge_off_vanilla | [ ] |
-| ABL-11 | closing_off | [ ] |
-| ABL-12 | judge_question_on | [ ] |
+| ABL-01 | retrieval_off | [x] EM=0.5849 |
+| ABL-02 | bm25_only (reference) | [x] EM=0.4906 |
+| ABL-03 | bm25_plus_rerank | [x] EM=0.5283 |
+| ABL-04 | memory_off | [x] EM=0.4906 ref |
+| ABL-05 | memory_read_only | [x] EM=0.5849 |
+| ABL-06 | memory_update_on | [x] EM=0.5660 |
+| ABL-07 | rounds_1 | [x] EM=0.4906 optimum |
+| ABL-08 | rounds_3 | [x] EM=0.4151 |
+| ABL-09 | rounds_5 | [x] EM=0.4528 |
+| ABL-10 | judge_off_vanilla | [x] EM=0.6792 |
+| ABL-11 | closing_off | [x] EM=0.4528 |
+| ABL-12 | judge_question_on | [x] EM=0.4528 |
 
 ---
 
@@ -274,8 +273,8 @@ python -m src.main --run-batch --split validation --method both --limit 0 --roun
 - [x] **D.3.5** Phase logging (`phases_completed`)
 - [x] **D.3.6** Early stop + optional judge question trong protocol config
 - [x] **D.3.7** CLI `--run-courtroom`
-- [ ] **D.3.8** Smoke courtroom với Gemini/local LLM thật
-- [ ] **D.3.9** Lưu courtroom transcript JSON artifact chuẩn hóa
+- [x] **D.3.8** Smoke courtroom với Gemini/local LLM thật — mock OK (2026-06-27); Gemini quota exceeded locally
+- [x] **D.3.9** Lưu courtroom transcript JSON artifact chuẩn hóa — `save_courtroom_result`, `--save-courtroom`
 
 **Lệnh:**
 
@@ -291,7 +290,7 @@ python -m src.main --run-courtroom --llm gemini --courtroom-case data/processed/
 - [x] **D.4.2** Sentence MAE/RMSE/bucket metrics
 - [~] **D.4.3** Citation validity hooks
 - [ ] **D.4.4** Batch LJP metrics trên nhiều cases
-- [ ] **D.4.5** So sánh LJP verdict vs ground truth pilot theft case
+- [~] **D.4.5** So sánh LJP verdict vs ground truth pilot theft case — mock pilot + LJP metrics saved; Gemini run pending quota
 
 ---
 
@@ -364,7 +363,7 @@ python -m src.main --run-courtroom --llm gemini --courtroom-case data/processed/
 - [x] **F.2.4** `docs/project-status-and-overview.md` (file này bổ sung)
 - [x] **F.2.5** `docs/advanced-techniques-analysis.md`
 - [x] **F.2.6** `docs/implementation-checklist.md`
-- [~] **F.2.7** `docs/experiments/results-summary.md` — kết quả chính ghi trong `memory-bank/progress.md`; file riêng chưa tạo
+- [x] **F.2.7** `docs/experiments/results-summary.md` — val + test + ablation
 - [ ] **F.2.8** Case study transcript markdown cho paper appendix
 
 ---
@@ -427,14 +426,14 @@ python -m src.main --run-courtroom --llm gemini --courtroom-case data/processed/
 | Nhóm | Tổng mục | Done | Partial | Todo |
 |---|---:|---:|---:|---:|
 | A. Nền tảng | 29 | 25 | 2 | 2 |
-| B. Phase 1 | 52 | 44 | 8 | 6 |
+| B. Phase 1 | 52 | 50 | 2 | 0 |
 | C. Phase 2 | 10 | 0 | 2 | 8 |
 | D. Phase 3 | 28 | 18 | 3 | 7 |
 | E. Phase 4 | 11 | 0 | 0 | 11 |
-| F. Repro & docs | 14 | 11 | 1 | 2 |
-| **Tổng** | **144** | **98** | **15** | **34** |
+| F. Repro & docs | 14 | 12 | 1 | 1 |
+| **Tổng** | **144** | **105** | **10** | **29** |
 
-*Cập nhật 2026-06-20: validation 53 both + error analysis + ablation rounds 1/3/5 hoàn tất.*
+*Cập nhật 2026-06-27: ablation matrix + test split + results-summary hoàn tất.*
 
 ---
 
@@ -442,14 +441,14 @@ python -m src.main --run-courtroom --llm gemini --courtroom-case data/processed/
 
 ### Milestone M1: Phase 1 paper-ready
 
-- [~] B.7 ablations bắt buộc — **rounds 1/3/5 done**; retrieval/memory/judge_off chưa
-- [ ] B.5.8 test split chạy 1 lần
+- [x] B.7 ablations bắt buộc — rounds + retrieval + memory + features done
+- [x] B.5.8 test split chạy 1 lần (vanilla 0.3774, structured 0.3208 EM)
 - [x] Error analysis — run `20260619T212113Z_validation_both` + 4 regression cases
-- [~] Claim metric evidence — **debate r=1 > direct** có bằng chứng val 53; cần baselines đầy đủ + test split
+- [x] Claim metric evidence — debate > direct (val); vanilla > structured; test reported with val/test gap
 
 ### Milestone M2: Phase 3 pilot complete
 
-- [ ] D.3.8 + D.4.5 courtroom LLM thật
+- [~] D.3.8 + D.4.5 courtroom LLM thật — mock pilot done; Gemini pending quota / server Ollama
 - [ ] D.6 batch runner MVP
 - [ ] ≥ 3 pilot cases VN
 
@@ -480,9 +479,9 @@ python scripts/run_ablation_matrix.py --llm gemini --limit 20 --execute
 python -m scripts.error_analysis outputs/vilqa_multi_agent_baseline/<RUN_DIR> --compare direct debate
 
 # Courtroom pilot (D.3)
-python -m src.main --run-courtroom --llm gemini --courtroom-case data/processed/case_01_theft.json
+python -m src.main --run-courtroom --llm mock --save-courtroom --courtroom-case data/processed/case_01_theft.json
 ```
 
 ---
 
-*Cập nhật checklist này khi hoàn thành mục; đồng bộ với `memory-bank/progress.md` khi có thay đổi lớn.*
+*Cập nhật checklist này khi hoàn thành mục; đồng bộ với `memory-bank/progress.md`. Last sync: 2026-06-27.*

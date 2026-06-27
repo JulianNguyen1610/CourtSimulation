@@ -5,25 +5,26 @@
 - **Phase 1 ViLQA scaffold**: data loader, split, `DebateOrchestrator`, baselines, retrieval, memory, evaluator EM/F1.
 - **P0/P1 pipeline**: LLM providers, judge fallback, semantic rerank, memory ablation, debate loop, ablation matrix script.
 - **Tài liệu dự án (2026-06-17)**:
-  - `docs/project-status-and-overview.md` — tình trạng, kiến trúc, kết quả thí nghiệm.
-  - `docs/advanced-techniques-analysis.md` — phân tích kỹ thuật từ 6 papers.
-  - `docs/implementation-checklist.md` — checklist triển khai chi tiết (~144 mục).
+ - `docs/project-status-and-overview.md` — tình trạng, kiến trúc, kết quả thí nghiệm.
+ - `docs/advanced-techniques-analysis.md` — phân tích kỹ thuật từ 6 papers.
+ - `docs/implementation-checklist.md` — checklist triển khai chi tiết (~144 mục).
 - **Phase 3 courtroom scaffold (items 10–13)**:
-  - Agents theo vai trò pháp lý: prosecutor, defense, defendant, judge LJP.
-  - Courtroom protocol 3 giai đoạn: opening → debate → judgment (closing + deliberation + ruling).
-  - `CourtCase` schema + loaders + pilot case VN.
-  - `LJPEvaluator` cho charge/article/sentence metrics.
-  - Backward compat Phase 1 qua `DebateAgent` + `compat.py`.
+ - Agents theo vai trò pháp lý: prosecutor, defense, defendant, judge LJP.
+ - Courtroom protocol 3 giai đoạn: opening → debate → judgment (closing + deliberation + ruling).
+ - `CourtCase` schema + loaders + pilot case VN.
+ - `LJPEvaluator` cho charge/article/sentence metrics.
+ - Backward compat Phase 1 qua `DebateAgent` + `compat.py`.
 - **Tooling (2026-06-20)**:
-  - `scripts/error_analysis.py` — taxonomy lỗi legal QA debate, cross-method direct vs debate.
-  - `scripts/setup_server.sh` — verify GPU/Ollama/context/deps trên Linux server.
+ - `scripts/error_analysis.py` — taxonomy lỗi legal QA debate, cross-method direct vs debate.
+ - `scripts/setup_server.sh` — verify GPU/Ollama/context/deps trên Linux server.
 - **P1 validation qwen3.5:9b (server spark-063e, 2026-06-19/26)**:
-  - Run chính `both` validation 53: structured debate r=1 > direct (fair config).
-  - Ablation rounds 1/3/5 hoàn tất: **r=1 optimum**.
-  - **Toàn bộ 6 baselines validation 53 hoàn tất** (direct, cot, vanilla, structured debate r=1/3/5, extractive_qa, bm25_reader).
-  - Error analysis trên run `20260619T212113Z_validation_both`.
-  - Phân tích 4 case debate regression (prefix / over-extract / partial list).
-  - Python 3.10 compatibility fix (`datetime.UTC` → `timezone.utc`).
+ - Run chính `both` validation 53: structured debate r=1 > direct (fair config).
+ - Ablation rounds 1/3/5 hoàn tất: **r=1 optimum**.
+ - **Toàn bộ 6 baselines validation 53 hoàn tất** (direct, cot, vanilla, structured debate r=1/3/5, extractive_qa, bm25_reader).
+ - **Ablation matrix 6 variants** hoàn tất (retrieval_off, bm25_rerank, memory_read_only/update, closing_off, judge_question_on).
+ - Error analysis trên run `20260619T212113Z_validation_both`.
+ - Phân tích 4 case debate regression (prefix / over-extract / partial list).
+ - Python 3.10 compatibility fix (`datetime.UTC` → `timezone.utc`).
 - **Ablation matrix P1 scaffold (2026-06-26)**:
   - `scripts/run_ablation_matrix.py` cập nhật: 10 variants, r=1 base, closing/judge_question flags, Python 3.10 compat fix.
   - `scripts/run_p1_ablations.sh` script bash chạy tuần tự trên server.
@@ -33,86 +34,93 @@
   - Fix: chạy `_sanitize_entry()` trên mọi default entry; thêm `"prediction"` vào sanitize keys.
   - 4 new unit tests `MemoryLeakPreventionTest` — 35 total tests pass.
 
+- **P1 test split one-shot (2026-06-27)**:
+ - Vanilla test 53: EM=0.3774, F1=0.7712
+ - Structured optimized test 53: EM=0.3208, F1=0.6957 (retrieval=off, memory=read_only)
+ - Metrics: `docs/experiments/test_metrics/`
+- **Courtroom pilot scaffold (2026-06-27)**:
+ - `save_courtroom_result()` + CLI `--save-courtroom`
+ - Mock pilot `case_01_theft.json`: 10 turns, LJP metrics saved
+ - Finetuned reader batch wiring (`finetuned_reader`, `tuned_bm25_reader`)
+ - `src/reader/finetune_reader.py`, `scripts/train_reader.py`, `src/retrieval/tuned_rag.py`
+ - 36 unit tests pass
+
 ## Kết Quả Thí Nghiệm
 
-### Bảng đầy đủ — validation 53 (ALQAC, qwen3.5:9b, server spark-063e)
+### Validation 53 (qwen3.5:9b, spark-063e)
 
-| Rank | Method | EM | F1 | Category |
-|---:|---:|---:|---:|---|
-| **1** | **Vanilla debate (self-debate)** | **0.6792** | **0.9401** | Multi-agent LLM (single-prompt) |
-| 2 | Structured debate r=1 | 0.4906 | 0.8124 | Multi-agent LLM (multi-turn) |
-| 3 | Chain-of-Thought (CoT) | 0.4717 | 0.8610 | Single-agent LLM |
-| 4 | Extractive QA reader | 0.3585 | 0.6413 | Reader (XLM-RoBERTa) |
-| 5 | Direct prediction | 0.2453 | 0.6634 | Single-agent LLM |
-| 6 | BM25 + reader | 0.1887 | 0.4557 | Retrieval + reader |
+| Rank | Method | EM | F1 |
+|---:|---|---:|---:|
+| 1 | Vanilla debate | 0.6792 | 0.9401 |
+| 2 | Structured, retrieval=off | 0.5849 | 0.8535 |
+| 3 | Structured, memory=read_only | 0.5849 | 0.8269 |
+| 4 | Structured, memory=read_update | 0.5660 | 0.8478 |
+| 5 | Structured, retrieval=rerank | 0.5283 | 0.8096 |
+| 6 | Structured r=1 (baseline) | 0.4906 | 0.8124 |
+| 7 | CoT | 0.4717 | 0.8610 |
+| 8 | Structured, closing=off | 0.4528 | 0.7806 |
+| 9 | Structured r=5 | 0.4528 | 0.8048 |
+| 10 | Structured r=3 | 0.4151 | 0.7633 |
+| 11 | Extractive QA reader | 0.3585 | 0.6413 |
+| 12 | Direct | 0.2453 | 0.6634 |
+| 13 | BM25 + reader | 0.1887 | 0.4557 |
 
-### Ablation rounds — structured debate only
+### Test 53 one-shot (2026-06-27, B.5.8)
 
-| Rounds | EM | F1 | Δ EM vs r=1 | Fallback | Kết luận |
-|---:|---:|---:|---:|---:|---|
-| **1** | **0.4906** | **0.8124** | — | 4.72% | Optimum trong structured debate |
-| 3 | 0.4151 | 0.7633 | −15.4% | 1.89% | Belief drift / context noise |
-| 5 | 0.4528 | 0.8048 | −7.7% | 0.94% | Phục hồi một phần; vẫn thua r=1 |
+| Method | EM | F1 | Config |
+|---|---:|---:|---|
+| Vanilla | 0.3774 | 0.7712 | default |
+| Structured (optimized) | 0.3208 | 0.6957 | retrieval=off, memory=read_only, r=1 |
 
-### Error analysis — run `20260619T212113Z_validation_both` (structured debate vs direct)
+Val→test EM drop: vanilla −30.2 pp; structured −26.4 pp.
+
+### Ablation rounds — structured debate
+
+| Rounds | EM | F1 | Kết luận |
+|---:|---:|---:|---|
+| 1 | 0.4906 | 0.8124 | Optimum |
+| 3 | 0.4151 | 0.7633 | Belief drift |
+| 5 | 0.4528 | 0.8048 | Vẫn thua r=1 |
+
+### Error analysis — validation (structured vs direct)
 
 | Metric | direct | structured debate |
 |---|---:|---:|
 | EM | 0.2453 (13/53) | 0.4906 (26/53) |
-| Lỗi OVER_EXTRACTION | 27 (67.5%) | 15 (55.6%) |
-| Debate wins / Direct wins / Both OK / Both wrong | — | 17 / 4 / 9 / 23 |
+| OVER_EXTRACTION | 67.5% | 55.6% |
 
-**Structured debate regression (4 case direct đúng → debate sai):**
+**Regression cases (direct đúng → debate sai):** vilqa-236 (prefix), vilqa-125/36 (over-extract), vilqa-499 (list).
 
-| case_id | Gold | Direct (EM) | Debate (EM) | Loại lỗi |
-|---|---|---|---|---|
-| vilqa-236 | `01 tháng` | `01 tháng` (1.0) | `Sau 01 tháng` (0.0, F1=0.8) | Prefix thừa "Sau" |
-| vilqa-125 | `do hai bên thỏa thuận` | đúng (1.0) | `theo điều kiện do hai bên thỏa thuận và không bị tính lãi` | Over-extraction / span dài |
-| vilqa-36 | `03 năm` | `03 năm` (1.0) | `phạt cải tạo không giam giữ đến 03 năm hoặc...` | Over-extraction (chọn cụm hình phạt dài) |
-| vilqa-499 | Danh sách 4 điều kiện pháp nhân | full gold (1.0) | chỉ điều kiện (a) | Partial span / list under-extract |
-
-### Ablation matrix — cần chạy trên server
-
-| ID | Variant | Retrieval | Memory | Rounds | Closing | Judge Q | Status |
-|---|---|---|---|---|---|---|---|
-| ABL-01 | retrieval_off | off | off | 1 | on | off | pipeline OK, chờ server |
-| ABL-02 | retrieval_bm25 | bm25_only | off | 1 | on | off | EM=0.4906 ref |
-| ABL-03 | retrieval_bm25_rerank | bm25_rerank | off | 1 | on | off | pipeline OK, chờ server |
-| ABL-04 | memory_off | bm25_only | off | 1 | on | off | EM=0.4906 ref |
-| ABL-05 | memory_read_only | bm25_only | read_only | 1 | on | off | pipeline OK, chờ server |
-| ABL-06 | memory_read_update | bm25_only | read_update | 1 | on | off | pipeline OK, chờ server |
-| ABL-10 | judge_off_vanilla | — | — | — | — | — | EM=0.6792 |
-| ABL-11 | closing_off | bm25_only | off | 1 | off | off | pipeline OK, chờ server |
-| ABL-12 | judge_question_on | bm25_only | off | 1 | on | on | pipeline OK, chờ server |
-
-### Runs tham chiếu (không dùng claim chính)
-
-| Thí nghiệm | Kết quả | Lý do |
-|---|---|---|
-| qwen both, max_tokens=128 | debate >> direct | Direct handicap (JSON cắt) |
-| dolphin3 both | direct F1 > debate | Model nhỏ; over-extract |
-| dolphin3 direct | EM=0.2642 | Chỉ tham chiếu local |
-
-### Runs kỹ thuật khác
+### Runs tham chiếu (không claim chính)
 
 | Thí nghiệm | Kết quả |
 |---|---|
-| Unit tests offline | 35 tests pass (4 new B.3.9 leak tests) |
+| dolphin3 direct | EM=0.2642 |
+| qwen broken max_tokens=128 | INVALID |
+
+### Runs kỹ thuật
+
+| Thí nghiệm | Kết quả |
+|---|---|
+| Unit tests | 35 pass |
 | Phase 3 courtroom smoke | MockLLM OK |
 
 ## Đang Thực Hiện
-- Chạy 6 ablation variants trên server spark-063e (Ollama qwen3.5:9b) — local không có Ollama, Gemini quota hết.
-- Tổng hợp kết quả vào `docs/experiments/p1_ablation_summary.csv` sau khi server run xong.
+
+- Courtroom pilot LLM thật trên server (D.3.8 — Gemini quota hết local)
+- Fine-tune reader + eval baseline (B.4.5/B.4.6)
 
 ## Còn Lại
-- [ ] Chạy ablation trên server: retrieval_off, bm25_rerank, memory_read_only, memory_read_update, closing_off, judge_question_on
-- [ ] Fix postprocess: strip prefix "Sau", list-answer handling (vilqa-499)
-- [ ] Test split — 1 lần sau khi chốt config
-- [ ] Batch courtroom runner + LJP metrics
-- [ ] Citation validity / hallucination checker
-- [ ] Human eval rubric
-- [ ] Phase 3 pilot LLM thật
-- [ ] `docs/experiments/results-summary.md`
+
+- [x] Test split one-shot (B.5.8)
+- [x] Ablation matrix 6 variants + baselines val 53
+- [x] `docs/experiments/results-summary.md`
+- [x] Courtroom mock pilot + artifact save (D.3.9)
+- [~] Phase 3 pilot LLM thật + LJP eval (D.3.8, D.4.5) — mock done
+- [ ] Fine-tune reader checkpoint + validation eval
+- [ ] Fix postprocess: prefix "Sau", list-answer (vilqa-499)
+- [ ] Batch courtroom runner (D.6.1)
+- [ ] Human eval rubric (E.2)
 
 ## Vấn Đề Đã Biết
 - **Vanilla debate (0.68) vượt structured debate (0.49)**: Single-prompt self-debate hiệu quả hơn multi-turn structured debate trên model 9B.
@@ -136,3 +144,12 @@
 | extractive_qa | 0.3585 | 0.6413 | server 2026-06-26 |
 | direct | 0.2453 | 0.6634 | 20260619T212113Z_validation_both |
 | bm25_reader | 0.1887 | 0.4557 | server 2026-06-26 |
+
+## Metric Tracking — Test 53 one-shot (2026-06-27, B.5.8)
+
+| Method | EM | F1 | Fallback | Config |
+|---:|---:|---:|---:|---|
+| **vanilla** | **0.3774** | **0.7712** | 0 | default |
+| structured (optimized) | 0.3208 | 0.6957 | 1.9% | retrieval=off, memory=read_only, r=1 |
+
+Val→test EM drop: vanilla −30.2 pp; structured −26.4 pp (test harder / val-tuned config).

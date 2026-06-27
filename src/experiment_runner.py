@@ -22,6 +22,8 @@ from src.baselines import (
     cot_llm_prediction,
     direct_llm_prediction,
     extractive_qa_prediction,
+    finetuned_reader_prediction,
+    tuned_bm25_reader_prediction,
     vanilla_debate_prediction,
 )
 from src.evaluation.evaluator import ViLQAEvaluator
@@ -48,6 +50,8 @@ MethodName = Literal[
     "all",
     "extractive_qa",
     "bm25_reader",
+    "finetuned_reader",
+    "tuned_bm25_reader",
 ]
 
 
@@ -95,6 +99,10 @@ class BatchRunConfig:
     max_evidence_chars: int | None = None
     max_history_turns: int | None = None
     max_history_chars: int | None = None
+    finetuned_reader_path: str = "checkpoints/legal_qa_reader/best_model"
+    reader_max_seq_length: int = 384
+    reader_doc_stride: int = 128
+    reader_max_answer_length: int = 50
 
 
 def select_split(
@@ -162,6 +170,10 @@ class BaselineBatchRunner:
                 records.append(self._run_extractive_qa(case, config))
             if "bm25_reader" in methods:
                 records.append(self._run_bm25_reader(case, config))
+            if "finetuned_reader" in methods:
+                records.append(self._run_finetuned_reader(case, config))
+            if "tuned_bm25_reader" in methods:
+                records.append(self._run_tuned_bm25_reader(case, config))
 
         self._save_predictions(records, run_dir / "predictions.csv")
         self._save_metrics(records, run_dir / "metrics.json", config)
@@ -354,6 +366,59 @@ class BaselineBatchRunner:
             f1=evaluation.f1 or 0.0,
         )
 
+    def _run_finetuned_reader(
+        self,
+        case: CaseProfile,
+        config: BatchRunConfig,
+    ) -> PredictionRecord:
+        predicted_answer = finetuned_reader_prediction(
+            case,
+            model_path=config.finetuned_reader_path,
+            max_seq_length=config.reader_max_seq_length,
+            doc_stride=config.reader_doc_stride,
+            max_answer_length=config.reader_max_answer_length,
+        )
+        evaluation = self.evaluator.evaluate_answer(case, predicted_answer)
+        return PredictionRecord(
+            case_id=case.case_id,
+            split=config.split_name,
+            method="finetuned_reader",
+            question=case.question,
+            gold_answer=case.answer or "",
+            predicted_answer=predicted_answer,
+            exact_match=evaluation.exact_match or 0.0,
+            f1=evaluation.f1 or 0.0,
+        )
+
+    def _run_tuned_bm25_reader(
+        self,
+        case: CaseProfile,
+        config: BatchRunConfig,
+    ) -> PredictionRecord:
+        retrieved = self.retriever.retrieve(
+            case.retrieval_query,
+            top_k=config.evidence_top_k,
+        )
+        predicted_answer = tuned_bm25_reader_prediction(
+            case,
+            [document.text for document in retrieved],
+            model_path=config.finetuned_reader_path,
+            max_seq_length=config.reader_max_seq_length,
+            doc_stride=config.reader_doc_stride,
+            max_answer_length=config.reader_max_answer_length,
+        )
+        evaluation = self.evaluator.evaluate_answer(case, predicted_answer)
+        return PredictionRecord(
+            case_id=case.case_id,
+            split=config.split_name,
+            method="tuned_bm25_reader",
+            question=case.question,
+            gold_answer=case.answer or "",
+            predicted_answer=predicted_answer,
+            exact_match=evaluation.exact_match or 0.0,
+            f1=evaluation.f1 or 0.0,
+        )
+
     @staticmethod
     def _expand_methods(method: MethodName) -> list[str]:
         if method == "both":
@@ -366,6 +431,8 @@ class BaselineBatchRunner:
                 "debate",
                 "extractive_qa",
                 "bm25_reader",
+                "finetuned_reader",
+                "tuned_bm25_reader",
             ]
         return [method]
 
@@ -596,6 +663,11 @@ class BaselineBatchRunner:
                     "retriever": "lightweight_bm25",
                     "reader": config.extractive_qa_model,
                 },
+                "finetuned_reader": {"model": config.finetuned_reader_path},
+                "tuned_bm25_reader": {
+                    "retriever": "lightweight_bm25",
+                    "reader": config.finetuned_reader_path,
+                },
             }
 
         role_configs = self._role_configs(config)
@@ -612,6 +684,11 @@ class BaselineBatchRunner:
             "bm25_reader": {
                 "retriever": "lightweight_bm25",
                 "reader": config.extractive_qa_model,
+            },
+            "finetuned_reader": {"model": config.finetuned_reader_path},
+            "tuned_bm25_reader": {
+                "retriever": "lightweight_bm25",
+                "reader": config.finetuned_reader_path,
             },
         }
 
@@ -697,5 +774,9 @@ class BaselineBatchRunner:
             "enable_judge_question": config.enable_judge_question,
             "early_stop_confidence": config.early_stop_confidence,
             "enable_llm_evaluator": config.enable_llm_evaluator,
+            "finetuned_reader_path": config.finetuned_reader_path,
+            "reader_max_seq_length": config.reader_max_seq_length,
+            "reader_doc_stride": config.reader_doc_stride,
+            "reader_max_answer_length": config.reader_max_answer_length,
         }
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

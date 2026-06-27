@@ -1,13 +1,12 @@
-variant,method,retrieval,memory,rounds,judge,closing,judge_question,roles,exact_match,f1,fallback_rate,metrics_path
-retrieval_off,debate,off,off,1,on,True,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\retrieval_off\20260626T072446Z_validation_debate\metrics.json
-memory_read_only,debate,bm25_only,read_only,1,on,True,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\memory_read_only\20260626T072449Z_validation_debate\metrics.json
-memory_read_update,debate,bm25_only,read_update,1,on,True,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\memory_read_update\20260626T072451Z_validation_debate\metrics.json
-closing_off,debate,bm25_only,off,1,on,False,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\closing_off\20260626T072454Z_validation_debate\metrics.json
-judge_question_on,debate,bm25_only,off,1,on,True,True,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\judge_question_on\20260626T072456Z_validation_debate\metrics.json
-retrieval_bm25_rerank,debate,bm25_rerank,off,1,on,True,False,proponent-opponent,0.0,0.0,0.0,outputs\p1_ablation_matrix\20260626T072444Z\retrieval_bm25_rerank\20260626T072459Z_validation_debate\metrics.json
-20260626T104936Z,retrieval_off,debate,off,off,1,on,True,False,proponent-opponent,0.5849056603773585,0.8535462064910584,0.018867924528301886,outputs/p1_ablation_matrix/20260626T104936Z/retrieval_off/20260626T104937Z_validation_debate/metrics.json
-20260626T104936Z,retrieval_bm25_rerank,debate,bm25_rerank,off,1,on,True,False,proponent-opponent,0.5283018867924528,0.809612514790223,0.018867924528301886,outputs/p1_ablation_matrix/20260626T104936Z/retrieval_bm25_rerank/20260626T112159Z_validation_debate/metrics.json
-20260626T104936Z,memory_read_only,debate,bm25_only,read_only,1,on,True,False,proponent-opponent,0.5849056603773585,0.8268581356755914,0.05660377358490566,outputs/p1_ablation_matrix/20260626T104936Z/memory_read_only/20260626T125214Z_validation_debate/metrics.json
-20260626T104936Z,memory_read_update,debate,bm25_only,read_update,1,on,True,False,proponent-opponent,0.5660377358490566,0.847838265351595,0.03773584905660377,outputs/p1_ablation_matrix/20260626T104936Z/memory_read_update/20260626T133203Z_validation_debate/metrics.json
-20260626T104936Z,closing_off,debate,bm25_only,off,1,on,False,False,proponent-opponent,0.4528301886792453,0.7805559164632201,0.03773584905660377,outputs/p1_ablation_matrix/20260626T104936Z/closing_off/20260626T142529Z_validation_debate/metrics.json
-20260626T104936Z,judge_question_on,debate,bm25_only,off,1,on,True,True,proponent-opponent,0.4528301886792453,0.8135703161087375,0.02830188679245283,outputs/p1_ablation_matrix/20260626T104936Z/judge_question_on/20260626T145108Z_validation_debate/metrics.json
+run_id,variant,method,split,retrieval,memory,exact_match,f1,fallback_rate,metrics_path,notes
+20260626T104936Z,retrieval_off,debate,validation,off,off,0.5849,0.8535,0.0189,outputs/p1_ablation_matrix/20260626T104936Z/retrieval_off,server qwen val 53
+20260626T104936Z,retrieval_bm25_rerank,debate,validation,bm25_rerank,off,0.5283,0.8096,0.0189,outputs/p1_ablation_matrix/20260626T104936Z/retrieval_bm25_rerank,server qwen val 53
+20260626T104936Z,memory_read_only,debate,validation,bm25_only,read_only,0.5849,0.8269,0.0566,outputs/p1_ablation_matrix/20260626T104936Z/memory_read_only,server qwen val 53
+20260626T104936Z,memory_read_update,debate,validation,bm25_only,read_update,0.5660,0.8478,0.0377,outputs/p1_ablation_matrix/20260626T104936Z/memory_read_update,server qwen val 53
+20260626T104936Z,closing_off,debate,validation,bm25_only,off,0.4528,0.7806,0.0377,outputs/p1_ablation_matrix/20260626T104936Z/closing_off,server qwen val 53
+20260626T104936Z,judge_question_on,debate,validation,bm25_only,off,0.4528,0.8136,0.0283,outputs/p1_ablation_matrix/20260626T104936Z/judge_question_on,server qwen val 53
+20260627,vanilla_test,vanilla,test,bm25_only,off,0.3774,0.7712,0,docs/experiments/test_metrics/vanilla_test_metrics.json,B.5.8 one-shot
+20260627,debate_optimized_test,debate,test,off,read_only,0.3208,0.6957,0.0189,docs/experiments/test_metrics/debate_optimized_test_metrics.json,B.5.8 one-shot
+
+# Full history including baselines: docs/experiments/p1_ablation_summary.csv
+# Mock smoke runs (20260626T072444Z, EM=0) excluded — not valid metrics

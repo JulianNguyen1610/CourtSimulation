@@ -1,0 +1,530 @@
+{
+  "case": {
+    "case_id": "vn-theft-001",
+    "case_type": "courtroom_ljp",
+    "facts": "Vao ngay 12/03/2025, bi cao Nguyen Van A (sinh nam 1998) duoc camera an ninh ghi nhan lay cap dien thoai iPhone 14 tri gia khoang 22.000.000 VND tai quan cafe XYZ, 45 Nguyen Hue, Quan 1, TP.HCM. Nhan vien quan phat hien va truy duoi, bat giu bi cao tai hien truong cung voi chiec dien thoai. Bi cao khai nhan hanh vi nhung cho rang khong co y dinh chiem doat lau dai vi dinh tra lai sau khi su dung thu. Bi cao co tien an tien su ve trom cap tai san nhung da duoc an treo 2 nam truoc do.",
+    "evidence": [
+      {
+        "evidence_id": "cam-001",
+        "text": "Camera an ninh cho thay bi cao cam dien thoai tren ban va di ra ngoai ma khong thanh toan.",
+        "source_type": "video",
+        "metadata": {}
+      },
+      {
+        "evidence_id": "witness-001",
+        "text": "Nhan vien quan cafe xac nhan chiec dien thoai thuoc khach va bi cao khong duoc phep lay.",
+        "source_type": "testimony",
+        "metadata": {}
+      },
+      {
+        "evidence_id": "item-001",
+        "text": "Can bo thu giu chiec iPhone 14 tai hien truong, serial trung khop voi don trinh bao.",
+        "source_type": "physical",
+        "metadata": {}
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Nguyen Van A",
+        "text": "Toi lay dien thoai vi tuong do la do ban toi de quen, nhung sau do bi bat nen khong kip tra lai.",
+        "role": "defendant",
+        "metadata": {}
+      }
+    ],
+    "ground_truth": {
+      "charge": "Trom cap tai san",
+      "articles": [
+        "Dieu 173 BLHS 2015"
+      ],
+      "sentence": "12 thang tu, hoan thi hanh 24 thang",
+      "reasoning": "Hanh vi lay cap tai san co gia tri lon, du dieu kien cau thanh toi trom cap tai san; co tinh tiet giam nhe do nhan toi va thu hoi duoc tai san."
+    },
+    "metadata": {
+      "jurisdiction": "Vietnam",
+      "language": "vi",
+      "pilot": true
+    }
+  },
+  "result": {
+    "case_id": "vn-theft-001",
+    "legal_evidence": [
+      {
+        "doc_id": "vilqa-387-context",
+        "text": "Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị ở trung ương và địa phương\n\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\n\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ, mạng máy tính có kết nối mạng Internet; phương án bảo đảm an ninh mạng đối với hệ thống thông tin; phương án ứng phó, khắc phục sự cố an ninh mạng;\n\nb) Ứng dụng, triển khai phương án, biện pháp, công nghệ bảo vệ an ninh mạng đối với hệ thống thông tin và thông tin, tài liệu được lưu trữ, soạn thảo, truyền đưa trên hệ thống thông tin thuộc phạm vi quản lý;\n\nc) Tổ chức bồi dưỡng kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động; nâng cao năng lực bảo vệ an ninh mạng cho lực lượng bảo vệ an ninh mạng;\n\nd) Bảo vệ an ninh mạng trong hoạt động cung cấp dịch vụ công trên không gian mạng, cung cấp, trao đổi, thu thập thông tin với cơ quan, tổ chức, cá nhân, chia sẻ thông tin trong nội bộ và với cơ quan khác hoặc trong hoạt động khác theo quy định của Chính phủ;\n\nđ) Đầu tư, xây dựng hạ tầng cơ sở vật chất phù hợp với điều kiện bảo đảm triển khai hoạt động bảo vệ an ninh mạng đối với hệ thống thông tin;\n\ne) Kiểm tra an ninh mạng đối với hệ thống thông tin; phòng, chống hành vi vi phạm pháp luật về an ninh mạng; ứng phó, khắc phục sự cố an ninh mạng.\n\n2. Người đứng đầu cơ quan, tổ chức có trách nhiệm triển khai hoạt động bảo vệ an ninh mạng thuộc quyền quản lý.",
+        "source": "vilqa_context",
+        "score": 64.26729625615688,
+        "metadata": {
+          "case_id": "vilqa-387",
+          "question": "Để đảm bảo an ninh mạng, cần phải có vấn đề gì đối với hệ thống thông tin ?",
+          "row_index": 387,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-389-context",
+        "text": "Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị ở trung ương và địa phương\n\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\n\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ, mạng máy tính có kết nối mạng Internet; phương án bảo đảm an ninh mạng đối với hệ thống thông tin; phương án ứng phó, khắc phục sự cố an ninh mạng;\n\nb) Ứng dụng, triển khai phương án, biện pháp, công nghệ bảo vệ an ninh mạng đối với hệ thống thông tin và thông tin, tài liệu được lưu trữ, soạn thảo, truyền đưa trên hệ thống thông tin thuộc phạm vi quản lý;\n\nc) Tổ chức bồi dưỡng kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động; nâng cao năng lực bảo vệ an ninh mạng cho lực lượng bảo vệ an ninh mạng;\n\nd) Bảo vệ an ninh mạng trong hoạt động cung cấp dịch vụ công trên không gian mạng, cung cấp, trao đổi, thu thập thông tin với cơ quan, tổ chức, cá nhân, chia sẻ thông tin trong nội bộ và với cơ quan khác hoặc trong hoạt động khác theo quy định của Chính phủ;\n\nđ) Đầu tư, xây dựng hạ tầng cơ sở vật chất phù hợp với điều kiện bảo đảm triển khai hoạt động bảo vệ an ninh mạng đối với hệ thống thông tin;\n\ne) Kiểm tra an ninh mạng đối với hệ thống thông tin; phòng, chống hành vi vi phạm pháp luật về an ninh mạng; ứng phó, khắc phục sự cố an ninh mạng.\n\n2. Người đứng đầu cơ quan, tổ chức có trách nhiệm triển khai hoạt động bảo vệ an ninh mạng thuộc quyền quản lý.",
+        "source": "vilqa_context",
+        "score": 64.26729625615688,
+        "metadata": {
+          "case_id": "vilqa-389",
+          "question": "Làm thế nào để nâng cao năng lực bảo vệ an ninh mạng cho người lao động?",
+          "row_index": 389,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-399-context",
+        "text": "Nâng cao năng lực tự chủ về an ninh mạng\n\n1. Nhà nước khuyến khích, tạo điều kiện để cơ quan, tổ chức, cá nhân nâng cao năng lực tự chủ về an ninh mạng và nâng cao khả năng sản xuất, kiểm tra, đánh giá, kiểm định thiết bị số, dịch vụ mạng, ứng dụng mạng.\n\n2. Chính phủ thực hiện các biện pháp sau đây để nâng cao năng lực tự chủ về an ninh mạng cho cơ quan, tổ chức, cá nhân:\n\na) Thúc đẩy chuyển giao, nghiên cứu, làm chủ và phát triển công nghệ, sản phẩm, dịch vụ, ứng dụng để bảo vệ an ninh mạng;\n\nb) Thúc đẩy ứng dụng công nghệ mới, công nghệ tiên tiến liên quan đến an ninh mạng;\n\nc) Tổ chức đào tạo, phát triển và sử dụng nhân lực an ninh mạng;\n\nd) Tăng cường môi trường kinh doanh, cải thiện điều kiện cạnh tranh hỗ trợ doanh nghiệp nghiên cứu, sản xuất sản phẩm, dịch vụ, ứng dụng để bảo vệ an ninh mạng.",
+        "source": "vilqa_context",
+        "score": 63.590769436542935,
+        "metadata": {
+          "case_id": "vilqa-399",
+          "question": "chúng ta cần sử dụng những ứng dụng nào để tăng cường năng lực tự chủ về an ninh mạng?",
+          "row_index": 399,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-428-context",
+        "text": "Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n1. Kiểm tra an ninh mạng là hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.\n\n2. Kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được thực hiện trong trường hợp sau đây:\n\na) Khi đưa phương tiện điện tử, dịch vụ an toàn thông tin mạng vào sử dụng trong hệ thống thông tin;\n\nb) Khi có thay đổi hiện trạng hệ thống thông tin;\n\nc) Kiểm tra định kỳ hằng năm;\n\nd) Kiểm tra đột xuất khi xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; khi có yêu cầu quản lý nhà nước về an ninh mạng; khi hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng.\n\n3. Đối tượng kiểm tra an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\n\na) Hệ thống phần cứng, phần mềm, thiết bị số được sử dụng trong hệ thống thông tin;\n\nb) Quy định, biện pháp bảo vệ an ninh mạng;\n\nc) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\n\nd) Phương án ứng phó, khắc phục sự cố an ninh mạng của chủ quản hệ thống thông tin;\n\nđ) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật;\n\ne) Nhân lực bảo vệ an ninh mạng.\n\n4. Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm kiểm tra an ninh mạng đối với hệ thống thông tin thuộc phạm vi quản lý trong trường hợp quy định tại các điểm a, b và c khoản 2 Điều này; thông báo kết quả kiểm tra bằng văn bản trước tháng 10 hằng năm cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng đối với hệ thống thông tin quân sự.\n\n5. Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;\n\nb) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;\n\nc) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ hệ thống thông tin quân sự do Bộ Quốc phòng quản lý, hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước.\n\nLực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quân sự.\n\nBan Cơ yếu Chính phủ kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ và sản phẩm mật mã do Ban Cơ yếu Chính phủ cung cấp để bảo vệ thông tin thuộc bí mật nhà nước;\n\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.",
+        "source": "vilqa_context",
+        "score": 62.63269790212905,
+        "metadata": {
+          "case_id": "vilqa-428",
+          "question": "Kết quả kiểm tra an ninh mạng được bảo mật hay công khai?",
+          "row_index": 428,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      },
+      {
+        "doc_id": "vilqa-396-context",
+        "text": "Bảo đảm an ninh thông tin trên không gian mạng\n\n1. Trang thông tin điện tử, cổng thông tin điện tử hoặc chuyên trang trên mạng xã hội của cơ quan, tổ chức, cá nhân không được cung cấp, đăng tải, truyền đưa thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này và thông tin khác có nội dung xâm phạm an ninh quốc gia.\n\n2. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;\n\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này trên dịch vụ hoặc hệ thống thông tin do cơ quan, tổ chức trực tiếp quản lý chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông và lưu nhật ký hệ thống để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của Chính phủ;\n\nc) Không cung cấp hoặc ngừng cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng cho tổ chức, cá nhân đăng tải trên không gian mạng thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông.\n\n3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá nhân, dữ liệu về mối quan hệ của người sử dụng dịch vụ, dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ.\n\nDoanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc văn phòng đại diện tại Việt Nam.\n\n4. Chính phủ quy định chi tiết khoản 3 Điều này.",
+        "source": "vilqa_context",
+        "score": 62.38972780065579,
+        "metadata": {
+          "case_id": "vilqa-396",
+          "question": "Trong khoảng thời gian bao lâu thì cần phải ngăn chặn việc chia sẻ, xóa bỏ thông tin  thông tin kể từ lúc có yêu cầu của lực lượng chuyên trách.",
+          "row_index": 396,
+          "article_id": null,
+          "law_name": null,
+          "source_type": "alqac_context"
+        }
+      }
+    ],
+    "memory_context": {
+      "regulations": [],
+      "experiences": [
+        {
+          "id": "exp-vilqa-112-0",
+          "case_id": "vilqa-112",
+          "source_type": "debate_experience",
+          "rounds": 1,
+          "strategy": "proponent/opponent debate with judge belief tracking",
+          "confidence": 55.0,
+          "text": "[mock-b5a1519c] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-e310aee4] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-44fcb67c] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-184a29f6] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-9921a9b5] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất."
+        },
+        {
+          "id": "exp-vilqa-285-1",
+          "case_id": "vilqa-285",
+          "source_type": "debate_experience",
+          "rounds": 1,
+          "strategy": "proponent/opponent debate with judge belief tracking",
+          "confidence": 55.0,
+          "text": "[mock-260e6041] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-28f42eac] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-24cbc04d] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-afb6dead] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-dd48541e] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất."
+        },
+        {
+          "id": "exp-vilqa-112-2",
+          "case_id": "vilqa-112",
+          "source_type": "debate_experience",
+          "rounds": 1,
+          "strategy": "proponent/opponent debate with judge belief tracking",
+          "confidence": 55.0,
+          "text": "[mock-e70361ad] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-e8bc15da] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất."
+        },
+        {
+          "id": "exp-vilqa-285-3",
+          "case_id": "vilqa-285",
+          "source_type": "debate_experience",
+          "rounds": 1,
+          "strategy": "proponent/opponent debate with judge belief tracking",
+          "confidence": 55.0,
+          "text": "[mock-b40e685b] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất. [mock-7adfdb5b] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất."
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-vilqa-112-0",
+          "case_id": "vilqa-112",
+          "source_type": "similar_qa_case",
+          "case_type": "legal_qa",
+          "question": "Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?",
+          "context_excerpt": "Người quản lý di sản\n\n1. Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\n2. Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì [REDACTED_ANSWER] tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\n3. Trường hợp chưa xác định được người thừa kế và di sản chưa có người quản lý theo quy định tại khoản 1 và khoản 2",
+          "keywords": [
+            "ai",
+            "là",
+            "người",
+            "quản",
+            "lý",
+            "di",
+            "sản",
+            "khi",
+            "di",
+            "chúc"
+          ],
+          "text": "Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản? Người quản lý di sản\n\n1. Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\n2. Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì [REDACTED_ANSWER] tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\n3. Trường hợp chưa xác định được người thừa kế và di sản chưa có người quản lý theo quy định tại khoản 1 và khoản 2"
+        },
+        {
+          "id": "case-vilqa-112-2",
+          "case_id": "vilqa-112",
+          "source_type": "similar_qa_case",
+          "case_type": "legal_qa",
+          "question": "Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?",
+          "context_excerpt": "Người quản lý di sản\n\n1. Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\n2. Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì [REDACTED_ANSWER] tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\n3. Trường hợp chưa xác định được người thừa kế và di sản chưa có người quản lý theo quy định tại khoản 1 và khoản 2",
+          "keywords": [
+            "ai",
+            "là",
+            "người",
+            "quản",
+            "lý",
+            "di",
+            "sản",
+            "khi",
+            "di",
+            "chúc"
+          ],
+          "text": "Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản? Người quản lý di sản\n\n1. Người quản lý di sản là người được chỉ định trong di chúc hoặc do những người thừa kế thỏa thuận cử ra.\n\n2. Trường hợp di chúc không chỉ định người quản lý di sản và những người thừa kế chưa cử được người quản lý di sản thì [REDACTED_ANSWER] tiếp tục quản lý di sản đó cho đến khi những người thừa kế cử được người quản lý di sản.\n\n3. Trường hợp chưa xác định được người thừa kế và di sản chưa có người quản lý theo quy định tại khoản 1 và khoản 2"
+        },
+        {
+          "id": "case-vilqa-285-1",
+          "case_id": "vilqa-285",
+          "source_type": "similar_qa_case",
+          "case_type": "legal_qa",
+          "question": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?",
+          "context_excerpt": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+          "keywords": [
+            "vô",
+            "ý",
+            "gây",
+            "thiệt",
+            "hại",
+            "cho",
+            "tài",
+            "sản",
+            "người",
+            "khác"
+          ],
+          "text": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm? Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm."
+        },
+        {
+          "id": "case-vilqa-285-3",
+          "case_id": "vilqa-285",
+          "source_type": "similar_qa_case",
+          "case_type": "legal_qa",
+          "question": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm?",
+          "context_excerpt": "Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm.",
+          "keywords": [
+            "vô",
+            "ý",
+            "gây",
+            "thiệt",
+            "hại",
+            "cho",
+            "tài",
+            "sản",
+            "người",
+            "khác"
+          ],
+          "text": "Vô ý gây thiệt hại cho tài sản người khác trị giá từ bao nhiêu đến bao nhiêu thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm? Tội vô ý gây thiệt hại nghiêm trọng đến tài sản\n\n1. Người nào vô ý gây thiệt hại cho tài sản của người khác trị giá từ [REDACTED_ANSWER], thì bị phạt cảnh cáo hoặc phạt cải tạo không giam giữ đến 02 năm.\n\n2. Phạm tội gây thiệt hại cho tài sản của người khác trị giá 500.000.000 đồng trở lên, thì bị phạt tù từ 03 tháng đến 02 năm."
+        }
+      ]
+    },
+    "transcript": [
+      {
+        "role": "judge",
+        "round_index": 0,
+        "private_strategy": "opening",
+        "public_argument": "[mock-c6c2d6cb] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [],
+        "memory_ids": []
+      },
+      {
+        "role": "prosecutor",
+        "round_index": 0,
+        "private_strategy": "[mock-2bb17311] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-fd353adc] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      },
+      {
+        "role": "defendant",
+        "round_index": 0,
+        "private_strategy": "testimony",
+        "public_argument": "[mock-138718ce] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      },
+      {
+        "role": "defense",
+        "round_index": 0,
+        "private_strategy": "opening_statement",
+        "public_argument": "[mock-25df251f] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      },
+      {
+        "role": "prosecutor",
+        "round_index": 1,
+        "private_strategy": "[mock-1f004da3] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-cd6938c0] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      },
+      {
+        "role": "defense",
+        "round_index": 1,
+        "private_strategy": "[mock-3fc2925f] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-b2f6c07b] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      },
+      {
+        "role": "prosecutor",
+        "round_index": 2,
+        "private_strategy": "[mock-aac499c8] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-97cccc39] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      },
+      {
+        "role": "defense",
+        "round_index": 2,
+        "private_strategy": "[mock-86afae13] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "public_argument": "[mock-410037b9] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      },
+      {
+        "role": "prosecutor",
+        "round_index": 0,
+        "private_strategy": "closing_statement",
+        "public_argument": "[mock-7ee68985] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      },
+      {
+        "role": "defense",
+        "round_index": 0,
+        "private_strategy": "closing_statement",
+        "public_argument": "[mock-39d119e3] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+        "evidence_ids": [
+          "vilqa-387-context",
+          "vilqa-389-context",
+          "vilqa-399-context",
+          "vilqa-428-context",
+          "vilqa-396-context"
+        ],
+        "memory_ids": [
+          "exp-vilqa-112-0",
+          "exp-vilqa-285-1",
+          "exp-vilqa-112-2",
+          "exp-vilqa-285-3",
+          "case-vilqa-112-0",
+          "case-vilqa-112-2",
+          "case-vilqa-285-1",
+          "case-vilqa-285-3"
+        ]
+      }
+    ],
+    "belief_history": [
+      {
+        "round_index": 1,
+        "prediction": "Cần đối chiếu ngữ cảnh pháp luật (4df98669)",
+        "confidence": 55.0,
+        "reasoning": "Mock judge dựa trên lập luận hai bên và chưa dùng đáp án vàng."
+      },
+      {
+        "round_index": 2,
+        "prediction": "Cần đối chiếu ngữ cảnh pháp luật (8003e27c)",
+        "confidence": 55.0,
+        "reasoning": "Mock judge dựa trên lập luận hai bên và chưa dùng đáp án vàng."
+      }
+    ],
+    "phases_completed": [
+      "opening_judge",
+      "opening_prosecutor",
+      "opening_defendant",
+      "opening_defense",
+      "debate_round_1",
+      "debate_belief_1",
+      "debate_round_2",
+      "debate_belief_2",
+      "closing",
+      "closing_prosecutor",
+      "closing_defense",
+      "deliberation",
+      "final_ruling"
+    ],
+    "deliberation": "[mock-2421925d] Lập luận dựa trên ngữ cảnh được cung cấp; cần kiểm chứng bằng điều luật và bằng chứng truy xuất.",
+    "verdict": {
+      "prediction": "Cần đối chiếu ngữ cảnh pháp luật (6ca41e1a)",
+      "answer": "Cần đối chiếu ngữ cảnh pháp luật (8003e27c)",
+      "confidence": 55.0,
+      "reasoning": "Mock judge dựa trên lập luận hai bên và chưa dùng đáp án vàng.",
+      "cited_evidence_ids": []
+    },
+    "legal_judgment": {
+      "charge": "Trom cap tai san (df120121)",
+      "articles": [
+        "Dieu 173"
+      ],
+      "sentence": "12 thang tu",
+      "reasoning": "Mock LJP verdict dua tren tranh luan.",
+      "confidence": 60.0,
+      "cited_evidence_ids": [
+        "cam-001"
+      ]
+    },
+    "evaluation": {
+      "charge_accuracy": 0.0,
+      "article_accuracy": 0.0,
+      "sentence_mae_years": 1.0,
+      "sentence_rmse_years": 1.0,
+      "sentence_bucket_accuracy": 0.0,
+      "citation_validity": 1.0,
+      "hallucination_rate": null,
+      "objectivity": null,
+      "logic_score": null,
+      "citation_score": null,
+      "notes": null
+    },
+    "created_at": "2026-06-27T08:43:44.910712+00:00"
+  }
+}

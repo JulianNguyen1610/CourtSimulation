@@ -1,0 +1,33 @@
+{
+  "split": "test",
+  "method": "debate",
+  "num_cases": 53,
+  "num_predictions": 53,
+  "models_by_method": {
+    "debate": {
+      "proponent": { "model": "qwen3.5:9b", "temperature": 0.4 },
+      "opponent": { "model": "qwen3.5:9b", "temperature": 0.4 },
+      "judge": { "model": "qwen3.5:9b", "temperature": 0.1 }
+    }
+  },
+  "ablation_settings": {
+    "retrieval": "off",
+    "memory": "read_only",
+    "rounds": 1,
+    "judge": "on",
+    "closing_statements": true,
+    "judge_question": false
+  },
+  "fallbacks": {
+    "total_fallbacks": 2,
+    "total_parse_attempts": 106,
+    "fallback_rate": 0.018867924528301886
+  },
+  "metrics_by_method": {
+    "debate": {
+      "num_predictions": 53,
+      "exact_match": 0.32075471698113206,
+      "f1": 0.6957121647460696
+    }
+  }
+}

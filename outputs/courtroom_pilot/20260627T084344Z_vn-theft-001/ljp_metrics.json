@@ -1,0 +1,13 @@
+{
+  "charge_accuracy": 0.0,
+  "article_accuracy": 0.0,
+  "sentence_mae_years": 1.0,
+  "sentence_rmse_years": 1.0,
+  "sentence_bucket_accuracy": 0.0,
+  "citation_validity": 1.0,
+  "hallucination_rate": null,
+  "objectivity": null,
+  "logic_score": null,
+  "citation_score": null,
+  "notes": null
+}
