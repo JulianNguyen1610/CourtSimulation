@@ -116,7 +116,19 @@ def build_parser() -> argparse.ArgumentParser:
 def run_training(args: argparse.Namespace) -> Path:
     """Execute the fine-tuning pipeline."""
     from src.data_loader import load_vilqa_csv, split_cases
-    from src.reader.finetune_reader import ReaderConfig, finetune_reader
+    from src.reader.finetune_reader import (
+        ReaderConfig,
+        check_reader_training_dependencies,
+        finetune_reader,
+    )
+
+    dep_versions = check_reader_training_dependencies()
+    logger.info(
+        "Verified training stack: torch=%s transformers=%s accelerate=%s",
+        dep_versions["torch"],
+        dep_versions["transformers"],
+        dep_versions["accelerate"],
+    )
 
     cases = load_vilqa_csv(args.dataset)
     split = split_cases(

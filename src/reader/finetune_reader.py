@@ -29,6 +29,71 @@ from src.models import CaseProfile
 
 logger = logging.getLogger(__name__)
 
+_MIN_ACCELERATE_VERSION = (0, 21, 0)
+
+
+def _parse_version_tuple(version: str) -> tuple[int, ...]:
+    parts: list[int] = []
+    for piece in version.split("."):
+        if not piece.isdigit():
+            break
+        parts.append(int(piece))
+    return tuple(parts)
+
+
+def check_reader_training_dependencies() -> dict[str, str]:
+    """Verify packages required for HF Trainer-based reader fine-tuning.
+
+    Returns a mapping of package name to installed version. Raises
+    ``ImportError`` with install instructions when requirements are missing.
+    """
+    versions: dict[str, str] = {}
+
+    try:
+        import torch
+    except ImportError as exc:
+        raise ImportError(
+            "Fine-tuning requires PyTorch. Install with: pip install 'torch>=2.0.0'"
+        ) from exc
+    versions["torch"] = torch.__version__
+
+    try:
+        import transformers
+    except ImportError as exc:
+        raise ImportError(
+            "Fine-tuning requires transformers. "
+            "Install with: pip install 'transformers>=4.36.0,<5.0.0'"
+        ) from exc
+    versions["transformers"] = transformers.__version__
+
+    try:
+        import accelerate
+    except ImportError as exc:
+        raise ImportError(
+            "Fine-tuning with Hugging Face Trainer requires accelerate>=0.21.0. "
+            "Install with: pip install 'accelerate>=0.21.0'"
+        ) from exc
+    versions["accelerate"] = accelerate.__version__
+    if _parse_version_tuple(accelerate.__version__) < _MIN_ACCELERATE_VERSION:
+        raise ImportError(
+            f"accelerate>={'.'.join(map(str, _MIN_ACCELERATE_VERSION))} required "
+            f"(found {accelerate.__version__}). "
+            "Upgrade with: pip install -U 'accelerate>=0.21.0'"
+        )
+
+    try:
+        import sentencepiece  # noqa: F401
+    except ImportError as exc:
+        raise ImportError(
+            "XLM-RoBERTa tokenization requires sentencepiece. "
+            "Install with: pip install 'sentencepiece>=0.1.99'"
+        ) from exc
+    import importlib.metadata
+
+    versions["sentencepiece"] = importlib.metadata.version("sentencepiece")
+
+    return versions
+
 
 @dataclass(frozen=True)
 class ReaderConfig:
@@ -323,6 +388,22 @@ def finetune_reader(
         ) from exc
 
     config = config or ReaderConfig()
+    dep_versions = check_reader_training_dependencies()
+    logger.info(
+        "Reader training deps: torch=%s, transformers=%s, accelerate=%s, sentencepiece=%s",
+        dep_versions["torch"],
+        dep_versions["transformers"],
+        dep_versions["accelerate"],
+        dep_versions["sentencepiece"],
+    )
+
+    import torch
+
+    use_fp16 = config.fp16
+    if use_fp16 and not torch.cuda.is_available():
+        logger.warning("fp16 requested but CUDA is unavailable; training in fp32.")
+        use_fp16 = False
+
     output_dir = Path(config.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -366,7 +447,7 @@ def finetune_reader(
         load_best_model_at_end=config.load_best_model_at_end,
         metric_for_best_model=config.metric_for_best_model,
         greater_is_better=config.greater_is_better,
-        fp16=config.fp16,
+        fp16=use_fp16,
         dataloader_num_workers=config.dataloader_num_workers,
         seed=config.seed,
         report_to="none",

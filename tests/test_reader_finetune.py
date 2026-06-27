@@ -9,8 +9,10 @@ from src.reader.finetune_reader import (
     LegalQADataset,
     _build_training_arguments,
     _extract_squad_answer_span,
+    _parse_version_tuple,
     _tokenize_squad_data,
     ReaderConfig,
+    check_reader_training_dependencies,
 )
 
 
@@ -76,6 +78,21 @@ class TrainingArgumentsCompatTest(unittest.TestCase):
         )
         self.assertEqual(args.eval_strategy, "epoch")
         self.assertNotIn("evaluation_strategy", args.kwargs)
+
+
+class ReaderDependencyCheckTest(unittest.TestCase):
+    def test_parse_version_tuple(self) -> None:
+        self.assertEqual(_parse_version_tuple("0.21.0"), (0, 21, 0))
+        self.assertEqual(_parse_version_tuple("4.36.2"), (4, 36, 2))
+
+    def test_check_reader_training_dependencies_reports_versions(self) -> None:
+        try:
+            versions = check_reader_training_dependencies()
+        except ImportError as exc:
+            self.skipTest(str(exc))
+        for key in ("torch", "transformers", "accelerate", "sentencepiece"):
+            self.assertIn(key, versions)
+            self.assertTrue(versions[key])
 
 
 class TokenizeSquadDataTest(unittest.TestCase):

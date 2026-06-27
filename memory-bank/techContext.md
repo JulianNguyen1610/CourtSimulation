@@ -16,15 +16,18 @@
 - **RAM**: Chưa xác nhận; cần kiểm tra trước khi chạy reader lớn.
 
 ## Dependencies Quan Trọng
-- `pandas`
-- `pydantic`
-- `pyyaml`
-- `google-genai`
-- `openai`
-- `transformers`
-- `torch`
-- `sentence-transformers`
-- `datasets`
+- `pandas`, `pydantic`, `pyyaml`, `google-genai`, `openai`
+- **Reader fine-tuning (HF Trainer):** `torch>=2.0`, `transformers>=4.36`, `accelerate>=0.21`, `datasets>=2.14`, `sentencepiece>=0.1.99`
+- **Retrieval/embeddings:** `sentence-transformers`, `datasets`
+
+### Cài reader training stack trên server
+```bash
+pip install -U pip
+pip install 'torch>=2.0.0' 'transformers>=4.36.0,<5.0.0' 'accelerate>=0.21.0' \
+  'datasets>=2.14.0' 'sentencepiece>=0.1.99'
+# hoặc: pip install -r requirements.txt
+python -c "from src.reader.finetune_reader import check_reader_training_dependencies as c; print(c())"
+```
 
 ## Ràng Buộc Kỹ Thuật
 - API key không được hard-code; dùng `GEMINI_API_KEY`, `GOOGLE_API_KEY`, `OPENAI_API_KEY`, `LOCAL_LLM_API_KEY`.
