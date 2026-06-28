@@ -56,6 +56,12 @@ _WORD_DURATION_RE = re.compile(
     flags=re.IGNORECASE,
 )
 
+# "Sau 01 tháng" vs gold "01 tháng" — common LLM prefix on duration questions.
+_REDUNDANT_SAU_PREFIX_RE = re.compile(
+    r"^sau\s+(.+)$",
+    flags=re.IGNORECASE,
+)
+
 # Long sentences (in words) are candidates for span extraction.
 _MAX_SHORT_WORDS = 8
 
@@ -137,6 +143,18 @@ def _extract_phrase_by_markers(cleaned: str, context: str) -> str | None:
     """Handle common legal QA over-extractions without using the gold answer."""
 
     marker_candidates: list[str] = []
+    start_marker_specs = [
+        ("theo điều kiện ", "after"),
+    ]
+    for marker, direction in start_marker_specs:
+        if not cleaned.lower().startswith(marker):
+            continue
+        candidate = clean_answer(cleaned[len(marker) :])
+        if direction == "after" and " và " in candidate.lower():
+            candidate = re.split(r"\s+và\s+", candidate, maxsplit=1, flags=re.IGNORECASE)[0]
+        if 2 <= len(candidate.split()) <= 12:
+            marker_candidates.append(candidate)
+
     marker_specs = [
         (" tiếp tục ", "before"),
         (" theo điều kiện ", "after"),
@@ -158,6 +176,43 @@ def _extract_phrase_by_markers(cleaned: str, context: str) -> str | None:
         if _appears_in_context(candidate, context):
             return candidate
     return None
+
+
+def _strip_redundant_sau_prefix(answer: str, context: str) -> str:
+    """Drop leading ``Sau`` when the remainder is grounded in context."""
+
+    match = _REDUNDANT_SAU_PREFIX_RE.match(answer.strip())
+    if not match:
+        return answer
+    remainder = clean_answer(match.group(1))
+    if not remainder:
+        return answer
+    grounded = _extract_context_span(remainder, context)
+    if grounded:
+        return grounded
+    if _appears_in_context(remainder, context):
+        return remainder
+    return answer
+
+
+def _strip_grounded_leading_prefix(answer: str, context: str, prefix: str) -> str:
+    """Drop a leading prefix when the remainder appears verbatim in context."""
+
+    if not answer.lower().startswith(prefix.lower()):
+        return answer
+    remainder = answer[len(prefix) :].strip()
+    if remainder and _appears_in_context(remainder, context):
+        return remainder
+    return answer
+
+
+def _normalize_short_extractive_answer(answer: str, context: str) -> str:
+    """Apply grounded prefix cleanup on already-short candidate spans."""
+
+    cleaned = _clean_extracted_compound(answer)
+    for prefix in ("Bị ", "bị ", "phải "):
+        cleaned = _strip_grounded_leading_prefix(cleaned, context, prefix)
+    return cleaned
 
 
 def shorten_legal_answer(
@@ -183,31 +238,33 @@ def shorten_legal_answer(
     cleaned = clean_answer(answer)
     if not cleaned:
         return ""
-    if len(cleaned.split()) <= _MAX_SHORT_WORDS:
-        return cleaned
-
-    compound = _extract_compound_span(cleaned, context)
-    if compound:
-        return compound
-
-    word_duration = _extract_word_duration(cleaned, context)
-    if word_duration:
-        return word_duration
+    cleaned = _strip_redundant_sau_prefix(cleaned, context)
 
     marker_phrase = _extract_phrase_by_markers(cleaned, context)
     if marker_phrase:
-        return marker_phrase
+        return _normalize_short_extractive_answer(marker_phrase, context)
+
+    compound = _extract_compound_span(cleaned, context)
+    if compound:
+        return _normalize_short_extractive_answer(compound, context)
+
+    word_duration = _extract_word_duration(cleaned, context)
+    if word_duration:
+        return _normalize_short_extractive_answer(word_duration, context)
+
+    if len(cleaned.split()) <= _MAX_SHORT_WORDS:
+        return _normalize_short_extractive_answer(cleaned, context)
 
     answer_matches = _COMBINED_SPAN_RE.findall(cleaned)
     if not answer_matches:
-        return cleaned
+        return _normalize_short_extractive_answer(cleaned, context)
     distinct = {_normalize_numeric_span(match) for match in answer_matches}
     if len(distinct) != 1:
-        return cleaned
+        return _normalize_short_extractive_answer(cleaned, context)
 
     target = next(iter(distinct))
     for context_match in _COMBINED_SPAN_RE.findall(context):
         if _normalize_numeric_span(context_match) == target:
-            return context_match.strip()
+            return _normalize_short_extractive_answer(context_match.strip(), context)
 
-    return cleaned
+    return _normalize_short_extractive_answer(cleaned, context)

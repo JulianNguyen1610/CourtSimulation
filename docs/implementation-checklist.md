@@ -142,13 +142,13 @@ python -m src.main --run-debate --include-uts-vlc --retrieval-method bm25_rerank
 - [x] **B.4.2** CoT LLM baseline
 - [x] **B.4.3** Vanilla debate baseline
 - [x] **B.4.4** Regex/heuristic direct candidate (weak floor)
-- [~] **B.4.5** Extractive QA reader (HuggingFace) — finetune scaffold + batch wiring
-- [~] **B.4.6** BM25 + reader baseline — tuned_bm25_reader scaffold added
+- [x] **B.4.5** Extractive QA reader — fine-tuned val 53 EM=0.5849 (+22.6 pp vs generic)
+- [x] **B.4.6** BM25 + reader — tuned_bm25_reader val 53 EM=0.5283 (BM25 vẫn giảm)
 - [x] **B.4.7** `shorten_legal_answer()` áp dụng **đồng đều** mọi method
 - [x] **B.4.8** JSON recovery khi output bị cắt token (direct/cot)
 - [x] **B.4.9** Bảng so sánh đầy đủ baselines validation 53 — qwen3.5:9b, 6 methods + ablation
 
-**Kết quả validation 53 (qwen3.5:9b):** vanilla EM=0.6792; structured r=1 EM=0.4906; direct EM=0.2453.  
+**Kết quả validation 53 (qwen3.5:9b + reader):** vanilla EM=0.6792; finetuned_reader EM=0.5849; structured r=1 EM=0.4906; extractive_qa EM=0.3585; direct EM=0.2453.  
 **Kết quả test 53 (one-shot):** vanilla EM=0.3774; structured optimized EM=0.3208.
 
 ---

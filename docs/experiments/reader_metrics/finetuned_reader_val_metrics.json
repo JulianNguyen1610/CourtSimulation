@@ -1,0 +1,19 @@
+{
+  "split": "validation",
+  "method": "finetuned_reader",
+  "num_cases": 53,
+  "num_predictions": 53,
+  "models_by_method": {
+    "finetuned_reader": {
+      "model": "checkpoints/legal_qa_reader/best_model"
+    }
+  },
+  "metrics_by_method": {
+    "finetuned_reader": {
+      "num_predictions": 53,
+      "exact_match": 0.5849056603773585,
+      "f1": 0.7609588036071364
+    }
+  },
+  "notes": "ALQAC val 53; XLM-RoBERTa fine-tuned 5 epochs on train split; spark-063e 2026-06-27"
+}

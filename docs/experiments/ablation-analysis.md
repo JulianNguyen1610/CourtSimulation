@@ -76,6 +76,21 @@ Updated: 2026-06-27
 
 Artifacts: `docs/experiments/test_metrics/`
 
+## Fine-tuned reader (validation 53, 2026-06-27)
+
+Checkpoint: `checkpoints/legal_qa_reader/best_model` (XLM-R, 5 epochs, train-only).
+
+| Method | EM | F1 | Δ EM vs extractive_qa |
+|---|---:|---:|---:|
+| **finetuned_reader** | **0.5849** | 0.7610 | **+22.6 pp** |
+| tuned_bm25_reader | 0.5283 | 0.7023 | +17.0 pp |
+| extractive_qa (generic) | 0.3585 | 0.6413 | — |
+| bm25_reader (generic) | 0.1887 | 0.4557 | — |
+
+- EM ties structured debate + `retrieval=off` (0.5849); F1 lower (0.76 vs 0.85).
+- BM25 still hurts with fine-tuned reader (−5.7 pp EM) — same retrieval pattern as debate ablation.
+- Artifacts: `docs/experiments/reader_metrics/`
+
 ## Recommendation
 
 - **Default config for paper**:
@@ -93,6 +108,7 @@ judge_question: off
 
 ```
 1. ~~Re-run test split 1-shot~~ — DONE 2026-06-27
-2. Phase 3 courtroom pilot (D.3.8)
-3. Human eval subset (E.2)
+2. ~~Fine-tuned reader val 53~~ — DONE 2026-06-27 (EM=0.5849)
+3. Phase 3 courtroom pilot (D.3.8)
+4. Human eval subset (E.2)
 ```

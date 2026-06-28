@@ -19,3 +19,5 @@ server_ablation_closing_off,2026-06-26,validation,53,debate,1,qwen3.5:9b,bm25_on
 server_ablation_judge_question_on,2026-06-26,validation,53,debate,1,qwen3.5:9b,bm25_only,off,0.4528,0.8136,0.0283,20260626T104936Z/judge_question_on,single trial no EM gain
 server_qwen_vanilla_test,2026-06-27,test,53,vanilla,1,qwen3.5:9b,bm25_only,off,0.3774,0.7712,0,,docs/experiments/test_metrics/vanilla_test_metrics.json,B.5.8 one-shot test
 server_qwen_debate_optimized_test,2026-06-27,test,53,debate,1,qwen3.5:9b,off,read_only,0.3208,0.6957,0.0189,,docs/experiments/test_metrics/debate_optimized_test_metrics.json,B.5.8 retrieval=off memory=read_only
+server_finetuned_reader,2026-06-27,validation,53,finetuned_reader,1,checkpoints/legal_qa_reader/best_model,bm25_only,off,0.5849,0.7610,0,,docs/experiments/reader_metrics/finetuned_reader_val_metrics.json,+22.6pp EM vs generic extractive_qa; ties structured retrieval=off EM
+server_tuned_bm25_reader,2026-06-27,validation,53,tuned_bm25_reader,1,checkpoints/legal_qa_reader/best_model,bm25_only,off,0.5283,0.7023,0,,docs/experiments/reader_metrics/tuned_bm25_reader_val_metrics.json,BM25 still hurts vs finetuned_reader-only (-5.7pp EM)
