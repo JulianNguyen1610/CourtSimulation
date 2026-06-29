@@ -15,8 +15,9 @@ Scope: Hoàn thành tốt Phase 1 ViLQA trước khi chuyển Phase 3.
 | Fine-tuned reader val 53 | Done |
 | Error analysis val (structured vs direct) | Done |
 | Error analysis **test** | **Todo** |
-| Postprocess prefix/list fixes | **In progress** |
-| Vanilla + retrieval=off ablation | **Todo** |
+| Postprocess prefix/list fixes | **Done** (vanilla re-val EM=0.7170) |
+| Vanilla + retrieval=off ablation | **Done** (0.7170, paper config) |
+| Structured optimized re-val postprocess | **Todo** (next) |
 | Paper tables + limitations section | **Partial** |
 
 ---
@@ -36,7 +37,8 @@ Scope: Hoàn thành tốt Phase 1 ViLQA trước khi chuyển Phase 3.
 ### 1.1 Postprocess & evaluation fixes
 
 - [x] Strip prefix `Sau` khi span còn lại có trong context (`answer_postprocess.py`)
-- [ ] Re-run **validation** vanilla + structured optimized sau fix; ghi delta EM/F1
+- [x] Re-run **validation** vanilla sau fix → EM=0.7170, F1=0.9142 (r=1, retrieval=off)
+- [ ] Re-run **validation** structured optimized sau fix; ghi delta EM/F1
 - [ ] List-answer (vilqa-499): **không** sửa metric chính — báo cáo riêng `LIST_ANSWER` trong error analysis
 - [ ] Optional: `relaxed_em` trong error report (prefix-insensitive) — analysis only
 
@@ -50,6 +52,9 @@ python -m src.main --config configs/ollama.yaml --run-batch \
 python -m src.main --config configs/ollama.yaml --run-batch \
   --split validation --method debate --retrieval-method off \
   --memory-mode read_only --rounds 1 --llm local --local-model qwen3.5:9b --limit 0
+
+# Sau khi chạy xong — error analysis (thay RUN_DIR):
+python -m scripts.error_analysis outputs/vilqa_multi_agent_baseline/RUN_DIR --compare debate
 ```
 
 ### 1.2 Error analysis test split

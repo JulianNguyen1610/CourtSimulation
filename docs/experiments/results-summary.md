@@ -6,7 +6,8 @@ Updated: 2026-06-27
 
 | Method | EM | F1 | Fallback |
 |---|---:|---:|---:|
-| **vanilla debate** | **0.6792** | **0.9401** | 0 |
+| **vanilla r=1, retrieval=off** (paper + postprocess) | **0.7170** | **0.9142** | 0 |
+| vanilla r=3, bm25_only (prior SOTA) | 0.6792 | 0.9401 | 0 |
 | structured, retrieval=off | 0.5849 | 0.8535 | 1.9% |
 | **finetuned_reader** | **0.5849** | 0.7610 | 0 |
 | structured, memory=read_only | 0.5849 | 0.8269 | 5.7% |
@@ -42,18 +43,20 @@ Checkpoint: `checkpoints/legal_qa_reader/best_model` (deepset/xlm-roberta-base-s
 
 | Method | Val EM | Test EM | Δ EM | Val F1 | Test F1 | Δ F1 |
 |---|---:|---:|---:|---:|---:|---:|
-| vanilla | 0.6792 | 0.3774 | −30.2 pp | 0.9401 | 0.7712 | −16.9 pp |
+| vanilla (paper config val) | 0.7170 | 0.3774 | −34.0 pp | 0.9142 | 0.7712 | −14.3 pp |
+| vanilla (prior r=3 bm25 val) | 0.6792 | 0.3774 | −30.2 pp | 0.9401 | 0.7712 | −16.9 pp |
 | structured (optimized) | 0.5849 | 0.3208 | −26.4 pp | 0.8535* | 0.6957 | −15.8 pp |
 
 *Structured val F1 from retrieval_off run (0.8535); memory_read_only val F1 was 0.8269.
 
 ## Interpretation
 
-1. **Vanilla vẫn tốt nhất trên test** (EM 0.38 vs 0.32 structured) — khớp hướng validation.
-2. **Fine-tuned reader** đạt EM=0.5849 trên val — vượt generic reader (+22.6 pp) và structured r=1 (+9.4 pp); chưa vượt vanilla debate.
-3. **BM25 + reader** vẫn giảm performance kể cả với fine-tuned checkpoint.
-4. **Cả hai LLM method giảm mạnh trên test** (~26–30 pp EM) — không tune trên test.
-5. **F1 giảm ít hơn EM** — nhiều lỗi partial overlap (prefix/over-extract).
+1. **Vanilla paper config (r=1, retrieval=off + postprocess) đạt EM=0.7170 val** — vượt prior SOTA r=3 bm25 (+3.8 pp); +7.6 pp vs cùng config trước postprocess.
+2. **Vanilla vẫn tốt nhất trên test** (EM 0.38 vs 0.32 structured) — khớp hướng validation.
+3. **Fine-tuned reader** đạt EM=0.5849 trên val — vượt generic reader (+22.6 pp) và structured r=1 (+9.4 pp); chưa vượt vanilla.
+4. **BM25 + reader** vẫn giảm performance kể cả với fine-tuned checkpoint.
+5. **Cả hai LLM method giảm mạnh trên test** (~30–34 pp EM với paper config) — không tune trên test.
+6. **F1 giảm ít hơn EM** — nhiều lỗi partial overlap (prefix/list answers).
 
 ## Paper config (frozen before test)
 

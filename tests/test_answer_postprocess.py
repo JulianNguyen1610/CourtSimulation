@@ -84,7 +84,7 @@ class AnswerPostprocessTest(unittest.TestCase):
             "do hai bên thỏa thuận",
         )
 
-    def test_strips_leading_tu_on_money_range(self) -> None:
+    def test_strips_leading_tu_on_money_range_with_duoi(self) -> None:
         context = "trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng"
         self.assertEqual(
             shorten_legal_answer(
@@ -92,6 +92,16 @@ class AnswerPostprocessTest(unittest.TestCase):
                 context,
             ),
             "100.000.000 đồng đến dưới 500.000.000 đồng",
+        )
+
+    def test_keeps_leading_tu_on_plain_money_range(self) -> None:
+        context = "phạt tiền từ 10.000.000 đồng đến 50.000.000 đồng"
+        self.assertEqual(
+            shorten_legal_answer(
+                "từ 10.000.000 đồng đến 50.000.000 đồng",
+                context,
+            ),
+            "từ 10.000.000 đồng đến 50.000.000 đồng",
         )
 
     def test_strips_bi_phat_prefix_when_grounded(self) -> None:
@@ -109,6 +119,73 @@ class AnswerPostprocessTest(unittest.TestCase):
                 context,
             ),
             "thông báo bằng văn bản và phải được bên kia đồng ý",
+        )
+
+    def test_strips_tinh_tu_prefix_when_grounded(self) -> None:
+        context = "thời hạn được tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó"
+        self.assertEqual(
+            shorten_legal_answer(
+                "tính từ ngày tiếp theo liền kề của ngày xảy ra sự kiện đó",
+                context,
+            ),
+            "ngày tiếp theo liền kề của ngày xảy ra sự kiện đó",
+        )
+
+    def test_strips_subject_co_quyen_prefix(self) -> None:
+        context = "Bên mua có quyền nhận hoặc không nhận phần dôi ra"
+        self.assertEqual(
+            shorten_legal_answer(
+                "Bên mua có quyền nhận hoặc không nhận phần dôi ra",
+                context,
+            ),
+            "quyền nhận hoặc không nhận phần dôi ra",
+        )
+
+    def test_strips_di_chuc_hieu_luc_prefix(self) -> None:
+        context = "Di chúc có hiệu lực từ thời điểm mở thừa kế"
+        self.assertEqual(
+            shorten_legal_answer(
+                "Di chúc có hiệu lực từ thời điểm mở thừa kế",
+                context,
+            ),
+            "từ thời điểm mở thừa kế",
+        )
+
+    def test_extracts_definitional_tail_for_la_gi_questions(self) -> None:
+        context = (
+            "Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được "
+            "đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội."
+        )
+        self.assertEqual(
+            shorten_legal_answer(
+                "Phạm tội chưa đạt là cố ý thực hiện tội phạm nhưng không thực hiện được "
+                "đến cùng vì những nguyên nhân ngoài ý muốn của người phạm tội",
+                context,
+                question="Phạm tội chưa đạt là gì?",
+            ),
+            "cố ý thực hiện tội phạm nhưng không thực hiện được đến cùng "
+            "vì những nguyên nhân ngoài ý muốn của người phạm tội",
+        )
+
+    def test_extracts_grounded_co_suffix(self) -> None:
+        context = (
+            "Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của "
+            "cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó"
+        )
+        self.assertEqual(
+            shorten_legal_answer(
+                "Di chúc của công dân Việt Nam đang ở nước ngoài có chứng nhận của "
+                "cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó",
+                context,
+            ),
+            "có chứng nhận của cơ quan lãnh sự, đại diện ngoại giao Việt Nam ở nước đó",
+        )
+
+    def test_extends_unique_context_duration_phrase(self) -> None:
+        context = "được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm"
+        self.assertEqual(
+            shorten_legal_answer("ít nhất 30 phút", context),
+            "ít nhất 30 phút liên tục",
         )
 
 
