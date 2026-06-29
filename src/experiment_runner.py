@@ -30,7 +30,7 @@ from src.evaluation.evaluator import ViLQAEvaluator
 from src.llm import LLMBackend, LLMClient, LLMConfig, create_role_llm_clients
 from src.memory.memory_store import MemoryMode, MemoryRetrieval, MemoryStore
 from src.models import CaseProfile, DebateResult, EvalResult, PredictionRecord
-from src.orchestrator import DebateOrchestrator
+from src.orchestrator import OrchestratorMode, create_debate_orchestrator
 from src.retrieval.legal_retriever import (
     LegalRetriever,
     RetrievalMethod,
@@ -103,6 +103,7 @@ class BatchRunConfig:
     reader_max_seq_length: int = 384
     reader_doc_stride: int = 128
     reader_max_answer_length: int = 50
+    orchestrator: OrchestratorMode = "fixed"
 
 
 def select_split(
@@ -261,7 +262,8 @@ class BaselineBatchRunner:
             max_history_chars=config.max_history_chars,
         )
         agent_kwargs = self._debate_agent_kwargs(config)
-        orchestrator = DebateOrchestrator(
+        orchestrator = create_debate_orchestrator(
+            config.orchestrator,
             proponent=DebateAgent("proponent", self._client_for("proponent"), **agent_kwargs),
             opponent=DebateAgent("opponent", self._client_for("opponent"), **agent_kwargs),
             judge=judge,
@@ -286,31 +288,36 @@ class BaselineBatchRunner:
         evaluation = self._merge_evaluations(automated_evaluation, llm_evaluation)
         result.evaluation = evaluation
 
+        debate_method = (
+            "debate_judge_mediated"
+            if config.orchestrator == "judge_mediated"
+            else "debate"
+        )
         output_path = None
         if config.save_debate_artifacts:
             output_path = save_debate_result(result, case, run_dir / "debates")
         evaluation_path = self._save_case_evaluation(
             case=case,
-            method="debate",
+            method=debate_method,
             automated_evaluation=automated_evaluation,
             llm_evaluation=llm_evaluation,
-            path=run_dir / "evaluations" / f"{case.case_id}_debate.json",
+            path=run_dir / "evaluations" / f"{case.case_id}_{debate_method}.json",
         )
 
         if config.update_memory:
             self.memory_store.update_from_debate(case, result, evaluation=evaluation)
 
-        self._fallback_counts["debate"] = (
-            self._fallback_counts.get("debate", 0) + judge.fallback_count
+        self._fallback_counts[debate_method] = (
+            self._fallback_counts.get(debate_method, 0) + judge.fallback_count
         )
-        self._parse_attempt_counts["debate"] = (
-            self._parse_attempt_counts.get("debate", 0) + judge.parse_attempt_count
+        self._parse_attempt_counts[debate_method] = (
+            self._parse_attempt_counts.get(debate_method, 0) + judge.parse_attempt_count
         )
 
         return PredictionRecord(
             case_id=case.case_id,
             split=config.split_name,
-            method="debate",
+            method=debate_method,
             question=case.question,
             gold_answer=case.answer or "",
             predicted_answer=predicted_answer,
@@ -626,6 +633,7 @@ class BaselineBatchRunner:
                 "memory_retrieval": config.memory_retrieval,
                 "rounds": config.rounds,
                 "judge": "on" if "debate" in self._expand_methods(config.method) else "off",
+                "orchestrator": config.orchestrator,
                 "roles": "proponent-opponent",
                 "closing_statements": config.include_closing_statements,
                 "judge_question": config.enable_judge_question,
@@ -778,5 +786,6 @@ class BaselineBatchRunner:
             "reader_max_seq_length": config.reader_max_seq_length,
             "reader_doc_stride": config.reader_doc_stride,
             "reader_max_answer_length": config.reader_max_answer_length,
+            "orchestrator": config.orchestrator,
         }
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -1,0 +1,3 @@
+variant,orchestrator,command
+orchestrator_fixed,fixed,C:\Users\PC\miniconda3\python.exe -m src.main --config configs/default.yaml --run-batch --llm mock --split validation --method debate --limit 0 --rounds 1 --retrieval-method off --memory-mode read_only --orchestrator fixed --output-dir outputs\orchestrator_ablation\20260629T121714Z\orchestrator_fixed
+orchestrator_judge_mediated,judge_mediated,C:\Users\PC\miniconda3\python.exe -m src.main --config configs/default.yaml --run-batch --llm mock --split validation --method debate --limit 0 --rounds 1 --retrieval-method off --memory-mode read_only --orchestrator judge_mediated --output-dir outputs\orchestrator_ablation\20260629T121714Z\orchestrator_judge_mediated

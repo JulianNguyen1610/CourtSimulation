@@ -122,6 +122,24 @@ class PredictionRecord(BaseModel):
     output_path: str | None = None
 
 
+JudgeControlAction = Literal[
+    "call_proponent",
+    "call_opponent",
+    "ask_question",
+    "request_closing",
+    "end_debate",
+]
+
+
+class JudgeControlDecision(BaseModel):
+    """Next-step decision issued by the presiding judge."""
+
+    action: JudgeControlAction
+    message: str = ""
+    confidence: float = 50.0
+    reasoning: str = ""
+
+
 class DebateResult(BaseModel):
     """Complete result artifact for one debate."""
 

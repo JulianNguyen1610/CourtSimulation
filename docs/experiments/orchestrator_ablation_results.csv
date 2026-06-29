@@ -1,0 +1,3 @@
+run_id,date,variant,orchestrator,method,split,n_cases,rounds,retrieval,memory,llm,exact_match,f1,fallback_rate,delta_em_vs_fixed_ref,metrics_path,notes
+20260629T121723Z,2026-06-29,orchestrator_fixed,fixed,debate,validation,2,1,off,read_only,mock,0.0,0.0,0.0,-0.6038,outputs\orchestrator_ablation\20260629T121723Z\orchestrator_fixed\20260629T121725Z_validation_debate\metrics.json,
+20260629T121723Z,2026-06-29,orchestrator_judge_mediated,judge_mediated,debate_judge_mediated,validation,2,1,off,read_only,mock,0.0,0.0,0.0,-0.6038,outputs\orchestrator_ablation\20260629T121723Z\orchestrator_judge_mediated\20260629T121728Z_validation_debate\metrics.json,

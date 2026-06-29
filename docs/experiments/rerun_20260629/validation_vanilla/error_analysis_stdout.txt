@@ -1,0 +1,42 @@
+﻿python : 
+At C:\Users\PC\AppData\Local\Temp\ps-script-c6f449fe-0a36-4cc8-b8f9-fcbe91496116.ps1:89 char:58
++ ... NG='utf-8'; python -m scripts.error_analysis docs/experiments/rerun_2 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+---
+# Error Analysis Report
+
+**Run:** `docs\experiments\rerun_20260629\validation_vanilla`
+**Total predictions:** 53
+**Methods:** vanilla
+
+## 1. Overall Metrics by Method
+
+| Method | N | EM rate | Avg F1 | Correct | Error rate |
+|---|---|---|---|---|---|
+| vanilla | 53 | 0.7358 | 0.9295 | 39 | 0.2642 |
+
+## 2. Error Taxonomy by Method
+
+### vanilla
+
+| Error type | Count | % of errors |
+|---|---|---|
+| OVER_EXTRACTION | 9 | 64.3% |
+| OTHER | 4 | 28.6% |
+| PARTIAL_SPAN | 1 | 7.1% |
+
+## 4. Error Type Definitions
+
+- **CORRECT**: Exact match = 1.0
+- **UNKNOWN_ANSWER**: Model trß║ú 'Kh├┤ng x├íc ─æß╗ïnh' hoß║╖c rß╗ùng
+- **EMPTY_PARSE**: Fallback do JSON parse fail
+- **ENGLISH_PARAPHRASE**: Answer chß╗⌐a tß╗½ tiß║┐ng Anh (gold lu├┤n tiß║┐ng Viß╗çt)
+- **WRONG_SPAN_TYPE**: Hß╗Åi tiß╗ün trß║ú thß╗¥i gian, hoß║╖c ng╞░ß╗úc lß║íi
+- **OVER_EXTRACTION**: Answer > 12 tß╗½ cho c├óu hß╗Åi cß║ºn span ngß║»n
+- **PARTIAL_SPAN**: Answer ngß║»n nh╞░ng F1 thß║Ñp (sai ─æoß║ín)
+- **NUMERIC_MISMATCH**: C├│ sß╗æ nh╞░ng kh├┤ng khß╗¢p loß║íi ─æ╞ín vß╗ï
+- **OTHER**: Lß╗ùi ch╞░a ph├ón loß║íi
+─É├ú ghi b├ío c├ío: docs\experiments\rerun_20260629\validation_vanilla\error_analysis.md

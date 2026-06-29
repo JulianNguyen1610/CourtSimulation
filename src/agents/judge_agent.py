@@ -10,7 +10,7 @@ from typing import Any
 from pydantic import ValidationError
 
 from src.llm import LLMClient, extract_candidate_from_context, is_mock_llm
-from src.models import AgentOutput, BeliefState, CaseProfile, CourtCase, LegalJudgment, Verdict
+from src.models import AgentOutput, BeliefState, CaseProfile, CourtCase, JudgeControlDecision, LegalJudgment, Verdict
 from src.utils.prompt_compact import compact_agent_view, compact_history, truncate_text
 
 
@@ -103,6 +103,40 @@ class JudgeAgent:
         if not question or question.upper().startswith("NO_QUESTION"):
             return None
         return question
+
+    def decide_control_action(
+        self,
+        case: CaseProfile,
+        transcript: list[AgentOutput],
+        completed_rounds: int,
+        max_rounds: int,
+        last_speaker_role: str | None = None,
+    ) -> JudgeControlDecision:
+        """Choose the next debate action as presiding judge."""
+
+        if is_mock_llm(self.llm):
+            return self._fallback_control_action(
+                completed_rounds=completed_rounds,
+                max_rounds=max_rounds,
+                last_speaker_role=last_speaker_role,
+            )
+
+        prompt = self._render_prompt(
+            "judge_control.txt",
+            case_profile=self._case_view(case),
+            transcript=self._compact_transcript(transcript),
+            belief_history=[belief.model_dump() for belief in self.belief_history],
+            completed_rounds=completed_rounds,
+            max_rounds=max_rounds,
+            last_speaker_role=last_speaker_role or "none",
+        )
+        raw_output = self._generate_json_with_optional_retry(prompt)
+        return self._parse_control_decision(
+            raw_output,
+            completed_rounds=completed_rounds,
+            max_rounds=max_rounds,
+            last_speaker_role=last_speaker_role,
+        )
 
     def open_session(
         self,
@@ -272,6 +306,78 @@ class JudgeAgent:
             raise FileNotFoundError(f"Prompt template not found: {template_path}")
         template = template_path.read_text(encoding="utf-8")
         return template.format(**values)
+
+    def _parse_control_decision(
+        self,
+        raw_output: str,
+        completed_rounds: int,
+        max_rounds: int,
+        last_speaker_role: str | None,
+    ) -> JudgeControlDecision:
+        self.parse_attempt_count += 1
+        data = self._loads_json_or_empty(raw_output)
+        if not data:
+            self._record_fallback()
+            return self._fallback_control_action(
+                completed_rounds=completed_rounds,
+                max_rounds=max_rounds,
+                last_speaker_role=last_speaker_role,
+            )
+        try:
+            action = str(data.get("action", "")).strip()
+            allowed = {
+                "call_proponent",
+                "call_opponent",
+                "ask_question",
+                "request_closing",
+                "end_debate",
+            }
+            if action not in allowed:
+                raise ValueError(f"Unsupported control action: {action}")
+            return JudgeControlDecision(
+                action=action,  # type: ignore[arg-type]
+                message=str(data.get("message") or ""),
+                confidence=self._coerce_confidence(data.get("confidence", 50.0)),
+                reasoning=str(
+                    data.get("reasoning")
+                    or "Judge selected the next debate action."
+                ),
+            )
+        except (TypeError, ValueError, ValidationError):
+            self._record_fallback()
+            return self._fallback_control_action(
+                completed_rounds=completed_rounds,
+                max_rounds=max_rounds,
+                last_speaker_role=last_speaker_role,
+            )
+
+    @staticmethod
+    def _fallback_control_action(
+        completed_rounds: int,
+        max_rounds: int,
+        last_speaker_role: str | None,
+    ) -> JudgeControlDecision:
+        """Deterministic control schedule used by MockLLM and JSON fallbacks."""
+
+        if completed_rounds >= max_rounds:
+            return JudgeControlDecision(
+                action="request_closing",
+                reasoning="Fallback control: debate rounds complete.",
+            )
+        if last_speaker_role in {None, "judge", "opponent"}:
+            return JudgeControlDecision(
+                action="call_proponent",
+                reasoning="Fallback control: start or resume with Proponent.",
+            )
+        if last_speaker_role == "proponent":
+            return JudgeControlDecision(
+                action="call_opponent",
+                reasoning="Fallback control: Opponent rebuts Proponent.",
+            )
+        return JudgeControlDecision(
+            action="call_proponent",
+            reasoning="Fallback control: continue debate with Proponent.",
+        )
 
     def _parse_belief(
         self,

@@ -11,7 +11,7 @@ flowchart TD
     CourtData[data/processed/*.json] --> CourtLoader[load_court_case_json]
     Loader --> Runner
     CourtLoader --> Session
-    Runner --> Orchestrator[DebateOrchestrator Phase 1]
+    Runner --> Orchestrator[DebateOrchestrator / JudgeMediatedOrchestrator]
     Session --> Protocol[CourtroomProtocol]
     Protocol --> Prosecutor[ProsecutorAgent]
     Protocol --> Defense[DefenseAgent]
@@ -25,7 +25,7 @@ flowchart TD
 ## Thành Phần Cốt Lõi
 1. **`src/main.py`**: CLI smoke/batch entry point. Đọc `configs/default.yaml`, split dataset, resolve LLM config theo role, và chạy single debate hoặc batch.
 2. **`BaselineBatchRunner` (`src/experiment_runner.py`)**: Chạy các method `direct`, `cot`, `vanilla`, `debate`, `both`, `all`, `extractive_qa`, `bm25_reader`; lưu `predictions.csv`, `metrics.json`, `config.json`.
-3. **`DebateOrchestrator` (`src/orchestrator.py`)**: Điều phối N vòng tranh luận giữa `proponent` và `opponent`, cập nhật belief của `JudgeAgent`, hỗ trợ early stopping, optional judge question, closing statements, rồi tạo verdict cuối.
+3. **`DebateOrchestrator` (`src/orchestrator.py`)**: Điều phối N vòng tranh luận giữa `proponent` và `opponent`, cập nhật belief của `JudgeAgent`, hỗ trợ early stopping, optional judge question, closing statements, rồi tạo verdict cuối. **`JudgeMediatedOrchestrator`** (`src/judge_mediated_orchestrator.py`): biến thể judge điều phối — judge chọn action tiếp theo (`call_proponent`, `call_opponent`, `ask_question`, `request_closing`, `end_debate`) thay vì turn order cố định trong Python.
 4. **`DebateAgent` (`src/agents/debate_agent.py`)**: Mỗi lượt gồm private strategy và public argument/rebuttal; có thêm closing statement trước verdict.
 5. **`JudgeAgent` (`src/agents/judge_agent.py`)**: Parse belief/verdict JSON, hỗ trợ JSON trong markdown fence, retry 1 lần với LLM thật khi JSON invalid, hỏi follow-up optional, và ghi fallback count.
 6. **`src/llm.py`**: Định nghĩa `LLMClient` protocol, `MockLLM`, `OpenAILLM`, `GeminiLLM`, `LocalLLM`, `LLMConfig`, factory theo role. API key đọc từ env, không hard-code.
@@ -56,6 +56,7 @@ flowchart TD
 - Memory: `off`, `read_only`, `read_update`.
 - Debate rounds: `1`, `3`, `5`.
 - Judge: `off` qua `vanilla`, `on` qua `debate`.
+- Orchestrator: `fixed` (turn order Python) | `judge_mediated` (judge chọn action; config `debate.orchestrator` hoặc `--orchestrator`).
 - Roles: Phase 1 `proponent-opponent`; Phase 3 `prosecutor-defense-defendant-judge` qua `CourtroomSession`.
 - Script: `scripts/run_ablation_matrix.py` tạo dry-run commands hoặc chạy có `--execute`; docs ở `docs/experiments/p1_ablation_plan.md`.
 

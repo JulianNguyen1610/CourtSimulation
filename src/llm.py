@@ -57,6 +57,15 @@ class MockLLM:
                 '"cited_evidence_ids": ["cam-001"]'
                 "}"
             )
+        if "Return valid JSON only" in prompt and '"action"' in prompt:
+            return (
+                "{"
+                '"action": "call_proponent", '
+                '"message": "", '
+                '"confidence": 60, '
+                '"reasoning": "Mock judge schedules the next debate turn."'
+                "}"
+            )
         if "Return valid JSON only" in prompt and '"prediction"' in prompt:
             return (
                 "{"

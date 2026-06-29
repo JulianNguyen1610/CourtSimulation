@@ -2,11 +2,15 @@
 
 from __future__ import annotations
 
+from typing import Literal
+
 from src.agents.debate_agent import DebateAgent
 from src.agents.judge_agent import JudgeAgent
 from src.memory.memory_store import MemoryStore
 from src.models import AgentOutput, DebateResult, EvidenceDocument, MemoryContext, CaseProfile
 from src.retrieval.legal_retriever import LegalRetriever
+
+OrchestratorMode = Literal["fixed", "judge_mediated"]
 
 
 class DebateOrchestrator:
@@ -153,3 +157,40 @@ class DebateOrchestrator:
                 score=1.0,
             )
         ]
+
+
+def create_debate_orchestrator(
+    mode: OrchestratorMode,
+    *,
+    proponent: DebateAgent,
+    opponent: DebateAgent,
+    judge: JudgeAgent,
+    rounds: int = 3,
+    legal_retriever: LegalRetriever | None = None,
+    memory_store: MemoryStore | None = None,
+    evidence_top_k: int = 5,
+    memory_top_k: int = 5,
+    include_closing_statements: bool = True,
+    enable_judge_question: bool = False,
+    early_stop_confidence: float | None = None,
+) -> DebateOrchestrator:
+    """Build a fixed or judge-mediated Phase 1 debate orchestrator."""
+
+    shared_kwargs = {
+        "proponent": proponent,
+        "opponent": opponent,
+        "judge": judge,
+        "rounds": rounds,
+        "legal_retriever": legal_retriever,
+        "memory_store": memory_store,
+        "evidence_top_k": evidence_top_k,
+        "memory_top_k": memory_top_k,
+        "include_closing_statements": include_closing_statements,
+        "enable_judge_question": enable_judge_question,
+        "early_stop_confidence": early_stop_confidence,
+    }
+    if mode == "judge_mediated":
+        from src.judge_mediated_orchestrator import JudgeMediatedOrchestrator
+
+        return JudgeMediatedOrchestrator(**shared_kwargs)
+    return DebateOrchestrator(**shared_kwargs)

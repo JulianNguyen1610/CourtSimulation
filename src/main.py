@@ -24,7 +24,7 @@ from src.llm import (
     llm_config_from_mapping,
 )
 from src.memory.memory_store import MemoryStore
-from src.orchestrator import DebateOrchestrator
+from src.orchestrator import create_debate_orchestrator
 from src.retrieval.legal_retriever import LegalRetriever
 
 
@@ -220,6 +220,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--enable-judge-question", action="store_true")
     parser.add_argument("--early-stop-confidence", type=float, default=None)
+    parser.add_argument(
+        "--orchestrator",
+        choices=["fixed", "judge_mediated"],
+        default=None,
+        help="Phase 1 debate control: fixed turn order or judge-mediated coordination.",
+    )
     parser.add_argument("--enable-llm-evaluator", action="store_true")
     parser.add_argument(
         "--local-timeout",
@@ -392,6 +398,7 @@ def resolve_debate_settings(raw_config: dict[str, Any], args: argparse.Namespace
         "max_evidence_chars": limits.get("max_evidence_chars"),
         "max_history_turns": limits.get("max_history_turns"),
         "max_history_chars": limits.get("max_history_chars"),
+        "orchestrator": args.orchestrator or debate.get("orchestrator", "fixed"),
     }
 
 
@@ -610,7 +617,8 @@ def main() -> None:
         role_clients = create_role_llm_clients(role_llm_configs)
         legal_retriever = LegalRetriever.from_cases(split.train)
         memory_store = MemoryStore.load(args.memory_path)
-        orchestrator = DebateOrchestrator(
+        orchestrator = create_debate_orchestrator(
+            debate_settings.get("orchestrator", "fixed"),
             proponent=DebateAgent("proponent", role_clients["proponent"]),
             opponent=DebateAgent("opponent", role_clients["opponent"]),
             judge=JudgeAgent(role_clients["judge"]),
@@ -619,6 +627,15 @@ def main() -> None:
             memory_store=memory_store,
             evidence_top_k=args.evidence_top_k,
             memory_top_k=args.memory_top_k,
+            **{
+                key: debate_settings[key]
+                for key in (
+                    "include_closing_statements",
+                    "enable_judge_question",
+                    "early_stop_confidence",
+                )
+                if key in debate_settings
+            },
         )
         result = orchestrator.run(cases[args.case_index])
         print("\nDebate completed.")

@@ -2,7 +2,7 @@
 
 ## Đã Hoàn Thành
 - **Khởi tạo dự án**: Multi-Agent Courtroom Simulation Framework.
-- **Phase 1 ViLQA scaffold**: data loader, split, `DebateOrchestrator`, baselines, retrieval, memory, evaluator EM/F1.
+- **Phase 1 ViLQA scaffold**: data loader, split, `DebateOrchestrator`, **`JudgeMediatedOrchestrator`** (judge điều phối 2 agent debate), baselines, retrieval, memory, evaluator EM/F1.
 - **P0/P1 pipeline**: LLM providers, judge fallback, semantic rerank, memory ablation, debate loop, ablation matrix script.
 - **Tài liệu dự án (2026-06-17)**:
  - `docs/project-status-and-overview.md` — tình trạng, kiến trúc, kết quả thí nghiệm.
@@ -43,6 +43,10 @@
  - Val 53: `finetuned_reader` EM=0.5849, F1=0.7610 (+22.6 pp vs extractive_qa)
  - Val 53: `tuned_bm25_reader` EM=0.5283, F1=0.7023 (BM25 −5.7 pp vs reader-only)
  - Artifacts: `docs/experiments/reader_metrics/`
+- **Validation rerun postprocess (2026-06-29)**:
+ - Vanilla `retrieval=off, r=1`: EM=0.7358, F1=0.9295 (`c:/Users/PC/Downloads/metrics (14).json`)
+ - Structured optimized `retrieval=off, memory=read_only, r=1`: EM=0.6038, F1=0.8412, fallback=5.66% (`c:/Users/PC/Downloads/metrics (13).json`)
+ - Delta vs mốc 2026-06-27/26: cả vanilla và structured +1.9 pp EM.
 - **Courtroom pilot scaffold (2026-06-27)**:
  - `save_courtroom_result()` + CLI `--save-courtroom`
  - Mock pilot `case_01_theft.json`: 10 turns, LJP metrics saved
@@ -56,21 +60,23 @@
 
 | Rank | Method | EM | F1 |
 |---:|---|---:|---:|
-| 1 | Vanilla debate | **0.6792** | **0.9401** |
-| 2 | Structured, retrieval=off | 0.5849 | 0.8535 |
-| 2 | **Finetuned reader** | **0.5849** | 0.7610 |
-| 3 | Structured, memory=read_only | 0.5849 | 0.8269 |
-| 4 | Structured, memory=read_update | 0.5660 | 0.8478 |
-| 5 | Tuned BM25 + finetuned reader | 0.5283 | 0.7023 |
-| 5 | Structured, retrieval=rerank | 0.5283 | 0.8096 |
-| 6 | Structured r=1 (baseline) | 0.4906 | 0.8124 |
-| 7 | CoT | 0.4717 | 0.8610 |
-| 8 | Structured, closing=off | 0.4528 | 0.7806 |
-| 9 | Structured r=5 | 0.4528 | 0.8048 |
-| 10 | Structured r=3 | 0.4151 | 0.7633 |
-| 11 | Extractive QA reader (generic) | 0.3585 | 0.6413 |
-| 12 | Direct | 0.2453 | 0.6634 |
-| 13 | BM25 + reader (generic) | 0.1887 | 0.4557 |
+| 1 | Vanilla debate (r=1, retrieval=off, rerun 2026-06-29) | **0.7358** | **0.9295** |
+| 2 | Vanilla debate (r=3, bm25_only) | 0.6792 | 0.9401 |
+| 3 | Structured, retrieval=off + memory=read_only (rerun 2026-06-29) | 0.6038 | 0.8412 |
+| 4 | Structured, retrieval=off | 0.5849 | 0.8535 |
+| 4 | **Finetuned reader** | **0.5849** | 0.7610 |
+| 5 | Structured, memory=read_only | 0.5849 | 0.8269 |
+| 6 | Structured, memory=read_update | 0.5660 | 0.8478 |
+| 7 | Tuned BM25 + finetuned reader | 0.5283 | 0.7023 |
+| 7 | Structured, retrieval=rerank | 0.5283 | 0.8096 |
+| 8 | Structured r=1 (baseline) | 0.4906 | 0.8124 |
+| 9 | CoT | 0.4717 | 0.8610 |
+| 10 | Structured, closing=off | 0.4528 | 0.7806 |
+| 11 | Structured r=5 | 0.4528 | 0.8048 |
+| 12 | Structured r=3 | 0.4151 | 0.7633 |
+| 13 | Extractive QA reader (generic) | 0.3585 | 0.6413 |
+| 14 | Direct | 0.2453 | 0.6634 |
+| 15 | BM25 + reader (generic) | 0.1887 | 0.4557 |
 
 ### Test 53 one-shot (2026-06-27, B.5.8)
 
@@ -124,12 +130,12 @@ Val→test EM drop: vanilla −30.2 pp; structured −26.4 pp.
 - [x] Courtroom mock pilot + artifact save (D.3.9)
 - [x] Fine-tune reader checkpoint + validation eval (B.4.5/B.4.6)
 - [~] Phase 3 pilot LLM thật + LJP eval (D.3.8, D.4.5) — mock done
-- [ ] Fix postprocess: prefix "Sau", list-answer (vilqa-499)
+- [~] Fix postprocess: prefix/list regex đã cập nhật; còn cần chốt bằng error analysis rerun
 - [ ] Batch courtroom runner (D.6.1)
 - [ ] Human eval rubric (E.2)
 
 ## Vấn Đề Đã Biết
-- **Vanilla debate (0.68) vượt structured debate (0.49)**: Single-prompt self-debate hiệu quả hơn multi-turn structured debate trên model 9B.
+- **Vanilla debate vẫn vượt structured debate** sau rerun (0.7358 vs 0.6038).
 - Strict EM nhạy prefix ("Sau 01 tháng" vs "01 tháng") — cân nhắc relaxed EM cho analysis.
 - Structured debate over-extract vẫn 55.6% lỗi; direct 67.5%.
 - Rounds>1 trên qwen3.5:9b không cải thiện EM; r=1 là default cho structured debate.
@@ -143,7 +149,9 @@ Val→test EM drop: vanilla −30.2 pp; structured −26.4 pp.
 
 | Method | EM | F1 | Run ID |
 |---:|---:|---|
-| **vanilla debate** | **0.6792** | **0.9401** | server 2026-06-26 |
+| **vanilla debate (r=1, retrieval=off, rerun)** | **0.7358** | **0.9295** | metrics (14).json |
+| vanilla debate (r=3, bm25_only) | 0.6792 | 0.9401 | server 2026-06-26 |
+| structured debate (retrieval=off, memory=read_only, rerun) | 0.6038 | 0.8412 | metrics (13).json |
 | **finetuned_reader** | **0.5849** | **0.7610** | server 2026-06-27 |
 | structured debate r=1 | 0.4906 | 0.8124 | 20260619T212113Z_validation_both |
 | tuned_bm25_reader | 0.5283 | 0.7023 | server 2026-06-27 |
@@ -161,4 +169,4 @@ Val→test EM drop: vanilla −30.2 pp; structured −26.4 pp.
 | **vanilla** | **0.3774** | **0.7712** | 0 | default |
 | structured (optimized) | 0.3208 | 0.6957 | 1.9% | retrieval=off, memory=read_only, r=1 |
 
-Val→test EM drop: vanilla −30.2 pp; structured −26.4 pp (test harder / val-tuned config).
+Val→test EM drop (theo rerun val mới): vanilla −35.8 pp; structured −28.3 pp (test harder / val-tuned config).

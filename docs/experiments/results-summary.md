@@ -1,14 +1,14 @@
 # Results Summary — Legal QA Debate
 
-Updated: 2026-06-27
+Updated: 2026-06-29
 
 ## Validation 53 (qwen3.5:9b / fine-tuned reader, spark-063e)
 
 | Method | EM | F1 | Fallback |
 |---|---:|---:|---:|
-| **vanilla r=1, retrieval=off** (paper + postprocess) | **0.7170** | **0.9142** | 0 |
+| **vanilla r=1, retrieval=off** (paper + postprocess, rerun 2026-06-29) | **0.7358** | **0.9295** | 0 |
 | vanilla r=3, bm25_only (prior SOTA) | 0.6792 | 0.9401 | 0 |
-| structured, retrieval=off | 0.5849 | 0.8535 | 1.9% |
+| structured, retrieval=off (rerun 2026-06-29) | 0.6038 | 0.8412 | 5.7% |
 | **finetuned_reader** | **0.5849** | 0.7610 | 0 |
 | structured, memory=read_only | 0.5849 | 0.8269 | 5.7% |
 | tuned_bm25_reader | 0.5283 | 0.7023 | 0 |
@@ -43,17 +43,17 @@ Checkpoint: `checkpoints/legal_qa_reader/best_model` (deepset/xlm-roberta-base-s
 
 | Method | Val EM | Test EM | Δ EM | Val F1 | Test F1 | Δ F1 |
 |---|---:|---:|---:|---:|---:|---:|
-| vanilla (paper config val) | 0.7170 | 0.3774 | −34.0 pp | 0.9142 | 0.7712 | −14.3 pp |
+| vanilla (paper config val) | 0.7358 | 0.3774 | −35.8 pp | 0.9295 | 0.7712 | −15.8 pp |
 | vanilla (prior r=3 bm25 val) | 0.6792 | 0.3774 | −30.2 pp | 0.9401 | 0.7712 | −16.9 pp |
-| structured (optimized) | 0.5849 | 0.3208 | −26.4 pp | 0.8535* | 0.6957 | −15.8 pp |
+| structured (optimized) | 0.6038 | 0.3208 | −28.3 pp | 0.8412* | 0.6957 | −14.6 pp |
 
-*Structured val F1 from retrieval_off run (0.8535); memory_read_only val F1 was 0.8269.
+*Structured val F1 from retrieval_off + memory_read_only rerun (0.8412); prior retrieval_off run was 0.8535.
 
 ## Interpretation
 
-1. **Vanilla paper config (r=1, retrieval=off + postprocess) đạt EM=0.7170 val** — vượt prior SOTA r=3 bm25 (+3.8 pp); +7.6 pp vs cùng config trước postprocess.
+1. **Vanilla paper config (r=1, retrieval=off + postprocess) đạt EM=0.7358 val** — vượt prior SOTA r=3 bm25 (+5.7 pp).
 2. **Vanilla vẫn tốt nhất trên test** (EM 0.38 vs 0.32 structured) — khớp hướng validation.
-3. **Fine-tuned reader** đạt EM=0.5849 trên val — vượt generic reader (+22.6 pp) và structured r=1 (+9.4 pp); chưa vượt vanilla.
+3. **Fine-tuned reader** đạt EM=0.5849 trên val — vượt generic reader (+22.6 pp), nhưng thấp hơn cả structured rerun (0.6038) và vanilla (0.7358).
 4. **BM25 + reader** vẫn giảm performance kể cả với fine-tuned checkpoint.
 5. **Cả hai LLM method giảm mạnh trên test** (~30–34 pp EM với paper config) — không tune trên test.
 6. **F1 giảm ít hơn EM** — nhiều lỗi partial overlap (prefix/list answers).
@@ -84,6 +84,7 @@ checkpoint: checkpoints/legal_qa_reader/best_model
 - `docs/experiments/reader_metrics/finetuned_reader_val_metrics.json`
 - `docs/experiments/reader_metrics/tuned_bm25_reader_val_metrics.json`
 - Full history: `docs/experiments/p1_ablation_summary.csv`
+- Validation error analysis (rerun 2026-06-29): `docs/experiments/error_analysis_val_rerun_20260629.md`
 
 ## Next Steps
 
