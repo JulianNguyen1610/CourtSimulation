@@ -16,6 +16,9 @@ Prediction rules (strict):
   (e.g. "100.000.000 đồng", "07 năm", "01 tháng").
 - Do not paraphrase, summarize, or add extra words in the "prediction" field.
 - Put any explanation only in the "reasoning" field, not in "prediction".
+- Never expand a shorter correct span into a longer one. If the Proponent's
+  proposed answer is already grounded in context, keep it as-is.
+- The "prediction" must contain NO MORE than 15 words.
 
 Return valid JSON only:
 {{

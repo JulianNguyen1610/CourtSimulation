@@ -71,3 +71,11 @@ flowchart TD
 - Pilot case: `data/processed/case_01_theft.json`.
 - CLI: `python -m src.main --run-courtroom --llm mock`.
 - Dataset candidates: SimuCourt (`load_simucourt`), VLegal-Bench (`load_vlegal`), CAIL2018, congbobanan (planned).
+
+## Trạng Thái Thí Nghiệm (2026-06-30)
+
+- **Config chính:** `JudgeMediatedOrchestrator` — judge LLM chọn action tiếp theo; method `debate_judge_mediated`.
+- **Validation 53:** judge_mediated EM=0.6792 (+7.5 pp vs fixed 0.6038); vanilla r=1 retrieval=off EM=0.7358.
+- **Test 53 (one-shot):** judge_mediated EM=0.3962 — best debate on test; val→test gap ~28 pp.
+- **Artifacts:** `docs/experiments/orchestrator_ablation/`, `docs/experiments/test_metrics/`, `docs/experiments/results-summary.md`.
+- **Còn lại paper-ready:** appendix case studies, limitations paragraph.

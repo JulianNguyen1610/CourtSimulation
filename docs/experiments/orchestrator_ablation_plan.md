@@ -21,6 +21,23 @@ So sánh hai cách điều phối Phase 1 structured debate trên **cùng config
 | **B (primary)** | `judge_mediated` | `debate_judge_mediated` | Judge điều phối — **config chính dự án** (val EM 0.6792) |
 | A (legacy ablation) | `fixed` | `debate` | Turn order Python; EM ref 0.6038 |
 
+## Kết quả (validation 53, 2026-06-29)
+
+| Variant | EM | F1 |
+|---|---:|---:|
+| fixed | 0.6038 | 0.8135 |
+| **judge_mediated (primary)** | **0.6792** | **0.8640** |
+
+## Kết quả test (one-shot 2026-06-30)
+
+| Method | EM | F1 |
+|---|---:|---:|
+| **judge_mediated** | **0.3962** | 0.6915 |
+| vanilla | 0.3774 | 0.7712 |
+| fixed | 0.3208 | 0.6957 |
+
+**Status:** Hoàn tất. Config chính = judge_mediated.
+
 Mọi thứ khác giữ nguyên (model, temperature, postprocess).
 
 ## Lệnh chạy
@@ -114,4 +131,6 @@ Chạy qua đêm với `--continue-on-error` nếu một variant fail giữa ch�
 ## Reference
 
 - Fixed baseline rerun: `docs/experiments/rerun_20260629/validation_debate/` (EM 0.6038)
+- Judge-mediated test: `docs/experiments/test_metrics/judge_mediated_test_metrics.json` (EM 0.3962)
 - Error analysis fixed: `docs/experiments/error_analysis_val_rerun_20260629.md`
+- Error analysis test: `docs/experiments/test_metrics/error_analysis_judge_mediated_test.md`

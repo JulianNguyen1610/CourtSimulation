@@ -79,7 +79,8 @@
 ### B.1 Core debate loop
 
 - [x] **B.1.1** `DebateAgent` — private strategy → public argument
-- [x] **B.1.2** `DebateOrchestrator` — n-round proponent/opponent/judge
+- [x] **B.1.2** `DebateOrchestrator` — n-round proponent/opponent/judge (fixed turn order)
+- [x] **B.1.2b** `JudgeMediatedOrchestrator` — judge LLM điều phối (**config chính**)
 - [x] **B.1.3** `JudgeAgent.update_belief()` mỗi round
 - [x] **B.1.4** `JudgeAgent.render_verdict()` cuối session
 - [x] **B.1.5** JSON parse + fallback + optional retry
@@ -88,6 +89,7 @@
 - [x] **B.1.8** Early stop theo `early_stop_confidence` (flag có, chưa tune)
 - [x] **B.1.9** Optional judge question (`enable_judge_question`)
 - [x] **B.1.10** Lưu `DebateResult` JSON artifact
+- [x] **B.1.11** `JudgeAgent.decide_control_action()` + orchestrator ablation (fixed vs judge_mediated, val EM +7.5 pp)
 
 **Acceptance:** 1 case, 2 rounds → transcript 4 turns + 2 belief updates + verdict.
 
@@ -148,8 +150,8 @@ python -m src.main --run-debate --include-uts-vlc --retrieval-method bm25_rerank
 - [x] **B.4.8** JSON recovery khi output bị cắt token (direct/cot)
 - [x] **B.4.9** Bảng so sánh đầy đủ baselines validation 53 — qwen3.5:9b, 6 methods + ablation
 
-**Kết quả validation 53 (qwen3.5:9b + reader):** vanilla EM=0.6792; finetuned_reader EM=0.5849; structured r=1 EM=0.4906; extractive_qa EM=0.3585; direct EM=0.2453.  
-**Kết quả test 53 (one-shot):** vanilla EM=0.3774; structured optimized EM=0.3208.
+**Kết quả validation 53 (qwen3.5:9b, 2026-06-29/30):** vanilla r=1 retrieval=off EM=**0.7358**; **judge_mediated EM=0.6792** (primary); fixed debate EM=0.6038; finetuned_reader EM=0.5849; structured r=1 EM=0.4906; direct EM=0.2453.  
+**Kết quả test 53 (one-shot):** vanilla EM=0.3774; fixed debate EM=0.3208; **judge_mediated EM=0.3962** (2026-06-30, primary).
 
 ---
 
@@ -162,7 +164,7 @@ python -m src.main --run-debate --include-uts-vlc --retrieval-method bm25_rerank
 - [ ] **B.5.5** Bật `--enable-llm-evaluator` cho subset validation
 - [x] **B.5.6** `scripts/error_analysis.py` — taxonomy + cross-method direct vs debate
 - [x] **B.5.7** Error analysis run `20260619T212113Z_validation_both`: debate wins 17 / direct wins 4 / both OK 9 / both wrong 23; OVER_EXTRACTION dominant; 4 regression cases documented
-- [x] **B.5.8** Test split — chạy 1 lần (2026-06-27): vanilla EM=0.3774, structured EM=0.3208
+- [x] **B.5.8** Test split — vanilla + fixed (2026-06-27); **judge_mediated** (2026-06-30, EM=0.3962)
 
 **Acceptance:** `metrics.json` có `metrics_by_method` và `fallbacks.fallback_rate`.
 
@@ -433,7 +435,7 @@ python -m src.main --run-courtroom --llm gemini --courtroom-case data/processed/
 | F. Repro & docs | 14 | 12 | 1 | 1 |
 | **Tổng** | **144** | **105** | **10** | **29** |
 
-*Cập nhật 2026-06-27: ablation matrix + test split + results-summary hoàn tất.*
+*Cập nhật 2026-06-30: judge_mediated primary config; test one-shot + error analysis hoàn tất.*
 
 ---
 
@@ -442,7 +444,8 @@ python -m src.main --run-courtroom --llm gemini --courtroom-case data/processed/
 ### Milestone M1: Phase 1 paper-ready
 
 - [x] B.7 ablations bắt buộc — rounds + retrieval + memory + features done
-- [x] B.5.8 test split chạy 1 lần (vanilla 0.3774, structured 0.3208 EM)
+- [x] B.5.8 test split (vanilla, fixed, **judge_mediated primary**)
+- [x] Judge-mediated orchestrator ablation + error analysis (val + test)
 - [x] Error analysis — run `20260619T212113Z_validation_both` + 4 regression cases
 - [x] Claim metric evidence — debate > direct (val); vanilla > structured; test reported with val/test gap
 

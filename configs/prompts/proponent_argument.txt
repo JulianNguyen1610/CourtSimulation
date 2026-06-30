@@ -16,4 +16,7 @@ Rules:
 - Copy the proposed answer verbatim from the legal context when possible.
 - Preserve original numbers, punctuation, digit grouping, and units exactly.
 - Do not translate, paraphrase, or expand the proposed answer into a full sentence.
+- The proposed answer must be the SHORTEST extractive span that fully answers the
+  question. Do not include surrounding context, full clauses, or penalty descriptions.
+  Example: if the answer is "07 năm", state "07 năm" — NOT "phạt tù từ 02 năm đến 07 năm".
 - Keep the argument under {argument_max_tokens} tokens.

@@ -38,6 +38,7 @@ python -c "from src.reader.finetune_reader import check_reader_training_dependen
 - Semantic rerank và embedding memory lazy-load model; chỉ bật khi môi trường sẵn sàng.
 - UTS_VLC loader dùng Hugging Face `datasets`; cần internet/cache dataset nếu chưa tải.
 - Không tune hyperparameter/prompt trên test split.
+- **Orchestrator mặc định (2026-06-30):** `judge_mediated` trong `configs/default.yaml`, `configs/ollama.yaml`, CLI `--orchestrator`; legacy repro `--orchestrator fixed`.
 
 ## Setup
 ```powershell

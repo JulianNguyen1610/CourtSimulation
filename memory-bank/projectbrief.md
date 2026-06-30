@@ -30,6 +30,13 @@
 - Thẩm phán đưa ra được bản án cuối cùng trích dẫn đúng điều khoản luật và có lập luận logic dựa trên diễn biến tranh luận.
 - Kết quả phán quyết (tội danh, khung hình phạt) có sự cải thiện về tính hợp lý và độ chính xác so với việc để một LLM đơn lẻ phân tích trực tiếp hồ sơ vụ án.
 
+## Tiến Độ Phase 1 (2026-06-30)
+
+- **Config chính đã chốt:** judge-mediated orchestration (`JudgeMediatedOrchestrator`) trên ViLQA/ALQAC.
+- **Validation 53:** judge_mediated EM=0.6792 (+7.5 pp vs fixed debate); vanilla EM=0.7358.
+- **Test 53:** judge_mediated EM=0.3962 — debate tốt nhất trên test split.
+- **Còn lại:** appendix case studies + limitations cho báo cáo paper-ready.
+
 ## Ràng Buộc
 - **Tài nguyên**: Giới hạn về API key và chi phí gọi mô hình ngôn ngữ lớn (OpenAI, Anthropic, Gemini hoặc các mô hình mã nguồn mở như Llama/Qwen).
 - **Ngữ cảnh**: Chiều dài ngữ cảnh (Context Window) bị giới hạn khi cuộc tranh luận diễn ra qua nhiều lượt đối thoại dài.

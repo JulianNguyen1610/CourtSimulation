@@ -1,6 +1,6 @@
 # Multi-Agent Courtroom Simulation — Tình Trạng & Mô Tả Dự Án
 
-> Cập nhật: 2026-06-17  
+> Cập nhật: 2026-06-30  
 > Liên quan: [Phân tích kỹ thuật](./advanced-techniques-analysis.md) · [Checklist triển khai](./implementation-checklist.md)
 
 ---
@@ -35,7 +35,7 @@ Retrieve legal evidence     [BM25 ± semantic rerank ± UTS_VLC]
 Retrieve past memory        [regulations / experiences / cases]
     ↓
 Debate loop (n rounds)
-    Proponent → Opponent → Judge (belief update)
+    Judge-mediated: Judge chọn action → Proponent/Opponent → belief update
     [optional: judge question, early stop, closing statements]
     ↓
 Judge verdict (JSON)
@@ -67,7 +67,7 @@ LJPEvaluator
 flowchart TD
     CLI[src/main.py] --> P1[BaselineBatchRunner]
     CLI --> Court[CourtroomSession]
-    P1 --> Orch[DebateOrchestrator]
+    P1 --> Orch[JudgeMediatedOrchestrator / DebateOrchestrator]
     Court --> Proto[CourtroomProtocol]
     Orch --> Ret[LegalRetriever + Reranker]
     Orch --> Mem[MemoryStore]
@@ -136,7 +136,8 @@ flowchart TD
 
 - [x] `DebateAgent`: private strategy → public argument/rebuttal.
 - [x] `JudgeAgent`: belief tracking, verdict JSON, fallback + retry, `fallback_rate` trong metrics.
-- [x] `DebateOrchestrator`: n-round loop, closing statements, optional judge question, early stop theo confidence.
+- [x] `JudgeMediatedOrchestrator`: judge LLM điều phối (`decide_control_action`) — **config chính**.
+- [x] `DebateOrchestrator`: turn order cố định — legacy ablation.
 - [x] `LegalRetriever`: BM25 lexical trên train contexts.
 - [x] `SemanticReranker`: BGE-m3 / lexical fallback.
 - [x] UTS_VLC corpus loader (optional, `--include-uts-vlc`).
@@ -171,17 +172,16 @@ flowchart TD
 
 | Thí nghiệm | Model | Split | EM | F1 | Ghi chú |
 |---|---|---|---:|---:|---|
-| **Vanilla debate** | qwen3.5:9b | val 53 | **0.679** | **0.940** | SOTA val |
-| Structured optimized | qwen3.5:9b | val 53 | 0.585 | 0.854 | retrieval=off |
-| Structured r=1 baseline | qwen3.5:9b | val 53 | 0.491 | 0.812 | bm25 default |
-| Direct | qwen3.5:9b | val 53 | 0.245 | 0.663 | fair config |
-| CoT | qwen3.5:9b | val 53 | 0.472 | 0.861 | |
-| **Vanilla debate** | qwen3.5:9b | **test 53** | **0.377** | **0.771** | B.5.8 one-shot |
-| Structured optimized | qwen3.5:9b | test 53 | 0.321 | 0.696 | retrieval=off, memory=RO |
-| Ablation matrix | qwen3.5:9b | val 53 | — | — | 6 variants, run 20260626T104936Z |
+| **Judge-mediated (primary)** | qwen3.5:9b | val 53 | **0.679** | 0.864 | orchestrator ablation |
+| **Judge-mediated (primary)** | qwen3.5:9b | **test 53** | **0.396** | 0.691 | one-shot 2026-06-30 |
+| Vanilla r=1 retrieval=off | qwen3.5:9b | val 53 | 0.736 | 0.930 | baseline EM |
+| Fixed debate optimized | qwen3.5:9b | val 53 | 0.604 | 0.841 | legacy orchestrator |
+| Vanilla debate | qwen3.5:9b | test 53 | 0.377 | 0.771 | baseline test |
+| Fixed debate | qwen3.5:9b | test 53 | 0.321 | 0.696 | legacy test |
+| Direct | qwen3.5:9b | val 53 | 0.245 | 0.663 | |
 | Courtroom smoke | MockLLM | case_01 | — | — | Phase 3 kỹ thuật OK |
 
-**Claim hợp lệ:** vanilla > structured > direct (val); debate > direct (+100% EM val). Báo cáo val/test gap trên test (−30 pp EM vanilla).
+**Claim hợp lệ:** Judge-mediated > fixed debate (val +7.5 pp, test +7.5 pp EM). Primary architecture = judge-coordinated multi-agent. Vanilla EM val cao hơn nhưng không có judge điều phối. Báo cáo val/test gap (~28 pp primary).
 
 Chi tiết: [`docs/experiments/results-summary.md`](./experiments/results-summary.md), [`p1_ablation_summary.csv`](./experiments/p1_ablation_summary.csv).
 
@@ -189,8 +189,8 @@ Chi tiết: [`docs/experiments/results-summary.md`](./experiments/results-summar
 
 ## 7. Đang thực hiện
 
-- Phase 3 courtroom pilot LLM thật (D.3.8, D.4.5).
-- Mapping SimuCourt / VLegal-Bench (planned).
+- Phase 1 report: appendix case studies + limitations
+- Phase 3 courtroom pilot LLM thật (sau Phase 1 report)
 
 ---
 
@@ -202,7 +202,8 @@ Chi tiết: [`docs/experiments/results-summary.md`](./experiments/results-summar
 - [ ] Human evaluation rubric (E.2).
 - [ ] Case study transcript appendix (F.2.8).
 - [x] Ablation matrix P1 — done 2026-06-26.
-- [x] Test split one-shot — done 2026-06-27.
+- [x] Test split one-shot judge_mediated — done 2026-06-30 (EM 0.3962).
+- [x] Orchestrator ablation + error analysis — done 2026-06-29/30.
 - [x] Báo cáo results-summary + ablation-analysis.
 
 ---

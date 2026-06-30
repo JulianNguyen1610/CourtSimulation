@@ -1,6 +1,6 @@
 # Results Summary — Legal QA Debate
 
-Updated: 2026-06-29
+Updated: 2026-06-30
 
 ## Validation 53 (qwen3.5:9b / fine-tuned reader, spark-063e)
 
@@ -31,29 +31,30 @@ Checkpoint: `checkpoints/legal_qa_reader/best_model` (deepset/xlm-roberta-base-s
 | extractive_qa (reference) | 0.3585 | 0.6413 | — |
 | bm25_reader (reference) | 0.1887 | 0.4557 | — |
 
-**Takeaways:** Fine-tuning là **non-LLM baseline mạnh nhất** trên val 53 (EM bằng structured+retrieval_off, F1 thấp hơn). BM25 vẫn làm giảm EM (−5.7 pp vs reader-only), cùng pattern ablation retrieval trên debate.
+**Takeaways:** Fine-tuning là non-LLM baseline mạnh nhất trên val. BM25 làm giảm EM reader và debate.
 
-## Test 53 — B.5.8 one-shot (2026-06-27)
+## Test 53 — one-shot (frozen config)
 
 | Method | Config | EM | F1 | Fallback | Hits |
 |---|---|---:|---:|---:|---:|
-| **vanilla** | default | **0.3774** | **0.7712** | 0 | 20/53 |
-| structured (optimized) | retrieval=off, memory=read_only, r=1 | 0.3208 | 0.6957 | 1.9% | 17/53 |
+| **judge_mediated** (primary, 2026-06-30) | r=1, retrieval=off, memory=RO | **0.3962** | 0.6915 | 0.94% | 21/53 |
+| vanilla (2026-06-27) | default | 0.3774 | 0.7712 | 0 | 20/53 |
+| fixed debate (2026-06-27) | r=1, retrieval=off, memory=RO | 0.3208 | 0.6957 | 1.9% | 17/53 |
 
-**Val → test gap:**
+**Val → test gap (primary):**
 
-| Method | Val EM | Test EM | Δ EM | Val F1 | Test F1 | Δ F1 |
-|---|---:|---:|---:|---:|---:|---:|
-| vanilla (paper config val) | 0.7358 | 0.3774 | −35.8 pp | 0.9295 | 0.7712 | −15.8 pp |
-| vanilla (prior r=3 bm25 val) | 0.6792 | 0.3774 | −30.2 pp | 0.9401 | 0.7712 | −16.9 pp |
-| structured (optimized) | 0.6038 | 0.3208 | −28.3 pp | 0.8412* | 0.6957 | −14.6 pp |
-
-*Structured val F1 from retrieval_off + memory_read_only rerun (0.8412); prior retrieval_off run was 0.8535.
+| Method | Val EM | Test EM | Δ EM |
+|---|---:|---:|---:|
+| **judge_mediated** | 0.6792 | 0.3962 | −28.3 pp |
+| vanilla r=1 retrieval=off | 0.7358 | 0.3774 | −35.8 pp |
+| fixed debate optimized | 0.6038 | 0.3208 | −28.3 pp |
 
 ## Interpretation
 
-1. **Vanilla** (r=1, retrieval=off) là **baseline so sánh** EM cao nhất val (0.7358) nhưng không có judge điều phối đa tác tử.
-2. **Judge-mediated** là **config chính** cho claim kiến trúc và báo cáo (val EM 0.6792).
+1. **Judge-mediated** = config chính (val EM 0.6792, test EM 0.3962); best debate on test (+7.5 pp vs fixed).
+2. **Vanilla** = baseline EM cao nhất val (0.7358) nhưng không phản ánh judge-coordinated multi-agent.
+3. Val→test gap ~28–36 pp — báo cáo trong limitations; không tune trên test.
+4. Lỗi chính test: OVER_EXTRACTION (59%); nhiều near-miss do prefix span.
 
 ## Orchestrator ablation (validation 53, 2026-06-29)
 
@@ -74,7 +75,7 @@ rounds: 1
 retrieval: off
 memory: read_only
 closing: on
-# val EM=0.6792, F1=0.8640
+# val EM=0.6792, F1=0.8640; test EM=0.3962, F1=0.6915
 
 # Baseline comparison
 method: vanilla
@@ -93,15 +94,18 @@ checkpoint: checkpoints/legal_qa_reader/best_model
 
 ## Artifacts
 
+- `docs/experiments/test_metrics/judge_mediated_test_metrics.json`
+- `docs/experiments/test_metrics/error_analysis_judge_mediated_test.md`
 - `docs/experiments/test_metrics/vanilla_test_metrics.json`
 - `docs/experiments/test_metrics/debate_optimized_test_metrics.json`
 - `docs/experiments/reader_metrics/finetuned_reader_val_metrics.json`
 - `docs/experiments/reader_metrics/tuned_bm25_reader_val_metrics.json`
 - Full history: `docs/experiments/p1_ablation_summary.csv`
-- Validation error analysis (rerun 2026-06-29): `docs/experiments/error_analysis_val_rerun_20260629.md`
+- Orchestrator ablation + head-to-head: `docs/experiments/orchestrator_ablation/20260629T123354Z/`
+- Test judge_mediated: `docs/experiments/test_metrics/judge_mediated_test/predictions.csv`
 
 ## Next Steps
 
-- Phase 3 courtroom pilot LLM thật (D.3.8)
-- Optional: finetuned_reader test split one-shot (sau khi chốt — không tune trên test)
-- Human eval subset (E.2)
+- Appendix case studies + limitations paragraph
+- Phase 3 courtroom pilot LLM thật (sau Phase 1 report)
+- Optional: postprocess prefix rules (validate on val only)

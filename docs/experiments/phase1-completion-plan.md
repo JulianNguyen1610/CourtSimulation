@@ -1,6 +1,6 @@
 # Phase 1 Completion Plan — Paper-Ready (M1+)
 
-Updated: 2026-06-27  
+Updated: 2026-06-30  
 Scope: Hoàn thành tốt Phase 1 ViLQA trước khi chuyển Phase 3.
 
 ---
@@ -11,143 +11,105 @@ Scope: Hoàn thành tốt Phase 1 ViLQA trước khi chuyển Phase 3.
 |---|---|
 | Baselines val 53 (LLM + reader) | Done |
 | Ablation matrix (retrieval/memory/rounds/features) | Done |
-| Test one-shot (vanilla + structured optimized) | Done |
+| Orchestrator ablation (fixed vs judge_mediated) | Done (+7.5 pp EM val) |
+| **Judge-mediated = project primary** | **Chốt** |
+| Postprocess v2 + validation rerun | Done (vanilla 0.7358, fixed 0.6038) |
+| Error analysis val (orchestrator head-to-head) | Done |
+| Test one-shot vanilla + fixed debate | Done (2026-06-27) |
+| **Test one-shot judge_mediated** | **Done** (EM=0.3962, 2026-06-30) |
+| Error analysis test (judge_mediated) | Done |
 | Fine-tuned reader val 53 | Done |
-| Error analysis val (structured vs direct) | Done |
-| Error analysis **test** | **Todo** |
-| Postprocess prefix/list fixes | **Done** (vanilla re-val EM=0.7170) |
-| Vanilla + retrieval=off ablation | **Done** (0.7358 val; baseline so sánh) |
-| **Judge-mediated = project primary** | **Chốt** (val EM=0.6792, F1=0.8640) |
-| Test one-shot judge_mediated | **Todo** |
-| Paper tables + limitations section | **Partial** |
+| Paper tables + limitations + appendix | **In progress** (tables done; appendix + limitations pending) |
 
 ---
 
 ## Definition of Done — Phase 1
 
-1. Bảng kết quả **đầy đủ** val 53 (mọi method chính) + test 53 (frozen config).
-2. Ablation **có kết luận** (retrieval off, memory, r=1, closing).
-3. Error analysis **cả val và test** với taxonomy thống nhất.
-4. Không tune trên test; mọi cải tiến postprocess/prompt verify trên **validation** trước.
-5. `results-summary.md` + `p1_ablation_summary.csv` + appendix case study (2–3 cases).
+1. [x] Bảng kết quả val 53 + test 53 (frozen primary config).
+2. [x] Ablation có kết luận (retrieval, memory, r=1, closing, orchestrator).
+3. [x] Error analysis val + test (taxonomy thống nhất).
+4. [x] Không tune trên test.
+5. [x] `results-summary.md` (2026-06-30).
+6. [ ] Appendix case study (2–3 cases) + limitations paragraph.
 
 ---
 
-## Tuần 1 — Chốt chất lượng metric (P0)
+## Frozen primary config
 
-### 1.1 Postprocess & evaluation fixes
-
-- [x] Strip prefix `Sau` khi span còn lại có trong context (`answer_postprocess.py`)
-- [x] Re-run **validation** vanilla sau fix → EM=0.7170, F1=0.9142 (r=1, retrieval=off)
-- [ ] Re-run **validation** structured optimized sau fix; ghi delta EM/F1
-- [ ] List-answer (vilqa-499): **không** sửa metric chính — báo cáo riêng `LIST_ANSWER` trong error analysis
-- [ ] Optional: `relaxed_em` trong error report (prefix-insensitive) — analysis only
-
-**Lệnh re-val (server):**
-
-```bash
-python -m src.main --config configs/ollama.yaml --run-batch \
-  --split validation --method vanilla --retrieval-method off --rounds 1 \
-  --llm local --local-model qwen3.5:9b --limit 0
-
-python -m src.main --config configs/ollama.yaml --run-batch \
-  --split validation --method debate --retrieval-method off \
-  --memory-mode read_only --rounds 1 --llm local --local-model qwen3.5:9b --limit 0
-
-# Sau khi chạy xong — error analysis (thay RUN_DIR):
-python -m scripts.error_analysis outputs/vilqa_multi_agent_baseline/RUN_DIR --compare debate
+```yaml
+method: debate
+orchestrator: judge_mediated
+rounds: 1
+retrieval: off
+memory: read_only
+closing: on
 ```
 
-### 1.2 Error analysis test split
-
-Cần `predictions.csv` từ test runs (đã có metrics JSON).
-
-```bash
-python -m scripts.error_analysis outputs/.../<vanilla_test_run> --compare vanilla
-python -m scripts.error_analysis outputs/.../<structured_test_run> --compare debate
-```
-
-Deliverable: `error_analysis_test.md` — top failure modes giải thích val→test gap (−30 pp).
-
-### 1.3 Vanilla config chưa thử
-
-Ablation tốt nhất cho structured: `retrieval=off`. Vanilla chưa chắc đã chạy với `retrieval=off`.
-
-- Chạy **test one-shot** judge_mediated (frozen primary config)
-- **Không** chạy lại test trừ khi đã frozen config mới trên validation
+| Split | EM | F1 |
+|---|---:|---:|
+| Validation 53 | 0.6792 | 0.8640 |
+| Test 53 (one-shot) | 0.3962 | 0.6915 |
 
 ---
 
-## Tuần 2 — Báo cáo & reproducibility (P0)
+## Còn lại (P0 report)
 
-### 2.1 Bảng paper
+### Appendix case studies
 
-| Table | Nguồn |
-|---|---|
-| Main results val | `results-summary.md` |
-| Test one-shot | `test_metrics/*.json` |
-| Ablation | `p1_ablation_summary.csv` |
-| Reader baselines | `reader_metrics/*.json` |
-| Error taxonomy | `error_analysis.md` (val + test) |
-
-### 2.2 Case studies (appendix)
-
-Chọn 3 cases từ error analysis:
-
-1. **vilqa-236** — prefix duration (đã fix postprocess)
+1. **vilqa-236** — prefix duration (postprocess)
 2. **vilqa-499** — list answer (limitation)
-3. 1 case vanilla đúng / structured sai (debate value)
+3. Một case judge_mediated sửa fixed (val head-to-head, e.g. vilqa-359)
 
-### 2.3 Reproducibility
+### Limitations paragraph
+
+- Val→test gap ~28 pp (primary)
+- Strict EM / prefix sensitivity (~10 near-miss test)
+- OVER_EXTRACTION dominant
+- Vanilla EM val > judge-mediated (không claim EM SOTA)
+
+### Optional (chỉ sau khi validate trên val)
+
+- Postprocess: `phải`, `dùng`, `kể từ` prefix rules
+- `enable_llm_evaluator` subset N=20
+
+**Không làm:** re-test, BM25 retrieval, rounds>1, fine-tune LLM cho orchestrator.
+
+---
+
+## Claims an toàn (có evidence)
+
+1. Judge-mediated debate **điều phối bởi Judge** — config chính dự án.
+2. Judge-mediated **+7.5 pp EM val** vs fixed orchestrator (0.6792 vs 0.6038).
+3. Judge-mediated **best debate EM on test** (0.3962 vs fixed 0.3208).
+4. Retrieval BM25 **giảm** EM; memory read-only **tăng** EM structured.
+5. Val→test generalization yếu (~28 pp EM primary) — limitations.
+6. Vanilla EM val cao nhất (0.7358) — baseline so sánh, không phải primary architecture.
+
+---
+
+## Checklist nhanh
+
+```
+[x] Judge-mediated primary config
+[x] Orchestrator ablation val
+[x] Test one-shot judge_mediated
+[x] Error analysis val + test (primary)
+[ ] Appendix 3 case studies
+[ ] Limitations paragraph
+[ ] Final paper tables sync
+```
+
+---
+
+## Lệnh tham chiếu
 
 ```bash
-python -m unittest discover -s tests -q
-python scripts/verify_reader_deps.py
-bash scripts/run_p1_ablations.sh          # dry-run commands
+# Test one-shot (đã chạy 2026-06-30)
+bash scripts/run_test_judge_mediated.sh --execute
+
+# So sánh orchestrator predictions
+python scripts/compare_orchestrator_predictions.py
+
+# Error analysis
+python scripts/error_analysis.py docs/experiments/test_metrics/judge_mediated_test
 ```
-
-Ghi trong paper: split seed=42, model qwen3.5:9b, Ollama context 8192.
-
----
-
-## Tuần 3 — Optional improvements (P1, chỉ nếu tuần 1–2 xong)
-
-| Thí nghiệm | Kỳ vọng | Rủi ro |
-|---|---|---|
-| Hybrid reader → judge rerank | F1↑, EM~giữ | Effort trung bình |
-| PhoBERT reader fine-tune | EM reader↑ | Train lại 1 lần |
-| `enable_llm_evaluator` subset N=20 | Rubric scores | API cost |
-
-**Không làm:** BM25 retrieval, rounds>1, tune trên test, nhiều lần test cherry-pick.
-
----
-
-## Claims an toàn (đã có evidence)
-
-1. Vanilla self-debate > structured debate trên val 53 (qwen3.5:9b).
-2. Retrieval BM25 **giảm** EM (debate và reader).
-3. Memory read-only **tăng** EM structured (+9.4 pp).
-4. Fine-tuned reader = best non-LLM baseline (EM 0.5849 val).
-5. Test generalization yếu hơn val (~30 pp EM) — báo cáo + error analysis.
-
----
-
-## Checklist nhanh (copy vào PR / báo cáo)
-
-```
-[ ] Re-val sau postprocess fix
-[ ] Error analysis test split
-[ ] Vanilla retrieval=off (val only)
-[ ] Cập nhật CSV nếu có run mới
-[ ] Appendix 3 case studies
-[ ] Limitations paragraph (val/test gap, strict EM, list answers)
-[ ] Không mở Phase 3 courtroom cho đến khi 6 mục trên xong
-```
-
----
-
-## Thứ tự ưu tiên (3 việc đầu)
-
-1. **Re-run validation** vanilla + structured optimized (sau fix `Sau`)
-2. **Error analysis test** từ predictions đã có
-3. **Viết limitations** + case studies từ error analysis

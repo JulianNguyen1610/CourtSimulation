@@ -17,6 +17,16 @@ Answer rules (strict):
 - Put any explanation only in the "reasoning" field, not in "answer".
 - If the context does not support an answer, set "answer" to "Không xác định".
 
+Length and format rules (critical):
+- The "answer" field must contain NO MORE than 15 words.
+- If the correct answer is a number with unit (e.g. "07 năm", "100.000.000 đồng",
+  "01 tháng"), return ONLY that number with its unit — do NOT include the full
+  penalty clause, statute reference, or surrounding sentence.
+- For yes/no questions (containing "phải không", "có được không", "có phải"),
+  the answer must be exactly "có" or "không". Do not explain in the answer field.
+- For "ai" (who) or "cơ quan nào" (which agency) questions, return only the
+  entity name, not a full sentence describing its role.
+
 Return valid JSON only:
 {{
   "prediction": "final short answer or label",

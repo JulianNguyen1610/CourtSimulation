@@ -49,6 +49,23 @@ Dự án đề xuất một framework đa tác tử mô phỏng phiên tòa gồ
 - Theo dõi `fallback_rate` của judge; fallback cao làm giảm giá trị kết luận về debate.
 - Không claim cải thiện nếu chưa có metric trên cùng split và cùng evaluation code.
 
+## Kết quả thí nghiệm Phase 1 (2026-06-30)
+
+Config chính: `orchestrator: judge_mediated`, r=1, retrieval=off, memory=read_only, closing=on.
+
+| Split | Method | EM | F1 | Ghi chú |
+|---|---|---:|---:|---|
+| Validation 53 | **judge_mediated** (primary) | **0.6792** | 0.8640 | +7.5 pp vs fixed orchestrator |
+| Validation 53 | vanilla r=1 retrieval=off | 0.7358 | 0.9295 | EM baseline (không judge điều phối) |
+| Validation 53 | fixed debate | 0.6038 | 0.8412 | legacy ablation |
+| Test 53 | **judge_mediated** | **0.3962** | 0.6915 | best debate EM on test |
+| Test 53 | vanilla | 0.3774 | 0.7712 | |
+| Test 53 | fixed debate | 0.3208 | 0.6957 | |
+
+**Claim kiến trúc:** Judge-mediated > fixed debate trên cả val và test. Val→test gap ~28 pp — báo cáo trong limitations.
+
+**Còn lại paper-ready:** appendix case studies (vilqa-236, vilqa-499, +1 head-to-head win), limitations paragraph.
+
 ## Thiết Kế P1 Theo Related Work
 - **AgentsCourt/RAG**: retrieval pipeline gồm BM25 rough top-n, optional semantic rerank, và external legal corpus UTS_VLC để evidence không chỉ đến từ ALQAC train contexts.
 - **MASER / AgentCourt-AdvEvol**: memory tách `regulations`, `experiences`, `cases`; hỗ trợ read-only hoặc read+update, reflection prompt, dedup/limit, và embedding retrieval.
