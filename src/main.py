@@ -224,7 +224,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--orchestrator",
         choices=["fixed", "judge_mediated"],
         default=None,
-        help="Phase 1 debate control: fixed turn order or judge-mediated coordination.",
+        help="Phase 1 debate control (default from config: judge_mediated).",
     )
     parser.add_argument("--enable-llm-evaluator", action="store_true")
     parser.add_argument(
@@ -398,7 +398,7 @@ def resolve_debate_settings(raw_config: dict[str, Any], args: argparse.Namespace
         "max_evidence_chars": limits.get("max_evidence_chars"),
         "max_history_turns": limits.get("max_history_turns"),
         "max_history_chars": limits.get("max_history_chars"),
-        "orchestrator": args.orchestrator or debate.get("orchestrator", "fixed"),
+        "orchestrator": args.orchestrator or debate.get("orchestrator", "judge_mediated"),
     }
 
 
@@ -618,7 +618,7 @@ def main() -> None:
         legal_retriever = LegalRetriever.from_cases(split.train)
         memory_store = MemoryStore.load(args.memory_path)
         orchestrator = create_debate_orchestrator(
-            debate_settings.get("orchestrator", "fixed"),
+            debate_settings.get("orchestrator", "judge_mediated"),
             proponent=DebateAgent("proponent", role_clients["proponent"]),
             opponent=DebateAgent("opponent", role_clients["opponent"]),
             judge=JudgeAgent(role_clients["judge"]),

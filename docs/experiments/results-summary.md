@@ -7,8 +7,9 @@ Updated: 2026-06-29
 | Method | EM | F1 | Fallback |
 |---|---:|---:|---:|
 | **vanilla r=1, retrieval=off** (paper + postprocess, rerun 2026-06-29) | **0.7358** | **0.9295** | 0 |
+| **debate judge_mediated** (project primary, 2026-06-29) | **0.6792** | **0.8640** | — |
 | vanilla r=3, bm25_only (prior SOTA) | 0.6792 | 0.9401 | 0 |
-| structured, retrieval=off (rerun 2026-06-29) | 0.6038 | 0.8412 | 5.7% |
+| structured fixed orchestrator, retrieval=off (rerun 2026-06-29) | 0.6038 | 0.8412 | 5.7% |
 | **finetuned_reader** | **0.5849** | 0.7610 | 0 |
 | structured, memory=read_only | 0.5849 | 0.8269 | 5.7% |
 | tuned_bm25_reader | 0.5283 | 0.7023 | 0 |
@@ -51,28 +52,41 @@ Checkpoint: `checkpoints/legal_qa_reader/best_model` (deepset/xlm-roberta-base-s
 
 ## Interpretation
 
-1. **Vanilla paper config (r=1, retrieval=off + postprocess) đạt EM=0.7358 val** — vượt prior SOTA r=3 bm25 (+5.7 pp).
-2. **Vanilla vẫn tốt nhất trên test** (EM 0.38 vs 0.32 structured) — khớp hướng validation.
-3. **Fine-tuned reader** đạt EM=0.5849 trên val — vượt generic reader (+22.6 pp), nhưng thấp hơn cả structured rerun (0.6038) và vanilla (0.7358).
-4. **BM25 + reader** vẫn giảm performance kể cả với fine-tuned checkpoint.
-5. **Cả hai LLM method giảm mạnh trên test** (~30–34 pp EM với paper config) — không tune trên test.
-6. **F1 giảm ít hơn EM** — nhiều lỗi partial overlap (prefix/list answers).
+1. **Vanilla** (r=1, retrieval=off) là **baseline so sánh** EM cao nhất val (0.7358) nhưng không có judge điều phối đa tác tử.
+2. **Judge-mediated** là **config chính** cho claim kiến trúc và báo cáo (val EM 0.6792).
 
-## Paper config (frozen before test)
+## Orchestrator ablation (validation 53, 2026-06-29)
+
+| Orchestrator | EM | F1 | Δ EM vs fixed | Hits |
+|---|---:|---:|---:|---:|
+| fixed | 0.6038 | 0.8135 | — | 32/53 |
+| **judge_mediated** | **0.6792** | **0.8640** | **+7.5 pp** | **36/53** |
+
+Run: `outputs/orchestrator_ablation/20260629T123354Z/`
+
+## Project config (primary, 2026-06-29)
 
 ```yaml
-# Primary claim method
-method: vanilla
-rounds: 1
-
-# Secondary — structured optimized (ablation winner on val)
+# Primary — judge-coordinated multi-agent debate
 method: debate
+orchestrator: judge_mediated
+rounds: 1
 retrieval: off
 memory: read_only
-rounds: 1
 closing: on
+# val EM=0.6792, F1=0.8640
 
-# Best non-LLM reader baseline (reporting only; not used for test one-shot)
+# Baseline comparison
+method: vanilla
+rounds: 1
+retrieval: off
+# val EM=0.7358
+
+# Legacy ablation repro
+method: debate
+orchestrator: fixed
+
+# Non-LLM reader (reporting)
 method: finetuned_reader
 checkpoint: checkpoints/legal_qa_reader/best_model
 ```

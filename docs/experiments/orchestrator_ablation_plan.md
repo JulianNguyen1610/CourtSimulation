@@ -18,8 +18,8 @@ So sánh hai cách điều phối Phase 1 structured debate trên **cùng config
 
 | Variant | `orchestrator` | Method trong metrics | Giả thuyết |
 |---|---|---|---|
-| **A (baseline)** | `fixed` | `debate` | Turn order Python ổn định; EM ref **0.6038** (rerun 2026-06-29) |
-| **B (proposed)** | `judge_mediated` | `debate_judge_mediated` | Judge chọn action tiếp theo → tranh luận gọn, ít over-extract |
+| **B (primary)** | `judge_mediated` | `debate_judge_mediated` | Judge điều phối — **config chính dự án** (val EM 0.6792) |
+| A (legacy ablation) | `fixed` | `debate` | Turn order Python; EM ref 0.6038 |
 
 Mọi thứ khác giữ nguyên (model, temperature, postprocess).
 

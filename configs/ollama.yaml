@@ -30,6 +30,7 @@ memory:
 
 debate:
   rounds: 1
+  orchestrator: judge_mediated
   argument_max_tokens: 200
   include_closing_statements: true
   enable_judge_question: false

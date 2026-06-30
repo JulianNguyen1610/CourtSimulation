@@ -60,6 +60,7 @@ class AblationVariant:
     roles: str
     closing: bool = True
     judge_question: bool = False
+    orchestrator: str = "fixed"  # historical P1 ablations used fixed turn order
 
     @property
     def method(self) -> str:
@@ -266,6 +267,8 @@ def build_command(
         command.append("--disable-closing-statements")
     if variant.judge_question:
         command.append("--enable-judge-question")
+    if variant.orchestrator != "judge_mediated":
+        command += ["--orchestrator", variant.orchestrator]
     return command
 
 
@@ -293,6 +296,7 @@ def read_latest_metrics(
                 "judge": variant.judge,
                 "closing": str(variant.closing),
                 "judge_question": str(variant.judge_question),
+                "orchestrator": variant.orchestrator,
                 "roles": variant.roles,
                 "exact_match": str(values.get("exact_match", "")),
                 "f1": str(values.get("f1", "")),

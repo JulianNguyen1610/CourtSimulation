@@ -34,9 +34,13 @@
   - Fix: chạy `_sanitize_entry()` trên mọi default entry; thêm `"prediction"` vào sanitize keys.
   - 4 new unit tests `MemoryLeakPreventionTest` — 35 total tests pass.
 
+- **Orchestrator ablation + config chính (2026-06-29)**:
+  - Judge-mediated là default project config (`orchestrator: judge_mediated`)
+  - Val 53: judge_mediated EM=0.6792, F1=0.8640 (+7.5 pp vs fixed 0.6038)
+  - Run: `outputs/orchestrator_ablation/20260629T123354Z/`
 - **P1 test split one-shot (2026-06-27)**:
  - Vanilla test 53: EM=0.3774, F1=0.7712
- - Structured optimized test 53: EM=0.3208, F1=0.6957 (retrieval=off, memory=read_only)
+ - Structured fixed test 53: EM=0.3208, F1=0.6957 (retrieval=off, memory=read_only)
  - Metrics: `docs/experiments/test_metrics/`
 - **Fine-tuned reader (2026-06-27, spark-063e)**:
  - Train: `checkpoints/legal_qa_reader/best_model` (XLM-R, 5 epochs, train-only)
@@ -61,8 +65,9 @@
 | Rank | Method | EM | F1 |
 |---:|---|---:|---:|
 | 1 | Vanilla debate (r=1, retrieval=off, rerun 2026-06-29) | **0.7358** | **0.9295** |
-| 2 | Vanilla debate (r=3, bm25_only) | 0.6792 | 0.9401 |
-| 3 | Structured, retrieval=off + memory=read_only (rerun 2026-06-29) | 0.6038 | 0.8412 |
+| 2 | **Judge-mediated debate** (project primary) | **0.6792** | **0.8640** |
+| 3 | Vanilla debate (r=3, bm25_only) | 0.6792 | 0.9401 |
+| 4 | Structured fixed, retrieval=off + memory=read_only | 0.6038 | 0.8412 |
 | 4 | Structured, retrieval=off | 0.5849 | 0.8535 |
 | 4 | **Finetuned reader** | **0.5849** | 0.7610 |
 | 5 | Structured, memory=read_only | 0.5849 | 0.8269 |

@@ -16,8 +16,9 @@ Scope: Hoàn thành tốt Phase 1 ViLQA trước khi chuyển Phase 3.
 | Error analysis val (structured vs direct) | Done |
 | Error analysis **test** | **Todo** |
 | Postprocess prefix/list fixes | **Done** (vanilla re-val EM=0.7170) |
-| Vanilla + retrieval=off ablation | **Done** (0.7170, paper config) |
-| Structured optimized re-val postprocess | **Todo** (next) |
+| Vanilla + retrieval=off ablation | **Done** (0.7358 val; baseline so sánh) |
+| **Judge-mediated = project primary** | **Chốt** (val EM=0.6792, F1=0.8640) |
+| Test one-shot judge_mediated | **Todo** |
 | Paper tables + limitations section | **Partial** |
 
 ---
@@ -72,8 +73,8 @@ Deliverable: `error_analysis_test.md` — top failure modes giải thích val→
 
 Ablation tốt nhất cho structured: `retrieval=off`. Vanilla chưa chắc đã chạy với `retrieval=off`.
 
-- Chạy val 53 → nếu EM > 0.6792, cập nhật paper config
-- **Không** chạy lại test trừ khi val cải thiện rõ và đã frozen config mới
+- Chạy **test one-shot** judge_mediated (frozen primary config)
+- **Không** chạy lại test trừ khi đã frozen config mới trên validation
 
 ---
 

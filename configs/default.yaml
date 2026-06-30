@@ -49,8 +49,8 @@ memory:
     - read_update
 
 debate:
-  rounds: 3
-  orchestrator: fixed  # fixed | judge_mediated
+  rounds: 1
+  orchestrator: judge_mediated  # primary: judge coordinates debate; use fixed for legacy ablation repro
   argument_max_tokens: 500
   include_closing_statements: true
   enable_judge_question: false
@@ -60,6 +60,9 @@ debate:
     opponent: challenges_answer
     judge: decides_answer
   ablations:
+    orchestrator:
+      - judge_mediated
+      - fixed
     rounds:
       - 1
       - 3

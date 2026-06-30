@@ -35,7 +35,7 @@ Dự án đề xuất một framework đa tác tử mô phỏng phiên tòa gồ
 1. **Direct Prediction (Single-Agent)**: Đưa toàn bộ hồ sơ vụ án vào một LLM đơn lẻ và yêu cầu nó đưa ra tội danh, điều luật áp dụng và mức án trực tiếp.
 2. **Chain of Thought (CoT - Single-Agent)**: Yêu cầu một LLM lập luận từng bước (phân tích cáo trạng -> xem xét bằng chứng -> áp dụng điều luật -> ra phán quyết) trước khi đưa ra kết luận.
 3. **Vanilla Debate**: Hai tác tử tranh luận tự do không phân vai cụ thể và không có quy trình tố tụng kiểm soát, sau đó đưa ra kết luận đồng thuận.
-4. **Structured Debate (Phase 1)**: `proponent` và `opponent` tranh luận có prompt riêng; `JudgeAgent` cập nhật belief từng vòng và đưa verdict JSON cuối.
+4. **Structured Debate (Phase 1, config chính)**: `proponent` và `opponent` tranh luận; **JudgeAgent điều phối** (`judge_mediated`) chọn lượt tiếp theo, cập nhật belief, và đưa verdict JSON. `fixed` orchestrator (turn order Python) chỉ dùng cho ablation legacy.
 5. **Extractive QA Reader**: mBERT/PhoBERT/XLM-R style reader trên context để tạo strong floor cho QA.
 6. **BM25 + Reader**: Retrieve top-k context bằng BM25-lite rồi đưa vào reader, tương ứng hướng RAG trong AgentsCourt.
 
@@ -53,5 +53,5 @@ Dự án đề xuất một framework đa tác tử mô phỏng phiên tòa gồ
 - **AgentsCourt/RAG**: retrieval pipeline gồm BM25 rough top-n, optional semantic rerank, và external legal corpus UTS_VLC để evidence không chỉ đến từ ALQAC train contexts.
 - **MASER / AgentCourt-AdvEvol**: memory tách `regulations`, `experiences`, `cases`; hỗ trợ read-only hoặc read+update, reflection prompt, dedup/limit, và embedding retrieval.
 - **LLM-as-judge evaluation**: EM/F1 là automated metrics có gold answer; legal accuracy, argument quality, logical consistency là rubric evaluation không đưa gold answer vào prompt.
-- **AgenticSimLaw / Courtroom-LLM**: debate loop có closing statements, optional judge follow-up, early stopping theo confidence.
+- **AgenticSimLaw / Courtroom-LLM / AgentsCourt**: debate loop có **judge điều phối** (`judge_mediated` — config chính), closing statements, optional judge follow-up, early stopping theo confidence.
 - **Ablation study**: biến chính gồm retrieval (`off/bm25_only/bm25_rerank`), memory (`off/read_only/read_update`), rounds (`1/3/5`), judge (`off/on`), roles (`proponent-opponent/prosecutor-defense`). Phase 1 chỉ implement role `proponent-opponent`; `prosecutor-defense` dành cho Phase 2 courtroom/LJP.

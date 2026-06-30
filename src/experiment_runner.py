@@ -103,7 +103,7 @@ class BatchRunConfig:
     reader_max_seq_length: int = 384
     reader_doc_stride: int = 128
     reader_max_answer_length: int = 50
-    orchestrator: OrchestratorMode = "fixed"
+    orchestrator: OrchestratorMode = "judge_mediated"
 
 
 def select_split(
