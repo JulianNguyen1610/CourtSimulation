@@ -64,7 +64,7 @@ class Phase4EvaluationRunnerTest(unittest.TestCase):
             self.assertEqual(metrics["num_predictions"], 4)
             self.assertEqual(len(rows), 4)
             self.assertIn("direct", metrics["metrics_by_method"])
-            self.assertIn("debate", metrics["metrics_by_method"])
+            self.assertIn("debate_judge_mediated", metrics["metrics_by_method"])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,51 @@
+﻿# SO SÁNH SỐ ROUND KHÁC NHAU
+
+## Validation Split (53 cases) - qwen3.5:9b
+### Cấu hình: retrieval=bm25_only, memory=read_only, judge=on
+
+| Rounds | Exact Match | F1 Score | Parse Attempts | Fallback Rate |
+|--------|-------------|----------|----------------|---------------|
+| 1      | 0.5660      | 0.8564   | 106            | 1.89%         |
+| 3      | 0.4717      | 0.7983   | 212            | 2.36%         |
+| 5      | 0.5283      | 0.8373   | 318            | 0.94%         |
+
+### Phân tích xu hướng:
+
+**Exact Match:**
+- Round 1: 0.5660 (cao nhất) ✓
+- Round 3: 0.4717 (thấp nhất) ✗
+- Round 5: 0.5283 (trung bình)
+- Delta 1→3: -9.43 pp (giảm đáng kể)
+- Delta 3→5: +5.66 pp (phục hồi một phần)
+- Delta 1→5: -3.77 pp (vẫn thấp hơn baseline)
+
+**F1 Score:**
+- Round 1: 0.8564 (cao nhất)
+- Round 3: 0.7983 (thấp nhất) 
+- Round 5: 0.8373 (phục hồi gần baseline)
+- Delta 1→3: -5.81 pp
+- Delta 3→5: +3.90 pp
+- Delta 1→5: -1.91 pp
+
+**Fallback Rate:**
+- Tăng từ round 1→3 (1.89% → 2.36%)
+- Giảm mạnh ở round 5 (0.94%) - model ổn định hơn với nhiều vòng
+
+### Kết luận chính:
+
+1. **Hiệu ứng phi tuyến:** Tăng số round KHÔNG đơn điệu cải thiện kết quả
+2. **Round 3 là điểm yếu:** Cả EM và F1 đều thấp nhất ở 3 rounds
+3. **Round 1 tối ưu cho validation:** Đơn giản nhưng hiệu quả nhất
+4. **Round 5 cải thiện so với round 3** nhưng vẫn kém round 1
+
+### Giả thuyết nguyên nhân:
+
+- **Round 1:** Đủ để judge tổng hợp thông tin mà không bị nhiễu
+- **Round 3:** Tranh luận dài làm tăng noise, judge bị phân tâm bởi nhiều luận điểm
+- **Round 5:** Càng nhiều vòng, agents có thể hội tụ về câu trả lời tốt hơn nhưng vẫn không bằng quyết định ban đầu
+
+### Hàm ý thực nghiệm:
+
+- Nên dùng **rounds=1** làm baseline chính
+- Rounds=3,5 cho thấy trade-off: complexity cost > debate benefit
+- Cần kiểm tra trên test split để xác nhận xu hướng này

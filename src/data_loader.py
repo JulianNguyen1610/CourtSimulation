@@ -69,32 +69,42 @@ def load_vilqa_csv(path: str | Path) -> list[CaseProfile]:
 
 def split_cases(
     cases: list[CaseProfile],
-    train_ratio: float,
-    validation_ratio: float,
+    train_count: int,
+    test_count: int,
     seed: int,
 ) -> DatasetSplit:
-    """Split cases without fitting any preprocessing on validation/test data."""
-
-    if not 0.0 < train_ratio < 1.0:
-        raise ValueError("train_ratio must be between 0 and 1.")
-    if not 0.0 <= validation_ratio < 1.0:
-        raise ValueError("validation_ratio must be between 0 and 1.")
-    if train_ratio + validation_ratio >= 1.0:
-        raise ValueError("train_ratio + validation_ratio must be less than 1.")
+    """Split cases into train/validation/test with fixed counts.
+    
+    Args:
+        cases: All cases to split
+        train_count: Number of cases for training (e.g., 200)
+        test_count: Number of cases for testing (e.g., 200)
+        seed: Random seed for reproducibility
+        
+    Returns:
+        DatasetSplit with train/validation/test splits.
+        Validation gets all remaining cases.
+    """
+    total = len(cases)
+    if train_count + test_count >= total:
+        raise ValueError(
+            f"train_count ({train_count}) + test_count ({test_count}) "
+            f"must be less than total cases ({total})"
+        )
+    if train_count <= 0 or test_count <= 0:
+        raise ValueError("train_count and test_count must be positive")
 
     shuffled = list(cases)
     random.Random(seed).shuffle(shuffled)
 
-    train_end = int(len(shuffled) * train_ratio)
-    validation_end = train_end + int(len(shuffled) * validation_ratio)
+    train_end = train_count
+    validation_end = total - test_count
 
     return DatasetSplit(
         train=shuffled[:train_end],
         validation=shuffled[train_end:validation_end],
         test=shuffled[validation_end:],
     )
-
-
 def load_court_case_json(path: str | Path) -> CourtCase:
     """Load one structured courtroom LJP case from JSON."""
 
