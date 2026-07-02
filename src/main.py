@@ -44,8 +44,8 @@ def build_parser() -> argparse.ArgumentParser:
         default=Path("data/ALQAC.csv"),
         help="Path to ViLQA/ALQAC CSV file.",
     )
-    parser.add_argument("--train-ratio", type=float, default=0.8)
-    parser.add_argument("--validation-ratio", type=float, default=0.1)
+    parser.add_argument("--train-count", type=int, default=200)
+    parser.add_argument("--test-count", type=int, default=200)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument(
         "--run-courtroom",
@@ -480,8 +480,8 @@ def main() -> None:
     cases = load_vilqa_csv(args.dataset)
     split = split_cases(
         cases,
-        train_ratio=args.train_ratio,
-        validation_ratio=args.validation_ratio,
+        train_count=args.train_count,
+        test_count=args.test_count,
         seed=args.seed,
     )
 
