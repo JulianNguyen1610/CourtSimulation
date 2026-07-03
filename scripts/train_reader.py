@@ -50,16 +50,16 @@ def build_parser() -> argparse.ArgumentParser:
         help="Path to ALQAC CSV file.",
     )
     parser.add_argument(
-        "--train-ratio",
-        type=float,
-        default=0.8,
-        help="Train split ratio.",
+        "--train-count",
+        type=int,
+        default=200,
+        help="Number of cases for training.",
     )
     parser.add_argument(
-        "--validation-ratio",
-        type=float,
-        default=0.1,
-        help="Validation split ratio.",
+        "--test-count",
+        type=int,
+        default=200,
+        help="Number of cases for testing.",
     )
     parser.add_argument(
         "--seed",
@@ -133,8 +133,8 @@ def run_training(args: argparse.Namespace) -> Path:
     cases = load_vilqa_csv(args.dataset)
     split = split_cases(
         cases,
-        train_ratio=args.train_ratio,
-        validation_ratio=args.validation_ratio,
+        train_count=args.train_count,
+        test_count=args.test_count,
         seed=args.seed,
     )
 
@@ -180,8 +180,8 @@ def run_evaluation(args: argparse.Namespace) -> None:
     cases = load_vilqa_csv(args.dataset)
     split = split_cases(
         cases,
-        train_ratio=args.train_ratio,
-        validation_ratio=args.validation_ratio,
+        train_count=args.train_count,
+        test_count=args.test_count,
         seed=args.seed,
     )
 
