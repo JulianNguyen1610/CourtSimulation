@@ -25,13 +25,16 @@ flowchart TD
 ## Thành Phần Cốt Lõi
 1. **src/main.py**: CLI smoke/batch entry point. Đọc configs/default.yaml, split dataset, resolve LLM config theo role, và chạy single debate hoặc batch.
 2. **BaselineBatchRunner (src/experiment_runner.py)**: Chạy các method direct, cot, anilla, debate, oth, ll, extractive_qa, m25_reader; lưu predictions.csv, metrics.json, config.json.
-3. **JudgeMediatedOrchestrator** (src/judge_mediated_orchestrator.py) — **orchestrator mặc định**: judge chọn action tiếp theo (call_proponent, call_opponent, sk_question, equest_closing, end_debate). **DebateOrchestrator** (src/orchestrator.py): turn order cố định trong Python (legacy ablation).
+3. **JudgeMediatedOrchestrator** (src/judge_mediated_orchestrator.py) — **orchestrator mặc định**: judge chọn action tiếp theo (call_proponent, call_opponent, sk_question, 
+equest_closing, end_debate). **DebateOrchestrator** (src/orchestrator.py): turn order cố định trong Python (legacy ablation).
 4. **DebateAgent (src/agents/debate_agent.py)**: Mỗi lượt gồm private strategy và public argument/rebuttal; có thêm closing statement trước verdict.
 5. **JudgeAgent (src/agents/judge_agent.py)**: Parse belief/verdict JSON, hỗ trợ JSON trong markdown fence, retry 1 lần với LLM thật khi JSON invalid, hỏi follow-up optional, và ghi fallback count.
 6. **src/llm.py**: Định nghĩa LLMClient protocol, MockLLM, OpenAILLM, GeminiLLM, LocalLLM, LLMConfig, factory theo role. API key đọc từ env, không hard-code.
 7. **src/baselines.py**: Direct LLM, CoT LLM, Vanilla Debate, optional Hugging Face extractive QA reader, BM25 + reader.
-8. **LegalRetriever + eranker.py**: BM25 rough retrieval, optional semantic rerank (BAAI/bge-m3/multilingual models), UTS_VLC legal corpus loader, metadata rticle_id, law_name, source_type.
-9. **MemoryStore (src/memory/memory_store.py)**: Three-tier memory tách egulations, experiences, cases; mode off/read_only/read_update; lexical hoặc embedding retrieval; dedup/limit; reflection prompt optional.
+8. **LegalRetriever + 
+eranker.py**: BM25 rough retrieval, optional semantic rerank (BAAI/bge-m3/multilingual models), UTS_VLC legal corpus loader, metadata rticle_id, law_name, source_type.
+9. **MemoryStore (src/memory/memory_store.py)**: Three-tier memory tách 
+egulations, experiences, cases; mode off/read_only/read_update; lexical hoặc embedding retrieval; dedup/limit; reflection prompt optional.
 10. **EvaluatorAgent (src/agents/evaluator_agent.py)**: LLM-as-judge rubric cho Phase 1.
 11. **Phase 3 courtroom (src/courtroom/)**: CourtroomProtocol định nghĩa turn order; CourtroomSession điều phối opening → debate → closing → deliberation → ruling.
 12. **Phase 3 agents**: ProsecutorAgent, DefenseAgent, DefendantAgent, BaseLegalAgent; JudgeAgent có thêm LJP methods; compat.py alias Phase 1.
@@ -66,7 +69,9 @@ flowchart TD
 
 ## Ablation Matrix P1
 - Retrieval: off, m25_only, m25_rerank.
-- Memory: off, ead_only, ead_update.
+- Memory: off, 
+ead_only, 
+ead_update.
 - Debate rounds: 1, 3, 5.
 - Judge: off qua anilla, on qua debate.
 - Orchestrator: **judge_mediated (default)** | ixed (legacy ablation repro).

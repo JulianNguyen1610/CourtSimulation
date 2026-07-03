@@ -572,15 +572,19 @@ def _extract_squad_answer_span(
 def _tokenize_squad_data(
     squad_dict: dict[str, Any],
     tokenizer,
-    config: ReaderConfig,
+    config: "ReaderConfig",
 ) -> list[dict[str, Any]]:
     """Tokenize SQuAD2-format data and return features for training.
 
-    Uses Hugging Face's SQuAD-style tokenization approach:
-    - Split long contexts into overlapping windows (doc_stride)
-    - Locate answer start/end token positions
-    - Mark impossible questions (no answer span)
+    Compatible with both fast and slow tokenizers. When the tokenizer does
+    not support ``return_offset_mapping`` (e.g. PhoBERT), spans are located
+    by tokenizing the answer text and matching its token-id sequence
+    inside each feature window.
     """
+    supports_offsets = bool(
+        getattr(tokenizer, "is_fast", False)
+        and getattr(tokenizer, "mapping", None) is not None
+    )
     features: list[dict[str, Any]] = []
 
     for article in squad_dict.get("data", []):
@@ -594,19 +598,20 @@ def _tokenize_squad_data(
                     is_impossible=is_impossible,
                 )
 
-                # Tokenize with truncation and stride
-                tokenized = tokenizer(
-                    question_text,
-                    context_text,
+                tokenize_kwargs = dict(
                     max_length=config.max_seq_length,
                     stride=config.doc_stride,
                     truncation="only_second",
                     return_overflowing_tokens=True,
-                    return_offsets_mapping=True,
                     padding="max_length",
                 )
+                if supports_offsets:
+                    tokenize_kwargs["return_offsets_mapping"] = True
 
-                # Find answer span in context
+                tokenized = tokenizer(
+                    question_text, context_text, **tokenize_kwargs
+                )
+
                 if answer_text is not None and answer_start_char is not None:
                     answer_end_char = answer_start_char + len(answer_text)
 
@@ -621,10 +626,8 @@ def _tokenize_squad_data(
                             start_position = 0
                             end_position = 0
 
-                            if offset_mapping and i < len(offset_mapping):
+                            if supports_offsets and offset_mapping and i < len(offset_mapping):
                                 offsets = offset_mapping[i]
-
-                                # Find token positions that overlap with answer
                                 for idx, (os_start, os_end) in enumerate(offsets):
                                     if os_start == 0 and os_end == 0:
                                         continue
@@ -632,6 +635,12 @@ def _tokenize_squad_data(
                                         start_position = idx
                                     if os_start < answer_end_char <= os_end:
                                         end_position = idx
+                            else:
+                                start_position, end_position = _locate_answer_slow(
+                                    input_ids_list[i],
+                                    answer_text,
+                                    tokenizer,
+                                )
 
                             feature = {
                                 "input_ids": input_ids_list[i],
@@ -641,20 +650,26 @@ def _tokenize_squad_data(
                             }
                             features.append(feature)
                     else:
-                        # Single feature (short context)
-                        offsets = offset_mapping[0] if offset_mapping else []
-                        start_position = 0
-                        end_position = 0
-                        for idx, (os_start, os_end) in enumerate(offsets):
-                            if os_start == 0 and os_end == 0:
-                                continue
-                            if os_start <= answer_start_char < os_end:
-                                start_position = idx
-                            if os_start < answer_end_char <= os_end:
-                                end_position = idx
+                        input_ids = tokenized["input_ids"]
+                        attention_mask = tokenized["attention_mask"]
+                        if supports_offsets and offset_mapping:
+                            offsets = offset_mapping[0]
+                            start_position = 0
+                            end_position = 0
+                            for idx, (os_start, os_end) in enumerate(offsets):
+                                if os_start == 0 and os_end == 0:
+                                    continue
+                                if os_start <= answer_start_char < os_end:
+                                    start_position = idx
+                                if os_start < answer_end_char <= os_end:
+                                    end_position = idx
+                        else:
+                            start_position, end_position = _locate_answer_slow(
+                                input_ids, answer_text, tokenizer
+                            )
                         feature = {
-                            "input_ids": tokenized["input_ids"],
-                            "attention_mask": tokenized["attention_mask"],
+                            "input_ids": input_ids,
+                            "attention_mask": attention_mask,
                             "start_positions": start_position,
                             "end_positions": end_position,
                         }
@@ -680,6 +695,28 @@ def _tokenize_squad_data(
                         features.append(feature)
 
     return features
+
+
+def _locate_answer_slow(
+    input_ids: list[int],
+    answer_text: str,
+    tokenizer,
+) -> tuple[int, int]:
+    """Locate answer token positions for slow tokenizers.
+
+    Tokenizes the answer and searches for its token-id sequence inside
+    ``input_ids``. Returns (0, 0) when no match is found.
+    """
+    if not answer_text or not input_ids:
+        return 0, 0
+    answer_ids = tokenizer.encode(answer_text, add_special_tokens=False)
+    if not answer_ids:
+        return 0, 0
+    n = len(answer_ids)
+    for i in range(len(input_ids) - n + 1):
+        if input_ids[i : i + n] == answer_ids:
+            return i, i + n - 1
+    return 0, 0
 
 
 def _compute_squad_metrics(eval_pred) -> dict[str, float]:

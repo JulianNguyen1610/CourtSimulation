@@ -112,6 +112,9 @@
 |---|---:|---:|---|
 | **judge_mediated v1 (current)** | **0.7358** | **0.4528** | 	est_metrics/judge_mediated_v1_test_metrics.json |
 | judge_mediated v0 | 0.6792 | 0.3962 | orchestrator_ablation/, 	est_metrics/ |
-| vanilla r=1 retrieval=off | 0.7358 | 0.3774 | erun_20260629/, anilla_test_metrics.json |
-| fixed debate optimized | 0.6038 | 0.3208 | erun_20260629/, debate_optimized_test_metrics.json |
-| finetuned_reader | 0.5849 | — | eader_metrics/ |
+| vanilla r=1 retrieval=off | 0.7358 | 0.3774 | 
+erun_20260629/, anilla_test_metrics.json |
+| fixed debate optimized | 0.6038 | 0.3208 | 
+erun_20260629/, debate_optimized_test_metrics.json |
+| finetuned_reader | 0.5849 | — | 
+eader_metrics/ |
