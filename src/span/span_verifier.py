@@ -1,0 +1,3 @@
+from src.models import SpanCandidate, AnswerTypeProfile, SpanVerificationResult
+def verify_span(candidate:SpanCandidate, context:str, profile:AnswerTypeProfile) -> SpanVerificationResult:
+ l0=context[candidate.start_offset:candidate.end_offset]==candidate.text; l1=candidate.start_offset>=0 and candidate.end_offset<=len(context); l2=profile.answer_type in (candidate.answer_type,'free_span'); return SpanVerificationResult(span_id=candidate.span_id,levels={'L0_extractiveness':'pass' if l0 else 'fail','L1_boundary':'pass' if l1 else 'fail','L2_relevance':'pass' if l2 else 'fail','L3_sufficiency':'unknown','L4_dominance':'unknown'},passed=l0 and l1 and l2)

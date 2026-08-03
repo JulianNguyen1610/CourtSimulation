@@ -37,7 +37,9 @@ retrieval:
       - source_type
 
 memory:
-  path: memory-bank/baseline_memory.json
+  # Historical baseline_memory.json is retained but may be contaminated.
+  # New validation/test experiments use this empty or reviewed train-only snapshot.
+  path: memory-bank/train_only_memory.json
   mode: read_only
   retrieval: lexical
   embedding_model: intfloat/multilingual-e5-large

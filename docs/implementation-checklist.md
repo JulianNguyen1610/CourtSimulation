@@ -1,6 +1,13 @@
 # Checklist Triển Khai Chi Tiết — Legal Court Simulation
 
-> Cập nhật: 2026-06-27  
+> Cập nhật: 2026-07-10  
+
+## Milestone 0 — validity protocol
+
+- [x] Unified YAML-first config plus resolved config artifacts
+- [x] Frozen ALQAC split manifest with SHA256 and ID validation
+- [x] Memory isolation and validation/test read-only guard
+- [x] Reader checkpoint provenance and overlap validation
 > Liên quan: [Tình trạng dự án](./project-status-and-overview.md) · [Phân tích kỹ thuật](./advanced-techniques-analysis.md)
 
 **Chú thích trạng thái**

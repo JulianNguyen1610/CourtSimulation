@@ -1,0 +1,53 @@
+{
+  "dataset_sha256": "2921ec33bdca13d328a41e67250da1be669d483ae3a76b05895fd5fa7a26571e",
+  "split_manifest_hash": "511b105fc508c71df94350a1f40578d3fe2ff21bcd18f0bfd86624a32d3b8c95",
+  "memory_snapshot_hash": "c0686eebd0ca32ab505cedb5bc7c3b006edac66de9d711903ce91b421f4ad367",
+  "contaminated": false,
+  "resolved_config": {
+    "name": "vilqa_multi_agent_simple_baseline",
+    "seed": 42,
+    "output_dir": "outputs\\vilqa_multi_agent_baseline",
+    "dataset": {
+      "path": "data\\ALQAC.csv",
+      "split": {
+        "seed": 42,
+        "strategy": "ratios",
+        "train_ratio": 0.8,
+        "validation_ratio": 0.1,
+        "test_ratio": 0.1
+      },
+      "split_manifest": "data\\splits\\alqac_v1.json"
+    },
+    "method": {
+      "rounds": 1,
+      "method": "both",
+      "limit": 10
+    },
+    "retrieval": {
+      "legal_evidence_top_k": 5,
+      "past_memory_top_k": 5,
+      "method": "bm25_only",
+      "rough_top_n": 100,
+      "reranker_model": "BAAI/bge-m3"
+    },
+    "memory": {
+      "path": "memory-bank\\train_only_memory.json",
+      "mode": "read_only",
+      "retrieval": "lexical",
+      "max_entries_per_bucket": 1000,
+      "embedding_model": "intfloat/multilingual-e5-large"
+    },
+    "prompt_budget": {
+      "argument_max_tokens": 500,
+      "max_context_chars": null,
+      "max_evidence_docs": null,
+      "max_evidence_chars": null,
+      "max_history_turns": null,
+      "max_history_chars": null
+    },
+    "evaluation": {
+      "default_split": "validation",
+      "enable_llm_evaluator": false
+    }
+  }
+}

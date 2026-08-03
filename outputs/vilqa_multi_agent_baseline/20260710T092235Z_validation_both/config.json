@@ -1,0 +1,163 @@
+{
+  "split_name": "validation",
+  "method": "both",
+  "limit": 1,
+  "resolved_num_cases": 1,
+  "rounds": 1,
+  "evidence_top_k": 5,
+  "memory_top_k": 5,
+  "output_dir": "outputs\\vilqa_multi_agent_baseline",
+  "memory_path": "memory-bank\\train_only_memory.json",
+  "update_memory": false,
+  "save_debate_artifacts": false,
+  "llm_backend": "mock",
+  "model": "gemini-2.0-flash",
+  "gemini_model": "gemini-2.0-flash",
+  "temperature": 0.1,
+  "max_output_tokens": 1024,
+  "top_p": 0.95,
+  "role_llm_configs": {
+    "direct": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "cot": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "vanilla": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.3,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "proponent": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "opponent": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "judge": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "evaluator": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.0,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "prosecutor": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "defense": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "defendant": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.4,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    }
+  },
+  "extractive_qa_model": "deepset/xlm-roberta-base-squad2",
+  "retrieval_method": "bm25_only",
+  "retrieval_rough_top_n": 100,
+  "retrieval_reranker_model": "BAAI/bge-m3",
+  "include_uts_vlc": false,
+  "uts_vlc_dataset": "VietnamAIHub/UTS_VLC",
+  "uts_vlc_split": "train",
+  "uts_vlc_limit": null,
+  "memory_mode": "read_only",
+  "memory_retrieval": "lexical",
+  "memory_max_entries": 1000,
+  "memory_embedding_model": "intfloat/multilingual-e5-large",
+  "include_closing_statements": true,
+  "enable_judge_question": false,
+  "early_stop_confidence": null,
+  "enable_llm_evaluator": false,
+  "finetuned_reader_path": "checkpoints/legal_qa_reader/best_model",
+  "reader_max_seq_length": 384,
+  "reader_doc_stride": 128,
+  "reader_max_answer_length": 50,
+  "orchestrator": "judge_mediated",
+  "dataset_sha256": "2921ec33bdca13d328a41e67250da1be669d483ae3a76b05895fd5fa7a26571e",
+  "split_manifest_hash": "511b105fc508c71df94350a1f40578d3fe2ff21bcd18f0bfd86624a32d3b8c95",
+  "memory_snapshot_hash": "c0686eebd0ca32ab505cedb5bc7c3b006edac66de9d711903ce91b421f4ad367",
+  "contaminated": false,
+  "resolved_config": {
+    "name": "vilqa_multi_agent_simple_baseline",
+    "seed": 42,
+    "output_dir": "outputs\\vilqa_multi_agent_baseline",
+    "dataset": {
+      "path": "data\\ALQAC.csv",
+      "split": {
+        "seed": 42,
+        "strategy": "ratios",
+        "train_ratio": 0.8,
+        "validation_ratio": 0.1,
+        "test_ratio": 0.1
+      },
+      "split_manifest": "data\\splits\\alqac_v1.json"
+    },
+    "method": {
+      "rounds": 1,
+      "method": "both",
+      "limit": 10
+    },
+    "retrieval": {
+      "legal_evidence_top_k": 5,
+      "past_memory_top_k": 5,
+      "method": "bm25_only",
+      "rough_top_n": 100,
+      "reranker_model": "BAAI/bge-m3"
+    },
+    "memory": {
+      "path": "memory-bank\\train_only_memory.json",
+      "mode": "read_only",
+      "retrieval": "lexical",
+      "max_entries_per_bucket": 1000,
+      "embedding_model": "intfloat/multilingual-e5-large"
+    },
+    "prompt_budget": {
+      "argument_max_tokens": 500,
+      "max_context_chars": null,
+      "max_evidence_docs": null,
+      "max_evidence_chars": null,
+      "max_history_turns": null,
+      "max_history_chars": null
+    },
+    "evaluation": {
+      "default_split": "validation",
+      "enable_llm_evaluator": false
+    }
+  }
+}

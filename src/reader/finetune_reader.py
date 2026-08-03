@@ -698,16 +698,23 @@ def _tokenize_squad_data(
 
 
 def _locate_answer_slow(
-    input_ids: list[int],
+    input_ids,
     answer_text: str,
     tokenizer,
 ) -> tuple[int, int]:
     """Locate answer token positions for slow tokenizers.
 
     Tokenizes the answer and searches for its token-id sequence inside
-    ``input_ids``. Returns (0, 0) when no match is found.
+    ``input_ids``. Handles both 1D list and scalar int (when tokenizer
+    returns flat input_ids without overflow). Returns (0, 0) when no
+    match is found.
     """
-    if not answer_text or not input_ids:
+    if not answer_text:
+        return 0, 0
+    if not isinstance(input_ids, (list, tuple)):
+        # No multi-token match possible against a single int
+        return 0, 0
+    if not input_ids:
         return 0, 0
     answer_ids = tokenizer.encode(answer_text, add_special_tokens=False)
     if not answer_ids:

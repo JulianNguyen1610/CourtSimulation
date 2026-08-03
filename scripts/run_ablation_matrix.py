@@ -17,6 +17,8 @@ import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 
 SCRIPT_VERSION = "2026-06-26-p1"
 
@@ -85,6 +87,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--version", action="version", version=f"%(prog)s {SCRIPT_VERSION}")
     parser.add_argument("--config", default="configs/default.yaml")
+    parser.add_argument("--split-manifest", default=None, help="Frozen manifest forwarded to every run.")
     parser.add_argument(
         "--llm",
         default="mock",
@@ -249,6 +252,8 @@ def build_command(
         "--output-dir",
         str(output_root / variant.name),
     ]
+    if args.split_manifest:
+        command += ["--split-manifest", args.split_manifest]
     if args.local_model:
         command += ["--local-model", args.local_model]
     if args.local_endpoint:

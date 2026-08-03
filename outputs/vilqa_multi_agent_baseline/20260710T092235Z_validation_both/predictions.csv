@@ -1,0 +1,3 @@
+case_id,split,method,question,gold_answer,predicted_answer,exact_match,f1,output_path
+vilqa-112,validation,direct,Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?,"người đang chiếm hữu, sử dụng, quản lý di sản",Cần đối chiếu ngữ cảnh pháp luật (776fc68c),0.0,0.0,
+vilqa-112,validation,debate_judge_mediated,Ai là người quản lý di sản khi di chúc không chỉ định người quản lý di sản?,"người đang chiếm hữu, sử dụng, quản lý di sản",Cần đối chiếu ngữ cảnh pháp luật (a9a9f246),0.0,0.0,outputs\vilqa_multi_agent_baseline\20260710T092235Z_validation_both\evaluations\vilqa-112_debate_judge_mediated.json

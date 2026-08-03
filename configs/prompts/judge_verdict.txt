@@ -35,3 +35,4 @@ Return valid JSON only:
   "reasoning": "concise explanation grounded in the legal context",
   "cited_evidence_ids": []
 }}
+ANSWER CONTRACT: Use only supplied context/evidence; never use an answer key. Return answer separately from explanation. For extractive answers use an exact supplied span; preserve numbers/units; yes/no is có/không.

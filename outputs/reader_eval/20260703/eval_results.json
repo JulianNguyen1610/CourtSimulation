@@ -1,0 +1,10 @@
+{
+  "model_path": "checkpoints/legal_qa_reader/best_model",
+  "split": "validation",
+  "num_cases": 130,
+  "exact_match": 0.4846,
+  "f1": 0.7134,
+  "date": "2026-07-03",
+  "base_model": "deepset/xlm-roberta-base-squad2",
+  "note": "Finetuned 261 train / 178 val, 5 epochs. Final train_loss: 1.186."
+}

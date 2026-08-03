@@ -1,0 +1,102 @@
+{
+  "split": "validation",
+  "method": "both",
+  "num_cases": 1,
+  "num_predictions": 2,
+  "models_by_method": {
+    "direct": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "cot": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.1,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "vanilla": {
+      "backend": "mock",
+      "model": "gemini-2.0-flash",
+      "temperature": 0.3,
+      "max_output_tokens": 1024,
+      "top_p": 0.95
+    },
+    "debate": {
+      "proponent": {
+        "backend": "mock",
+        "model": "gemini-2.0-flash",
+        "temperature": 0.4,
+        "max_output_tokens": 1024,
+        "top_p": 0.95
+      },
+      "opponent": {
+        "backend": "mock",
+        "model": "gemini-2.0-flash",
+        "temperature": 0.4,
+        "max_output_tokens": 1024,
+        "top_p": 0.95
+      },
+      "judge": {
+        "backend": "mock",
+        "model": "gemini-2.0-flash",
+        "temperature": 0.1,
+        "max_output_tokens": 1024,
+        "top_p": 0.95
+      }
+    },
+    "extractive_qa": {
+      "model": "deepset/xlm-roberta-base-squad2"
+    },
+    "bm25_reader": {
+      "retriever": "lightweight_bm25",
+      "reader": "deepset/xlm-roberta-base-squad2"
+    },
+    "finetuned_reader": {
+      "model": "checkpoints/legal_qa_reader/best_model"
+    },
+    "tuned_bm25_reader": {
+      "retriever": "lightweight_bm25",
+      "reader": "checkpoints/legal_qa_reader/best_model"
+    }
+  },
+  "ablation_settings": {
+    "retrieval": "bm25_only",
+    "memory": "read_only",
+    "memory_retrieval": "lexical",
+    "rounds": 1,
+    "judge": "on",
+    "orchestrator": "judge_mediated",
+    "roles": "proponent-opponent",
+    "closing_statements": true,
+    "judge_question": false,
+    "early_stop_confidence": null
+  },
+  "fallbacks": {
+    "total_fallbacks": 0,
+    "total_parse_attempts": 2,
+    "fallback_rate": 0.0,
+    "by_method": {
+      "debate_judge_mediated": {
+        "fallbacks": 0,
+        "parse_attempts": 2,
+        "fallback_rate": 0.0
+      }
+    }
+  },
+  "metrics_by_method": {
+    "direct": {
+      "num_predictions": 1,
+      "exact_match": 0.0,
+      "f1": 0.0
+    },
+    "debate_judge_mediated": {
+      "num_predictions": 1,
+      "exact_match": 0.0,
+      "f1": 0.0
+    }
+  }
+}

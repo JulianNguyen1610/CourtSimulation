@@ -99,6 +99,17 @@ class MemoryStore:
         with self.path.open("w", encoding="utf-8") as file:
             json.dump(payload, file, ensure_ascii=False, indent=2)
 
+    def snapshot_hash(self) -> str:
+        """Hash the current inference memory without writing it."""
+        import hashlib
+        payload = json.dumps({"regulations": self.regulations, "experiences": self.experiences, "cases": self.cases}, ensure_ascii=False, sort_keys=True)
+        return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+    def validate_case_isolation(self, forbidden_case_ids: set[str]) -> None:
+        contaminated = sorted({str(entry.get("case_id")) for bucket in (self.regulations, self.experiences, self.cases) for entry in bucket if str(entry.get("case_id")) in forbidden_case_ids})
+        if contaminated:
+            raise ValueError(f"Memory contamination: entries reference validation/test case IDs: {contaminated[:10]}")
+
     def query(self, case: CaseProfile, top_k: int = 5) -> MemoryContext:
         """Retrieve relevant memory entries without returning same-case memories."""
 

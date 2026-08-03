@@ -1,5 +1,8 @@
 # Active Context
 
+## Milestone 0 update (2026-07-10)
+Use `data/splits/alqac_v1.json` for all new runs. Do not treat the observed test-53 results as an untouched holdout. New validation/test runs are memory read-only; reader checkpoints require `checkpoint_manifest.json`.
+
 ## Trạng thái hiện tại (2026-07-01)
 
 Phase 1 **paper-ready v1**: judge_mediated v1 validated trên cả val + test. Error analysis confirm v1 fix OVER_EXTRACTION (−47%).

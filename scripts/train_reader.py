@@ -30,7 +30,10 @@ import argparse
 import json
 import logging
 import sys
+import hashlib
+import importlib.metadata
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 logging.basicConfig(
     level=logging.INFO,
@@ -46,25 +49,15 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--dataset",
         type=Path,
-        default=Path("data/ALQAC.csv"),
+        default=None,
         help="Path to ALQAC CSV file.",
     )
-    parser.add_argument(
-        "--train-count",
-        type=int,
-        default=200,
-        help="Number of cases for training.",
-    )
-    parser.add_argument(
-        "--test-count",
-        type=int,
-        default=200,
-        help="Number of cases for testing.",
-    )
+    parser.add_argument("--config", type=Path, default=Path("configs/default.yaml"))
+    parser.add_argument("--split-manifest", type=Path, default=None)
     parser.add_argument(
         "--seed",
         type=int,
-        default=42,
+        default=None,
         help="Random seed for splitting.",
     )
     parser.add_argument(
@@ -115,7 +108,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 def run_training(args: argparse.Namespace) -> Path:
     """Execute the fine-tuning pipeline."""
-    from src.data_loader import load_vilqa_csv, split_cases
+    from src.config import ExperimentConfig, SplitManifest, sha256_file
+    from src.data_loader import load_vilqa_csv, split_cases_from_manifest
     from src.reader.finetune_reader import (
         ReaderConfig,
         check_reader_training_dependencies,
@@ -130,13 +124,12 @@ def run_training(args: argparse.Namespace) -> Path:
         dep_versions["accelerate"],
     )
 
-    cases = load_vilqa_csv(args.dataset)
-    split = split_cases(
-        cases,
-        train_count=args.train_count,
-        test_count=args.test_count,
-        seed=args.seed,
-    )
+    experiment = ExperimentConfig.from_yaml(args.config)
+    dataset = args.dataset or experiment.dataset.path
+    seed = args.seed if args.seed is not None else experiment.seed
+    manifest = SplitManifest.load(args.split_manifest or experiment.dataset.split_manifest)
+    cases = load_vilqa_csv(dataset)
+    split = split_cases_from_manifest(cases, manifest, dataset)
 
     config = ReaderConfig(
         base_model=args.base_model,
@@ -149,7 +142,7 @@ def run_training(args: argparse.Namespace) -> Path:
         warmup_steps=args.warmup_steps,
         weight_decay=args.weight_decay,
         output_dir=str(args.output_dir),
-        seed=args.seed,
+        seed=seed,
         fp16=args.fp16,
         dataloader_num_workers=args.num_workers,
     )
@@ -168,24 +161,31 @@ def run_training(args: argparse.Namespace) -> Path:
         config=config,
     )
     logger.info("Fine-tuned reader saved to: %s", best_model_dir)
+    checkpoint = Path(best_model_dir)
+    checkpoint_hash = hashlib.sha256("".join(sorted(p.name + str(p.stat().st_size) for p in checkpoint.rglob("*") if p.is_file())).encode()).hexdigest()
+    versions = {name: importlib.metadata.version(name) for name in ("torch", "transformers", "datasets", "accelerate") if importlib.util.find_spec(name)}
+    (checkpoint / "checkpoint_manifest.json").write_text(json.dumps({"base_model": args.base_model, "base_model_revision": None, "tokenizer_revision": None, "dataset_sha256": sha256_file(dataset), "train_validation_manifest_hash": manifest.sha256, "train_case_ids": manifest.train_case_ids, "validation_case_ids": manifest.validation_case_ids, "hyperparameters": config.__dict__, "epochs": args.epochs, "seed": seed, "package_versions": versions, "checkpoint_hash": checkpoint_hash}, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
     return best_model_dir
 
 
 def run_evaluation(args: argparse.Namespace) -> None:
     """Evaluate a fine-tuned reader on validation split."""
-    from src.data_loader import load_vilqa_csv, split_cases
+    from src.config import ExperimentConfig, SplitManifest
+    from src.data_loader import load_vilqa_csv, split_cases_from_manifest
     from src.evaluation.evaluator import ViLQAEvaluator
     from src.reader.finetune_reader import load_finetuned_reader
 
-    cases = load_vilqa_csv(args.dataset)
-    split = split_cases(
-        cases,
-        train_count=args.train_count,
-        test_count=args.test_count,
-        seed=args.seed,
-    )
+    experiment = ExperimentConfig.from_yaml(args.config); dataset = args.dataset or experiment.dataset.path
+    manifest = SplitManifest.load(args.split_manifest or experiment.dataset.split_manifest)
+    split = split_cases_from_manifest(load_vilqa_csv(dataset), manifest, dataset)
 
     model_path = args.model_path or Path("checkpoints/legal_qa_reader/best_model")
+    checkpoint_manifest = model_path / "checkpoint_manifest.json"
+    if not checkpoint_manifest.exists():
+        raise FileNotFoundError(f"Reader reproducibility blocker: missing {checkpoint_manifest}")
+    provenance = json.loads(checkpoint_manifest.read_text(encoding="utf-8"))
+    if set(provenance.get("train_case_ids", [])) & set(manifest.validation_case_ids + manifest.test_case_ids):
+        raise ValueError("Reader checkpoint training split overlaps current validation/test manifest.")
     reader = load_finetuned_reader(model_path)
     evaluator = ViLQAEvaluator()
 
@@ -238,6 +238,7 @@ def main() -> None:
 
     if not args.eval_only:
         from src.reader.finetune_reader import (
+
             READER_TRAINING_INSTALL_HINT,
             check_reader_training_dependencies,
         )

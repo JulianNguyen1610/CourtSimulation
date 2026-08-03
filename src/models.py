@@ -120,6 +120,25 @@ class PredictionRecord(BaseModel):
     exact_match: float
     f1: float
     output_path: str | None = None
+    raw_prediction: str | None = None
+    normalized_prediction: str | None = None
+    llm_calls: int | None = None
+    input_tokens: int | None = None
+    output_tokens: int | None = None
+    latency_ms: float | None = None
+    parse_retries: int | None = None
+    fallback_count: int | None = None
+    visible_context_chars: int | None = None
+
+class AnswerTypeProfile(BaseModel):
+    answer_type: str; expected_granularity: str = "span"; expected_unit: str | None = None; allows_multiple_spans: bool = False; confidence: float = 0.0
+class SpanCandidate(BaseModel):
+    span_id: str; text: str; source_doc_id: str; start_offset: int; end_offset: int; source_sentence: str; answer_type: str; generator: str; scores: dict[str,float] = Field(default_factory=dict); metadata: dict[str, Any] = Field(default_factory=dict)
+class SpanRelation(BaseModel): source_span_id: str; target_span_id: str; relation: str; score: float = 0.0
+class SpanCandidateGraph(BaseModel): candidates: list[SpanCandidate] = Field(default_factory=list); relations: list[SpanRelation] = Field(default_factory=list)
+class SpanVerificationResult(BaseModel): span_id: str; levels: dict[str,str] = Field(default_factory=dict); passed: bool = False; symbolic_status: str = "unknown"
+class SpanJudgeVerdict(BaseModel): selected_span_id: str | None = None; answer: str; source_doc_id: str | None = None; start_offset: int | None = None; end_offset: int | None = None; verification: SpanVerificationResult | None = None; confidence: float = 0.0; reason: str = ""; cited_evidence_ids: list[str] = Field(default_factory=list)
+class SpanErrorAnalysis(BaseModel): extractiveness: bool; char_iou: float | None = None; start_boundary_error: int | None = None; end_boundary_error: int | None = None; failure_type: str | None = None
 
 
 JudgeControlAction = Literal[

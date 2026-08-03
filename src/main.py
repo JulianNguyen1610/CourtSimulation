@@ -15,7 +15,8 @@ from src.agents.judge_agent import JudgeAgent
 from src.agents.prosecutor import ProsecutorAgent
 from src.artifacts import save_courtroom_result, save_debate_result
 from src.courtroom.session import CourtroomSession
-from src.data_loader import load_court_case_json, load_vilqa_csv, split_cases
+from src.config import ExperimentConfig, SplitManifest, sha256_file
+from src.data_loader import load_court_case_json, load_vilqa_csv, split_cases_from_manifest
 from src.evaluation.ljp_evaluator import LJPEvaluator
 from src.experiment_runner import BatchRunConfig, BaselineBatchRunner, select_split
 from src.llm import (
@@ -41,12 +42,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--dataset",
         type=Path,
-        default=Path("data/ALQAC.csv"),
+        default=None,
         help="Path to ViLQA/ALQAC CSV file.",
     )
-    parser.add_argument("--train-count", type=int, default=200)
-    parser.add_argument("--test-count", type=int, default=200)
-    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--split-manifest", type=Path, default=None)
+    parser.add_argument("--train-count", type=int, default=None, help=argparse.SUPPRESS)
+    parser.add_argument("--test-count", type=int, default=None, help=argparse.SUPPRESS)
+    parser.add_argument("--seed", type=int, default=None)
     parser.add_argument(
         "--run-courtroom",
         action="store_true",
@@ -91,13 +93,13 @@ def build_parser() -> argparse.ArgumentParser:
         default=0,
         help="Dataset row index to use for --run-debate.",
     )
-    parser.add_argument("--rounds", type=int, default=3)
-    parser.add_argument("--evidence-top-k", type=int, default=5)
-    parser.add_argument("--memory-top-k", type=int, default=5)
+    parser.add_argument("--rounds", type=int, default=None)
+    parser.add_argument("--evidence-top-k", type=int, default=None)
+    parser.add_argument("--memory-top-k", type=int, default=None)
     parser.add_argument(
         "--memory-path",
         type=Path,
-        default=Path("memory-bank/baseline_memory.json"),
+        default=None,
         help="Path to JSON memory store.",
     )
     parser.add_argument(
@@ -108,7 +110,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("outputs/vilqa_multi_agent_baseline"),
+        default=None,
     )
     parser.add_argument(
         "--update-memory",
@@ -118,7 +120,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--split",
         choices=["train", "validation", "test"],
-        default="validation",
+        default=None,
         help="Dataset split for --run-batch.",
     )
     parser.add_argument(
@@ -127,6 +129,8 @@ def build_parser() -> argparse.ArgumentParser:
             "direct",
             "cot",
             "vanilla",
+            "self_debate_single_call",
+            "unstructured_multi_agent",
             "debate",
             "both",
             "all",
@@ -135,13 +139,13 @@ def build_parser() -> argparse.ArgumentParser:
             "finetuned_reader",
             "tuned_bm25_reader",
         ],
-        default="both",
+        default=None,
         help="Baseline method for --run-batch.",
     )
     parser.add_argument(
         "--limit",
         type=int,
-        default=10,
+        default=None,
         help="Maximum cases for --run-batch; use 0 for the full split.",
     )
     parser.add_argument(
@@ -199,7 +203,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--retrieval-rough-top-n", type=int, default=None)
     parser.add_argument("--retrieval-reranker-model", default=None)
-    parser.add_argument("--include-uts-vlc", action="store_true")
+    parser.add_argument("--include-uts-vlc", action="store_true", default=None)
     parser.add_argument("--uts-vlc-limit", type=int, default=None)
     parser.add_argument(
         "--memory-mode",
@@ -215,10 +219,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--memory-embedding-model", default=None)
     parser.add_argument(
         "--disable-closing-statements",
-        action="store_true",
+        action="store_true", default=None,
         help="Ablation flag to remove closing statements before verdict.",
     )
-    parser.add_argument("--enable-judge-question", action="store_true")
+    parser.add_argument("--enable-judge-question", action="store_true", default=None)
     parser.add_argument("--early-stop-confidence", type=float, default=None)
     parser.add_argument(
         "--orchestrator",
@@ -226,7 +230,7 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Phase 1 debate control (default from config: judge_mediated).",
     )
-    parser.add_argument("--enable-llm-evaluator", action="store_true")
+    parser.add_argument("--enable-llm-evaluator", action="store_true", default=None)
     parser.add_argument(
         "--local-timeout",
         type=float,
@@ -469,6 +473,17 @@ def main() -> None:
         sys.stdout.reconfigure(encoding="utf-8")
 
     args = build_parser().parse_args()
+    experiment_config = ExperimentConfig.from_yaml(args.config)
+    args.dataset = args.dataset or experiment_config.dataset.path
+    args.seed = args.seed if args.seed is not None else experiment_config.seed
+    args.rounds = args.rounds if args.rounds is not None else experiment_config.method.rounds
+    args.evidence_top_k = args.evidence_top_k if args.evidence_top_k is not None else experiment_config.retrieval.legal_evidence_top_k
+    args.memory_top_k = args.memory_top_k if args.memory_top_k is not None else experiment_config.retrieval.past_memory_top_k
+    args.memory_path = args.memory_path or experiment_config.memory.path
+    args.output_dir = args.output_dir or experiment_config.output_dir
+    args.split = args.split or experiment_config.evaluation.default_split
+    args.method = args.method or experiment_config.method.method
+    args.limit = args.limit if args.limit is not None else experiment_config.method.limit
     raw_config = load_yaml_config(args.config)
     role_llm_configs = resolve_role_llm_configs(raw_config, args)
     extractive_qa_model = resolve_extractive_qa_model(raw_config, args)
@@ -478,12 +493,9 @@ def main() -> None:
     evaluation_settings = resolve_evaluation_settings(raw_config, args)
     reader_settings = resolve_reader_settings(raw_config, args)
     cases = load_vilqa_csv(args.dataset)
-    split = split_cases(
-        cases,
-        train_count=args.train_count,
-        test_count=args.test_count,
-        seed=args.seed,
-    )
+    manifest_path = args.split_manifest or experiment_config.dataset.split_manifest
+    manifest = SplitManifest.load(manifest_path)
+    split = split_cases_from_manifest(cases, manifest, args.dataset)
 
     if args.run_courtroom:
         court_case = load_court_case_json(args.courtroom_case)
@@ -563,6 +575,7 @@ def main() -> None:
 
     if args.run_batch:
         memory_store = MemoryStore.load(args.memory_path)
+        memory_store.validate_case_isolation(set(manifest.validation_case_ids + manifest.test_case_ids))
         selected_split = select_split(
             args.split,
             train=split.train,
@@ -600,6 +613,11 @@ def main() -> None:
                 **debate_settings,
                 **evaluation_settings,
                 **reader_settings,
+                resolved_config=experiment_config.model_dump(mode="json"),
+                dataset_sha256=sha256_file(args.dataset),
+                split_manifest_hash=manifest.sha256,
+                memory_snapshot_hash=memory_store.snapshot_hash(),
+                evaluation_case_ids=[case.case_id for case in selected_split],
             ),
         )
         print("\nBatch baseline completed.")

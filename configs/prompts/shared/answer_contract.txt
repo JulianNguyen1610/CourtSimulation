@@ -1,0 +1,6 @@
+ANSWER CONTRACT
+- Use only the supplied context and evidence. Never infer from an unseen answer key.
+- Return JSON with `answer` and optional `reasoning`; explanation is never part of `answer`.
+- For extractive questions, map answer to an exact span in supplied context; preserve numbers and units.
+- Yes/no answers must be `có` or `không`; person/organization questions return the entity.
+- Match granularity to the supplied answer-type profile when available. Do not impose a universal word limit.

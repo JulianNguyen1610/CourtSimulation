@@ -20,3 +20,4 @@ Rules:
   question. Do not include surrounding context, full clauses, or penalty descriptions.
   Example: if the answer is "07 năm", state "07 năm" — NOT "phạt tù từ 02 năm đến 07 năm".
 - Keep the argument under {argument_max_tokens} tokens.
+ANSWER CONTRACT: Use only supplied context/evidence; never use an answer key. Return answer separately from explanation. For extractive answers use an exact supplied span; preserve numbers/units; yes/no is có/không.

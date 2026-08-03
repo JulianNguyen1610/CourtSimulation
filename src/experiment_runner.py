@@ -38,6 +38,7 @@ from src.retrieval.legal_retriever import (
 )
 from src.retrieval.reranker import SemanticReranker, SemanticRerankerConfig
 from src.utils.answer_postprocess import shorten_legal_answer
+from src.methods import ContextBundle, run_llm_method
 
 
 SplitName = Literal["train", "validation", "test"]
@@ -52,6 +53,7 @@ MethodName = Literal[
     "bm25_reader",
     "finetuned_reader",
     "tuned_bm25_reader",
+    "self_debate_single_call", "unstructured_multi_agent",
 ]
 
 
@@ -104,6 +106,12 @@ class BatchRunConfig:
     reader_doc_stride: int = 128
     reader_max_answer_length: int = 50
     orchestrator: OrchestratorMode = "judge_mediated"
+    resolved_config: dict[str, object] | None = None
+    dataset_sha256: str | None = None
+    split_manifest_hash: str | None = None
+    memory_snapshot_hash: str | None = None
+    contaminated: bool = False
+    evaluation_case_ids: list[str] | None = None
 
 
 def select_split(
@@ -154,31 +162,33 @@ class BaselineBatchRunner:
         self._role_clients = self._make_role_clients(config)
         self.retriever = self._build_retriever(config)
         self._configure_memory_store(config)
+        if config.split_name in {"validation", "test"} and config.update_memory and not config.contaminated:
+            raise ValueError("Memory updates are forbidden on validation/test; explicitly mark a research run contaminated.")
         self._fallback_counts = {}
         self._parse_attempt_counts = {}
 
         methods = self._expand_methods(config.method)
         for case in selected_cases:
-            if "direct" in methods:
-                records.append(self._run_direct(case, config))
-            if "cot" in methods:
-                records.append(self._run_cot(case, config))
-            if "vanilla" in methods:
-                records.append(self._run_vanilla(case, config))
+            bundle = ContextBundle.from_case(case)
+            for method in ("direct", "cot", "self_debate_single_call", "unstructured_multi_agent"):
+                if method in methods:
+                    role = "vanilla" if method == "self_debate_single_call" else ("judge" if method == "unstructured_multi_agent" else method)
+                    records.append(self._run_comparable_llm(method, case, bundle, config, self._client_for(role)))
             if "debate" in methods:
                 records.append(self._run_debate(case, config, run_dir))
-            if "extractive_qa" in methods:
+            if "extractive_qa" in methods and config.llm_backend != "mock":
                 records.append(self._run_extractive_qa(case, config))
-            if "bm25_reader" in methods:
+            if "bm25_reader" in methods and config.llm_backend != "mock":
                 records.append(self._run_bm25_reader(case, config))
-            if "finetuned_reader" in methods:
+            if "finetuned_reader" in methods and config.llm_backend != "mock":
                 records.append(self._run_finetuned_reader(case, config))
-            if "tuned_bm25_reader" in methods:
+            if "tuned_bm25_reader" in methods and config.llm_backend != "mock":
                 records.append(self._run_tuned_bm25_reader(case, config))
 
         self._save_predictions(records, run_dir / "predictions.csv")
         self._save_metrics(records, run_dir / "metrics.json", config)
         self._save_config(config, run_dir / "config.json", len(selected_cases))
+        (run_dir / "run_manifest.json").write_text(json.dumps({"dataset_sha256": config.dataset_sha256, "split_manifest_hash": config.split_manifest_hash, "memory_snapshot_hash": config.memory_snapshot_hash or self.memory_store.snapshot_hash(), "contaminated": config.contaminated, "resolved_config": config.resolved_config or {}}, ensure_ascii=False, indent=2), encoding="utf-8")
         if config.update_memory:
             self.memory_store.save()
         return run_dir
@@ -204,6 +214,12 @@ class BaselineBatchRunner:
             exact_match=evaluation.exact_match or 0.0,
             f1=evaluation.f1 or 0.0,
         )
+
+    def _run_comparable_llm(self, method: str, case: CaseProfile, bundle: ContextBundle, config: BatchRunConfig, client: LLMClient) -> PredictionRecord:
+        prediction = run_llm_method(method, case, bundle, client, config.rounds)
+        raw_eval = self.evaluator.evaluate_answer(case, prediction.raw_answer)
+        normalized_eval = self.evaluator.evaluate_answer(case, prediction.normalized_answer)
+        return PredictionRecord(case_id=case.case_id, split=config.split_name, method=method, question=case.question, gold_answer=case.answer or "", predicted_answer=prediction.normalized_answer, exact_match=normalized_eval.exact_match or 0.0, f1=normalized_eval.f1 or 0.0, raw_prediction=prediction.raw_answer, normalized_prediction=prediction.normalized_answer, llm_calls=prediction.llm_calls, input_tokens=prediction.input_tokens, output_tokens=prediction.output_tokens, latency_ms=prediction.latency_ms, parse_retries=prediction.parse_retries, fallback_count=prediction.fallback_count, visible_context_chars=bundle.visible_context_chars, output_path=json.dumps({"raw_exact_match": raw_eval.exact_match, "raw_f1": raw_eval.f1, "metadata": prediction.metadata}, ensure_ascii=False))
 
     def _run_cot(self, case: CaseProfile, config: BatchRunConfig) -> PredictionRecord:
         predicted_answer = shorten_legal_answer(
@@ -324,6 +340,12 @@ class BaselineBatchRunner:
             exact_match=evaluation.exact_match or 0.0,
             f1=evaluation.f1 or 0.0,
             output_path=str(output_path or evaluation_path),
+            raw_prediction=raw_answer,
+            normalized_prediction=predicted_answer,
+            llm_calls=len(result.transcript) + len(result.belief_history) + 1,
+            parse_retries=max(0, judge.parse_attempt_count - 1),
+            fallback_count=judge.fallback_count,
+            visible_context_chars=len(case.context),
         )
 
     def _run_extractive_qa(
@@ -378,6 +400,7 @@ class BaselineBatchRunner:
         case: CaseProfile,
         config: BatchRunConfig,
     ) -> PredictionRecord:
+        self._validate_reader_checkpoint(config)
         predicted_answer = finetuned_reader_prediction(
             case,
             model_path=config.finetuned_reader_path,
@@ -402,6 +425,7 @@ class BaselineBatchRunner:
         case: CaseProfile,
         config: BatchRunConfig,
     ) -> PredictionRecord:
+        self._validate_reader_checkpoint(config)
         retrieved = self.retriever.retrieve(
             case.retrieval_query,
             top_k=config.evidence_top_k,
@@ -427,6 +451,21 @@ class BaselineBatchRunner:
         )
 
     @staticmethod
+    def _validate_reader_checkpoint(config: BatchRunConfig) -> None:
+        manifest_path = Path(config.finetuned_reader_path) / "checkpoint_manifest.json"
+        if not manifest_path.exists():
+            raise FileNotFoundError(f"Reader reproducibility blocker: missing {manifest_path}")
+        provenance = json.loads(manifest_path.read_text(encoding="utf-8"))
+        train_ids = set(provenance.get("train_case_ids", []))
+        # The run manifest only carries the immutable split hash; training IDs may
+        # not overlap an evaluation split supplied by callers that opt in here.
+        if not train_ids:
+            raise ValueError("Reader checkpoint manifest has no train_case_ids")
+        overlap = train_ids.intersection(config.evaluation_case_ids or [])
+        if overlap:
+            raise ValueError(f"Reader checkpoint training split overlaps evaluation cases: {sorted(overlap)[:10]}")
+
+    @staticmethod
     def _expand_methods(method: MethodName) -> list[str]:
         if method == "both":
             return ["direct", "debate"]
@@ -434,13 +473,18 @@ class BaselineBatchRunner:
             return [
                 "direct",
                 "cot",
-                "vanilla",
+                "self_debate_single_call",
+                "unstructured_multi_agent",
                 "debate",
                 "extractive_qa",
                 "bm25_reader",
                 "finetuned_reader",
                 "tuned_bm25_reader",
             ]
+        if method == "vanilla":
+            import warnings
+            warnings.warn("vanilla is deprecated; use self_debate_single_call", DeprecationWarning, stacklevel=2)
+            return ["self_debate_single_call"]
         return [method]
 
     def _make_role_clients(self, config: BatchRunConfig) -> dict[str, LLMClient]:
@@ -651,6 +695,12 @@ class BaselineBatchRunner:
                 }
                 for method, method_records in grouped.items()
             },
+            "raw_metrics": {
+                method: {"exact_match": mean(json.loads(record.output_path).get("raw_exact_match") or 0.0 for record in method_records if record.output_path and record.output_path.startswith("{")), "f1": mean(json.loads(record.output_path).get("raw_f1") or 0.0 for record in method_records if record.output_path and record.output_path.startswith("{"))}
+                for method, method_records in grouped.items() if any(record.output_path and record.output_path.startswith("{") for record in method_records)
+            },
+            "normalized_metrics": {method: {"exact_match": mean(record.exact_match for record in method_records), "f1": mean(record.f1 for record in method_records), "postprocess_changed_rate": mean(float((record.raw_prediction or record.predicted_answer) != record.predicted_answer) for record in method_records if record.raw_prediction is not None)} for method, method_records in grouped.items() if any(record.raw_prediction is not None for record in method_records)},
+            "reliability_by_method": {method: {"llm_calls": sum(record.llm_calls or 0 for record in method_records), "parse_retries": sum(record.parse_retries or 0 for record in method_records), "fallback_count": sum(record.fallback_count or 0 for record in method_records), "latency_ms": sum(record.latency_ms or 0 for record in method_records), "input_tokens": sum(record.input_tokens or 0 for record in method_records), "output_tokens": sum(record.output_tokens or 0 for record in method_records)} for method, method_records in grouped.items() if any(record.llm_calls is not None for record in method_records)},
         }
         path.write_text(json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -787,5 +837,10 @@ class BaselineBatchRunner:
             "reader_doc_stride": config.reader_doc_stride,
             "reader_max_answer_length": config.reader_max_answer_length,
             "orchestrator": config.orchestrator,
+            "dataset_sha256": config.dataset_sha256,
+            "split_manifest_hash": config.split_manifest_hash,
+            "memory_snapshot_hash": config.memory_snapshot_hash,
+            "contaminated": config.contaminated,
+            "resolved_config": config.resolved_config or {},
         }
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

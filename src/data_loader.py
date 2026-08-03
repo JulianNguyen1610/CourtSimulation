@@ -16,6 +16,7 @@ from src.models import (
     JudgmentGroundTruth,
     Testimony,
 )
+from src.config import SplitManifest, sha256_file
 
 
 REQUIRED_VILQA_COLUMNS = {"context", "question", "answer"}
@@ -104,6 +105,25 @@ def split_cases(
         train=shuffled[:train_end],
         validation=shuffled[train_end:validation_end],
         test=shuffled[validation_end:],
+    )
+
+
+def split_cases_from_manifest(
+    cases: list[CaseProfile], manifest: SplitManifest, dataset_path: str | Path
+) -> DatasetSplit:
+    """Resolve an immutable manifest and reject stale datasets or unknown IDs."""
+    actual_hash = sha256_file(dataset_path)
+    if actual_hash != manifest.dataset_sha256:
+        raise ValueError("Dataset SHA256 does not match split manifest; create/review a new manifest.")
+    by_id = {case.case_id: case for case in cases}
+    required = set(manifest.train_case_ids + manifest.validation_case_ids + manifest.test_case_ids)
+    missing = required.difference(by_id)
+    if missing:
+        raise ValueError(f"Split manifest references IDs absent from dataset: {sorted(missing)[:5]}")
+    return DatasetSplit(
+        train=[by_id[item] for item in manifest.train_case_ids],
+        validation=[by_id[item] for item in manifest.validation_case_ids],
+        test=[by_id[item] for item in manifest.test_case_ids],
     )
 def load_court_case_json(path: str | Path) -> CourtCase:
     """Load one structured courtroom LJP case from JSON."""
